@@ -2,11 +2,9 @@
  * Store GAME Crawler — Single AI Call (timeout-safe)
  * GET /api/crawl?country=KR
  *
- * Netlify free: 10s timeout (upgrade for 26s)
- * → 1 AI call only, prompt optimized for accuracy
+ * File: netlify/functions/crawl.mjs
+ * Route: netlify.toml redirects /api/crawl → /.netlify/functions/crawl
  */
-
-export const config = { path: "/api/crawl" };
 
 const CFG = {
   KR:{cc:'kr',hl:'ko',gl:'KR',name:'South Korea',get:'보기'},
@@ -193,3 +191,6 @@ Include 10-20 games per store. Every field is required.`}],
     return Response.json({error:e.message},{status:500,headers:{'Access-Control-Allow-Origin':'*'}});
   }
 }
+
+// Netlify Functions v2 config (optional, routing handled by netlify.toml)
+export const config = { path: "/api/crawl" };

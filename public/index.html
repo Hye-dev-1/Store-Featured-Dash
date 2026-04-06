@@ -117,8 +117,16 @@ function td(){return new Date().toISOString().slice(0,10);}
 async function loadC(cc){
   var ck='day:'+td()+':'+cc,c=sto.get(ck);
   if(c){try{var d=JSON.parse(c);if((d.google&&d.google.length)||(d.apple&&d.apple.length)){D[cc]=d;return'cache';}}catch(e){}}
-  try{var r=await fetch('/api/crawl?country='+cc);
-    console.log('[API] '+cc+' status:',r.status);
+  try{
+    // Try direct function path first (bypass redirect issues)
+    var apiUrl='/.netlify/functions/crawl?country='+cc;
+    var r=await fetch(apiUrl);
+    // If direct path fails, try /api/crawl redirect path
+    if(!r.ok&&r.status===404){
+      apiUrl='/api/crawl?country='+cc;
+      r=await fetch(apiUrl);
+    }
+    console.log('[API] '+cc+' url:',apiUrl,'status:',r.status);
     if(r.ok){
       var d=await r.json();
       console.log('[API] '+cc+' AS:',d.apple?.length,'GP:',d.google?.length);

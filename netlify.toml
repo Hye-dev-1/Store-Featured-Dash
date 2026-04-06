@@ -3,8 +3,15 @@
 
 [functions]
   directory = "netlify/functions"
+  # Node 20 for better fetch support
+  node_bundler = "esbuild"
 
-# 크롤링 API
+# Extend function timeout (free=10s, Pro=26s)
+# If on free plan and timing out, consider upgrading
+[functions."crawl"]
+  external_node_modules = []
+
+# Route /api/crawl → serverless function
 [[redirects]]
   from = "/api/crawl"
   to = "/.netlify/functions/crawl"

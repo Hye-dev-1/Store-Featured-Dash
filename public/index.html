@@ -117,7 +117,19 @@ function td(){return new Date().toISOString().slice(0,10);}
 async function loadC(cc){
   var ck='day:'+td()+':'+cc,c=sto.get(ck);
   if(c){try{var d=JSON.parse(c);if((d.google&&d.google.length)||(d.apple&&d.apple.length)){D[cc]=d;return'cache';}}catch(e){}}
-  try{var r=await fetch('/api/crawl?country='+cc);if(r.ok){var d=await r.json();if(d.google||d.apple){D[cc]={google:cleanList(d.google||[]),apple:cleanList(d.apple||[])};sto.set(ck,JSON.stringify(D[cc]));autoSnap();return'live';}}}catch(e){console.warn(cc,e);}
+  try{var r=await fetch('/api/crawl?country='+cc);
+    console.log('[API] '+cc+' status:',r.status);
+    if(r.ok){
+      var d=await r.json();
+      console.log('[API] '+cc+' AS:',d.apple?.length,'GP:',d.google?.length);
+      if(d.error){console.error('[API Error]',d.error,d.hint||'');return'error: '+d.error;}
+      if(d.google||d.apple){D[cc]={google:cleanList(d.google||[]),apple:cleanList(d.apple||[])};sto.set(ck,JSON.stringify(D[cc]));autoSnap();return'live';}
+    }else{
+      var errText=await r.text();
+      console.error('[API] '+cc+' HTTP '+r.status+':',errText.substring(0,200));
+      return'error: HTTP '+r.status;
+    }
+  }catch(e){console.warn('[API] '+cc+' fetch failed:',e.message);return'error: '+e.message;}
   var sn=sto.keys('snap:').sort().reverse();
   for(var i=0;i<sn.length;i++){try{var s=JSON.parse(sto.get(sn[i]));if(s[cc]&&(s[cc].google.length||s[cc].apple.length)){D[cc]=s[cc];return'snap';}}catch(e){}}
   return'empty';
@@ -148,7 +160,11 @@ function saveSnap(){autoSnap();alert('✅ '+td()+' 스냅샷 저장');}
 async function boot(){
   ss('#FFB800','로딩...');rCB();skel();
   var src=await loadC(curC);render();
-  ss(src==='empty'?'#EF5B5B':'#5BEF8D',CC[curC]+' '+(src==='live'?'✅ 실시간 수집':src==='cache'?'✅ 캐시':'📦 '+src));
+  if(src.startsWith('error')){
+    ss('#EF5B5B',CC[curC]+' ❌ '+src);
+  }else{
+    ss(src==='empty'?'#EF5B5B':'#5BEF8D',CC[curC]+' '+(src==='live'?'✅ 실시간 수집 완료':src==='cache'?'✅ 캐시에서 로드':'📦 '+src));
+  }
   for(var i=0;i<CS.length;i++){if(CS[i]!==curC)await loadC(CS[i]);}
 }
 function skel(){var s='';for(var i=0;i<5;i++)s+='<div class="skel"></div>';document.getElementById('gpL').innerHTML=s;document.getElementById('apL').innerHTML=s;}
@@ -247,7 +263,10 @@ function rNX(){
 }
 
 /* Nav */
-async function pickC(c){curC=c;rCB();skel();var src=await loadC(c);render();ss(src==='empty'?'#EF5B5B':'#5BEF8D',CC[c]+' '+(src==='live'?'✅ 실시간':src==='cache'?'✅ 캐시':'📦 '+src));if(curTab==='trend')rTrend();}
+async function pickC(c){curC=c;rCB();skel();var src=await loadC(c);render();
+  if(src.startsWith('error')){ss('#EF5B5B',CC[c]+' ❌ '+src);}
+  else{ss(src==='empty'?'#EF5B5B':'#5BEF8D',CC[c]+' '+(src==='live'?'✅ 실시간':src==='cache'?'✅ 캐시':'📦 '+src));}
+  if(curTab==='trend')rTrend();}
 function setStore(s,b){curS=s;document.querySelectorAll('#storeTabs .stab').forEach(function(x){x.classList.remove('active');});b.classList.add('active');render();}
 function setMainTab(t,b){curTab=t;document.querySelectorAll('#mainTabs .stab').forEach(function(x){x.classList.remove('active');});b.classList.add('active');
   document.getElementById('dashWrap').style.display=t==='dash'?'':'none';

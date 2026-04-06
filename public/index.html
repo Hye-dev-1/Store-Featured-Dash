@@ -60,11 +60,11 @@
 <div class="nexon-sec" id="nexonSec"></div>
 <div class="slim-banner" id="bannerWrap"><div class="slim-track" id="bSlider"></div><button class="slim-nav prev" onclick="moveBn(-1)">‹</button><button class="slim-nav next" onclick="moveBn(1)">›</button><div class="slim-dots" id="bDots"></div></div>
 <div class="summary" id="summary"></div>
+<div class="common-sec" id="cmSec"><div class="common-title">★ 양쪽 스토어 동시 피쳐드 앱</div><div class="cgrid" id="cmG"></div></div>
 <div class="grid two" id="mainGrid">
 <div class="panel" id="gpP"><div class="ph"><div class="picon" style="background:#34A85322;color:#34A853">G</div><div><div class="ptitle">Google Play</div><div class="psub" id="gpS"></div></div></div><div id="gpL"></div><div class="ctitle">장르 분포</div><div id="gpCh"></div></div>
 <div class="panel" id="apP"><div class="ph"><div class="picon" style="background:#5B8DEF22;color:#5B8DEF"></div><div><div class="ptitle">App Store</div><div class="psub" id="apS"></div></div></div><div id="apL"></div><div class="ctitle">장르 분포</div><div id="apCh"></div></div>
 </div>
-<div class="common-sec" id="cmSec"><div class="common-title">★ 양쪽 스토어 동시 피쳐드 앱</div><div class="cgrid" id="cmG"></div></div>
 </div>
 
 <div id="trendWrap" style="display:none">
@@ -164,6 +164,14 @@ function render(){
   var d=D[curC],dt=new Date().toLocaleDateString('ko-KR',{year:'numeric',month:'long',day:'numeric'});
   document.getElementById('dateLbl').textContent='기준일: '+dt+' · '+CC[curC];
   document.getElementById('footer').textContent='데이터 출처: Google Play · App Store ('+dt+') · '+CC[curC];
+
+  // 아이콘 크로스 공유: AS에 아이콘 있으면 GP 동일앱에도 적용 (vice versa)
+  var iconMap={};
+  d.apple.forEach(function(a){if(a.icon&&a.name)iconMap[nm(a.name)]=a.icon;});
+  d.google.forEach(function(a){if(a.icon&&a.name)iconMap[nm(a.name)]=a.icon;});
+  d.apple.forEach(function(a){if(!a.icon){var ic=iconMap[nm(a.name)];if(ic)a.icon=ic;}});
+  d.google.forEach(function(a){if(!a.icon){var ic=iconMap[nm(a.name)];if(ic)a.icon=ic;}});
+
   var cm=d.google.filter(function(x){return isCm(x.name,d.google,d.apple);});
   var all=d.google.concat(d.apple),rated=all.filter(function(a){return a.rating>0;});
   var avg=rated.length?(rated.reduce(function(s,a){return s+a.rating;},0)/rated.length).toFixed(1):'—';
@@ -175,7 +183,7 @@ function render(){
   document.getElementById('cmG').innerHTML=cm.length?cm.map(function(a){var nx=isNX(a);return '<div class="ccard" style="'+(nx?'border-color:#B4E114':'')+'">'+(a.icon?'<img class="ci" src="'+a.icon+'" loading="lazy" onerror="this.style.display=\'none\'">':'')+'<div><div class="cn" style="'+(nx?'color:#B4E114':'')+'">'+a.name+'</div><div style="display:flex;gap:4px">'+bg(a.genre)+sr(a.rating)+'</div></div></div>';}).join(''):'<div style="color:#555;font-size:12px">없음</div>';
   document.getElementById('gpP').style.display=(curS==='both'||curS==='google')?'':'none';
   document.getElementById('apP').style.display=(curS==='both'||curS==='apple')?'':'none';
-  document.getElementById('cmSec').style.display=curS==='both'?'':'none';
+  document.getElementById('cmSec').style.display=(curS==='both'&&cm.length>0)?'':'none';
   document.getElementById('mainGrid').className='grid '+(curS==='both'?'two':'one');
   rBn();rNX();
 }

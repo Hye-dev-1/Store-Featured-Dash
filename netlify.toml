@@ -1,23 +1,15 @@
 [build]
   publish = "public"
+  functions = "netlify/functions"
 
-[functions]
-  directory = "netlify/functions"
-  # Node 20 for better fetch support
-  node_bundler = "esbuild"
-
-# Extend function timeout (free=10s, Pro=26s)
-# If on free plan and timing out, consider upgrading
-[functions."crawl"]
-  external_node_modules = []
-
-# Route /api/crawl → serverless function
+# /api/crawl → function
 [[redirects]]
   from = "/api/crawl"
   to = "/.netlify/functions/crawl"
   status = 200
+  force = true
 
-# SPA fallback
+# SPA fallback (must be last)
 [[redirects]]
   from = "/*"
   to = "/index.html"

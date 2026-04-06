@@ -1,11 +1,9 @@
 /**
- * Store GAME Crawler — Netlify Function
+ * Store GAME Crawler — 2-Phase AI Architecture
  * GET /api/crawl?country=KR
  *
- * Architecture:
- * - App Store: AI-only (HTML is JS-rendered, no useful data in static HTML)
- * - Google Play: HTML parse + AI enrich
- * - All: category-based game filter, editorial text filter
+ * Phase 1: Collect game TITLES + URLs (simple, accurate)
+ * Phase 2: Visit each game's detail page for icon/genre/rating/dev
  */
 
 const CFG = {
@@ -22,7 +20,6 @@ function mkUrl(c){const g=CFG[c];return{
   gpGames:`https://play.google.com/store/games?device=phone&hl=${g.hl}&gl=${g.gl}`,
 };}
 
-/* ── Genre mapping ── */
 const GM={
   'action':'액션','role playing':'RPG','role-playing':'RPG','rpg':'RPG','strategy':'전략',
   'puzzle':'퍼즐','casual':'캐주얼','simulation':'시뮬레이션','adventure':'어드벤처',
@@ -30,7 +27,7 @@ const GM={
   'trivia':'퍼즐','word':'퍼즐','family':'캐주얼','indie':'어드벤처',
   '액션':'액션','롤플레잉':'RPG','전략':'전략','퍼즐':'퍼즐','캐주얼':'캐주얼',
   '시뮬레이션':'시뮬레이션','어드벤처':'어드벤처','스포츠':'스포츠','카드':'카드','보드':'카드',
-  '음악':'리듬','레이싱':'액션','아케이드':'액션','단어':'퍼즐','가족':'캐주얼',
+  '음악':'리듬','레이싱':'액션','아케이드':'액션',
   'アクション':'액션','ロールプレイング':'RPG','ストラテジー':'전략','パズル':'퍼즐',
   'カジュアル':'캐주얼','シミュレーション':'시뮬레이션','アドベンチャー':'어드벤처',
   'スポーツ':'스포츠','カード':'카드','ミュージック':'리듬',
@@ -44,37 +41,136 @@ const GM={
 };
 function toG(r){if(!r)return '';const l=r.toLowerCase().trim();return GM[l]||GM[l.split(/[\/,&·\-]/)[0].trim()]||r;}
 
-/* ── Game category check ── */
-const GAME_WORDS='games,game,게임,ゲーム,遊戲,เกม,action,rpg,role playing,strategy,puzzle,casual,simulation,adventure,sports,card,board,music,racing,arcade,trivia,word,family,indie,액션,롤플레잉,전략,퍼즐,캐주얼,시뮬레이션,어드벤처,스포츠,카드,음악,레이싱,아케이드'.split(',');
-function isGameCat(entry){
-  if(!entry||!entry.name)return false;
-  if(entry.category){
-    const c=entry.category.toLowerCase();
-    if(GAME_WORDS.some(w=>c.includes(w)))return true;
-    return false;
-  }
-  if(entry.genre){const g=toG(entry.genre);if(['액션','RPG','전략','퍼즐','캐주얼','시뮬레이션','어드벤처','스포츠','카드','리듬'].includes(g))return true;}
+function isEditorial(s){
+  if(!s||s.length>40||s.length<2)return true;
+  if(/만나보세요|즐겨보세요|확인하세요|떠나보세요|시작하세요|도전하세요|경험하세요|대비하세요|챙기세요|함께하세요|플레이하세요/.test(s))return true;
+  if(/에서 만나|지금 경험|놓쳐서는|더욱 뜨거|쟁탈전|페스티벌|컴백을|빅이어|사랑받는|써봐야|모두에게|심장아|소문이 돌/.test(s))return true;
+  if(/[을를이가에서도의은는으로하고].*[요세다네죠습까어]$/.test(s))return true;
+  if(/しよう|ましょう|ください|楽しもう/.test(s))return true;
+  if(/^(Get |Don't miss|Check out|Discover|Experience|Join |Play |Meet |Celebrate|Prepare)/i.test(s))return true;
+  if(/[!！]$/.test(s)&&s.length>12)return true;
+  return false;
+}
+
+const GAME_CATS='games,game,게임,ゲーム,遊戲,เกม,action,rpg,role playing,strategy,puzzle,casual,simulation,adventure,sports,card,board,music,racing,arcade,trivia,word,family,indie'.split(',');
+function isGameCat(e){
+  if(!e)return false;
+  if(e.category){const c=e.category.toLowerCase();if(GAME_CATS.some(w=>c.includes(w)))return true;return false;}
+  if(e.genre){const g=toG(e.genre);if(['액션','RPG','전략','퍼즐','캐주얼','시뮬레이션','어드벤처','스포츠','카드','리듬'].includes(g))return true;}
   return false;
 }
 function isAppsOk(n){return n&&(n.toLowerCase().includes('maplestory worlds')||n.includes('메이플스토리 월드'));}
 
-/* ── Editorial text filter ── */
-function isEditorial(s){
-  if(!s)return true;
-  if(s.length>40||s.length<2)return true;
-  if(/만나보세요|즐겨보세요|확인하세요|떠나보세요|시작하세요|도전하세요|경험하세요|대비하세요|챙기세요|함께하세요|플레이하세요/.test(s))return true;
-  if(/에서 만나|지금 경험|놓쳐서는|더욱 뜨거|쟁탈전|페스티벌|컴백을|빅이어|사랑받는|써봐야|모두에게|심장아/.test(s))return true;
-  if(/[을를이가에서도의은는으로하고].*[요세다네죠습까어]$/.test(s))return true;
-  if(/しよう|ましょう|ください|楽しもう|チェック/.test(s))return true;
-  if(/^(Get |Don't miss|Check out|Discover|Experience|Join |Play |Meet |Celebrate|Prepare)/i.test(s))return true;
-  if(/[!！]$/.test(s)&&s.length>12)return true;
-  if(/^(보기|받기|열기|Get|Open|View|入手|取得|รับ|더 알아보기|もっと見る|See All)$/i.test(s))return true;
-  return false;
+/* ── API helper ── */
+async function callAI(prompt){
+  const key=process.env.ANTHROPIC_API_KEY;
+  if(!key)return null;
+  try{
+    const r=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','x-api-key':key,'anthropic-version':'2023-06-01'},
+      body:JSON.stringify({
+        model:'claude-sonnet-4-20250514',
+        max_tokens:4096,
+        tools:[{type:'web_search_20250305',name:'web_search'}],
+        messages:[{role:'user',content:prompt}],
+      }),
+    });
+    const d=await r.json();
+    const txt=(d.content||[]).filter(x=>x.type==='text').map(x=>x.text).join('\n');
+    const j=txt.match(/\{[\s\S]*\}/);
+    return j?JSON.parse(j[0]):null;
+  }catch(e){console.error('AI error:',e.message);return null;}
 }
 
-/* ── Google Play HTML parser (works well) ── */
+/* ══════════════════════════════════════
+   PHASE 1: Collect titles + URLs
+   Simple task → high accuracy
+   ══════════════════════════════════════ */
+async function phase1(country){
+  const c=CFG[country],u=mkUrl(country);
+  return callAI(`Visit these 3 pages for ${c.name} and list every GAME title you find.
+
+PAGE 1: ${u.asToday} (App Store Today tab)
+- Each card has a big editorial headline AND a small app lockup with the real app name
+- The REAL GAME NAME is the small text next to "${c.get}" button, NOT the big headline
+- Example: headline "봄이 왔다는 소문이 돌아요" → real name "가십하버: 합성 & 스토리 게임"  
+- Example: headline "애쉬베일 등장!" → real name "붕괴: 스타레일"
+- SKIP cards about non-game apps (AI tools, productivity apps, etc.)
+- SKIP editorial headlines, subtitles, marketing copy
+- Tab = "Today"
+
+PAGE 2: ${u.asGames} (App Store Games tab)  
+- ONLY the 1-3 large hero banner cards at the very top
+- NOT the scrolling lists below
+- Tab = "Games"
+
+PAGE 3: ${u.gpGames} (Google Play)
+- Hero carousel + editorial sections
+- Tab = "Featured"
+
+Return ONLY JSON. For each game, provide:
+- name: the EXACT official app title (not headline, not subtitle)
+- url: full store URL (apps.apple.com/... or play.google.com/...)  
+- tab: "Today", "Games", or "Featured"
+- label: the editorial section name (e.g. "한정 기간 이벤트")
+- priority: order on page (1 = first)
+
+{"as":[{"name":"가십하버: 합성 & 스토리 게임","url":"https://apps.apple.com/${c.cc}/app/gossip-harbor/id1623318294","tab":"Today","label":"한정 기간 이벤트","priority":1}],"gp":[{"name":"Whiteout Survival","url":"https://play.google.com/store/apps/details?id=com.gof.global","tab":"Featured","label":"특별 이벤트","priority":1}]}
+
+List ALL games, 10-25 per store.`);
+}
+
+/* ══════════════════════════════════════
+   PHASE 2: Get details for each game
+   Visit detail pages → icon, genre, rating, dev
+   ══════════════════════════════════════ */
+async function phase2(games, store){
+  if(!games||!games.length)return games;
+  
+  // 최대 20개 게임의 상세 정보 요청
+  const urls=games.slice(0,20).map((g,i)=>`${i+1}. "${g.name}" → ${g.url}`).join('\n');
+  
+  const result=await callAI(`Visit each game's store detail page and get its metadata.
+
+${urls}
+
+For each game, visit the URL and extract:
+- name: exact app title on the detail page
+- dev: developer name (shown on the page)
+- genre: the PRIMARY game category/tag shown on the detail page
+  - For App Store: the genre listed under the app info (e.g. "Action", "Role Playing", "Strategy", "Puzzle", "Sports", "Simulation", "Adventure", "Card", "Board", "Music", "Racing", "Arcade")
+  - For Google Play: the first genre tag shown (e.g. "RPG", "Strategy", "Action", "Casual")
+  - Convert to Korean: 액션, RPG, 전략, 퍼즐, 캐주얼, 시뮬레이션, 어드벤처, 스포츠, 카드, 리듬
+  - Be SPECIFIC. Do not default to 캐주얼. Check the actual page.
+- rating: the average user rating number (e.g. 4.5, 4.7)
+- icon: the app icon image URL
+  - App Store: starts with https://is1-ssl.mzstatic.com/image/thumb/
+  - Google Play: starts with https://play-lh.googleusercontent.com/
+- category: "Games" if it's a game, "Apps" if not
+
+Return ONLY JSON:
+{"games":[{"name":"가십하버: 합성 & 스토리 게임","dev":"Mighty Bear Games","genre":"퍼즐","rating":4.3,"icon":"https://is1-ssl.mzstatic.com/...","category":"Games"}]}`);
+  
+  if(!result||!result.games)return games;
+  
+  // 상세 정보 병합
+  for(const detail of result.games){
+    const g=games.find(x=>x.name.toLowerCase().replace(/\s/g,'')===detail.name.toLowerCase().replace(/\s/g,''));
+    if(g){
+      if(detail.dev)g.dev=detail.dev;
+      if(detail.genre)g.genre=toG(detail.genre);
+      if(detail.rating)g.rating=detail.rating;
+      if(detail.icon)g.icon=detail.icon;
+      if(detail.category)g.category=detail.category;
+    }
+  }
+  return games;
+}
+
+/* ── Google Play HTML parser (supplementary) ── */
 const UA='Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15';
-async function grab(url){try{const r=await fetch(url,{headers:{'User-Agent':UA,'Accept':'text/html','Accept-Language':'ko,en;q=0.9'},redirect:'follow'});return r.ok?await r.text():'';}catch{return '';}}
+async function grab(url){try{const r=await fetch(url,{headers:{'User-Agent':UA,'Accept':'text/html'},redirect:'follow'});return r.ok?await r.text():'';}catch{return '';}}
 function clean(s){return(s||'').replace(/<!--[\s\S]*?-->/g,'').replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#x27;/g,"'").replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/\s+/g,' ').trim();}
 
 function parseGP(html){
@@ -96,87 +192,28 @@ function parseGP(html){
   return games;
 }
 
-/* ── AI Crawl (primary for App Store, enrichment for GP) ── */
-async function aiCrawl(country){
-  const key=process.env.ANTHROPIC_API_KEY;if(!key)return null;
-  const u=mkUrl(country),c=CFG[country];
-  try{
-    const r=await fetch('https://api.anthropic.com/v1/messages',{
-      method:'POST',headers:{'Content-Type':'application/json','x-api-key':key,'anthropic-version':'2023-06-01'},
-      body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:4096,
-        tools:[{type:'web_search_20250305',name:'web_search'}],
-        messages:[{role:'user',content:`Crawl the App Store and Google Play for ${c.name} today. Extract ONLY GAMES.
-
-== STEP 1: App Store Today Tab ==
-URL: ${u.asToday}
-Go to this page. You will see editorial cards from top to bottom.
-For each card:
-1. Find the app lockup (small icon + app name + "${c.get}" button)
-2. The APP NAME is the text right above the "${c.get}" button (NOT the big headline)
-3. Click through to the app's detail page
-4. Check: is the category "Games" or a Games subcategory? If NOT → SKIP
-5. Get: exact app name, developer, genre (Games subcategory like Action/RPG/Strategy), rating, icon URL
-6. Skip entire cards about non-game themes ("지금 써봐야 하는 AI 툴", "모두에게 사랑받는 앱", etc.)
-
-== STEP 2: App Store Games Tab ==
-URL: ${u.asGames}
-ONLY the hero banner cards at the very top (1-3 large promotional cards).
-Do NOT include any horizontal scrolling lists.
-Same process: verify each is a game.
-
-== STEP 3: Google Play Games ==
-URL: ${u.gpGames}
-Hero carousel + editorial sections.
-Get: name, developer, genre (from tags), rating, icon URL.
-
-== OUTPUT FORMAT ==
-JSON only. No markdown. No backticks. No explanation.
-Every entry MUST have all fields filled.
-
-{"as":[
-  {"name":"가십하버: 합성 & 스토리 게임","dev":"Mighty Bear Games","genre":"퍼즐","rating":4.3,"icon":"https://is1-ssl.mzstatic.com/image/thumb/Purple.../128x128bb.png","tab":"Today","label":"한정 기간 이벤트","url":"https://apps.apple.com/${c.cc}/app/gossip-harbor/id1623318294","category":"Games","priority":1}
-],"gp":[
-  {"name":"Whiteout Survival","dev":"Century Games","genre":"전략","rating":4.5,"icon":"https://play-lh.googleusercontent.com/...=s128-rw","tab":"Featured","label":"특별 이벤트","url":"https://play.google.com/store/apps/details?id=com.gof.global","category":"Games","priority":1}
-]}
-
-Genre must be Korean: 액션, RPG, 전략, 퍼즐, 캐주얼, 시뮬레이션, 어드벤처, 스포츠, 카드, 리듬
-Include 10-25 games per store. Every field is mandatory.`}],
-      }),
-    });
-    const d=await r.json();
-    const txt=(d.content||[]).filter(x=>x.type==='text').map(x=>x.text).join('\n');
-    const j=txt.match(/\{[\s\S]*\}/);
-    if(j)return JSON.parse(j[0]);
-  }catch(e){console.error('AI:',e.message);}
-  return null;
-}
-
-/* ── Merge (GP HTML + AI data) ── */
-function merge(html,ai){
-  if(!ai||!ai.length)return html;
-  const result=[...html],seen=new Set(result.map(g=>(g.name||'').toLowerCase().replace(/[\s™:：·]/g,'')));
-  for(const a of ai){
+/* ── Merge ── */
+function mergeInto(base,additions){
+  const seen=new Set(base.map(g=>(g.name||'').toLowerCase().replace(/[\s™:：·]/g,'')));
+  for(const a of additions){
     if(!a.name||isEditorial(a.name))continue;
     const k=a.name.toLowerCase().replace(/[\s™:：·]/g,'');
-    const ex=result.find(g=>(g.name||'').toLowerCase().replace(/[\s™:：·]/g,'')===k);
+    const ex=base.find(g=>(g.name||'').toLowerCase().replace(/[\s™:：·]/g,'')===k);
     if(ex){
       if(a.icon&&!ex.icon)ex.icon=a.icon;
       if(a.genre&&!ex.genre)ex.genre=toG(a.genre);
       if(a.rating&&!ex.rating)ex.rating=a.rating;
       if(a.dev&&!ex.dev)ex.dev=a.dev;
-      if(a.label&&!ex.section)ex.section=a.label;
-      if(a.tab&&!ex.tab)ex.tab=a.tab;
+      if(a.label&&!ex.section)ex.section=a.label||a.section;
       if(a.url&&!ex.url)ex.url=a.url;
       if(a.category&&!ex.category)ex.category=a.category;
-      if(a.priority!=null&&!ex.priority)ex.priority=a.priority;
     }else if(!seen.has(k)){
       seen.add(k);
-      result.push({name:a.name,icon:a.icon||'',genre:toG(a.genre||''),rating:a.rating||0,
-        section:a.label||'',dev:a.dev||'',tab:a.tab||'',url:a.url||'',
-        category:a.category||'',priority:a.priority||result.length+1});
+      base.push({name:a.name,icon:a.icon||'',genre:toG(a.genre||''),rating:a.rating||0,
+        section:a.label||a.section||'',dev:a.dev||'',tab:a.tab||'',url:a.url||'',
+        category:a.category||'',priority:a.priority||base.length+1});
     }
   }
-  return result;
 }
 
 /* ── Handler ── */
@@ -184,55 +221,55 @@ export default async function handler(req){
   const url=new URL(req.url);
   const country=(url.searchParams.get('country')||'KR').toUpperCase();
   if(!CFG[country])return Response.json({error:'Unknown'},{status:400,headers:{'Access-Control-Allow-Origin':'*'}});
-  const u=mkUrl(country);
-  console.log(`[Crawl] ${country}`);
+  console.log(`[Crawl] ${country} — 2-phase start`);
 
-  // 1. Google Play HTML parse (App Store HTML은 JS렌더링이라 파싱 불가)
-  const gpHtml=await grab(u.gpGames);
-  let gpG=parseGP(gpHtml);
-  let asG=[];
-  console.log(`[HTML] GP=${gpG.length} (AS=skipped, JS-rendered)`);
+  // Phase 1: Get titles + URLs
+  const p1=await phase1(country);
+  let asG=(p1&&p1.as||[]).filter(a=>a.name&&!isEditorial(a.name)).map((a,i)=>({
+    name:a.name,icon:'',genre:'',rating:0,section:a.label||'',dev:'',
+    tab:a.tab||'Today',url:a.url||'',category:'',priority:a.priority||i+1,
+  }));
+  let gpG=(p1&&p1.gp||[]).filter(a=>a.name&&!isEditorial(a.name)).map((a,i)=>({
+    name:a.name,icon:'',genre:'',rating:0,section:a.label||'',dev:'',
+    tab:a.tab||'Featured',url:a.url||'',category:'',priority:a.priority||i+1,
+  }));
+  console.log(`[Phase1] AS=${asG.length} GP=${gpG.length}`);
 
-  // 2. AI crawl (App Store의 유일한 데이터 소스 + GP 보강)
-  const ai=await aiCrawl(country);
-  if(ai){
-    // App Store: AI 결과가 전부
-    if(ai.as&&ai.as.length){
-      asG=ai.as.filter(a=>a.name&&!isEditorial(a.name)).map((a,i)=>({
-        name:a.name,icon:a.icon||'',genre:toG(a.genre||''),rating:a.rating||0,
-        section:a.label||'',dev:a.dev||'',tab:a.tab||'',url:a.url||'',
-        category:a.category||'',priority:a.priority||i+1,
-      }));
-    }
-    // Google Play: HTML 결과에 AI로 보강
-    if(ai.gp&&ai.gp.length){
-      gpG=merge(gpG,ai.gp);
-    }
-    console.log(`[+AI] AS=${asG.length} GP=${gpG.length}`);
-  }
+  // Merge GP HTML parse results
+  const gpHtml=await grab(mkUrl(country).gpGames);
+  const gpParsed=parseGP(gpHtml);
+  if(gpParsed.length)mergeInto(gpG,gpParsed);
 
-  // 3. Genre normalize
+  // Phase 2: Get details (icon, genre, rating, dev) for each game
+  const [asDetailed,gpDetailed]=await Promise.all([
+    phase2(asG,'appstore'),
+    phase2(gpG,'googleplay'),
+  ]);
+  asG=asDetailed||asG;
+  gpG=gpDetailed||gpG;
+  console.log(`[Phase2] AS details done, GP details done`);
+
+  // Genre normalize
   asG.forEach(g=>{if(g.genre)g.genre=toG(g.genre);});
   gpG.forEach(g=>{if(g.genre)g.genre=toG(g.genre);});
 
-  // 4. Game-only filter + editorial filter
+  // Game filter
   asG=asG.filter(g=>(isGameCat(g)||isAppsOk(g.name))&&!isEditorial(g.name));
   gpG=gpG.filter(g=>(isGameCat(g)||isAppsOk(g.name))&&!isEditorial(g.name));
   console.log(`[Filter] AS=${asG.length} GP=${gpG.length}`);
 
-  // 5. Cross-share icons
+  // Cross-share icons
   const ic={};
   [...asG,...gpG].forEach(g=>{if(g.icon&&g.name)ic[g.name.toLowerCase().replace(/[\s™:：·]/g,'')]=g.icon;});
-  asG.forEach(g=>{if(!g.icon){const k=g.name.toLowerCase().replace(/[\s™:：·]/g,'');if(ic[k])g.icon=ic[k];}});
-  gpG.forEach(g=>{if(!g.icon){const k=g.name.toLowerCase().replace(/[\s™:：·]/g,'');if(ic[k])g.icon=ic[k];}});
+  [...asG,...gpG].forEach(g=>{if(!g.icon){const k=g.name.toLowerCase().replace(/[\s™:：·]/g,'');if(ic[k])g.icon=ic[k];}});
 
-  // 6. Sort by priority + assign rank
+  // Sort + rank
   asG.sort((a,b)=>(a.priority||999)-(b.priority||999));
   gpG.sort((a,b)=>(a.priority||999)-(b.priority||999));
   asG=asG.map((g,i)=>({rank:i+1,...g}));
   gpG=gpG.map((g,i)=>({rank:i+1,...g}));
 
-  return Response.json({country,date:new Date().toISOString().slice(0,10),google:gpG,apple:asG,src:u},{
+  return Response.json({country,date:new Date().toISOString().slice(0,10),google:gpG,apple:asG,src:mkUrl(country)},{
     headers:{'Access-Control-Allow-Origin':'*','Cache-Control':'public, max-age=3600'},
   });
 }

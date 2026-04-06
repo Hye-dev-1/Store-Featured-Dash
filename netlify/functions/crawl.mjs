@@ -80,7 +80,23 @@ function isGameEntry(entry) {
   return true;
 }
 
-function isHL(s){if(!s||s.length>45)return true;if(/[을를이가에서도의은는으로하고].*[요세다네죠습까]$/.test(s))return true;if(/^(보기|받기|열기|Get|Open|View|入手|取得|รับ|더 알아보기|もっと見る|See All)$/i.test(s))return true;return false;}
+function isHL(s){
+  if(!s||s.length>45)return true;
+  // 한국어 문장형 (동사/어미로 끝나는 문구)
+  if(/[을를이가에서도의은는으로하고].*[요세다네죠습까어]$/.test(s))return true;
+  // 마케팅/에디토리얼 문구 패턴
+  if(/만나보세요|즐겨보세요|확인하세요|떠나보세요|시작하세요|도전하세요|경험하세요|대비하세요|챙기세요|함께하세요/.test(s))return true;
+  if(/에서 만나|지금 경험|놓쳐서는|다시 하나|새로운 시즌|더욱 뜨거|쟁탈전|페스티벌|컴백을/.test(s))return true;
+  // 일본어 문장형
+  if(/[をがにでもはのへと].*[うるたすよねぞか！]$/.test(s))return true;
+  if(/しよう|ましょう|ください|してみ|始めよう|楽しもう|チェック/.test(s))return true;
+  // 영어 문장형
+  if(/^(Get |Don't miss|Check out|Discover|Experience|Join |Play |Meet |Celebrate|Prepare)/i.test(s))return true;
+  if(/!$/.test(s)&&s.length>15)return true; // 느낌표로 끝나는 긴 문구
+  // 버튼 텍스트
+  if(/^(보기|받기|열기|Get|Open|View|入手|取得|รับ|더 알아보기|もっと見る|See All|全部見る)$/i.test(s))return true;
+  return false;
+}
 
 const UA='Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15';
 async function grab(url){try{const r=await fetch(url,{headers:{'User-Agent':UA,'Accept':'text/html','Accept-Language':'ko,en;q=0.9,ja;q=0.8,zh;q=0.7,th;q=0.6'},redirect:'follow'});return r.ok?await r.text():'';}catch{return '';}}

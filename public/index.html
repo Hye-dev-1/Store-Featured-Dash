@@ -32,7 +32,10 @@ body{background:#0f1117;color:#fff;font-family:'Segoe UI',system-ui,sans-serif;p
 .arow.nx{border:1.5px solid #B4E114;box-shadow:0 0 6px rgba(180,225,20,.15)}
 .arow.cm{border-color:rgba(255,184,0,.2)}
 .arow .rk{min-width:20px;color:#555;font-size:12px;font-weight:700;text-align:right}
-.arow .ic{width:36px;height:36px;border-radius:8px;object-fit:cover;background:#1a1d27;flex-shrink:0}
+.arow .ic{width:36px;height:36px;border-radius:8px;object-fit:cover;background:#222530;flex-shrink:0;border:1px solid #2a2d3a}
+.arow .ic-ph{width:36px;height:36px;border-radius:8px;background:#222530;border:1px solid #2a2d3a;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:14px;color:#444}
+.ccard .ci{width:32px;height:32px;border-radius:7px;object-fit:cover;background:#222530;flex-shrink:0;border:1px solid #2a2d3a}
+.ccard{display:flex;align-items:center;gap:8px}
 .arow .ai{flex:1;min-width:0}.arow .an{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .arow .am{display:flex;gap:5px;align-items:center;margin-top:2px;flex-wrap:wrap}
 .bdg{border-radius:3px;padding:1px 5px;font-size:9px;font-weight:700}
@@ -114,10 +117,33 @@ body{background:#0f1117;color:#fff;font-family:'Segoe UI',system-ui,sans-serif;p
 var CC={KR:{label:'🇰🇷 한국'},TW:{label:'🇹🇼 대만'},JP:{label:'🇯🇵 일본'},US:{label:'🇺🇸 미국'},TH:{label:'🇹🇭 태국'}};
 var COUNTRIES=Object.keys(CC);
 var GC={액션:'#EF5B5B',전략:'#5B8DEF',퍼즐:'#A05BEF',스포츠:'#3DAAA0',RPG:'#E07B4F',캐주얼:'#EFC45B',시뮬레이션:'#5BEF8D',어드벤처:'#EF8D5B',리듬:'#EF5BAA',카드:'#5BEFEF'};
-var NXNames=['블루 아카이브','Blue Archive','ブルーアーカイブ','메이플 키우기','마비노기 모바일','던전앤파이터 모바일','FC 온라인','히트2','HIT2','퍼스트 디센던트','The First Descendant','데이브 더 다이버'];
-var NXExclude=['EA SPORTS FC','쿠키런: 킹덤','CookieRun: Kingdom'];
+/* ── NEXON 감지: 개발자명 기반 + 알려진 게임명 보조 ── */
+var NX_DEVS = ['nexon','nexon company','nexon korea','nexon co., ltd.','nexon co., ltd','neople','mintrocket','nat games','nexon games'];
+var NX_KNOWN = ['블루 아카이브','blue archive','ブルーアーカイブ','蔚藍檔案',
+  '메이플 키우기','메이플스토리','maplestory',
+  '마비노기 모바일','mabinogi','瑪奇',
+  '던전앤파이터','dungeon & fighter','dnf',
+  'fc 온라인','fc online','fc모바일',
+  '히트2','hit2','the first descendant','퍼스트 디센던트',
+  '데이브 더 다이버','dave the diver',
+  '카트라이더','kartrider','跑跑卡丁車',
+  'v4','카운터사이드','counters:side','counterside'];
+var NX_EXCLUDE_DEV = ['ea','electronic arts','devsisters','com2us','supercell'];
 function nm(n){return(n||'').replace(/[™:：\s]/g,'').toLowerCase();}
-function isNX(n){if(!n)return false;if(NXExclude.some(function(x){return n.includes(x);}))return false;return NXNames.some(function(x){return nm(n)===nm(x);});}
+function isNX(app){
+  if(!app) return false;
+  var name = typeof app==='string' ? app : app.name||'';
+  var dev = typeof app==='object' ? (app.dev||'') : '';
+  // 1. 개발자명 체크
+  if(dev){
+    var dl=dev.toLowerCase().trim();
+    if(NX_DEVS.some(function(d){return dl.includes(d);})) return true;
+    if(NX_EXCLUDE_DEV.some(function(d){return dl.includes(d);})) return false;
+  }
+  // 2. 알려진 게임명 체크
+  var nl=nm(name);
+  return NX_KNOWN.some(function(k){return nl===nm(k)||nl.includes(nm(k));});
+}
 
 /* Storage */
 var sto=(function(){
@@ -207,8 +233,9 @@ function showSkeleton(){
 function setStatus(c,msg){document.getElementById('stDot').style.background=c;document.getElementById('stMsg').textContent=msg;}
 
 /* ═══ RENDER ═══ */
-function bg(g){var c=GC[g]||'#888';return'<span class="bdg" style="background:'+c+'22;color:'+c+';border:1px solid '+c+'44">'+g+'</span>';}
+function bg(g){var c=GC[g]||'#888';return g?'<span class="bdg" style="background:'+c+'22;color:'+c+';border:1px solid '+c+'44">'+g+'</span>':'';}
 function sr(r){return r?'<span class="st-r">★'+r+'</span>':'';}
+function ic(url){return url?'<img class="ic" src="'+url+'" loading="lazy" onerror="this.className=\'ic-ph\';this.src=\'\';this.textContent=\'🎮\'">':'<div class="ic-ph">🎮</div>';}
 function isCm(n,g,a){return g.some(function(x){return nm(x.name)===nm(n);})&&a.some(function(x){return nm(x.name)===nm(n);});}
 
 function rCB(){document.getElementById('countryBar').innerHTML=COUNTRIES.map(function(k){return'<button class="tab'+(k===curC?' active':'')+'" onclick="pickCountry(\''+k+'\')">'+CC[k].label+'</button>';}).join('');}
@@ -232,7 +259,7 @@ function render(){
   document.getElementById('apS').textContent=CC[curC].label+' '+d.apple.length+'개';
 
   // Common
-  document.getElementById('cmG').innerHTML=cm.length?cm.map(function(a){var nx=isNX(a.name);return'<div class="ccard" style="'+(nx?'border-color:#B4E114':'')+'"><div class="cn" style="'+(nx?'color:#B4E114':'')+'">'+a.name+'</div>'+bg(a.genre)+'</div>';}).join(''):'<div style="color:#555;font-size:12px">없음</div>';
+  document.getElementById('cmG').innerHTML=cm.length?cm.map(function(a){var nx=isNX(a);return'<div class="ccard" style="'+(nx?'border-color:#B4E114':'')+'">'+(a.icon?'<img class="ci" src="'+a.icon+'" loading="lazy" onerror="this.style.display=\'none\'">':'')+'<div><div class="cn" style="'+(nx?'color:#B4E114':'')+'">'+a.name+'</div>'+bg(a.genre)+'</div></div>';}).join(''):'<div style="color:#555;font-size:12px">없음</div>';
 
   // Visibility
   document.getElementById('gpP').style.display=(curS==='both'||curS==='google')?'':'none';
@@ -247,8 +274,8 @@ function render(){
 function rList(id,data,g,a){
   if(!data.length){document.getElementById(id).innerHTML='<div style="text-align:center;padding:24px;color:#444;font-size:12px">수집된 데이터 없음</div>';return;}
   document.getElementById(id).innerHTML=data.map(function(x){
-    var c=isCm(x.name,g,a),nx=isNX(x.name);
-    return'<div class="arow'+(nx?' nx':'')+(c?' cm':'')+'">'+(nx?'<span class="nx-tag">NEXON</span>':c?'<span class="cm-tag">양쪽</span>':'')+'<div class="rk">'+x.rank+'</div>'+(x.icon?'<img class="ic" src="'+x.icon+'" loading="lazy" onerror="this.style.display=\'none\'">':'')+'<div class="ai"><div class="an">'+x.name+'</div><div class="am">'+bg(x.genre)+(x.section?'<span class="slbl">'+x.section+'</span>':'')+sr(x.rating)+'</div></div></div>';
+    var c=isCm(x.name,g,a),nx=isNX(x);
+    return'<div class="arow'+(nx?' nx':'')+(c?' cm':'')+'">'+(nx?'<span class="nx-tag">NEXON</span>':c?'<span class="cm-tag">양쪽</span>':'')+'<div class="rk">'+x.rank+'</div>'+ic(x.icon)+'<div class="ai"><div class="an">'+x.name+'</div><div class="am">'+bg(x.genre)+(x.dev?'<span class="slbl" style="color:#666">'+x.dev+'</span>':'')+(x.section?'<span class="slbl">'+x.section+'</span>':'')+sr(x.rating)+'</div></div></div>';
   }).join('');
 }
 
@@ -263,7 +290,7 @@ function rBn(){
   d.google.slice(0,3).forEach(function(a){b.push({name:a.name,sec:'▶ GP · '+a.section,rt:a.rating,icon:a.icon||''});});
   d.apple.slice(0,3).forEach(function(a){b.push({name:a.name,sec:' AS · '+a.section,rt:a.rating,icon:a.icon||''});});
   if(!b.length)b=[{name:'데이터 로딩 중...',sec:'잠시만 기다려주세요',rt:0,icon:''}];
-  document.getElementById('bnTrack').innerHTML=b.map(function(x){return'<div class="bn-slide">'+(x.icon?'<img src="'+x.icon+'" style="width:36px;height:36px;border-radius:8px;object-fit:cover;flex-shrink:0" loading="lazy" onerror="this.style.display=\'none\'">':'')+'<div style="flex:1;min-width:0"><div class="s-sec">'+x.sec+'</div><div class="s-name">'+x.name+'</div></div>'+(x.rt?'<div class="s-rt">★'+x.rt+'</div>':'')+'</div>';}).join('');
+  document.getElementById('bnTrack').innerHTML=b.map(function(x){return'<div class="bn-slide">'+(x.icon?'<img src="'+x.icon+'" style="width:34px;height:34px;border-radius:7px;object-fit:cover;flex-shrink:0;border:1px solid #2a2d3a" loading="lazy" onerror="this.style.display=\'none\'">':'<div style="width:34px;height:34px;border-radius:7px;background:#222530;border:1px solid #2a2d3a;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:13px;color:#444">🎮</div>')+'<div style="flex:1;min-width:0"><div class="s-sec">'+x.sec+'</div><div class="s-name">'+x.name+'</div></div>'+(x.rt?'<div class="s-rt">★'+x.rt+'</div>':'')+'</div>';}).join('');
   document.getElementById('bnDots').innerHTML=b.map(function(_,i){return'<span class="'+(i===bnIdx?'on':'')+'" onclick="goBn('+i+')"></span>';}).join('');
   uBn();clearInterval(bnTmr);bnTmr=setInterval(function(){moveBn(1);},4000);
 }
@@ -272,14 +299,16 @@ function moveBn(dir){var d=DATA[curC],b=d.google.length+d.apple.length;var len=M
 function goBn(i){bnIdx=i;uBn();}
 
 function rNX(){
-  var d=DATA[curC],all=d.google.concat(d.apple),nx=all.filter(function(a){return isNX(a.name);});
+  var d=DATA[curC],all=d.google.concat(d.apple),nx=all.filter(function(a){return isNX(a);});
   var uq={};nx.forEach(function(a){var k=nm(a.name);if(!uq[k])uq[k]=a;});
   var nl=Object.values(uq),nc=nl.length;
   if(!nc){document.getElementById('nxSec').style.display='none';return;}
   document.getElementById('nxSec').style.display='';
-  document.getElementById('nxSec').innerHTML='<div class="nx-hdr"><div class="nx-logo">N</div><div><div class="nx-title">NEXON 피쳐드</div><div class="nx-sub">'+CC[curC].label+' GP '+d.google.filter(function(a){return isNX(a.name);}).length+' + AS '+d.apple.filter(function(a){return isNX(a.name);}).length+'</div></div></div>'
+  var gpNx=d.google.filter(function(a){return isNX(a);}).length;
+  var asNx=d.apple.filter(function(a){return isNX(a);}).length;
+  document.getElementById('nxSec').innerHTML='<div class="nx-hdr"><div class="nx-logo">N</div><div><div class="nx-title">NEXON 피쳐드</div><div class="nx-sub">'+CC[curC].label+' GP '+gpNx+' + AS '+asNx+'</div></div></div>'
   +'<div class="nx-stats"><div class="nst"><div class="nl">피쳐드</div><div class="nv">'+nc+'</div></div><div class="nst"><div class="nl">최고순위</div><div class="nv">#'+Math.min.apply(null,nx.map(function(a){return a.rank;}))+'</div></div><div class="nst"><div class="nl">평균평점</div><div class="nv">★'+(nl.reduce(function(s,a){return s+(a.rating||0);},0)/nc).toFixed(1)+'</div></div></div>'
-  +nl.map(function(a){return'<div class="arow nx" style="margin-bottom:4px"><div class="rk">'+a.rank+'</div>'+(a.icon?'<img class="ic" src="'+a.icon+'" loading="lazy" onerror="this.style.display=\'none\'">':'')+'<div class="ai"><div class="an" style="color:#B4E114">'+a.name+'</div><div class="am">'+bg(a.genre)+sr(a.rating)+'</div></div></div>';}).join('');
+  +nl.map(function(a){return'<div class="arow nx" style="margin-bottom:4px"><div class="rk">'+a.rank+'</div>'+ic(a.icon)+'<div class="ai"><div class="an" style="color:#B4E114">'+a.name+'</div><div class="am">'+bg(a.genre)+(a.dev?'<span class="slbl" style="color:#7a8a3a">'+a.dev+'</span>':'')+sr(a.rating)+'</div></div></div>';}).join('');
 }
 
 /* ═══ NAV ═══ */
@@ -306,7 +335,7 @@ function rTrend(){
   var gmx=Math.max.apply(null,genres.map(function(g){return Math.max(gG[g]||0,aG[g]||0);}));if(gmx<1)gmx=1;
   h+='<div class="trend-grid"><div class="trend-panel"><h3>장르 점유율</h3>'+genres.map(function(g){var gv=gG[g]||0,av=aG[g]||0,c=GC[g]||'#888';return'<div style="margin-bottom:5px"><div style="font-size:11px;color:'+c+';font-weight:700">'+g+'</div><div style="display:flex;gap:4px;align-items:center"><div style="width:26px;font-size:9px;color:#34A853;text-align:right">GP</div><div style="flex:1;background:#0f1117;border-radius:2px;height:10px;overflow:hidden"><div style="width:'+Math.round(gv/gmx*100)+'%;height:100%;background:#34A853"></div></div><div style="width:14px;font-size:9px;color:#888">'+gv+'</div></div><div style="display:flex;gap:4px;align-items:center;margin-top:1px"><div style="width:26px;font-size:9px;color:#5B8DEF;text-align:right">AS</div><div style="flex:1;background:#0f1117;border-radius:2px;height:10px;overflow:hidden"><div style="width:'+Math.round(av/gmx*100)+'%;height:100%;background:#5B8DEF"></div></div><div style="width:14px;font-size:9px;color:#888">'+av+'</div></div></div>';}).join('')+'</div>';
   // Freq
-  var f={};all.forEach(function(a){if(!a.name||a.genre==='—')return;var k=nm(a.name);if(!f[k])f[k]={name:a.name,c:0,nx:isNX(a.name)};f[k].c++;});
+  var f={};all.forEach(function(a){if(!a.name||a.genre==='—')return;var k=nm(a.name);if(!f[k])f[k]={name:a.name,c:0,nx:isNX(a)};f[k].c++;});
   var tp=Object.values(f).sort(function(a,b){return b.c-a.c;}).slice(0,10),fmx=tp[0]?tp[0].c:1;
   h+='<div class="trend-panel"><h3>피쳐드 빈도</h3>'+tp.map(function(a){return'<div class="freq-bar"><div class="freq-lbl" style="'+(a.nx?'color:#B4E114':'')+'">'+a.name+'</div><div class="freq-track"><div class="freq-fill" style="width:'+Math.round(a.c/fmx*100)+'%;background:'+(a.nx?'linear-gradient(90deg,#B4E114,#7a8a3a)':'linear-gradient(90deg,#5B8DEF,#A05BEF)')+'"><span>'+a.c+'</span></div></div></div>';}).join('')+'</div></div>';
   document.getElementById('trendWrap').innerHTML=h;
@@ -320,12 +349,12 @@ function rLog(){
   var lc=(document.getElementById('lC')||{}).value||'KR',ls=(document.getElementById('lS')||{}).value||'google';
   var cards=snaps.map(function(k){try{var s=JSON.parse(sto.get(k));return{date:k.replace('snap:',''),list:(s[lc]&&s[lc][ls])||[]};}catch(e){return{date:k.replace('snap:',''),list:[]};}});
   // Freq
-  var fm={};cards.forEach(function(c){c.list.forEach(function(a){if(!a.name)return;var k=nm(a.name);if(!fm[k])fm[k]={name:a.name,days:0,nx:isNX(a.name)};fm[k].days++;});});
+  var fm={};cards.forEach(function(c){c.list.forEach(function(a){if(!a.name)return;var k=nm(a.name);if(!fm[k])fm[k]={name:a.name,days:0,nx:isNX(a)};fm[k].days++;});});
   var fl=Object.values(fm).sort(function(a,b){return b.days-a.days;}).slice(0,8),fmx=fl[0]?fl[0].days:1;
   if(fl.length){h+='<div style="background:#1a1d27;border:1px solid #2a2d3a;border-radius:12px;padding:14px;margin-bottom:12px"><div style="font-size:12px;color:#888;font-weight:700;margin-bottom:8px">📊 등장 빈도 ('+cards.length+'일)</div>'+fl.map(function(a){return'<div class="freq-bar"><div class="freq-lbl" style="'+(a.nx?'color:#B4E114':'')+'">'+a.name+'</div><div class="freq-track"><div class="freq-fill" style="width:'+Math.round(a.days/fmx*100)+'%;background:'+(a.nx?'linear-gradient(90deg,#B4E114,#7a8a3a)':'linear-gradient(90deg,#5B8DEF,#A05BEF)')+'"><span>'+a.days+'일</span></div></div></div>';}).join('')+'</div>';}
   cards.forEach(function(c){
     h+='<div style="background:#1a1d27;border:1px solid #2a2d3a;border-radius:12px;padding:14px;margin-bottom:10px"><div style="font-weight:700;margin-bottom:8px">📅 '+c.date+'</div>';
-    if(c.list.length){c.list.slice(0,10).forEach(function(a){var nx=isNX(a.name);h+='<div class="arow'+(nx?' nx':'')+'" style="margin-bottom:3px"><div class="rk">'+a.rank+'</div>'+(a.icon?'<img class="ic" src="'+a.icon+'" loading="lazy" onerror="this.style.display=\'none\'">':'')+'<div class="ai"><div class="an" style="font-size:12px;'+(nx?'color:#B4E114':'')+'">'+a.name+'</div><div class="am">'+bg(a.genre)+sr(a.rating)+'</div></div></div>';});}
+    if(c.list.length){c.list.slice(0,10).forEach(function(a){var nx=isNX(a.name);h+='<div class="arow'+(nx?' nx':'')+'" style="margin-bottom:3px"><div class="rk">'+a.rank+'</div>'+ic(a.icon)+'<div class="ai"><div class="an" style="font-size:12px;'+(nx?'color:#B4E114':'')+'">'+a.name+'</div><div class="am">'+bg(a.genre)+sr(a.rating)+'</div></div></div>';});}
     else h+='<div style="color:#555;font-size:12px">데이터 없음</div>';
     h+='</div>';
   });

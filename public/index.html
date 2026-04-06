@@ -86,11 +86,25 @@ var GC={액션:'#EF5B5B',전략:'#5B8DEF',퍼즐:'#A05BEF',스포츠:'#3DAAA0',R
 var CC={KR:'🇰🇷 한국',TW:'🇹🇼 대만',JP:'🇯🇵 일본',US:'🇺🇸 미국',TH:'🇹🇭 태국'};
 var CS=Object.keys(CC);
 
-/* NEXON detect */
-var NXD='nexon,neople,mintrocket,nat games'.split(',');
-var NXK='블루 아카이브,blue archive,ブルーアーカイブ,蔚藍檔案,메이플 키우기,메이플스토리,maplestory,마비노기 모바일,mabinogi,던전앤파이터,dungeon & fighter,fc 온라인,fc online,fc모바일,히트2,hit2,the first descendant,퍼스트 디센던트,데이브 더 다이버,dave the diver,카트라이더,kartrider,v4,카운터사이드,counterside'.split(',');
+/* NEXON detect — 개발자명 1차, 게임명 2차 (엄격) */
+var NXD='nexon company,nexon korea,nexon co,neople,mintrocket,nat games,nexon games'.split(',');
+/* 넥슨 게임이지만 개발자명이 다를 수 있는 것만 (EA 퍼블리싱 제외) */
+var NXK='블루 아카이브,blue archive,ブルーアーカイブ,蔚藍檔案,메이플 키우기,마비노기 모바일,던전앤파이터 모바일,히트2,hit2,the first descendant,퍼스트 디센던트,데이브 더 다이버,dave the diver,카트라이더,kartrider,v4,카운터사이드,counterside,maplestory worlds,메이플스토리 월드,메이플스토리'.split(',');
+/* EA/컴투스 등 넥슨 아닌 "FC" 게임 명시 제외 */
+var NX_EXCLUDE='ea sports,electronic arts,ea vancouver,ea canada,com2us,컴투스'.split(',');
 function nm(n){return(n||'').replace(/[™:：\s]/g,'').toLowerCase();}
-function isNX(a){if(!a)return false;var n=typeof a==='string'?a:a.name||'',d=typeof a==='object'?(a.dev||''):'';if(d&&NXD.some(function(x){return d.toLowerCase().includes(x);}))return true;var nl=nm(n);return NXK.some(function(k){return nl===nm(k)||nl.includes(nm(k));});}
+function isNX(a){
+  if(!a)return false;
+  var n=typeof a==='string'?a:a.name||'';
+  var d=typeof a==='object'?(a.dev||''):'';
+  // 개발자가 EA/컴투스면 무조건 제외
+  if(d){var dl=d.toLowerCase();if(NX_EXCLUDE.some(function(x){return dl.includes(x);}))return false;}
+  // 개발자가 넥슨이면 포함
+  if(d){var dl=d.toLowerCase();if(NXD.some(function(x){return dl.includes(x);}))return true;}
+  // 알려진 게임명 매칭 (완전일치 또는 포함)
+  var nl=nm(n);
+  return NXK.some(function(k){return nl===nm(k);});
+}
 
 /* Storage */
 var sto=(function(){function ok(){try{localStorage.setItem('_','1');localStorage.removeItem('_');return true;}catch(e){return false;}}if(ok())return{set:function(k,v){localStorage.setItem(k,v);},get:function(k){return localStorage.getItem(k);},del:function(k){localStorage.removeItem(k);},keys:function(p){var r=[];for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(!p||k.indexOf(p)===0)r.push(k);}return r;}};var m={};return{set:function(k,v){m[k]=v;},get:function(k){return m[k]||null;},del:function(k){delete m[k];},keys:function(p){return Object.keys(m).filter(function(k){return!p||k.indexOf(p)===0;});}};})();

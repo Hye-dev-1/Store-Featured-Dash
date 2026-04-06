@@ -80,7 +80,23 @@ function isGameEntry(entry) {
   return true;
 }
 
-function isHL(s){if(!s||s.length>45)return true;if(/[을를이가에서도의은는으로하고].*[요세다네죠습까]$/.test(s))return true;if(/^(보기|받기|열기|Get|Open|View|入手|取得|รับ|더 알아보기|もっと見る|See All)$/i.test(s))return true;return false;}
+function isHL(s){
+  if(!s||s.length>45)return true;
+  // 한국어 문장형 (동사/어미로 끝나는 문구)
+  if(/[을를이가에서도의은는으로하고].*[요세다네죠습까어]$/.test(s))return true;
+  // 마케팅/에디토리얼 문구 패턴
+  if(/만나보세요|즐겨보세요|확인하세요|떠나보세요|시작하세요|도전하세요|경험하세요|대비하세요|챙기세요|함께하세요/.test(s))return true;
+  if(/에서 만나|지금 경험|놓쳐서는|다시 하나|새로운 시즌|더욱 뜨거|쟁탈전|페스티벌|컴백을/.test(s))return true;
+  // 일본어 문장형
+  if(/[をがにでもはのへと].*[うるたすよねぞか！]$/.test(s))return true;
+  if(/しよう|ましょう|ください|してみ|始めよう|楽しもう|チェック/.test(s))return true;
+  // 영어 문장형
+  if(/^(Get |Don't miss|Check out|Discover|Experience|Join |Play |Meet |Celebrate|Prepare)/i.test(s))return true;
+  if(/!$/.test(s)&&s.length>15)return true; // 느낌표로 끝나는 긴 문구
+  // 버튼 텍스트
+  if(/^(보기|받기|열기|Get|Open|View|入手|取得|รับ|더 알아보기|もっと見る|See All|全部見る)$/i.test(s))return true;
+  return false;
+}
 
 const UA='Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15';
 async function grab(url){try{const r=await fetch(url,{headers:{'User-Agent':UA,'Accept':'text/html','Accept-Language':'ko,en;q=0.9,ja;q=0.8,zh;q=0.7,th;q=0.6'},redirect:'follow'});return r.ok?await r.text():'';}catch{return '';}}
@@ -151,9 +167,35 @@ For EVERY app you find, check its App Store / Google Play CATEGORY.
 - We will FILTER by category="Games" on our end. Non-game apps with category="Apps" will be excluded automatically.
 - The ONLY Apps-category exception: "MapleStory Worlds" — include this even though it's in Apps.
 
-=== TITLE EXTRACTION ===
-Extract the OFFICIAL APP TITLE next to the "${loc.get}" button, NOT editorial headlines.
-WRONG: "애쉬베일 등장!" (headline) → RIGHT: "붕괴: 스타레일" (app name)
+=== TITLE EXTRACTION (VERY IMPORTANT) ===
+Extract the OFFICIAL APP TITLE — the exact app name shown next to the "${loc.get}" button in the app lockup area.
+- The lockup area has: [App Icon] [App Name] [Short Description] [${loc.get} button]
+- NEVER extract editorial headlines, marketing copy, or promotional text.
+
+WRONG examples (these are marketing headlines, NOT app titles):
+- "더욱 뜨거워진 빅이어 쟁탈전! FC모바일에서 만나보세요" ← WRONG (promotional text)
+- "애쉬베일 등장!" ← WRONG (headline)
+- "심장아 나대지마!" ← WRONG (headline)  
+- "놓쳐서는 안 될 로블록스 이벤트들" ← WRONG (headline)
+- "새로운 시즌에 대비하세요" ← WRONG (headline)
+
+RIGHT examples (these are actual app titles):
+- "FC Online M" ← RIGHT
+- "붕괴: 스타레일" ← RIGHT
+- "로블록스" ← RIGHT
+- "컴투스프로야구V26" ← RIGHT
+
+RULE: If the text contains verbs like "만나보세요/즐겨보세요/확인하세요/대비하세요" or ends with "!" and is longer than 15 chars, it is a headline, NOT an app title.
+
+=== GENRE (MANDATORY — use actual store category) ===
+- For App Store: Visit each app's detail page and get the PRIMARY CATEGORY listed under "Games" (e.g. "Action", "Role Playing", "Strategy", "Puzzle", "Sports", "Simulation", "Adventure", "Card", "Board", "Music", "Casual", "Racing", "Arcade", "Trivia", "Word")
+- For Google Play: Get the FIRST TAG shown on the app page (e.g. "RPG", "Action", "Strategy", "Casual")
+- Convert to exactly one of these Korean genres: 액션, RPG, 전략, 퍼즐, 캐주얼, 시뮬레이션, 어드벤처, 스포츠, 카드, 리듬
+- EVERY entry MUST have a genre. Do not leave it empty.
+
+=== DEVELOPER NAME (MANDATORY) ===
+- Extract the exact developer name shown on the store page
+- This is critical for publisher tracking. Do not guess — use the actual store data.
 
 === REQUIRED FIELDS (every entry must have ALL) ===
 - name: official app title

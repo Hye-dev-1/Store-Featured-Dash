@@ -17,11 +17,11 @@ const CFG = {
 };
 
 const LOCALE = {
-  KR: { get:'보기', todaySections:'모두가 즐기는 게임,오늘은 이 게임,꼭 해봐야 할 게임,한정 기간 이벤트,대규모 업데이트,요즘 화제,깊이 보기,최초 공개,놀라운 인디 게임,에디터의 추천,새로운 이벤트,오늘의 이벤트,오늘의 추천', gamesSections:'오늘은 이 게임,꼭 해봐야 할 게임,무료 게임 순위,유료 게임 순위', gpSections:'신규 출시,특별 이벤트,에디터 추천,추천 신작,인기 게임' },
-  TW: { get:'取得', todaySections:'話題遊戲精選,今日推薦,必玩遊戲,限時活動,大型更新,搶先看,編輯精選,今日活動', gamesSections:'今日遊戲,必玩遊戲,免費遊戲排行,付費遊戲排行', gpSections:'新品上架,特別活動,編輯推薦,熱門遊戲' },
-  JP: { get:'入手', todaySections:'みんなが遊んでるゲーム,今日のゲーム,必ずプレイすべき,期間限定イベント,大型アップデート,インディーゲーム,エディターのおすすめ,今日のイベント', gamesSections:'今日のゲーム,必ずプレイすべきゲーム,無料ゲームランキング', gpSections:'新着,注目のイベント,編集者のおすすめ,人気ゲーム' },
-  US: { get:'Get', todaySections:"Everyone's Playing,Game of the Day,Must-Play Games,Limited Time Event,Major Update,Amazing Indies,Editor's Choice,Today's Event,Get to Know", gamesSections:"Game of the Day,Must-Play Games,Top Free Games,Top Paid Games", gpSections:"New,Trending,Editor's Choice,Special Event,Popular Games" },
-  TH: { get:'รับ', todaySections:'เกมที่ทุกคนกำลังเล่น,เกมวันนี้,ต้องเล่น,อีเวนต์จำกัดเวลา,อัปเดตครั้งใหญ่,เกมอินดี้สุดเจ๋ง', gamesSections:'เกมวันนี้,ต้องเล่น,เกมฟรียอดนิยม', gpSections:'ใหม่,กิจกรรมพิเศษ,แนะนำจากบรรณาธิการ,เกมยอดนิยม' },
+  KR: { get:'보기', todaySections:'모두가 즐기는 게임,오늘은 이 게임,꼭 해봐야 할 게임,한정 기간 이벤트,대규모 업데이트,요즘 화제,깊이 보기,최초 공개,놀라운 인디 게임,에디터의 추천,새로운 이벤트,오늘의 이벤트,오늘의 추천', gamesBanner:'게임 탭 최상단 히어로 배너 (큰 이미지 배너, 이벤트 카드 등 — 가로 스크롤 리스트 컬렉션은 제외)', gpSections:'신규 출시,특별 이벤트,에디터 추천,추천 신작,인기 게임' },
+  TW: { get:'取得', todaySections:'話題遊戲精選,今日推薦,必玩遊戲,限時活動,大型更新,搶先看,編輯精選,今日活動', gamesBanner:'遊戲頁面頂部大型橫幅（排除橫向滾動列表集合）', gpSections:'新品上架,特別活動,編輯推薦,熱門遊戲' },
+  JP: { get:'入手', todaySections:'みんなが遊んでるゲーム,今日のゲーム,必ずプレイすべき,期間限定イベント,大型アップデート,インディーゲーム,エディターのおすすめ,今日のイベント', gamesBanner:'ゲームタブの最上部ヒーローバナー（横スクロールのリストコレクションは除外）', gpSections:'新着,注目のイベント,編集者のおすすめ,人気ゲーム' },
+  US: { get:'Get', todaySections:"Everyone's Playing,Game of the Day,Must-Play Games,Limited Time Event,Major Update,Amazing Indies,Editor's Choice,Today's Event,Get to Know", gamesBanner:'Games tab top hero banners only (large image banners, event cards — exclude horizontal scrolling list collections)', gpSections:"New,Trending,Editor's Choice,Special Event,Popular Games" },
+  TH: { get:'รับ', todaySections:'เกมที่ทุกคนกำลังเล่น,เกมวันนี้,ต้องเล่น,อีเวนต์จำกัดเวลา,อัปเดตครั้งใหญ่,เกมอินดี้สุดเจ๋ง', gamesBanner:'แบนเนอร์ฮีโร่ด้านบนสุดของแท็บเกม (ไม่รวมคอลเลกชันรายการแบบเลื่อน)', gpSections:'ใหม่,กิจกรรมพิเศษ,แนะนำจากบรรณาธิการ,เกมยอดนิยม' },
 };
 
 function mkUrls(c) {
@@ -49,9 +49,29 @@ function clean(s) {
 
 /* Non-game filter */
 const BAN = 'chatgpt,gemini,perplexity,claude,copilot,notion,goodnotes,capcut,canva,picsart,adobe,tiktok,youtube,instagram,facebook,twitter,threads,snapchat,whatsapp,telegram,line,kakaotalk,spotify,apple music,shazam,netflix,disney,tving,wavve,coupang,배달의민족,당근,토스,카카오뱅크,네이버,chrome,safari,uber,grab,melon,vibe,bugs,genie,flo,clova,다글로,뤼튼,felo,유니브,stationhead,bubble with stars,weverse,위버스,notebooklm,microsoft,outlook,teams,slack,zoom,discord,photoshop,lightroom,procreate,garageband,imovie,charlie,찰리,weather,날씨,건강,fitness,health,maps,waze,번역,translate,calculator,계산기,clock,calendar,reminders,notes,files,measure,compass,podcasts,books,news'.split(',');
+
+/* App Store Apps 카테고리 허용 리스트 (게임이 아닌 앱 중 예외적으로 포함) */
+const APPS_ALLOW = ['maplestory worlds','메이플스토리 월드'];
+
 function isBanned(n){ if(!n)return true; const l=n.toLowerCase().replace(/[\s™®:]/g,''); return BAN.some(b=>l.includes(b.replace(/\s/g,''))); }
+function isAppsException(n){ if(!n)return false; const l=n.toLowerCase().replace(/[\s™®:]/g,''); return APPS_ALLOW.some(a=>l.includes(a.replace(/\s/g,''))); }
 
 function isHeadline(s){ if(!s||s.length>45)return true; if(/[을를이가에서도의은는으로하고].*[요세다네죠습까]$/.test(s))return true; if(/^(보기|받기|열기|Get|Open|View|入手|取得|รับ|더 알아보기|もっと見る|See All)$/i.test(s))return true; return false; }
+
+/* App Store: Games 카테고리인지 (Apps 카테고리 제외) */
+function isGameCategory(a) {
+  // url에 /app/ 포함되면 기본적으로 통과 (Games/Apps 구분은 URL만으로 어려움)
+  // genre가 게임 장르이면 통과
+  const gameGenres = ['액션','RPG','전략','퍼즐','캐주얼','시뮬레이션','어드벤처','스포츠','카드','리듬','Action','Strategy','Puzzle','Sports','Casual','Simulation','Adventure','Card','Music','Racing','Arcade','Role Playing','Board','Trivia','Word','Family'];
+  if (a.genre && gameGenres.some(g => a.genre.toLowerCase().includes(g.toLowerCase()))) return true;
+  // tab이 Today/Games면 게임 탭에서 온 것
+  if (a.tab === 'Today' || a.tab === 'Games') return true;
+  // label/section에 게임 관련 키워드
+  const sec = (a.label || a.section || '').toLowerCase();
+  if (sec.includes('game') || sec.includes('게임') || sec.includes('ゲーム') || sec.includes('遊戲') || sec.includes('เกม')) return true;
+  // 기본값: 통과 (AI가 게임만 골라왔을 가능성 높음)
+  return true;
+}
 
 /* Genre map */
 const GM={'action':'액션','role playing':'RPG','role-playing':'RPG','rpg':'RPG','strategy':'전략','puzzle':'퍼즐','casual':'캐주얼','simulation':'시뮬레이션','adventure':'어드벤처','sports':'스포츠','card':'카드','board':'카드','music':'리듬','racing':'액션','arcade':'액션','trivia':'퍼즐','word':'퍼즐','동작':'액션','롤플레잉':'RPG','アクション':'액션','ロールプレイング':'RPG','ストラテジー':'전략','パズル':'퍼즐','カジュアル':'캐주얼','シミュレーション':'시뮬레이션','アドベンチャー':'어드벤처','スポーツ':'스포츠','カード':'카드','ミュージック':'리듬','動作':'액션','角色扮演':'RPG','策略':'전략','益智':'퍼즐','休閒':'캐주얼','模擬':'시뮬레이션','冒險':'어드벤처','運動':'스포츠','卡牌':'카드'};
@@ -127,51 +147,61 @@ async function aiCrawl(country){
         messages:[{role:'user',content:`You are a mobile game store analyst. Crawl the App Store and Google Play for ${c.name} and extract EVERY featured GAME.
 
 === CRITICAL RULES ===
-1. ONLY GAMES. Exclude ALL non-game apps (AI tools, social media, productivity, music, photo editors, finance, messaging, health/fitness, weather, news, etc.)
+1. ONLY GAMES from the Games category. Exclude ALL non-game apps.
+   - The ONLY exception for Apps category: "MapleStory Worlds" / "메이플스토리 월드" — include this if found.
+   - Exclude ALL other Apps category items (AI tools, social media, productivity, photo editors, music, finance, messaging, etc.)
 2. Extract the OFFICIAL APP TITLE shown next to the "${loc.get}" button — NOT editorial headlines.
    WRONG: "애쉬베일 등장!" → RIGHT: "붕괴: 스타레일"
-   WRONG: "심장아 나대지마!" → RIGHT: (this is editorial, skip if no game lockup)
-3. Preserve the ORDER games appear on the page (first game on page = priority 1).
-4. Clearly mark which TAB each game comes from.
+   WRONG: "심장아 나대지마!" → editorial headline, find the actual game name in the lockup
+3. Preserve the ORDER games appear on the page (first game = priority 1).
+4. EVERY game MUST have: icon URL, rating, developer name, genre.
+
+=== ICON URLs (MANDATORY) ===
+- App Store icons: https://is1-ssl.mzstatic.com/image/thumb/Purple.../AppIcon.../128x128bb.png
+  Find these in <img> tags near the app title. Convert to 128x128bb size.
+- Google Play icons: https://play-lh.googleusercontent.com/...=s128-rw
+  Find in <img> tags with alt matching the game name.
+- If you cannot find the icon URL from the page, visit the app's detail page to get it.
+
+=== RATING (MANDATORY) ===
+- Extract the actual user rating (e.g. 4.5, 4.7) from the store page or app detail page.
+- Every game must have a rating. If not visible on the list page, visit the detail page.
 
 === APP STORE: TODAY TAB ===
 URL: ${u.asToday}
-- Crawl ALL hero cards and editorial story cards from top to bottom
+- Crawl hero cards and editorial story cards from top to bottom
 - For each card, find the actual game in the app lockup area (small icon + title + "${loc.get}" button)
 - Known section types: ${loc.todaySections}
 - Mark tab as "Today"
-- Extract: app name, developer name, genre, rating (from the app detail), icon URL (mzstatic.com), App Store URL (/app/slug/id123)
 
 === APP STORE: GAMES TAB ===  
 URL: ${u.asGames}
-- Crawl the curated lists: ${loc.gamesSections}
-- These are scrollable horizontal lists of game cards
+- ONLY extract games from the TOP HERO BANNER area at the very top of the page.
+- ${loc.gamesBanner}
+- These are the large promotional banner cards (with big images) that appear BEFORE any list/collection sections.
+- DO NOT include games from horizontal scrolling list collections like "오늘은 이 게임", "꼭 해봐야 할 게임", "무료 게임 순위", etc.
+- DO NOT include games from "Top Free", "Top Paid", or any ranked chart lists.
+- Typically there are only 1-5 hero banner games at the top.
 - Mark tab as "Games"
 - Include games NOT already found in Today tab
 
 === GOOGLE PLAY ===
 URL: ${u.gpGames}
-- Hero carousel banners at top
-- Editorial sections: ${loc.gpSections}
+- Hero carousel banners + editorial sections: ${loc.gpSections}
 - Mark tab as "Featured"
-- Extract: game name, developer, genre, rating, icon URL (play-lh.googleusercontent.com), Play Store URL
 
-=== OUTPUT ===
-Return ONLY valid JSON. No markdown. No explanation.
+=== OUTPUT (STRICT JSON ONLY) ===
 {
   "as":[
-    {"name":"Official Title","dev":"Developer Name","genre":"액션","rating":4.5,"label":"Section Name","icon":"https://is1-ssl.mzstatic.com/...","tab":"Today","url":"https://apps.apple.com/${c.cc}/app/slug/id123","priority":1},
-    ...
+    {"name":"Title","dev":"Developer","genre":"액션","rating":4.5,"label":"Section","icon":"https://is1-ssl.mzstatic.com/...","tab":"Today","url":"https://apps.apple.com/${c.cc}/app/slug/id123","priority":1}
   ],
   "gp":[
-    {"name":"Official Title","dev":"Developer Name","genre":"RPG","rating":4.3,"label":"Section","icon":"https://play-lh.googleusercontent.com/...","tab":"Featured","url":"https://play.google.com/store/apps/details?id=com.xxx","priority":1},
-    ...
+    {"name":"Title","dev":"Developer","genre":"RPG","rating":4.3,"label":"Section","icon":"https://play-lh.googleusercontent.com/...","tab":"Featured","url":"https://play.google.com/store/apps/details?id=com.xxx","priority":1}
   ]
 }
 
 GENRE = exactly one of: 액션, RPG, 전략, 퍼즐, 캐주얼, 시뮬레이션, 어드벤처, 스포츠, 카드, 리듬
-PRIORITY = order of appearance on page (1 = first visible)
-Include 10-25 games per store. Every game must have dev, genre, rating, icon, url.`}],
+Include 10-25 games per store. icon and rating are REQUIRED for every entry.`}],
       }),
     });
     const d=await r.json();
@@ -222,18 +252,20 @@ export default async function handler(req){
   let gpG=parseGP(h3);
   console.log(`[HTML] AS=${asG.length} GP=${gpG.length}`);
 
-  // AI enrichment
+  // AI enrichment — filter non-games except MapleStory Worlds
   const ai=await aiCrawl(country);
   if(ai){
-    asG=merge(asG,(ai.as||[]).filter(a=>!isBanned(a.name)));
-    gpG=merge(gpG,(ai.gp||[]).filter(a=>!isBanned(a.name)));
+    const filterAS = (ai.as||[]).filter(a => !isBanned(a.name) && (isGameCategory(a) || isAppsException(a.name)));
+    const filterGP = (ai.gp||[]).filter(a => !isBanned(a.name));
+    asG=merge(asG, filterAS);
+    gpG=merge(gpG, filterGP);
     console.log(`[+AI] AS=${asG.length} GP=${gpG.length}`);
   }
 
-  // Sort by priority, assign rank
+  // Sort by priority, assign rank, final filter
   asG.sort((a,b)=>(a.priority||999)-(b.priority||999));
   gpG.sort((a,b)=>(a.priority||999)-(b.priority||999));
-  asG=asG.filter(g=>!isBanned(g.name)).map((g,i)=>({rank:i+1,...g}));
+  asG=asG.filter(g=>!isBanned(g.name)&&(isGameCategory(g)||isAppsException(g.name))).map((g,i)=>({rank:i+1,...g}));
   gpG=gpG.filter(g=>!isBanned(g.name)).map((g,i)=>({rank:i+1,...g}));
 
   return Response.json({

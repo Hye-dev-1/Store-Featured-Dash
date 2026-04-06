@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Store Featured Dashboard</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0f1117;color:#fff;font-family:'Segoe UI',system-ui,sans-serif;padding:20px 16px}
+.wrap{max-width:1100px;margin:0 auto}
+.hdr{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+.hdr h1{font-size:20px;font-weight:800}.hdr .sub{color:#888;font-size:12px;margin-top:2px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{background:#1a1d27;border:1px solid #2a2d3a;cursor:pointer;font-weight:600;color:#999;transition:all .2s;white-space:nowrap;border-radius:20px;padding:6px 16px;font-size:13px}
+.tab.active{background:#5B8DEF;border-color:#5B8DEF;color:#fff}
+.tab.sm{border-radius:8px;padding:6px 14px;font-size:12px}
+/* Status */
+.status{display:flex;align-items:center;gap:8px;margin-bottom:14px;padding:8px 14px;background:#13151f;border:1px solid #2a2d3a;border-radius:8px;font-size:11px;color:#888}
+.status .dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.status a{color:#5B8DEF;text-decoration:none;margin-left:auto}
+/* Summary */
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:16px}
+.sc{background:#1a1d27;border:1px solid #2a2d3a;border-radius:12px;padding:12px 14px}
+.sc .lbl{font-size:11px;color:#888;margin-bottom:4px}.sc .val{font-size:24px;font-weight:800}
+/* Grid */
+.grid{display:grid;gap:12px}.grid.two{grid-template-columns:1fr 1fr}.grid.one{grid-template-columns:1fr}
+.panel{background:#1a1d27;border:1px solid #2a2d3a;border-radius:14px;padding:14px}
+.ph{display:flex;align-items:center;gap:8px;margin-bottom:12px}
+.ptitle{font-weight:700;font-size:15px}.psub{font-size:11px;color:#888}
+/* App Row */
+.arow{display:flex;align-items:center;gap:8px;padding:7px 10px;border-radius:8px;background:#13151f;margin-bottom:5px;border:1px solid #2a2d3a;position:relative}
+.arow.nx{border:1.5px solid #B4E114;box-shadow:0 0 6px rgba(180,225,20,.15)}
+.arow.cm{border-color:rgba(255,184,0,.2)}
+.arow .rk{min-width:20px;color:#555;font-size:12px;font-weight:700;text-align:right}
+.arow .ai{flex:1;min-width:0}.arow .an{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.arow .am{display:flex;gap:5px;align-items:center;margin-top:2px;flex-wrap:wrap}
+.bdg{border-radius:3px;padding:1px 5px;font-size:9px;font-weight:700}
+.slbl{font-size:9px;color:#666}
+.st-r{font-size:10px;color:#FFB800}
+.nx-tag{position:absolute;right:6px;top:6px;font-size:8px;color:#B4E114;font-weight:700;background:rgba(180,225,20,.1);border:1px solid rgba(180,225,20,.25);border-radius:3px;padding:1px 4px}
+.cm-tag{position:absolute;right:6px;top:6px;font-size:8px;color:#FFB800;font-weight:700}
+/* Chart bar */
+.br{display:flex;align-items:center;gap:6px;margin-bottom:4px}
+.blbl{width:50px;font-size:10px;color:#889;text-align:right;flex-shrink:0}
+.btrack{flex:1;background:#0f1117;border-radius:2px;height:16px;overflow:hidden}
+.bfill{height:100%;border-radius:2px;display:flex;align-items:center;padding-left:5px}
+.bfill span{font-size:9px;color:#fff;font-weight:700}
+/* Common */
+.common-sec{margin-top:14px;background:#1a1d27;border:1px solid rgba(255,184,0,.2);border-radius:14px;padding:14px}
+.common-title{font-size:13px;font-weight:700;color:#FFB800;margin-bottom:10px}
+.cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px}
+.ccard{background:#13151f;border:1px solid rgba(255,184,0,.25);border-radius:8px;padding:8px 10px}
+.cn{font-size:12px;font-weight:600;margin-bottom:2px}
+/* Banner */
+.banner{margin-bottom:14px;position:relative;overflow:hidden;border-radius:10px;height:56px;background:#1a1d27;border:1px solid #2a2d3a;display:flex;align-items:center}
+.bn-track{display:flex;transition:transform .4s;height:100%}
+.bn-slide{min-width:100%;height:100%;display:flex;align-items:center;gap:12px;padding:0 16px;flex-shrink:0}
+.bn-slide .s-sec{font-size:9px;font-weight:700;color:#FFB800}.bn-slide .s-name{font-size:14px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bn-slide .s-rt{background:rgba(255,184,0,.1);border:1px solid rgba(255,184,0,.2);border-radius:10px;padding:2px 8px;font-size:10px;color:#FFB800;font-weight:700}
+.bn-nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(0,0,0,.4);border:none;color:#fff;width:24px;height:24px;border-radius:50%;cursor:pointer;font-size:12px;display:flex;align-items:center;justify-content:center;z-index:2}
+.bn-nav.prev{left:4px}.bn-nav.next{right:4px}
+.bn-dots{position:absolute;bottom:4px;left:50%;transform:translateX(-50%);display:flex;gap:4px}
+.bn-dots span{width:4px;height:4px;border-radius:2px;background:#fff;opacity:.25;cursor:pointer}
+.bn-dots span.on{opacity:1;width:12px}
+/* Nexon */
+.nx-sec{margin-bottom:14px;background:linear-gradient(135deg,#1a1d27,#1c2210);border:1.5px solid #B4E114;border-radius:14px;padding:16px}
+.nx-hdr{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.nx-logo{width:30px;height:30px;border-radius:7px;background:#B4E114;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:900;color:#0f1117}
+.nx-title{font-size:15px;font-weight:800;color:#B4E114}.nx-sub{font-size:11px;color:#7a8a3a}
+.nx-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:8px;margin-bottom:12px}
+.nst{background:rgba(15,17,23,.5);border:1px solid rgba(180,225,20,.15);border-radius:8px;padding:10px 12px}
+.nst .nl{font-size:10px;color:#7a8a3a;margin-bottom:3px}.nst .nv{font-size:20px;font-weight:800;color:#B4E114}
+/* Loading skeleton */
+.skel{background:linear-gradient(90deg,#1a1d27 25%,#222530 50%,#1a1d27 75%);background-size:200% 100%;animation:shimmer 1.5s infinite;border-radius:8px;height:44px;margin-bottom:6px}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+/* Footer */
+.footer{text-align:center;color:#333;font-size:10px;margin-top:18px}
+/* Trend */
+.trend-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+.trend-panel{background:#1a1d27;border:1px solid #2a2d3a;border-radius:14px;padding:14px}
+.trend-panel h3{font-size:13px;font-weight:700;margin-bottom:10px}
+.freq-bar{display:flex;align-items:center;gap:6px;margin-bottom:4px}
+.freq-lbl{width:100px;font-size:10px;color:#889;text-align:right;flex-shrink:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.freq-track{flex:1;background:#0f1117;border-radius:2px;height:14px;overflow:hidden}
+.freq-fill{height:100%;border-radius:2px;display:flex;align-items:center;padding-left:5px}
+.freq-fill span{font-size:8px;color:#fff;font-weight:700}
+.heatmap{display:grid;gap:2px}.hm-row{display:flex;align-items:center;gap:2px}
+.hm-lbl{width:80px;font-size:10px;color:#888;text-align:right;flex-shrink:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hm-cell{width:24px;height:24px;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:8px;font-weight:700;color:#fff}
+.hm-hdr{width:24px;font-size:8px;color:#888;text-align:center}
+@media(max-width:640px){.grid.two,.trend-grid{grid-template-columns:1fr}.hdr{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="hdr"><div><h1>📊 Store Featured Dashboard</h1><div class="sub" id="dateLbl"></div></div><div class="tabs" id="mainTabs"><button class="tab sm active" onclick="setTab('dash',this)">대시보드</button><button class="tab sm" onclick="setTab('trend',this)">📈 트렌드</button><button class="tab sm" onclick="setTab('log',this)">📅 로그</button></div></div>
+<div class="status" id="statusBar"><div class="dot" id="stDot" style="background:#FFB800"></div><span id="stMsg">로딩 중...</span><a id="stLink" href="#" target="_blank" style="display:none"></a></div>
+<div id="dashWrap">
+<div id="storeBar" style="display:flex;gap:6px;margin-bottom:12px"><button class="tab sm active" onclick="setStore('both',this)">전체</button><button class="tab sm" onclick="setStore('google',this)">Google Play</button><button class="tab sm" onclick="setStore('apple',this)">App Store</button></div>
+<div class="tabs" id="countryBar" style="margin-bottom:14px"></div>
+<div class="nx-sec" id="nxSec"></div>
+<div class="banner" id="bnWrap"><div class="bn-track" id="bnTrack"></div><button class="bn-nav prev" onclick="moveBn(-1)">‹</button><button class="bn-nav next" onclick="moveBn(1)">›</button><div class="bn-dots" id="bnDots"></div></div>
+<div class="summary" id="summ"></div>
+<div class="grid two" id="mainGrid"><div class="panel" id="gpP"><div class="ph"><div style="font-size:16px">▶</div><div><div class="ptitle">Google Play</div><div class="psub" id="gpS"></div></div></div><div id="gpL"></div><div style="font-size:11px;color:#666;font-weight:700;margin:10px 0 6px">장르 분포</div><div id="gpCh"></div></div><div class="panel" id="apP"><div class="ph"><div style="font-size:16px"></div><div><div class="ptitle">App Store</div><div class="psub" id="apS"></div></div></div><div id="apL"></div><div style="font-size:11px;color:#666;font-weight:700;margin:10px 0 6px">장르 분포</div><div id="apCh"></div></div></div>
+<div class="common-sec" id="cmSec"><div class="common-title">★ 양쪽 동시 피쳐드</div><div class="cgrid" id="cmG"></div></div>
+</div>
+<div id="trendWrap" style="display:none"></div>
+<div id="logWrap" style="display:none"></div>
+<div class="footer" id="footer"></div>
+</div>
+
+<script>
+var CC={KR:{label:'🇰🇷 한국'},TW:{label:'🇹🇼 대만'},JP:{label:'🇯🇵 일본'},US:{label:'🇺🇸 미국'},TH:{label:'🇹🇭 태국'}};
+var COUNTRIES=Object.keys(CC);
+var GC={액션:'#EF5B5B',전략:'#5B8DEF',퍼즐:'#A05BEF',스포츠:'#3DAAA0',RPG:'#E07B4F',캐주얼:'#EFC45B',시뮬레이션:'#5BEF8D',어드벤처:'#EF8D5B',리듬:'#EF5BAA',카드:'#5BEFEF'};
+var NXNames=['블루 아카이브','Blue Archive','ブルーアーカイブ','메이플 키우기','마비노기 모바일','던전앤파이터 모바일','FC 온라인','히트2','HIT2','퍼스트 디센던트','The First Descendant','데이브 더 다이버'];
+var NXExclude=['EA SPORTS FC','쿠키런: 킹덤','CookieRun: Kingdom'];
+function nm(n){return(n||'').replace(/[™:：\s]/g,'').toLowerCase();}
+function isNX(n){if(!n)return false;if(NXExclude.some(function(x){return n.includes(x);}))return false;return NXNames.some(function(x){return nm(n)===nm(x);});}
+
+/* Storage */
+var sto=(function(){
+  function ok(){try{localStorage.setItem('_','1');localStorage.removeItem('_');return true;}catch(e){return false;}}
+  if(ok())return{
+    set:function(k,v){localStorage.setItem(k,v);},
+    get:function(k){return localStorage.getItem(k);},
+    del:function(k){localStorage.removeItem(k);},
+    keys:function(p){var r=[];for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(!p||k.indexOf(p)===0)r.push(k);}return r;}
+  };
+  var m={};
+  return{set:function(k,v){m[k]=v;},get:function(k){return m[k]||null;},del:function(k){delete m[k];},keys:function(p){return Object.keys(m).filter(function(k){return!p||k.indexOf(p)===0;});}};
+})();
+
+/* State */
+var DATA={};COUNTRIES.forEach(function(c){DATA[c]={google:[],apple:[]};});
+var curC='KR',curS='both',curTab='dash',bnIdx=0,bnTmr=null;
+
+function today(){return new Date().toISOString().slice(0,10);}
+
+/* ═══ DATA LOADING (3단계 폴백) ═══ */
+async function loadCountry(cc){
+  // 1. 오늘 캐시
+  var cached=sto.get('day:'+today()+':'+cc);
+  if(cached){
+    try{var d=JSON.parse(cached);if(d.google&&d.google.length>0||d.apple&&d.apple.length>0){DATA[cc]=d;return'cache';}}catch(e){}
+  }
+  // 2. 서버 크롤링 (Netlify Function)
+  try{
+    var r=await fetch('/api/crawl?country='+cc);
+    if(r.ok){
+      var d=await r.json();
+      if(d.google||d.apple){
+        DATA[cc]={google:d.google||[],apple:d.apple||[]};
+        sto.set('day:'+today()+':'+cc,JSON.stringify(DATA[cc]));
+        saveSnap();
+        return'live';
+      }
+    }
+  }catch(e){console.warn('서버 크롤링 실패['+cc+']:',e);}
+  // 3. 최근 스냅샷에서 복원
+  var snaps=sto.keys('snap:').sort().reverse();
+  for(var i=0;i<snaps.length;i++){
+    try{
+      var s=JSON.parse(sto.get(snaps[i]));
+      if(s[cc]&&(s[cc].google.length>0||s[cc].apple.length>0)){
+        DATA[cc]=s[cc];
+        return'snap:'+snaps[i].replace('snap:','');
+      }
+    }catch(e){}
+  }
+  return'empty';
+}
+
+function saveSnap(){
+  var p={};COUNTRIES.forEach(function(c){p[c]={google:DATA[c].google,apple:DATA[c].apple};});
+  sto.set('snap:'+today(),JSON.stringify(p));
+  // 30일 초과 삭제
+  var k=sto.keys('snap:').sort();
+  while(k.length>30){sto.del(k.shift());}
+}
+
+/* ═══ BOOT ═══ */
+async function boot(){
+  setStatus('#FFB800','데이터 로딩 중...');
+  rCB();showSkeleton();
+
+  // 현재 선택 국가 먼저 로드
+  var src=await loadCountry(curC);
+  render();
+  setStatus(src==='live'?'#5BEF8D':src==='cache'?'#5BEF8D':'#FFB800',
+    CC[curC].label+' '+{live:'✅ 실시간 수집',cache:'✅ 오늘 캐시',empty:'⚠ 데이터 없음'}[src.split(':')[0]]||'📦 '+src);
+
+  // 나머지 국가 백그라운드 로드
+  for(var i=0;i<COUNTRIES.length;i++){
+    if(COUNTRIES[i]!==curC) await loadCountry(COUNTRIES[i]);
+  }
+}
+
+function showSkeleton(){
+  var s='';for(var i=0;i<5;i++)s+='<div class="skel"></div>';
+  document.getElementById('gpL').innerHTML=s;
+  document.getElementById('apL').innerHTML=s;
+}
+
+/* ═══ STATUS ═══ */
+function setStatus(c,msg){document.getElementById('stDot').style.background=c;document.getElementById('stMsg').textContent=msg;}
+
+/* ═══ RENDER ═══ */
+function bg(g){var c=GC[g]||'#888';return'<span class="bdg" style="background:'+c+'22;color:'+c+';border:1px solid '+c+'44">'+g+'</span>';}
+function sr(r){return r?'<span class="st-r">★'+r+'</span>':'';}
+function isCm(n,g,a){return g.some(function(x){return nm(x.name)===nm(n);})&&a.some(function(x){return nm(x.name)===nm(n);});}
+
+function rCB(){document.getElementById('countryBar').innerHTML=COUNTRIES.map(function(k){return'<button class="tab'+(k===curC?' active':'')+'" onclick="pickCountry(\''+k+'\')">'+CC[k].label+'</button>';}).join('');}
+
+function render(){
+  var d=DATA[curC],td=new Date().toLocaleDateString('ko-KR',{year:'numeric',month:'long',day:'numeric'});
+  document.getElementById('dateLbl').textContent=td+' · '+CC[curC].label;
+  document.getElementById('footer').textContent='데이터: App Store + Google Play · '+td;
+
+  // Summary
+  var cm=d.google.filter(function(g){return isCm(g.name,d.google,d.apple);});
+  var all=d.google.concat(d.apple),rated=all.filter(function(a){return a.rating>0;});
+  var avg=rated.length?(rated.reduce(function(s,a){return s+a.rating;},0)/rated.length).toFixed(1):'—';
+  document.getElementById('summ').innerHTML='<div class="sc"><div class="lbl">Google Play</div><div class="val" style="color:#34A853">'+d.google.length+'</div></div><div class="sc"><div class="lbl">App Store</div><div class="val" style="color:#5B8DEF">'+d.apple.length+'</div></div><div class="sc"><div class="lbl">공통</div><div class="val" style="color:#FFB800">'+cm.length+'</div></div><div class="sc"><div class="lbl">평균 평점</div><div class="val" style="color:#EF5B5B">★'+avg+'</div></div>';
+
+  // Lists
+  rList('gpL',d.google,d.google,d.apple);
+  rList('apL',d.apple,d.google,d.apple);
+  rChart('gpCh',d.google);rChart('apCh',d.apple);
+  document.getElementById('gpS').textContent=CC[curC].label+' '+d.google.length+'개';
+  document.getElementById('apS').textContent=CC[curC].label+' '+d.apple.length+'개';
+
+  // Common
+  document.getElementById('cmG').innerHTML=cm.length?cm.map(function(a){var nx=isNX(a.name);return'<div class="ccard" style="'+(nx?'border-color:#B4E114':'')+'"><div class="cn" style="'+(nx?'color:#B4E114':'')+'">'+a.name+'</div>'+bg(a.genre)+'</div>';}).join(''):'<div style="color:#555;font-size:12px">없음</div>';
+
+  // Visibility
+  document.getElementById('gpP').style.display=(curS==='both'||curS==='google')?'':'none';
+  document.getElementById('apP').style.display=(curS==='both'||curS==='apple')?'':'none';
+  document.getElementById('cmSec').style.display=curS==='both'?'':'none';
+  document.getElementById('mainGrid').className='grid '+(curS==='both'?'two':'one');
+
+  // Banners
+  rBn();rNX();
+}
+
+function rList(id,data,g,a){
+  if(!data.length){document.getElementById(id).innerHTML='<div style="text-align:center;padding:24px;color:#444;font-size:12px">수집된 데이터 없음</div>';return;}
+  document.getElementById(id).innerHTML=data.map(function(x){
+    var c=isCm(x.name,g,a),nx=isNX(x.name);
+    return'<div class="arow'+(nx?' nx':'')+(c?' cm':'')+'">'+(nx?'<span class="nx-tag">NEXON</span>':c?'<span class="cm-tag">양쪽</span>':'')+'<div class="rk">'+x.rank+'</div><div class="ai"><div class="an">'+x.name+'</div><div class="am">'+bg(x.genre)+(x.section?'<span class="slbl">'+x.section+'</span>':'')+sr(x.rating)+'</div></div></div>';
+  }).join('');
+}
+
+function rChart(id,data){
+  var c={};data.forEach(function(a){if(a.genre&&a.genre!=='—')c[a.genre]=(c[a.genre]||0)+1;});
+  var s=Object.entries(c).sort(function(a,b){return b[1]-a[1];}),mx=s[0]?s[0][1]:1;
+  document.getElementById(id).innerHTML=s.map(function(e){return'<div class="br"><div class="blbl">'+e[0]+'</div><div class="btrack"><div class="bfill" style="width:'+Math.round(e[1]/mx*100)+'%;background:'+(GC[e[0]]||'#5B8DEF')+'"><span>'+e[1]+'</span></div></div></div>';}).join('');
+}
+
+function rBn(){
+  var d=DATA[curC],b=[];
+  d.google.slice(0,3).forEach(function(a){b.push({name:a.name,sec:'▶ GP · '+a.section,rt:a.rating});});
+  d.apple.slice(0,3).forEach(function(a){b.push({name:a.name,sec:' AS · '+a.section,rt:a.rating});});
+  if(!b.length)b=[{name:'데이터 로딩 중...',sec:'잠시만 기다려주세요',rt:0}];
+  document.getElementById('bnTrack').innerHTML=b.map(function(x){return'<div class="bn-slide"><div style="flex:1;min-width:0"><div class="s-sec">'+x.sec+'</div><div class="s-name">'+x.name+'</div></div>'+(x.rt?'<div class="s-rt">★'+x.rt+'</div>':'')+'</div>';}).join('');
+  document.getElementById('bnDots').innerHTML=b.map(function(_,i){return'<span class="'+(i===bnIdx?'on':'')+'" onclick="goBn('+i+')"></span>';}).join('');
+  uBn();clearInterval(bnTmr);bnTmr=setInterval(function(){moveBn(1);},4000);
+}
+function uBn(){document.getElementById('bnTrack').style.transform='translateX(-'+bnIdx*100+'%)';var d=document.querySelectorAll('.bn-dots span');for(var i=0;i<d.length;i++)d[i].className=i===bnIdx?'on':'';}
+function moveBn(dir){var d=DATA[curC],b=d.google.length+d.apple.length;var len=Math.min(6,Math.max(1,b));bnIdx=(bnIdx+dir+len)%len;uBn();}
+function goBn(i){bnIdx=i;uBn();}
+
+function rNX(){
+  var d=DATA[curC],all=d.google.concat(d.apple),nx=all.filter(function(a){return isNX(a.name);});
+  var uq={};nx.forEach(function(a){var k=nm(a.name);if(!uq[k])uq[k]=a;});
+  var nl=Object.values(uq),nc=nl.length;
+  if(!nc){document.getElementById('nxSec').style.display='none';return;}
+  document.getElementById('nxSec').style.display='';
+  document.getElementById('nxSec').innerHTML='<div class="nx-hdr"><div class="nx-logo">N</div><div><div class="nx-title">NEXON 피쳐드</div><div class="nx-sub">'+CC[curC].label+' GP '+d.google.filter(function(a){return isNX(a.name);}).length+' + AS '+d.apple.filter(function(a){return isNX(a.name);}).length+'</div></div></div>'
+  +'<div class="nx-stats"><div class="nst"><div class="nl">피쳐드</div><div class="nv">'+nc+'</div></div><div class="nst"><div class="nl">최고순위</div><div class="nv">#'+Math.min.apply(null,nx.map(function(a){return a.rank;}))+'</div></div><div class="nst"><div class="nl">평균평점</div><div class="nv">★'+(nl.reduce(function(s,a){return s+(a.rating||0);},0)/nc).toFixed(1)+'</div></div></div>'
+  +nl.map(function(a){return'<div class="arow nx" style="margin-bottom:4px"><div class="rk">'+a.rank+'</div><div class="ai"><div class="an" style="color:#B4E114">'+a.name+'</div><div class="am">'+bg(a.genre)+sr(a.rating)+'</div></div></div>';}).join('');
+}
+
+/* ═══ NAV ═══ */
+async function pickCountry(c){curC=c;rCB();showSkeleton();var src=await loadCountry(c);render();setStatus(src.includes('live')||src.includes('cache')?'#5BEF8D':'#FFB800',CC[c].label+' 로드: '+src);}
+function setStore(s,b){curS=s;document.querySelectorAll('#storeBar .tab').forEach(function(x){x.classList.remove('active');});b.classList.add('active');render();}
+function setTab(t,b){curTab=t;document.querySelectorAll('#mainTabs .tab').forEach(function(x){x.classList.remove('active');});b.classList.add('active');
+  document.getElementById('dashWrap').style.display=t==='dash'?'':'none';
+  document.getElementById('trendWrap').style.display=t==='trend'?'':'none';
+  document.getElementById('logWrap').style.display=t==='log'?'':'none';
+  if(t==='trend')rTrend();if(t==='log')rLog();
+}
+
+/* ═══ TRENDS ═══ */
+function rTrend(){
+  var h='<div class="tabs" style="margin-bottom:12px"><button class="tab sm active" onclick="tScope=\'s\';rTrend()">'+CC[curC].label+'</button><button class="tab sm" onclick="tScope=\'a\';rTrend()">🌏 전체</button></div>';
+  var d=DATA[curC],all=d.google.concat(d.apple);
+  if(typeof tScope==='undefined')tScope='s';
+  if(tScope==='a'){all=[];COUNTRIES.forEach(function(c){all=all.concat(DATA[c].google,DATA[c].apple);});}
+  // Genre
+  var gG={},aG={};
+  var src=tScope==='s'?[DATA[curC]]:COUNTRIES.map(function(c){return DATA[c];});
+  src.forEach(function(d){d.google.forEach(function(a){if(a.genre&&a.genre!=='—')gG[a.genre]=(gG[a.genre]||0)+1;});d.apple.forEach(function(a){if(a.genre&&a.genre!=='—')aG[a.genre]=(aG[a.genre]||0)+1;});});
+  var genres=Object.keys(Object.assign({},gG,aG)).sort(function(a,b){return(gG[b]||0)+(aG[b]||0)-(gG[a]||0)-(aG[a]||0);});
+  var gmx=Math.max.apply(null,genres.map(function(g){return Math.max(gG[g]||0,aG[g]||0);}));if(gmx<1)gmx=1;
+  h+='<div class="trend-grid"><div class="trend-panel"><h3>장르 점유율</h3>'+genres.map(function(g){var gv=gG[g]||0,av=aG[g]||0,c=GC[g]||'#888';return'<div style="margin-bottom:5px"><div style="font-size:11px;color:'+c+';font-weight:700">'+g+'</div><div style="display:flex;gap:4px;align-items:center"><div style="width:26px;font-size:9px;color:#34A853;text-align:right">GP</div><div style="flex:1;background:#0f1117;border-radius:2px;height:10px;overflow:hidden"><div style="width:'+Math.round(gv/gmx*100)+'%;height:100%;background:#34A853"></div></div><div style="width:14px;font-size:9px;color:#888">'+gv+'</div></div><div style="display:flex;gap:4px;align-items:center;margin-top:1px"><div style="width:26px;font-size:9px;color:#5B8DEF;text-align:right">AS</div><div style="flex:1;background:#0f1117;border-radius:2px;height:10px;overflow:hidden"><div style="width:'+Math.round(av/gmx*100)+'%;height:100%;background:#5B8DEF"></div></div><div style="width:14px;font-size:9px;color:#888">'+av+'</div></div></div>';}).join('')+'</div>';
+  // Freq
+  var f={};all.forEach(function(a){if(!a.name||a.genre==='—')return;var k=nm(a.name);if(!f[k])f[k]={name:a.name,c:0,nx:isNX(a.name)};f[k].c++;});
+  var tp=Object.values(f).sort(function(a,b){return b.c-a.c;}).slice(0,10),fmx=tp[0]?tp[0].c:1;
+  h+='<div class="trend-panel"><h3>피쳐드 빈도</h3>'+tp.map(function(a){return'<div class="freq-bar"><div class="freq-lbl" style="'+(a.nx?'color:#B4E114':'')+'">'+a.name+'</div><div class="freq-track"><div class="freq-fill" style="width:'+Math.round(a.c/fmx*100)+'%;background:'+(a.nx?'linear-gradient(90deg,#B4E114,#7a8a3a)':'linear-gradient(90deg,#5B8DEF,#A05BEF)')+'"><span>'+a.c+'</span></div></div></div>';}).join('')+'</div></div>';
+  document.getElementById('trendWrap').innerHTML=h;
+}
+
+/* ═══ LOG ═══ */
+function rLog(){
+  var snaps=sto.keys('snap:').sort().reverse();
+  if(!snaps.length){document.getElementById('logWrap').innerHTML='<div style="text-align:center;padding:40px;color:#555">📭 스냅샷 없음<br><small>페이지 로드 시 자동 저장됩니다</small></div>';return;}
+  var h='<div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap"><select id="lC" onchange="rLog()" style="background:#1a1d27;border:1px solid #2a2d3a;color:#fff;border-radius:8px;padding:6px 10px;font-size:13px">'+COUNTRIES.map(function(c){return'<option value="'+c+'">'+CC[c].label+'</option>';}).join('')+'</select><select id="lS" onchange="rLog()" style="background:#1a1d27;border:1px solid #2a2d3a;color:#fff;border-radius:8px;padding:6px 10px;font-size:13px"><option value="google">Google Play</option><option value="apple">App Store</option></select></div>';
+  var lc=(document.getElementById('lC')||{}).value||'KR',ls=(document.getElementById('lS')||{}).value||'google';
+  var cards=snaps.map(function(k){try{var s=JSON.parse(sto.get(k));return{date:k.replace('snap:',''),list:(s[lc]&&s[lc][ls])||[]};}catch(e){return{date:k.replace('snap:',''),list:[]};}});
+  // Freq
+  var fm={};cards.forEach(function(c){c.list.forEach(function(a){if(!a.name)return;var k=nm(a.name);if(!fm[k])fm[k]={name:a.name,days:0,nx:isNX(a.name)};fm[k].days++;});});
+  var fl=Object.values(fm).sort(function(a,b){return b.days-a.days;}).slice(0,8),fmx=fl[0]?fl[0].days:1;
+  if(fl.length){h+='<div style="background:#1a1d27;border:1px solid #2a2d3a;border-radius:12px;padding:14px;margin-bottom:12px"><div style="font-size:12px;color:#888;font-weight:700;margin-bottom:8px">📊 등장 빈도 ('+cards.length+'일)</div>'+fl.map(function(a){return'<div class="freq-bar"><div class="freq-lbl" style="'+(a.nx?'color:#B4E114':'')+'">'+a.name+'</div><div class="freq-track"><div class="freq-fill" style="width:'+Math.round(a.days/fmx*100)+'%;background:'+(a.nx?'linear-gradient(90deg,#B4E114,#7a8a3a)':'linear-gradient(90deg,#5B8DEF,#A05BEF)')+'"><span>'+a.days+'일</span></div></div></div>';}).join('')+'</div>';}
+  cards.forEach(function(c){
+    h+='<div style="background:#1a1d27;border:1px solid #2a2d3a;border-radius:12px;padding:14px;margin-bottom:10px"><div style="font-weight:700;margin-bottom:8px">📅 '+c.date+'</div>';
+    if(c.list.length){c.list.slice(0,10).forEach(function(a){var nx=isNX(a.name);h+='<div class="arow'+(nx?' nx':'')+'" style="margin-bottom:3px"><div class="rk">'+a.rank+'</div><div class="ai"><div class="an" style="font-size:12px;'+(nx?'color:#B4E114':'')+'">'+a.name+'</div><div class="am">'+bg(a.genre)+sr(a.rating)+'</div></div></div>';});}
+    else h+='<div style="color:#555;font-size:12px">데이터 없음</div>';
+    h+='</div>';
+  });
+  document.getElementById('logWrap').innerHTML=h;
+}
+
+var tScope='s';
+boot();
+</script>
+</body>
+</html>

@@ -123,16 +123,21 @@ async function loadC(cc){
   return'empty';
 }
 
-/* 클라이언트 사이드 정제: 에디토리얼 문구 + 비게임 최종 필터 */
+/* 클라이언트 사이드 최종 필터 */
 function cleanList(list){
   return list.filter(function(a){
-    if(!a.name||a.name.length<2)return false;
-    // 에디토리얼 문구 필터
-    if(/만나보세요|즐겨보세요|확인하세요|떠나보세요|시작하세요|도전하세요|경험하세요|대비하세요|챙기세요|함께하세요/.test(a.name))return false;
-    if(/에서 만나|지금 경험|놓쳐서는|더욱 뜨거|쟁탈전|페스티벌|컴백을|빅이어/.test(a.name))return false;
-    if(/しよう|ましょう|ください|してみ|楽しもう/.test(a.name))return false;
-    if(/^(Get |Don't miss|Check out|Discover|Experience|Join |Play )/i.test(a.name))return false;
-    if(/!$/.test(a.name)&&a.name.length>15)return false;
+    if(!a.name||a.name.length<2||a.name.length>40)return false;
+    // 에디토리얼 문구
+    if(/만나보세요|즐겨보세요|확인하세요|떠나보세요|시작하세요|도전하세요|경험하세요|대비하세요|챙기세요|함께하세요|플레이하세요/.test(a.name))return false;
+    if(/에서 만나|지금 경험|놓쳐서는|더욱 뜨거|쟁탈전|페스티벌|컴백을|빅이어|사랑받는|써봐야|모두에게|심장아/.test(a.name))return false;
+    if(/しよう|ましょう|ください|楽しもう/.test(a.name))return false;
+    if(/^(Get |Don't miss|Check out|Discover|Experience|Join )/i.test(a.name))return false;
+    if(/!$/.test(a.name)&&a.name.length>12)return false;
+    // category가 명시적으로 Apps인 경우 제외 (MapleStory Worlds 예외)
+    if(a.category){
+      var cl=a.category.toLowerCase();
+      if((cl.includes('app')||cl==='productivity'||cl==='utilities'||cl==='social'||cl==='photo'||cl==='music'||cl==='education'||cl==='business'||cl==='finance'||cl==='health'||cl==='lifestyle'||cl==='news'||cl==='weather'||cl==='entertainment')&&!a.name.toLowerCase().includes('maplestory worlds')&&!a.name.includes('메이플스토리 월드'))return false;
+    }
     return true;
   });
 }

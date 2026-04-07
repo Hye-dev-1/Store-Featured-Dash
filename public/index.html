@@ -60,11 +60,11 @@
 <div class="nexon-sec" id="nexonSec"></div>
 <div class="slim-banner" id="bannerWrap"><div class="slim-track" id="bSlider"></div><button class="slim-nav prev" onclick="moveBn(-1)">‹</button><button class="slim-nav next" onclick="moveBn(1)">›</button><div class="slim-dots" id="bDots"></div></div>
 <div class="summary" id="summary"></div>
+<div class="common-sec" id="cmSec"><div class="common-title">★ 양쪽 스토어 동시 피쳐드 앱</div><div class="cgrid" id="cmG"></div></div>
 <div class="grid two" id="mainGrid">
 <div class="panel" id="gpP"><div class="ph"><div class="picon" style="background:#34A85322;color:#34A853">G</div><div><div class="ptitle">Google Play</div><div class="psub" id="gpS"></div></div></div><div id="gpL"></div><div class="ctitle">장르 분포</div><div id="gpCh"></div></div>
 <div class="panel" id="apP"><div class="ph"><div class="picon" style="background:#5B8DEF22;color:#5B8DEF"></div><div><div class="ptitle">App Store</div><div class="psub" id="apS"></div></div></div><div id="apL"></div><div class="ctitle">장르 분포</div><div id="apCh"></div></div>
 </div>
-<div class="common-sec" id="cmSec"><div class="common-title">★ 양쪽 스토어 동시 피쳐드 앱</div><div class="cgrid" id="cmG"></div></div>
 </div>
 
 <div id="trendWrap" style="display:none">
@@ -86,11 +86,25 @@ var GC={액션:'#EF5B5B',전략:'#5B8DEF',퍼즐:'#A05BEF',스포츠:'#3DAAA0',R
 var CC={KR:'🇰🇷 한국',TW:'🇹🇼 대만',JP:'🇯🇵 일본',US:'🇺🇸 미국',TH:'🇹🇭 태국'};
 var CS=Object.keys(CC);
 
-/* NEXON detect */
-var NXD='nexon,neople,mintrocket,nat games'.split(',');
-var NXK='블루 아카이브,blue archive,ブルーアーカイブ,蔚藍檔案,메이플 키우기,메이플스토리,maplestory,마비노기 모바일,mabinogi,던전앤파이터,dungeon & fighter,fc 온라인,fc online,fc모바일,히트2,hit2,the first descendant,퍼스트 디센던트,데이브 더 다이버,dave the diver,카트라이더,kartrider,v4,카운터사이드,counterside'.split(',');
+/* NEXON detect — 개발자명 1차, 게임명 2차 (엄격) */
+var NXD='nexon company,nexon korea,nexon co,neople,mintrocket,nat games,nexon games'.split(',');
+/* 넥슨 게임이지만 개발자명이 다를 수 있는 것만 (EA 퍼블리싱 제외) */
+var NXK='블루 아카이브,blue archive,ブルーアーカイブ,蔚藍檔案,메이플 키우기,마비노기 모바일,던전앤파이터 모바일,히트2,hit2,the first descendant,퍼스트 디센던트,데이브 더 다이버,dave the diver,카트라이더,kartrider,v4,카운터사이드,counterside,maplestory worlds,메이플스토리 월드,메이플스토리'.split(',');
+/* EA/컴투스 등 넥슨 아닌 "FC" 게임 명시 제외 */
+var NX_EXCLUDE='ea sports,electronic arts,ea vancouver,ea canada,com2us,컴투스'.split(',');
 function nm(n){return(n||'').replace(/[™:：\s]/g,'').toLowerCase();}
-function isNX(a){if(!a)return false;var n=typeof a==='string'?a:a.name||'',d=typeof a==='object'?(a.dev||''):'';if(d&&NXD.some(function(x){return d.toLowerCase().includes(x);}))return true;var nl=nm(n);return NXK.some(function(k){return nl===nm(k)||nl.includes(nm(k));});}
+function isNX(a){
+  if(!a)return false;
+  var n=typeof a==='string'?a:a.name||'';
+  var d=typeof a==='object'?(a.dev||''):'';
+  // 개발자가 EA/컴투스면 무조건 제외
+  if(d){var dl=d.toLowerCase();if(NX_EXCLUDE.some(function(x){return dl.includes(x);}))return false;}
+  // 개발자가 넥슨이면 포함
+  if(d){var dl=d.toLowerCase();if(NXD.some(function(x){return dl.includes(x);}))return true;}
+  // 알려진 게임명 매칭 (완전일치 또는 포함)
+  var nl=nm(n);
+  return NXK.some(function(k){return nl===nm(k);});
+}
 
 /* Storage */
 var sto=(function(){function ok(){try{localStorage.setItem('_','1');localStorage.removeItem('_');return true;}catch(e){return false;}}if(ok())return{set:function(k,v){localStorage.setItem(k,v);},get:function(k){return localStorage.getItem(k);},del:function(k){localStorage.removeItem(k);},keys:function(p){var r=[];for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(!p||k.indexOf(p)===0)r.push(k);}return r;}};var m={};return{set:function(k,v){m[k]=v;},get:function(k){return m[k]||null;},del:function(k){delete m[k];},keys:function(p){return Object.keys(m).filter(function(k){return!p||k.indexOf(p)===0;});}};})();
@@ -103,10 +117,49 @@ function td(){return new Date().toISOString().slice(0,10);}
 async function loadC(cc){
   var ck='day:'+td()+':'+cc,c=sto.get(ck);
   if(c){try{var d=JSON.parse(c);if((d.google&&d.google.length)||(d.apple&&d.apple.length)){D[cc]=d;return'cache';}}catch(e){}}
-  try{var r=await fetch('/api/crawl?country='+cc);if(r.ok){var d=await r.json();if(d.google||d.apple){D[cc]={google:d.google||[],apple:d.apple||[]};sto.set(ck,JSON.stringify(D[cc]));autoSnap();return'live';}}}catch(e){console.warn(cc,e);}
+  try{
+    // Try direct function path first (bypass redirect issues)
+    var apiUrl='/.netlify/functions/crawl?country='+cc;
+    var r=await fetch(apiUrl);
+    // If direct path fails, try /api/crawl redirect path
+    if(!r.ok&&r.status===404){
+      apiUrl='/api/crawl?country='+cc;
+      r=await fetch(apiUrl);
+    }
+    console.log('[API] '+cc+' url:',apiUrl,'status:',r.status);
+    if(r.ok){
+      var d=await r.json();
+      console.log('[API] '+cc+' AS:',d.apple?.length,'GP:',d.google?.length);
+      if(d.error){console.error('[API Error]',d.error,d.hint||'');return'error: '+d.error;}
+      if(d.google||d.apple){D[cc]={google:cleanList(d.google||[]),apple:cleanList(d.apple||[])};sto.set(ck,JSON.stringify(D[cc]));autoSnap();return'live';}
+    }else{
+      var errText=await r.text();
+      console.error('[API] '+cc+' HTTP '+r.status+':',errText.substring(0,200));
+      return'error: HTTP '+r.status;
+    }
+  }catch(e){console.warn('[API] '+cc+' fetch failed:',e.message);return'error: '+e.message;}
   var sn=sto.keys('snap:').sort().reverse();
   for(var i=0;i<sn.length;i++){try{var s=JSON.parse(sto.get(sn[i]));if(s[cc]&&(s[cc].google.length||s[cc].apple.length)){D[cc]=s[cc];return'snap';}}catch(e){}}
   return'empty';
+}
+
+/* 클라이언트 사이드 최종 필터 */
+function cleanList(list){
+  return list.filter(function(a){
+    if(!a.name||a.name.length<2||a.name.length>40)return false;
+    // 에디토리얼 문구
+    if(/만나보세요|즐겨보세요|확인하세요|떠나보세요|시작하세요|도전하세요|경험하세요|대비하세요|챙기세요|함께하세요|플레이하세요/.test(a.name))return false;
+    if(/에서 만나|지금 경험|놓쳐서는|더욱 뜨거|쟁탈전|페스티벌|컴백을|빅이어|사랑받는|써봐야|모두에게|심장아/.test(a.name))return false;
+    if(/しよう|ましょう|ください|楽しもう/.test(a.name))return false;
+    if(/^(Get |Don't miss|Check out|Discover|Experience|Join )/i.test(a.name))return false;
+    if(/!$/.test(a.name)&&a.name.length>12)return false;
+    // category가 명시적으로 Apps인 경우 제외 (MapleStory Worlds 예외)
+    if(a.category){
+      var cl=a.category.toLowerCase();
+      if((cl.includes('app')||cl==='productivity'||cl==='utilities'||cl==='social'||cl==='photo'||cl==='music'||cl==='education'||cl==='business'||cl==='finance'||cl==='health'||cl==='lifestyle'||cl==='news'||cl==='weather'||cl==='entertainment')&&!a.name.toLowerCase().includes('maplestory worlds')&&!a.name.includes('메이플스토리 월드'))return false;
+    }
+    return true;
+  });
 }
 function autoSnap(){var p={};CS.forEach(function(c){p[c]={google:D[c].google,apple:D[c].apple};});sto.set('snap:'+td(),JSON.stringify(p));var k=sto.keys('snap:').sort();while(k.length>30)sto.del(k.shift());}
 function saveSnap(){autoSnap();alert('✅ '+td()+' 스냅샷 저장');}
@@ -115,7 +168,11 @@ function saveSnap(){autoSnap();alert('✅ '+td()+' 스냅샷 저장');}
 async function boot(){
   ss('#FFB800','로딩...');rCB();skel();
   var src=await loadC(curC);render();
-  ss(src==='empty'?'#EF5B5B':'#5BEF8D',CC[curC]+' '+(src==='live'?'✅ 실시간 수집':src==='cache'?'✅ 캐시':'📦 '+src));
+  if(src.startsWith('error')){
+    ss('#EF5B5B',CC[curC]+' ❌ '+src);
+  }else{
+    ss(src==='empty'?'#EF5B5B':'#5BEF8D',CC[curC]+' '+(src==='live'?'✅ 실시간 수집 완료':src==='cache'?'✅ 캐시에서 로드':'📦 '+src));
+  }
   for(var i=0;i<CS.length;i++){if(CS[i]!==curC)await loadC(CS[i]);}
 }
 function skel(){var s='';for(var i=0;i<5;i++)s+='<div class="skel"></div>';document.getElementById('gpL').innerHTML=s;document.getElementById('apL').innerHTML=s;}
@@ -164,6 +221,14 @@ function render(){
   var d=D[curC],dt=new Date().toLocaleDateString('ko-KR',{year:'numeric',month:'long',day:'numeric'});
   document.getElementById('dateLbl').textContent='기준일: '+dt+' · '+CC[curC];
   document.getElementById('footer').textContent='데이터 출처: Google Play · App Store ('+dt+') · '+CC[curC];
+
+  // 아이콘 크로스 공유: AS에 아이콘 있으면 GP 동일앱에도 적용 (vice versa)
+  var iconMap={};
+  d.apple.forEach(function(a){if(a.icon&&a.name)iconMap[nm(a.name)]=a.icon;});
+  d.google.forEach(function(a){if(a.icon&&a.name)iconMap[nm(a.name)]=a.icon;});
+  d.apple.forEach(function(a){if(!a.icon){var ic=iconMap[nm(a.name)];if(ic)a.icon=ic;}});
+  d.google.forEach(function(a){if(!a.icon){var ic=iconMap[nm(a.name)];if(ic)a.icon=ic;}});
+
   var cm=d.google.filter(function(x){return isCm(x.name,d.google,d.apple);});
   var all=d.google.concat(d.apple),rated=all.filter(function(a){return a.rating>0;});
   var avg=rated.length?(rated.reduce(function(s,a){return s+a.rating;},0)/rated.length).toFixed(1):'—';
@@ -175,7 +240,7 @@ function render(){
   document.getElementById('cmG').innerHTML=cm.length?cm.map(function(a){var nx=isNX(a);return '<div class="ccard" style="'+(nx?'border-color:#B4E114':'')+'">'+(a.icon?'<img class="ci" src="'+a.icon+'" loading="lazy" onerror="this.style.display=\'none\'">':'')+'<div><div class="cn" style="'+(nx?'color:#B4E114':'')+'">'+a.name+'</div><div style="display:flex;gap:4px">'+bg(a.genre)+sr(a.rating)+'</div></div></div>';}).join(''):'<div style="color:#555;font-size:12px">없음</div>';
   document.getElementById('gpP').style.display=(curS==='both'||curS==='google')?'':'none';
   document.getElementById('apP').style.display=(curS==='both'||curS==='apple')?'':'none';
-  document.getElementById('cmSec').style.display=curS==='both'?'':'none';
+  document.getElementById('cmSec').style.display=(curS==='both'&&cm.length>0)?'':'none';
   document.getElementById('mainGrid').className='grid '+(curS==='both'?'two':'one');
   rBn();rNX();
 }
@@ -206,7 +271,10 @@ function rNX(){
 }
 
 /* Nav */
-async function pickC(c){curC=c;rCB();skel();var src=await loadC(c);render();ss(src==='empty'?'#EF5B5B':'#5BEF8D',CC[c]+' '+(src==='live'?'✅ 실시간':src==='cache'?'✅ 캐시':'📦 '+src));if(curTab==='trend')rTrend();}
+async function pickC(c){curC=c;rCB();skel();var src=await loadC(c);render();
+  if(src.startsWith('error')){ss('#EF5B5B',CC[c]+' ❌ '+src);}
+  else{ss(src==='empty'?'#EF5B5B':'#5BEF8D',CC[c]+' '+(src==='live'?'✅ 실시간':src==='cache'?'✅ 캐시':'📦 '+src));}
+  if(curTab==='trend')rTrend();}
 function setStore(s,b){curS=s;document.querySelectorAll('#storeTabs .stab').forEach(function(x){x.classList.remove('active');});b.classList.add('active');render();}
 function setMainTab(t,b){curTab=t;document.querySelectorAll('#mainTabs .stab').forEach(function(x){x.classList.remove('active');});b.classList.add('active');
   document.getElementById('dashWrap').style.display=t==='dash'?'':'none';

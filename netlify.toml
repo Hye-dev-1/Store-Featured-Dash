@@ -1,16 +1,24 @@
 [build]
   publish = "public"
+  functions = "netlify/functions"
 
-[functions]
-  directory = "netlify/functions"
-
-# 크롤링 API
+# API redirect MUST come before SPA fallback
+# force=true ensures it takes priority
 [[redirects]]
   from = "/api/crawl"
   to = "/.netlify/functions/crawl"
   status = 200
+  force = true
 
-# SPA fallback
+# Also handle direct function path just in case
+[[redirects]]
+  from = "/api/crawl/*"
+  to = "/.netlify/functions/crawl"
+  status = 200
+  force = true
+
+# SPA fallback — MUST be LAST
+# Only applies to paths that don't match above
 [[redirects]]
   from = "/*"
   to = "/index.html"

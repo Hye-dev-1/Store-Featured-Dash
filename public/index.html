@@ -50,7 +50,7 @@
 </head>
 <body>
 <div class="wrap">
-<div class="hdr"><div><h1>📊 Store Featured Dashboard</h1><div class="sub" id="dateLbl"></div></div><div class="store-tabs" id="mainTabs"><button class="stab active" onclick="setMainTab('dash',this)">대시보드</button><button class="stab" onclick="setMainTab('trend',this)">📈 트렌드</button><button class="stab" onclick="setMainTab('log',this)">📅 주간 로그</button></div></div>
+<div class="hdr"><div><h1>📊 Store Featured Dashboard</h1><div class="sub" id="dateLbl"></div></div><div class="store-tabs" id="mainTabs"><button class="stab active" onclick="setMainTab('dash',this)">대시보드</button><button class="stab" onclick="setMainTab('trend',this)">📈 트렌드</button><button class="stab" onclick="setMainTab('log',this)">📅 월간 로그</button></div></div>
 
 <div class="status-bar" id="statusBar"><div class="dot" id="stDot" style="background:#FFB800"></div><span id="stMsg">로딩 중...</span></div>
 
@@ -75,8 +75,8 @@
 </div>
 
 <div id="logWrap" style="display:none">
-<div class="nexon-sec" id="nxLogSec"><div class="nexon-hdr"><div class="nexon-logo">N</div><div><div class="nexon-hdr-title">NEXON 주간 피쳐드 로그</div></div></div><div id="nxLogB"></div></div>
-<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin:18px 0 16px"><div style="font-size:16px;font-weight:700">📅 주간 피쳐드 로그</div><div style="display:flex;gap:8px"><select id="lCSel" onchange="rLog()" style="background:#1a1d27;border:1px solid #2a2d3a;color:#fff;border-radius:8px;padding:6px 12px;font-size:14px"><option value="KR">🇰🇷 한국</option><option value="TW">🇹🇼 대만</option><option value="JP">🇯🇵 일본</option><option value="US">🇺🇸 미국</option><option value="TH">🇹🇭 태국</option></select><select id="lSSel" onchange="rLog()" style="background:#1a1d27;border:1px solid #2a2d3a;color:#fff;border-radius:8px;padding:6px 12px;font-size:14px"><option value="google">Google Play</option><option value="apple">App Store</option></select><button onclick="clrLog()" style="background:#2a1d1d;border:1px solid #5B3333;color:#EF5B5B;border-radius:8px;padding:6px 14px;cursor:pointer;font-size:13px">🗑 삭제</button></div></div><div id="logB"></div>
+<div class="nexon-sec" id="nxLogSec"><div class="nexon-hdr"><div class="nexon-logo">N</div><div><div class="nexon-hdr-title">NEXON 월간 피쳐드 로그</div></div></div><div id="nxLogB"></div></div>
+<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin:18px 0 16px"><div style="font-size:16px;font-weight:700">📅 월간 피쳐드 로그 <span style="font-size:12px;color:#888;font-weight:400">(최근 30일 / 매주 금요일 갱신)</span></div><div style="display:flex;gap:8px"><select id="lCSel" onchange="rLog()" style="background:#1a1d27;border:1px solid #2a2d3a;color:#fff;border-radius:8px;padding:6px 12px;font-size:14px"><option value="KR">🇰🇷 한국</option><option value="TW">🇹🇼 대만</option><option value="JP">🇯🇵 일본</option><option value="US">🇺🇸 미국</option><option value="TH">🇹🇭 태국</option></select><select id="lSSel" onchange="rLog()" style="background:#1a1d27;border:1px solid #2a2d3a;color:#fff;border-radius:8px;padding:6px 12px;font-size:14px"><option value="google">Google Play</option><option value="apple">App Store</option></select><button onclick="clrLog()" style="background:#2a1d1d;border:1px solid #5B3333;color:#EF5B5B;border-radius:8px;padding:6px 14px;cursor:pointer;font-size:13px">🗑 삭제</button></div></div><div id="logB"></div>
 </div>
 <div class="footer" id="footer"></div>
 </div>

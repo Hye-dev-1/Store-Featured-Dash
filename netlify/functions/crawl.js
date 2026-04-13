@@ -1,6 +1,5 @@
-export default async (req) => {
-  const url = new URL(req.url);
-  const country = (url.searchParams.get("country") || "KR").toUpperCase();
+export const handler = async (event) => {
+  const country = (event.queryStringParameters?.country || "KR").toUpperCase();
   const H = {"Access-Control-Allow-Origin":"*","Content-Type":"application/json"};
 
   const CFG = {
@@ -11,10 +10,10 @@ export default async (req) => {
     TH:{cc:"th",hl:"th",gl:"TH",name:"Thailand",get:"รับ"}
   };
 
-  if(!CFG[country]) return new Response(JSON.stringify({error:"Unknown country"}),{status:400,headers:H});
+  if(!CFG[country]) return {statusCode:400,headers:H,body:JSON.stringify({error:"Unknown country"})};
 
   const apiKey = process.env.ANTHROPIC_API_KEY;
-  if(!apiKey) return new Response(JSON.stringify({error:"No ANTHROPIC_API_KEY. Set it in Netlify Environment Variables."}),{status:500,headers:H});
+  if(!apiKey) return {statusCode:500,headers:H,body:JSON.stringify({error:"No ANTHROPIC_API_KEY. Set it in Netlify Environment Variables."})};
 
   const c = CFG[country];
   const u = {
@@ -55,7 +54,7 @@ export default async (req) => {
     return false;
   };
 
- try {
+  try {
     const res = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: {
@@ -69,7 +68,7 @@ export default async (req) => {
         thinking: { type: "adaptive" },
         output_config: { effort: "medium" },
         tools: [{ type: "web_search_20250305", name: "web_search" }],
-        messages: [{ role: "user", content: `You are extracting GAME data from app stores for ${c.name}.`
+        messages: [{ role: "user", content: `You are extracting GAME data from app stores for ${c.name}.
 
 Visit these 3 URLs and extract ONLY GAMES (category=Games).
 
@@ -101,7 +100,7 @@ Output ONLY JSON:
 
     if(!res.ok){
       const e = await res.text();
-      return new Response(JSON.stringify({error:"API "+res.status,detail:e.substring(0,200)}),{status:502,headers:H});
+      return {statusCode:502,headers:H,body:JSON.stringify({error:"API "+res.status,detail:e.substring(0,200)})};
     }
 
     const data = await res.json();
@@ -111,7 +110,7 @@ Output ONLY JSON:
     }
 
     const m = txt.match(/\{[\s\S]*\}/);
-    if(!m) return new Response(JSON.stringify({error:"No JSON",preview:txt.substring(0,200)}),{status:502,headers:H});
+    if(!m) return {statusCode:502,headers:H,body:JSON.stringify({error:"No JSON",preview:txt.substring(0,200)})};
 
     const p = JSON.parse(m[0]);
     const asG = [], gpG = [];
@@ -135,13 +134,13 @@ Output ONLY JSON:
     asG.forEach((g,i)=>g.rank=i+1);
     gpG.forEach((g,i)=>g.rank=i+1);
 
-    return new Response(JSON.stringify({country,date:new Date().toISOString().slice(0,10),google:gpG,apple:asG,src:u}),{
-      status:200,headers:{...H,"Cache-Control":"public, max-age=3600"}
-    });
+    return {
+      statusCode:200,
+      headers:{...H,"Cache-Control":"public, max-age=3600"},
+      body:JSON.stringify({country,date:new Date().toISOString().slice(0,10),google:gpG,apple:asG,src:u})
+    };
 
   }catch(err){
-    return new Response(JSON.stringify({error:err.message}),{status:500,headers:H});
+    return {statusCode:500,headers:H,body:JSON.stringify({error:err.message})};
   }
 };
-
-export const config = { path: "/api/crawl" };

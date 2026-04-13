@@ -1,7 +1,7 @@
 import gplayPkg from "google-play-scraper";
-import { readFileSync } from "fs";
-import { join } from "path";
 const gplay = gplayPkg.default || gplayPkg;
+
+const GITHUB_RAW = "https://raw.githubusercontent.com/Hye-dev-1/Store-Featured-Dash/main/data";
 
 export const handler = async (event) => {
   const country = (event.queryStringParameters?.country || "KR").toUpperCase();
@@ -59,19 +59,24 @@ export const handler = async (event) => {
     /* ═══ 1. APPLE: data/*.json에서 피쳐드 데이터 읽기 ═══ */
     let appleApps = [];
     try {
-      const dataPath = join(process.cwd(), "data", `${country}.json`);
-      const raw = readFileSync(dataPath, "utf-8");
-      const cached = JSON.parse(raw);
-      appleApps = (cached.apple || []).map((a, i) => ({
-        ...a,
-        rank: i + 1,
-        genre: a.genre ? toG(a.genre) : "",
-        nexon: a.nexon || isNexon(a.dev)
-      }));
-      console.log(`[Apple] Loaded ${appleApps.length} from data/${country}.json (${cached.date})`);
+      const res = await fetch(`${GITHUB_RAW}/${country}.json`);
+      if (res.ok) {
+        const cached = await res.json();
+        appleApps = (cached.apple || []).map((a, i) => ({
+          ...a,
+          rank: i + 1,
+          genre: a.genre ? toG(a.genre) : "",
+          nexon: a.nexon || isNexon(a.dev)
+        }));
+        console.log(`[Apple] Loaded ${appleApps.length} from GitHub (${cached.date})`);
+      }
     } catch (e) {
-      console.warn("[Apple] No cached data, trying RSS fallback...", e.message);
-      /* RSS 폴백 */
+      console.warn("[Apple GitHub]", e.message);
+    }
+
+    /* Apple 데이터 없으면 RSS 폴백 */
+    if (appleApps.length === 0) {
+      console.log("[Apple] Trying RSS fallback...");
       try {
         const res = await fetch(`https://rss.applemarketingtools.com/api/v2/${c.cc}/apps/top-free/50/apps.json`);
         if (res.ok) {

@@ -2,6 +2,13 @@
   publish = "public"
   functions = "netlify/functions"
 
+[functions]
+  external_node_modules = ["google-play-scraper"]
+  node_bundler = "esbuild"
+
+[functions.crawl]
+  timeout = 60
+
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"

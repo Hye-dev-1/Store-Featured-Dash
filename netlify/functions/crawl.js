@@ -1,9 +1,8 @@
-import gplayPkg from "google-play-scraper";
-const gplay = gplayPkg.default || gplayPkg;
-
 const GITHUB_RAW = "https://raw.githubusercontent.com/Hye-dev-1/Store-Featured-Dash/main/data";
 
 export const handler = async (event) => {
+  const gplayPkg = await import("google-play-scraper");
+  const gplay = gplayPkg.default || gplayPkg;
   const country = (event.queryStringParameters?.country || "KR").toUpperCase();
   const H = { "Access-Control-Allow-Origin": "*", "Content-Type": "application/json" };
 

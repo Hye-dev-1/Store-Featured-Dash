@@ -1,7 +1,11 @@
 {
   "name": "store-featured-dash",
   "type": "module",
+  "scripts": {
+    "crawl": "node scripts/crawl-featured.mjs"
+  },
   "dependencies": {
-    "google-play-scraper": "^10.1.2"
+    "google-play-scraper": "^10.1.2",
+    "puppeteer": "^24.0.0"
   }
 }

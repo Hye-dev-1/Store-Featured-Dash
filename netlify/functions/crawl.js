@@ -72,13 +72,21 @@ export const handler = async (event) => {
 
 Visit these 3 URLs and extract ONLY GAMES (category=Games).
 
+CRITICAL RULE — GAMES ONLY:
+The App Store Today tab mixes Games AND non-game Apps on the same page.
+You MUST visit each app's detail page and check its category.
+ONLY include apps whose detail page category is "Games" (게임).
+EXCLUDE any app categorized as: Apps, Utilities, Productivity, Entertainment, Lifestyle, Education, Photo & Video, Social Networking, Health & Fitness, Finance, Reference, Weather, Music (non-game), News, Books, or ANY other non-Games category.
+If unsure whether an app is a Game, CHECK its detail page. If category ≠ Games, SKIP it.
+
 URL 1: ${u.asToday} (App Store Today tab)
 Each card has [Big Headline] + [Small App Lockup with icon, app name, "${c.get}" button]
 USE the app name from the lockup, NOT the headline.
 Example: headline "봄이 왔다는 소문이 돌아요" = IGNORE. App name "가십하버: 합성 & 스토리 게임" = USE.
-Skip non-game cards (AI tools, general apps, romance collections).
-Only extract cards where the lockup app is categorized as "Games" on App Store.
-For developer name, use the EXACT name shown on the detail page (e.g. "NEXON Corporation", "Toben Studio Inc.", "Supercell" etc).
+Skip ALL non-game cards: AI tools, photo editors, weather apps, productivity apps, social apps, entertainment apps, etc.
+You MUST click through to each app's detail page and verify category = "Games" before including it.
+For developer name, use the EXACT name shown on the detail page (e.g. "NEXON Corporation", "NEXON Company", "NEXON Korea Corporation", "Toben Studio Inc.", "Neople Inc." etc).
+IMPORTANT: The "dev" field is critical for tracking specific publishers. Always extract the developer/seller name from the app detail page. Never leave it empty.
 Mark these as tab:"Today"
 
 URL 2: ${u.asGames} (Games tab)
@@ -90,7 +98,7 @@ Hero carousel + editorial sections.
 For genre: use the FIRST genre tag from detail page (ignore "싱글 플레이어" etc).
 tab:"Featured"
 
-For EACH game visit its detail page. Get: name, dev, genre (Korean: 액션/RPG/전략/퍼즐/캐주얼/시뮬레이션/어드벤처/스포츠/카드/리듬), rating, icon URL, store URL, category (must be Games).
+For EACH game visit its detail page. Get: name, dev, genre (Korean: 액션/RPG/전략/퍼즐/캐주얼/시뮬레이션/어드벤처/스포츠/카드/리듬), rating, icon URL, store URL, category (MUST be "Games" — if the detail page shows any other category, DO NOT include this app).
 
 Output ONLY JSON:
 {"as":[{"name":"..","dev":"..","genre":"액션","rating":4.5,"icon":"https://..","url":"https://..","category":"Games","tab":"Today","label":"..","priority":1}],"gp":[{"name":"..","dev":"..","genre":"RPG","rating":4.3,"icon":"https://..","url":"https://..","category":"Games","tab":"Featured","label":"..","priority":1}]}
@@ -117,7 +125,16 @@ Output ONLY JSON:
 
     for(const a of (p.as||[])){
       if(!a.name||bad(a.name)) continue;
-      if(a.category&&!a.category.toLowerCase().includes("game")) continue;
+      /* category 필터: Games가 아닌 항목 제외 */
+      if(a.category){
+        const cl=a.category.toLowerCase();
+        if(!cl.includes("game")) continue;
+      }
+      /* URL 패턴 필터: App Store 앱 URL에 /app/ 포함되고 genre=Games가 아닌 경우 제외 */
+      if(a.url){
+        const ul=a.url.toLowerCase();
+        if(ul.includes("apps.apple.com")&&!ul.includes("/game")&&ul.includes("/app/")) continue;
+      }
       asG.push({rank:asG.length+1,name:a.name,icon:a.icon||"",genre:toG(a.genre||""),rating:a.rating||0,section:a.label||"",dev:a.dev||"",tab:a.tab||"Today",url:a.url||"",category:"Games",priority:a.priority||asG.length+1});
     }
     for(const a of (p.gp||[])){

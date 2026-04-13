@@ -62,137 +62,94 @@ export const handler = async (event) => {
   };
 
   try {
-    /* ═══ 1. Apple RSS — Top Free Games ═══ */
+    /* ═══ 타임아웃 래퍼 ═══ */
+    const withTimeout = (promise, ms) => Promise.race([
+      promise,
+      new Promise((_, reject) => setTimeout(() => reject(new Error("timeout")), ms))
+    ]);
+
+    /* ═══ 모든 소스 병렬 요청 (각 7초 타임아웃) ═══ */
+    const [appleRes, applePaidRes, gpRes, gpGrossRes] = await Promise.allSettled([
+      withTimeout(fetch(`https://rss.applemarketingtools.com/api/v2/${c.cc}/apps/top-free/25/games.json`), 7000),
+      withTimeout(fetch(`https://rss.applemarketingtools.com/api/v2/${c.cc}/apps/top-paid/15/games.json`), 7000),
+      withTimeout(gplay.list({ collection: gplay.collection.TOP_FREE, category: gplay.category.GAME, num: 25, country: c.cc, lang: c.hl, fullDetail: false }), 7000),
+      withTimeout(gplay.list({ collection: gplay.collection.GROSSING, category: gplay.category.GAME, num: 15, country: c.cc, lang: c.hl, fullDetail: false }), 7000)
+    ]);
+
     const appleApps = [];
+    const gpApps = [];
+
+    /* ═══ 1. Apple Top Free ═══ */
     try {
-      const asUrl = `https://rss.applemarketingtools.com/api/v2/${c.cc}/apps/top-free/25/games.json`;
-      const asRes = await fetch(asUrl);
-      if (asRes.ok) {
-        const asData = await asRes.json();
-        const results = asData?.feed?.results || [];
-        results.forEach((app, i) => {
+      if (appleRes.status === "fulfilled" && appleRes.value.ok) {
+        const asData = await appleRes.value.json();
+        (asData?.feed?.results || []).forEach((app, i) => {
           if (bad(app.name)) return;
           const genres = (app.genres || []).map(g => g.name || g).filter(Boolean);
-          const genre = genres.length ? toG(genres[0]) : "";
           appleApps.push({
-            rank: appleApps.length + 1,
-            name: app.name || "",
-            icon: app.artworkUrl100 || "",
-            genre: genre,
-            rating: 0,
-            section: "Top Free Games",
-            dev: app.artistName || "",
-            tab: "Today",
-            url: app.url || "",
-            category: "Games",
-            priority: i + 1,
-            nexon: isNexon(app.artistName)
+            rank: appleApps.length + 1, name: app.name || "", icon: app.artworkUrl100 || "",
+            genre: genres.length ? toG(genres[0]) : "", rating: 0, section: "Top Free Games",
+            dev: app.artistName || "", tab: "Today", url: app.url || "",
+            category: "Games", priority: i + 1, nexon: isNexon(app.artistName)
           });
         });
       }
-    } catch (e) {
-      console.warn("[Apple RSS]", e.message);
-    }
+    } catch (e) { console.warn("[Apple Free]", e.message); }
 
-    /* ═══ 2. Google Play — Top Free Games ═══ */
-    const gpApps = [];
+    /* ═══ 2. Apple Top Paid ═══ */
     try {
-      const gpList = await gplay.list({
-        collection: gplay.collection.TOP_FREE,
-        category: gplay.category.GAME,
-        num: 25,
-        country: c.cc,
-        lang: c.hl,
-        fullDetail: false
-      });
-      gpList.forEach((app, i) => {
-        const name = app.title || "";
-        if (bad(name)) return;
-        gpApps.push({
-          rank: gpApps.length + 1,
-          name: name,
-          icon: app.icon || "",
-          genre: toG(app.genre || ""),
-          rating: app.score ? parseFloat(app.score.toFixed(1)) : 0,
-          section: "Top Free Games",
-          dev: app.developer || "",
-          tab: "Featured",
-          url: app.url || `https://play.google.com/store/apps/details?id=${app.appId}&hl=${c.hl}&gl=${c.gl}`,
-          category: "Games",
-          priority: i + 1,
-          nexon: isNexon(app.developer)
-        });
-      });
-    } catch (e) {
-      console.warn("[Google Play]", e.message);
-    }
-
-    /* ═══ 3. Google Play — Grossing Games (보너스) ═══ */
-    try {
-      const gpGross = await gplay.list({
-        collection: gplay.collection.GROSSING,
-        category: gplay.category.GAME,
-        num: 15,
-        country: c.cc,
-        lang: c.hl,
-        fullDetail: false
-      });
-      const existing = new Set(gpApps.map(a => a.name.toLowerCase()));
-      gpGross.forEach((app, i) => {
-        const name = app.title || "";
-        if (bad(name) || existing.has(name.toLowerCase())) return;
-        existing.add(name.toLowerCase());
-        gpApps.push({
-          rank: gpApps.length + 1,
-          name: name,
-          icon: app.icon || "",
-          genre: toG(app.genre || ""),
-          rating: app.score ? parseFloat(app.score.toFixed(1)) : 0,
-          section: "Top Grossing",
-          dev: app.developer || "",
-          tab: "Featured",
-          url: app.url || `https://play.google.com/store/apps/details?id=${app.appId}&hl=${c.hl}&gl=${c.gl}`,
-          category: "Games",
-          priority: 100 + i,
-          nexon: isNexon(app.developer)
-        });
-      });
-    } catch (e) {
-      console.warn("[Google Play Grossing]", e.message);
-    }
-
-    /* ═══ 4. Apple 추가 — Top Paid Games ═══ */
-    try {
-      const asPaidUrl = `https://rss.applemarketingtools.com/api/v2/${c.cc}/apps/top-paid/15/games.json`;
-      const asPaidRes = await fetch(asPaidUrl);
-      if (asPaidRes.ok) {
-        const asPaidData = await asPaidRes.json();
-        const results = asPaidData?.feed?.results || [];
+      if (applePaidRes.status === "fulfilled" && applePaidRes.value.ok) {
+        const asPaidData = await applePaidRes.value.json();
         const existing = new Set(appleApps.map(a => a.name.toLowerCase()));
-        results.forEach((app, i) => {
+        (asPaidData?.feed?.results || []).forEach((app, i) => {
           if (bad(app.name) || existing.has((app.name || "").toLowerCase())) return;
           existing.add(app.name.toLowerCase());
           const genres = (app.genres || []).map(g => g.name || g).filter(Boolean);
-          const genre = genres.length ? toG(genres[0]) : "";
           appleApps.push({
-            rank: appleApps.length + 1,
-            name: app.name || "",
-            icon: app.artworkUrl100 || "",
-            genre: genre,
-            rating: 0,
-            section: "Top Paid Games",
-            dev: app.artistName || "",
-            tab: "Games",
-            url: app.url || "",
-            category: "Games",
-            priority: 100 + i,
-            nexon: isNexon(app.artistName)
+            rank: appleApps.length + 1, name: app.name || "", icon: app.artworkUrl100 || "",
+            genre: genres.length ? toG(genres[0]) : "", rating: 0, section: "Top Paid Games",
+            dev: app.artistName || "", tab: "Games", url: app.url || "",
+            category: "Games", priority: 100 + i, nexon: isNexon(app.artistName)
           });
         });
       }
-    } catch (e) {
-      console.warn("[Apple Paid RSS]", e.message);
-    }
+    } catch (e) { console.warn("[Apple Paid]", e.message); }
+
+    /* ═══ 3. Google Play Top Free ═══ */
+    try {
+      if (gpRes.status === "fulfilled") {
+        gpRes.value.forEach((app, i) => {
+          const name = app.title || "";
+          if (bad(name)) return;
+          gpApps.push({
+            rank: gpApps.length + 1, name: name, icon: app.icon || "",
+            genre: toG(app.genre || ""), rating: app.score ? parseFloat(app.score.toFixed(1)) : 0,
+            section: "Top Free Games", dev: app.developer || "", tab: "Featured",
+            url: app.url || `https://play.google.com/store/apps/details?id=${app.appId}&hl=${c.hl}&gl=${c.gl}`,
+            category: "Games", priority: i + 1, nexon: isNexon(app.developer)
+          });
+        });
+      }
+    } catch (e) { console.warn("[GP Free]", e.message); }
+
+    /* ═══ 4. Google Play Grossing ═══ */
+    try {
+      if (gpGrossRes.status === "fulfilled") {
+        const existing = new Set(gpApps.map(a => a.name.toLowerCase()));
+        gpGrossRes.value.forEach((app, i) => {
+          const name = app.title || "";
+          if (bad(name) || existing.has(name.toLowerCase())) return;
+          existing.add(name.toLowerCase());
+          gpApps.push({
+            rank: gpApps.length + 1, name: name, icon: app.icon || "",
+            genre: toG(app.genre || ""), rating: app.score ? parseFloat(app.score.toFixed(1)) : 0,
+            section: "Top Grossing", dev: app.developer || "", tab: "Featured",
+            url: app.url || `https://play.google.com/store/apps/details?id=${app.appId}&hl=${c.hl}&gl=${c.gl}`,
+            category: "Games", priority: 100 + i, nexon: isNexon(app.developer)
+          });
+        });
+      }
+    } catch (e) { console.warn("[GP Grossing]", e.message); }
 
     /* ═══ 아이콘 크로스 공유 ═══ */
     const ic = {};

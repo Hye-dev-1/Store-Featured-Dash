@@ -83,15 +83,15 @@ var GC={액션:'#EF5B5B',전략:'#5B8DEF',퍼즐:'#A05BEF',스포츠:'#3DAAA0',R
 var CC={KR:'🇰🇷 한국',TW:'🇹🇼 대만',JP:'🇯🇵 일본',US:'🇺🇸 미국',TH:'🇹🇭 태국'};
 var CS=Object.keys(CC);
 
-/* ═══ NEXON: 개발사명 + 앱 이름 기반 검증 ═══ */
-var NX_DEVS='nexon,toben studio,nexon corporation,toben studio inc,nexon company,nexon korea,nexon games,neople'.split(',');
-var NX_NAMES='메이플스토리,maplestory,바람의나라,블루아카이브,bluearchive,blue archive,던전앤파이터,dnf,dungeonfighter,카트라이더,kartrider,fc모바일,fc mobile,히트2,hit2,v4,데이브더다이버,dave the diver,the first descendant,퍼스트디센던트,카잔,nxrd,nexon,신비아파트,크레이지아케이드,crazy arcade,서든어택,sudden attack'.split(',');
+/* ═══ NEXON: 서버 플래그 우선 + 개발사명 폴백 ═══ */
+var NX_DEVS='nexon,nexon company,nexon corporation,nexon korea,nexon korea corporation,nexon games,neople,neople inc,toben studio,toben studio inc,nexon gt,embark studios,nat games,mintrocket'.split(',');
 function nm(n){return(n||'').replace(/[™:：\s]/g,'').toLowerCase();}
 function isNX(a){if(!a)return false;
+  /* 1) 서버에서 내려준 nexon 플래그 */
+  if(a.nexon===true)return true;
+  /* 2) 개발사명 매칭 폴백 */
   var d=typeof a==='object'?(a.dev||''):'';
   if(d){var dl=d.toLowerCase().trim();for(var i=0;i<NX_DEVS.length;i++){if(dl.indexOf(NX_DEVS[i])>=0)return true;}}
-  var n=typeof a==='object'?(a.name||''):'';
-  if(n){var nl=nm(n);for(var i=0;i<NX_NAMES.length;i++){if(nl.indexOf(NX_NAMES[i])>=0)return true;}}
   return false;
 }
 

@@ -85,7 +85,7 @@ USE the app name from the lockup, NOT the headline.
 Example: headline "봄이 왔다는 소문이 돌아요" = IGNORE. App name "가십하버: 합성 & 스토리 게임" = USE.
 Skip ALL non-game cards: AI tools, photo editors, weather apps, productivity apps, social apps, entertainment apps, etc.
 You MUST click through to each app's detail page and verify category = "Games" before including it.
-For developer name, use the EXACT name shown on the detail page (e.g. "NEXON Corporation", "NEXON Company", "NEXON Korea Corporation", "Toben Studio Inc.", "Neople Inc." etc).
+For developer name, use the EXACT name shown on the detail page (e.g. "NEXON Corporation", "NEXON Company", "NEXON Korea Corporation", "Toben Studio Inc.", "Neople Inc.", etc).
 IMPORTANT: The "dev" field is critical for tracking specific publishers. Always extract the developer/seller name from the app detail page. Never leave it empty.
 Mark these as tab:"Today"
 

@@ -1,4 +1,7 @@
 {
   "name": "store-featured-dash",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "google-play-scraper": "^10.1.3"
+  }
 }

@@ -49,6 +49,18 @@ export const handler = async (event) => {
     return false;
   };
 
+  /* ═══ NEXON 개발사 감지 ═══ */
+  const NX_DEVS = [
+    "nexon", "nexon company", "nexon corporation", "nexon korea", "nexon korea corporation",
+    "nexon games", "neople", "neople inc", "toben studio", "toben studio inc",
+    "nexon gt", "embark studios", "nat games", "mintrocket"
+  ];
+  const isNexon = (dev) => {
+    if (!dev) return false;
+    const dl = dev.toLowerCase().trim();
+    return NX_DEVS.some(nx => dl.includes(nx));
+  };
+
   try {
     /* ═══ 1. Apple RSS — Top Free Games ═══ */
     const appleApps = [];
@@ -73,7 +85,8 @@ export const handler = async (event) => {
             tab: "Today",
             url: app.url || "",
             category: "Games",
-            priority: i + 1
+            priority: i + 1,
+            nexon: isNexon(app.artistName)
           });
         });
       }
@@ -106,7 +119,8 @@ export const handler = async (event) => {
           tab: "Featured",
           url: app.url || `https://play.google.com/store/apps/details?id=${app.appId}&hl=${c.hl}&gl=${c.gl}`,
           category: "Games",
-          priority: i + 1
+          priority: i + 1,
+          nexon: isNexon(app.developer)
         });
       });
     } catch (e) {
@@ -139,7 +153,8 @@ export const handler = async (event) => {
           tab: "Featured",
           url: app.url || `https://play.google.com/store/apps/details?id=${app.appId}&hl=${c.hl}&gl=${c.gl}`,
           category: "Games",
-          priority: 100 + i
+          priority: 100 + i,
+          nexon: isNexon(app.developer)
         });
       });
     } catch (e) {
@@ -170,7 +185,8 @@ export const handler = async (event) => {
             tab: "Games",
             url: app.url || "",
             category: "Games",
-            priority: 100 + i
+            priority: 100 + i,
+            nexon: isNexon(app.artistName)
           });
         });
       }

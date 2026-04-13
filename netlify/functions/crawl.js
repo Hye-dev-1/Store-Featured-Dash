@@ -62,24 +62,18 @@ export const handler = async (event) => {
   };
 
   try {
-    /* ═══ 타임아웃 래퍼 ═══ */
-    const withTimeout = (promise, ms) => Promise.race([
-      promise,
-      new Promise((_, reject) => setTimeout(() => reject(new Error("timeout")), ms))
-    ]);
-
-    /* ═══ 모든 소스 병렬 요청 (각 7초 타임아웃) ═══ */
-    const [appleRes, applePaidRes, gpRes, gpGrossRes] = await Promise.allSettled([
-      withTimeout(fetch(`https://rss.applemarketingtools.com/api/v2/${c.cc}/apps/top-free/25/games.json`), 7000),
-      withTimeout(fetch(`https://rss.applemarketingtools.com/api/v2/${c.cc}/apps/top-paid/15/games.json`), 7000),
-      withTimeout(gplay.list({ collection: gplay.collection.TOP_FREE, category: gplay.category.GAME, num: 25, country: c.cc, lang: c.hl, fullDetail: false }), 7000),
-      withTimeout(gplay.list({ collection: gplay.collection.GROSSING, category: gplay.category.GAME, num: 15, country: c.cc, lang: c.hl, fullDetail: false }), 7000)
-    ]);
-
+    /* ═══ 병렬 요청 (60초 타임아웃 여유) ═══ */
     const appleApps = [];
     const gpApps = [];
 
-    /* ═══ 1. Apple Top Free ═══ */
+    const [appleRes, applePaidRes, gpRes, gpGrossRes] = await Promise.allSettled([
+      fetch(`https://rss.applemarketingtools.com/api/v2/${c.cc}/apps/top-free/25/games.json`),
+      fetch(`https://rss.applemarketingtools.com/api/v2/${c.cc}/apps/top-paid/15/games.json`),
+      gplay.list({ collection: gplay.collection.TOP_FREE, category: gplay.category.GAME, num: 30, country: c.cc, lang: c.hl, fullDetail: false }),
+      gplay.list({ collection: gplay.collection.GROSSING, category: gplay.category.GAME, num: 20, country: c.cc, lang: c.hl, fullDetail: false })
+    ]);
+
+    /* ═══ 1. Apple Top Free Games ═══ */
     try {
       if (appleRes.status === "fulfilled" && appleRes.value.ok) {
         const asData = await appleRes.value.json();
@@ -96,7 +90,7 @@ export const handler = async (event) => {
       }
     } catch (e) { console.warn("[Apple Free]", e.message); }
 
-    /* ═══ 2. Apple Top Paid ═══ */
+    /* ═══ 2. Apple Top Paid Games ═══ */
     try {
       if (applePaidRes.status === "fulfilled" && applePaidRes.value.ok) {
         const asPaidData = await applePaidRes.value.json();
@@ -115,7 +109,7 @@ export const handler = async (event) => {
       }
     } catch (e) { console.warn("[Apple Paid]", e.message); }
 
-    /* ═══ 3. Google Play Top Free ═══ */
+    /* ═══ 3. Google Play Top Free Games ═══ */
     try {
       if (gpRes.status === "fulfilled") {
         gpRes.value.forEach((app, i) => {
@@ -132,7 +126,7 @@ export const handler = async (event) => {
       }
     } catch (e) { console.warn("[GP Free]", e.message); }
 
-    /* ═══ 4. Google Play Grossing ═══ */
+    /* ═══ 4. Google Play Top Grossing Games ═══ */
     try {
       if (gpGrossRes.status === "fulfilled") {
         const existing = new Set(gpApps.map(a => a.name.toLowerCase()));

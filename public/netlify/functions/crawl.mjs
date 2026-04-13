@@ -55,15 +55,21 @@ export default async (req) => {
     return false;
   };
 
-  try {
-    const res = await fetch("https://api.anthropic.com/v1/messages",{
-      method:"POST",
-      headers:{"Content-Type":"application/json","x-api-key":apiKey,"anthropic-version":"2023-06-01"},
-      body:JSON.stringify({
-        model:"claude-sonnet-4-6-20250218",
-        max_tokens:4096,
-        tools:[{type:"web_search_20250305",name:"web_search"}],
-        messages:[{role:"user",content:`You are extracting GAME data from app stores for ${c.name}.
+ try {
+    const res = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "x-api-key": apiKey,
+        "anthropic-version": "2023-06-01"
+      },
+      body: JSON.stringify({
+        model: "claude-sonnet-4-6-20250218",
+        max_tokens: 4096,
+        thinking: { type: "adaptive" },
+        output_config: { effort: "medium" },
+        tools: [{ type: "web_search_20250305", name: "web_search" }],
+        messages: [{ role: "user", content: `You are extracting GAME data from app stores for ${c.name}.`
 
 Visit these 3 URLs and extract ONLY GAMES (category=Games).
 

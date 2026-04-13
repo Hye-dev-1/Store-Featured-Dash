@@ -5,8 +5,7 @@
 [functions]
   external_node_modules = ["google-play-scraper"]
   node_bundler = "esbuild"
-  included_files = ["data/**"]
-
+  
 [functions.crawl]
   timeout = 60
 

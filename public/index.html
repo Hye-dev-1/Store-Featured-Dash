@@ -29,7 +29,7 @@
 .bdg{border-radius:4px;padding:2px 6px;font-size:10px;font-weight:700;white-space:nowrap}
 .slbl{font-size:10px;color:#888}.dev-lbl{font-size:10px;color:#666}
 .stars{font-size:11px;color:#FFB800;white-space:nowrap}
-.tb-tag{font-size:9px;padding:1px 4px;border-radius:3px;font-weight:700;color:#fff}.tb-tag.today{background:#5B8DEF}.tb-tag.games{background:#A05BEF}.tb-tag.feat{background:#34A853}
+.tb-tag{font-size:9px;padding:1px 4px;border-radius:3px;font-weight:700;color:#fff}.tb-tag.today{background:#5B8DEF}.tb-tag.games{background:#A05BEF}.tb-tag.feat{background:#34A853}.tb-tag.banner{background:#EF5B5B}
 .link-arrow{font-size:11px;color:#444;margin-left:auto;flex-shrink:0}
 .ctitle{font-size:12px;color:#888;font-weight:700;margin:14px 0 8px}
 .br{display:flex;align-items:center;gap:8px;margin-bottom:6px}.blbl{width:56px;font-size:11px;color:#aab;text-align:right;flex-shrink:0}.btrack{flex:1;background:#0f1117;border-radius:3px;height:18px;overflow:hidden}.bfill{height:100%;border-radius:3px;display:flex;align-items:center;padding-left:6px}.bfill span{font-size:10px;color:#fff;font-weight:700}
@@ -148,7 +148,7 @@ function ss(c,m){document.getElementById('stDot').style.background=c;document.ge
 function bg(g){var c=GC[g]||'#888';return g?'<span class="bdg" style="background:'+c+'22;color:'+c+';border:1px solid '+c+'44">'+g+'</span>':'';}
 function sr(r){return r&&r>0?'<span class="stars">★ '+Number(r).toFixed(1)+'</span>':'';}
 function ic(u){return u?'<img class="app-icon" src="'+u+'" loading="lazy" onerror="this.outerHTML=\'<div class=icon-ph>🎮</div>\'">':'<div class="icon-ph">🎮</div>';}
-function tb(t){if(!t)return '';var c=t==='Today'?'today':t==='Games'?'games':'feat';return '<span class="tb-tag '+c+'">'+t+'</span>';}
+function tb(t,sec){var h='';if(sec==='배너'||sec==='Banner')h+='<span class="tb-tag banner">배너</span>';if(!t)return h;var c=t==='Today'?'today':t==='Games'?'games':'feat';h+='<span class="tb-tag '+c+'">'+t+'</span>';return h;}
 function isCm(n,g,a){return g.some(function(x){return nm(x.name)===nm(n);})&&a.some(function(x){return nm(x.name)===nm(n);});}
 function rCB(){var h=CS.map(function(k){return '<button class="ctab'+(k===curC?' active':'')+'" onclick="pickC(\''+k+'\')">'+CC[k]+'</button>';}).join('');document.getElementById('countryBar').innerHTML=h;if(document.getElementById('trendCB'))document.getElementById('trendCB').innerHTML=h;}
 
@@ -161,22 +161,28 @@ function rRow(x,g,a){
   if(nx&&cm) tags='<span class="nexon-tag" style="right:50px">NEXON</span><span class="com-tag">양쪽</span>';
   else if(nx) tags='<span class="nexon-tag">NEXON</span>';
   else if(cm) tags='<span class="com-tag">양쪽</span>';
-  return '<'+tag+' class="arow'+(nx?' nexon-hl':'')+(cm?' com':'')+'"'+href+'>'+tags+'<div class="rk">'+x.rank+'</div>'+ic(x.icon)+'<div class="ai"><div class="an"'+(nx?' style="color:#B4E114"':'')+'>'+x.name+'</div><div class="am">'+tb(x.tab)+bg(x.genre)+(x.dev?'<span class="dev-lbl"'+(nx?' style="color:#7a8a3a"':'')+'>'+x.dev+'</span>':'')+(x.section?'<span class="slbl">'+x.section+'</span>':'')+sr(x.rating)+'</div></div>'+(hasLink?'<span class="link-arrow">↗</span>':'')+'</'+tag+'>';
+  return '<'+tag+' class="arow'+(nx?' nexon-hl':'')+(cm?' com':'')+'"'+href+'>'+tags+'<div class="rk">'+x.rank+'</div>'+ic(x.icon)+'<div class="ai"><div class="an"'+(nx?' style="color:#B4E114"':'')+'>'+x.name+'</div><div class="am">'+tb(x.tab,x.section)+bg(x.genre)+(x.dev?'<span class="dev-lbl"'+(nx?' style="color:#7a8a3a"':'')+'>'+x.dev+'</span>':'')+(x.section&&x.section!=='배너'&&x.section!=='Banner'?'<span class="slbl">'+x.section+'</span>':'')+sr(x.rating)+'</div></div>'+(hasLink?'<span class="link-arrow">↗</span>':'')+'</'+tag+'>';
 }
 
 /* ═══ LIST RENDER ═══ */
 function rList(id,data,g,a){
   if(!data.length){document.getElementById(id).innerHTML='<div style="text-align:center;padding:30px;color:#444">수집 대기 중...</div>';return;}
-  var today=data.filter(function(x){return x.tab==='Today';}),games=data.filter(function(x){return x.tab==='Games';}),other=data.filter(function(x){return x.tab!=='Today'&&x.tab!=='Games';});
+  var todayBn=data.filter(function(x){return x.tab==='Today'&&(x.banner||x.section==='배너');}),today=data.filter(function(x){return x.tab==='Today'&&!x.banner&&x.section!=='배너';}),gamesBn=data.filter(function(x){return x.tab==='Games'&&(x.banner||x.section==='배너');}),games=data.filter(function(x){return x.tab==='Games'&&!x.banner&&x.section!=='배너';}),other=data.filter(function(x){return x.tab!=='Today'&&x.tab!=='Games';});
   var h='';
+  if(todayBn.length){h+='<div class="tab-sep">🔥 Today 배너 ('+todayBn.length+')</div>';todayBn.forEach(function(x){h+=rRow(x,g,a);});}
   if(today.length){h+='<div class="tab-sep"> Today Tab ('+today.length+')</div>';today.forEach(function(x){h+=rRow(x,g,a);});}
-  if(games.length){h+='<div class="tab-sep"> Games Tab — 히어로 배너 ('+games.length+')</div>';games.forEach(function(x){h+=rRow(x,g,a);});}
-  if(other.length){if(today.length||games.length)h+='<div class="tab-sep">기타 ('+other.length+')</div>';other.forEach(function(x){h+=rRow(x,g,a);});}
+  if(gamesBn.length){h+='<div class="tab-sep">🔥 Games 배너 ('+gamesBn.length+')</div>';gamesBn.forEach(function(x){h+=rRow(x,g,a);});}
+  if(games.length){h+='<div class="tab-sep"> Games Tab ('+games.length+')</div>';games.forEach(function(x){h+=rRow(x,g,a);});}
+  if(other.length){if(h)h+='<div class="tab-sep">기타 ('+other.length+')</div>';other.forEach(function(x){h+=rRow(x,g,a);});}
   document.getElementById(id).innerHTML=h;
 }
 function rListGP(id,data,g,a){
   if(!data.length){document.getElementById(id).innerHTML='<div style="text-align:center;padding:30px;color:#444">수집 대기 중...</div>';return;}
-  document.getElementById(id).innerHTML=data.map(function(x){return rRow(x,g,a);}).join('');
+  var banners=data.filter(function(x){return x.banner||x.section==='배너';}),rest=data.filter(function(x){return !x.banner&&x.section!=='배너';});
+  var h='';
+  if(banners.length){h+='<div class="tab-sep">🔥 히어로 배너 ('+banners.length+')</div>';banners.forEach(function(x){h+=rRow(x,g,a);});}
+  if(rest.length){if(banners.length)h+='<div class="tab-sep">Featured ('+rest.length+')</div>';rest.forEach(function(x){h+=rRow(x,g,a);});}
+  document.getElementById(id).innerHTML=h;
 }
 function rChart(id,data){var c={};data.forEach(function(a){if(a.genre)c[a.genre]=(c[a.genre]||0)+1;});var s=Object.entries(c).sort(function(a,b){return b[1]-a[1];}),mx=s[0]?s[0][1]:1;document.getElementById(id).innerHTML=s.map(function(e){return '<div class="br"><div class="blbl">'+e[0]+'</div><div class="btrack"><div class="bfill" style="width:'+Math.round(e[1]/mx*100)+'%;background:'+(GC[e[0]]||'#5B8DEF')+'"><span>'+e[1]+'</span></div></div></div>';}).join('');}
 

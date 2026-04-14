@@ -20,6 +20,7 @@
 .arow{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:10px;background:#13151f;margin-bottom:6px;border:1px solid #2a2d3a;position:relative;text-decoration:none;color:inherit;transition:background .15s}.arow:hover{background:#1a2030}
 .arow.nexon-hl{border:1.5px solid #B4E114;box-shadow:0 0 8px rgba(180,225,20,.18)}.arow.com{border-color:#FFB80033}
 .com-tag{position:absolute;right:8px;top:8px;font-size:10px;color:#FFB800;font-weight:700}
+.ft-tag{position:absolute;top:8px;font-size:9px;font-weight:700;border-radius:3px;padding:1px 5px}.ft-tag.gp-ft{right:44px;color:#34A853;background:rgba(52,168,83,.12);border:1px solid rgba(52,168,83,.3)}.ft-tag.as-ft{right:8px;color:#5B8DEF;background:rgba(91,141,239,.12);border:1px solid rgba(91,141,239,.3)}
 .nexon-tag{position:absolute;right:8px;top:8px;font-size:9px;color:#B4E114;font-weight:700;background:rgba(180,225,20,.12);border:1px solid rgba(180,225,20,.3);border-radius:3px;padding:1px 5px}
 .arow .rk{min-width:22px;color:#666;font-size:13px;font-weight:700;text-align:right}
 .arow .app-icon{width:40px;height:40px;border-radius:8px;object-fit:cover;background:#222530;flex-shrink:0;border:1px solid #2a2d3a}
@@ -156,12 +157,18 @@ function rCB(){var h=CS.map(function(k){return '<button class="ctab'+(k===curC?'
 function rRow(x,g,a){
   var cm=isCm(x.name,g,a),nx=isNX(x),hasLink=!!x.url;
   var tag=hasLink?'a':'div',href=hasLink?' href="'+x.url+'" target="_blank"':'';
-  /* nexon + 양쪽 동시 피쳐드: 태그 둘 다 표시 */
+  /* nexon: GP/AS 피쳐드 태그 표시; 일반: 양쪽 태그 */
+  var inGP=g.some(function(z){return nm(z.name)===nm(x.name);}),inAS=a.some(function(z){return nm(z.name)===nm(x.name);});
   var tags='';
-  if(nx&&cm) tags='<span class="nexon-tag" style="right:50px">NEXON</span><span class="com-tag">양쪽</span>';
-  else if(nx) tags='<span class="nexon-tag">NEXON</span>';
-  else if(cm) tags='<span class="com-tag">양쪽</span>';
-  return '<'+tag+' class="arow'+(nx?' nexon-hl':'')+(cm?' com':'')+'"'+href+'>'+tags+'<div class="rk">'+x.rank+'</div>'+ic(x.icon)+'<div class="ai"><div class="an"'+(nx?' style="color:#B4E114"':'')+'>'+x.name+'</div><div class="am">'+tb(x.tab,x.section)+bg(x.genre)+(x.dev?'<span class="dev-lbl"'+(nx?' style="color:#7a8a3a"':'')+'>'+x.dev+'</span>':'')+(x.section&&x.section!=='배너'&&x.section!=='Banner'?'<span class="slbl">'+x.section+'</span>':'')+sr(x.rating)+'</div></div>'+(hasLink?'<span class="link-arrow">↗</span>':'')+'</'+tag+'>';
+  if(nx){
+    var ftTags='';
+    if(inGP) ftTags+='<span class="ft-tag gp-ft">GP</span>';
+    if(inAS) ftTags+='<span class="ft-tag as-ft">AS</span>';
+    tags='<span class="nexon-tag"'+(ftTags?' style="right:'+(cm?'80':'44')+'px"':'')+'>NEXON</span>'+ftTags;
+  } else if(cm) {
+    tags='<span class="com-tag">양쪽</span>';
+  }
+  return '<'+tag+' class="arow'+(nx?' nexon-hl':'')+(cm&&!nx?' com':'')+'"'+href+'>'+tags+'<div class="rk">'+x.rank+'</div>'+ic(x.icon)+'<div class="ai"><div class="an"'+(nx?' style="color:#B4E114"':'')+'>'+x.name+'</div><div class="am">'+tb(x.tab,x.section)+bg(x.genre)+(x.dev?'<span class="dev-lbl"'+(nx?' style="color:#7a8a3a"':'')+'>'+x.dev+'</span>':'')+(x.section&&x.section!=='배너'&&x.section!=='Banner'?'<span class="slbl">'+x.section+'</span>':'')+sr(x.rating)+'</div></div>'+(hasLink?'<span class="link-arrow">↗</span>':'')+'</'+tag+'>';
 }
 
 /* ═══ LIST RENDER ═══ */
@@ -227,10 +234,15 @@ function rNX(){
   document.getElementById('nexonSec').style.display='';
   var gpCnt=d.google.filter(function(a){return isNX(a);}).length;
   var asCnt=d.apple.filter(function(a){return isNX(a);}).length;
-  document.getElementById('nexonSec').innerHTML='<div class="nexon-hdr"><div class="nexon-logo">N</div><div><div class="nexon-hdr-title">NEXON 피쳐드 트래커</div><div class="nexon-hdr-sub">'+CC[curC]+' GP '+gpCnt+' + AS '+asCnt+'</div></div></div><div class="nexon-stats"><div class="nstat"><div class="nlbl">피쳐드 수</div><div class="nval">'+nc+'</div></div><div class="nstat"><div class="nlbl">최고 순위</div><div class="nval">#'+Math.min.apply(null,nx.map(function(a){return a.rank;}))+'</div></div><div class="nstat"><div class="nlbl">평균 평점</div><div class="nval">★ '+(nl.reduce(function(s,a){return s+(a.rating||0);},0)/nc).toFixed(1)+'</div></div></div>'+nl.map(function(a){
+  var bothCnt=nl.filter(function(a){return a._gp&&a._as;}).length;
+  document.getElementById('nexonSec').innerHTML='<div class="nexon-hdr"><div class="nexon-logo">N</div><div><div class="nexon-hdr-title">NEXON 피쳐드 트래커</div><div class="nexon-hdr-sub">'+CC[curC]+' GP '+gpCnt+' · AS '+asCnt+(bothCnt?' · <span style="color:#FFB800">양쪽 '+bothCnt+'</span>':'')+'</div></div></div><div class="nexon-stats"><div class="nstat"><div class="nlbl">피쳐드 수</div><div class="nval">'+nc+'</div></div><div class="nstat"><div class="nlbl">양쪽 피쳐드</div><div class="nval" style="color:#FFB800">'+bothCnt+'</div></div><div class="nstat"><div class="nlbl">최고 순위</div><div class="nval">#'+Math.min.apply(null,nx.map(function(a){return a.rank;}))+'</div></div><div class="nstat"><div class="nlbl">평균 평점</div><div class="nval">★ '+(nl.reduce(function(s,a){return s+(a.rating||0);},0)/nc).toFixed(1)+'</div></div></div>'+nl.map(function(a){
     var hl=!!a.url;
     var bothStore=a._gp&&a._as;
-    var tags='<span class="nexon-tag"'+(bothStore?' style="right:50px"':'')+'>NEXON</span>'+(bothStore?'<span class="com-tag">양쪽</span>':'');
+    /* 상단 태그: NEXON + GP/AS 피쳐드 태그 */
+    var storeTags='';
+    if(a._gp) storeTags+='<span class="ft-tag gp-ft">GP 피쳐드</span>';
+    if(a._as) storeTags+='<span class="ft-tag as-ft">AS 피쳐드</span>';
+    var tags='<span class="nexon-tag"'+(storeTags?' style="right:'+(bothStore?'108':'60')+'px"':'')+'>NEXON</span>'+storeTags;
     return '<'+(hl?'a href="'+a.url+'" target="_blank"':'div')+' class="arow nexon-hl'+(bothStore?' com':'')+'" style="margin-bottom:6px">'+tags+'<div class="rk">'+a.rank+'</div>'+ic(a.icon)+'<div class="ai"><div class="an" style="color:#B4E114">'+a.name+'</div><div class="am">'+tb(a.tab,a.section)+bg(a.genre)+(a.dev?'<span class="dev-lbl" style="color:#7a8a3a">'+a.dev+'</span>':'')+sr(a.rating)+'</div></div>'+(hl?'<span class="link-arrow">↗</span>':'')+'</'+(hl?'a':'div')+'>';
   }).join('');
 }

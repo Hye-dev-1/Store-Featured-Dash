@@ -1,12 +1,12 @@
 {
   "country": "TW",
   "date": "2026-04-14",
-  "updated": "2026-04-14T01:37:35.711Z",
+  "updated": "2026-04-14T01:57:16.864Z",
   "apple": [
     {
       "name": "異環",
       "dev": "開發者  Iwplay World",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/04/84/ea048494-2b5b-c917-5d3d-08f294765885/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E7%95%B0%E7%92%B0/id6751030003",
       "tab": "Games",
       "section": "배너",
@@ -21,7 +21,7 @@
     {
       "name": "女神異聞錄：夜幕魅影",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6c/d5/b7/6cd5b713-f5dd-8098-f440-4c8eb81b11f0/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E5%A5%B3%E7%A5%9E%E7%95%B0%E8%81%9E%E9%8C%84-%E5%A4%9C%E5%B9%95%E9%AD%85%E5%BD%B1/id1613742212?eventid=6760892851",
       "tab": "Games",
       "section": "배너",
@@ -36,7 +36,7 @@
     {
       "name": "王國之歌",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/c5/1c/5fc51cc1-ee39-209c-cf37-6efa6c5e0809/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E7%8E%8B%E5%9C%8B%E4%B9%8B%E6%AD%8C-top-heroes/id6450953550?eventid=6761415692",
       "tab": "Games",
       "section": "배너",
@@ -51,7 +51,7 @@
     {
       "name": "王國之歌（Top Heroes）",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/18/1e/50/181e50bb-35d6-631b-046f-9ef5c21dfe16/cbfc76d2-dafd-45d9-89ae-11556d36aebf.png/490x176grav.west.webp",
       "url": "https://apps.apple.com/tw/app/%E7%8E%8B%E5%9C%8B%E4%B9%8B%E6%AD%8C-top-heroes/id6450953550?eventid=6761415692",
       "tab": "Games",
       "section": "Featured",
@@ -66,7 +66,7 @@
     {
       "name": "胡鬧地牢",
       "dev": "開發者  HABBY",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/27/84/a82784b9-b693-3ffd-b900-3f6b8ed873b4/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E8%83%A1%E9%AC%A7%E5%9C%B0%E7%89%A2/id6502815032",
       "tab": "Games",
       "section": "Featured",
@@ -81,7 +81,7 @@
     {
       "name": "環形戰爭",
       "dev": "開發者  HONGKONG NIRVANA LIMITED",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/5d/4c/a65d4c53-dfa6-7084-284b-35807882b318/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E7%92%B0%E5%BD%A2%E6%88%B0%E7%88%AD/id6753971187",
       "tab": "Games",
       "section": "Featured",
@@ -96,7 +96,7 @@
     {
       "name": "信長之野望 真戰",
       "dev": "開發者  Sialia Games",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/02/54/900254c9-6a43-5667-270f-ea0ce043e90e/AppIcon-hk-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E4%BF%A1%E9%95%B7%E4%B9%8B%E9%87%8E%E6%9C%9B-%E7%9C%9F%E6%88%B0/id6739514639",
       "tab": "Games",
       "section": "Featured",
@@ -111,7 +111,7 @@
     {
       "name": "RO仙境傳説：世界之旅",
       "dev": "開發者  Gravity Game Vision Limited",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/2f/e2/902fe281-9fee-d059-519d-65100f80aca0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/ro%E4%BB%99%E5%A2%83%E5%82%B3%E8%AA%AC-%E4%B8%96%E7%95%8C%E4%B9%8B%E6%97%85/id6749527002",
       "tab": "Games",
       "section": "Featured",
@@ -126,7 +126,7 @@
     {
       "name": "彈彈英雄",
       "dev": "開發者  VNG Game Studios",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/fc/41/51fc4191-dcae-9cc2-0fe7-192cf1d2243e/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E5%BD%88%E5%BD%88%E8%8B%B1%E9%9B%84/id6753967494",
       "tab": "Games",
       "section": "Featured",
@@ -141,7 +141,7 @@
     {
       "name": "明日方舟：終末地",
       "dev": "開發者  GRYPH FRONTIER PTE.LTD.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dc/21/b0/dc21b09b-0c57-5bab-0c40-4baa7fef8989/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F-%E7%B5%82%E6%9C%AB%E5%9C%B0/id6752642477",
       "tab": "Games",
       "section": "Featured",
@@ -156,7 +156,7 @@
     {
       "name": "燕雲十六聲",
       "dev": "開發者  LongE Corporation",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/b1/6b/8ab16b29-0817-9c66-c184-a078417fcde7/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E7%87%95%E9%9B%B2%E5%8D%81%E5%85%AD%E8%81%B2/id6744796128",
       "tab": "Games",
       "section": "Featured",
@@ -171,7 +171,7 @@
     {
       "name": "Clash Royale",
       "dev": "開發者  Supercell",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/96/bd/8596bd93-f5fd-9de6-8fe9-7ed43a6ae783/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/clash-royale/id1053012308",
       "tab": "Games",
       "section": "Featured",
@@ -186,7 +186,7 @@
     {
       "name": "Royal Match",
       "dev": "開發者  Dream Games",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/47/fe/0547fedd-675a-c41f-1360-ac7b103a9a9f/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/royal-match/id1482155847",
       "tab": "Games",
       "section": "Featured",
@@ -201,7 +201,7 @@
     {
       "name": "原神·空月之歌",
       "dev": "開發者  COGNOSPHERE PTE. LTD.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/52/b7/7d52b77e-17b1-07c1-2aa6-d81d2dc912f1/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E5%8E%9F%E7%A5%9E-%E7%A9%BA%E6%9C%88%E4%B9%8B%E6%AD%8C/id1517783697",
       "tab": "Games",
       "section": "Featured",
@@ -216,7 +216,7 @@
     {
       "name": "MONOPOLY GO! (大富翁 GO!)",
       "dev": "開發者     Scopely, Inc.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/49/30/e9/4930e9a3-ca46-0464-f047-7fb98ab5173d/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/monopoly-go-%E5%A4%A7%E5%AF%8C%E7%BF%81-go/id1621328561",
       "tab": "Games",
       "section": "Featured",
@@ -231,7 +231,7 @@
     {
       "name": "Pixel Flow!",
       "dev": "開發者  Loom Games Oyun Yazilim ve Pazarlama Anonim Sirketi",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/6a/4c/9e6a4c87-89f6-4932-bba3-d5f330a47a73/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/pixel-flow/id6751056652",
       "tab": "Games",
       "section": "Featured",
@@ -246,7 +246,7 @@
     {
       "name": "楓之谷：放置冒險記",
       "dev": "開發者  NEXON Company",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/de/46/28de4683-a468-ceed-c200-e66454c32b6a/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E6%A5%93%E4%B9%8B%E8%B0%B7-%E6%94%BE%E7%BD%AE%E5%86%92%E9%9A%AA%E8%A8%98/id6739616715",
       "tab": "Games",
       "section": "Featured",
@@ -261,7 +261,7 @@
     {
       "name": "劍與遠征：啟程—魔法家園",
       "dev": "開發者  Farlight Games",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/ed/6c/8aed6c55-1bed-bf02-f7d7-4190bdf42b6f/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E5%8A%8D%E8%88%87%E9%81%A0%E5%BE%81-%E5%95%9F%E7%A8%8B-%E9%AD%94%E6%B3%95%E5%AE%B6%E5%9C%92/id1628970855",
       "tab": "Games",
       "section": "Featured",
@@ -276,7 +276,7 @@
     {
       "name": "弓箭傳說2",
       "dev": "開發者  HABBY",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/2d/26/372d2672-1f55-bcf5-c223-86644b13548f/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E5%BC%93%E7%AE%AD%E5%82%B3%E8%AA%AA2/id6502820653",
       "tab": "Games",
       "section": "Featured",
@@ -291,7 +291,7 @@
     {
       "name": "糖果傳奇",
       "dev": "開發者  King",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/85/8c/60858cf7-6ac2-0268-62bb-1057597a2f5c/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E7%B3%96%E6%9E%9C%E5%82%B3%E5%A5%87/id553834731",
       "tab": "Games",
       "section": "Featured",
@@ -306,7 +306,7 @@
     {
       "name": "部落衝突 (Clash of Clans)",
       "dev": "開發者  Supercell",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/2e/b3/cf2eb3f9-7073-f39f-7dc1-329f7a185b7d/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E9%83%A8%E8%90%BD%E8%A1%9D%E7%AA%81-clash-of-clans/id529479190",
       "tab": "Games",
       "section": "Featured",
@@ -321,7 +321,7 @@
     {
       "name": "Mobile Legends: Bang Bang",
       "dev": "開發者  MOONTON",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/bc/08/0cbc0831-fc0c-0142-4eee-5d352f820c53/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/mobile-legends-bang-bang/id1160056295",
       "tab": "Games",
       "section": "Featured",
@@ -336,7 +336,7 @@
     {
       "name": "EA SPORTS FC™ Mobile 足球 2026",
       "dev": "開發者     Electronic Arts",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/f6/c1/1ef6c173-2e6f-a89a-f17f-79c750497fcf/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/ea-sports-fc-mobile-%E8%B6%B3%E7%90%83-2026/id1094930513",
       "tab": "Games",
       "section": "Featured",
@@ -351,7 +351,7 @@
     {
       "name": "Royal Kingdom",
       "dev": "開發者  Dream Games",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/00/23/e80023a5-66c3-3924-8cb8-0ba857ba69e5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/royal-kingdom/id1606549505",
       "tab": "Games",
       "section": "Featured",
@@ -366,7 +366,7 @@
     {
       "name": "夢幻花園 (Gardenscapes)",
       "dev": "開發者  Playrix",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/3e/d8/dd3ed8d1-424d-5d4c-2c45-bf1c2d968a39/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E5%A4%A2%E5%B9%BB%E8%8A%B1%E5%9C%92-gardenscapes/id1105855019",
       "tab": "Games",
       "section": "Featured",
@@ -381,7 +381,7 @@
     {
       "name": "Free Fire: 蒼藍幻境",
       "dev": "開發者  GARENA INTERNATIONAL I PRIVATE LIMITED",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/04/6e/3c046e77-21e0-4db0-0289-c283644dfcf7/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/free-fire-%E8%92%BC%E8%97%8D%E5%B9%BB%E5%A2%83/id1300146617",
       "tab": "Games",
       "section": "Featured",
@@ -396,7 +396,7 @@
     {
       "name": "Pikmin Bloom",
       "dev": "開發者  Niantic, Inc.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/28/ac/d628acce-a885-170e-0909-72f1b431ff2b/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/pikmin-bloom/id1556357398",
       "tab": "Games",
       "section": "Featured",
@@ -411,7 +411,7 @@
     {
       "name": "侏羅紀：重啟",
       "dev": "開發者  Cedar Technology HK Limited",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/0e/60/3e0e6092-3750-5c07-5587-346d35c32f16/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E4%BE%8F%E7%BE%85%E7%B4%80-%E9%87%8D%E5%95%9F/id6752315686",
       "tab": "Games",
       "section": "Featured",
@@ -426,7 +426,7 @@
     {
       "name": "Block Blast!",
       "dev": "開發者  Hungry Studio",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/5c/41/455c4139-ebd0-db7d-5d58-4fc301f8cf61/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/block-blast/id1617391485",
       "tab": "Games",
       "section": "Featured",
@@ -441,7 +441,7 @@
     {
       "name": "少女喚靈",
       "dev": "開發者  Sany Game Limited",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/d1/4a/bcd14a60-3d7b-e619-3109-0409996b2e29/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E5%B0%91%E5%A5%B3%E5%96%9A%E9%9D%88/id6759714842",
       "tab": "Games",
       "section": "Featured",
@@ -454,10 +454,10 @@
       "rank": 30
     },
     {
-      "name": "Dark War:Survival",
+      "name": "Jewel Coloring",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/dark-war-survival/id6670441558",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/de/a7/9bdea78c-5982-ac4c-7cd6-cd7e71e84f0d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/tw/app/jewel-coloring/id6759081967",
       "tab": "Games",
       "section": "Featured",
       "priority": 47,
@@ -469,10 +469,10 @@
       "rank": 31
     },
     {
-      "name": "Jewel Coloring",
+      "name": "Dark War:Survival",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/jewel-coloring/id6759081967",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/a7/f7/53a7f777-3542-9920-e53a-fc41d672e5c9/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/dark-war-survival/id6670441558",
       "tab": "Games",
       "section": "Featured",
       "priority": 48,
@@ -486,7 +486,7 @@
     {
       "name": "蒼藍幻境",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/e5TFa5-J1617fJjYBi2Phw/298x168sr.webp",
       "url": "https://apps.apple.com/tw/app/free-fire-max/id1480516829?eventid=6761258597",
       "tab": "Games",
       "section": "Featured",
@@ -501,7 +501,7 @@
     {
       "name": "Free Fire MAX",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/41/b5/1c/41b51c10-c3df-b309-de20-f3aa04b9d0d5/Placeholder.mill/48x48bb-75.webp",
       "url": "https://apps.apple.com/tw/app/free-fire-max/id1480516829",
       "tab": "Games",
       "section": "Featured",
@@ -516,7 +516,7 @@
     {
       "name": "The Boys",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/pB2rCrksMp037X6PF1kh3g/298x168sr.webp",
       "url": "https://apps.apple.com/tw/app/amazon-prime-video/id545519333?eventid=6761789030",
       "tab": "Games",
       "section": "Featured",
@@ -529,24 +529,9 @@
       "rank": 35
     },
     {
-      "name": "Whoscall 象卡來",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/whoscall-%E8%B1%A1%E5%8D%A1%E4%BE%86/id929968679",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 51,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 36
-    },
-    {
       "name": "Amazon Prime Video",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/b8/90/fcb89001-7e77-e624-2efb-2c21c6f0ef03/Placeholder.mill/48x48bb-75.webp",
       "url": "https://apps.apple.com/tw/app/amazon-prime-video/id545519333",
       "tab": "Games",
       "section": "Featured",
@@ -556,13 +541,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 37
+      "rank": 36
     },
     {
-      "name": "Google Gemini",
+      "name": "YouTube",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/google-gemini/id6477489729",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/0e/da/be0edab4-df72-3508-f6a4-08378a6d3a5c/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/youtube/id544007664",
       "tab": "Today",
       "section": "배너",
       "priority": 52,
@@ -571,12 +556,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 38
+      "rank": 37
     },
     {
       "name": "勇者氣球兵有新幫手了！",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/S3RDxfz0Q3MCDSTmdHixtg/298x168sr.webp",
       "url": "https://apps.apple.com/tw/app/clash-royale/id1053012308?eventid=6761174175",
       "tab": "Games",
       "section": "Featured",
@@ -586,13 +571,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 39
+      "rank": 38
     },
     {
-      "name": "Claude by Anthropic",
+      "name": "LINE",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/claude-by-anthropic/id6473753684",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/47/18/5c47184e-0d61-189e-ab0d-d8db06965deb/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/line/id443904275",
       "tab": "Today",
       "section": "배너",
       "priority": 53,
@@ -601,12 +586,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 40
+      "rank": 39
     },
     {
       "name": "全新限定五星角色「莉奈婭」活動祈願開放！",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/ZC-QhwmJE-gC5Kw3pvGZ_A/298x168sr.webp",
       "url": "https://apps.apple.com/tw/app/%E5%8E%9F%E7%A5%9E-%E7%A9%BA%E6%9C%88%E4%B9%8B%E6%AD%8C/id1517783697?eventid=6761253387",
       "tab": "Games",
       "section": "Featured",
@@ -616,12 +601,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 41
+      "rank": 40
     },
     {
       "name": "ChatGPT",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/5d/25/e15d25a4-ab3e-709d-4941-1090f824b7bc/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/chatgpt/id6448311069",
       "tab": "Today",
       "section": "배너",
@@ -631,12 +616,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 42
+      "rank": 41
     },
     {
       "name": "薑餅人王國",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/03/87/3a/03873a16-a6d6-213a-f6db-72398520ae71/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E8%96%91%E9%A4%85%E4%BA%BA%E7%8E%8B%E5%9C%8B/id1509450845",
       "tab": "Games",
       "section": "Featured",
@@ -646,13 +631,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 43
+      "rank": 42
     },
     {
-      "name": "Google NotebookLM",
+      "name": "Google 地圖",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/google-notebooklm/id6737527615",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/d6/66/70d666f5-b5b2-ba3d-2264-692026d4d8c8/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/google-%E5%9C%B0%E5%9C%96/id585027354",
       "tab": "Today",
       "section": "배너",
       "priority": 55,
@@ -661,12 +646,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 44
+      "rank": 43
     },
     {
       "name": "World of Airports",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/27/26/0a27268c-8f19-441c-ca6b-e8139ac6939c/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/world-of-airports/id1462642534",
       "tab": "Games",
       "section": "Featured",
@@ -676,13 +661,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 45
+      "rank": 44
     },
     {
-      "name": "Goodnotes：AI 筆記、白板、PDF",
+      "name": "TikTok - 有趣的人都在這裡",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/goodnotes-ai-%E7%AD%86%E8%A8%98-%E7%99%BD%E6%9D%BF-pdf/id1444383602",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/fa/47/9afa4760-7ee8-5bfc-abaa-0d9e4ecf2958/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/tiktok-%E6%9C%89%E8%B6%A3%E7%9A%84%E4%BA%BA%E9%83%BD%E5%9C%A8%E9%80%99%E8%A3%A1/id1235601864",
       "tab": "Today",
       "section": "배너",
       "priority": 56,
@@ -691,12 +676,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 46
+      "rank": 45
     },
     {
       "name": "拉斯維加斯娛樂城 (Let's Vegas Slots)",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/65/90/1d65906d-16cd-ccd2-320b-bf5fa7b99e77/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E6%8B%89%E6%96%AF%E7%B6%AD%E5%8A%A0%E6%96%AF%E5%A8%9B%E6%A8%82%E5%9F%8E-lets-vegas-slots/id730209957",
       "tab": "Games",
       "section": "Featured",
@@ -706,13 +691,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 47
+      "rank": 46
     },
     {
-      "name": "Notion：筆記、任務、AI",
+      "name": "蝦皮購物 | 花得更少買得更好",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/notion-%E7%AD%86%E8%A8%98-%E4%BB%BB%E5%8B%99-ai/id1232780281",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/73/31/1a/73311a43-e5f4-3038-65e4-07ce53abeb2a/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E8%9D%A6%E7%9A%AE%E8%B3%BC%E7%89%A9-%E8%8A%B1%E5%BE%97%E6%9B%B4%E5%B0%91%E8%B2%B7%E5%BE%97%E6%9B%B4%E5%A5%BD/id959841107",
       "tab": "Today",
       "section": "배너",
       "priority": 57,
@@ -721,12 +706,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 48
+      "rank": 47
     },
     {
       "name": "Castle Clashers!",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/a3/6b/15a36b97-35a7-9cd2-aab4-96a6d5037208/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/castle-clashers/id6746328263",
       "tab": "Games",
       "section": "Featured",
@@ -736,13 +721,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 49
+      "rank": 48
     },
     {
-      "name": "Canva：AI、設計、照片和影片",
+      "name": "Google Gemini",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/canva-ai-%E8%A8%AD%E8%A8%88-%E7%85%A7%E7%89%87%E5%92%8C%E5%BD%B1%E7%89%87/id897446215",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/af/4e/ecaf4e28-4e4b-eb1a-1c7b-7aa872c151c8/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/google-gemini/id6477489729",
       "tab": "Today",
       "section": "배너",
       "priority": 58,
@@ -751,12 +736,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 50
+      "rank": 49
     },
     {
       "name": "同盟塔防戰：並肩作戰",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/e6/72/75e67223-f27f-7331-df6b-4f1d137c532d/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E5%90%8C%E7%9B%9F%E5%A1%94%E9%98%B2%E6%88%B0-%E4%B8%A6%E8%82%A9%E4%BD%9C%E6%88%B0/id6503702666",
       "tab": "Games",
       "section": "Featured",
@@ -766,13 +751,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 51
+      "rank": 50
     },
     {
-      "name": "美圖秀秀：AI 修圖美顏＆影片剪輯",
+      "name": "Google",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E7%BE%8E%E5%9C%96%E7%A7%80%E7%A7%80-ai-%E4%BF%AE%E5%9C%96%E7%BE%8E%E9%A1%8F-%E5%BD%B1%E7%89%87%E5%89%AA%E8%BC%AF/id416048305",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/50/21/40502181-5a7b-43b2-e9fb-b035fd3a9373/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/google/id284815942",
       "tab": "Today",
       "section": "배너",
       "priority": 59,
@@ -781,12 +766,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 52
+      "rank": 51
     },
     {
       "name": "Minecraft",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/0d/13/2a0d13e4-291d-7727-1830-c7fa5133b843/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/minecraft/id479516143",
       "tab": "Games",
       "section": "Featured",
@@ -796,13 +781,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 53
+      "rank": 52
     },
     {
-      "name": "小影 - AI影片剪輯&一鍵製作&視頻編輯",
+      "name": "發票存摺：統一發票雲端對獎＋電子發票載具歸戶＋發票回饋兌獎",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E5%B0%8F%E5%BD%B1-ai%E5%BD%B1%E7%89%87%E5%89%AA%E8%BC%AF-%E4%B8%80%E9%8D%B5%E8%A3%BD%E4%BD%9C-%E8%A6%96%E9%A0%BB%E7%B7%A8%E8%BC%AF/id738897668",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/1f/18/251f1812-24a5-a90c-22ff-90b134424ada/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E7%99%BC%E7%A5%A8%E5%AD%98%E6%91%BA-%E7%B5%B1%E4%B8%80%E7%99%BC%E7%A5%A8%E9%9B%B2%E7%AB%AF%E5%B0%8D%E7%8D%8E-%E9%9B%BB%E5%AD%90%E7%99%BC%E7%A5%A8%E8%BC%89%E5%85%B7%E6%AD%B8%E6%88%B6-%E7%99%BC%E7%A5%A8%E5%9B%9E%E9%A5%8B%E5%85%8C%E7%8D%8E/id1276986959",
       "tab": "Today",
       "section": "배너",
       "priority": 60,
@@ -811,12 +796,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 54
+      "rank": 53
     },
     {
       "name": "Garena 傳說對決：全元進擊版本",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/1d/69/e41d6968-efa6-bc00-4a9a-2daa62026568/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/garena-%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA-%E5%85%A8%E5%85%83%E9%80%B2%E6%93%8A%E7%89%88%E6%9C%AC/id1089079153",
       "tab": "Games",
       "section": "Featured",
@@ -826,13 +811,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 55
+      "rank": 54
     },
     {
-      "name": "EF Hello英文口說：和AI家教聊天，學習道地英語發音！",
+      "name": "Telegram Messenger",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/ef-hello%E8%8B%B1%E6%96%87%E5%8F%A3%E8%AA%AA-%E5%92%8Cai%E5%AE%B6%E6%95%99%E8%81%8A%E5%A4%A9-%E5%AD%B8%E7%BF%92%E9%81%93%E5%9C%B0%E8%8B%B1%E8%AA%9E%E7%99%BC%E9%9F%B3/id1324622665",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/70/5a/a9705a15-e446-c2c9-7dac-3247a2d091b5/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/telegram-messenger/id686449807",
       "tab": "Today",
       "section": "배너",
       "priority": 61,
@@ -841,12 +826,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 56
+      "rank": 55
     },
     {
       "name": "RO仙境傳說：守護永恆的愛",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/ff/fc/87fffcc7-10a2-ce86-a3c4-5c426e2fc7bd/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/ro%E4%BB%99%E5%A2%83%E5%82%B3%E8%AA%AA-%E5%AE%88%E8%AD%B7%E6%B0%B8%E6%81%86%E7%9A%84%E6%84%9B/id1253796614",
       "tab": "Games",
       "section": "Featured",
@@ -856,13 +841,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 57
+      "rank": 56
     },
     {
-      "name": "SNOW -AI個人檔案",
+      "name": "momo購物 l 讓你找到更多更多",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/snow-ai%E5%80%8B%E4%BA%BA%E6%AA%94%E6%A1%88/id1022267439",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/45/3b/d9453b9d-066a-49e7-dca5-9866cf74d9fc/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/momo%E8%B3%BC%E7%89%A9-l-%E8%AE%93%E4%BD%A0%E6%89%BE%E5%88%B0%E6%9B%B4%E5%A4%9A%E6%9B%B4%E5%A4%9A/id861796017",
       "tab": "Today",
       "section": "배너",
       "priority": 62,
@@ -871,12 +856,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 58
+      "rank": 57
     },
     {
       "name": "神魔之塔",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/0d/0b/ff0d0b74-96be-ddd2-7e1c-9f0ddbc07b83/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94/id583798880",
       "tab": "Games",
       "section": "Featured",
@@ -886,13 +871,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 59
+      "rank": 58
     },
     {
-      "name": "Microsoft Bing Search",
+      "name": "Whoscall 象卡來",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/microsoft-bing-search/id345323231",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/d8/4b/54d84bb8-043e-2d15-33c2-d4f63c77959b/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/whoscall-%E8%B1%A1%E5%8D%A1%E4%BE%86/id929968679",
       "tab": "Today",
       "section": "배너",
       "priority": 63,
@@ -901,12 +886,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 60
+      "rank": 59
     },
     {
       "name": "Pokémon GO",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/99/8f/85998f32-d301-3881-39c2-255e6a6cf7f2/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/pok%C3%A9mon-go/id1094591345",
       "tab": "Games",
       "section": "Featured",
@@ -916,13 +901,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 61
+      "rank": 60
     },
     {
-      "name": "Muscle Monster:專注減脂增肌的鍛鍊計劃",
+      "name": "統一發票兌獎",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/muscle-monster-%E5%B0%88%E6%B3%A8%E6%B8%9B%E8%84%82%E5%A2%9E%E8%82%8C%E7%9A%84%E9%8D%9B%E9%8D%8A%E8%A8%88%E5%8A%83/id6471547318",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/02/86/8b0286bb-e006-d13a-ffdb-4bbd95ce2aea/appicons-0-0-1x_U007emarketing-0-7-0-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E7%B5%B1%E4%B8%80%E7%99%BC%E7%A5%A8%E5%85%8C%E7%8D%8E/id1445981329",
       "tab": "Today",
       "section": "배너",
       "priority": 64,
@@ -931,12 +916,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 62
+      "rank": 61
     },
     {
       "name": "怪物彈珠",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/18/45/1c184580-1e67-6368-6ed3-70222ed56ec7/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E6%80%AA%E7%89%A9%E5%BD%88%E7%8F%A0/id850251209",
       "tab": "Games",
       "section": "Featured",
@@ -946,13 +931,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 63
+      "rank": 62
     },
     {
-      "name": "ELSA Speak - English Learning",
+      "name": "Coupang 酷澎購物—隔日到貨天天低價—日常所需都在這裡",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/elsa-speak-english-learning/id1083804886",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/9a/64/5b9a642b-378f-09ea-dc62-9c5ed82051ad/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/coupang-%E9%85%B7%E6%BE%8E%E8%B3%BC%E7%89%A9-%E9%9A%94%E6%97%A5%E5%88%B0%E8%B2%A8%E5%A4%A9%E5%A4%A9%E4%BD%8E%E5%83%B9-%E6%97%A5%E5%B8%B8%E6%89%80%E9%9C%80%E9%83%BD%E5%9C%A8%E9%80%99%E8%A3%A1/id1567026344",
       "tab": "Today",
       "section": "배너",
       "priority": 65,
@@ -961,12 +946,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 64
+      "rank": 63
     },
     {
       "name": "PUBG MOBILE：絕地求生M",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/b4/1a/65b41a1f-9cf0-7f53-4c46-becfd7d57903/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/pubg-mobile-%E7%B5%95%E5%9C%B0%E6%B1%82%E7%94%9Fm/id1453363650",
       "tab": "Games",
       "section": "Featured",
@@ -976,13 +961,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 65
+      "rank": 64
     },
     {
-      "name": "Pinterest",
+      "name": "Google 雲端硬碟",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/pinterest/id429047995",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/92/0a/64920a45-8632-1bd6-ebf7-dbb9de794383/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/google-%E9%9B%B2%E7%AB%AF%E7%A1%AC%E7%A2%9F/id507874739",
       "tab": "Today",
       "section": "배너",
       "priority": 66,
@@ -991,12 +976,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 66
+      "rank": 65
     },
     {
       "name": "貓咪大戰爭",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/00/ec/2e00ec66-01b4-8be5-d500-35c1444e1f31/AppIcon-tw-1x_U007epad-0-1-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E5%A4%A7%E6%88%B0%E7%88%AD/id971601423",
       "tab": "Games",
       "section": "Featured",
@@ -1006,13 +991,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 67
+      "rank": 66
     },
     {
-      "name": "Grammarly: AI Keyboard & Notes",
+      "name": "Claude by Anthropic",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/grammarly-ai-keyboard-notes/id1158877342",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/f2/84/9df284f0-9b68-08a6-9a44-d4069f23a0b3/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/claude-by-anthropic/id6473753684",
       "tab": "Today",
       "section": "배너",
       "priority": 67,
@@ -1021,12 +1006,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 68
+      "rank": 67
     },
     {
       "name": "Roblox",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/bc/e9/41bce9a7-584c-4b0f-4e93-ed4748ab0674/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/roblox/id431946152",
       "tab": "Games",
       "section": "Featured",
@@ -1036,13 +1021,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 69
+      "rank": 68
     },
     {
-      "name": "Microsoft Copilot",
+      "name": "Google NotebookLM",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/microsoft-copilot/id6472538445",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/09/41/48/0941481d-5564-ccb1-ce82-3d19cffd73f0/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/google-notebooklm/id6737527615",
       "tab": "Today",
       "section": "배너",
       "priority": 68,
@@ -1051,12 +1036,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 70
+      "rank": 69
     },
     {
       "name": "魔靈召喚: 天空之役",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/14/3e/cc143e27-0a99-46df-87fa-679bfa65ed2b/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E9%AD%94%E9%9D%88%E5%8F%AC%E5%96%9A-%E5%A4%A9%E7%A9%BA%E4%B9%8B%E5%BD%B9/id852912420",
       "tab": "Games",
       "section": "Featured",
@@ -1066,13 +1051,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 71
+      "rank": 70
     },
     {
-      "name": "Photoroom：AI 照片編輯器",
+      "name": "Goodnotes：AI 筆記、白板、PDF",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/photoroom-ai-%E7%85%A7%E7%89%87%E7%B7%A8%E8%BC%AF%E5%99%A8/id1455009060",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/87/f2/8087f2f9-6b5d-c8e8-ab98-f67393a2a38d/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/goodnotes-ai-%E7%AD%86%E8%A8%98-%E7%99%BD%E6%9D%BF-pdf/id1444383602",
       "tab": "Today",
       "section": "배너",
       "priority": 69,
@@ -1081,12 +1066,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 72
+      "rank": 71
     },
     {
       "name": "The Division Resurgence",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1d/10/55/1d105521-27d6-cfb5-5ce8-6b0a79620b10/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/the-division-resurgence/id1606349410",
       "tab": "Games",
       "section": "Featured",
@@ -1096,13 +1081,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 73
+      "rank": 72
     },
     {
-      "name": "Craft - 文件與記錄編輯器",
+      "name": "Notion：筆記、任務、AI",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/craft-%E6%96%87%E4%BB%B6%E8%88%87%E8%A8%98%E9%8C%84%E7%B7%A8%E8%BC%AF%E5%99%A8/id1487937127",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/ab/31/80ab31b4-ff1e-6a74-a5d7-31fd85fd00e2/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/notion-%E7%AD%86%E8%A8%98-%E4%BB%BB%E5%8B%99-ai/id1232780281",
       "tab": "Today",
       "section": "배너",
       "priority": 70,
@@ -1111,12 +1096,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 74
+      "rank": 73
     },
     {
       "name": "輕輕鬆鬆王帝生活 : 創造迷你世界",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/28/60/5628608a-ec33-0388-157b-a8a0e550392c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/48x48ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E8%BC%95%E8%BC%95%E9%AC%86%E9%AC%86%E7%8E%8B%E5%B8%9D%E7%94%9F%E6%B4%BB-%E5%89%B5%E9%80%A0%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C/id1579657842",
       "tab": "Today",
       "section": "Featured",
@@ -1126,12 +1111,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 75
+      "rank": 74
     },
     {
       "name": "靈視異聞 FILE38 伊勢人魚物語",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/4c/ca/1e4cca96-0fba-960a-50c5-80c64ba4a262/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E9%9D%88%E8%A6%96%E7%95%B0%E8%81%9E-file38-%E4%BC%8A%E5%8B%A2%E4%BA%BA%E9%AD%9A%E7%89%A9%E8%AA%9E/id6474289326",
       "tab": "Games",
       "section": "Featured",
@@ -1141,13 +1126,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 76
+      "rank": 75
     },
     {
-      "name": "Sololearn: Learn to Code",
+      "name": "Canva：AI、設計、照片和影片",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/sololearn-learn-to-code/id1210079064",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/22/4d/be224d15-418e-48b9-3d53-e8a17be7417d/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/canva-ai-%E8%A8%AD%E8%A8%88-%E7%85%A7%E7%89%87%E5%92%8C%E5%BD%B1%E7%89%87/id897446215",
       "tab": "Today",
       "section": "배너",
       "priority": 71,
@@ -1156,12 +1141,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 77
+      "rank": 76
     },
     {
       "name": "Otter Ocean - 獺獺之海",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/c4/36/1cc43600-1ddc-0dce-7053-95e1a104bcfb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/48x48ia-75.webp",
       "url": "https://apps.apple.com/tw/app/otter-ocean-%E7%8D%BA%E7%8D%BA%E4%B9%8B%E6%B5%B7/id1547780996",
       "tab": "Today",
       "section": "Featured",
@@ -1171,12 +1156,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 78
+      "rank": 77
     },
     {
       "name": "DISSIDIA DUELLUM FINAL FANTASY",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bf/ca/61/bfca6170-9062-0ed4-97ed-d5bc89a1d244/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/dissidia-duellum-final-fantasy/id6480398822",
       "tab": "Games",
       "section": "Featured",
@@ -1186,13 +1171,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 79
+      "rank": 78
     },
     {
-      "name": "YouTube",
+      "name": "美圖秀秀：AI 修圖美顏＆影片剪輯",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/youtube/id544007664",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/d6/3e/e6d63ea8-d951-e671-13e8-b4e0e4771b2c/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E7%BE%8E%E5%9C%96%E7%A7%80%E7%A7%80-ai-%E4%BF%AE%E5%9C%96%E7%BE%8E%E9%A1%8F-%E5%BD%B1%E7%89%87%E5%89%AA%E8%BC%AF/id416048305",
       "tab": "Today",
       "section": "배너",
       "priority": 72,
@@ -1201,12 +1186,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 80
+      "rank": 79
     },
     {
       "name": "Animal Express - 動物快線",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/08/73/5c08730c-90cc-e20f-c28e-051b8ab0d63b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/48x48ia-75.webp",
       "url": "https://apps.apple.com/tw/app/animal-express-%E5%8B%95%E7%89%A9%E5%BF%AB%E7%B7%9A/id6473816393",
       "tab": "Today",
       "section": "Featured",
@@ -1216,12 +1201,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 81
+      "rank": 80
     },
     {
       "name": "七大罪：Origin",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/d5/29/bcd529b6-3ae2-dd40-e4b8-fb93a1d0b52f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E4%B8%83%E5%A4%A7%E7%BD%AA-origin/id6744205088",
       "tab": "Games",
       "section": "Featured",
@@ -1231,13 +1216,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 82
+      "rank": 81
     },
     {
-      "name": "LINE",
+      "name": "小影 - AI影片剪輯&一鍵製作&視頻編輯",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/line/id443904275",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/a5/29/b4a52918-fcf6-3409-a92e-c3bddba9d06c/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E5%B0%8F%E5%BD%B1-ai%E5%BD%B1%E7%89%87%E5%89%AA%E8%BC%AF-%E4%B8%80%E9%8D%B5%E8%A3%BD%E4%BD%9C-%E8%A6%96%E9%A0%BB%E7%B7%A8%E8%BC%AF/id738897668",
       "tab": "Today",
       "section": "배너",
       "priority": 73,
@@ -1246,12 +1231,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 83
+      "rank": 82
     },
     {
       "name": "Too Many Cooks",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/0c/ca/49/0cca496b-20b9-d176-3cce-3131931a61b8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/48x48ia-75.webp",
       "url": "https://apps.apple.com/tw/app/too-many-cooks/id1412734097",
       "tab": "Today",
       "section": "Featured",
@@ -1261,12 +1246,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 84
+      "rank": 83
     },
     {
       "name": "RO仙境傳說：愛如初見Classic",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/08/23/8a0823f8-5689-1a9d-c7fa-baa57dbf4e46/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/ro%E4%BB%99%E5%A2%83%E5%82%B3%E8%AA%AA-%E6%84%9B%E5%A6%82%E5%88%9D%E8%A6%8Bclassic/id6754158504",
       "tab": "Games",
       "section": "Featured",
@@ -1276,13 +1261,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 85
+      "rank": 84
     },
     {
-      "name": "Google 地圖",
+      "name": "EF Hello英文口說：和AI家教聊天，學習道地英語發音！",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/google-%E5%9C%B0%E5%9C%96/id585027354",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/f5/44/cdf5444b-7328-ca82-d5ad-f1979b9ed6ba/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/ef-hello%E8%8B%B1%E6%96%87%E5%8F%A3%E8%AA%AA-%E5%92%8Cai%E5%AE%B6%E6%95%99%E8%81%8A%E5%A4%A9-%E5%AD%B8%E7%BF%92%E9%81%93%E5%9C%B0%E8%8B%B1%E8%AA%9E%E7%99%BC%E9%9F%B3/id1324622665",
       "tab": "Today",
       "section": "배너",
       "priority": 74,
@@ -1291,12 +1276,27 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
+      "rank": 85
+    },
+    {
+      "name": "怪獸大進擊 2",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/33/4d/f1334dbd-af9d-dfbc-6ab4-8e03785324e5/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E6%80%AA%E7%8D%B8%E5%A4%A7%E9%80%B2%E6%93%8A-2/id6480058345",
+      "tab": "Today",
+      "section": "Featured",
+      "priority": 74,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
       "rank": 86
     },
     {
       "name": "鐳明閃擊-首創進攻型塔防RPG",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b5/f7/88/b5f78872-5f1d-b6f9-0178-6e7cdfd707e4/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E9%90%B3%E6%98%8E%E9%96%83%E6%93%8A-%E9%A6%96%E5%89%B5%E9%80%B2%E6%94%BB%E5%9E%8B%E5%A1%94%E9%98%B2rpg/id6755194323",
       "tab": "Games",
       "section": "Featured",
@@ -1309,10 +1309,10 @@
       "rank": 87
     },
     {
-      "name": "TikTok - 有趣的人都在這裡",
+      "name": "SNOW -AI個人檔案",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/tiktok-%E6%9C%89%E8%B6%A3%E7%9A%84%E4%BA%BA%E9%83%BD%E5%9C%A8%E9%80%99%E8%A3%A1/id1235601864",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/38/4c/7e384c7c-d7ee-21a8-8fa0-a77ed2bd6edb/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/snow-ai%E5%80%8B%E4%BA%BA%E6%AA%94%E6%A1%88/id1022267439",
       "tab": "Today",
       "section": "배너",
       "priority": 75,
@@ -1324,10 +1324,10 @@
       "rank": 88
     },
     {
-      "name": "超忍機 Ninja Gear",
+      "name": "怪獸大進擊",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E8%B6%85%E5%BF%8D%E6%A9%9F-ninja-gear/id1496904567",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/de/15/56de1588-5a5e-b63f-1ff4-7bffc4472e5e/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E6%80%AA%E7%8D%B8%E5%A4%A7%E9%80%B2%E6%93%8A/id1601667026",
       "tab": "Today",
       "section": "Featured",
       "priority": 75,
@@ -1341,7 +1341,7 @@
     {
       "name": "新三國志曹操傳",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/06/69/1d066931-31c3-914f-20d5-efef565ec654/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E6%96%B0%E4%B8%89%E5%9C%8B%E5%BF%97%E6%9B%B9%E6%93%8D%E5%82%B3/id6755760260",
       "tab": "Games",
       "section": "Featured",
@@ -1354,10 +1354,10 @@
       "rank": 90
     },
     {
-      "name": "蝦皮購物 | 花得更少買得更好",
+      "name": "Microsoft Bing Search",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E8%9D%A6%E7%9A%AE%E8%B3%BC%E7%89%A9-%E8%8A%B1%E5%BE%97%E6%9B%B4%E5%B0%91%E8%B2%B7%E5%BE%97%E6%9B%B4%E5%A5%BD/id959841107",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/27/82/682782db-bb44-456d-3073-8c27ac873520/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/microsoft-bing-search/id345323231",
       "tab": "Today",
       "section": "배너",
       "priority": 76,
@@ -1369,10 +1369,10 @@
       "rank": 91
     },
     {
-      "name": "OH~! My Office - Boss Sim Game",
+      "name": "命運之塔 4",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/oh-my-office-boss-sim-game/id1404681758",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/18/6a/ed186add-69b5-39f7-467c-ba590f5fc78c/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E5%91%BD%E9%81%8B%E4%B9%8B%E5%A1%94-4/id1567361565",
       "tab": "Today",
       "section": "Featured",
       "priority": 76,
@@ -1386,7 +1386,7 @@
     {
       "name": "決勝之心",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/94/f9/f7/94f9f79f-071b-c7c1-f63c-3e64d196ef1b/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E6%B1%BA%E5%8B%9D%E4%B9%8B%E5%BF%83/id6756254027",
       "tab": "Games",
       "section": "Featured",
@@ -1399,10 +1399,10 @@
       "rank": 93
     },
     {
-      "name": "Google",
+      "name": "Muscle Monster:專注減脂增肌的鍛鍊計劃",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/google/id284815942",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/2a/25/782a2509-45a2-adc4-a3c8-b5e3e872884b/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/muscle-monster-%E5%B0%88%E6%B3%A8%E6%B8%9B%E8%84%82%E5%A2%9E%E8%82%8C%E7%9A%84%E9%8D%9B%E9%8D%8A%E8%A8%88%E5%8A%83/id6471547318",
       "tab": "Today",
       "section": "배너",
       "priority": 77,
@@ -1414,10 +1414,10 @@
       "rank": 94
     },
     {
-      "name": "四驅傳說 - 模擬四驅車賽車遊戲！",
+      "name": "百鬼迷城",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E5%9B%9B%E9%A9%85%E5%82%B3%E8%AA%AA-%E6%A8%A1%E6%93%AC%E5%9B%9B%E9%A9%85%E8%BB%8A%E8%B3%BD%E8%BB%8A%E9%81%8A%E6%88%B2/id1030310599",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/d9/14/d6d914fa-9e81-05c2-a8d0-af0c4d1ee680/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E7%99%BE%E9%AC%BC%E8%BF%B7%E5%9F%8E/id1494667368",
       "tab": "Today",
       "section": "Featured",
       "priority": 77,
@@ -1431,7 +1431,7 @@
     {
       "name": "星之救援者",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/ca/bc/d4cabcec-8c53-2102-4704-23e797db9aa2/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E6%98%9F%E4%B9%8B%E6%95%91%E6%8F%B4%E8%80%85/id6443597557",
       "tab": "Games",
       "section": "Featured",
@@ -1444,10 +1444,10 @@
       "rank": 96
     },
     {
-      "name": "發票存摺：統一發票雲端對獎＋電子發票載具歸戶＋發票回饋兌獎",
+      "name": "ELSA Speak - English Learning",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E7%99%BC%E7%A5%A8%E5%AD%98%E6%91%BA-%E7%B5%B1%E4%B8%80%E7%99%BC%E7%A5%A8%E9%9B%B2%E7%AB%AF%E5%B0%8D%E7%8D%8E-%E9%9B%BB%E5%AD%90%E7%99%BC%E7%A5%A8%E8%BC%89%E5%85%B7%E6%AD%B8%E6%88%B6-%E7%99%BC%E7%A5%A8%E5%9B%9E%E9%A5%8B%E5%85%8C%E7%8D%8E/id1276986959",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/66/6a/9d666a11-38f4-5087-e612-1705943104fd/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/elsa-speak-english-learning/id1083804886",
       "tab": "Today",
       "section": "배너",
       "priority": 78,
@@ -1459,9 +1459,24 @@
       "rank": 97
     },
     {
+      "name": "黃泉騎士團－命運之輪",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/68/aa/06/68aa0613-c475-cf23-05cc-2850a3db07c9/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E9%BB%83%E6%B3%89%E9%A8%8E%E5%A3%AB%E5%9C%98-%E5%91%BD%E9%81%8B%E4%B9%8B%E8%BC%AA/id1427221518",
+      "tab": "Today",
+      "section": "Featured",
+      "priority": 78,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 98
+    },
+    {
       "name": "Coffee Talk: Episode 1",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/69/0e/85690e6a-012f-9c60-0c61-121fc76700f9/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/coffee-talk-episode-1/id6738106578",
       "tab": "Games",
       "section": "Featured",
@@ -1471,13 +1486,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 98
+      "rank": 99
     },
     {
-      "name": "Telegram Messenger",
+      "name": "Pinterest",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/telegram-messenger/id686449807",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/bd/1d/e4bd1dc3-4313-9158-3eff-19b73b2bdac4/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/pinterest/id429047995",
       "tab": "Today",
       "section": "배너",
       "priority": 79,
@@ -1486,13 +1501,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 99
+      "rank": 100
     },
     {
-      "name": "Hero Blitz: RPG Roguelike War",
+      "name": "法盾奇兵",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/hero-blitz-rpg-roguelike-war/id6711344267",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/81/a8/7e81a810-24e0-e99d-e049-fb7268d2d503/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E6%B3%95%E7%9B%BE%E5%A5%87%E5%85%B5/id1161122860",
       "tab": "Today",
       "section": "Featured",
       "priority": 79,
@@ -1501,12 +1516,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 100
+      "rank": 101
     },
     {
       "name": "This Aint Even Poker, Ya Joker",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/da/e0/f9dae05c-cf40-6760-7103-f1ee28d3d8e1/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/tw/app/this-aint-even-poker-ya-joker/id6757846100",
       "tab": "Games",
       "section": "Featured",
@@ -1516,13 +1531,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 101
+      "rank": 102
     },
     {
-      "name": "momo購物 l 讓你找到更多更多",
+      "name": "Grammarly: AI Keyboard & Notes",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/momo%E8%B3%BC%E7%89%A9-l-%E8%AE%93%E4%BD%A0%E6%89%BE%E5%88%B0%E6%9B%B4%E5%A4%9A%E6%9B%B4%E5%A4%9A/id861796017",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/49/09/674909b7-ea32-470a-68d1-3e494c52d483/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/grammarly-ai-keyboard-notes/id1158877342",
       "tab": "Today",
       "section": "배너",
       "priority": 80,
@@ -1531,13 +1546,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 102
+      "rank": 103
     },
     {
-      "name": "陰影對手：動作戰爭遊戲",
+      "name": "藝術大亨傳 2",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E9%99%B0%E5%BD%B1%E5%B0%8D%E6%89%8B-%E5%8B%95%E4%BD%9C%E6%88%B0%E7%88%AD%E9%81%8A%E6%88%B2/id6737874569",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/df/ad/e5dfadbf-441c-7233-9e9b-1648f6ddb0b0/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/48x48ia-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E8%97%9D%E8%A1%93%E5%A4%A7%E4%BA%A8%E5%82%B3-2/id6478948342",
       "tab": "Today",
       "section": "Featured",
       "priority": 80,
@@ -1546,12 +1561,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 103
+      "rank": 104
     },
     {
       "name": "大猩猩接龍",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/5a/7a/3b5a7ae5-66e8-fdcb-8012-eecddb34f1e2/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E5%A4%A7%E7%8C%A9%E7%8C%A9%E6%8E%A5%E9%BE%8D/id6748629425",
       "tab": "Games",
       "section": "Featured",
@@ -1561,13 +1576,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 104
+      "rank": 105
     },
     {
-      "name": "統一發票兌獎",
+      "name": "Microsoft Copilot",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E7%B5%B1%E4%B8%80%E7%99%BC%E7%A5%A8%E5%85%8C%E7%8D%8E/id1445981329",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/ad/9f/7fad9f78-b960-98bd-7c81-048eed626112/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/microsoft-copilot/id6472538445",
       "tab": "Today",
       "section": "배너",
       "priority": 81,
@@ -1576,13 +1591,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 105
+      "rank": 106
     },
     {
-      "name": "藝術大亨傳 2",
+      "name": "藝術大亨",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E8%97%9D%E8%A1%93%E5%A4%A7%E4%BA%A8%E5%82%B3-2/id6478948342",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/24/35/aa2435ca-47fd-bdba-7486-7fe5e41dc1e1/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/48x48ia-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E8%97%9D%E8%A1%93%E5%A4%A7%E4%BA%A8/id1456333098",
       "tab": "Today",
       "section": "Featured",
       "priority": 81,
@@ -1591,12 +1606,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 106
+      "rank": 107
     },
     {
       "name": "Monument Valley 3",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b9/b9/26/b9b92649-24c2-7f22-dfe8-1984ddb88f56/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/monument-valley-3/id6443563379",
       "tab": "Games",
       "section": "Featured",
@@ -1606,13 +1621,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 107
+      "rank": 108
     },
     {
-      "name": "Coupang 酷澎購物—隔日到貨天天低價—日常所需都在這裡",
+      "name": "Photoroom：AI 照片編輯器",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/coupang-%E9%85%B7%E6%BE%8E%E8%B3%BC%E7%89%A9-%E9%9A%94%E6%97%A5%E5%88%B0%E8%B2%A8%E5%A4%A9%E5%A4%A9%E4%BD%8E%E5%83%B9-%E6%97%A5%E5%B8%B8%E6%89%80%E9%9C%80%E9%83%BD%E5%9C%A8%E9%80%99%E8%A3%A1/id1567026344",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/9b/76/1a9b7649-4987-da0d-1901-9f037b5feafa/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/photoroom-ai-%E7%85%A7%E7%89%87%E7%B7%A8%E8%BC%AF%E5%99%A8/id1455009060",
       "tab": "Today",
       "section": "배너",
       "priority": 82,
@@ -1621,13 +1636,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 108
+      "rank": 109
     },
     {
-      "name": "藝術大亨",
+      "name": "點點億萬富翁",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E8%97%9D%E8%A1%93%E5%A4%A7%E4%BA%A8/id1456333098",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/1f/05/f61f05d2-5723-2881-1731-fea85d74ab5f/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/48x48ia-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E9%BB%9E%E9%BB%9E%E5%84%84%E8%90%AC%E5%AF%8C%E7%BF%81/id1090276143",
       "tab": "Today",
       "section": "Featured",
       "priority": 82,
@@ -1636,12 +1651,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 109
+      "rank": 110
     },
     {
       "name": "Duck Detective: Ghost Glamping",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/2e/ea/4d2eeade-a42d-b3f3-e56c-28aa71b6f480/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/duck-detective-ghost-glamping/id6751124234",
       "tab": "Games",
       "section": "Featured",
@@ -1651,13 +1666,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 110
+      "rank": 111
     },
     {
-      "name": "Google 雲端硬碟",
+      "name": "Craft - 文件與記錄編輯器",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/google-%E9%9B%B2%E7%AB%AF%E7%A1%AC%E7%A2%9F/id507874739",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/07/dc/7e07dcae-8b1d-9d3e-0f5b-c571a4a34bdc/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/craft-%E6%96%87%E4%BB%B6%E8%88%87%E8%A8%98%E9%8C%84%E7%B7%A8%E8%BC%AF%E5%99%A8/id1487937127",
       "tab": "Today",
       "section": "배너",
       "priority": 83,
@@ -1666,13 +1681,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 111
+      "rank": 112
     },
     {
-      "name": "點點億萬富翁",
+      "name": "超級跑冒險 - 3D 動作遊戲",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E9%BB%9E%E9%BB%9E%E5%84%84%E8%90%AC%E5%AF%8C%E7%BF%81/id1090276143",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/29/56/f529566a-a465-c4aa-a196-2913db6d3d1d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/48x48ia-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E8%B6%85%E7%B4%9A%E8%B7%91%E5%86%92%E9%9A%AA-3d-%E5%8B%95%E4%BD%9C%E9%81%8A%E6%88%B2/id1642684341",
       "tab": "Today",
       "section": "Featured",
       "priority": 83,
@@ -1681,29 +1696,14 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 112
+      "rank": 113
     },
     {
       "name": "可口的咖啡",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/bd/f4/c0bdf4d8-eaeb-1263-7256-ad591972ba0d/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E5%8F%AF%E5%8F%A3%E7%9A%84%E5%92%96%E5%95%A1/id1603584945",
       "tab": "Games",
-      "section": "Featured",
-      "priority": 84,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 113
-    },
-    {
-      "name": "超級跑冒險 - 3D 動作遊戲",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E8%B6%85%E7%B4%9A%E8%B7%91%E5%86%92%E9%9A%AA-3d-%E5%8B%95%E4%BD%9C%E9%81%8A%E6%88%B2/id1642684341",
-      "tab": "Today",
       "section": "Featured",
       "priority": 84,
       "genre": "",
@@ -1714,41 +1714,41 @@
       "rank": 114
     },
     {
-      "name": "Art of Fauna: Nature Puzzles",
+      "name": "Sololearn: Learn to Code",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/art-of-fauna-nature-puzzles/id1630468596",
-      "tab": "Games",
-      "section": "Featured",
-      "priority": 85,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 115
-    },
-    {
-      "name": "貓咪和湯",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E5%92%8C%E6%B9%AF/id1581431235",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/49/66/5c/49665cca-d844-1679-702a-33f9a893ead3/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/sololearn-learn-to-code/id1210079064",
       "tab": "Today",
       "section": "배너",
-      "priority": 85,
+      "priority": 84,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 116
+      "rank": 115
     },
     {
       "name": "塔防傳說 - 放置類塔防遊戲",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/23/58/a92358db-838c-4a4b-7124-26ef8bb2886a/Placeholder.mill/48x48bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E5%A1%94%E9%98%B2%E5%82%B3%E8%AA%AA-%E6%94%BE%E7%BD%AE%E9%A1%9E%E5%A1%94%E9%98%B2%E9%81%8A%E6%88%B2/id1258027083",
       "tab": "Today",
+      "section": "Featured",
+      "priority": 84,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 116
+    },
+    {
+      "name": "Art of Fauna: Nature Puzzles",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/04/f4/a804f43a-b945-02af-e220-c90f890d115d/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/art-of-fauna-nature-puzzles/id1630468596",
+      "tab": "Games",
       "section": "Featured",
       "priority": 85,
       "genre": "",
@@ -1759,41 +1759,41 @@
       "rank": 117
     },
     {
-      "name": "連擊萌獸",
+      "name": "SD鋼彈 G世代 永恆",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E9%80%A3%E6%93%8A%E8%90%8C%E7%8D%B8/id6446302380",
-      "tab": "Games",
-      "section": "Featured",
-      "priority": 86,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 118
-    },
-    {
-      "name": "CSR Racing 2",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/csr-racing-2/id887947640",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/cf/e7/e8cfe7df-4cf3-377c-e3d1-d95a6c471a84/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/sd%E9%8B%BC%E5%BD%88-g%E4%B8%96%E4%BB%A3-%E6%B0%B8%E6%81%86/id6692615881",
       "tab": "Today",
       "section": "배너",
-      "priority": 86,
+      "priority": 85,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 119
+      "rank": 118
     },
     {
       "name": "美食小廚神 - 記憶配對樂趣經營餐廳",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/13/af/9e/13af9eb4-939f-4e86-f30b-0386dd502f38/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/48x48ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E7%BE%8E%E9%A3%9F%E5%B0%8F%E5%BB%9A%E7%A5%9E-%E8%A8%98%E6%86%B6%E9%85%8D%E5%B0%8D%E6%A8%82%E8%B6%A3%E7%B6%93%E7%87%9F%E9%A4%90%E5%BB%B3/id1385930516",
       "tab": "Today",
+      "section": "Featured",
+      "priority": 85,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 119
+    },
+    {
+      "name": "連擊萌獸",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/0d/14/b80d1405-da42-b1a6-1607-52f15a4f734d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E9%80%A3%E6%93%8A%E8%90%8C%E7%8D%B8/id6446302380",
+      "tab": "Games",
       "section": "Featured",
       "priority": 86,
       "genre": "",
@@ -1804,9 +1804,39 @@
       "rank": 120
     },
     {
+      "name": "Dora ：探索與玩耍",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/8b/6c/bc8b6c01-2bd5-5ce3-9939-9d60882062d8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/48x48ia-75.webp",
+      "url": "https://apps.apple.com/tw/app/dora-%E6%8E%A2%E7%B4%A2%E8%88%87%E7%8E%A9%E8%80%8D/id6742843999",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 86,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 121
+    },
+    {
+      "name": "月兔冒險",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/e1/7d/7fe17d54-cc03-dbde-9294-a7b4e9114144/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E6%9C%88%E5%85%94%E5%86%92%E9%9A%AA/id1436776211",
+      "tab": "Today",
+      "section": "Featured",
+      "priority": 86,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 122
+    },
+    {
       "name": "麻糬貓收藏 - 療癒的每一天 MochiCat",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/fd/21/bafd21f9-6a11-1ce5-ff1b-238a2af38edf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E9%BA%BB%E7%B3%AC%E8%B2%93%E6%94%B6%E8%97%8F-%E7%99%82%E7%99%92%E7%9A%84%E6%AF%8F%E4%B8%80%E5%A4%A9-mochicat/id1524137086",
       "tab": "Games",
       "section": "Featured",
@@ -1816,12 +1846,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 121
+      "rank": 123
+    },
+    {
+      "name": "貓咪和湯",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/61/c2/e561c259-fed5-42eb-574b-b0ced47b1b07/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E5%92%8C%E6%B9%AF/id1581431235",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 87,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 124
     },
     {
       "name": "傳奇大亂鬥",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/ed/50/75ed5075-6098-7c4b-5469-94ecd87ec821/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E5%82%B3%E5%A5%87%E5%A4%A7%E4%BA%82%E9%AC%A5/id1492660284",
       "tab": "Games",
       "section": "Featured",
@@ -1831,13 +1876,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 122
+      "rank": 125
     },
     {
-      "name": "夢想小鎮 (Township)",
+      "name": "崩壞：星穹鐵道",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E5%A4%A2%E6%83%B3%E5%B0%8F%E9%8E%AE-township/id638689075",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/32/36/3c323655-b1c4-f276-0b0e-6619f24ab591/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E5%B4%A9%E5%A3%9E-%E6%98%9F%E7%A9%B9%E9%90%B5%E9%81%93/id1599719154",
       "tab": "Today",
       "section": "배너",
       "priority": 88,
@@ -1846,12 +1891,27 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 123
+      "rank": 126
+    },
+    {
+      "name": "Hello Kitty My Dream Store",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1a/52/f8/1a52f86b-f2a9-c89a-ea9b-33f3334284ac/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/hello-kitty-my-dream-store/id6736896540",
+      "tab": "Today",
+      "section": "Featured",
+      "priority": 88,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 127
     },
     {
       "name": "迷你咖啡廳",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2d/cc/2a/2dcc2a55-4056-d185-07e6-720f989b71aa/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E8%BF%B7%E4%BD%A0%E5%92%96%E5%95%A1%E5%BB%B3/id6651825685",
       "tab": "Games",
       "section": "Featured",
@@ -1861,12 +1921,42 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 124
+      "rank": 128
+    },
+    {
+      "name": "CSR Racing 2",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/b3/cf/b3b3cf8f-d1b5-34a4-af58-f4bbfd120f3f/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/48x48ia-75.webp",
+      "url": "https://apps.apple.com/tw/app/csr-racing-2/id887947640",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 89,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 129
+    },
+    {
+      "name": "Hello Kitty Island Adventure",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dc/1b/d4/dc1bd409-7083-df58-0021-bbb76efc4883/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/hello-kitty-island-adventure/id1553505132",
+      "tab": "Today",
+      "section": "Featured",
+      "priority": 89,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 130
     },
     {
       "name": "Fortias Saga: Idle RPG",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/2d/12/6a2d1228-ff32-4f6d-8272-aa3db3c0c6e0/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/fortias-saga-idle-rpg/id6475805032",
       "tab": "Games",
       "section": "Featured",
@@ -1876,27 +1966,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 125
+      "rank": 131
     },
     {
-      "name": "夢幻水族箱 (Fishdom)",
+      "name": "Hello Kitty Friends Match",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E5%A4%A2%E5%B9%BB%E6%B0%B4%E6%97%8F%E7%AE%B1-fishdom/id664575829",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/a7/70/eda77035-8964-136a-1d17-950381ae51a3/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/hello-kitty-friends-match/id6742533643",
       "tab": "Today",
-      "section": "배너",
+      "section": "Featured",
       "priority": 90,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "banner": true,
-      "rank": 126
+      "banner": false,
+      "rank": 132
     },
     {
       "name": "窗口花園 - 洛菲放置遊戲",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/be/70/bdbe705f-d6ac-6c7d-fbb3-4784e920407f/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E7%AA%97%E5%8F%A3%E8%8A%B1%E5%9C%92-%E6%B4%9B%E8%8F%B2%E6%94%BE%E7%BD%AE%E9%81%8A%E6%88%B2/id6473402739",
       "tab": "Games",
       "section": "Featured",
@@ -1906,13 +1996,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 127
+      "rank": 133
     },
     {
-      "name": "LinkedIn",
+      "name": "夢幻水族箱 (Fishdom)",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/linkedin/id288429040",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/41/2d/a8/412da89a-5280-ad78-e083-5bbf97677265/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E5%A4%A2%E5%B9%BB%E6%B0%B4%E6%97%8F%E7%AE%B1-fishdom/id664575829",
       "tab": "Today",
       "section": "배너",
       "priority": 91,
@@ -1921,12 +2011,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 128
+      "rank": 134
     },
     {
       "name": "月兔漫遊",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/86/a9/9386a906-3500-bbb7-bf37-d5d65c88428d/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E6%9C%88%E5%85%94%E6%BC%AB%E9%81%8A/id1564146071",
       "tab": "Games",
       "section": "Featured",
@@ -1936,13 +2026,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 129
+      "rank": 135
     },
     {
-      "name": "七騎士 Re:BIRTH",
+      "name": "LinkedIn",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E4%B8%83%E9%A8%8E%E5%A3%AB-re-birth/id6479595079",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/66/d3/e266d373-99a9-59a8-85b0-18424cb187cd/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/linkedin/id288429040",
       "tab": "Today",
       "section": "배너",
       "priority": 92,
@@ -1951,12 +2041,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 130
+      "rank": 136
     },
     {
       "name": "hololive Dreams",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/4b/81/f74b8136-4d88-6137-67a4-d1f2a5606f16/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/hololive-dreams/id6756641249",
       "tab": "Games",
       "section": "Featured",
@@ -1966,27 +2056,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 131
-    },
-    {
-      "name": "卡皮巴拉 Go!",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E5%8D%A1%E7%9A%AE%E5%B7%B4%E6%8B%89-go/id6596787726",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 93,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 132
+      "rank": 137
     },
     {
       "name": "薑餅人大亂鬥",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/23/3b/00233b9b-0ccf-b02d-dea7-ec24af9c7afc/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E8%96%91%E9%A4%85%E4%BA%BA%E5%A4%A7%E4%BA%82%E9%AC%A5/id6739696719",
       "tab": "Games",
       "section": "Featured",
@@ -1996,12 +2071,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 133
+      "rank": 138
+    },
+    {
+      "name": "吉伊卡哇袋著走",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/5c/31/895c31be-90ab-1c43-90f7-66b0b833e511/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E5%90%89%E4%BC%8A%E5%8D%A1%E5%93%87%E8%A2%8B%E8%91%97%E8%B5%B0/id6740838442",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 94,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 139
     },
     {
       "name": "魔御：STAR DIVE",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/4f/db/eb4fdb91-db5b-a709-8c78-9acb10603e6c/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E9%AD%94%E5%BE%A1-star-dive/id6483252725",
       "tab": "Games",
       "section": "Featured",
@@ -2011,12 +2101,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 134
+      "rank": 140
+    },
+    {
+      "name": "貓咪收集2",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/8a/f1/dc8af159-b384-ad16-2fc7-ba805fda9a3f/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E6%94%B6%E9%9B%862/id6499131935",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 95,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 141
     },
     {
       "name": "新熱血江湖：世界",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/2d/a3/802da340-6c73-e04c-0ef1-ec626fb63a78/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E6%96%B0%E7%86%B1%E8%A1%80%E6%B1%9F%E6%B9%96-%E4%B8%96%E7%95%8C/id6756000886",
       "tab": "Games",
       "section": "Featured",
@@ -2026,12 +2131,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 135
+      "rank": 142
+    },
+    {
+      "name": "角落小夥伴 農場/Sumikkogurashi Farm",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/f3/c0/f7f3c001-4ba8-c593-e0ff-5a9ee726ea9f/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E8%A7%92%E8%90%BD%E5%B0%8F%E5%A4%A5%E4%BC%B4-%E8%BE%B2%E5%A0%B4-sumikkogurashi-farm/id1506114382",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 96,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 143
     },
     {
       "name": "Cats & Soup : Magic Recipe",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/8c/da/808cdacc-1071-85ee-f46b-5673ff577543/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/cats-soup-magic-recipe/id6446347021",
       "tab": "Games",
       "section": "Featured",
@@ -2041,12 +2161,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 136
+      "rank": 144
+    },
+    {
+      "name": "夢想小鎮 (Township)",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/e7/0c/a3e70c7d-6f5a-ed40-bd93-bd8ddfd57ce3/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E5%A4%A2%E6%83%B3%E5%B0%8F%E9%8E%AE-township/id638689075",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 97,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 145
     },
     {
       "name": "點點英雄：骰子傳說",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/da/1d/48/da1d4857-9167-c650-7af1-c12a8b89f9ef/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E9%BB%9E%E9%BB%9E%E8%8B%B1%E9%9B%84-%E9%AA%B0%E5%AD%90%E5%82%B3%E8%AA%AA/id6740966864",
       "tab": "Games",
       "section": "Featured",
@@ -2056,13 +2191,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 137
+      "rank": 146
     },
     {
-      "name": "可口的披薩，美味的披薩！",
+      "name": "SimCity BuildIt",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E5%8F%AF%E5%8F%A3%E7%9A%84%E6%8A%AB%E8%96%A9-%E7%BE%8E%E5%91%B3%E7%9A%84%E6%8A%AB%E8%96%A9/id911121200",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/09/2a/8a092a9d-87e5-cc5a-f160-f34edee8c9b5/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/simcity-buildit/id913292932",
       "tab": "Today",
       "section": "배너",
       "priority": 98,
@@ -2071,13 +2206,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 138
+      "rank": 147
     },
     {
-      "name": "ネコぱら セカイコネクト",
+      "name": "變身傳奇",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E3%83%8D%E3%82%B3%E3%81%B1%E3%82%89-%E3%82%BB%E3%82%AB%E3%82%A4%E3%82%B3%E3%83%8D%E3%82%AF%E3%83%88/id6743923238",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/47/9d/cc479df7-296b-774b-2441-e33b73aa8c29/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E8%AE%8A%E8%BA%AB%E5%82%B3%E5%A5%87/id6746192853",
       "tab": "Games",
       "section": "Featured",
       "priority": 99,
@@ -2086,13 +2221,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 139
+      "rank": 148
     },
     {
-      "name": "SimCity BuildIt",
+      "name": "Train Conductor World",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/simcity-buildit/id913292932",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/59/ef/db59efe5-be9f-a35e-6df0-7354b97dec14/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/train-conductor-world/id932228293",
       "tab": "Today",
       "section": "배너",
       "priority": 99,
@@ -2101,13 +2236,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 140
+      "rank": 149
     },
     {
-      "name": "變身傳奇",
+      "name": "ネコぱら セカイコネクト",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/%E8%AE%8A%E8%BA%AB%E5%82%B3%E5%A5%87/id6746192853",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/43/3c/f5433c07-6fb5-51cb-59b0-ce48f86468e1/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/tw/app/%E3%83%8D%E3%82%B3%E3%81%B1%E3%82%89-%E3%82%BB%E3%82%AB%E3%82%A4%E3%82%B3%E3%83%8D%E3%82%AF%E3%83%88/id6743923238",
       "tab": "Games",
       "section": "Featured",
       "priority": 100,
@@ -2116,12 +2251,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 141
+      "rank": 150
     },
     {
       "name": "歡樂釣王傳奇：體感拋竿釣魚",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/dc/fa/92dcfa43-018a-d941-d162-d59584c63678/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/48x48ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E6%AD%A1%E6%A8%82%E9%87%A3%E7%8E%8B%E5%82%B3%E5%A5%87-%E9%AB%94%E6%84%9F%E6%8B%8B%E7%AB%BF%E9%87%A3%E9%AD%9A/id6471659176",
       "tab": "Today",
       "section": "배너",
@@ -2131,12 +2266,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 142
+      "rank": 151
     },
     {
       "name": "怪獸：進化對決",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/5d/e5/4f5de53e-a6e1-4598-b190-a7e1aaa07227/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E6%80%AA%E7%8D%B8-%E9%80%B2%E5%8C%96%E5%B0%8D%E6%B1%BA/id6760745608",
       "tab": "Games",
       "section": "Featured",
@@ -2146,12 +2281,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 143
+      "rank": 152
     },
     {
       "name": "集結啦！帕萌獸",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/b7/9a/d7b79a69-d6fa-5fba-21e5-a435f36a953a/Placeholder.mill/48x48bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E9%9B%86%E7%B5%90%E5%95%A6-%E5%B8%95%E8%90%8C%E7%8D%B8/id6756285876",
       "tab": "Today",
       "section": "배너",
@@ -2161,12 +2296,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 144
+      "rank": 153
     },
     {
       "name": "神器傳說",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/c5/6c/91c56c4b-ea1b-4c31-79f0-f6bf846ed5dd/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E7%A5%9E%E5%99%A8%E5%82%B3%E8%AA%AA/id6744639953",
       "tab": "Games",
       "section": "Featured",
@@ -2176,12 +2311,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 145
+      "rank": 154
     },
     {
       "name": "時光小屋-寶寶成長相簿",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/7a/77/f27a77bc-fb25-2093-32cf-22995ca3f821/Placeholder.mill/48x48bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E6%99%82%E5%85%89%E5%B0%8F%E5%B1%8B-%E5%AF%B6%E5%AF%B6%E6%88%90%E9%95%B7%E7%9B%B8%E7%B0%BF/id565951606",
       "tab": "Today",
       "section": "배너",
@@ -2191,12 +2326,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 146
+      "rank": 155
     },
     {
       "name": "點點大作戰",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/ea/47/bdea47d8-260f-8dee-ec99-b493df5b3b22/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E9%BB%9E%E9%BB%9E%E5%A4%A7%E4%BD%9C%E6%88%B0/id6738109752",
       "tab": "Games",
       "section": "Featured",
@@ -2206,12 +2341,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 147
+      "rank": 156
     },
     {
       "name": "火辣餐廳：合併&烹飪",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/a5/2a/42a52a49-f66f-2e70-41c6-a2b4ef572221/Placeholder.mill/48x48bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E7%81%AB%E8%BE%A3%E9%A4%90%E5%BB%B3-%E5%90%88%E4%BD%B5-%E7%83%B9%E9%A3%AA/id6618142292",
       "tab": "Today",
       "section": "배너",
@@ -2221,12 +2356,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 148
+      "rank": 157
     },
     {
       "name": "《荒野亂鬥》",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/81/9b/fb819b7b-c7bb-9be8-bd7c-18476c8d3d21/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E8%8D%92%E9%87%8E%E4%BA%82%E9%AC%A5/id1229016807",
       "tab": "Games",
       "section": "Featured",
@@ -2236,12 +2371,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 149
+      "rank": 158
     },
     {
       "name": "Viking Trickshot",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/46/c9/fb/46c9fbf4-cd70-296e-7ecb-807a3fb9d99b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/viking-trickshot/id1454756424",
       "tab": "Games",
       "section": "Featured",
@@ -2251,12 +2386,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 150
+      "rank": 159
     },
     {
       "name": "Garena® 三角洲行動",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/94/68/079468e4-56d7-45c9-40df-1d972e83a7da/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/garena-%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8B%95/id6670604287",
       "tab": "Games",
       "section": "Featured",
@@ -2266,12 +2401,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 151
+      "rank": 160
     },
     {
       "name": "Order Crazy - 顏色分類水排序拼圖小遊戲",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/b8/16/6eb81664-ddb8-f87d-4283-a8b7409ba444/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/order-crazy-%E9%A1%8F%E8%89%B2%E5%88%86%E9%A1%9E%E6%B0%B4%E6%8E%92%E5%BA%8F%E6%8B%BC%E5%9C%96%E5%B0%8F%E9%81%8A%E6%88%B2/id6751222488",
       "tab": "Games",
       "section": "Featured",
@@ -2281,12 +2416,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 152
+      "rank": 161
     },
     {
       "name": "元祖菇菇栽培研究室",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/63/7c/fd637c8d-2542-9016-9889-57cd30deff65/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E5%85%83%E7%A5%96%E8%8F%87%E8%8F%87%E6%A0%BD%E5%9F%B9%E7%A0%94%E7%A9%B6%E5%AE%A4/id1544911813",
       "tab": "Games",
       "section": "Featured",
@@ -2296,12 +2431,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 153
+      "rank": 162
     },
     {
       "name": "食光旅行",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/04/9b/d0049b83-558e-feed-2db9-4fb857d636a9/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E9%A3%9F%E5%85%89%E6%97%85%E8%A1%8C/id6471045672",
       "tab": "Games",
       "section": "Featured",
@@ -2311,12 +2446,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 154
+      "rank": 163
     },
     {
       "name": "CreateDun : 塔防",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/86/ab/f586ab9b-4612-3ea5-0ea5-d7f187ce71a0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/createdun-%E5%A1%94%E9%98%B2/id6761488276",
       "tab": "Games",
       "section": "Featured",
@@ -2326,12 +2461,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 155
+      "rank": 164
     },
     {
       "name": "Plague Inc. (瘟疫公司)",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/7f/eb/7f7feb9c-7efd-9135-50b8-121be7c4a33b/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/plague-inc-%E7%98%9F%E7%96%AB%E5%85%AC%E5%8F%B8/id525818839",
       "tab": "Games",
       "section": "Featured",
@@ -2341,12 +2476,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 156
+      "rank": 165
     },
     {
       "name": "金武江湖 - 單機金庸群俠傳復刻",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/48/f1/da48f1de-dd9a-33da-e003-910a03f05d73/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E9%87%91%E6%AD%A6%E6%B1%9F%E6%B9%96-%E5%96%AE%E6%A9%9F%E9%87%91%E5%BA%B8%E7%BE%A4%E4%BF%A0%E5%82%B3%E5%BE%A9%E5%88%BB/id6502623166",
       "tab": "Games",
       "section": "Featured",
@@ -2356,12 +2491,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 157
+      "rank": 166
     },
     {
       "name": "星之海",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/c3/53/0ac353d2-ead9-e061-7757-bbf3c05acb0d/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E6%98%9F%E4%B9%8B%E6%B5%B7/id6673906410",
       "tab": "Games",
       "section": "Featured",
@@ -2371,13 +2506,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 158
+      "rank": 167
     },
     {
-      "name": "LoveChoice 揀愛",
+      "name": "Slay the Spire",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/lovechoice-%E6%8F%80%E6%84%9B/id1596863467",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/0c/92/910c920a-0ab6-1939-e297-083995b640c7/AppIcon-1x_U007emarketing-0-11-0-0-85-220-0.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/tw/app/slay-the-spire/id1491530147",
       "tab": "Games",
       "section": "Featured",
       "priority": 114,
@@ -2386,13 +2521,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 159
+      "rank": 168
     },
     {
-      "name": "Slay the Spire",
+      "name": "LoveChoice 揀愛",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/tw/app/slay-the-spire/id1491530147",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/0a/29/a6/0a29a641-55ba-4f14-7f39-ec2100418b69/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/tw/app/lovechoice-%E6%8F%80%E6%84%9B/id1596863467",
       "tab": "Games",
       "section": "Featured",
       "priority": 115,
@@ -2401,12 +2536,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 160
+      "rank": 169
     },
     {
       "name": "Castlevania: SotN",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/c5/2d/80c52d32-8ec5-d278-bbcf-e3b385177385/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/castlevania-sotn/id1435456830",
       "tab": "Games",
       "section": "Featured",
@@ -2416,12 +2551,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 161
+      "rank": 170
     },
     {
       "name": "Hyper Light Drifter",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c3/37/e1/c337e14f-ffda-948e-cd37-c97548f34a23/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/hyper-light-drifter/id1453875289",
       "tab": "Games",
       "section": "Featured",
@@ -2431,12 +2566,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 162
+      "rank": 171
     },
     {
       "name": "租戶賭財運",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/4d/69/274d69e3-fc45-996c-18d3-11e309429f45/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/%E7%A7%9F%E6%88%B6%E8%B3%AD%E8%B2%A1%E9%81%8B/id6450724928",
       "tab": "Games",
       "section": "Featured",
@@ -2446,12 +2581,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 163
+      "rank": 172
     },
     {
       "name": "王國：兩個皇冠",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/25/e3/5425e30c-03a7-e5cc-8aa2-c11abc30d1c4/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E7%8E%8B%E5%9C%8B-%E5%85%A9%E5%80%8B%E7%9A%87%E5%86%A0/id1477991646",
       "tab": "Games",
       "section": "Featured",
@@ -2461,12 +2596,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 164
+      "rank": 173
     },
     {
       "name": "ScourgeBringer",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/11/75/44/117544c8-73f4-68fc-fb4f-853476db8039/AppIcons-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/scourgebringer/id1552864378",
       "tab": "Games",
       "section": "Featured",
@@ -2476,12 +2611,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 165
+      "rank": 174
     },
     {
       "name": "Turnip Boy Commits Tax Evasion",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ca/b3/b8/cab3b80f-182b-c23b-7e1e-42ad110bab03/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/turnip-boy-commits-tax-evasion/id1609390613",
       "tab": "Games",
       "section": "Featured",
@@ -2491,12 +2626,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 166
+      "rank": 175
     },
     {
       "name": "A Tiny Sticker Tale",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/c6/da/b3c6daf9-3011-883a-3a44-77c7c4738567/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/a-tiny-sticker-tale/id1668930992",
       "tab": "Games",
       "section": "Featured",
@@ -2506,12 +2641,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 167
+      "rank": 176
     },
     {
       "name": "破壞突擊隊",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/23/ce/2423ceae-25c8-5e9a-6523-9fd303247db1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/%E7%A0%B4%E5%A3%9E%E7%AA%81%E6%93%8A%E9%9A%8A/id1668983788",
       "tab": "Games",
       "section": "Featured",
@@ -2521,12 +2656,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 168
+      "rank": 177
     },
     {
       "name": "Thronefall - A Little Kingdom",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/76/23/81762392-6310-809f-0e32-0a8428b47bb3/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/tw/app/thronefall-a-little-kingdom/id6744029320",
       "tab": "Games",
       "section": "Featured",
@@ -2536,12 +2671,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 169
+      "rank": 178
     },
     {
       "name": "The Pathless",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/ad/5a/27ad5aea-2988-0d95-be39-e042d2b06149/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/the-pathless/id6469709725",
       "tab": "Games",
       "section": "Featured",
@@ -2551,12 +2686,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 170
+      "rank": 179
     },
     {
       "name": "Resident Evil 4",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/c8/c9/24c8c984-811f-2806-f307-1535d0fe84c8/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/tw/app/resident-evil-4/id6462360082",
       "tab": "Games",
       "section": "Featured",
@@ -2566,7 +2701,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 171
+      "rank": 180
     }
   ]
 }

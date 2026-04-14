@@ -1,12 +1,12 @@
 {
   "country": "KR",
   "date": "2026-04-14",
-  "updated": "2026-04-14T01:36:01.042Z",
+  "updated": "2026-04-14T01:55:42.046Z",
   "apple": [
     {
       "name": "Sea of Stars",
       "dev": "개발자     Playdigious",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/c3/53/0ac353d2-ead9-e061-7757-bbf3c05acb0d/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/sea-of-stars/id6673906410",
       "tab": "Games",
       "section": "배너",
@@ -21,7 +21,7 @@
     {
       "name": "이환",
       "dev": "개발자  N2E ENTERTAINMENT PTE. LTD.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/0e/c3/700ec384-0dba-e00f-2fea-9637a34cdcbe/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%9D%B4%ED%99%98/id6754593077",
       "tab": "Games",
       "section": "배너",
@@ -36,7 +36,7 @@
     {
       "name": "메이플 키우기",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/de/46/28de4683-a468-ceed-c200-e66454c32b6a/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%A9%94%EC%9D%B4%ED%94%8C-%ED%82%A4%EC%9A%B0%EA%B8%B0/id6739616715?eventid=6761512961",
       "tab": "Games",
       "section": "배너",
@@ -51,7 +51,7 @@
     {
       "name": "고양이와 스프",
       "dev": "개발자  NEOWIZ",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/61/c2/e561c259-fed5-42eb-574b-b0ced47b1b07/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EA%B3%A0%EC%96%91%EC%9D%B4%EC%99%80-%EC%8A%A4%ED%94%84/id1581431235",
       "tab": "Games",
       "section": "Featured",
@@ -66,7 +66,7 @@
     {
       "name": "쿠키런: 오븐스매시",
       "dev": "개발자  Devsisters",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/08/05/e608059e-01f7-d158-e7f7-963c38d74e26/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%BF%A0%ED%82%A4%EB%9F%B0-%EC%98%A4%EB%B8%90%EC%8A%A4%EB%A7%A4%EC%8B%9C/id6550902247",
       "tab": "Games",
       "section": "Featured",
@@ -81,7 +81,7 @@
     {
       "name": "마비노기 모바일",
       "dev": "개발자  NEXON Company",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/3a/7c/043a7c5e-89a2-2e2f-d099-232c80357543/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%A7%88%EB%B9%84%EB%85%B8%EA%B8%B0-%EB%AA%A8%EB%B0%94%EC%9D%BC/id1441742921",
       "tab": "Games",
       "section": "Featured",
@@ -96,7 +96,7 @@
     {
       "name": "두근두근타운",
       "dev": "개발자  XD Entertainment Co., Ltd.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/0b/bf/be0bbf2b-ab99-aed6-d16f-8d5b05847b73/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%91%90%EA%B7%BC%EB%91%90%EA%B7%BC%ED%83%80%EC%9A%B4/id6746151928",
       "tab": "Games",
       "section": "Featured",
@@ -111,7 +111,7 @@
     {
       "name": "스톤에이지 키우기",
       "dev": "개발자  Netmarble Corporation",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/46/40/7a4640bc-76c5-d4bc-7852-9ca9470a500d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%8A%A4%ED%86%A4%EC%97%90%EC%9D%B4%EC%A7%80-%ED%82%A4%EC%9A%B0%EA%B8%B0/id6737408689",
       "tab": "Games",
       "section": "Featured",
@@ -126,7 +126,7 @@
     {
       "name": "Limbus Company",
       "dev": "개발자  Project Moon Co., Ltd.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/bb/a9/0ebba974-04d7-63b6-87b6-0d5d6c03968b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/limbus-company/id6444112366",
       "tab": "Games",
       "section": "Featured",
@@ -141,7 +141,7 @@
     {
       "name": "가십하버: 합성 & 스토리 게임",
       "dev": "개발자  Microfun Limited",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/c2/d1/69c2d17d-1510-03b3-e444-cf036a6e925f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EA%B0%80%EC%8B%AD%ED%95%98%EB%B2%84-%ED%95%A9%EC%84%B1-%EC%8A%A4%ED%86%A0%EB%A6%AC-%EA%B2%8C%EC%9E%84/id1623318294",
       "tab": "Games",
       "section": "Featured",
@@ -156,7 +156,7 @@
     {
       "name": "테이스티 트레블: 합성 게임",
       "dev": "개발자  Century Games Pte. Ltd.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/04/9b/d0049b83-558e-feed-2db9-4fb857d636a9/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%ED%85%8C%EC%9D%B4%EC%8A%A4%ED%8B%B0-%ED%8A%B8%EB%A0%88%EB%B8%94-%ED%95%A9%EC%84%B1-%EA%B2%8C%EC%9E%84/id6471045672",
       "tab": "Games",
       "section": "Featured",
@@ -171,7 +171,7 @@
     {
       "name": "씨사이드 익스케이프: 합성 & 스토리 게임",
       "dev": "개발자  Microfun Limited",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/4d/3d/3b4d3d1e-de2f-9b10-7084-049ce0d3c82d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%94%A8%EC%82%AC%EC%9D%B4%EB%93%9C-%EC%9D%B5%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%94%84-%ED%95%A9%EC%84%B1-%EC%8A%A4%ED%86%A0%EB%A6%AC-%EA%B2%8C%EC%9E%84/id6443755785",
       "tab": "Games",
       "section": "Featured",
@@ -186,7 +186,7 @@
     {
       "name": "Subway Surfers",
       "dev": "개발자     Sybo Games ApS",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/20/18/4520180d-e750-8313-1100-9ce62c2c13d0/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/subway-surfers/id512939461",
       "tab": "Games",
       "section": "Featured",
@@ -201,7 +201,7 @@
     {
       "name": "토킹톰 골드런",
       "dev": "개발자  Outfit7 Limited",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/19/ba/8519ba0d-8e3a-1cec-49b3-e8be5ca10ef4/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%ED%86%A0%ED%82%B9%ED%86%B0-%EA%B3%A8%EB%93%9C%EB%9F%B0/id1089336971",
       "tab": "Games",
       "section": "Featured",
@@ -216,7 +216,7 @@
     {
       "name": "카트라이더 러쉬플러스",
       "dev": "개발자  NEXON Company",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/8d/8f/608d8f71-672e-5a0a-3915-b0318f5803a1/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%B9%B4%ED%8A%B8%EB%9D%BC%EC%9D%B4%EB%8D%94-%EB%9F%AC%EC%89%AC%ED%94%8C%EB%9F%AC%EC%8A%A4/id1466736988",
       "tab": "Games",
       "section": "Featured",
@@ -231,7 +231,7 @@
     {
       "name": "Pixel Flow!",
       "dev": "개발자  Loom Games Oyun Yazilim ve Pazarlama Anonim Sirketi",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/6a/4c/9e6a4c87-89f6-4932-bba3-d5f330a47a73/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/pixel-flow/id6751056652",
       "tab": "Games",
       "section": "Featured",
@@ -246,7 +246,7 @@
     {
       "name": "리니지M",
       "dev": "개발자  NCSOFT",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/64/4c/7b644cdd-3c34-c379-a7c1-73dc6c1b96b7/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%A6%AC%EB%8B%88%EC%A7%80m/id1474589366",
       "tab": "Games",
       "section": "Featured",
@@ -261,7 +261,7 @@
     {
       "name": "컴투스프로야구V26",
       "dev": "개발자  Com2uS Corp.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/59/78/fd59787b-3126-bfce-d977-755b30d8c121/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%BB%B4%ED%88%AC%EC%8A%A4%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%ACv26/id1458848044",
       "tab": "Games",
       "section": "Featured",
@@ -276,7 +276,7 @@
     {
       "name": "전략적 팀 전투: 리그 오브 레전드 전략 게임",
       "dev": "개발자  Riot Games",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/ef/2e/47ef2e43-6ff2-3765-3af7-60bcdb0f5a74/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%A0%84%EB%9E%B5%EC%A0%81-%ED%8C%80-%EC%A0%84%ED%88%AC-%EB%A6%AC%EA%B7%B8-%EC%98%A4%EB%B8%8C-%EB%A0%88%EC%A0%84%EB%93%9C-%EC%A0%84%EB%9E%B5-%EA%B2%8C%EC%9E%84/id1480616748",
       "tab": "Games",
       "section": "Featured",
@@ -291,7 +291,7 @@
     {
       "name": "배틀그라운드",
       "dev": "개발자  KRAFTON Inc",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/90/5c/8f905c2d-64be-9d0e-012f-78103dfae088/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%B0%B0%ED%8B%80%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C/id1366526331",
       "tab": "Games",
       "section": "Featured",
@@ -306,7 +306,7 @@
     {
       "name": "운빨존많겜",
       "dev": "개발자  111%",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b7/96/95/b7969528-dc07-ad81-315d-d48eefcf977a/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%9A%B4%EB%B9%A8%EC%A1%B4%EB%A7%8E%EA%B2%9C/id6482291732",
       "tab": "Games",
       "section": "Featured",
@@ -321,7 +321,7 @@
     {
       "name": "FC 모바일",
       "dev": "개발자  NEXON Company",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/4f/4d/c34f4d2e-7836-b02a-1c53-d23b8f7edeb5/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/fc-%EB%AA%A8%EB%B0%94%EC%9D%BC/id1478371252",
       "tab": "Games",
       "section": "Featured",
@@ -336,7 +336,7 @@
     {
       "name": "라스트 워: 서바이벌",
       "dev": "개발자  FUNFLY PTE. LTD.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/e3/96/f6e3966d-b158-3d54-111e-9444be62717e/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%9D%BC%EC%8A%A4%ED%8A%B8-%EC%9B%8C-%EC%84%9C%EB%B0%94%EC%9D%B4%EB%B2%8C/id6448786147",
       "tab": "Games",
       "section": "Featured",
@@ -351,7 +351,7 @@
     {
       "name": "WOS: 화이트아웃 서바이벌",
       "dev": "개발자  Century Games Pte. Ltd.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/62/20/e3622079-36d4-c80c-2d8f-60f11b5ad87b/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/wos-%ED%99%94%EC%9D%B4%ED%8A%B8%EC%95%84%EC%9B%83-%EC%84%9C%EB%B0%94%EC%9D%B4%EB%B2%8C/id6443575749",
       "tab": "Games",
       "section": "Featured",
@@ -366,7 +366,7 @@
     {
       "name": "드래곤네스트 월드",
       "dev": "개발자  EyedentityGames",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/a6/de/baa6dea2-47ed-2337-3c9e-68534cdf9c19/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%93%9C%EB%9E%98%EA%B3%A4%EB%84%A4%EC%8A%A4%ED%8A%B8-%EC%9B%94%EB%93%9C/id6756415181",
       "tab": "Games",
       "section": "Featured",
@@ -381,7 +381,7 @@
     {
       "name": "애니멀 버스터즈 : 방치형 RPG",
       "dev": "개발자  LINE Games",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/c9/7f/17c97f2a-f144-be13-8066-dc11933c7e59/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%95%A0%EB%8B%88%EB%A9%80-%EB%B2%84%EC%8A%A4%ED%84%B0%EC%A6%88-%EB%B0%A9%EC%B9%98%ED%98%95-rpg/id6751829352",
       "tab": "Games",
       "section": "Featured",
@@ -396,7 +396,7 @@
     {
       "name": "둠스데이: 라스트 서바이버",
       "dev": "개발자  IGG SINGAPORE PTE. LTD.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/4d/0f/e94d0fb8-4a2b-df72-8f93-2d2de2f1a1c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%91%A0%EC%8A%A4%EB%8D%B0%EC%9D%B4-%EB%9D%BC%EC%8A%A4%ED%8A%B8-%EC%84%9C%EB%B0%94%EC%9D%B4%EB%B2%84/id1552206075",
       "tab": "Games",
       "section": "Featured",
@@ -411,7 +411,7 @@
     {
       "name": "2026 프로야구GO!",
       "dev": "개발자  HAEGIN Co., Ltd.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/5e/64/955e6493-3cda-be1a-728b-dd78012beabc/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/kr/app/2026-%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%ACgo/id6757381033",
       "tab": "Games",
       "section": "Featured",
@@ -426,7 +426,7 @@
     {
       "name": "Jewel Coloring",
       "dev": "개발자  Ta Ta Game Technology Limited",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/de/a7/9bdea78c-5982-ac4c-7cd6-cd7e71e84f0d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/kr/app/jewel-coloring/id6759081967",
       "tab": "Games",
       "section": "Featured",
@@ -441,7 +441,7 @@
     {
       "name": "마법의 정렬 (Magic Sort!)",
       "dev": "개발자  Grand Games A.Ş.",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/ec/08/3bec0855-fea7-90e7-012f-bcc54e3d7eac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%A7%88%EB%B2%95%EC%9D%98-%EC%A0%95%EB%A0%AC-magic-sort/id6499209744",
       "tab": "Games",
       "section": "Featured",
@@ -456,7 +456,7 @@
     {
       "name": "블록 블라스트 (Block Blast)",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/5c/41/455c4139-ebd0-db7d-5d58-4fc301f8cf61/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%B8%94%EB%A1%9D-%EB%B8%94%EB%9D%BC%EC%8A%A4%ED%8A%B8-block-blast/id1617391485",
       "tab": "Games",
       "section": "Featured",
@@ -471,7 +471,7 @@
     {
       "name": "브롤스타즈",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/81/9b/fb819b7b-c7bb-9be8-bd7c-18476c8d3d21/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%B8%8C%EB%A1%A4%EC%8A%A4%ED%83%80%EC%A6%88/id1229016807",
       "tab": "Games",
       "section": "Featured",
@@ -486,7 +486,7 @@
     {
       "name": "쿠키런: 킹덤",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/03/87/3a/03873a16-a6d6-213a-f6db-72398520ae71/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%BF%A0%ED%82%A4%EB%9F%B0-%ED%82%B9%EB%8D%A4/id1509450845",
       "tab": "Games",
       "section": "Featured",
@@ -501,7 +501,7 @@
     {
       "name": "Free Fire: Undersea Mystery",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/04/6e/3c046e77-21e0-4db0-0289-c283644dfcf7/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/kr/app/free-fire-undersea-mystery/id1300146617",
       "tab": "Games",
       "section": "Featured",
@@ -516,7 +516,7 @@
     {
       "name": "Free Fire MAX",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/41/b5/1c/41b51c10-c3df-b309-de20-f3aa04b9d0d5/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/kr/app/free-fire-max/id1480516829",
       "tab": "Games",
       "section": "Featured",
@@ -531,7 +531,7 @@
     {
       "name": "Dazz - 필름카메라 & 사진 편집",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8f/df/f8/8fdff89c-b098-eb04-8250-0d42f93c1fe1/Placeholder.mill/48x48bb-75.webp",
       "url": "https://apps.apple.com/kr/app/dazz-%ED%95%84%EB%A6%84%EC%B9%B4%EB%A9%94%EB%9D%BC-%EC%82%AC%EC%A7%84-%ED%8E%B8%EC%A7%91/id1422471180",
       "tab": "Today",
       "section": "배너",
@@ -546,7 +546,7 @@
     {
       "name": "eFootball™",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/58/76/635876e3-99f4-7802-2b1c-cda286b5de34/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/kr/app/efootball/id1117270703",
       "tab": "Games",
       "section": "Featured",
@@ -559,10 +559,10 @@
       "rank": 37
     },
     {
-      "name": "SNOW 스노우 - AI 프로필 & 고화질 카메라",
+      "name": "Google Gemini",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/snow-%EC%8A%A4%EB%85%B8%EC%9A%B0-ai-%ED%94%84%EB%A1%9C%ED%95%84-%EA%B3%A0%ED%99%94%EC%A7%88-%EC%B9%B4%EB%A9%94%EB%9D%BC/id1022267439",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/af/4e/ecaf4e28-4e4b-eb1a-1c7b-7aa872c151c8/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/google-gemini/id6477489729",
       "tab": "Today",
       "section": "배너",
       "priority": 52,
@@ -576,7 +576,7 @@
     {
       "name": "The Division Resurgence",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1d/10/55/1d105521-27d6-cfb5-5ce8-6b0a79620b10/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/the-division-resurgence/id1606349410",
       "tab": "Games",
       "section": "Featured",
@@ -589,10 +589,10 @@
       "rank": 39
     },
     {
-      "name": "아고다: 모텔, 호텔, 항공권 특가",
+      "name": "ChatGPT",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EC%95%84%EA%B3%A0%EB%8B%A4-%EB%AA%A8%ED%85%94-%ED%98%B8%ED%85%94-%ED%95%AD%EA%B3%B5%EA%B6%8C-%ED%8A%B9%EA%B0%80/id440676901",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/5d/25/e15d25a4-ab3e-709d-4941-1090f824b7bc/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/chatgpt/id6448311069",
       "tab": "Today",
       "section": "배너",
       "priority": 53,
@@ -606,7 +606,7 @@
     {
       "name": "일곱 개의 대죄: Origin",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/d5/29/bcd529b6-3ae2-dd40-e4b8-fb93a1d0b52f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%9D%BC%EA%B3%B1-%EA%B0%9C%EC%9D%98-%EB%8C%80%EC%A3%84-origin/id6744205088",
       "tab": "Games",
       "section": "Featured",
@@ -619,10 +619,10 @@
       "rank": 41
     },
     {
-      "name": "메이투 Meitu - 얼굴 보정 & 핫한 AI 기능",
+      "name": "Perplexity - 무엇이든 물어보세요",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EB%A9%94%EC%9D%B4%ED%88%AC-meitu-%EC%96%BC%EA%B5%B4-%EB%B3%B4%EC%A0%95-%ED%95%AB%ED%95%9C-ai-%EA%B8%B0%EB%8A%A5/id416048305",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8c/37/85/8c3785df-66c3-a211-a413-d3540e2075be/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/perplexity-%EB%AC%B4%EC%97%87%EC%9D%B4%EB%93%A0-%EB%AC%BC%EC%96%B4%EB%B3%B4%EC%84%B8%EC%9A%94/id1668000334",
       "tab": "Today",
       "section": "배너",
       "priority": 54,
@@ -636,7 +636,7 @@
     {
       "name": "라그나로크 오리진 클래식",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/08/23/8a0823f8-5689-1a9d-c7fa-baa57dbf4e46/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%9D%BC%EA%B7%B8%EB%82%98%EB%A1%9C%ED%81%AC-%EC%98%A4%EB%A6%AC%EC%A7%84-%ED%81%B4%EB%9E%98%EC%8B%9D/id6754158504",
       "tab": "Games",
       "section": "Featured",
@@ -649,10 +649,10 @@
       "rank": 43
     },
     {
-      "name": "Airbnb",
+      "name": "Google NotebookLM",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/airbnb/id401626263",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/09/41/48/0941481d-5564-ccb1-ce82-3d19cffd73f0/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/google-notebooklm/id6737527615",
       "tab": "Today",
       "section": "배너",
       "priority": 55,
@@ -666,7 +666,7 @@
     {
       "name": "거의 바닥난 마나",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/77/74/1277740f-828d-fe64-a779-c3667527dda7/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EA%B1%B0%EC%9D%98-%EB%B0%94%EB%8B%A5%EB%82%9C-%EB%A7%88%EB%82%98/id6757761741",
       "tab": "Games",
       "section": "Featured",
@@ -679,10 +679,10 @@
       "rank": 45
     },
     {
-      "name": "에이블리 - 전 상품 무료배송",
+      "name": "유니브 AI – PDF 요약, 퀴즈, AI 튜터",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EC%97%90%EC%9D%B4%EB%B8%94%EB%A6%AC-%EC%A0%84-%EC%83%81%ED%92%88-%EB%AC%B4%EB%A3%8C%EB%B0%B0%EC%86%A1/id1084960428",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/11/3e/25/113e25c9-1140-39f2-2a83-bb6050e96704/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EC%9C%A0%EB%8B%88%EB%B8%8C-ai-pdf-%EC%9A%94%EC%95%BD-%ED%80%B4%EC%A6%88-ai-%ED%8A%9C%ED%84%B0/id6754797367",
       "tab": "Today",
       "section": "배너",
       "priority": 56,
@@ -696,7 +696,7 @@
     {
       "name": "고양이 학교 : 귀여운 방치형 타이쿤 게임",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/f0/94/88f094ad-9523-ee29-9e87-d739d815273b/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EA%B3%A0%EC%96%91%EC%9D%B4-%ED%95%99%EA%B5%90-%EA%B7%80%EC%97%AC%EC%9A%B4-%EB%B0%A9%EC%B9%98%ED%98%95-%ED%83%80%EC%9D%B4%EC%BF%A4-%EA%B2%8C%EC%9E%84/id6755102006",
       "tab": "Games",
       "section": "Featured",
@@ -709,10 +709,10 @@
       "rank": 47
     },
     {
-      "name": "캐치테이블",
+      "name": "다글로 - 세상 모든 AI를 한 번에",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94/id1485193566",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/1b/2f/f51b2f62-a230-a9bf-b6fb-74b9940675b7/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EB%8B%A4%EA%B8%80%EB%A1%9C-%EC%84%B8%EC%83%81-%EB%AA%A8%EB%93%A0-ai%EB%A5%BC-%ED%95%9C-%EB%B2%88%EC%97%90/id1632867925",
       "tab": "Today",
       "section": "배너",
       "priority": 57,
@@ -726,7 +726,7 @@
     {
       "name": "MLB 클러치 히트 베이스볼 26",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/9d/30/e49d308d-9c3d-9927-be3b-2121e2814d43/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/mlb-%ED%81%B4%EB%9F%AC%EC%B9%98-%ED%9E%88%ED%8A%B8-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-26/id6462846417",
       "tab": "Games",
       "section": "Featured",
@@ -739,10 +739,10 @@
       "rank": 49
     },
     {
-      "name": "네이버페이",
+      "name": "Adobe Photoshop: 사진 편집기",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4/id1554807824",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/82/55/cc8255cd-c6c8-3592-f95b-93a6ba08a0c1/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/adobe-photoshop-%EC%82%AC%EC%A7%84-%ED%8E%B8%EC%A7%91%EA%B8%B0/id1457771281",
       "tab": "Today",
       "section": "배너",
       "priority": 58,
@@ -756,7 +756,7 @@
     {
       "name": "MLB 9이닝스 26",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/5f/1a/cf5f1a49-dc5a-8134-6ba4-1b0d1af86938/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/mlb-9%EC%9D%B4%EB%8B%9D%EC%8A%A4-26/id1059665257",
       "tab": "Games",
       "section": "Featured",
@@ -769,10 +769,10 @@
       "rank": 51
     },
     {
-      "name": "쿠팡플레이",
+      "name": "Goodnotes: AI 노트, 문서, PDF",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EC%BF%A0%ED%8C%A1%ED%94%8C%EB%A0%88%EC%9D%B4/id1536885649",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/87/f2/8087f2f9-6b5d-c8e8-ab98-f67393a2a38d/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/goodnotes-ai-%EB%85%B8%ED%8A%B8-%EB%AC%B8%EC%84%9C-pdf/id1444383602",
       "tab": "Today",
       "section": "배너",
       "priority": 59,
@@ -786,7 +786,7 @@
     {
       "name": "MLB 9이닝스 라이벌 26",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/08/9d/3c089dfa-04e2-b75f-ad27-e45bc0fcb556/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/mlb-9%EC%9D%B4%EB%8B%9D%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EB%B2%8C-26/id1580691683",
       "tab": "Games",
       "section": "Featured",
@@ -799,10 +799,10 @@
       "rank": 53
     },
     {
-      "name": "Tinder 틴더",
+      "name": "CapCut: 사진 및 동영상 에디터",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/tinder-%ED%8B%B4%EB%8D%94/id547702041",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/10/31/2d103171-2703-e98f-d3ed-b35810b17f01/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/kr/app/capcut-%EC%82%AC%EC%A7%84-%EB%B0%8F-%EB%8F%99%EC%98%81%EC%83%81-%EC%97%90%EB%94%94%ED%84%B0/id1500855883",
       "tab": "Today",
       "section": "배너",
       "priority": 60,
@@ -816,7 +816,7 @@
     {
       "name": "베이스볼 PvP: 실시간 게임",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/9c/9a/d09c9a77-82fd-d345-4e80-96798766a5b5/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-pvp-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EA%B2%8C%EC%9E%84/id1491129492",
       "tab": "Games",
       "section": "Featured",
@@ -829,10 +829,10 @@
       "rank": 55
     },
     {
-      "name": "TikTok Lite",
+      "name": "Notion: 메모, 작업, AI",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/tiktok-lite/id6447160980",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/ab/31/80ab31b4-ff1e-6a74-a5d7-31fd85fd00e2/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/notion-%EB%A9%94%EB%AA%A8-%EC%9E%91%EC%97%85-ai/id1232780281",
       "tab": "Today",
       "section": "배너",
       "priority": 61,
@@ -846,7 +846,7 @@
     {
       "name": "홈런 클래시",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/b8/04/95b804e2-bcbd-50ea-46e2-573677bb32a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%ED%99%88%EB%9F%B0-%ED%81%B4%EB%9E%98%EC%8B%9C/id1345750763",
       "tab": "Games",
       "section": "Featured",
@@ -859,10 +859,10 @@
       "rank": 57
     },
     {
-      "name": "TVING",
+      "name": "Picsart 픽스아트 AI 사진 & 동영상 편집",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/tving/id400101401",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/85/87/01858726-f7ec-7fe6-0822-1bbcba0bdb73/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/picsart-%ED%94%BD%EC%8A%A4%EC%95%84%ED%8A%B8-ai-%EC%82%AC%EC%A7%84-%EB%8F%99%EC%98%81%EC%83%81-%ED%8E%B8%EC%A7%91/id587366035",
       "tab": "Today",
       "section": "배너",
       "priority": 62,
@@ -876,7 +876,7 @@
     {
       "name": "이사만루26",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/97/b7/f197b71a-b2f6-60e3-9a33-70d22c5540ad/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%9D%B4%EC%82%AC%EB%A7%8C%EB%A3%A826/id1481802531",
       "tab": "Games",
       "section": "Featured",
@@ -889,10 +889,10 @@
       "rank": 59
     },
     {
-      "name": "CapCut: 사진 및 동영상 에디터",
+      "name": "Canva(캔바): 디자인, 사진편집, 동영상 편집",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/capcut-%EC%82%AC%EC%A7%84-%EB%B0%8F-%EB%8F%99%EC%98%81%EC%83%81-%EC%97%90%EB%94%94%ED%84%B0/id1500855883",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/22/4d/be224d15-418e-48b9-3d53-e8a17be7417d/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/canva-%EC%BA%94%EB%B0%94-%EB%94%94%EC%9E%90%EC%9D%B8-%EC%82%AC%EC%A7%84%ED%8E%B8%EC%A7%91-%EB%8F%99%EC%98%81%EC%83%81-%ED%8E%B8%EC%A7%91/id897446215",
       "tab": "Today",
       "section": "배너",
       "priority": 63,
@@ -906,7 +906,7 @@
     {
       "name": "MLB 9이닝스 GM",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/58/18/2f581801-3fc5-db3a-85d2-c67303e02522/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/mlb-9%EC%9D%B4%EB%8B%9D%EC%8A%A4-gm/id1214192685",
       "tab": "Games",
       "section": "Featured",
@@ -919,10 +919,10 @@
       "rank": 61
     },
     {
-      "name": "토스",
+      "name": "클로바노트 - 음성 그 이상의 기록",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%ED%86%A0%EC%8A%A4/id839333328",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/91/c8/fc91c842-b717-a32d-c894-e0600bbf3355/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%ED%81%B4%EB%A1%9C%EB%B0%94%EB%85%B8%ED%8A%B8-%EC%9D%8C%EC%84%B1-%EA%B7%B8-%EC%9D%B4%EC%83%81%EC%9D%98-%EA%B8%B0%EB%A1%9D/id1530010245",
       "tab": "Today",
       "section": "배너",
       "priority": 64,
@@ -936,7 +936,7 @@
     {
       "name": "MLB 퍼펙트 이닝 26",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/95/c8/ed95c828-5f1f-313c-5966-0d2cb21b56ef/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/mlb-%ED%8D%BC%ED%8E%99%ED%8A%B8-%EC%9D%B4%EB%8B%9D-26/id1616808239",
       "tab": "Games",
       "section": "Featured",
@@ -949,10 +949,10 @@
       "rank": 63
     },
     {
-      "name": "네이버 웹툰 - Naver Webtoon",
+      "name": "Felo - Search the world",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%9B%B9%ED%88%B0-naver-webtoon/id315795555",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/5d/da/915dda60-8748-e0e3-8785-451e2bd6e2cf/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/kr/app/felo-search-the-world/id6598782546",
       "tab": "Today",
       "section": "배너",
       "priority": 65,
@@ -966,7 +966,7 @@
     {
       "name": "마구마구 2026: 풀체인지",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/41/17/35411722-7a5d-3b0f-4ac2-a32be9e1f517/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%A7%88%EA%B5%AC%EB%A7%88%EA%B5%AC-2026-%ED%92%80%EC%B2%B4%EC%9D%B8%EC%A7%80/id1516727770",
       "tab": "Games",
       "section": "Featured",
@@ -979,10 +979,10 @@
       "rank": 65
     },
     {
-      "name": "Google",
+      "name": "Microsoft Copilot",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/google/id284815942",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/ad/9f/7fad9f78-b960-98bd-7c81-048eed626112/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/microsoft-copilot/id6472538445",
       "tab": "Today",
       "section": "배너",
       "priority": 66,
@@ -996,7 +996,7 @@
     {
       "name": "컴투스프로야구2026",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/71/a1/0a71a190-0999-afc4-eba4-769c99f221c8/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%BB%B4%ED%88%AC%EC%8A%A4%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC2026/id880551258",
       "tab": "Games",
       "section": "Featured",
@@ -1009,10 +1009,10 @@
       "rank": 67
     },
     {
-      "name": "모바일티머니",
+      "name": "Claude by Anthropic",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EB%AA%A8%EB%B0%94%EC%9D%BC%ED%8B%B0%EB%A8%B8%EB%8B%88/id1470361790",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/f2/84/9df284f0-9b68-08a6-9a44-d4069f23a0b3/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/claude-by-anthropic/id6473753684",
       "tab": "Today",
       "section": "배너",
       "priority": 67,
@@ -1026,7 +1026,7 @@
     {
       "name": "좋은 피자, 위대한 피자",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/d2/1e/60d21ec6-cae9-dd94-0706-5470a7364182/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%A2%8B%EC%9D%80-%ED%94%BC%EC%9E%90-%EC%9C%84%EB%8C%80%ED%95%9C-%ED%94%BC%EC%9E%90/id911121200",
       "tab": "Games",
       "section": "Featured",
@@ -1039,10 +1039,10 @@
       "rank": 69
     },
     {
-      "name": "Google Chrome",
+      "name": "뤼튼 - 매일 쓰는 AI",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/google-chrome/id535886823",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/a3/54/f4a354d7-3a12-ea72-7732-33791cfb2603/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EB%A4%BC%ED%8A%BC-%EB%A7%A4%EC%9D%BC-%EC%93%B0%EB%8A%94-ai/id6448556170",
       "tab": "Today",
       "section": "배너",
       "priority": 68,
@@ -1056,7 +1056,7 @@
     {
       "name": "Homescapes",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/93/96/e39396c8-9e9b-4e2d-9e83-11dc0f4eb60d/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/homescapes/id1195621598",
       "tab": "Games",
       "section": "Featured",
@@ -1069,10 +1069,10 @@
       "rank": 71
     },
     {
-      "name": "카카오톡 KakaoTalk",
+      "name": "말해보카: 단어, 문법, 스피킹, 영어 회화",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-kakaotalk/id362057947",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/e4/fa/23e4fab7-d9c5-499b-8063-c16e2f725303/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EB%A7%90%ED%95%B4%EB%B3%B4%EC%B9%B4-%EB%8B%A8%EC%96%B4-%EB%AC%B8%EB%B2%95-%EC%8A%A4%ED%94%BC%ED%82%B9-%EC%98%81%EC%96%B4-%ED%9A%8C%ED%99%94/id1460766549",
       "tab": "Today",
       "section": "배너",
       "priority": 69,
@@ -1086,7 +1086,7 @@
     {
       "name": "모바일 레전드: Bang Bang",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/bc/08/0cbc0831-fc0c-0142-4eee-5d352f820c53/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EB%A0%88%EC%A0%84%EB%93%9C-bang-bang/id1160056295",
       "tab": "Games",
       "section": "Featured",
@@ -1099,10 +1099,10 @@
       "rank": 73
     },
     {
-      "name": "정부24(구 민원24)",
+      "name": "네이버페이",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EC%A0%95%EB%B6%8024-%EA%B5%AC-%EB%AF%BC%EC%9B%9024/id586454505",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/cf/24/36cf2452-b5d5-240f-8333-ca936613a4bb/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4/id1554807824",
       "tab": "Today",
       "section": "배너",
       "priority": 70,
@@ -1114,10 +1114,10 @@
       "rank": 74
     },
     {
-      "name": "원시인 갑부: 장사의 왕이 되는 자",
+      "name": "콤보 코알라",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EC%9B%90%EC%8B%9C%EC%9D%B8-%EA%B0%91%EB%B6%80-%EC%9E%A5%EC%82%AC%EC%9D%98-%EC%99%95%EC%9D%B4-%EB%90%98%EB%8A%94-%EC%9E%90/id1579657842",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/0d/14/b80d1405-da42-b1a6-1607-52f15a4f734d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/48x48ia-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EC%BD%A4%EB%B3%B4-%EC%BD%94%EC%95%8C%EB%9D%BC/id6446302380",
       "tab": "Today",
       "section": "Featured",
       "priority": 70,
@@ -1131,7 +1131,7 @@
     {
       "name": "슈퍼펭귄 (Super Penguins)",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/24/12/65241250-a119-cec7-17cf-20b5ab01dd0a/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%8A%88%ED%8D%BC%ED%8E%AD%EA%B7%84-super-penguins/id520888232",
       "tab": "Games",
       "section": "Featured",
@@ -1144,10 +1144,10 @@
       "rank": 76
     },
     {
-      "name": "제타(zeta) - 상상이 현실이 되는 AI 채팅",
+      "name": "네이버 웹툰 - Naver Webtoon",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EC%A0%9C%ED%83%80-zeta-%EC%83%81%EC%83%81%EC%9D%B4-%ED%98%84%EC%8B%A4%EC%9D%B4-%EB%90%98%EB%8A%94-ai-%EC%B1%84%ED%8C%85/id1619030760",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/0a/2a/6e0a2a92-e3c3-1786-1596-874cba411af8/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%9B%B9%ED%88%B0-naver-webtoon/id315795555",
       "tab": "Today",
       "section": "배너",
       "priority": 71,
@@ -1159,10 +1159,10 @@
       "rank": 77
     },
     {
-      "name": "Otter Ocean - 수달의 바다",
+      "name": "Ninja Gear",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/otter-ocean-%EC%88%98%EB%8B%AC%EC%9D%98-%EB%B0%94%EB%8B%A4/id1547780996",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/74/f0/1f74f02a-1e75-27b9-5f42-2d2d8c4b5921/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/ninja-gear/id1496904567",
       "tab": "Today",
       "section": "Featured",
       "priority": 71,
@@ -1176,7 +1176,7 @@
     {
       "name": "8 Ball Pool™",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/e7/bc/81e7bc48-5b8c-9bd6-ab3f-18e891c025e5/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/8-ball-pool/id543186831",
       "tab": "Games",
       "section": "Featured",
@@ -1189,10 +1189,10 @@
       "rank": 79
     },
     {
-      "name": "드래곤 둥지 – 수집 & 육성",
+      "name": "네이버 - NAVER",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EB%93%9C%EB%9E%98%EA%B3%A4-%EB%91%A5%EC%A7%80-%EC%88%98%EC%A7%91-%EC%9C%A1%EC%84%B1/id6746389113",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/4e/ca/6f4ecad2-41dc-0ce5-fd69-09faba9624b6/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84-naver/id393499958",
       "tab": "Today",
       "section": "배너",
       "priority": 72,
@@ -1204,10 +1204,10 @@
       "rank": 80
     },
     {
-      "name": "Animal Express - 동물 급행",
+      "name": "OH~! My Office - Boss Sim Game",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/animal-express-%EB%8F%99%EB%AC%BC-%EA%B8%89%ED%96%89/id6473816393",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/1a/2a/aa1a2a7b-1688-69e9-7f59-8d0764334fc8/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/48x48ia-75.webp",
+      "url": "https://apps.apple.com/kr/app/oh-my-office-boss-sim-game/id1404681758",
       "tab": "Today",
       "section": "Featured",
       "priority": 72,
@@ -1221,7 +1221,7 @@
     {
       "name": "캔디크러쉬사가",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/85/8c/60858cf7-6ac2-0268-62bb-1057597a2f5c/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%BA%94%EB%94%94%ED%81%AC%EB%9F%AC%EC%89%AC%EC%82%AC%EA%B0%80/id553834731",
       "tab": "Games",
       "section": "Featured",
@@ -1234,10 +1234,10 @@
       "rank": 82
     },
     {
-      "name": "냥금술사 - 고양이 머지 타이쿤",
+      "name": "듀오링고(Duolingo): 언어 학습",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EB%83%A5%EA%B8%88%EC%88%A0%EC%82%AC-%EA%B3%A0%EC%96%91%EC%9D%B4-%EB%A8%B8%EC%A7%80-%ED%83%80%EC%9D%B4%EC%BF%A4/id6499293571",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/42/cc/3842cc0f-5c45-3a3b-e258-961e31625c05/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EB%93%80%EC%98%A4%EB%A7%81%EA%B3%A0-duolingo-%EC%96%B8%EC%96%B4-%ED%95%99%EC%8A%B5/id570060128",
       "tab": "Today",
       "section": "배너",
       "priority": 73,
@@ -1249,10 +1249,10 @@
       "rank": 83
     },
     {
-      "name": "Too Many Cooks",
+      "name": "미니 레전드 - 미니카 시뮬레이션 레이싱",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/too-many-cooks/id1412734097",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/fc/5d/f1fc5dea-492e-bbcb-ad3e-be4d774a7cec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/48x48ia-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EB%AF%B8%EB%8B%88-%EB%A0%88%EC%A0%84%EB%93%9C-%EB%AF%B8%EB%8B%88%EC%B9%B4-%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98-%EB%A0%88%EC%9D%B4%EC%8B%B1/id1030310599",
       "tab": "Today",
       "section": "Featured",
       "priority": 73,
@@ -1266,7 +1266,7 @@
     {
       "name": "Rhythm Hive",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/3b/ab/aa3bab23-378e-b90f-39ac-1fbb0071a7b3/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/rhythm-hive/id1537758048",
       "tab": "Games",
       "section": "Featured",
@@ -1279,10 +1279,10 @@
       "rank": 85
     },
     {
-      "name": "헬로키티 마이 드림 스토어",
+      "name": "쿠팡(Coupang)-모바일 쇼핑",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%ED%97%AC%EB%A1%9C%ED%82%A4%ED%8B%B0-%EB%A7%88%EC%9D%B4-%EB%93%9C%EB%A6%BC-%EC%8A%A4%ED%86%A0%EC%96%B4/id6736896540",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/30/6d/d7306d4a-9868-52c7-5cc3-dcf79dec008a/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EC%BF%A0%ED%8C%A1-coupang-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%87%BC%ED%95%91/id454434967",
       "tab": "Today",
       "section": "배너",
       "priority": 74,
@@ -1294,24 +1294,9 @@
       "rank": 86
     },
     {
-      "name": "그래니의 저택",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EA%B7%B8%EB%9E%98%EB%8B%88%EC%9D%98-%EC%A0%80%ED%83%9D/id1498163839",
-      "tab": "Today",
-      "section": "Featured",
-      "priority": 74,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 87
-    },
-    {
       "name": "체스 · 플레이 및 배우기 온라인",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8f/79/e2/8f79e270-a5cb-58dc-12da-f94258316e92/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%B2%B4%EC%8A%A4-%ED%94%8C%EB%A0%88%EC%9D%B4-%EB%B0%8F-%EB%B0%B0%EC%9A%B0%EA%B8%B0-%EC%98%A8%EB%9D%BC%EC%9D%B8/id329218549",
       "tab": "Games",
       "section": "Featured",
@@ -1321,13 +1306,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 88
+      "rank": 87
     },
     {
-      "name": "협동 타워 디펜스 : 친구와 함께",
+      "name": "스픽 (Speak) - 영어회화, 스피킹, 발음",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%ED%98%91%EB%8F%99-%ED%83%80%EC%9B%8C-%EB%94%94%ED%8E%9C%EC%8A%A4-%EC%B9%9C%EA%B5%AC%EC%99%80-%ED%95%A8%EA%BB%98/id6503702666",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/00/01/e20001c1-3c13-d979-1615-25b20bb8b457/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EC%8A%A4%ED%94%BD-speak-%EC%98%81%EC%96%B4%ED%9A%8C%ED%99%94-%EC%8A%A4%ED%94%BC%ED%82%B9-%EB%B0%9C%EC%9D%8C/id1286609883",
       "tab": "Today",
       "section": "배너",
       "priority": 75,
@@ -1336,27 +1321,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 89
-    },
-    {
-      "name": "돌 키우기 온라인",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EB%8F%8C-%ED%82%A4%EC%9A%B0%EA%B8%B0-%EC%98%A8%EB%9D%BC%EC%9D%B8/id1238025108",
-      "tab": "Today",
-      "section": "Featured",
-      "priority": 75,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 90
+      "rank": 88
     },
     {
       "name": "명일방주: 엔드필드",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dc/21/b0/dc21b09b-0c57-5bab-0c40-4baa7fef8989/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC-%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C/id6752642477",
       "tab": "Games",
       "section": "Featured",
@@ -1366,27 +1336,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 91
+      "rank": 89
     },
     {
-      "name": "바람의나라: 연",
+      "name": "Google",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EB%B0%94%EB%9E%8C%EC%9D%98%EB%82%98%EB%9D%BC-%EC%97%B0/id1405436835",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/50/21/40502181-5a7b-43b2-e9fb-b035fd3a9373/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/google/id284815942",
       "tab": "Today",
-      "section": "Featured",
+      "section": "배너",
       "priority": 76,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "banner": false,
-      "rank": 92
+      "banner": true,
+      "rank": 90
     },
     {
       "name": "포켓몬 카드 게임 Pocket",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/f4/f6/07f4f628-905e-6843-613f-2c59038004be/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%ED%8F%AC%EC%BC%93%EB%AA%AC-%EC%B9%B4%EB%93%9C-%EA%B2%8C%EC%9E%84-pocket/id6479970832",
       "tab": "Games",
       "section": "Featured",
@@ -1396,13 +1366,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 93
+      "rank": 91
     },
     {
-      "name": "로얄 킹덤 (Royal Kingdom)",
+      "name": "TVING",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EB%A1%9C%EC%96%84-%ED%82%B9%EB%8D%A4-royal-kingdom/id1606549505",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/c0/61/16c061b7-4838-883f-d586-003108bddab1/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/tving/id400101401",
       "tab": "Today",
       "section": "배너",
       "priority": 77,
@@ -1411,12 +1381,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 94
+      "rank": 92
     },
     {
       "name": "원신·공월의 노래",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/52/b7/7d52b77e-17b1-07c1-2aa6-d81d2dc912f1/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%9B%90%EC%8B%A0-%EA%B3%B5%EC%9B%94%EC%9D%98-%EB%85%B8%EB%9E%98/id1517783697",
       "tab": "Games",
       "section": "Featured",
@@ -1426,12 +1396,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 95
+      "rank": 93
+    },
+    {
+      "name": "카카오웹툰 – KAKAO WEBTOON",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/7e/10/647e1055-eccd-6bfd-10a1-cdb7bb293406/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%9B%B9%ED%88%B0-kakao-webtoon/id736602666",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 78,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 94
     },
     {
       "name": "쿠키런",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/fa/cf/24facf6a-4978-cac4-d32d-1fea2e61cba6/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%BF%A0%ED%82%A4%EB%9F%B0/id608808713",
       "tab": "Games",
       "section": "Featured",
@@ -1441,13 +1426,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 96
+      "rank": 95
     },
     {
-      "name": "Disney Solitaire",
+      "name": "배달의민족 - 배달팁 무료 배민클럽",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/disney-solitaire/id6475757306",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/8c/f3/6d8cf37a-3aea-608a-0af8-1cdeba0ca845/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EB%B0%B0%EB%8B%AC%EC%9D%98%EB%AF%BC%EC%A1%B1-%EB%B0%B0%EB%8B%AC%ED%8C%81-%EB%AC%B4%EB%A3%8C-%EB%B0%B0%EB%AF%BC%ED%81%B4%EB%9F%BD/id378084485",
       "tab": "Today",
       "section": "배너",
       "priority": 79,
@@ -1456,12 +1441,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 97
+      "rank": 96
     },
     {
       "name": "히어로 해골 비행선의 동료!",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/S3RDxfz0Q3MCDSTmdHixtg/298x168sr.webp",
       "url": "https://apps.apple.com/kr/app/%ED%81%B4%EB%9E%98%EC%8B%9C-%EB%A1%9C%EC%96%84-clash-royale/id1053012308?eventid=6761174175",
       "tab": "Games",
       "section": "Featured",
@@ -1471,12 +1456,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
+      "rank": 97
+    },
+    {
+      "name": "VLLO 블로, 나의 첫 동영상 편집기",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/b4/02/29b4023b-2e78-ee2f-c055-fdc209cbdd10/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/vllo-%EB%B8%94%EB%A1%9C-%EB%82%98%EC%9D%98-%EC%B2%AB-%EB%8F%99%EC%98%81%EC%83%81-%ED%8E%B8%EC%A7%91%EA%B8%B0/id952050883",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 80,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
       "rank": 98
     },
     {
       "name": "클래시 로얄 (Clash Royale)",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/96/bd/8596bd93-f5fd-9de6-8fe9-7ed43a6ae783/Placeholder.mill/48x48bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%ED%81%B4%EB%9E%98%EC%8B%9C-%EB%A1%9C%EC%96%84-clash-royale/id1053012308",
       "tab": "Games",
       "section": "Featured",
@@ -1489,9 +1489,24 @@
       "rank": 99
     },
     {
+      "name": "네이버플러스 스토어",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/59/f3/0859f335-20ae-dcad-ef72-459c98acdc80/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%94%8C%EB%9F%AC%EC%8A%A4-%EC%8A%A4%ED%86%A0%EC%96%B4/id6738063154",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 81,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 100
+    },
+    {
       "name": "봄 컬렉션",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/5A3vbPnqdVIIjQIgoizLkQ/298x168sr.webp",
       "url": "https://apps.apple.com/kr/app/%EA%BF%88%EC%9D%98-%EB%A7%88%EC%9D%84-township/id638689075?eventid=6761429498",
       "tab": "Games",
       "section": "Featured",
@@ -1501,12 +1516,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 100
+      "rank": 101
+    },
+    {
+      "name": "카카오톡 KakaoTalk",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/82/c9/a682c920-ea40-7c2e-40e6-8f50a2d40398/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-kakaotalk/id362057947",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 82,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 102
     },
     {
       "name": "꿈의 마을 (Township)",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/e7/0c/a3e70c7d-6f5a-ed40-bd93-bd8ddfd57ce3/Placeholder.mill/48x48bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EA%BF%88%EC%9D%98-%EB%A7%88%EC%9D%84-township/id638689075",
       "tab": "Games",
       "section": "Featured",
@@ -1516,12 +1546,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 101
+      "rank": 103
+    },
+    {
+      "name": "Wavve (웨이브)",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/28/10/f328101a-91f1-3b9a-abf5-79155b41e600/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/wavve-%EC%9B%A8%EC%9D%B4%EB%B8%8C/id987782077",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 83,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 104
     },
     {
       "name": "꼬마버스 타요 콜라보",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/jnEfjuSyUfLWwFgg2uO4EA/298x168sr.webp",
       "url": "https://apps.apple.com/kr/app/id1466736988?eventid=6761447317",
       "tab": "Games",
       "section": "Featured",
@@ -1531,12 +1576,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 102
+      "rank": 105
+    },
+    {
+      "name": "쿠팡이츠 - 와우회원 배달비 0원",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/99/fe/6d99fef4-27c7-978a-b5f9-7404dc5340d6/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EC%BF%A0%ED%8C%A1%EC%9D%B4%EC%B8%A0-%EC%99%80%EC%9A%B0%ED%9A%8C%EC%9B%90-%EB%B0%B0%EB%8B%AC%EB%B9%84-0%EC%9B%90/id1445504255",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 84,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 106
     },
     {
       "name": "10억 다운로드 기념 캠페인",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/MLXkcRiXiZbcWMg2yuazeg/298x168sr.webp",
       "url": "https://apps.apple.com/kr/app/efootball/id1117270703?eventid=6761602802",
       "tab": "Games",
       "section": "Featured",
@@ -1546,12 +1606,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 103
+      "rank": 107
     },
     {
       "name": "바람의나라 콜라보레이션",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/GzDWqkCpGZBcadSN1Satwg/298x168sr.webp",
       "url": "https://apps.apple.com/kr/app/%EB%A9%94%EC%9D%B4%ED%94%8C-%ED%82%A4%EC%9A%B0%EA%B8%B0/id6739616715?eventid=6761512961",
       "tab": "Games",
       "section": "Featured",
@@ -1561,12 +1621,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 104
+      "rank": 108
+    },
+    {
+      "name": "bubble with STARS",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/a0/35/5da03584-b0c0-dfc6-2509-19739b6d3dd3/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/bubble-with-stars/id1556582179",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 86,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 109
     },
     {
       "name": "고양이 마피아 : 방치형 타이쿤 게임",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/3c/87/733c877f-3145-c5ab-96e4-e7867dce474f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EA%B3%A0%EC%96%91%EC%9D%B4-%EB%A7%88%ED%94%BC%EC%95%84-%EB%B0%A9%EC%B9%98%ED%98%95-%ED%83%80%EC%9D%B4%EC%BF%A4-%EA%B2%8C%EC%9E%84/id6759082569",
       "tab": "Games",
       "section": "Featured",
@@ -1576,13 +1651,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 105
+      "rank": 110
     },
     {
-      "name": "Gardenscapes",
+      "name": "차깨비 찻집",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/gardenscapes/id1105855019",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/04/7b/08047b7c-ce06-6421-7ee0-e3d82f754872/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/48x48ia-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EC%B0%A8%EA%B9%A8%EB%B9%84-%EC%B0%BB%EC%A7%91/id6563151083",
       "tab": "Today",
       "section": "배너",
       "priority": 87,
@@ -1591,12 +1666,12 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 106
+      "rank": 111
     },
     {
       "name": "Tiny Room Stories Eclipse",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/57/6d/64/576d64ca-8314-493f-a1f5-0cd5b7f1be2b/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/tiny-room-stories-eclipse/id6502894306",
       "tab": "Games",
       "section": "Featured",
@@ -1606,12 +1681,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 107
+      "rank": 112
+    },
+    {
+      "name": "Skul: The Hero Slayer",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/20/1d/80201dc6-a333-6dca-e49a-e79c967c813c/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/skul-the-hero-slayer/id6458144503",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 88,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 113
     },
     {
       "name": "고양이와 스프: 마법의 레시피",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/8c/da/808cdacc-1071-85ee-f46b-5673ff577543/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EA%B3%A0%EC%96%91%EC%9D%B4%EC%99%80-%EC%8A%A4%ED%94%84-%EB%A7%88%EB%B2%95%EC%9D%98-%EB%A0%88%EC%8B%9C%ED%94%BC/id6446347021",
       "tab": "Games",
       "section": "Featured",
@@ -1621,12 +1711,27 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 108
+      "rank": 114
+    },
+    {
+      "name": "Window Garden - 로파이 방치형 게임",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/be/70/bdbe705f-d6ac-6c7d-fbb3-4784e920407f/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/window-garden-%EB%A1%9C%ED%8C%8C%EC%9D%B4-%EB%B0%A9%EC%B9%98%ED%98%95-%EA%B2%8C%EC%9E%84/id6473402739",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 89,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 115
     },
     {
       "name": "딸깍 다이스",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/da/1d/48/da1d4857-9167-c650-7af1-c12a8b89f9ef/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%94%B8%EA%B9%8D-%EB%8B%A4%EC%9D%B4%EC%8A%A4/id6740966864",
       "tab": "Games",
       "section": "Featured",
@@ -1636,121 +1741,16 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 109
+      "rank": 116
     },
     {
       "name": "Bacon in Zane",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/ef/f9/ffeff9ee-1ef0-4f9c-9097-da0064e93ec2/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/bacon-in-zane/id6751200829",
       "tab": "Games",
       "section": "Featured",
       "priority": 91,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 110
-    },
-    {
-      "name": "bubble with STARS",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/bubble-with-stars/id1556582179",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 91,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 111
-    },
-    {
-      "name": "SOL: enchant",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/sol-enchant/id6748004690",
-      "tab": "Games",
-      "section": "Featured",
-      "priority": 92,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 112
-    },
-    {
-      "name": "포켓 러브",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%ED%8F%AC%EC%BC%93-%EB%9F%AC%EB%B8%8C/id1575412509",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 92,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 113
-    },
-    {
-      "name": "왕좌의 게임: 킹스로드",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EC%99%95%EC%A2%8C%EC%9D%98-%EA%B2%8C%EC%9E%84-%ED%82%B9%EC%8A%A4%EB%A1%9C%EB%93%9C/id6755586050",
-      "tab": "Games",
-      "section": "Featured",
-      "priority": 93,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 114
-    },
-    {
-      "name": "고양이와 비밀 레시피",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EA%B3%A0%EC%96%91%EC%9D%B4%EC%99%80-%EB%B9%84%EB%B0%80-%EB%A0%88%EC%8B%9C%ED%94%BC/id6496345774",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 93,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 115
-    },
-    {
-      "name": "템빨용사: 픽셀 아이템 머지 RPG",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%ED%85%9C%EB%B9%A8%EC%9A%A9%EC%82%AC-%ED%94%BD%EC%85%80-%EC%95%84%EC%9D%B4%ED%85%9C-%EB%A8%B8%EC%A7%80-rpg/id6755585789",
-      "tab": "Games",
-      "section": "Featured",
-      "priority": 94,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 116
-    },
-    {
-      "name": "Pond Pals",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/pond-pals/id6755534047",
-      "tab": "Games",
-      "section": "Featured",
-      "priority": 95,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -1761,11 +1761,11 @@
     {
       "name": "CapWords: AI사진학습 10개국어",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/54/c8/aa54c8eb-ebf8-ab5f-440b-0f7097860c0b/Placeholder.mill/48x48bb-75.webp",
       "url": "https://apps.apple.com/kr/app/capwords-ai%EC%82%AC%EC%A7%84%ED%95%99%EC%8A%B5-10%EA%B0%9C%EA%B5%AD%EC%96%B4/id6738896465",
       "tab": "Today",
       "section": "배너",
-      "priority": 95,
+      "priority": 91,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -1774,13 +1774,13 @@
       "rank": 118
     },
     {
-      "name": "뿅뿅마법단",
+      "name": "SOL: enchant",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EB%BF%85%EB%BF%85%EB%A7%88%EB%B2%95%EB%8B%A8/id6754450264",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/8d/97/1a8d97a5-8835-1068-9baf-599fe58ee967/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/kr/app/sol-enchant/id6748004690",
       "tab": "Games",
       "section": "Featured",
-      "priority": 96,
+      "priority": 92,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -1789,43 +1789,43 @@
       "rank": 119
     },
     {
-      "name": "세븐나이츠 리버스",
+      "name": "왕좌의 게임: 킹스로드",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EC%84%B8%EB%B8%90%EB%82%98%EC%9D%B4%EC%B8%A0-%EB%A6%AC%EB%B2%84%EC%8A%A4/id6479595079",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 96,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 120
-    },
-    {
-      "name": "고양이 스낵바 시티 : 도시 시뮬레이션 게임",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EA%B3%A0%EC%96%91%EC%9D%B4-%EC%8A%A4%EB%82%B5%EB%B0%94-%EC%8B%9C%ED%8B%B0-%EB%8F%84%EC%8B%9C-%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98-%EA%B2%8C%EC%9E%84/id6753163785",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/fa/01/77fa0108-368d-7be9-c713-838c7e866529/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EC%99%95%EC%A2%8C%EC%9D%98-%EA%B2%8C%EC%9E%84-%ED%82%B9%EC%8A%A4%EB%A1%9C%EB%93%9C/id6755586050",
       "tab": "Games",
       "section": "Featured",
-      "priority": 97,
+      "priority": 93,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
       "banner": false,
+      "rank": 120
+    },
+    {
+      "name": "궁수의 전설2",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/2d/26/372d2672-1f55-bcf5-c223-86644b13548f/Placeholder.mill/48x48bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EA%B6%81%EC%88%98%EC%9D%98-%EC%A0%84%EC%84%A42/id6502820653",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 93,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
       "rank": 121
     },
     {
-      "name": "몬길: STAR DIVE",
+      "name": "템빨용사: 픽셀 아이템 머지 RPG",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%EB%AA%AC%EA%B8%B8-star-dive/id6483252725",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/70/37/3870373b-523e-ade2-8a55-6f4a153c3ee6/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%ED%85%9C%EB%B9%A8%EC%9A%A9%EC%82%AC-%ED%94%BD%EC%85%80-%EC%95%84%EC%9D%B4%ED%85%9C-%EB%A8%B8%EC%A7%80-rpg/id6755585789",
       "tab": "Games",
       "section": "Featured",
-      "priority": 98,
+      "priority": 94,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -1834,13 +1834,13 @@
       "rank": 122
     },
     {
-      "name": "플라잉 캣 : 스페이스 대시",
+      "name": "Pond Pals",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/%ED%94%8C%EB%9D%BC%EC%9E%89-%EC%BA%A3-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%8C%80%EC%8B%9C/id6448105717",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/2b/8c/1f2b8ca3-497f-0ce3-8a39-fab86bc746b6/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/pond-pals/id6755534047",
       "tab": "Games",
       "section": "Featured",
-      "priority": 99,
+      "priority": 95,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -1849,13 +1849,13 @@
       "rank": 123
     },
     {
-      "name": "CoreSurvival",
+      "name": "뿅뿅마법단",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/coresurvival/id6755952729",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/44/4e/f2444e8e-809b-d6e7-bc18-7d90c15ae122/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EB%BF%85%EB%BF%85%EB%A7%88%EB%B2%95%EB%8B%A8/id6754450264",
       "tab": "Games",
       "section": "Featured",
-      "priority": 100,
+      "priority": 96,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -1866,11 +1866,11 @@
     {
       "name": "스타세이비어",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/ca/bc/d4cabcec-8c53-2102-4704-23e797db9aa2/Placeholder.mill/48x48bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%8A%A4%ED%83%80%EC%84%B8%EC%9D%B4%EB%B9%84%EC%96%B4/id6443597557",
       "tab": "Today",
       "section": "배너",
-      "priority": 100,
+      "priority": 96,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -1879,13 +1879,13 @@
       "rank": 125
     },
     {
-      "name": "Monument Valley 3",
+      "name": "고양이 스낵바 시티 : 도시 시뮬레이션 게임",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/monument-valley-3/id6443563379",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/6d/8c/346d8c57-844e-01dd-a29f-2717cdaf67fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EA%B3%A0%EC%96%91%EC%9D%B4-%EC%8A%A4%EB%82%B5%EB%B0%94-%EC%8B%9C%ED%8B%B0-%EB%8F%84%EC%8B%9C-%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98-%EA%B2%8C%EC%9E%84/id6753163785",
       "tab": "Games",
       "section": "Featured",
-      "priority": 101,
+      "priority": 97,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -1896,11 +1896,11 @@
     {
       "name": "클룩 KLOOK: 액티비티, 투어, 렌터카 예약",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/23/55/12235582-e71a-5fb7-5b57-7894d044037a/Placeholder.mill/48x48bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%ED%81%B4%EB%A3%A9-klook-%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0-%ED%88%AC%EC%96%B4-%EB%A0%8C%ED%84%B0%EC%B9%B4-%EC%98%88%EC%95%BD/id961850126",
       "tab": "Today",
       "section": "배너",
-      "priority": 101,
+      "priority": 97,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -1909,9 +1909,69 @@
       "rank": 127
     },
     {
+      "name": "몬길: STAR DIVE",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/4f/db/eb4fdb91-db5b-a709-8c78-9acb10603e6c/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EB%AA%AC%EA%B8%B8-star-dive/id6483252725",
+      "tab": "Games",
+      "section": "Featured",
+      "priority": 98,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 128
+    },
+    {
+      "name": "플라잉 캣 : 스페이스 대시",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/c1/94/69c19477-41df-294f-9b18-147a4736a73e/AppIcon-1x_U007emarketing-85-220-3.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/kr/app/%ED%94%8C%EB%9D%BC%EC%9E%89-%EC%BA%A3-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%8C%80%EC%8B%9C/id6448105717",
+      "tab": "Games",
+      "section": "Featured",
+      "priority": 99,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 129
+    },
+    {
+      "name": "CoreSurvival",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/71/87/91/71879165-78e1-5154-f39c-bf541f5207f0/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/coresurvival/id6755952729",
+      "tab": "Games",
+      "section": "Featured",
+      "priority": 100,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 130
+    },
+    {
+      "name": "Monument Valley 3",
+      "dev": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b9/b9/26/b9b92649-24c2-7f22-dfe8-1984ddb88f56/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/monument-valley-3/id6443563379",
+      "tab": "Games",
+      "section": "Featured",
+      "priority": 101,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 131
+    },
+    {
       "name": "Enter The Gungeon",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/3a/79/a73a79b6-d8fb-b48e-163e-ad69ba49d462/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/enter-the-gungeon/id1100429641",
       "tab": "Games",
       "section": "Featured",
@@ -1921,27 +1981,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 128
-    },
-    {
-      "name": "Wavve (웨이브)",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/wavve-%EC%9B%A8%EC%9D%B4%EB%B8%8C/id987782077",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 102,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 129
+      "rank": 132
     },
     {
       "name": "Deep Rock Galactic: Survivor",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/26/43/53264382-2773-211d-1c6a-a8f7a2abfe05/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/deep-rock-galactic-survivor/id6742194903",
       "tab": "Games",
       "section": "Featured",
@@ -1951,12 +1996,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 130
+      "rank": 133
     },
     {
       "name": "Timelie",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/f4/0a/2ef40a91-497b-cc01-f1d3-47cc23d3052f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/timelie/id6739528472",
       "tab": "Games",
       "section": "Featured",
@@ -1966,12 +2011,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 131
+      "rank": 134
     },
     {
       "name": "Rift Riff",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dd/20/7b/dd207bde-f59b-5efa-6ca7-bf3783d9a839/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/rift-riff/id6746967900",
       "tab": "Games",
       "section": "Featured",
@@ -1981,12 +2026,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 132
+      "rank": 135
     },
     {
       "name": "좋은 커피, 위대한 커피",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/bd/f4/c0bdf4d8-eaeb-1263-7256-ad591972ba0d/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%A2%8B%EC%9D%80-%EC%BB%A4%ED%94%BC-%EC%9C%84%EB%8C%80%ED%95%9C-%EC%BB%A4%ED%94%BC/id1603584945",
       "tab": "Games",
       "section": "Featured",
@@ -1996,12 +2041,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 133
+      "rank": 136
     },
     {
       "name": "TownsFolk",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b8/c3/07/b8c30789-54da-41e6-da4a-3556e01d4331/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/townsfolk/id6670406987",
       "tab": "Games",
       "section": "Featured",
@@ -2011,12 +2056,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 134
+      "rank": 137
     },
     {
       "name": "DREDGE",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/56/ab/3c56abf1-8643-06f6-849b-9dc7d2017842/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/dredge/id6526463862",
       "tab": "Games",
       "section": "Featured",
@@ -2026,12 +2071,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 135
+      "rank": 138
     },
     {
       "name": "INMOST",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/e0/2e/d8e02e04-42c0-7f3f-1cc0-a730885de934/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/inmost/id6478596530",
       "tab": "Games",
       "section": "Featured",
@@ -2041,12 +2086,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 136
+      "rank": 139
     },
     {
       "name": "팬텀 로즈 2 사파이어",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/af/7f/65af7f3a-d0f2-dd90-b5c1-99c9d952f9a7/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%ED%8C%AC%ED%85%80-%EB%A1%9C%EC%A6%88-2-%EC%82%AC%ED%8C%8C%EC%9D%B4%EC%96%B4/id6502919566",
       "tab": "Games",
       "section": "Featured",
@@ -2056,12 +2101,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 137
+      "rank": 140
     },
     {
       "name": "빠지냥",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/5f/71/bc5f7184-4eec-aceb-86b4-d560937d247d/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%B9%A0%EC%A7%80%EB%83%A5/id6749132002",
       "tab": "Games",
       "section": "Featured",
@@ -2071,12 +2116,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 138
+      "rank": 141
     },
     {
       "name": "Minecraft: 나만의 세계를 꿈꾸고 만들어보세요",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/0d/13/2a0d13e4-291d-7727-1830-c7fa5133b843/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/kr/app/minecraft-%EB%82%98%EB%A7%8C%EC%9D%98-%EC%84%B8%EA%B3%84%EB%A5%BC-%EA%BF%88%EA%BE%B8%EA%B3%A0-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%84%B8%EC%9A%94/id479516143",
       "tab": "Games",
       "section": "Featured",
@@ -2086,12 +2131,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 139
+      "rank": 142
     },
     {
       "name": "OOTP Baseball 27 Go!",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/63/52/ec635212-bdd5-51ec-06f5-938ab5d0cbb6/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/kr/app/ootp-baseball-27-go/id6758360195",
       "tab": "Games",
       "section": "Featured",
@@ -2101,12 +2146,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 140
+      "rank": 143
     },
     {
       "name": "Scritchy Scratchy",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2f/a0/ce/2fa0ce75-b2aa-96d9-c675-4da8315fcbf3/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/kr/app/scritchy-scratchy/id6758328352",
       "tab": "Games",
       "section": "Featured",
@@ -2116,12 +2161,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 141
+      "rank": 144
     },
     {
       "name": "Stardew Valley",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/df/12/0edf1230-3f6e-fbb3-7f72-f2aa844d100a/AppIcons-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
       "url": "https://apps.apple.com/kr/app/stardew-valley/id1406710800",
       "tab": "Games",
       "section": "Featured",
@@ -2131,12 +2176,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 142
+      "rank": 145
     },
     {
       "name": "The Company: 로그라이크 회사 경영",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/99/27/96992707-89f8-8c3e-d317-94c0d77d62a4/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/kr/app/the-company-%EB%A1%9C%EA%B7%B8%EB%9D%BC%EC%9D%B4%ED%81%AC-%ED%9A%8C%EC%82%AC-%EA%B2%BD%EC%98%81/id6756307024",
       "tab": "Games",
       "section": "Featured",
@@ -2146,13 +2191,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 143
+      "rank": 146
     },
     {
-      "name": "Geometry Dash",
+      "name": "Slay the Spire",
       "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/kr/app/geometry-dash/id625334537",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/0c/92/910c920a-0ab6-1939-e297-083995b640c7/AppIcon-1x_U007emarketing-0-11-0-0-85-220-0.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/kr/app/slay-the-spire/id1491530147",
       "tab": "Games",
       "section": "Featured",
       "priority": 117,
@@ -2161,12 +2206,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 144
+      "rank": 147
     },
     {
       "name": "귀판오분전",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/0d/12/2b0d1244-99d9-06d9-92d1-e2445e8e34b3/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EA%B7%80%ED%8C%90%EC%98%A4%EB%B6%84%EC%A0%84/id6753140348",
       "tab": "Games",
       "section": "Featured",
@@ -2176,12 +2221,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 145
+      "rank": 148
     },
     {
       "name": "마왕성 스토리",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/a6/60/16a660e5-ee41-184d-6c78-0b39417a8dbf/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%A7%88%EC%99%95%EC%84%B1-%EC%8A%A4%ED%86%A0%EB%A6%AC/id6749560544",
       "tab": "Games",
       "section": "Featured",
@@ -2191,12 +2236,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 146
+      "rank": 149
     },
     {
       "name": "세포 특공대 - 전략형 타워 디펜스",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/fa/51/f8fa5193-7e61-a915-38be-34e070e51b2f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%84%B8%ED%8F%AC-%ED%8A%B9%EA%B3%B5%EB%8C%80-%EC%A0%84%EB%9E%B5%ED%98%95-%ED%83%80%EC%9B%8C-%EB%94%94%ED%8E%9C%EC%8A%A4/id6746465127",
       "tab": "Games",
       "section": "Featured",
@@ -2206,12 +2251,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 147
+      "rank": 150
     },
     {
       "name": "잠룡 : 무협 도트 RPG",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/4e/0b/294e0b4b-7f05-1e07-dfb8-fe476ebf2aeb/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%9E%A0%EB%A3%A1-%EB%AC%B4%ED%98%91-%EB%8F%84%ED%8A%B8-rpg/id6740556884",
       "tab": "Games",
       "section": "Featured",
@@ -2221,12 +2266,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 148
+      "rank": 151
     },
     {
       "name": "로블록스(Roblox)",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/bc/e9/41bce9a7-584c-4b0f-4e93-ed4748ab0674/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%A1%9C%EB%B8%94%EB%A1%9D%EC%8A%A4-roblox/id431946152",
       "tab": "Games",
       "section": "Featured",
@@ -2236,12 +2281,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 149
+      "rank": 152
     },
     {
       "name": "캣 히어로 : 방치형 RPG",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/90/f4/7f90f4dd-5d08-e8a9-5c48-364b57af4490/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%BA%A3-%ED%9E%88%EC%96%B4%EB%A1%9C-%EB%B0%A9%EC%B9%98%ED%98%95-rpg/id6446516059",
       "tab": "Games",
       "section": "Featured",
@@ -2251,12 +2296,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 150
+      "rank": 153
     },
     {
       "name": "킹샷:Kingshot",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/91/c2/5091c248-011c-d395-f2ad-0793a92acf96/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%ED%82%B9%EC%83%B7-kingshot/id6739554056",
       "tab": "Games",
       "section": "Featured",
@@ -2266,12 +2311,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 151
+      "rank": 154
     },
     {
       "name": "AFK: 새로운 여정 - 힐링 농장",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/ed/6c/8aed6c55-1bed-bf02-f7d7-4190bdf42b6f/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/afk-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%97%AC%EC%A0%95-%ED%9E%90%EB%A7%81-%EB%86%8D%EC%9E%A5/id1628970855",
       "tab": "Games",
       "section": "Featured",
@@ -2281,12 +2326,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 152
+      "rank": 155
     },
     {
       "name": "쿠키런: 모험의 탑",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c8/41/3d/c8413d5e-aa93-2586-a378-977d0d3dd6df/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%BF%A0%ED%82%A4%EB%9F%B0-%EB%AA%A8%ED%97%98%EC%9D%98-%ED%83%91/id6449445178",
       "tab": "Games",
       "section": "Featured",
@@ -2296,12 +2341,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 153
+      "rank": 156
     },
     {
       "name": "별이되어라2: 베다의 기사들",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/66/e8/3866e8fc-a0d9-0ae2-da4d-975dfb211159/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%B3%84%EC%9D%B4%EB%90%98%EC%96%B4%EB%9D%BC2-%EB%B2%A0%EB%8B%A4%EC%9D%98-%EA%B8%B0%EC%82%AC%EB%93%A4/id6449925651",
       "tab": "Games",
       "section": "Featured",
@@ -2311,12 +2356,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 154
+      "rank": 157
     },
     {
       "name": "워크래프트 럼블",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/3a/d8/8c3ad8b9-5734-4ddd-4529-dce550e12947/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%9B%8C%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8-%EB%9F%BC%EB%B8%94/id1600575058",
       "tab": "Games",
       "section": "Featured",
@@ -2326,12 +2371,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 155
+      "rank": 158
     },
     {
       "name": "BIOHAZARD RE:4",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/c8/c9/24c8c984-811f-2806-f307-1535d0fe84c8/AppIcon-1x_U007epad-0-11-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/biohazard-re-4/id6462360082",
       "tab": "Games",
       "section": "Featured",
@@ -2341,12 +2386,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 156
+      "rank": 159
     },
     {
       "name": "Monster Hunter Now",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/73/b1/be/73b1be3f-e843-aa0f-6577-c6e0087da5a2/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/monster-hunter-now/id6445906110",
       "tab": "Games",
       "section": "Featured",
@@ -2356,12 +2401,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 157
+      "rank": 160
     },
     {
       "name": "Dragonheir: Silent Gods",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/1e/69/981e69d1-d342-8571-b844-e984255e4f27/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/dragonheir-silent-gods/id1668757233",
       "tab": "Games",
       "section": "Featured",
@@ -2371,12 +2416,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 158
+      "rank": 161
     },
     {
       "name": "Pikmin Bloom",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/28/ac/d628acce-a885-170e-0909-72f1b431ff2b/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/pikmin-bloom/id1556357398",
       "tab": "Games",
       "section": "Featured",
@@ -2386,12 +2431,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 159
+      "rank": 162
     },
     {
       "name": "로얄 매치 (Royal Match)",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/47/fe/0547fedd-675a-c41f-1360-ac7b103a9a9f/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%A1%9C%EC%96%84-%EB%A7%A4%EC%B9%98-royal-match/id1482155847",
       "tab": "Games",
       "section": "Featured",
@@ -2401,12 +2446,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 160
+      "rank": 163
     },
     {
       "name": "Dead Cells",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/10/c5/0110c5c6-01c0-8858-d466-8a44c585a6f1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/dead-cells/id1389752090",
       "tab": "Games",
       "section": "Featured",
@@ -2416,12 +2461,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 161
+      "rank": 164
     },
     {
       "name": "커피 골프",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/bd/23/0cbd23da-28ae-00dc-6319-bb5aa8503c88/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%BB%A4%ED%94%BC-%EA%B3%A8%ED%94%84/id6449750555",
       "tab": "Games",
       "section": "Featured",
@@ -2431,12 +2476,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 162
+      "rank": 165
     },
     {
       "name": "Assemble with Care",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/16/b2/28/16b2286a-6b2c-c8fd-0459-d2e3e94d1657/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/assemble-with-care/id6459060454",
       "tab": "Games",
       "section": "Featured",
@@ -2446,12 +2491,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 163
+      "rank": 166
     },
     {
       "name": "BIOHAZARD RE:2",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/f2/bb/1bf2bb23-29e4-24c7-f953-4c3e88fd6bc4/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/biohazard-re-2/id1640632432",
       "tab": "Games",
       "section": "Featured",
@@ -2461,12 +2506,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 164
+      "rank": 167
     },
     {
       "name": "Sid Meier’s Railroads!",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/6c/33/656c33d2-2a47-4add-818a-e56157bcb7b9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/sid-meiers-railroads/id1449719281",
       "tab": "Games",
       "section": "Featured",
@@ -2476,12 +2521,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 165
+      "rank": 168
     },
     {
       "name": "Carrion",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/b0/bd/3db0bd9d-045d-1ec5-ed31-87c88ece826c/AppIcon-0-0-1x_U007epad-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/carrion/id6504567739",
       "tab": "Games",
       "section": "Featured",
@@ -2491,12 +2536,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 166
+      "rank": 169
     },
     {
       "name": "The Stanley Parable: UD",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/78/87/24788750-47d0-03cd-2ca9-9faa944e1bb5/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/the-stanley-parable-ud/id6479513152",
       "tab": "Games",
       "section": "Featured",
@@ -2506,12 +2551,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 167
+      "rank": 170
     },
     {
       "name": "Hello Kitty Island Intro",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/aa/d3/caaad30b-6919-e981-1e29-dcf0832917db/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/hello-kitty-island-intro/id6751249993",
       "tab": "Games",
       "section": "Featured",
@@ -2521,12 +2566,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 168
+      "rank": 171
     },
     {
       "name": "BIOHAZARD 7 resident evil",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/7e/ef/be7eef57-7e97-baeb-5861-8afb59c31588/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/biohazard-7-resident-evil/id1640629241",
       "tab": "Games",
       "section": "Featured",
@@ -2536,12 +2581,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 169
+      "rank": 172
     },
     {
       "name": "Rocco's Island: Pocket Edition",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c2/4d/70/c24d700b-8c52-24f0-3a36-9283111ad291/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/roccos-island-pocket-edition/id6443620400",
       "tab": "Games",
       "section": "Featured",
@@ -2551,12 +2596,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 170
+      "rank": 173
     },
     {
       "name": "어쌔신 크리드 미라지",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/13/79/b11379da-eca6-f40c-9bac-1f11099b8f41/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%96%B4%EC%8C%94%EC%8B%A0-%ED%81%AC%EB%A6%AC%EB%93%9C-%EB%AF%B8%EB%9D%BC%EC%A7%80/id6472704261",
       "tab": "Games",
       "section": "Featured",
@@ -2566,12 +2611,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 171
+      "rank": 174
     },
     {
       "name": "Alien: Isolation",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/f7/01/58f70113-7310-82af-dc05-619d6f520f37/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/alien-isolation/id1573029040",
       "tab": "Games",
       "section": "Featured",
@@ -2581,12 +2626,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 172
+      "rank": 175
     },
     {
       "name": "Loop Hero - retro roguelike",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/60/f2/0d60f25a-155a-635c-ae49-f241399af5e3/AppIcon4-0-0-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/loop-hero-retro-roguelike/id6464048549",
       "tab": "Games",
       "section": "Featured",
@@ -2596,12 +2641,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 173
+      "rank": 176
     },
     {
       "name": "미니언 러쉬: 런닝 게임",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/41/a6/ba41a605-61b2-5897-4735-57643e0de5be/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%AF%B8%EB%8B%88%EC%96%B8-%EB%9F%AC%EC%89%AC-%EB%9F%B0%EB%8B%9D-%EA%B2%8C%EC%9E%84/id596402997",
       "tab": "Games",
       "section": "Featured",
@@ -2611,12 +2656,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 174
+      "rank": 177
     },
     {
       "name": "Cat Quest III",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/0c/6e/570c6e2d-21ab-7259-e59e-25b44e079256/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/cat-quest-iii/id1551304183",
       "tab": "Games",
       "section": "Featured",
@@ -2626,12 +2671,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 175
+      "rank": 178
     },
     {
       "name": "헝그리 샤크 월드 (Hungry Shark World)",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/0b/67/380b67a8-3fb8-693d-bead-29547ef58508/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%ED%97%9D%EA%B7%B8%EB%A6%AC-%EC%83%A4%ED%81%AC-%EC%9B%94%EB%93%9C-hungry-shark-world/id1046846443",
       "tab": "Games",
       "section": "Featured",
@@ -2641,12 +2686,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 176
+      "rank": 179
     },
     {
       "name": "Steppy Pants",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/0e/23/d60e23ab-231d-d83b-235e-2b20f9976537/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/steppy-pants/id1094138419",
       "tab": "Games",
       "section": "Featured",
@@ -2656,12 +2701,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 177
+      "rank": 180
     },
     {
       "name": "츠키 오디세이",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/86/a9/9386a906-3500-bbb7-bf37-d5d65c88428d/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%B8%A0%ED%82%A4-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4/id1564146071",
       "tab": "Games",
       "section": "Featured",
@@ -2671,12 +2716,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 178
+      "rank": 181
     },
     {
       "name": "MONOPOLY GO! (모노폴리 GO!)",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/49/30/e9/4930e9a3-ca46-0464-f047-7fb98ab5173d/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/monopoly-go-%EB%AA%A8%EB%85%B8%ED%8F%B4%EB%A6%AC-go/id1621328561",
       "tab": "Games",
       "section": "Featured",
@@ -2686,12 +2731,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 179
+      "rank": 182
     },
     {
       "name": "우주물고기",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/25/3c/3f253c36-74ab-fe11-edfe-0fffe802e2b4/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%9A%B0%EC%A3%BC%EB%AC%BC%EA%B3%A0%EA%B8%B0/id1298839048",
       "tab": "Games",
       "section": "Featured",
@@ -2701,12 +2746,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 180
+      "rank": 183
     },
     {
       "name": "SKY - 빛의 아이들",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/34/b9/9c34b99a-2b22-ba9c-eb35-f9d5c079d1d8/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/sky-%EB%B9%9B%EC%9D%98-%EC%95%84%EC%9D%B4%EB%93%A4/id1462117269",
       "tab": "Games",
       "section": "Featured",
@@ -2716,12 +2761,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 181
+      "rank": 184
     },
     {
       "name": "Scrap Divers",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/19/88/621988de-81e8-c9e6-5ac6-a212f704fea2/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/scrap-divers/id1581680664",
       "tab": "Games",
       "section": "Featured",
@@ -2731,12 +2776,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 182
+      "rank": 185
     },
     {
       "name": "Populus Run",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/63/fb/1963fbba-dfec-3bf2-ded9-21e5908925ba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/populus-run/id6470197867",
       "tab": "Games",
       "section": "Featured",
@@ -2746,12 +2791,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 183
+      "rank": 186
     },
     {
       "name": "Warframe",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/2d/09/d92d09ed-9ce6-187f-cc5d-75813c5804cc/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/warframe/id1520001008",
       "tab": "Games",
       "section": "Featured",
@@ -2761,12 +2806,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 184
+      "rank": 187
     },
     {
       "name": "Bugsnax",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ca/9b/5d/ca9b5d13-694c-c525-8f09-88c486455960/AppIcon-1x_U007emarketing-0-4-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/bugsnax/id1449161497",
       "tab": "Games",
       "section": "Featured",
@@ -2776,12 +2821,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 185
+      "rank": 188
     },
     {
       "name": "데스 스트랜딩 디렉터스 컷",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/21/46/5221468f-2c43-80c3-a117-84de564442d9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%8D%B0%EC%8A%A4-%EC%8A%A4%ED%8A%B8%EB%9E%9C%EB%94%A9-%EB%94%94%EB%A0%89%ED%84%B0%EC%8A%A4-%EC%BB%B7/id6449748961",
       "tab": "Games",
       "section": "Featured",
@@ -2791,12 +2836,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 186
+      "rank": 189
     },
     {
       "name": "Brotato",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/54/ac/1254ac17-6922-7181-5184-716a0695b13e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/brotato/id6445884925",
       "tab": "Games",
       "section": "Featured",
@@ -2806,12 +2851,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 187
+      "rank": 190
     },
     {
       "name": "Return to Monkey Island",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/93/35/8c933575-75f0-829e-085e-881c52b03d6d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/return-to-monkey-island/id1658628321",
       "tab": "Games",
       "section": "Featured",
@@ -2821,12 +2866,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 188
+      "rank": 191
     },
     {
       "name": "Daily Dadish",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/0d/e4/dd/0de4dd2d-fa60-411d-732f-6dd47cfb015a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/daily-dadish/id1663146885",
       "tab": "Games",
       "section": "Featured",
@@ -2836,12 +2881,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 189
+      "rank": 192
     },
     {
       "name": "Myst Mobile",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9b/53/23/9b532362-95f1-68bb-5b17-c66e8c69b988/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/myst-mobile/id6444813759",
       "tab": "Games",
       "section": "Featured",
@@ -2851,12 +2896,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 190
+      "rank": 193
     },
     {
       "name": "Endling",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e9/19/84/e91984af-9c50-571f-c668-85d8801e715f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/endling/id1625083646",
       "tab": "Games",
       "section": "Featured",
@@ -2866,12 +2911,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 191
+      "rank": 194
     },
     {
       "name": "Unruly Heroes",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/e6/24/75/e6247561-0734-ec11-bd55-9316807893a7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/unruly-heroes/id1521243180",
       "tab": "Games",
       "section": "Featured",
@@ -2881,12 +2926,12 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 192
+      "rank": 195
     },
     {
       "name": "T3 아레나",
       "dev": "",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/73/43/24734309-d57c-398c-3f58-487533204fe1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/kr/app/t3-%EC%95%84%EB%A0%88%EB%82%98/id1602814337",
       "tab": "Games",
       "section": "Featured",
@@ -2896,7 +2941,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 193
+      "rank": 196
     }
   ]
 }

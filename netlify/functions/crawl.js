@@ -55,12 +55,16 @@ export const handler = async (event) => {
   };
 
   try {
-    /* ═══ 1. APPLE: data/*.json에서 피쳐드 데이터 읽기 ═══ */
+    /* ═══ 1. GitHub data/*.json에서 피쳐드 데이터 읽기 ═══ */
     let appleApps = [];
+    let gpPuppeteerApps = [];  // Puppeteer로 크롤링한 GP 데이터
+
     try {
       const res = await fetch(`${GITHUB_RAW}/${country}.json`);
       if (res.ok) {
         const cached = await res.json();
+
+        // Apple 데이터
         appleApps = (cached.apple || []).map((a, i) => ({
           ...a,
           rank: i + 1,
@@ -68,9 +72,20 @@ export const handler = async (event) => {
           nexon: a.nexon === true || isNexon(a.dev)
         }));
         console.log(`[Apple] Loaded ${appleApps.length} from GitHub (${cached.date}), NEXON: ${appleApps.filter(a=>a.nexon).length}`);
+
+        // Google Play Puppeteer 데이터 (data/*.json의 google 필드)
+        if (cached.google && cached.google.length > 0) {
+          gpPuppeteerApps = cached.google.map((a, i) => ({
+            ...a,
+            rank: i + 1,
+            genre: a.genre ? toG(a.genre) : "",
+            nexon: a.nexon === true || isNexon(a.dev)
+          }));
+          console.log(`[GP Puppeteer] Loaded ${gpPuppeteerApps.length} from GitHub (${cached.date}), NEXON: ${gpPuppeteerApps.filter(a=>a.nexon).length}`);
+        }
       }
     } catch (e) {
-      console.warn("[Apple GitHub]", e.message);
+      console.warn("[GitHub]", e.message);
     }
 
     /* Apple 데이터 없으면 RSS 폴백 */
@@ -93,34 +108,64 @@ export const handler = async (event) => {
       } catch (e2) { console.warn("[Apple RSS Fallback]", e2.message); }
     }
 
-    /* ═══ 2. GOOGLE PLAY: scraper ═══ */
-    const gpApps = [];
-    const [gpRes, gpGrossRes] = await Promise.allSettled([
-      gplay.list({ collection:gplay.collection.TOP_FREE, category:gplay.category.GAME, num:30, country:c.cc, lang:c.hl, fullDetail:false }),
-      gplay.list({ collection:gplay.collection.GROSSING, category:gplay.category.GAME, num:20, country:c.cc, lang:c.hl, fullDetail:false })
-    ]);
+    /* ═══ 2. GOOGLE PLAY: Puppeteer 데이터 우선, 없으면 scraper 폴백 ═══ */
+    let gpApps = [];
 
-    if (gpRes.status==="fulfilled"&&gpRes.value.length>0) {
-      gpRes.value.forEach((app,i)=>{ const item=gpConvert(app,i,"Top Free Games",1,i<3); if(item) gpApps.push(item); });
-    }
-    if (gpGrossRes.status==="fulfilled"&&gpGrossRes.value.length>0) {
-      const ex=new Set(gpApps.map(a=>a.name.toLowerCase()));
-      gpGrossRes.value.forEach((app,i)=>{ const n=(app.title||"").toLowerCase(); if(ex.has(n))return; ex.add(n); const item=gpConvert(app,i,"Top Grossing",100,false); if(item) gpApps.push(item); });
-    }
+    if (gpPuppeteerApps.length > 0) {
+      // Puppeteer 데이터 우선 사용
+      gpApps = gpPuppeteerApps;
+      console.log(`[GP] Using Puppeteer data: ${gpApps.length} apps`);
 
-    /* GP 폴백: search */
-    if (gpApps.length===0) {
-      const queries=["top mobile games","popular games","best free games"];
-      const seen=new Set();
-      for(const q of queries){
-        try{
-          const results=await gplay.search({term:q,num:15,country:c.cc,lang:c.hl,price:"free"});
-          results.forEach(app=>{
-            if(!app.genre||!app.genre.toLowerCase().includes("game"))return;
-            const n=(app.title||"").toLowerCase(); if(seen.has(n))return; seen.add(n);
-            const item=gpConvert(app,gpApps.length,"Search",200,false); if(item) gpApps.push(item);
-          });
-        }catch(e){console.warn("[GP Search]",q,e.message);}
+      // Puppeteer 데이터에 장르/평점이 없는 앱은 scraper로 보강
+      const needEnrich = gpApps.filter(a => !a.genre || !a.rating);
+      if (needEnrich.length > 0) {
+        console.log(`[GP] Enriching ${needEnrich.length} apps with scraper...`);
+        for (const app of needEnrich.slice(0, 15)) {
+          try {
+            // URL에서 appId 추출
+            const idMatch = (app.url || "").match(/id=([^&]+)/);
+            if (idMatch) {
+              const detail = await gplay.app({ appId: idMatch[1], lang: c.hl, country: c.cc });
+              if (detail) {
+                if (!app.genre && detail.genre) app.genre = toG(detail.genre);
+                if (!app.rating && detail.score) app.rating = parseFloat(detail.score.toFixed(1));
+                if (!app.dev && detail.developer) { app.dev = detail.developer; app.nexon = isNexon(detail.developer); }
+                if (!app.icon && detail.icon) app.icon = detail.icon;
+              }
+            }
+          } catch (e) { /* 개별 실패 무시 */ }
+        }
+      }
+    } else {
+      // Puppeteer 데이터 없으면 scraper 폴백
+      console.log("[GP] No Puppeteer data, using scraper fallback...");
+      const [gpRes, gpGrossRes] = await Promise.allSettled([
+        gplay.list({ collection:gplay.collection.TOP_FREE, category:gplay.category.GAME, num:30, country:c.cc, lang:c.hl, fullDetail:false }),
+        gplay.list({ collection:gplay.collection.GROSSING, category:gplay.category.GAME, num:20, country:c.cc, lang:c.hl, fullDetail:false })
+      ]);
+
+      if (gpRes.status==="fulfilled"&&gpRes.value.length>0) {
+        gpRes.value.forEach((app,i)=>{ const item=gpConvert(app,i,"Top Free Games",1,i<3); if(item) gpApps.push(item); });
+      }
+      if (gpGrossRes.status==="fulfilled"&&gpGrossRes.value.length>0) {
+        const ex=new Set(gpApps.map(a=>a.name.toLowerCase()));
+        gpGrossRes.value.forEach((app,i)=>{ const n=(app.title||"").toLowerCase(); if(ex.has(n))return; ex.add(n); const item=gpConvert(app,i,"Top Grossing",100,false); if(item) gpApps.push(item); });
+      }
+
+      /* GP 폴백: search */
+      if (gpApps.length===0) {
+        const queries=["top mobile games","popular games","best free games"];
+        const seen=new Set();
+        for(const q of queries){
+          try{
+            const results=await gplay.search({term:q,num:15,country:c.cc,lang:c.hl,price:"free"});
+            results.forEach(app=>{
+              if(!app.genre||!app.genre.toLowerCase().includes("game"))return;
+              const n=(app.title||"").toLowerCase(); if(seen.has(n))return; seen.add(n);
+              const item=gpConvert(app,gpApps.length,"Search",200,false); if(item) gpApps.push(item);
+            });
+          }catch(e){console.warn("[GP Search]",q,e.message);}
+        }
       }
     }
 

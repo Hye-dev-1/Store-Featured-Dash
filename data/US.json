@@ -1,20 +1,21 @@
 {
   "country": "US",
-  "date": "2026-04-13",
-  "updated": "2026-04-13T11:02:03.373Z",
+  "date": "2026-04-14",
+  "updated": "2026-04-14T01:10:28.713Z",
   "apple": [
     {
-      "name": "Get ready to hunt anomalies",
-      "dev": "Get ready to hunt anomalies",
+      "name": "Will you survive The Corridor?",
+      "dev": "Will you survive The Corridor?",
       "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/us/app/nte-neverness-to-everness/id6754593077",
+      "url": "https://apps.apple.com/us/app/mind-the-door/id6758810058",
       "tab": "Games",
-      "section": "Featured",
-      "priority": 50,
+      "section": "배너",
+      "priority": 5,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": true,
       "rank": 1
     },
     {
@@ -23,12 +24,13 @@
       "icon": "/assets/artwork/1x1.gif",
       "url": "https://apps.apple.com/us/app/jetpack-joyride-racing/id6740550251",
       "tab": "Games",
-      "section": "Featured",
-      "priority": 51,
+      "section": "배너",
+      "priority": 6,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": true,
       "rank": 2
     },
     {
@@ -37,12 +39,13 @@
       "icon": "/assets/artwork/1x1.gif",
       "url": "https://apps.apple.com/us/app/cookierun-kingdom/id1509450845?eventid=6761454425",
       "tab": "Games",
-      "section": "Featured",
-      "priority": 52,
+      "section": "배너",
+      "priority": 7,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": true,
       "rank": 3
     },
     {
@@ -52,11 +55,12 @@
       "url": "https://apps.apple.com/us/app/pixel-flow/id6751056652",
       "tab": "Games",
       "section": "Featured",
-      "priority": 53,
+      "priority": 50,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 4
     },
     {
@@ -66,11 +70,12 @@
       "url": "https://apps.apple.com/us/app/roblox/id431946152",
       "tab": "Games",
       "section": "Featured",
-      "priority": 54,
+      "priority": 51,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 5
     },
     {
@@ -80,11 +85,12 @@
       "url": "https://apps.apple.com/us/app/fallout-shelter/id991153141",
       "tab": "Games",
       "section": "Featured",
-      "priority": 55,
+      "priority": 52,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 6
     },
     {
@@ -94,11 +100,12 @@
       "url": "https://apps.apple.com/us/app/royal-kingdom/id1606549505",
       "tab": "Games",
       "section": "Featured",
-      "priority": 56,
+      "priority": 53,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 7
     },
     {
@@ -108,11 +115,12 @@
       "url": "https://apps.apple.com/us/app/subway-surfers/id512939461",
       "tab": "Games",
       "section": "Featured",
-      "priority": 57,
+      "priority": 54,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 8
     },
     {
@@ -122,11 +130,12 @@
       "url": "https://apps.apple.com/us/app/rainbow-six-mobile/id1608916511",
       "tab": "Games",
       "section": "Featured",
-      "priority": 58,
+      "priority": 55,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 9
     },
     {
@@ -136,11 +145,12 @@
       "url": "https://apps.apple.com/us/app/subway-surfers-city/id6504188939",
       "tab": "Games",
       "section": "Featured",
-      "priority": 59,
+      "priority": 56,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 10
     },
     {
@@ -150,11 +160,12 @@
       "url": "https://apps.apple.com/us/app/wittle-defender/id6502815032",
       "tab": "Games",
       "section": "Featured",
-      "priority": 60,
+      "priority": 57,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 11
     },
     {
@@ -164,11 +175,12 @@
       "url": "https://apps.apple.com/us/app/monopoly-go/id1621328561",
       "tab": "Games",
       "section": "Featured",
-      "priority": 61,
+      "priority": 58,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 12
     },
     {
@@ -178,11 +190,12 @@
       "url": "https://apps.apple.com/us/app/maplestory-idle-rpg/id6739616715",
       "tab": "Games",
       "section": "Featured",
-      "priority": 62,
+      "priority": 59,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 13
     },
     {
@@ -192,11 +205,12 @@
       "url": "https://apps.apple.com/us/app/call-of-duty-mobile/id1287282214",
       "tab": "Games",
       "section": "Featured",
-      "priority": 63,
+      "priority": 60,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 14
     },
     {
@@ -206,11 +220,12 @@
       "url": "https://apps.apple.com/us/app/archero-2/id6502820653",
       "tab": "Games",
       "section": "Featured",
-      "priority": 64,
+      "priority": 61,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 15
     },
     {
@@ -220,11 +235,12 @@
       "url": "https://apps.apple.com/us/app/clash-royale/id1053012308",
       "tab": "Games",
       "section": "Featured",
-      "priority": 65,
+      "priority": 62,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 16
     },
     {
@@ -234,11 +250,12 @@
       "url": "https://apps.apple.com/us/app/magic-the-gathering-arena/id1496227521",
       "tab": "Games",
       "section": "Featured",
-      "priority": 66,
+      "priority": 63,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 17
     },
     {
@@ -248,11 +265,12 @@
       "url": "https://apps.apple.com/us/app/pubg-mobile/id1330123889",
       "tab": "Games",
       "section": "Featured",
-      "priority": 67,
+      "priority": 64,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 18
     },
     {
@@ -262,11 +280,12 @@
       "url": "https://apps.apple.com/us/app/travel-town-merge-adventure/id1521236603",
       "tab": "Games",
       "section": "Featured",
-      "priority": 68,
+      "priority": 65,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 19
     },
     {
@@ -276,11 +295,12 @@
       "url": "https://apps.apple.com/us/app/free-fire-undersea-mystery/id1300146617",
       "tab": "Games",
       "section": "Featured",
-      "priority": 69,
+      "priority": 66,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 20
     },
     {
@@ -290,11 +310,12 @@
       "url": "https://apps.apple.com/us/app/disney-solitaire/id6475757306",
       "tab": "Games",
       "section": "Featured",
-      "priority": 70,
+      "priority": 67,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 21
     },
     {
@@ -304,11 +325,12 @@
       "url": "https://apps.apple.com/us/app/brawl-stars/id1229016807",
       "tab": "Games",
       "section": "Featured",
-      "priority": 72,
+      "priority": 69,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 22
     },
     {
@@ -318,11 +340,12 @@
       "url": "https://apps.apple.com/us/app/seaside-escape-merge-story/id6443755785",
       "tab": "Games",
       "section": "Featured",
-      "priority": 73,
+      "priority": 70,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 23
     },
     {
@@ -332,11 +355,12 @@
       "url": "https://apps.apple.com/us/app/match-factory/id6449094229",
       "tab": "Games",
       "section": "Featured",
-      "priority": 74,
+      "priority": 71,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 24
     },
     {
@@ -346,11 +370,12 @@
       "url": "https://apps.apple.com/us/app/the-sims-freeplay/id466965151",
       "tab": "Games",
       "section": "Featured",
-      "priority": 75,
+      "priority": 72,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 25
     },
     {
@@ -360,11 +385,12 @@
       "url": "https://apps.apple.com/us/app/raid-shadow-legends/id1371565796",
       "tab": "Games",
       "section": "Featured",
-      "priority": 76,
+      "priority": 73,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 26
     },
     {
@@ -374,11 +400,12 @@
       "url": "https://apps.apple.com/us/app/cookierun-kingdom/id1509450845",
       "tab": "Games",
       "section": "Featured",
-      "priority": 77,
+      "priority": 74,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 27
     },
     {
@@ -388,11 +415,12 @@
       "url": "https://apps.apple.com/us/app/solo-leveling-arise/id1662742277",
       "tab": "Games",
       "section": "Featured",
-      "priority": 78,
+      "priority": 75,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 28
     },
     {
@@ -402,11 +430,12 @@
       "url": "https://apps.apple.com/us/app/sea-of-stars/id6673906410",
       "tab": "Games",
       "section": "Featured",
-      "priority": 79,
+      "priority": 76,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 29
     },
     {
@@ -416,11 +445,12 @@
       "url": "https://apps.apple.com/us/app/alien-morgue/id6760113695",
       "tab": "Games",
       "section": "Featured",
-      "priority": 80,
+      "priority": 77,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 30
     },
     {
@@ -430,11 +460,12 @@
       "url": "https://apps.apple.com/us/app/dragon-ruins-i/id6759590978",
       "tab": "Games",
       "section": "Featured",
-      "priority": 81,
+      "priority": 78,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 31
     },
     {
@@ -444,11 +475,12 @@
       "url": "https://apps.apple.com/us/app/easy-delivery-co/id6753945058",
       "tab": "Games",
       "section": "Featured",
-      "priority": 82,
+      "priority": 79,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 32
     },
     {
@@ -458,11 +490,12 @@
       "url": "https://apps.apple.com/us/app/card-crawl-2/id6744351421",
       "tab": "Games",
       "section": "Featured",
-      "priority": 83,
+      "priority": 80,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 33
     },
     {
@@ -472,11 +505,12 @@
       "url": "https://apps.apple.com/us/app/ball-x-pit/id6738703497",
       "tab": "Games",
       "section": "Featured",
-      "priority": 84,
+      "priority": 81,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 34
     },
     {
@@ -486,11 +520,12 @@
       "url": "https://apps.apple.com/us/app/humbug-2/id6753792967",
       "tab": "Games",
       "section": "Featured",
-      "priority": 85,
+      "priority": 82,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 35
     },
     {
@@ -500,11 +535,12 @@
       "url": "https://apps.apple.com/us/app/dice-of-kalma-dice-roguelike/id6752259371",
       "tab": "Games",
       "section": "Featured",
-      "priority": 86,
+      "priority": 83,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 36
     },
     {
@@ -514,11 +550,12 @@
       "url": "https://apps.apple.com/us/app/mochi-o/id6670490274",
       "tab": "Games",
       "section": "Featured",
-      "priority": 87,
+      "priority": 84,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 37
     },
     {
@@ -528,11 +565,12 @@
       "url": "https://apps.apple.com/us/app/shotgun-king/id6744170498",
       "tab": "Games",
       "section": "Featured",
-      "priority": 88,
+      "priority": 85,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 38
     },
     {
@@ -542,11 +580,12 @@
       "url": "https://apps.apple.com/us/app/reigns-the-witcher/id6736946286",
       "tab": "Games",
       "section": "Featured",
-      "priority": 89,
+      "priority": 86,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 39
     },
     {
@@ -556,11 +595,12 @@
       "url": "https://apps.apple.com/us/app/vohenn/id6752013060",
       "tab": "Games",
       "section": "Featured",
-      "priority": 90,
+      "priority": 87,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 40
     },
     {
@@ -570,11 +610,12 @@
       "url": "https://apps.apple.com/us/app/planet-of-lana/id6739130049",
       "tab": "Games",
       "section": "Featured",
-      "priority": 91,
+      "priority": 88,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 41
     },
     {
@@ -584,11 +625,12 @@
       "url": "https://apps.apple.com/us/app/blueys-quest-for-the-gold-pen/id6499386030",
       "tab": "Games",
       "section": "Featured",
-      "priority": 92,
+      "priority": 89,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 42
     },
     {
@@ -598,11 +640,12 @@
       "url": "https://apps.apple.com/us/app/monument-valley-3/id6443563379",
       "tab": "Games",
       "section": "Featured",
-      "priority": 93,
+      "priority": 90,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 43
     },
     {
@@ -612,11 +655,12 @@
       "url": "https://apps.apple.com/us/app/rift-riff/id6746967900",
       "tab": "Games",
       "section": "Featured",
-      "priority": 94,
+      "priority": 91,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 44
     },
     {
@@ -626,11 +670,12 @@
       "url": "https://apps.apple.com/us/app/cat-quest-iii/id1551304183",
       "tab": "Games",
       "section": "Featured",
-      "priority": 96,
+      "priority": 93,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 45
     },
     {
@@ -640,11 +685,12 @@
       "url": "https://apps.apple.com/us/app/enter-the-gungeon/id1100429641",
       "tab": "Games",
       "section": "Featured",
-      "priority": 97,
+      "priority": 94,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 46
     },
     {
@@ -654,11 +700,12 @@
       "url": "https://apps.apple.com/us/app/toem-a-photo-adventure/id6743934969",
       "tab": "Games",
       "section": "Featured",
-      "priority": 98,
+      "priority": 95,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 47
     },
     {
@@ -668,11 +715,12 @@
       "url": "https://apps.apple.com/us/app/timelie/id6739528472",
       "tab": "Games",
       "section": "Featured",
-      "priority": 99,
+      "priority": 96,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 48
     },
     {
@@ -682,11 +730,12 @@
       "url": "https://apps.apple.com/us/app/pine-hearts/id6745611937",
       "tab": "Games",
       "section": "Featured",
-      "priority": 100,
+      "priority": 97,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 49
     },
     {
@@ -696,11 +745,12 @@
       "url": "https://apps.apple.com/us/app/bloomtown-a-different-story/id6740777696",
       "tab": "Games",
       "section": "Featured",
-      "priority": 101,
+      "priority": 98,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 50
     },
     {
@@ -710,11 +760,12 @@
       "url": "https://apps.apple.com/us/app/spooky-express/id6738424828",
       "tab": "Games",
       "section": "Featured",
-      "priority": 102,
+      "priority": 99,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 51
     },
     {
@@ -724,11 +775,12 @@
       "url": "https://apps.apple.com/us/app/snufkin-melody-of-moominvalley/id6741589066",
       "tab": "Games",
       "section": "Featured",
-      "priority": 103,
+      "priority": 100,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 52
     },
     {
@@ -738,11 +790,12 @@
       "url": "https://apps.apple.com/us/app/chants-of-sennaar/id6566195667",
       "tab": "Games",
       "section": "Featured",
-      "priority": 104,
+      "priority": 101,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 53
     },
     {
@@ -752,11 +805,12 @@
       "url": "https://apps.apple.com/us/app/free-fire-max/id1480516829",
       "tab": "Games",
       "section": "Featured",
-      "priority": 106,
+      "priority": 103,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 54
     },
     {
@@ -766,25 +820,27 @@
       "url": "https://apps.apple.com/us/app/hexa-away/id6504324020",
       "tab": "Games",
       "section": "Featured",
-      "priority": 107,
+      "priority": 104,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 55
     },
     {
-      "name": "Clash of Clans",
+      "name": "Design Home™: House Makeover",
       "dev": "",
       "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/us/app/clash-of-clans/id529479190",
+      "url": "https://apps.apple.com/us/app/design-home-house-makeover/id1010962391",
       "tab": "Games",
       "section": "Featured",
-      "priority": 108,
+      "priority": 105,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 56
     },
     {
@@ -794,26 +850,13 @@
       "url": "https://apps.apple.com/us/app/ea-sports-fc-mobile-soccer-26/id1094930513",
       "tab": "Games",
       "section": "Featured",
-      "priority": 109,
+      "priority": 107,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 57
-    },
-    {
-      "name": "Design Home™: House Makeover",
-      "dev": "",
-      "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/us/app/design-home-house-makeover/id1010962391",
-      "tab": "Games",
-      "section": "Featured",
-      "priority": 111,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "rank": 58
     },
     {
       "name": "Magic Sort!",
@@ -822,12 +865,13 @@
       "url": "https://apps.apple.com/us/app/magic-sort/id6499209744",
       "tab": "Games",
       "section": "Featured",
-      "priority": 112,
+      "priority": 108,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 59
+      "banner": false,
+      "rank": 58
     },
     {
       "name": "Arrows – Puzzle Escape",
@@ -836,12 +880,13 @@
       "url": "https://apps.apple.com/us/app/arrows-puzzle-escape/id6748397500",
       "tab": "Games",
       "section": "Featured",
-      "priority": 114,
+      "priority": 111,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 60
+      "banner": false,
+      "rank": 59
     },
     {
       "name": "Block Blast！",
@@ -850,12 +895,13 @@
       "url": "https://apps.apple.com/us/app/block-blast/id1617391485",
       "tab": "Games",
       "section": "Featured",
-      "priority": 115,
+      "priority": 112,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 61
+      "banner": false,
+      "rank": 60
     },
     {
       "name": "Jewel Coloring",
@@ -864,26 +910,28 @@
       "url": "https://apps.apple.com/us/app/jewel-coloring/id6759081967",
       "tab": "Games",
       "section": "Featured",
-      "priority": 116,
+      "priority": 114,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 62
+      "banner": false,
+      "rank": 61
     },
     {
-      "name": "Solitaire Associations Journey",
+      "name": "Vita Mahjong",
       "dev": "",
       "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/us/app/solitaire-associations-journey/id6748950306",
+      "url": "https://apps.apple.com/us/app/vita-mahjong/id6468921495",
       "tab": "Games",
       "section": "Featured",
-      "priority": 118,
+      "priority": 115,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 63
+      "banner": false,
+      "rank": 62
     },
     {
       "name": "Minecraft: Dream it, Build it!",
@@ -892,12 +940,13 @@
       "url": "https://apps.apple.com/us/app/minecraft-dream-it-build-it/id479516143",
       "tab": "Games",
       "section": "Featured",
-      "priority": 119,
+      "priority": 116,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 64
+      "banner": false,
+      "rank": 63
     },
     {
       "name": "Geometry Dash",
@@ -906,11 +955,27 @@
       "url": "https://apps.apple.com/us/app/geometry-dash/id625334537",
       "tab": "Games",
       "section": "Featured",
-      "priority": 120,
+      "priority": 117,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
+      "rank": 64
+    },
+    {
+      "name": "Plague Inc.",
+      "dev": "",
+      "icon": "/assets/artwork/1x1.gif",
+      "url": "https://apps.apple.com/us/app/plague-inc/id525818839",
+      "tab": "Games",
+      "section": "Featured",
+      "priority": 118,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
       "rank": 65
     },
     {
@@ -920,26 +985,13 @@
       "url": "https://apps.apple.com/us/app/heads-up/id623592465",
       "tab": "Games",
       "section": "Featured",
-      "priority": 121,
+      "priority": 119,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 66
-    },
-    {
-      "name": "Plague Inc.",
-      "dev": "",
-      "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/us/app/plague-inc/id525818839",
-      "tab": "Games",
-      "section": "Featured",
-      "priority": 122,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "rank": 67
     },
     {
       "name": "Bloons TD 6",
@@ -948,11 +1000,27 @@
       "url": "https://apps.apple.com/us/app/bloons-td-6/id1118115766",
       "tab": "Games",
       "section": "Featured",
-      "priority": 123,
+      "priority": 120,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
+      "rank": 67
+    },
+    {
+      "name": "Slay the Spire",
+      "dev": "",
+      "icon": "/assets/artwork/1x1.gif",
+      "url": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
+      "tab": "Games",
+      "section": "Featured",
+      "priority": 121,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
       "rank": 68
     },
     {
@@ -962,26 +1030,13 @@
       "url": "https://apps.apple.com/us/app/balatro/id6502453075",
       "tab": "Games",
       "section": "Featured",
-      "priority": 124,
+      "priority": 122,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 69
-    },
-    {
-      "name": "Red's First Flight",
-      "dev": "",
-      "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/us/app/reds-first-flight/id1596736236",
-      "tab": "Games",
-      "section": "Featured",
-      "priority": 125,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "rank": 70
     },
     {
       "name": "AERTHLINGS: RPG Adventure",
@@ -990,12 +1045,13 @@
       "url": "https://apps.apple.com/us/app/aerthlings-rpg-adventure/id6449201808",
       "tab": "Games",
       "section": "Featured",
-      "priority": 129,
+      "priority": 126,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 71
+      "banner": false,
+      "rank": 70
     },
     {
       "name": "Mind The Door",
@@ -1004,12 +1060,13 @@
       "url": "https://apps.apple.com/us/app/mind-the-door/id6758810058",
       "tab": "Games",
       "section": "Featured",
-      "priority": 130,
+      "priority": 127,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 72
+      "banner": false,
+      "rank": 71
     },
     {
       "name": "Jetpack Joyride Racing",
@@ -1018,12 +1075,13 @@
       "url": "https://apps.apple.com/us/app/jetpack-joyride-racing/id6740550251",
       "tab": "Games",
       "section": "Featured",
-      "priority": 131,
+      "priority": 128,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 73
+      "banner": false,
+      "rank": 72
     },
     {
       "name": "Ice Bot: Sliding Block Puzzle",
@@ -1032,12 +1090,13 @@
       "url": "https://apps.apple.com/us/app/ice-bot-sliding-block-puzzle/id6745772606",
       "tab": "Games",
       "section": "Featured",
-      "priority": 132,
+      "priority": 129,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 74
+      "banner": false,
+      "rank": 73
     },
     {
       "name": "The Division Resurgence",
@@ -1046,12 +1105,13 @@
       "url": "https://apps.apple.com/us/app/the-division-resurgence/id1606349410",
       "tab": "Games",
       "section": "Featured",
-      "priority": 133,
+      "priority": 130,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 75
+      "banner": false,
+      "rank": 74
     },
     {
       "name": "PARANORMASIGHT: TMC",
@@ -1060,12 +1120,13 @@
       "url": "https://apps.apple.com/us/app/paranormasight-tmc/id6474289326",
       "tab": "Games",
       "section": "Featured",
-      "priority": 135,
+      "priority": 132,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 76
+      "banner": false,
+      "rank": 75
     },
     {
       "name": "Sea Fantasy",
@@ -1074,12 +1135,13 @@
       "url": "https://apps.apple.com/us/app/sea-fantasy/id6753211881",
       "tab": "Games",
       "section": "Featured",
-      "priority": 136,
+      "priority": 133,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 77
+      "banner": false,
+      "rank": 76
     },
     {
       "name": "Clay Jam Classic",
@@ -1088,12 +1150,13 @@
       "url": "https://apps.apple.com/us/app/clay-jam-classic/id6759738137",
       "tab": "Games",
       "section": "Featured",
-      "priority": 138,
+      "priority": 135,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 78
+      "banner": false,
+      "rank": 77
     },
     {
       "name": "Ultimate Golf!",
@@ -1102,12 +1165,13 @@
       "url": "https://apps.apple.com/us/app/ultimate-golf/id1475163222",
       "tab": "Games",
       "section": "Featured",
-      "priority": 139,
+      "priority": 136,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 79
+      "banner": false,
+      "rank": 78
     },
     {
       "name": "War Robots Multiplayer Battles",
@@ -1116,12 +1180,13 @@
       "url": "https://apps.apple.com/us/app/war-robots-multiplayer-battles/id806077016",
       "tab": "Games",
       "section": "Featured",
-      "priority": 140,
+      "priority": 137,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 80
+      "banner": false,
+      "rank": 79
     },
     {
       "name": "Duet Night Abyss",
@@ -1130,12 +1195,13 @@
       "url": "https://apps.apple.com/us/app/duet-night-abyss/id6744096826",
       "tab": "Games",
       "section": "Featured",
-      "priority": 142,
+      "priority": 139,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 81
+      "banner": false,
+      "rank": 80
     },
     {
       "name": "Shadowborn",
@@ -1144,12 +1210,13 @@
       "url": "https://apps.apple.com/us/app/shadowborn/id6738343504",
       "tab": "Games",
       "section": "Featured",
-      "priority": 143,
+      "priority": 140,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 82
+      "banner": false,
+      "rank": 81
     },
     {
       "name": "Sonic Rumble Party",
@@ -1158,12 +1225,13 @@
       "url": "https://apps.apple.com/us/app/sonic-rumble-party/id6511215584",
       "tab": "Games",
       "section": "Featured",
-      "priority": 144,
+      "priority": 141,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 83
+      "banner": false,
+      "rank": 82
     },
     {
       "name": "8 Ball Pool™",
@@ -1172,12 +1240,13 @@
       "url": "https://apps.apple.com/us/app/8-ball-pool/id543186831",
       "tab": "Games",
       "section": "Featured",
-      "priority": 145,
+      "priority": 142,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 84
+      "banner": false,
+      "rank": 83
     },
     {
       "name": "Disney Speedstorm",
@@ -1186,12 +1255,13 @@
       "url": "https://apps.apple.com/us/app/disney-speedstorm/id6449708682",
       "tab": "Games",
       "section": "Featured",
-      "priority": 146,
+      "priority": 143,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 85
+      "banner": false,
+      "rank": 84
     },
     {
       "name": "Temple Run 2: Endless Escape",
@@ -1200,12 +1270,13 @@
       "url": "https://apps.apple.com/us/app/temple-run-2-endless-escape/id572395608",
       "tab": "Games",
       "section": "Featured",
-      "priority": 147,
+      "priority": 144,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 86
+      "banner": false,
+      "rank": 85
     },
     {
       "name": "Sky: Children of the Light",
@@ -1214,12 +1285,13 @@
       "url": "https://apps.apple.com/us/app/sky-children-of-the-light/id1462117269",
       "tab": "Games",
       "section": "Featured",
-      "priority": 148,
+      "priority": 145,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 87
+      "banner": false,
+      "rank": 86
     },
     {
       "name": "TownsFolk",
@@ -1228,12 +1300,13 @@
       "url": "https://apps.apple.com/us/app/townsfolk/id6670406987",
       "tab": "Games",
       "section": "Featured",
-      "priority": 149,
+      "priority": 146,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 88
+      "banner": false,
+      "rank": 87
     },
     {
       "name": "Pokémon Sleep",
@@ -1242,12 +1315,13 @@
       "url": "https://apps.apple.com/us/app/pok%C3%A9mon-sleep/id1579464667",
       "tab": "Games",
       "section": "Featured",
-      "priority": 151,
+      "priority": 148,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 89
+      "banner": false,
+      "rank": 88
     },
     {
       "name": "Merchant of the Skies",
@@ -1256,12 +1330,13 @@
       "url": "https://apps.apple.com/us/app/merchant-of-the-skies/id6754459969",
       "tab": "Games",
       "section": "Featured",
-      "priority": 152,
+      "priority": 149,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 90
+      "banner": false,
+      "rank": 89
     },
     {
       "name": "Bacon in Zane",
@@ -1270,12 +1345,13 @@
       "url": "https://apps.apple.com/us/app/bacon-in-zane/id6751200829",
       "tab": "Games",
       "section": "Featured",
-      "priority": 153,
+      "priority": 150,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 91
+      "banner": false,
+      "rank": 90
     },
     {
       "name": "Factory Balls Go!",
@@ -1284,12 +1360,13 @@
       "url": "https://apps.apple.com/us/app/factory-balls-go/id6759607863",
       "tab": "Games",
       "section": "Featured",
-      "priority": 154,
+      "priority": 151,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 92
+      "banner": false,
+      "rank": 91
     },
     {
       "name": "Dicero!",
@@ -1298,12 +1375,13 @@
       "url": "https://apps.apple.com/us/app/dicero/id6740966864",
       "tab": "Games",
       "section": "Featured",
-      "priority": 155,
+      "priority": 152,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 93
+      "banner": false,
+      "rank": 92
     },
     {
       "name": "Beholder: Conductor",
@@ -1312,12 +1390,13 @@
       "url": "https://apps.apple.com/us/app/beholder-conductor/id6748957041",
       "tab": "Games",
       "section": "Featured",
-      "priority": 156,
+      "priority": 153,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 94
+      "banner": false,
+      "rank": 93
     },
     {
       "name": "NTE: Neverness to Everness",
@@ -1326,12 +1405,13 @@
       "url": "https://apps.apple.com/us/app/nte-neverness-to-everness/id6754593077",
       "tab": "Games",
       "section": "Featured",
-      "priority": 157,
+      "priority": 154,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 95
+      "banner": false,
+      "rank": 94
     },
     {
       "name": "Pepp Heroes: Relic Quest",
@@ -1340,12 +1420,13 @@
       "url": "https://apps.apple.com/us/app/pepp-heroes-relic-quest/id6740507490",
       "tab": "Games",
       "section": "Featured",
-      "priority": 158,
+      "priority": 155,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 96
+      "banner": false,
+      "rank": 95
     },
     {
       "name": "Gambonanza",
@@ -1354,12 +1435,13 @@
       "url": "https://apps.apple.com/us/app/gambonanza/id6747752407",
       "tab": "Games",
       "section": "Featured",
-      "priority": 159,
+      "priority": 156,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 97
+      "banner": false,
+      "rank": 96
     },
     {
       "name": "Pond Pals",
@@ -1368,12 +1450,13 @@
       "url": "https://apps.apple.com/us/app/pond-pals/id6755534047",
       "tab": "Games",
       "section": "Featured",
-      "priority": 160,
+      "priority": 157,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 98
+      "banner": false,
+      "rank": 97
     },
     {
       "name": "Slime Rancher",
@@ -1382,12 +1465,13 @@
       "url": "https://apps.apple.com/us/app/slime-rancher/id6758201392",
       "tab": "Games",
       "section": "Featured",
-      "priority": 161,
+      "priority": 158,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 99
+      "banner": false,
+      "rank": 98
     },
     {
       "name": "Game of Thrones: Dragonfire",
@@ -1396,12 +1480,13 @@
       "url": "https://apps.apple.com/us/app/game-of-thrones-dragonfire/id1642607669",
       "tab": "Games",
       "section": "Featured",
-      "priority": 162,
+      "priority": 159,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 100
+      "banner": false,
+      "rank": 99
     },
     {
       "name": "Super Mario Run",
@@ -1410,12 +1495,13 @@
       "url": "https://apps.apple.com/us/app/super-mario-run/id1145275343",
       "tab": "Games",
       "section": "Featured",
-      "priority": 163,
+      "priority": 160,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 101
+      "banner": false,
+      "rank": 100
     },
     {
       "name": "Flip Diving",
@@ -1424,12 +1510,13 @@
       "url": "https://apps.apple.com/us/app/flip-diving/id1045516045",
       "tab": "Games",
       "section": "Featured",
-      "priority": 164,
+      "priority": 161,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 102
+      "banner": false,
+      "rank": 101
     },
     {
       "name": "My Talking Tom 2",
@@ -1438,12 +1525,13 @@
       "url": "https://apps.apple.com/us/app/my-talking-tom-2/id1337578317",
       "tab": "Games",
       "section": "Featured",
-      "priority": 165,
+      "priority": 162,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 103
+      "banner": false,
+      "rank": 102
     },
     {
       "name": "Hello Neighbor",
@@ -1452,12 +1540,13 @@
       "url": "https://apps.apple.com/us/app/hello-neighbor/id1386358600",
       "tab": "Games",
       "section": "Featured",
-      "priority": 166,
+      "priority": 163,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 104
+      "banner": false,
+      "rank": 103
     },
     {
       "name": "Solar Smash",
@@ -1466,12 +1555,13 @@
       "url": "https://apps.apple.com/us/app/solar-smash/id1495723103",
       "tab": "Games",
       "section": "Featured",
-      "priority": 167,
+      "priority": 164,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 105
+      "banner": false,
+      "rank": 104
     },
     {
       "name": "The Baby In Yellow",
@@ -1480,12 +1570,13 @@
       "url": "https://apps.apple.com/us/app/the-baby-in-yellow/id1570525877",
       "tab": "Games",
       "section": "Featured",
-      "priority": 169,
+      "priority": 166,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 106
+      "banner": false,
+      "rank": 105
     },
     {
       "name": "Avatar World ®",
@@ -1494,12 +1585,13 @@
       "url": "https://apps.apple.com/us/app/avatar-world/id1635318586",
       "tab": "Games",
       "section": "Featured",
-      "priority": 170,
+      "priority": 167,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 107
+      "banner": false,
+      "rank": 106
     },
     {
       "name": "Bad Credit? No Problem!",
@@ -1508,12 +1600,13 @@
       "url": "https://apps.apple.com/us/app/bad-credit-no-problem/id1518821090",
       "tab": "Games",
       "section": "Featured",
-      "priority": 171,
+      "priority": 168,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 108
+      "banner": false,
+      "rank": 107
     },
     {
       "name": "Traffic Rider",
@@ -1522,12 +1615,13 @@
       "url": "https://apps.apple.com/us/app/traffic-rider/id951744068",
       "tab": "Games",
       "section": "Featured",
-      "priority": 172,
+      "priority": 169,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 109
+      "banner": false,
+      "rank": 108
     },
     {
       "name": "Smash Hit",
@@ -1536,12 +1630,13 @@
       "url": "https://apps.apple.com/us/app/smash-hit/id603527166",
       "tab": "Games",
       "section": "Featured",
-      "priority": 173,
+      "priority": 170,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 110
+      "banner": false,
+      "rank": 109
     },
     {
       "name": "Where's My Water? 2",
@@ -1550,12 +1645,13 @@
       "url": "https://apps.apple.com/us/app/wheres-my-water-2/id638853147",
       "tab": "Games",
       "section": "Featured",
-      "priority": 174,
+      "priority": 171,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 111
+      "banner": false,
+      "rank": 110
     },
     {
       "name": "Wordscapes - Word Game",
@@ -1564,12 +1660,13 @@
       "url": "https://apps.apple.com/us/app/wordscapes-word-game/id1207472156",
       "tab": "Games",
       "section": "Featured",
-      "priority": 175,
+      "priority": 172,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 112
+      "banner": false,
+      "rank": 111
     },
     {
       "name": "Flow Free",
@@ -1578,12 +1675,13 @@
       "url": "https://apps.apple.com/us/app/flow-free/id526641427",
       "tab": "Games",
       "section": "Featured",
-      "priority": 176,
+      "priority": 173,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 113
+      "banner": false,
+      "rank": 112
     },
     {
       "name": "Plants vs. Zombies™",
@@ -1592,12 +1690,13 @@
       "url": "https://apps.apple.com/us/app/plants-vs-zombies/id893677096",
       "tab": "Games",
       "section": "Featured",
-      "priority": 178,
+      "priority": 175,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 114
+      "banner": false,
+      "rank": 113
     },
     {
       "name": "Angry Birds Friends",
@@ -1606,12 +1705,13 @@
       "url": "https://apps.apple.com/us/app/angry-birds-friends/id555936735",
       "tab": "Games",
       "section": "Featured",
-      "priority": 179,
+      "priority": 176,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 115
+      "banner": false,
+      "rank": 114
     },
     {
       "name": "Doodle Jump - Insanely Good!",
@@ -1620,12 +1720,13 @@
       "url": "https://apps.apple.com/us/app/doodle-jump-insanely-good/id456355158",
       "tab": "Games",
       "section": "Featured",
-      "priority": 180,
+      "priority": 177,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 116
+      "banner": false,
+      "rank": 115
     },
     {
       "name": "Cut the Rope: Physics Puzzle",
@@ -1634,12 +1735,13 @@
       "url": "https://apps.apple.com/us/app/cut-the-rope-physics-puzzle/id1024506959",
       "tab": "Games",
       "section": "Featured",
-      "priority": 181,
+      "priority": 178,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 117
+      "banner": false,
+      "rank": 116
     },
     {
       "name": "Kingdom Rush Tower Defense TD",
@@ -1648,12 +1750,13 @@
       "url": "https://apps.apple.com/us/app/kingdom-rush-tower-defense-td/id516378985",
       "tab": "Games",
       "section": "Featured",
-      "priority": 182,
+      "priority": 179,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 118
+      "banner": false,
+      "rank": 117
     },
     {
       "name": "Fruit Ninja®",
@@ -1662,12 +1765,13 @@
       "url": "https://apps.apple.com/us/app/fruit-ninja/id403858572",
       "tab": "Games",
       "section": "Featured",
-      "priority": 183,
+      "priority": 180,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 119
+      "banner": false,
+      "rank": 118
     },
     {
       "name": "Dumb Ways to Die",
@@ -1676,12 +1780,13 @@
       "url": "https://apps.apple.com/us/app/dumb-ways-to-die/id639930688",
       "tab": "Games",
       "section": "Featured",
-      "priority": 184,
+      "priority": 181,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 120
+      "banner": false,
+      "rank": 119
     },
     {
       "name": "Solitaire",
@@ -1690,12 +1795,13 @@
       "url": "https://apps.apple.com/us/app/solitaire/id359917414",
       "tab": "Games",
       "section": "Featured",
-      "priority": 185,
+      "priority": 182,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 121
+      "banner": false,
+      "rank": 120
     },
     {
       "name": "Age of Zombies®",
@@ -1704,12 +1810,13 @@
       "url": "https://apps.apple.com/us/app/age-of-zombies/id395627741",
       "tab": "Games",
       "section": "Featured",
-      "priority": 186,
+      "priority": 183,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 122
+      "banner": false,
+      "rank": 121
     },
     {
       "name": "Bejeweled Blitz",
@@ -1718,12 +1825,13 @@
       "url": "https://apps.apple.com/us/app/bejeweled-blitz/id469960709",
       "tab": "Games",
       "section": "Featured",
-      "priority": 187,
+      "priority": 184,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 123
+      "banner": false,
+      "rank": 122
     },
     {
       "name": "Burrito Bison: Launcha Libre",
@@ -1732,12 +1840,13 @@
       "url": "https://apps.apple.com/us/app/burrito-bison-launcha-libre/id1135126803",
       "tab": "Games",
       "section": "Featured",
-      "priority": 188,
+      "priority": 185,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 124
+      "banner": false,
+      "rank": 123
     },
     {
       "name": "MARVEL SNAP - Hero Card Game",
@@ -1746,12 +1855,13 @@
       "url": "https://apps.apple.com/us/app/marvel-snap-hero-card-game/id1592081003",
       "tab": "Games",
       "section": "Featured",
-      "priority": 191,
+      "priority": 188,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 125
+      "banner": false,
+      "rank": 124
     },
     {
       "name": "Bullet Echo: PVP Shooter",
@@ -1760,12 +1870,13 @@
       "url": "https://apps.apple.com/us/app/bullet-echo-pvp-shooter/id1500726361",
       "tab": "Games",
       "section": "Featured",
-      "priority": 192,
+      "priority": 189,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 126
+      "banner": false,
+      "rank": 125
     },
     {
       "name": "Golf Blitz",
@@ -1774,12 +1885,13 @@
       "url": "https://apps.apple.com/us/app/golf-blitz/id1413826211",
       "tab": "Games",
       "section": "Featured",
-      "priority": 193,
+      "priority": 190,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 127
+      "banner": false,
+      "rank": 126
     },
     {
       "name": "Among Us!",
@@ -1788,12 +1900,13 @@
       "url": "https://apps.apple.com/us/app/among-us/id1351168404",
       "tab": "Games",
       "section": "Featured",
-      "priority": 197,
+      "priority": 194,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 128
+      "banner": false,
+      "rank": 127
     },
     {
       "name": "GamePigeon",
@@ -1802,12 +1915,13 @@
       "url": "https://apps.apple.com/us/app/gamepigeon/id1124197642",
       "tab": "Games",
       "section": "Featured",
-      "priority": 198,
+      "priority": 195,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 129
+      "banner": false,
+      "rank": 128
     },
     {
       "name": "Rumble Club",
@@ -1816,12 +1930,13 @@
       "url": "https://apps.apple.com/us/app/rumble-club/id6444870826",
       "tab": "Games",
       "section": "Featured",
-      "priority": 199,
+      "priority": 196,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 130
+      "banner": false,
+      "rank": 129
     },
     {
       "name": "Eggy Party",
@@ -1830,12 +1945,13 @@
       "url": "https://apps.apple.com/us/app/eggy-party/id6443950173",
       "tab": "Games",
       "section": "Featured",
-      "priority": 201,
+      "priority": 198,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 131
+      "banner": false,
+      "rank": 130
     },
     {
       "name": "Good Pizza, Great Pizza",
@@ -1844,12 +1960,13 @@
       "url": "https://apps.apple.com/us/app/good-pizza-great-pizza/id911121200",
       "tab": "Games",
       "section": "Featured",
-      "priority": 202,
+      "priority": 199,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 132
+      "banner": false,
+      "rank": 131
     },
     {
       "name": "Blackbox",
@@ -1858,12 +1975,13 @@
       "url": "https://apps.apple.com/us/app/blackbox/id962969578",
       "tab": "Games",
       "section": "Featured",
-      "priority": 204,
+      "priority": 201,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 133
+      "banner": false,
+      "rank": 132
     },
     {
       "name": "Automatoys",
@@ -1872,12 +1990,13 @@
       "url": "https://apps.apple.com/us/app/automatoys/id1580281448",
       "tab": "Games",
       "section": "Featured",
-      "priority": 205,
+      "priority": 202,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 134
+      "banner": false,
+      "rank": 133
     },
     {
       "name": "Retro Bowl",
@@ -1886,12 +2005,13 @@
       "url": "https://apps.apple.com/us/app/retro-bowl/id1478902583",
       "tab": "Games",
       "section": "Featured",
-      "priority": 206,
+      "priority": 203,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 135
+      "banner": false,
+      "rank": 134
     },
     {
       "name": "Vampire Survivors",
@@ -1900,12 +2020,13 @@
       "url": "https://apps.apple.com/us/app/vampire-survivors/id6444525702",
       "tab": "Games",
       "section": "Featured",
-      "priority": 207,
+      "priority": 204,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 136
+      "banner": false,
+      "rank": 135
     },
     {
       "name": "Bacon – The Game",
@@ -1914,12 +2035,13 @@
       "url": "https://apps.apple.com/us/app/bacon-the-game/id1413085106",
       "tab": "Games",
       "section": "Featured",
-      "priority": 208,
+      "priority": 205,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 137
+      "banner": false,
+      "rank": 136
     },
     {
       "name": "Crossy Road",
@@ -1928,12 +2050,13 @@
       "url": "https://apps.apple.com/us/app/crossy-road/id924373886",
       "tab": "Games",
       "section": "Featured",
-      "priority": 209,
+      "priority": 206,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 138
+      "banner": false,
+      "rank": 137
     },
     {
       "name": "Solitaire Grand Harvest",
@@ -1942,12 +2065,13 @@
       "url": "https://apps.apple.com/us/app/solitaire-grand-harvest/id1223338261",
       "tab": "Games",
       "section": "Featured",
-      "priority": 210,
+      "priority": 207,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 139
+      "banner": false,
+      "rank": 138
     },
     {
       "name": "Merge Dragons!",
@@ -1956,12 +2080,13 @@
       "url": "https://apps.apple.com/us/app/merge-dragons/id1208952944",
       "tab": "Games",
       "section": "Featured",
-      "priority": 211,
+      "priority": 208,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 140
+      "banner": false,
+      "rank": 139
     },
     {
       "name": "Clusterduck",
@@ -1970,12 +2095,13 @@
       "url": "https://apps.apple.com/us/app/clusterduck/id1531250914",
       "tab": "Games",
       "section": "Featured",
-      "priority": 212,
+      "priority": 209,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 141
+      "banner": false,
+      "rank": 140
     },
     {
       "name": "Candy Crush Saga",
@@ -1984,12 +2110,13 @@
       "url": "https://apps.apple.com/us/app/candy-crush-saga/id553834731",
       "tab": "Games",
       "section": "Featured",
-      "priority": 213,
+      "priority": 210,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 142
+      "banner": false,
+      "rank": 141
     },
     {
       "name": "Archero",
@@ -1998,12 +2125,13 @@
       "url": "https://apps.apple.com/us/app/archero/id1453651052",
       "tab": "Games",
       "section": "Featured",
-      "priority": 214,
+      "priority": 211,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 143
+      "banner": false,
+      "rank": 142
     },
     {
       "name": "Level Devil - NOT A Troll Game",
@@ -2012,12 +2140,13 @@
       "url": "https://apps.apple.com/us/app/level-devil-not-a-troll-game/id6477413486",
       "tab": "Games",
       "section": "Featured",
-      "priority": 215,
+      "priority": 212,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 144
+      "banner": false,
+      "rank": 143
     },
     {
       "name": "Egg Goes Right",
@@ -2026,12 +2155,13 @@
       "url": "https://apps.apple.com/us/app/egg-goes-right/id1553956269",
       "tab": "Games",
       "section": "Featured",
-      "priority": 217,
+      "priority": 214,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 145
+      "banner": false,
+      "rank": 144
     },
     {
       "name": "A Slight Chance of Sawblades",
@@ -2040,12 +2170,13 @@
       "url": "https://apps.apple.com/us/app/a-slight-chance-of-sawblades/id6444032878",
       "tab": "Games",
       "section": "Featured",
-      "priority": 218,
+      "priority": 215,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 146
+      "banner": false,
+      "rank": 145
     },
     {
       "name": "CloverPit",
@@ -2054,12 +2185,13 @@
       "url": "https://apps.apple.com/us/app/cloverpit/id6754894237",
       "tab": "Games",
       "section": "Featured",
-      "priority": 219,
+      "priority": 216,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 147
+      "banner": false,
+      "rank": 146
     },
     {
       "name": "Assassin's Creed Mirage",
@@ -2068,12 +2200,13 @@
       "url": "https://apps.apple.com/us/app/assassins-creed-mirage/id6472704261",
       "tab": "Games",
       "section": "Featured",
-      "priority": 220,
+      "priority": 217,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 148
+      "banner": false,
+      "rank": 147
     },
     {
       "name": "Warframe",
@@ -2082,12 +2215,13 @@
       "url": "https://apps.apple.com/us/app/warframe/id1520001008",
       "tab": "Games",
       "section": "Featured",
-      "priority": 221,
+      "priority": 218,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 149
+      "banner": false,
+      "rank": 148
     },
     {
       "name": "Totally Reliable Delivery",
@@ -2096,12 +2230,13 @@
       "url": "https://apps.apple.com/us/app/totally-reliable-delivery/id1494937798",
       "tab": "Games",
       "section": "Featured",
-      "priority": 222,
+      "priority": 219,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 150
+      "banner": false,
+      "rank": 149
     },
     {
       "name": "Resident Evil 4",
@@ -2110,12 +2245,13 @@
       "url": "https://apps.apple.com/us/app/resident-evil-4/id6462360082",
       "tab": "Games",
       "section": "Featured",
-      "priority": 223,
+      "priority": 220,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 151
+      "banner": false,
+      "rank": 150
     },
     {
       "name": "Bugsnax",
@@ -2124,12 +2260,13 @@
       "url": "https://apps.apple.com/us/app/bugsnax/id1449161497",
       "tab": "Games",
       "section": "Featured",
-      "priority": 224,
+      "priority": 221,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 152
+      "banner": false,
+      "rank": 151
     },
     {
       "name": "RESIDENT EVIL 7 biohazard",
@@ -2138,12 +2275,13 @@
       "url": "https://apps.apple.com/us/app/resident-evil-7-biohazard/id1640629241",
       "tab": "Games",
       "section": "Featured",
-      "priority": 225,
+      "priority": 222,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 153
+      "banner": false,
+      "rank": 152
     },
     {
       "name": "Resident Evil Village",
@@ -2152,12 +2290,13 @@
       "url": "https://apps.apple.com/us/app/resident-evil-village/id6450980545",
       "tab": "Games",
       "section": "Featured",
-      "priority": 227,
+      "priority": 224,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 154
+      "banner": false,
+      "rank": 153
     },
     {
       "name": "Diablo Immortal",
@@ -2166,12 +2305,13 @@
       "url": "https://apps.apple.com/us/app/diablo-immortal/id1492005122",
       "tab": "Games",
       "section": "Featured",
-      "priority": 228,
+      "priority": 225,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 155
+      "banner": false,
+      "rank": 154
     },
     {
       "name": "DEATH STRANDING DIRECTOR'S CUT",
@@ -2180,12 +2320,13 @@
       "url": "https://apps.apple.com/us/app/death-stranding-directors-cut/id6449748961",
       "tab": "Games",
       "section": "Featured",
-      "priority": 229,
+      "priority": 226,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 156
+      "banner": false,
+      "rank": 155
     },
     {
       "name": "Brotato",
@@ -2194,12 +2335,13 @@
       "url": "https://apps.apple.com/us/app/brotato/id6445884925",
       "tab": "Games",
       "section": "Featured",
-      "priority": 231,
+      "priority": 228,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 157
+      "banner": false,
+      "rank": 156
     },
     {
       "name": "Daily Dadish",
@@ -2208,12 +2350,13 @@
       "url": "https://apps.apple.com/us/app/daily-dadish/id1663146885",
       "tab": "Games",
       "section": "Featured",
-      "priority": 232,
+      "priority": 229,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 158
+      "banner": false,
+      "rank": 157
     },
     {
       "name": "Drive, Not Dive",
@@ -2222,12 +2365,13 @@
       "url": "https://apps.apple.com/us/app/drive-not-dive/id6746210199",
       "tab": "Games",
       "section": "Featured",
-      "priority": 233,
+      "priority": 230,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 159
+      "banner": false,
+      "rank": 158
     },
     {
       "name": "Hungry Shark World",
@@ -2236,12 +2380,13 @@
       "url": "https://apps.apple.com/us/app/hungry-shark-world/id1046846443",
       "tab": "Games",
       "section": "Featured",
-      "priority": 234,
+      "priority": 231,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 160
+      "banner": false,
+      "rank": 159
     },
     {
       "name": "PAC-MAN 256 - Arcade Run",
@@ -2250,12 +2395,13 @@
       "url": "https://apps.apple.com/us/app/pac-man-256-arcade-run/id1002340615",
       "tab": "Games",
       "section": "Featured",
-      "priority": 236,
+      "priority": 233,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 161
+      "banner": false,
+      "rank": 160
     },
     {
       "name": "Plants vs. Zombies™ 2",
@@ -2264,12 +2410,13 @@
       "url": "https://apps.apple.com/us/app/plants-vs-zombies-2/id597986893",
       "tab": "Games",
       "section": "Featured",
-      "priority": 238,
+      "priority": 235,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 162
+      "banner": false,
+      "rank": 161
     },
     {
       "name": "Steppy Pants",
@@ -2278,12 +2425,13 @@
       "url": "https://apps.apple.com/us/app/steppy-pants/id1094138419",
       "tab": "Games",
       "section": "Featured",
-      "priority": 240,
+      "priority": 237,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 163
+      "banner": false,
+      "rank": 162
     },
     {
       "name": "Daddy Long Legs",
@@ -2292,12 +2440,13 @@
       "url": "https://apps.apple.com/us/app/daddy-long-legs/id905921908",
       "tab": "Games",
       "section": "Featured",
-      "priority": 241,
+      "priority": 238,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 164
+      "banner": false,
+      "rank": 163
     },
     {
       "name": "Zombie Highway 2",
@@ -2306,12 +2455,13 @@
       "url": "https://apps.apple.com/us/app/zombie-highway-2/id892092770",
       "tab": "Games",
       "section": "Featured",
-      "priority": 242,
+      "priority": 239,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 165
+      "banner": false,
+      "rank": 164
     },
     {
       "name": "Doofus Drop",
@@ -2320,12 +2470,13 @@
       "url": "https://apps.apple.com/us/app/doofus-drop/id669715555",
       "tab": "Games",
       "section": "Featured",
-      "priority": 243,
+      "priority": 240,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 166
+      "banner": false,
+      "rank": 165
     },
     {
       "name": "Scrap Divers",
@@ -2334,12 +2485,13 @@
       "url": "https://apps.apple.com/us/app/scrap-divers/id1581680664",
       "tab": "Games",
       "section": "Featured",
-      "priority": 244,
+      "priority": 241,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 167
+      "banner": false,
+      "rank": 166
     },
     {
       "name": "Unicycle Hero",
@@ -2348,12 +2500,13 @@
       "url": "https://apps.apple.com/us/app/unicycle-hero/id1241960943",
       "tab": "Games",
       "section": "Featured",
-      "priority": 245,
+      "priority": 242,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 168
+      "banner": false,
+      "rank": 167
     },
     {
       "name": "Wavelength",
@@ -2362,12 +2515,13 @@
       "url": "https://apps.apple.com/us/app/wavelength/id1512834505",
       "tab": "Games",
       "section": "Featured",
-      "priority": 248,
+      "priority": 245,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 169
+      "banner": false,
+      "rank": 168
     },
     {
       "name": "Family Style: Co-op Kitchen",
@@ -2376,12 +2530,13 @@
       "url": "https://apps.apple.com/us/app/family-style-co-op-kitchen/id1484208629",
       "tab": "Games",
       "section": "Featured",
-      "priority": 249,
+      "priority": 246,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 170
+      "banner": false,
+      "rank": 169
     },
     {
       "name": "2 Player Games : Offline Games",
@@ -2390,12 +2545,13 @@
       "url": "https://apps.apple.com/us/app/2-player-games-offline-games/id1465731199",
       "tab": "Games",
       "section": "Featured",
-      "priority": 250,
+      "priority": 247,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 171
+      "banner": false,
+      "rank": 170
     },
     {
       "name": "Bloons TD Battles 2",
@@ -2404,12 +2560,13 @@
       "url": "https://apps.apple.com/us/app/bloons-td-battles-2/id1540061397",
       "tab": "Games",
       "section": "Featured",
-      "priority": 251,
+      "priority": 248,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 172
+      "banner": false,
+      "rank": 171
     },
     {
       "name": "UNO!™",
@@ -2418,12 +2575,13 @@
       "url": "https://apps.apple.com/us/app/uno/id1344700142",
       "tab": "Games",
       "section": "Featured",
-      "priority": 253,
+      "priority": 250,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 173
+      "banner": false,
+      "rank": 172
     },
     {
       "name": "Ultimate Chicken Horse",
@@ -2432,12 +2590,13 @@
       "url": "https://apps.apple.com/us/app/ultimate-chicken-horse/id6737635326",
       "tab": "Games",
       "section": "Featured",
-      "priority": 255,
+      "priority": 252,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 174
+      "banner": false,
+      "rank": 173
     },
     {
       "name": "Fire Emblem Shadows",
@@ -2446,12 +2605,13 @@
       "url": "https://apps.apple.com/us/app/fire-emblem-shadows/id6746113513",
       "tab": "Games",
       "section": "Featured",
-      "priority": 256,
+      "priority": 253,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 175
+      "banner": false,
+      "rank": 174
     },
     {
       "name": "Exploding Kittens® 2",
@@ -2460,12 +2620,13 @@
       "url": "https://apps.apple.com/us/app/exploding-kittens-2/id6478287619",
       "tab": "Games",
       "section": "Featured",
-      "priority": 257,
+      "priority": 254,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 176
+      "banner": false,
+      "rank": 175
     },
     {
       "name": "Guncho",
@@ -2474,12 +2635,13 @@
       "url": "https://apps.apple.com/us/app/guncho/id6469145099",
       "tab": "Games",
       "section": "Featured",
-      "priority": 259,
+      "priority": 256,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 177
+      "banner": false,
+      "rank": 176
     },
     {
       "name": "Rogue Words",
@@ -2488,12 +2650,13 @@
       "url": "https://apps.apple.com/us/app/rogue-words/id6670705088",
       "tab": "Games",
       "section": "Featured",
-      "priority": 260,
+      "priority": 257,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 178
+      "banner": false,
+      "rank": 177
     },
     {
       "name": "DREDGE",
@@ -2502,12 +2665,13 @@
       "url": "https://apps.apple.com/us/app/dredge/id6526463862",
       "tab": "Games",
       "section": "Featured",
-      "priority": 261,
+      "priority": 258,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 179
+      "banner": false,
+      "rank": 178
     },
     {
       "name": "Expelled!",
@@ -2516,12 +2680,13 @@
       "url": "https://apps.apple.com/us/app/expelled/id6737900211",
       "tab": "Games",
       "section": "Featured",
-      "priority": 262,
+      "priority": 259,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 180
+      "banner": false,
+      "rank": 179
     },
     {
       "name": "Carrion",
@@ -2530,12 +2695,13 @@
       "url": "https://apps.apple.com/us/app/carrion/id6504567739",
       "tab": "Games",
       "section": "Featured",
-      "priority": 263,
+      "priority": 260,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 181
+      "banner": false,
+      "rank": 180
     },
     {
       "name": "Infinity Nikki",
@@ -2544,12 +2710,13 @@
       "url": "https://apps.apple.com/us/app/infinity-nikki/id6502622570",
       "tab": "Games",
       "section": "Featured",
-      "priority": 265,
+      "priority": 262,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 182
+      "banner": false,
+      "rank": 181
     },
     {
       "name": "Stardew Valley",
@@ -2558,12 +2725,13 @@
       "url": "https://apps.apple.com/us/app/stardew-valley/id1406710800",
       "tab": "Games",
       "section": "Featured",
-      "priority": 266,
+      "priority": 263,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 183
+      "banner": false,
+      "rank": 182
     },
     {
       "name": "A Little to the Left",
@@ -2572,12 +2740,13 @@
       "url": "https://apps.apple.com/us/app/a-little-to-the-left/id1613352146",
       "tab": "Games",
       "section": "Featured",
-      "priority": 267,
+      "priority": 264,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 184
+      "banner": false,
+      "rank": 183
     },
     {
       "name": "The Stanley Parable: UD",
@@ -2586,26 +2755,13 @@
       "url": "https://apps.apple.com/us/app/the-stanley-parable-ud/id6479513152",
       "tab": "Games",
       "section": "Featured",
-      "priority": 268,
+      "priority": 265,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 185
-    },
-    {
-      "name": "Slay the Spire",
-      "dev": "",
-      "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
-      "tab": "Games",
-      "section": "Featured",
-      "priority": 269,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "rank": 186
+      "banner": false,
+      "rank": 184
     },
     {
       "name": "32 Secs: Traffic Rider",
@@ -2614,12 +2770,13 @@
       "url": "https://apps.apple.com/us/app/32-secs-traffic-rider/id1060089066",
       "tab": "Games",
       "section": "Featured",
-      "priority": 270,
+      "priority": 267,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 187
+      "banner": false,
+      "rank": 185
     },
     {
       "name": "Mini Mini Farm",
@@ -2628,12 +2785,13 @@
       "url": "https://apps.apple.com/us/app/mini-mini-farm/id1534460779",
       "tab": "Games",
       "section": "Featured",
-      "priority": 271,
+      "priority": 268,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 188
+      "banner": false,
+      "rank": 186
     },
     {
       "name": "Pluck It: hairs and emotions",
@@ -2642,12 +2800,13 @@
       "url": "https://apps.apple.com/us/app/pluck-it-hairs-and-emotions/id1377729521",
       "tab": "Games",
       "section": "Featured",
-      "priority": 272,
+      "priority": 269,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 189
+      "banner": false,
+      "rank": 187
     },
     {
       "name": "Sundae Picnic",
@@ -2656,12 +2815,13 @@
       "url": "https://apps.apple.com/us/app/sundae-picnic/id1534852472",
       "tab": "Games",
       "section": "Featured",
-      "priority": 273,
+      "priority": 270,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 190
+      "banner": false,
+      "rank": 188
     },
     {
       "name": "here - a puzzle game",
@@ -2670,12 +2830,13 @@
       "url": "https://apps.apple.com/us/app/here-a-puzzle-game/id1536164575",
       "tab": "Games",
       "section": "Featured",
-      "priority": 274,
+      "priority": 271,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 191
+      "banner": false,
+      "rank": 189
     },
     {
       "name": "Ducklings!",
@@ -2684,12 +2845,13 @@
       "url": "https://apps.apple.com/us/app/ducklings/id1472975856",
       "tab": "Games",
       "section": "Featured",
-      "priority": 275,
+      "priority": 272,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 192
+      "banner": false,
+      "rank": 190
     },
     {
       "name": "That Level Again",
@@ -2698,12 +2860,13 @@
       "url": "https://apps.apple.com/us/app/that-level-again/id1015720340",
       "tab": "Games",
       "section": "Featured",
-      "priority": 276,
+      "priority": 273,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 193
+      "banner": false,
+      "rank": 191
     },
     {
       "name": "Balance Stuff",
@@ -2712,12 +2875,13 @@
       "url": "https://apps.apple.com/us/app/balance-stuff/id1528333833",
       "tab": "Games",
       "section": "Featured",
-      "priority": 277,
+      "priority": 274,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 194
+      "banner": false,
+      "rank": 192
     },
     {
       "name": "Fury Roads Survivor",
@@ -2726,12 +2890,13 @@
       "url": "https://apps.apple.com/us/app/fury-roads-survivor/id1100707586",
       "tab": "Games",
       "section": "Featured",
-      "priority": 278,
+      "priority": 275,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 195
+      "banner": false,
+      "rank": 193
     },
     {
       "name": "Aliens Drive Me Crazy",
@@ -2740,12 +2905,13 @@
       "url": "https://apps.apple.com/us/app/aliens-drive-me-crazy/id857752846",
       "tab": "Games",
       "section": "Featured",
-      "priority": 279,
+      "priority": 276,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 196
+      "banner": false,
+      "rank": 194
     },
     {
       "name": "Particle Escape",
@@ -2754,12 +2920,13 @@
       "url": "https://apps.apple.com/us/app/particle-escape/id6451272279",
       "tab": "Games",
       "section": "Featured",
-      "priority": 280,
+      "priority": 277,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 197
+      "banner": false,
+      "rank": 195
     },
     {
       "name": "Star Jolt: Retro Space Arcade",
@@ -2768,12 +2935,13 @@
       "url": "https://apps.apple.com/us/app/star-jolt-retro-space-arcade/id1453327957",
       "tab": "Games",
       "section": "Featured",
-      "priority": 281,
+      "priority": 278,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 198
+      "banner": false,
+      "rank": 196
     },
     {
       "name": "Epic Orchestra",
@@ -2782,12 +2950,13 @@
       "url": "https://apps.apple.com/us/app/epic-orchestra/id1063781546",
       "tab": "Games",
       "section": "Featured",
-      "priority": 282,
+      "priority": 279,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 199
+      "banner": false,
+      "rank": 197
     }
   ]
 }

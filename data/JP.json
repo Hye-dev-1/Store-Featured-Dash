@@ -1,7 +1,7 @@
 {
   "country": "JP",
-  "date": "2026-04-13",
-  "updated": "2026-04-13T11:01:37.552Z",
+  "date": "2026-04-14",
+  "updated": "2026-04-14T01:10:06.712Z",
   "apple": [
     {
       "name": "新キャラクター「神楽木葵」が登場",
@@ -9,12 +9,13 @@
       "icon": "/assets/artwork/1x1.gif",
       "url": "https://apps.apple.com/jp/app/%E6%80%AA%E7%8D%A3%EF%BC%98%E5%8F%B7-the-game/id6742088839?eventid=6761590093",
       "tab": "Games",
-      "section": "Featured",
-      "priority": 50,
+      "section": "배너",
+      "priority": 5,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": true,
       "rank": 1
     },
     {
@@ -23,12 +24,13 @@
       "icon": "/assets/artwork/1x1.gif",
       "url": "https://apps.apple.com/jp/app/card-crawl-2/id6744351421",
       "tab": "Games",
-      "section": "Featured",
-      "priority": 51,
+      "section": "배너",
+      "priority": 6,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": true,
       "rank": 2
     },
     {
@@ -37,12 +39,13 @@
       "icon": "/assets/artwork/1x1.gif",
       "url": "https://apps.apple.com/jp/app/easy-delivery-co/id6753945058",
       "tab": "Games",
-      "section": "Featured",
-      "priority": 52,
+      "section": "배너",
+      "priority": 7,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": true,
       "rank": 3
     },
     {
@@ -52,11 +55,12 @@
       "url": "https://apps.apple.com/jp/app/jurassic-world-%E3%82%A2%E3%83%A9%E3%82%A4%E3%83%96/id1231085864",
       "tab": "Games",
       "section": "Featured",
-      "priority": 53,
+      "priority": 50,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 4
     },
     {
@@ -66,11 +70,12 @@
       "url": "https://apps.apple.com/jp/app/the-division-resurgence/id1606349410",
       "tab": "Games",
       "section": "Featured",
-      "priority": 54,
+      "priority": 51,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 5
     },
     {
@@ -80,11 +85,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%BC%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%83%BC-sea-fantasy/id6753211881",
       "tab": "Games",
       "section": "Featured",
-      "priority": 55,
+      "priority": 52,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 6
     },
     {
@@ -94,11 +100,12 @@
       "url": "https://apps.apple.com/jp/app/humbug-2/id6753792967",
       "tab": "Games",
       "section": "Featured",
-      "priority": 56,
+      "priority": 53,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 7
     },
     {
@@ -108,11 +115,12 @@
       "url": "https://apps.apple.com/jp/app/sminiz-k-pop-puzzle-game/id6499568662",
       "tab": "Games",
       "section": "Featured",
-      "priority": 57,
+      "priority": 54,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 8
     },
     {
@@ -122,11 +130,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB-%E3%83%AC%E3%82%B8%E3%82%A7%E3%83%B3%E3%82%BA/id1358232022",
       "tab": "Games",
       "section": "Featured",
-      "priority": 58,
+      "priority": 55,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 9
     },
     {
@@ -136,11 +145,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E3%81%8F%E6%A5%BD%E3%81%97%E3%81%BF%E3%81%8C%E5%A2%97%E3%81%88%E3%82%8B%E4%BD%8D%E7%BD%AE%E6%83%85%E5%A0%B1%E3%82%B2%E3%83%BC%E3%83%A0/id1439417234",
       "tab": "Games",
       "section": "Featured",
-      "priority": 59,
+      "priority": 56,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 10
     },
     {
@@ -150,11 +160,12 @@
       "url": "https://apps.apple.com/jp/app/efootball/id1117270703",
       "tab": "Games",
       "section": "Featured",
-      "priority": 60,
+      "priority": 57,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 11
     },
     {
@@ -164,11 +175,12 @@
       "url": "https://apps.apple.com/jp/app/%E9%81%8A%E6%88%AF%E7%8E%8B-%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB/id1554247785",
       "tab": "Games",
       "section": "Featured",
-      "priority": 61,
+      "priority": 58,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 12
     },
     {
@@ -178,11 +190,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83%E3%82%B9%E3%83%94%E3%83%AA%E3%83%83%E3%83%84%EF%BD%81/id940320341",
       "tab": "Games",
       "section": "Featured",
-      "priority": 62,
+      "priority": 59,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 13
     },
     {
@@ -192,11 +205,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id658511662",
       "tab": "Games",
       "section": "Featured",
-      "priority": 63,
+      "priority": 60,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 14
     },
     {
@@ -206,11 +220,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%BA/id493470467",
       "tab": "Games",
       "section": "Featured",
-      "priority": 64,
+      "priority": 61,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 15
     },
     {
@@ -220,11 +235,12 @@
       "url": "https://apps.apple.com/jp/app/line-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%83%84%E3%83%A0%E3%83%84%E3%83%A0/id724594093",
       "tab": "Games",
       "section": "Featured",
-      "priority": 65,
+      "priority": 62,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 16
     },
     {
@@ -234,11 +250,12 @@
       "url": "https://apps.apple.com/jp/app/pixel-flow/id6751056652",
       "tab": "Games",
       "section": "Featured",
-      "priority": 66,
+      "priority": 63,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 17
     },
     {
@@ -248,11 +265,12 @@
       "url": "https://apps.apple.com/jp/app/%E9%B3%B4%E6%BD%AE/id6475033368",
       "tab": "Games",
       "section": "Featured",
-      "priority": 67,
+      "priority": 64,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 18
     },
     {
@@ -262,11 +280,12 @@
       "url": "https://apps.apple.com/jp/app/roblox-%E3%83%AD%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%B9/id431946152",
       "tab": "Games",
       "section": "Featured",
-      "priority": 68,
+      "priority": 65,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 19
     },
     {
@@ -276,11 +295,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88/id1176027022",
       "tab": "Games",
       "section": "Featured",
-      "priority": 69,
+      "priority": 66,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 20
     },
     {
@@ -290,11 +310,12 @@
       "url": "https://apps.apple.com/jp/app/disney-solitaire-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2/id6475757306",
       "tab": "Games",
       "section": "Featured",
-      "priority": 70,
+      "priority": 67,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 21
     },
     {
@@ -304,11 +325,12 @@
       "url": "https://apps.apple.com/jp/app/call-of-duty-mobile/id1287282214",
       "tab": "Games",
       "section": "Featured",
-      "priority": 71,
+      "priority": 68,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 22
     },
     {
@@ -318,11 +340,12 @@
       "url": "https://apps.apple.com/jp/app/%E5%8E%9F%E7%A5%9E-%E7%A9%BA%E6%9C%88%E3%81%AE%E6%AD%8C/id1517783697",
       "tab": "Games",
       "section": "Featured",
-      "priority": 72,
+      "priority": 69,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 23
     },
     {
@@ -332,11 +355,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%B4%E3%82%B7%E3%83%83%E3%83%97%E3%83%8F%E3%83%BC%E3%83%90%E3%83%BC-%E3%83%9E%E3%83%BC%E3%82%B8-%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC/id1623318294",
       "tab": "Games",
       "section": "Featured",
-      "priority": 73,
+      "priority": 70,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 24
     },
     {
@@ -346,11 +370,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%82%A2%E3%82%A6%E3%83%88-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id6443575749",
       "tab": "Games",
       "section": "Featured",
-      "priority": 74,
+      "priority": 71,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 25
     },
     {
@@ -360,11 +385,12 @@
       "url": "https://apps.apple.com/jp/app/pubg-mobile-%E4%B8%96%E7%95%8C%E4%B8%80%E3%81%AE%E3%83%90%E3%83%88%E3%83%AB%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB/id1366526331",
       "tab": "Games",
       "section": "Featured",
-      "priority": 75,
+      "priority": 72,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 26
     },
     {
@@ -374,11 +400,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E4%BC%9D%E8%AA%AC2/id6502820653",
       "tab": "Games",
       "section": "Featured",
-      "priority": 76,
+      "priority": 73,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 27
     },
     {
@@ -388,11 +415,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%82%B9%E3%82%B1%E3%82%A4%E3%83%97-gardenscapes/id1105855019",
       "tab": "Games",
       "section": "Featured",
-      "priority": 77,
+      "priority": 74,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 28
     },
     {
@@ -402,11 +430,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%BF%E3%82%A6%E3%83%B3%E3%82%B7%E3%83%83%E3%83%97-township/id638689075",
       "tab": "Games",
       "section": "Featured",
-      "priority": 78,
+      "priority": 75,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 29
     },
     {
@@ -416,11 +445,12 @@
       "url": "https://apps.apple.com/jp/app/dissidia-duellum-final-fantasy/id6480398822",
       "tab": "Games",
       "section": "Featured",
-      "priority": 82,
+      "priority": 79,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 30
     },
     {
@@ -430,11 +460,12 @@
       "url": "https://apps.apple.com/jp/app/%E4%B8%83%E3%81%A4%E3%81%AE%E5%A4%A7%E7%BD%AA-origin/id6744205088",
       "tab": "Games",
       "section": "Featured",
-      "priority": 83,
+      "priority": 80,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 31
     },
     {
@@ -444,11 +475,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%AF%E3%83%97%E3%83%AD%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC%E3%82%BA/id6742132674",
       "tab": "Games",
       "section": "Featured",
-      "priority": 84,
+      "priority": 81,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 32
     },
     {
@@ -458,11 +490,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83-%E3%83%95%E3%82%A1%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA%E3%83%AA%E3%83%BC%E3%82%B0/id6755870015",
       "tab": "Games",
       "section": "Featured",
-      "priority": 85,
+      "priority": 82,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 33
     },
     {
@@ -472,11 +505,12 @@
       "url": "https://apps.apple.com/jp/app/card-crawl-2/id6744351421",
       "tab": "Games",
       "section": "Featured",
-      "priority": 86,
+      "priority": 83,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 34
     },
     {
@@ -486,11 +520,12 @@
       "url": "https://apps.apple.com/jp/app/easy-delivery-co/id6753945058",
       "tab": "Games",
       "section": "Featured",
-      "priority": 87,
+      "priority": 84,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 35
     },
     {
@@ -500,11 +535,12 @@
       "url": "https://apps.apple.com/jp/app/curling-club-pvp-multiplayer/id6758340668",
       "tab": "Games",
       "section": "Featured",
-      "priority": 88,
+      "priority": 85,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 36
     },
     {
@@ -514,11 +550,12 @@
       "url": "https://apps.apple.com/jp/app/cookierun-ovensmash/id6550902247",
       "tab": "Games",
       "section": "Featured",
-      "priority": 89,
+      "priority": 86,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 37
     },
     {
@@ -528,11 +565,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%AF%E3%83%AC%E3%82%A4%E3%82%B8%E3%83%A3%E3%83%A0-%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF/id6759738137",
       "tab": "Games",
       "section": "Featured",
-      "priority": 90,
+      "priority": 87,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 38
     },
     {
@@ -542,11 +580,12 @@
       "url": "https://apps.apple.com/jp/app/coffee-talk-episode-1/id6738106578",
       "tab": "Games",
       "section": "Featured",
-      "priority": 91,
+      "priority": 88,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 39
     },
     {
@@ -556,11 +595,12 @@
       "url": "https://apps.apple.com/jp/app/jurassic-world-%E3%82%A2%E3%83%A9%E3%82%A4%E3%83%96/id1231085864?eventid=6760562177",
       "tab": "Games",
       "section": "Featured",
-      "priority": 92,
+      "priority": 89,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 40
     },
     {
@@ -570,11 +610,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%83%BC%E3%82%A8%E3%83%A0%E3%83%96%E3%83%AC%E3%83%A0-%E3%82%B7%E3%83%A3%E3%83%89%E3%82%A6%E3%82%BA/id6746113513?eventid=6759592557",
       "tab": "Games",
       "section": "Featured",
-      "priority": 94,
+      "priority": 91,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 41
     },
     {
@@ -584,11 +625,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%83%BC%E3%82%A8%E3%83%A0%E3%83%96%E3%83%AC%E3%83%A0-%E3%82%B7%E3%83%A3%E3%83%89%E3%82%A6%E3%82%BA/id6746113513",
       "tab": "Games",
       "section": "Featured",
-      "priority": 95,
+      "priority": 92,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 42
     },
     {
@@ -598,11 +640,12 @@
       "url": "https://apps.apple.com/jp/app/id724594093?eventid=6761357995",
       "tab": "Games",
       "section": "Featured",
-      "priority": 96,
+      "priority": 93,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 43
     },
     {
@@ -612,11 +655,12 @@
       "url": "https://apps.apple.com/jp/app/p5x-%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A%EF%BC%95-the-phantom-x/id6502942931?eventid=6759777887",
       "tab": "Games",
       "section": "Featured",
-      "priority": 98,
+      "priority": 95,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 44
     },
     {
@@ -626,11 +670,12 @@
       "url": "https://apps.apple.com/jp/app/p5x-%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A%EF%BC%95-the-phantom-x/id6502942931",
       "tab": "Games",
       "section": "Featured",
-      "priority": 99,
+      "priority": 96,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 45
     },
     {
@@ -640,11 +685,12 @@
       "url": "https://apps.apple.com/jp/app/sd%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0-%E3%82%B8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E3%82%A8%E3%82%BF%E3%83%BC%E3%83%8A%E3%83%AB/id6692611665?eventid=6760395312",
       "tab": "Games",
       "section": "Featured",
-      "priority": 100,
+      "priority": 97,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 46
     },
     {
@@ -654,11 +700,12 @@
       "url": "https://apps.apple.com/jp/app/sd%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0-%E3%82%B8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E3%82%A8%E3%82%BF%E3%83%BC%E3%83%8A%E3%83%AB/id6692611665",
       "tab": "Games",
       "section": "Featured",
-      "priority": 101,
+      "priority": 98,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 47
     },
     {
@@ -668,40 +715,13 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%88%E3%83%80%E3%83%9E%E3%83%B3-%E5%85%B1%E9%97%98%E3%81%93%E3%81%A8%E3%81%B0rpg/id1298368256",
       "tab": "Games",
       "section": "Featured",
-      "priority": 103,
+      "priority": 100,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 48
-    },
-    {
-      "name": "リバース：1999",
-      "dev": "",
-      "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/jp/app/%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9-1999/id6448979859",
-      "tab": "Games",
-      "section": "Featured",
-      "priority": 105,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "rank": 49
-    },
-    {
-      "name": "ヘキサアウェイ(Hexa Away)",
-      "dev": "",
-      "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/jp/app/%E3%83%98%E3%82%AD%E3%82%B5%E3%82%A2%E3%82%A6%E3%82%A7%E3%82%A4-hexa-away/id6504324020",
-      "tab": "Games",
-      "section": "Featured",
-      "priority": 106,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "rank": 50
     },
     {
       "name": "Free Fire: Undersea Mystery",
@@ -710,12 +730,28 @@
       "url": "https://apps.apple.com/jp/app/free-fire-undersea-mystery/id1300146617",
       "tab": "Games",
       "section": "Featured",
-      "priority": 107,
+      "priority": 101,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 51
+      "banner": false,
+      "rank": 49
+    },
+    {
+      "name": "リバース：1999",
+      "dev": "",
+      "icon": "/assets/artwork/1x1.gif",
+      "url": "https://apps.apple.com/jp/app/%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9-1999/id6448979859",
+      "tab": "Games",
+      "section": "Featured",
+      "priority": 102,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 50
     },
     {
       "name": "実況パワフルプロ野球",
@@ -724,11 +760,27 @@
       "url": "https://apps.apple.com/jp/app/%E5%AE%9F%E6%B3%81%E3%83%91%E3%83%AF%E3%83%95%E3%83%AB%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83/id938506958",
       "tab": "Games",
       "section": "Featured",
-      "priority": 108,
+      "priority": 103,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
+      "rank": 51
+    },
+    {
+      "name": "ヘキサアウェイ(Hexa Away)",
+      "dev": "",
+      "icon": "/assets/artwork/1x1.gif",
+      "url": "https://apps.apple.com/jp/app/%E3%83%98%E3%82%AD%E3%82%B5%E3%82%A2%E3%82%A6%E3%82%A7%E3%82%A4-hexa-away/id6504324020",
+      "tab": "Games",
+      "section": "Featured",
+      "priority": 104,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
       "rank": 52
     },
     {
@@ -738,11 +790,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%8D%E3%82%B3%E3%81%B1%E3%82%89-%E3%82%BB%E3%82%AB%E3%82%A4%E3%82%B3%E3%83%8D%E3%82%AF%E3%83%88/id6743923238",
       "tab": "Games",
       "section": "Featured",
-      "priority": 109,
+      "priority": 106,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 53
     },
     {
@@ -752,26 +805,13 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%8F%E3%83%A8%E3%83%BC%E3%82%AB%E3%82%A4-%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC/id6758034365",
       "tab": "Games",
       "section": "Featured",
-      "priority": 110,
+      "priority": 107,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 54
-    },
-    {
-      "name": "ラストクラウディア (ドットRPG)",
-      "dev": "",
-      "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%B9%E3%83%88%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%87%E3%82%A3%E3%82%A2-%E3%83%89%E3%83%83%E3%83%88rpg/id1439772862",
-      "tab": "Games",
-      "section": "Featured",
-      "priority": 111,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "rank": 55
     },
     {
       "name": "Jewel Coloring",
@@ -780,26 +820,28 @@
       "url": "https://apps.apple.com/jp/app/jewel-coloring/id6759081967",
       "tab": "Games",
       "section": "Featured",
-      "priority": 112,
+      "priority": 108,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 56
+      "banner": false,
+      "rank": 55
     },
     {
-      "name": "闇カワ！もふもふハムスター団",
+      "name": "ラストクラウディア (ドットRPG)",
       "dev": "",
       "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/jp/app/%E9%97%87%E3%82%AB%E3%83%AF-%E3%82%82%E3%81%B5%E3%82%82%E3%81%B5%E3%83%8F%E3%83%A0%E3%82%B9%E3%82%BF%E3%83%BC%E5%9B%A3/id6759319080",
+      "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%B9%E3%83%88%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%87%E3%82%A3%E3%82%A2-%E3%83%89%E3%83%83%E3%83%88rpg/id1439772862",
       "tab": "Games",
       "section": "Featured",
-      "priority": 113,
+      "priority": 109,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "rank": 57
+      "banner": false,
+      "rank": 56
     },
     {
       "name": "ブロックブラスト (Block Blast)",
@@ -808,25 +850,42 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88-block-blast/id1617391485",
       "tab": "Games",
       "section": "Featured",
-      "priority": 114,
+      "priority": 110,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
+      "rank": 57
+    },
+    {
+      "name": "闇カワ！もふもふハムスター団",
+      "dev": "",
+      "icon": "/assets/artwork/1x1.gif",
+      "url": "https://apps.apple.com/jp/app/%E9%97%87%E3%82%AB%E3%83%AF-%E3%82%82%E3%81%B5%E3%82%82%E3%81%B5%E3%83%8F%E3%83%A0%E3%82%B9%E3%82%BF%E3%83%BC%E5%9B%A3/id6759319080",
+      "tab": "Games",
+      "section": "Featured",
+      "priority": 111,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
       "rank": 58
     },
     {
-      "name": "トリミン2！-トリッキーミーン2 いじわる脳トレパズルゲーム",
+      "name": "Order Crazy: 飲み物ソート ソーダ色合わせゲーム",
       "dev": "",
       "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B32-%E3%83%88%E3%83%AA%E3%83%83%E3%82%AD%E3%83%BC%E3%83%9F%E3%83%BC%E3%83%B32-%E3%81%84%E3%81%98%E3%82%8F%E3%82%8B%E8%84%B3%E3%83%88%E3%83%AC%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6758080238",
+      "url": "https://apps.apple.com/jp/app/order-crazy-%E9%A3%B2%E3%81%BF%E7%89%A9%E3%82%BD%E3%83%BC%E3%83%88-%E3%82%BD%E3%83%BC%E3%83%80%E8%89%B2%E5%90%88%E3%82%8F%E3%81%9B%E3%82%B2%E3%83%BC%E3%83%A0/id6751222488",
       "tab": "Games",
       "section": "Featured",
-      "priority": 115,
+      "priority": 112,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 59
     },
     {
@@ -836,11 +895,12 @@
       "url": "https://apps.apple.com/jp/app/minecraft-%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-%E5%BB%BA%E7%AF%89-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id479516143",
       "tab": "Games",
       "section": "Featured",
-      "priority": 116,
+      "priority": 113,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 60
     },
     {
@@ -850,11 +910,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%A4%E3%82%AB%E3%82%B2%E3%83%BC%E3%83%A0-aladdin-x/id6469114836",
       "tab": "Games",
       "section": "Featured",
-      "priority": 117,
+      "priority": 114,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 61
     },
     {
@@ -864,11 +925,12 @@
       "url": "https://apps.apple.com/jp/app/%E5%A6%96%E6%80%AA%E3%82%A6%E3%82%A9%E3%83%83%E3%83%811-%E3%82%B9%E3%83%9E%E3%83%9B/id1542957396",
       "tab": "Games",
       "section": "Featured",
-      "priority": 118,
+      "priority": 115,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 62
     },
     {
@@ -878,25 +940,27 @@
       "url": "https://apps.apple.com/jp/app/slay-the-spire/id1491530147",
       "tab": "Games",
       "section": "Featured",
-      "priority": 119,
+      "priority": 116,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 63
     },
     {
-      "name": "Sea of Stars",
+      "name": "Scritchy Scratchy",
       "dev": "",
       "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/jp/app/sea-of-stars/id6673906410",
+      "url": "https://apps.apple.com/jp/app/scritchy-scratchy/id6758328352",
       "tab": "Games",
       "section": "Featured",
-      "priority": 120,
+      "priority": 117,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 64
     },
     {
@@ -906,25 +970,27 @@
       "url": "https://apps.apple.com/jp/app/cloverpit/id6754894237",
       "tab": "Games",
       "section": "Featured",
-      "priority": 121,
+      "priority": 118,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 65
     },
     {
-      "name": "Scritchy Scratchy",
+      "name": "魔王城ものがたり",
       "dev": "",
       "icon": "/assets/artwork/1x1.gif",
-      "url": "https://apps.apple.com/jp/app/scritchy-scratchy/id6758328352",
+      "url": "https://apps.apple.com/jp/app/%E9%AD%94%E7%8E%8B%E5%9F%8E%E3%82%82%E3%81%AE%E3%81%8C%E3%81%9F%E3%82%8A/id6749560544",
       "tab": "Games",
       "section": "Featured",
-      "priority": 122,
+      "priority": 119,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 66
     },
     {
@@ -934,11 +1000,12 @@
       "url": "https://apps.apple.com/jp/app/bloons-td-6/id1118115766",
       "tab": "Games",
       "section": "Featured",
-      "priority": 123,
+      "priority": 120,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 67
     },
     {
@@ -948,11 +1015,12 @@
       "url": "https://apps.apple.com/jp/app/dont-bug-me/id6739683137",
       "tab": "Games",
       "section": "Featured",
-      "priority": 124,
+      "priority": 121,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 68
     },
     {
@@ -962,11 +1030,12 @@
       "url": "https://apps.apple.com/jp/app/rift-riff/id6746967900",
       "tab": "Games",
       "section": "Featured",
-      "priority": 125,
+      "priority": 122,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 69
     },
     {
@@ -976,11 +1045,12 @@
       "url": "https://apps.apple.com/jp/app/outhold/id6758839020",
       "tab": "Games",
       "section": "Featured",
-      "priority": 126,
+      "priority": 123,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 70
     },
     {
@@ -990,11 +1060,12 @@
       "url": "https://apps.apple.com/jp/app/kingdom-rush-5-alliance-td/id1622869542",
       "tab": "Games",
       "section": "Featured",
-      "priority": 127,
+      "priority": 124,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 71
     },
     {
@@ -1004,11 +1075,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%81%AB%E3%82%83%E3%82%93%E3%81%93%E5%A4%A7%E6%88%A6%E4%BA%89/id547145938",
       "tab": "Games",
       "section": "Featured",
-      "priority": 128,
+      "priority": 125,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 72
     },
     {
@@ -1018,11 +1090,12 @@
       "url": "https://apps.apple.com/jp/app/illuminaria-%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8A%E3%83%AA%E3%82%A2/id6469359168",
       "tab": "Games",
       "section": "Featured",
-      "priority": 129,
+      "priority": 126,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 73
     },
     {
@@ -1032,11 +1105,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%BC%E3%82%AF%E3%83%8A%E3%82%A4%E3%83%84/id1478990007",
       "tab": "Games",
       "section": "Featured",
-      "priority": 130,
+      "priority": 127,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 74
     },
     {
@@ -1046,11 +1120,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%83%AD%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AB-clash-royale/id1053012308",
       "tab": "Games",
       "section": "Featured",
-      "priority": 131,
+      "priority": 128,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 75
     },
     {
@@ -1060,11 +1135,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%83%AD%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AB-%E3%82%BF%E3%83%AF%E3%83%BC%E3%83%87%E3%82%A3%E3%83%95%E3%82%A7%E3%83%B3%E3%82%B9/id1526121033",
       "tab": "Games",
       "section": "Featured",
-      "priority": 132,
+      "priority": 129,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 76
     },
     {
@@ -1074,11 +1150,12 @@
       "url": "https://apps.apple.com/jp/app/mochi-o/id6670490274",
       "tab": "Games",
       "section": "Featured",
-      "priority": 133,
+      "priority": 130,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 77
     },
     {
@@ -1088,11 +1165,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%82%A3%E3%83%95%E3%82%A7%E3%83%B3%E3%82%B9-%E3%82%AC%E3%83%81%E3%83%A3-td/id6742435255",
       "tab": "Games",
       "section": "Featured",
-      "priority": 134,
+      "priority": 131,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 78
     },
     {
@@ -1102,11 +1180,12 @@
       "url": "https://apps.apple.com/jp/app/%E9%83%BD%E5%B8%82%E4%BC%9D%E8%AA%AC%E8%A7%A3%E4%BD%93%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/id6756707224",
       "tab": "Games",
       "section": "Featured",
-      "priority": 136,
+      "priority": 133,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 79
     },
     {
@@ -1116,11 +1195,12 @@
       "url": "https://apps.apple.com/jp/app/ball-x-pit/id6738703497",
       "tab": "Games",
       "section": "Featured",
-      "priority": 137,
+      "priority": 134,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 80
     },
     {
@@ -1130,11 +1210,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%82%E3%81%90%E3%83%A9%E3%82%A4%E3%83%95/id6757511306",
       "tab": "Games",
       "section": "Featured",
-      "priority": 138,
+      "priority": 135,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 81
     },
     {
@@ -1144,11 +1225,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%B6-%E3%83%AA%E3%83%AF%E3%82%A4%E3%83%B3%E3%83%80%E3%83%BC-%E9%BB%84%E6%B3%89%E3%81%8B%E3%82%89%E3%81%AE%E6%97%85%E4%BA%BA/id1517953628",
       "tab": "Games",
       "section": "Featured",
-      "priority": 139,
+      "priority": 136,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 82
     },
     {
@@ -1158,11 +1240,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%83%E3%82%AF%E3%83%91%E3%83%83%E3%82%AF-%E3%83%90%E3%83%88%E3%83%AB/id6572290447",
       "tab": "Games",
       "section": "Featured",
-      "priority": 140,
+      "priority": 137,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 83
     },
     {
@@ -1172,11 +1255,12 @@
       "url": "https://apps.apple.com/jp/app/planet-of-lana/id6739130049",
       "tab": "Games",
       "section": "Featured",
-      "priority": 141,
+      "priority": 138,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 84
     },
     {
@@ -1186,11 +1270,12 @@
       "url": "https://apps.apple.com/jp/app/birth/id6748316143",
       "tab": "Games",
       "section": "Featured",
-      "priority": 142,
+      "priority": 139,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 85
     },
     {
@@ -1200,11 +1285,12 @@
       "url": "https://apps.apple.com/jp/app/arranger/id6759252046",
       "tab": "Games",
       "section": "Featured",
-      "priority": 143,
+      "priority": 140,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 86
     },
     {
@@ -1214,11 +1300,12 @@
       "url": "https://apps.apple.com/jp/app/inmost/id6478596530",
       "tab": "Games",
       "section": "Featured",
-      "priority": 145,
+      "priority": 142,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 87
     },
     {
@@ -1228,11 +1315,12 @@
       "url": "https://apps.apple.com/jp/app/toem-%E3%83%88%E3%83%BC%E3%82%A8%E3%83%A0/id6743934969",
       "tab": "Games",
       "section": "Featured",
-      "priority": 146,
+      "priority": 143,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 88
     },
     {
@@ -1242,11 +1330,12 @@
       "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-tcg-pocket/id6479970832",
       "tab": "Games",
       "section": "Featured",
-      "priority": 148,
+      "priority": 145,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 89
     },
     {
@@ -1256,11 +1345,12 @@
       "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-go/id1094591345",
       "tab": "Games",
       "section": "Featured",
-      "priority": 149,
+      "priority": 146,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 90
     },
     {
@@ -1270,11 +1360,12 @@
       "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-sleep/id1579464667",
       "tab": "Games",
       "section": "Featured",
-      "priority": 150,
+      "priority": 147,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 91
     },
     {
@@ -1284,11 +1375,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB/id1512331079",
       "tab": "Games",
       "section": "Featured",
-      "priority": 151,
+      "priority": 148,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 92
     },
     {
@@ -1298,11 +1390,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%81%AF%E3%81%AD%E3%82%8D-%E3%82%B3%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0/id1162679453",
       "tab": "Games",
       "section": "Featured",
-      "priority": 152,
+      "priority": 149,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 93
     },
     {
@@ -1312,11 +1405,12 @@
       "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-unite/id1512321575",
       "tab": "Games",
       "section": "Featured",
-      "priority": 153,
+      "priority": 150,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 94
     },
     {
@@ -1326,11 +1420,12 @@
       "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-masters-ex/id1442061397",
       "tab": "Games",
       "section": "Featured",
-      "priority": 154,
+      "priority": 151,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 95
     },
     {
@@ -1340,11 +1435,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%88%E3%81%86%E3%81%93%E3%81%9D-%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%95%E3%82%A7-%E3%81%BE%E3%81%9C%E3%81%BE%E3%81%9C%E3%83%91%E3%82%BA%E3%83%AB/id1496738228",
       "tab": "Games",
       "section": "Featured",
-      "priority": 155,
+      "priority": 152,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 96
     },
     {
@@ -1354,11 +1450,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88/id1345187641",
       "tab": "Games",
       "section": "Featured",
-      "priority": 156,
+      "priority": 153,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 97
     },
     {
@@ -1368,11 +1465,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B1%E3%81%A8%E3%82%8B-%E3%82%B9%E3%83%9E%E3%83%9B%E7%89%88/id1014919815",
       "tab": "Games",
       "section": "Featured",
-      "priority": 157,
+      "priority": 154,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 98
     },
     {
@@ -1382,11 +1480,12 @@
       "url": "https://apps.apple.com/jp/app/biohazard-7-resident-evil/id1640628954",
       "tab": "Games",
       "section": "Featured",
-      "priority": 158,
+      "priority": 155,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 99
     },
     {
@@ -1396,11 +1495,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%82%B5%E3%82%B7%E3%83%B3-%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%89-%E3%83%9F%E3%83%A9%E3%83%BC%E3%82%B8%E3%83%A5/id6472704261",
       "tab": "Games",
       "section": "Featured",
-      "priority": 159,
+      "priority": 156,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 100
     },
     {
@@ -1410,11 +1510,12 @@
       "url": "https://apps.apple.com/jp/app/biohazard-re-4/id6459829184",
       "tab": "Games",
       "section": "Featured",
-      "priority": 160,
+      "priority": 157,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 101
     },
     {
@@ -1424,11 +1525,12 @@
       "url": "https://apps.apple.com/jp/app/super-mario-run/id1145275343",
       "tab": "Games",
       "section": "Featured",
-      "priority": 161,
+      "priority": 158,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 102
     },
     {
@@ -1438,11 +1540,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%A4%E3%83%95-%E3%82%A4%E3%82%BA-%E3%82%B9%E3%83%88%E3%83%AC%E3%83%B3%E3%82%B8/id1180101534",
       "tab": "Games",
       "section": "Featured",
-      "priority": 162,
+      "priority": 159,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 103
     },
     {
@@ -1452,11 +1555,12 @@
       "url": "https://apps.apple.com/jp/app/assemble-with-care/id6459060454",
       "tab": "Games",
       "section": "Featured",
-      "priority": 163,
+      "priority": 160,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 104
     },
     {
@@ -1466,11 +1570,12 @@
       "url": "https://apps.apple.com/jp/app/playdeads-inside/id1201642309",
       "tab": "Games",
       "section": "Featured",
-      "priority": 164,
+      "priority": 161,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 105
     },
     {
@@ -1480,11 +1585,12 @@
       "url": "https://apps.apple.com/jp/app/populus-run/id6470197867",
       "tab": "Games",
       "section": "Featured",
-      "priority": 165,
+      "priority": 162,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 106
     },
     {
@@ -1494,11 +1600,12 @@
       "url": "https://apps.apple.com/jp/app/turnip-boy-commits-tax-evasion/id1609390613",
       "tab": "Games",
       "section": "Featured",
-      "priority": 166,
+      "priority": 163,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 107
     },
     {
@@ -1508,11 +1615,12 @@
       "url": "https://apps.apple.com/jp/app/bugsnax/id1449161497",
       "tab": "Games",
       "section": "Featured",
-      "priority": 167,
+      "priority": 164,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 108
     },
     {
@@ -1522,11 +1630,12 @@
       "url": "https://apps.apple.com/jp/app/biohazard-village/id6450981229",
       "tab": "Games",
       "section": "Featured",
-      "priority": 168,
+      "priority": 165,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 109
     },
     {
@@ -1536,11 +1645,12 @@
       "url": "https://apps.apple.com/jp/app/lost-in-play/id6449434958",
       "tab": "Games",
       "section": "Featured",
-      "priority": 169,
+      "priority": 166,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 110
     },
     {
@@ -1550,11 +1660,12 @@
       "url": "https://apps.apple.com/jp/app/agent-a-%E5%81%BD%E8%A3%85%E3%81%AE%E3%83%91%E3%82%BA%E3%83%AB/id940006911",
       "tab": "Games",
       "section": "Featured",
-      "priority": 170,
+      "priority": 167,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 111
     },
     {
@@ -1564,11 +1675,12 @@
       "url": "https://apps.apple.com/jp/app/monopoly-go-%E3%83%A2%E3%83%8E%E3%83%9D%E3%83%AA%E3%83%BC-go/id1621328561",
       "tab": "Games",
       "section": "Featured",
-      "priority": 172,
+      "priority": 169,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 112
     },
     {
@@ -1578,11 +1690,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%83%9E%E3%83%83%E3%83%81-royal-match/id1482155847",
       "tab": "Games",
       "section": "Featured",
-      "priority": 173,
+      "priority": 170,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 113
     },
     {
@@ -1592,11 +1705,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AD%E3%82%B9%E3%82%BF/id1229016807",
       "tab": "Games",
       "section": "Featured",
-      "priority": 174,
+      "priority": 171,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 114
     },
     {
@@ -1606,11 +1720,12 @@
       "url": "https://apps.apple.com/jp/app/line-%E3%83%9D%E3%82%B3%E3%83%9D%E3%82%B3-3%E3%83%9E%E3%83%83%E3%83%81%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id888615473",
       "tab": "Games",
       "section": "Featured",
-      "priority": 175,
+      "priority": 172,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 115
     },
     {
@@ -1620,11 +1735,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%83%80%E3%83%A0-fishdom/id664575829",
       "tab": "Games",
       "section": "Featured",
-      "priority": 178,
+      "priority": 175,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 116
     },
     {
@@ -1634,11 +1750,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%8C%E3%83%BC%E3%83%94%E3%83%BC-%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B9-%E3%83%91%E3%82%BA%E3%83%AB-%E3%82%B9%E3%83%8C%E3%83%BC%E3%83%94%E3%83%BC-%E3%83%91%E3%82%BA%E3%83%AB/id901649419",
       "tab": "Games",
       "section": "Featured",
-      "priority": 180,
+      "priority": 177,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 117
     },
     {
@@ -1648,11 +1765,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BC%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%82%BD%E3%83%BC%E3%83%80/id850417475",
       "tab": "Games",
       "section": "Featured",
-      "priority": 181,
+      "priority": 178,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 118
     },
     {
@@ -1662,11 +1780,12 @@
       "url": "https://apps.apple.com/jp/app/line-%E3%83%90%E3%83%96%E3%83%AB2/id895761422",
       "tab": "Games",
       "section": "Featured",
-      "priority": 182,
+      "priority": 179,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 119
     },
     {
@@ -1676,11 +1795,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%83%A1%E3%82%A4%E3%82%AF%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC-project-makeover/id1483058899",
       "tab": "Games",
       "section": "Featured",
-      "priority": 183,
+      "priority": 180,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 120
     },
     {
@@ -1690,11 +1810,12 @@
       "url": "https://apps.apple.com/jp/app/%E6%82%AA%E9%AD%94%E5%9F%8E%E3%83%89%E3%83%A9%E3%82%AD%E3%83%A5%E3%83%A9x-%E6%9C%88%E4%B8%8B%E3%81%AE%E5%A4%9C%E6%83%B3%E6%9B%B2/id1435456830",
       "tab": "Games",
       "section": "Featured",
-      "priority": 184,
+      "priority": 181,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 121
     },
     {
@@ -1704,11 +1825,12 @@
       "url": "https://apps.apple.com/jp/app/hyper-light-drifter/id1453875289",
       "tab": "Games",
       "section": "Featured",
-      "priority": 185,
+      "priority": 182,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 122
     },
     {
@@ -1718,11 +1840,12 @@
       "url": "https://apps.apple.com/jp/app/%E5%B9%B8%E9%81%8B%E3%81%AE%E5%A4%A7%E5%AE%B6%E6%A7%98/id6450724928",
       "tab": "Games",
       "section": "Featured",
-      "priority": 186,
+      "priority": 183,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 123
     },
     {
@@ -1732,11 +1855,12 @@
       "url": "https://apps.apple.com/jp/app/kingdom-two-crowns/id1477991646",
       "tab": "Games",
       "section": "Featured",
-      "priority": 187,
+      "priority": 184,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 124
     },
     {
@@ -1746,11 +1870,12 @@
       "url": "https://apps.apple.com/jp/app/scourgebringer/id1552864378",
       "tab": "Games",
       "section": "Featured",
-      "priority": 188,
+      "priority": 185,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 125
     },
     {
@@ -1760,11 +1885,12 @@
       "url": "https://apps.apple.com/jp/app/a-tiny-sticker-tale/id1668930992",
       "tab": "Games",
       "section": "Featured",
-      "priority": 190,
+      "priority": 187,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 126
     },
     {
@@ -1774,11 +1900,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%AF%E3%83%AF%E3%83%83%E3%83%89-%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id1668983788",
       "tab": "Games",
       "section": "Featured",
-      "priority": 191,
+      "priority": 188,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 127
     },
     {
@@ -1788,11 +1915,12 @@
       "url": "https://apps.apple.com/jp/app/thronefall-a-little-kingdom/id6744029320",
       "tab": "Games",
       "section": "Featured",
-      "priority": 192,
+      "priority": 189,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 128
     },
     {
@@ -1802,11 +1930,12 @@
       "url": "https://apps.apple.com/jp/app/the-pathless/id6469709725",
       "tab": "Games",
       "section": "Featured",
-      "priority": 193,
+      "priority": 190,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 129
     },
     {
@@ -1816,11 +1945,12 @@
       "url": "https://apps.apple.com/jp/app/gubbins-its-a-word-game/id1551894081",
       "tab": "Games",
       "section": "Featured",
-      "priority": 194,
+      "priority": 191,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 130
     },
     {
@@ -1830,11 +1960,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%81%AF%E3%81%84-%E9%99%9B%E4%B8%8B/id6468678719",
       "tab": "Games",
       "section": "Featured",
-      "priority": 195,
+      "priority": 192,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 131
     },
     {
@@ -1844,11 +1975,12 @@
       "url": "https://apps.apple.com/jp/app/unpacking/id6450058135",
       "tab": "Games",
       "section": "Featured",
-      "priority": 196,
+      "priority": 193,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 132
     },
     {
@@ -1858,11 +1990,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%A1%E3%82%B0%E3%81%A8%E3%81%B0%E3%81%91%E3%82%82%E3%81%AE/id1550415965",
       "tab": "Games",
       "section": "Featured",
-      "priority": 197,
+      "priority": 194,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 133
     },
     {
@@ -1872,11 +2005,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B0%E3%83%AD%E3%82%A6-%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%88rpg/id6747736697",
       "tab": "Games",
       "section": "Featured",
-      "priority": 198,
+      "priority": 195,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 134
     },
     {
@@ -1886,11 +2020,12 @@
       "url": "https://apps.apple.com/jp/app/%E7%84%A1%E8%81%B7%E8%BB%A2%E7%94%9F-%E7%95%B0%E4%B8%96%E7%95%8C%E8%A1%8C%E3%81%A3%E3%81%9F%E3%82%89%E6%9C%AC%E6%B0%97%E3%81%A0%E3%81%99/id6754311241",
       "tab": "Games",
       "section": "Featured",
-      "priority": 199,
+      "priority": 196,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 135
     },
     {
@@ -1900,11 +2035,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%B9/id6756641135",
       "tab": "Games",
       "section": "Featured",
-      "priority": 200,
+      "priority": 197,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 136
     },
     {
@@ -1914,11 +2050,12 @@
       "url": "https://apps.apple.com/jp/app/pond-pals/id6755534047",
       "tab": "Games",
       "section": "Featured",
-      "priority": 201,
+      "priority": 198,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 137
     },
     {
@@ -1928,11 +2065,12 @@
       "url": "https://apps.apple.com/jp/app/death-stranding-directors-cut/id6449748961",
       "tab": "Games",
       "section": "Featured",
-      "priority": 203,
+      "priority": 200,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 138
     },
     {
@@ -1942,11 +2080,12 @@
       "url": "https://apps.apple.com/jp/app/superliminal/id6443604310",
       "tab": "Games",
       "section": "Featured",
-      "priority": 206,
+      "priority": 203,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 139
     },
     {
@@ -1956,11 +2095,12 @@
       "url": "https://apps.apple.com/jp/app/skyfish%E3%81%AE%E4%BC%9D%E8%AA%AC2/id6461013693",
       "tab": "Games",
       "section": "Featured",
-      "priority": 207,
+      "priority": 204,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 140
     },
     {
@@ -1970,11 +2110,12 @@
       "url": "https://apps.apple.com/jp/app/baba-is-you/id1517281887",
       "tab": "Games",
       "section": "Featured",
-      "priority": 208,
+      "priority": 205,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 141
     },
     {
@@ -1984,11 +2125,12 @@
       "url": "https://apps.apple.com/jp/app/opus-%E6%98%9F%E6%AD%8C%E3%81%AE%E9%9F%BF%E3%81%8D/id1604771334",
       "tab": "Games",
       "section": "Featured",
-      "priority": 209,
+      "priority": 206,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 142
     },
     {
@@ -1998,11 +2140,12 @@
       "url": "https://apps.apple.com/jp/app/kingdom-eighties/id1616652599",
       "tab": "Games",
       "section": "Featured",
-      "priority": 210,
+      "priority": 207,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 143
     },
     {
@@ -2012,11 +2155,12 @@
       "url": "https://apps.apple.com/jp/app/%E4%BF%BA%E3%81%A0%E3%81%91%E3%83%AC%E3%83%99%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E3%81%AA%E4%BB%B6-arise-%E4%BF%BA%E3%82%A2%E3%83%A9/id1662742277",
       "tab": "Games",
       "section": "Featured",
-      "priority": 212,
+      "priority": 209,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 144
     },
     {
@@ -2026,11 +2170,12 @@
       "url": "https://apps.apple.com/jp/app/%E8%8D%92%E9%87%8E%E3%81%AE%E3%83%8F%E3%83%BC%E3%82%AF/id1336793944",
       "tab": "Games",
       "section": "Featured",
-      "priority": 213,
+      "priority": 210,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 145
     },
     {
@@ -2040,11 +2185,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E3%82%B9%E3%83%88%E3%83%BC%E3%83%A0/id6449708682",
       "tab": "Games",
       "section": "Featured",
-      "priority": 214,
+      "priority": 211,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 146
     },
     {
@@ -2054,11 +2200,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%AA%E3%82%AA%E3%82%AB%E3%83%BC%E3%83%88-%E3%83%84%E3%82%A2%E3%83%BC/id1293634699",
       "tab": "Games",
       "section": "Featured",
-      "priority": 215,
+      "priority": 212,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 147
     },
     {
@@ -2068,11 +2215,12 @@
       "url": "https://apps.apple.com/jp/app/pikmin-bloom/id1556357398",
       "tab": "Games",
       "section": "Featured",
-      "priority": 216,
+      "priority": 213,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 148
     },
     {
@@ -2082,11 +2230,12 @@
       "url": "https://apps.apple.com/jp/app/threes/id779157948",
       "tab": "Games",
       "section": "Featured",
-      "priority": 217,
+      "priority": 214,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 149
     },
     {
@@ -2096,11 +2245,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%82%B9%E3%83%95%E3%82%A1%E3%83%AB%E3%83%88-legends/id805603214",
       "tab": "Games",
       "section": "Featured",
-      "priority": 218,
+      "priority": 215,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 150
     },
     {
@@ -2110,11 +2260,12 @@
       "url": "https://apps.apple.com/jp/app/bacon-the-game/id1413085106",
       "tab": "Games",
       "section": "Featured",
-      "priority": 219,
+      "priority": 216,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 151
     },
     {
@@ -2124,11 +2275,12 @@
       "url": "https://apps.apple.com/jp/app/golf-blitz/id1413826211",
       "tab": "Games",
       "section": "Featured",
-      "priority": 220,
+      "priority": 217,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 152
     },
     {
@@ -2138,11 +2290,12 @@
       "url": "https://apps.apple.com/jp/app/two-dots/id880178264",
       "tab": "Games",
       "section": "Featured",
-      "priority": 221,
+      "priority": 218,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 153
     },
     {
@@ -2152,11 +2305,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BC%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/id553834731",
       "tab": "Games",
       "section": "Featured",
-      "priority": 222,
+      "priority": 219,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 154
     },
     {
@@ -2166,11 +2320,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%AD%E3%83%87%E3%82%AA-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%94%E3%83%BC%E3%83%89-%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B0%E3%82%BA%E3%83%BC%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id1047961826",
       "tab": "Games",
       "section": "Featured",
-      "priority": 223,
+      "priority": 220,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 155
     },
     {
@@ -2180,11 +2335,12 @@
       "url": "https://apps.apple.com/jp/app/kami-2/id1133161444",
       "tab": "Games",
       "section": "Featured",
-      "priority": 224,
+      "priority": 221,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 156
     },
     {
@@ -2194,11 +2350,12 @@
       "url": "https://apps.apple.com/jp/app/moriarashi/id1612937021",
       "tab": "Games",
       "section": "Featured",
-      "priority": 225,
+      "priority": 222,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 157
     },
     {
@@ -2208,11 +2365,12 @@
       "url": "https://apps.apple.com/jp/app/dandara-trials-of-fear-edition/id1168013926",
       "tab": "Games",
       "section": "Featured",
-      "priority": 226,
+      "priority": 223,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 158
     },
     {
@@ -2222,11 +2380,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E4%BC%9D%E8%AA%AC/id1453651052",
       "tab": "Games",
       "section": "Featured",
-      "priority": 227,
+      "priority": 224,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 159
     },
     {
@@ -2236,11 +2395,12 @@
       "url": "https://apps.apple.com/jp/app/%EF%BD%84-%EF%BC%92-%E7%9C%9F-%E5%A5%B3%E7%A5%9E%E8%BB%A2%E7%94%9F-%E3%83%AA%E3%83%99%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/id1314816647",
       "tab": "Games",
       "section": "Featured",
-      "priority": 228,
+      "priority": 225,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 160
     },
     {
@@ -2250,11 +2410,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B3%E3%83%AD%E3%83%B3%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%BA/id865817969",
       "tab": "Games",
       "section": "Featured",
-      "priority": 229,
+      "priority": 226,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 161
     },
     {
@@ -2264,11 +2425,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%8A%E3%82%B6%E3%83%BC%E3%82%A8%E3%83%87%E3%83%B3-%E6%99%82%E7%A9%BA%E3%82%92%E8%B6%85%E3%81%88%E3%82%8B%E7%8C%AB/id1160578459",
       "tab": "Games",
       "section": "Featured",
-      "priority": 231,
+      "priority": 228,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 162
     },
     {
@@ -2278,11 +2440,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%98%E3%83%96%E3%83%B3%E3%83%90%E3%83%BC%E3%83%B3%E3%82%BA%E3%83%AC%E3%83%83%E3%83%89/id1576831351",
       "tab": "Games",
       "section": "Featured",
-      "priority": 232,
+      "priority": 229,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 163
     },
     {
@@ -2292,11 +2455,12 @@
       "url": "https://apps.apple.com/jp/app/%E9%80%86%E8%BB%A2%E3%82%AA%E3%82%BB%E3%83%AD%E3%83%8B%E3%82%A2/id985100673",
       "tab": "Games",
       "section": "Featured",
-      "priority": 233,
+      "priority": 230,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 164
     },
     {
@@ -2306,11 +2470,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%BF%E3%82%AF%E3%83%88-%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%81%AE%E3%82%BF%E3%82%AF%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9rpg/id1516559313",
       "tab": "Games",
       "section": "Featured",
-      "priority": 235,
+      "priority": 232,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 165
     },
     {
@@ -2320,11 +2485,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%82%AF%E3%83%88%E3%83%91%E3%82%B9%E3%83%88%E3%83%A9%E3%83%99%E3%83%A9%E3%83%BC-%E5%A4%A7%E9%99%B8%E3%81%AE%E8%A6%87%E8%80%85/id1438083823",
       "tab": "Games",
       "section": "Featured",
-      "priority": 236,
+      "priority": 233,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 166
     },
     {
@@ -2334,11 +2500,12 @@
       "url": "https://apps.apple.com/jp/app/one-piece-%E3%83%88%E3%83%AC%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA/id824116884",
       "tab": "Games",
       "section": "Featured",
-      "priority": 238,
+      "priority": 235,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 167
     },
     {
@@ -2348,11 +2515,12 @@
       "url": "https://apps.apple.com/jp/app/%E7%99%BD%E7%8C%AB%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88/id895687962",
       "tab": "Games",
       "section": "Featured",
-      "priority": 239,
+      "priority": 236,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 168
     },
     {
@@ -2362,11 +2530,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%8C%E3%81%98%E3%81%87%E3%81%8F%E3%82%8D-%E3%83%AC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%89-%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%90%E3%83%BC/id1536354906",
       "tab": "Games",
       "section": "Featured",
-      "priority": 240,
+      "priority": 237,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 169
     },
     {
@@ -2376,11 +2545,12 @@
       "url": "https://apps.apple.com/jp/app/among-us/id1351168404",
       "tab": "Games",
       "section": "Featured",
-      "priority": 244,
+      "priority": 241,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 170
     },
     {
@@ -2390,11 +2560,12 @@
       "url": "https://apps.apple.com/jp/app/one-piece-%E3%83%90%E3%82%A6%E3%83%B3%E3%83%86%E3%82%A3%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id1322310031",
       "tab": "Games",
       "section": "Featured",
-      "priority": 245,
+      "priority": 242,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 171
     },
     {
@@ -2404,11 +2575,12 @@
       "url": "https://apps.apple.com/jp/app/identity-v/id1347780764",
       "tab": "Games",
       "section": "Featured",
-      "priority": 249,
+      "priority": 246,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 172
     },
     {
@@ -2418,11 +2590,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%8B%E3%82%B7%E3%83%B3%E3%82%B0-%E3%82%B0%E3%83%AC%E3%82%A4%E3%83%AC%E3%82%A4%E3%83%B4%E3%83%B3/id1517545256",
       "tab": "Games",
       "section": "Featured",
-      "priority": 250,
+      "priority": 247,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 173
     },
     {
@@ -2432,11 +2605,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%B3%E3%83%91%E3%82%B9-%E6%88%A6%E9%97%98%E6%91%82%E7%90%86%E8%A7%A3%E6%9E%90%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/id1164400646",
       "tab": "Games",
       "section": "Featured",
-      "priority": 253,
+      "priority": 250,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 174
     },
     {
@@ -2446,11 +2620,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%81%B7%E3%82%88%E3%81%B7%E3%82%88%E3%83%91%E3%82%BA%E3%83%AB%E3%83%9D%E3%83%83%E3%83%97/id6446146451",
       "tab": "Games",
       "section": "Featured",
-      "priority": 254,
+      "priority": 251,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 175
     },
     {
@@ -2460,11 +2635,12 @@
       "url": "https://apps.apple.com/jp/app/downwell/id6467505035",
       "tab": "Games",
       "section": "Featured",
-      "priority": 255,
+      "priority": 252,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 176
     },
     {
@@ -2474,11 +2650,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%BA-%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC/id1636844853",
       "tab": "Games",
       "section": "Featured",
-      "priority": 256,
+      "priority": 253,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 177
     },
     {
@@ -2488,11 +2665,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%81%9F%E3%81%BE%E3%81%94%E3%81%A3%E3%81%A1%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0/id1614952689",
       "tab": "Games",
       "section": "Featured",
-      "priority": 257,
+      "priority": 254,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 178
     },
     {
@@ -2502,11 +2680,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%B5%E3%83%B3%E3%83%90-de-%E3%82%A2%E3%83%9F%E3%83%BC%E3%82%B4-%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC-%E3%83%88%E3%82%A5%E3%83%BC-%E3%82%B4%E3%83%BC/id1641321225",
       "tab": "Games",
       "section": "Featured",
-      "priority": 258,
+      "priority": 255,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 179
     },
     {
@@ -2516,11 +2695,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%81%AB%E3%81%BB%E3%82%93%E3%81%AE%E7%94%B0%E8%88%8E%E3%81%90%E3%82%89%E3%81%97/id1634749545",
       "tab": "Games",
       "section": "Featured",
-      "priority": 259,
+      "priority": 256,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 180
     },
     {
@@ -2530,11 +2710,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E9%A6%AC-ride-on/id1604577143",
       "tab": "Games",
       "section": "Featured",
-      "priority": 260,
+      "priority": 257,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 181
     },
     {
@@ -2544,11 +2725,12 @@
       "url": "https://apps.apple.com/jp/app/time-locker/id1673684254",
       "tab": "Games",
       "section": "Featured",
-      "priority": 261,
+      "priority": 258,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 182
     },
     {
@@ -2558,11 +2740,12 @@
       "url": "https://apps.apple.com/jp/app/ppkp/id6445910008",
       "tab": "Games",
       "section": "Featured",
-      "priority": 262,
+      "priority": 259,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 183
     },
     {
@@ -2572,11 +2755,12 @@
       "url": "https://apps.apple.com/jp/app/jet-dragon/id1621510770",
       "tab": "Games",
       "section": "Featured",
-      "priority": 263,
+      "priority": 260,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 184
     },
     {
@@ -2586,11 +2770,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%82%AF%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%9E%E3%83%9E-%E3%83%8C%E3%83%BC%E3%83%99%E3%83%AB%E3%82%AD%E3%83%A5%E3%82%A4%E3%82%B8%E3%83%BC%E3%83%8C/id1563901930",
       "tab": "Games",
       "section": "Featured",
-      "priority": 264,
+      "priority": 261,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 185
     },
     {
@@ -2600,11 +2785,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%83%E3%82%AF%E3%83%9E%E3%83%B3%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%AD%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AB/id1465543094",
       "tab": "Games",
       "section": "Featured",
-      "priority": 265,
+      "priority": 262,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 186
     },
     {
@@ -2614,11 +2800,12 @@
       "url": "https://apps.apple.com/jp/app/%E6%82%AA%E9%AD%94%E5%9F%8E%E3%83%89%E3%83%A9%E3%82%AD%E3%83%A5%E3%83%A9-grimoire-of-souls/id1552347138",
       "tab": "Games",
       "section": "Featured",
-      "priority": 266,
+      "priority": 263,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 187
     },
     {
@@ -2628,11 +2815,12 @@
       "url": "https://apps.apple.com/jp/app/%E7%99%BD%E7%8C%AB%E3%83%86%E3%83%8B%E3%82%B9/id1062497483",
       "tab": "Games",
       "section": "Featured",
-      "priority": 268,
+      "priority": 265,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 188
     },
     {
@@ -2642,11 +2830,12 @@
       "url": "https://apps.apple.com/jp/app/ping-pong-fury-table-tennis/id1484641433",
       "tab": "Games",
       "section": "Featured",
-      "priority": 269,
+      "priority": 266,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 189
     },
     {
@@ -2656,11 +2845,12 @@
       "url": "https://apps.apple.com/jp/app/nba-2k-mobile-%E6%90%BA%E5%B8%AF%E3%83%90%E3%82%B9%E3%82%B1%E3%82%B2%E3%83%BC%E3%83%A0/id1252850847",
       "tab": "Games",
       "section": "Featured",
-      "priority": 270,
+      "priority": 267,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 190
     },
     {
@@ -2670,11 +2860,12 @@
       "url": "https://apps.apple.com/jp/app/ea-sports-fc-mobile-%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC-2026/id1094930513",
       "tab": "Games",
       "section": "Featured",
-      "priority": 271,
+      "priority": 268,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 191
     },
     {
@@ -2684,11 +2875,12 @@
       "url": "https://apps.apple.com/jp/app/true-skate/id549105915",
       "tab": "Games",
       "section": "Featured",
-      "priority": 272,
+      "priority": 269,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 192
     },
     {
@@ -2698,11 +2890,12 @@
       "url": "https://apps.apple.com/jp/app/touchgrind-bmx-2/id1313179105",
       "tab": "Games",
       "section": "Featured",
-      "priority": 273,
+      "priority": 270,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 193
     },
     {
@@ -2712,11 +2905,12 @@
       "url": "https://apps.apple.com/jp/app/golf-rival/id1354796403",
       "tab": "Games",
       "section": "Featured",
-      "priority": 274,
+      "priority": 271,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 194
     },
     {
@@ -2726,11 +2920,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%AD%E3%83%86%E3%83%8B%E3%82%B9%E5%AF%BE%E6%88%A6-%E4%BA%8C%E4%BA%BA%E3%81%A7%E9%81%8A%E3%81%B9%E3%82%8B%E4%BA%BA%E6%B0%97%E3%83%A9%E3%82%A4%E3%83%96%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E3%82%B2%E3%83%BC%E3%83%A0/id1346179411",
       "tab": "Games",
       "section": "Featured",
-      "priority": 275,
+      "priority": 272,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 195
     },
     {
@@ -2740,11 +2935,12 @@
       "url": "https://apps.apple.com/jp/app/real-boxing-2/id932779605",
       "tab": "Games",
       "section": "Featured",
-      "priority": 276,
+      "priority": 273,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 196
     },
     {
@@ -2754,11 +2950,12 @@
       "url": "https://apps.apple.com/jp/app/badminton-clash-3d/id6444045683",
       "tab": "Games",
       "section": "Featured",
-      "priority": 277,
+      "priority": 274,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 197
     },
     {
@@ -2768,11 +2965,12 @@
       "url": "https://apps.apple.com/jp/app/archery-club/id1142166193",
       "tab": "Games",
       "section": "Featured",
-      "priority": 278,
+      "priority": 275,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 198
     },
     {
@@ -2782,11 +2980,12 @@
       "url": "https://apps.apple.com/jp/app/marvel-snap-%E3%83%9E%E3%83%BC%E3%83%99%E3%83%AB-%E3%82%B9%E3%83%8A%E3%83%83%E3%83%97/id1592081003",
       "tab": "Games",
       "section": "Featured",
-      "priority": 279,
+      "priority": 276,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 199
     },
     {
@@ -2796,11 +2995,12 @@
       "url": "https://apps.apple.com/jp/app/gris/id1445379072",
       "tab": "Games",
       "section": "Featured",
-      "priority": 281,
+      "priority": 278,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 200
     },
     {
@@ -2810,11 +3010,12 @@
       "url": "https://apps.apple.com/jp/app/moncage-%E7%AE%B1%E5%BA%AD%E3%83%8E%E5%A4%A2/id1587860402",
       "tab": "Games",
       "section": "Featured",
-      "priority": 282,
+      "priority": 279,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 201
     },
     {
@@ -2824,11 +3025,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%AA%E3%83%BC%E3%82%B0-%E3%82%AA%E3%83%96-%E3%83%AC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%89-%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89%E3%83%AA%E3%83%95%E3%83%88/id1480616990",
       "tab": "Games",
       "section": "Featured",
-      "priority": 283,
+      "priority": 280,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 202
     },
     {
@@ -2838,11 +3040,12 @@
       "url": "https://apps.apple.com/jp/app/%E9%A2%A8%E3%83%8E%E6%97%85%E3%83%93%E3%83%88-journey/id1445593893",
       "tab": "Games",
       "section": "Featured",
-      "priority": 284,
+      "priority": 281,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 203
     },
     {
@@ -2852,11 +3055,12 @@
       "url": "https://apps.apple.com/jp/app/townscaper/id1549531491",
       "tab": "Games",
       "section": "Featured",
-      "priority": 285,
+      "priority": 282,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 204
     },
     {
@@ -2866,11 +3070,12 @@
       "url": "https://apps.apple.com/jp/app/%E3%83%AC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%89-%E3%82%AA%E3%83%96-%E3%83%AB%E3%83%BC%E3%83%B3%E3%83%86%E3%83%A9/id1480617557",
       "tab": "Games",
       "section": "Featured",
-      "priority": 286,
+      "priority": 283,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 205
     },
     {
@@ -2880,11 +3085,12 @@
       "url": "https://apps.apple.com/jp/app/bad-north/id1367121168",
       "tab": "Games",
       "section": "Featured",
-      "priority": 288,
+      "priority": 285,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 206
     },
     {
@@ -2894,11 +3100,12 @@
       "url": "https://apps.apple.com/jp/app/what-remains-of-edith-finch/id1508051949",
       "tab": "Games",
       "section": "Featured",
-      "priority": 290,
+      "priority": 287,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
+      "banner": false,
       "rank": 207
     }
   ]

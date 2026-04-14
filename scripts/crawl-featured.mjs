@@ -74,7 +74,19 @@ async function getAppDetail(page, url) {
   } catch (e) { return { dev: "", genre: "" }; }
 }
 
-/* ═══════════════════════════════════════
+/* ═══ 상세 페이지에서 아이콘 보강 ═══ */
+async function getAppIcon(page) {
+  return await page.evaluate(() => {
+    // srcset에서 mzstatic 아이콘 찾기
+    const imgs = document.querySelectorAll('.app-icon img, picture source[srcset*="mzstatic"]');
+    for (const el of imgs) {
+      const ss = el.getAttribute("srcset") || el.getAttribute("src") || "";
+      const m = ss.match(/https:\/\/[^\s]*mzstatic\.com[^\s]*\d+x\d+[^\s]*/);
+      if (m) return m[0];
+    }
+    return "";
+  });
+}
    Games 탭 추출
    배너: shelf-grid Spotlight 안의 hero 카드
      → a[data-test-id="internal-link"][href*="/app/"]
@@ -87,26 +99,44 @@ async function extractGamesTab(page) {
     const apps = [];
     const seen = new Set();
 
+    // 아이콘 추출 헬퍼: src → srcset → source srcset 순으로 mzstatic URL 찾기
+    function getIcon(container) {
+      if (!container) return "";
+      // 1) src에 mzstatic이 있는 img
+      const img1 = container.querySelector('img[src*="mzstatic"]');
+      if (img1) return img1.getAttribute("src");
+      // 2) srcset에서 mzstatic URL 추출
+      const img2 = container.querySelector("img[srcset]");
+      if (img2) {
+        const ss = img2.getAttribute("srcset") || "";
+        const m = ss.match(/https:\/\/[^\s]*mzstatic[^\s]*/);
+        if (m) return m[0];
+      }
+      // 3) picture > source srcset
+      const src = container.querySelector("source[srcset*='mzstatic']");
+      if (src) {
+        const ss = src.getAttribute("srcset") || "";
+        const m = ss.match(/https:\/\/[^\s]*mzstatic[^\s]*/);
+        if (m) return m[0];
+      }
+      return "";
+    }
+
     // 1) 배너: hero 카드 (Spotlight shelf)
     const heroLinks = document.querySelectorAll('a[href*="/app/"]');
     heroLinks.forEach(el => {
       const href = el.getAttribute("href") || "";
       if (!href.includes("/app/")) return;
       const hero = el.querySelector('[data-test-id="hero"]');
-      if (!hero) return; // hero가 없으면 배너 아님
+      if (!hero) return;
 
-      // 앱 이름: h2 또는 aria-label
       let name = "";
       const h2 = el.querySelector("h2");
       if (h2) name = h2.textContent.trim();
       if (!name) name = el.getAttribute("aria-label")?.split(",")[0]?.trim() || "";
       if (!name || name.length < 2 || name.length > 40 || seen.has(name.toLowerCase())) return;
 
-      // 아이콘: lockup-container 안의 앱 아이콘
-      const iconEl = el.querySelector('.lockup-container img[src*="mzstatic"], .app-icon img[src*="mzstatic"]');
-      const icon = iconEl ? iconEl.getAttribute("src") || "" : "";
-
-      // eyebrow 배지 (예: "새로운 게임")
+      const icon = getIcon(el.querySelector(".lockup-container, .app-icon"));
       const eyebrowEl = el.querySelector(".eyebrow");
       const eyebrow = eyebrowEl ? eyebrowEl.textContent.trim() : "";
 
@@ -125,9 +155,7 @@ async function extractGamesTab(page) {
       if (!name) name = el.getAttribute("aria-label") || "";
       if (!name || name.length < 2 || name.length > 40 || seen.has(name.toLowerCase())) return;
 
-      const iconEl = el.querySelector('img[src*="mzstatic"]');
-      const icon = iconEl ? iconEl.getAttribute("src") || "" : "";
-
+      const icon = getIcon(el);
       seen.add(name.toLowerCase());
       apps.push({ name, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isBanner: false, eyebrow: "" });
     });
@@ -148,6 +176,17 @@ async function extractTodayTab(page) {
     const apps = [];
     const seen = new Set();
 
+    function getIcon(container) {
+      if (!container) return "";
+      const img1 = container.querySelector('img[src*="mzstatic"]');
+      if (img1) return img1.getAttribute("src");
+      const img2 = container.querySelector("img[srcset]");
+      if (img2) { const m = (img2.getAttribute("srcset")||"").match(/https:\/\/[^\s]*mzstatic[^\s]*/); if (m) return m[0]; }
+      const src = container.querySelector("source[srcset*='mzstatic']");
+      if (src) { const m = (src.getAttribute("srcset")||"").match(/https:\/\/[^\s]*mzstatic[^\s]*/); if (m) return m[0]; }
+      return "";
+    }
+
     // 1) 배너: small-lockup-item 안의 앱 링크
     const lockupLinks = document.querySelectorAll('.small-lockup-item a[href*="/app/"]');
     lockupLinks.forEach(el => {
@@ -156,14 +195,12 @@ async function extractTodayTab(page) {
       const name = el.getAttribute("aria-label") || "";
       if (!name || name.length < 2 || name.length > 40 || seen.has(name.toLowerCase())) return;
 
-      const iconEl = el.closest(".small-lockup-item")?.querySelector('img[src*="mzstatic"]');
-      const icon = iconEl ? iconEl.getAttribute("src") || "" : "";
-
+      const icon = getIcon(el.closest(".small-lockup-item"));
       seen.add(name.toLowerCase());
       apps.push({ name, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isBanner: true });
     });
 
-    // 2) 일반: h3를 가진 앱 링크 (게임 카테고리)
+    // 2) 일반: h3를 가진 앱 링크
     const allLinks = document.querySelectorAll('a[href*="/app/"]');
     allLinks.forEach(el => {
       const href = el.getAttribute("href") || "";
@@ -174,9 +211,7 @@ async function extractTodayTab(page) {
       if (!name) name = el.getAttribute("aria-label") || "";
       if (!name || name.length < 2 || name.length > 40 || seen.has(name.toLowerCase())) return;
 
-      const iconEl = el.querySelector('img[src*="mzstatic"]');
-      const icon = iconEl ? iconEl.getAttribute("src") || "" : "";
-
+      const icon = getIcon(el);
       seen.add(name.toLowerCase());
       apps.push({ name, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isBanner: false });
     });
@@ -255,7 +290,7 @@ async function crawlAppleStore(page, cc) {
     });
   } catch (e) { console.warn(`  [Today Error]`, e.message); }
 
-  // ─── 상세 페이지: 개발사 + 장르 ───
+  // ─── 상세 페이지: 개발사 + 장르 + 아이콘 보강 ───
   const n = Math.min(allApps.length, 30);
   console.log(`  [Detail] ${n} apps...`);
   for (let i = 0; i < n; i++) {
@@ -264,6 +299,11 @@ async function crawlAppleStore(page, cc) {
     const d = await getAppDetail(page, app.url);
     if (d.dev) { app.dev = d.dev; app.nexon = isNexon(d.dev); }
     if (d.genre) app.genre = toG(d.genre);
+    // 아이콘이 없거나 1x1.gif인 경우 상세 페이지에서 보강
+    if (!app.icon || app.icon.includes("1x1.gif") || !app.icon.includes("mzstatic")) {
+      const fallbackIcon = await getAppIcon(page);
+      if (fallbackIcon) app.icon = fallbackIcon;
+    }
     if (i % 5 === 0 && i > 0) console.log(`    ${i}/${n}`);
     await new Promise(r => setTimeout(r, 300));
   }

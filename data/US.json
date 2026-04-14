@@ -1,11 +1,11 @@
 {
   "country": "US",
   "date": "2026-04-14",
-  "updated": "2026-04-14T01:25:34.220Z",
+  "updated": "2026-04-14T01:40:23.637Z",
   "apple": [
     {
       "name": "Mind the Door",
-      "dev": "",
+      "dev": "Developer  Mind Wasted",
       "icon": "",
       "url": "https://apps.apple.com/us/app/mind-the-door/id6758810058",
       "tab": "Games",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Jetpack Joyride Racing",
-      "dev": "",
+      "dev": "Developer     Halfbrick Studios",
       "icon": "",
       "url": "https://apps.apple.com/us/app/jetpack-joyride-racing/id6740550251",
       "tab": "Games",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Pixel Flow!",
-      "dev": "",
+      "dev": "Developer  Loom Games Oyun Yazilim ve Pazarlama Anonim Sirketi",
       "icon": "",
       "url": "https://apps.apple.com/us/app/pixel-flow/id6751056652",
       "tab": "Games",
@@ -65,7 +65,7 @@
     },
     {
       "name": "Roblox",
-      "dev": "",
+      "dev": "Developer  Roblox Corporation",
       "icon": "",
       "url": "https://apps.apple.com/us/app/roblox/id431946152",
       "tab": "Games",
@@ -80,7 +80,7 @@
     },
     {
       "name": "Fallout Shelter",
-      "dev": "",
+      "dev": "Developer  Bethesda",
       "icon": "",
       "url": "https://apps.apple.com/us/app/fallout-shelter/id991153141",
       "tab": "Games",
@@ -95,7 +95,7 @@
     },
     {
       "name": "Royal Kingdom",
-      "dev": "",
+      "dev": "Developer  Dream Games",
       "icon": "",
       "url": "https://apps.apple.com/us/app/royal-kingdom/id1606549505",
       "tab": "Games",
@@ -110,7 +110,7 @@
     },
     {
       "name": "Subway Surfers",
-      "dev": "",
+      "dev": "Developer     Sybo Games ApS",
       "icon": "",
       "url": "https://apps.apple.com/us/app/subway-surfers/id512939461",
       "tab": "Games",
@@ -125,7 +125,7 @@
     },
     {
       "name": "Rainbow Six Mobile",
-      "dev": "",
+      "dev": "Developer  Ubisoft Nova",
       "icon": "",
       "url": "https://apps.apple.com/us/app/rainbow-six-mobile/id1608916511",
       "tab": "Games",
@@ -140,7 +140,7 @@
     },
     {
       "name": "Subway Surfers City",
-      "dev": "",
+      "dev": "Developer     Sybo Games ApS",
       "icon": "",
       "url": "https://apps.apple.com/us/app/subway-surfers-city/id6504188939",
       "tab": "Games",
@@ -155,7 +155,7 @@
     },
     {
       "name": "Wittle Defender",
-      "dev": "",
+      "dev": "Developer  HABBY",
       "icon": "",
       "url": "https://apps.apple.com/us/app/wittle-defender/id6502815032",
       "tab": "Games",
@@ -170,7 +170,7 @@
     },
     {
       "name": "MONOPOLY GO!",
-      "dev": "",
+      "dev": "Developer     Scopely, Inc.",
       "icon": "",
       "url": "https://apps.apple.com/us/app/monopoly-go/id1621328561",
       "tab": "Games",
@@ -185,7 +185,7 @@
     },
     {
       "name": "MapleStory : Idle RPG",
-      "dev": "",
+      "dev": "Developer  NEXON Company",
       "icon": "",
       "url": "https://apps.apple.com/us/app/maplestory-idle-rpg/id6739616715",
       "tab": "Games",
@@ -194,13 +194,13 @@
       "genre": "",
       "rating": 0,
       "category": "Games",
-      "nexon": false,
+      "nexon": true,
       "banner": false,
       "rank": 13
     },
     {
       "name": "Call of Duty®: Mobile",
-      "dev": "",
+      "dev": "Developer  Activision Publishing, Inc.",
       "icon": "",
       "url": "https://apps.apple.com/us/app/call-of-duty-mobile/id1287282214",
       "tab": "Games",
@@ -215,7 +215,7 @@
     },
     {
       "name": "Archero 2",
-      "dev": "",
+      "dev": "Developer  HABBY",
       "icon": "",
       "url": "https://apps.apple.com/us/app/archero-2/id6502820653",
       "tab": "Games",
@@ -230,7 +230,7 @@
     },
     {
       "name": "Clash Royale",
-      "dev": "",
+      "dev": "Developer  Supercell",
       "icon": "",
       "url": "https://apps.apple.com/us/app/clash-royale/id1053012308",
       "tab": "Games",
@@ -245,7 +245,7 @@
     },
     {
       "name": "Magic: The Gathering Arena",
-      "dev": "",
+      "dev": "Developer  Wizards of the Coast",
       "icon": "",
       "url": "https://apps.apple.com/us/app/magic-the-gathering-arena/id1496227521",
       "tab": "Games",
@@ -260,7 +260,7 @@
     },
     {
       "name": "PUBG MOBILE",
-      "dev": "",
+      "dev": "Developer  Tencent Mobile International Limited",
       "icon": "",
       "url": "https://apps.apple.com/us/app/pubg-mobile/id1330123889",
       "tab": "Games",
@@ -275,7 +275,7 @@
     },
     {
       "name": "Travel Town - Merge Adventure",
-      "dev": "",
+      "dev": "Developer  Moon Active",
       "icon": "",
       "url": "https://apps.apple.com/us/app/travel-town-merge-adventure/id1521236603",
       "tab": "Games",
@@ -290,7 +290,7 @@
     },
     {
       "name": "Free Fire: Undersea Mystery",
-      "dev": "",
+      "dev": "Developer  GARENA INTERNATIONAL I PRIVATE LIMITED",
       "icon": "",
       "url": "https://apps.apple.com/us/app/free-fire-undersea-mystery/id1300146617",
       "tab": "Games",
@@ -305,7 +305,7 @@
     },
     {
       "name": "Disney Solitaire",
-      "dev": "",
+      "dev": "Developer  SuperPlay",
       "icon": "",
       "url": "https://apps.apple.com/us/app/disney-solitaire/id6475757306",
       "tab": "Games",
@@ -320,7 +320,7 @@
     },
     {
       "name": "Brawl Stars",
-      "dev": "",
+      "dev": "Developer  Supercell",
       "icon": "",
       "url": "https://apps.apple.com/us/app/brawl-stars/id1229016807",
       "tab": "Games",
@@ -335,7 +335,7 @@
     },
     {
       "name": "Seaside Escape®: Merge & Story",
-      "dev": "",
+      "dev": "Developer  Microfun Limited",
       "icon": "",
       "url": "https://apps.apple.com/us/app/seaside-escape-merge-story/id6443755785",
       "tab": "Games",
@@ -350,7 +350,7 @@
     },
     {
       "name": "Match Factory!",
-      "dev": "",
+      "dev": "Developer  Peak Games",
       "icon": "",
       "url": "https://apps.apple.com/us/app/match-factory/id6449094229",
       "tab": "Games",
@@ -365,7 +365,7 @@
     },
     {
       "name": "The Sims™ FreePlay",
-      "dev": "",
+      "dev": "Developer     Electronic Arts",
       "icon": "",
       "url": "https://apps.apple.com/us/app/the-sims-freeplay/id466965151",
       "tab": "Games",
@@ -380,7 +380,7 @@
     },
     {
       "name": "RAID: Shadow Legends",
-      "dev": "",
+      "dev": "Developer  Plarium Global Ltd",
       "icon": "",
       "url": "https://apps.apple.com/us/app/raid-shadow-legends/id1371565796",
       "tab": "Games",
@@ -395,7 +395,7 @@
     },
     {
       "name": "Solo Leveling:Arise",
-      "dev": "",
+      "dev": "Developer  Netmarble Corporation",
       "icon": "",
       "url": "https://apps.apple.com/us/app/solo-leveling-arise/id1662742277",
       "tab": "Games",
@@ -410,7 +410,7 @@
     },
     {
       "name": "Sea of Stars",
-      "dev": "",
+      "dev": "Developer     Playdigious",
       "icon": "",
       "url": "https://apps.apple.com/us/app/sea-of-stars/id6673906410",
       "tab": "Games",
@@ -425,7 +425,7 @@
     },
     {
       "name": "Alien Morgue",
-      "dev": "",
+      "dev": "Developer  ARTEM GUMENNIKOV",
       "icon": "",
       "url": "https://apps.apple.com/us/app/alien-morgue/id6760113695",
       "tab": "Games",
@@ -440,7 +440,7 @@
     },
     {
       "name": "Dragon Ruins I",
-      "dev": "",
+      "dev": "Developer  Kotobuki Solution Co., Ltd.",
       "icon": "",
       "url": "https://apps.apple.com/us/app/dragon-ruins-i/id6759590978",
       "tab": "Games",
@@ -514,10 +514,10 @@
       "rank": 34
     },
     {
-      "name": "ChatGPT",
+      "name": "Peacock TV: Stream TV & Movies",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/chatgpt/id6448311069",
+      "url": "https://apps.apple.com/us/app/peacock-tv-stream-tv-movies/id1508186374",
       "tab": "Today",
       "section": "배너",
       "priority": 50,
@@ -544,10 +544,10 @@
       "rank": 36
     },
     {
-      "name": "Peacock TV: Stream TV & Movies",
+      "name": "Snapchat",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/peacock-tv-stream-tv-movies/id1508186374",
+      "url": "https://apps.apple.com/us/app/snapchat/id447188370",
       "tab": "Today",
       "section": "배너",
       "priority": 51,
@@ -574,10 +574,10 @@
       "rank": 38
     },
     {
-      "name": "Good Coffee, Great Coffee",
+      "name": "Apple TV",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/good-coffee-great-coffee/id1603584945",
+      "url": "https://apps.apple.com/us/app/apple-tv/id1174078549",
       "tab": "Today",
       "section": "배너",
       "priority": 52,
@@ -619,10 +619,10 @@
       "rank": 41
     },
     {
-      "name": "SmartGym: Gym & Home Workouts",
+      "name": "Strava: Run, Bike, Walk",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/smartgym-gym-home-workouts/id922744883",
+      "url": "https://apps.apple.com/us/app/strava-run-bike-walk/id426826309",
       "tab": "Today",
       "section": "배너",
       "priority": 54,
@@ -679,10 +679,10 @@
       "rank": 45
     },
     {
-      "name": "FitOn Workouts & Fitness Plans",
+      "name": "MyFitnessPal: Calorie Counter",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/fiton-workouts-fitness-plans/id1442473191",
+      "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718",
       "tab": "Today",
       "section": "배너",
       "priority": 56,
@@ -739,21 +739,6 @@
       "rank": 49
     },
     {
-      "name": "Tavern Tale",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/us/app/tavern-tale/id6453690579",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 58,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 50
-    },
-    {
       "name": "Rift Riff",
       "dev": "",
       "icon": "",
@@ -766,13 +751,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 51
+      "rank": 50
     },
     {
-      "name": "Duck Detective: Ghost Glamping",
+      "name": "Gumball 3000: World Tour Race",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/duck-detective-ghost-glamping/id6751124234",
+      "url": "https://apps.apple.com/us/app/gumball-3000-world-tour-race/id6526463931",
       "tab": "Today",
       "section": "배너",
       "priority": 59,
@@ -781,7 +766,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 52
+      "rank": 51
     },
     {
       "name": "Cat Quest III",
@@ -796,13 +781,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 53
+      "rank": 52
     },
     {
-      "name": "PolyPine",
+      "name": "MicroMacro: Downtown Detective",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/polypine/id6572290468",
+      "url": "https://apps.apple.com/us/app/micromacro-downtown-detective/id6639613950",
       "tab": "Today",
       "section": "배너",
       "priority": 60,
@@ -811,7 +796,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 54
+      "rank": 53
     },
     {
       "name": "Enter the Gungeon",
@@ -826,7 +811,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 55
+      "rank": 54
     },
     {
       "name": "lumen.",
@@ -841,7 +826,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 56
+      "rank": 55
     },
     {
       "name": "TOEM: A Photo Adventure",
@@ -856,7 +841,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 57
+      "rank": 56
     },
     {
       "name": "Flipd: focus & study timer",
@@ -871,7 +856,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 58
+      "rank": 57
     },
     {
       "name": "Timelie",
@@ -886,13 +871,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 59
+      "rank": 58
     },
     {
-      "name": "Paramount+",
+      "name": "Tetris®",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/paramount/id530168168",
+      "url": "https://apps.apple.com/us/app/tetris/id1491074310",
       "tab": "Today",
       "section": "배너",
       "priority": 63,
@@ -901,7 +886,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 60
+      "rank": 59
     },
     {
       "name": "Pine Hearts",
@@ -916,13 +901,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 61
+      "rank": 60
     },
     {
-      "name": "Apple TV",
+      "name": "Griptape: Skateboarding",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/apple-tv/id1174078549",
+      "url": "https://apps.apple.com/us/app/griptape-skateboarding/id6743356134",
       "tab": "Today",
       "section": "배너",
       "priority": 64,
@@ -931,7 +916,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 62
+      "rank": 61
     },
     {
       "name": "Bloomtown: A Different Story",
@@ -946,13 +931,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 63
+      "rank": 62
     },
     {
-      "name": "InShot - Video Editor",
+      "name": "(Not Boring) Camera",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/inshot-video-editor/id997362197",
+      "url": "https://apps.apple.com/us/app/not-boring-camera/id6737783441",
       "tab": "Today",
       "section": "배너",
       "priority": 65,
@@ -961,7 +946,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 64
+      "rank": 63
     },
     {
       "name": "Spooky Express",
@@ -976,13 +961,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 65
+      "rank": 64
     },
     {
-      "name": "Prêt à Makeup",
+      "name": "Video Effects Editor: Riveo",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/pr%C3%AAt-%C3%A0-makeup/id1434594204",
+      "url": "https://apps.apple.com/us/app/video-effects-editor-riveo/id1546053158",
       "tab": "Today",
       "section": "배너",
       "priority": 66,
@@ -991,7 +976,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 66
+      "rank": 65
     },
     {
       "name": "Snufkin Melody of Moominvalley",
@@ -1006,13 +991,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 67
+      "rank": 66
     },
     {
-      "name": "#DRIVE Rally",
+      "name": "Procreate",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/drive-rally/id1573843243",
+      "url": "https://apps.apple.com/us/app/procreate/id425073498?platform=iphone",
       "tab": "Today",
       "section": "배너",
       "priority": 67,
@@ -1021,7 +1006,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 68
+      "rank": 67
     },
     {
       "name": "Chants of Sennaar",
@@ -1036,13 +1021,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 69
+      "rank": 68
     },
     {
-      "name": "America's Test Kitchen",
+      "name": "#DRIVE Rally",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/americas-test-kitchen/id1365223384",
+      "url": "https://apps.apple.com/us/app/drive-rally/id1573843243",
       "tab": "Today",
       "section": "배너",
       "priority": 68,
@@ -1051,7 +1036,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 70
+      "rank": 69
     },
     {
       "name": "Free Fire MAX",
@@ -1066,13 +1051,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 71
+      "rank": 70
     },
     {
-      "name": "Baseball Hits 26",
+      "name": "America's Test Kitchen",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/baseball-hits-26/id6736774022",
+      "url": "https://apps.apple.com/us/app/americas-test-kitchen/id1365223384",
       "tab": "Today",
       "section": "배너",
       "priority": 69,
@@ -1081,7 +1066,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 72
+      "rank": 71
     },
     {
       "name": "Hexa Away",
@@ -1096,13 +1081,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 73
+      "rank": 72
     },
     {
-      "name": "Gem - Search Vintage",
+      "name": "Baseball Hits 26",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/gem-search-vintage/id1459900557",
+      "url": "https://apps.apple.com/us/app/baseball-hits-26/id6736774022",
       "tab": "Today",
       "section": "배너",
       "priority": 70,
@@ -1111,13 +1096,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 74
+      "rank": 73
     },
     {
-      "name": "Strava: Run, Bike, Walk",
+      "name": "AllTrails: Hike, Bike & Run",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/strava-run-bike-walk/id426826309",
+      "url": "https://apps.apple.com/us/app/alltrails-hike-bike-run/id405075943",
       "tab": "Today",
       "section": "Featured",
       "priority": 70,
@@ -1126,7 +1111,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 75
+      "rank": 74
     },
     {
       "name": "Design Home™: House Makeover",
@@ -1141,13 +1126,28 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
+      "rank": 75
+    },
+    {
+      "name": "Gem - Search Vintage",
+      "dev": "",
+      "icon": "",
+      "url": "https://apps.apple.com/us/app/gem-search-vintage/id1459900557",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 71,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
       "rank": 76
     },
     {
-      "name": "AllTrails: Hike, Bike & Run",
+      "name": "Gentler Streak Workout Tracker",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/alltrails-hike-bike-run/id405075943",
+      "url": "https://apps.apple.com/us/app/gentler-streak-workout-tracker/id1576857102",
       "tab": "Today",
       "section": "Featured",
       "priority": 71,
@@ -1174,10 +1174,10 @@
       "rank": 78
     },
     {
-      "name": "Gentler Streak Workout Tracker",
+      "name": "Sweat: Fitness App For Women",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/gentler-streak-workout-tracker/id1576857102",
+      "url": "https://apps.apple.com/us/app/sweat-fitness-app-for-women/id1049234587",
       "tab": "Today",
       "section": "Featured",
       "priority": 72,
@@ -1204,10 +1204,10 @@
       "rank": 80
     },
     {
-      "name": "Sweat: Fitness App For Women",
+      "name": "Wakeout! Desk Stretch & Energy",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/us/app/sweat-fitness-app-for-women/id1049234587",
+      "url": "https://apps.apple.com/us/app/wakeout-desk-stretch-energy/id1242116567",
       "tab": "Today",
       "section": "Featured",
       "priority": 73,
@@ -1234,21 +1234,6 @@
       "rank": 82
     },
     {
-      "name": "Wakeout! Desk Stretch & Energy",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/us/app/wakeout-desk-stretch-energy/id1242116567",
-      "tab": "Today",
-      "section": "Featured",
-      "priority": 74,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 83
-    },
-    {
       "name": "Block Blast！",
       "dev": "",
       "icon": "",
@@ -1261,7 +1246,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 84
+      "rank": 83
     },
     {
       "name": "Jewel Coloring",
@@ -1276,7 +1261,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 85
+      "rank": 84
     },
     {
       "name": "Vita Mahjong",
@@ -1291,7 +1276,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 86
+      "rank": 85
     },
     {
       "name": "Minecraft: Dream it, Build it!",
@@ -1306,7 +1291,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 87
+      "rank": 86
     },
     {
       "name": "Geometry Dash",
@@ -1321,7 +1306,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 88
+      "rank": 87
     },
     {
       "name": "Plague Inc.",
@@ -1336,7 +1321,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 89
+      "rank": 88
     },
     {
       "name": "Heads Up!",
@@ -1351,7 +1336,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 90
+      "rank": 89
     },
     {
       "name": "Bloons TD 6",
@@ -1366,7 +1351,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 91
+      "rank": 90
     },
     {
       "name": "Slay the Spire",
@@ -1381,7 +1366,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 92
+      "rank": 91
     },
     {
       "name": "Balatro",
@@ -1396,7 +1381,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 93
+      "rank": 92
     },
     {
       "name": "AERTHLINGS: RPG Adventure",
@@ -1411,7 +1396,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 94
+      "rank": 93
     },
     {
       "name": "Ice Bot: Sliding Block Puzzle",
@@ -1426,7 +1411,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 95
+      "rank": 94
     },
     {
       "name": "The Division Resurgence",
@@ -1441,7 +1426,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 96
+      "rank": 95
     },
     {
       "name": "PARANORMASIGHT: TMC",
@@ -1456,7 +1441,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 97
+      "rank": 96
     },
     {
       "name": "Sea Fantasy",
@@ -1471,7 +1456,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 98
+      "rank": 97
     },
     {
       "name": "Clay Jam Classic",
@@ -1486,7 +1471,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 99
+      "rank": 98
     },
     {
       "name": "Ultimate Golf!",
@@ -1501,7 +1486,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 100
+      "rank": 99
     },
     {
       "name": "War Robots Multiplayer Battles",
@@ -1516,7 +1501,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 101
+      "rank": 100
     },
     {
       "name": "Duet Night Abyss",
@@ -1531,7 +1516,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 102
+      "rank": 101
     },
     {
       "name": "Shadowborn",
@@ -1546,7 +1531,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 103
+      "rank": 102
     },
     {
       "name": "Sonic Rumble Party",
@@ -1561,7 +1546,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 104
+      "rank": 103
     },
     {
       "name": "8 Ball Pool™",
@@ -1576,7 +1561,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 105
+      "rank": 104
     },
     {
       "name": "Disney Speedstorm",
@@ -1591,7 +1576,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 106
+      "rank": 105
     },
     {
       "name": "Temple Run 2: Endless Escape",
@@ -1606,7 +1591,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 107
+      "rank": 106
     },
     {
       "name": "Sky: Children of the Light",
@@ -1621,7 +1606,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 108
+      "rank": 107
     },
     {
       "name": "TownsFolk",
@@ -1636,7 +1621,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 109
+      "rank": 108
     },
     {
       "name": "Pokémon Sleep",
@@ -1651,7 +1636,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 110
+      "rank": 109
     },
     {
       "name": "Merchant of the Skies",
@@ -1666,7 +1651,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 111
+      "rank": 110
     },
     {
       "name": "Bacon in Zane",
@@ -1681,7 +1666,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 112
+      "rank": 111
     },
     {
       "name": "Factory Balls Go!",
@@ -1696,7 +1681,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 113
+      "rank": 112
     },
     {
       "name": "Dicero!",
@@ -1711,7 +1696,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 114
+      "rank": 113
     },
     {
       "name": "Beholder: Conductor",
@@ -1726,7 +1711,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 115
+      "rank": 114
     },
     {
       "name": "NTE: Neverness to Everness",
@@ -1741,7 +1726,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 116
+      "rank": 115
     },
     {
       "name": "Pepp Heroes: Relic Quest",
@@ -1756,7 +1741,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 117
+      "rank": 116
     },
     {
       "name": "Gambonanza",
@@ -1771,7 +1756,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 118
+      "rank": 117
     },
     {
       "name": "Pond Pals",
@@ -1786,7 +1771,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 119
+      "rank": 118
     },
     {
       "name": "Slime Rancher",
@@ -1801,7 +1786,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 120
+      "rank": 119
     },
     {
       "name": "Game of Thrones: Dragonfire",
@@ -1816,7 +1801,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 121
+      "rank": 120
     },
     {
       "name": "Super Mario Run",
@@ -1831,7 +1816,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 122
+      "rank": 121
     },
     {
       "name": "Flip Diving",
@@ -1846,7 +1831,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 123
+      "rank": 122
     },
     {
       "name": "My Talking Tom 2",
@@ -1861,7 +1846,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 124
+      "rank": 123
     },
     {
       "name": "Hello Neighbor",
@@ -1876,7 +1861,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 125
+      "rank": 124
     },
     {
       "name": "Solar Smash",
@@ -1891,7 +1876,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 126
+      "rank": 125
     },
     {
       "name": "The Baby In Yellow",
@@ -1906,7 +1891,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 127
+      "rank": 126
     },
     {
       "name": "Avatar World ®",
@@ -1921,7 +1906,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 128
+      "rank": 127
     },
     {
       "name": "Bad Credit? No Problem!",
@@ -1936,7 +1921,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 129
+      "rank": 128
     },
     {
       "name": "Traffic Rider",
@@ -1951,7 +1936,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 130
+      "rank": 129
     },
     {
       "name": "Smash Hit",
@@ -1966,7 +1951,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 131
+      "rank": 130
     },
     {
       "name": "Where's My Water? 2",
@@ -1981,7 +1966,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 132
+      "rank": 131
     },
     {
       "name": "Wordscapes - Word Game",
@@ -1996,7 +1981,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 133
+      "rank": 132
     },
     {
       "name": "Flow Free",
@@ -2011,7 +1996,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 134
+      "rank": 133
     },
     {
       "name": "Plants vs. Zombies™",
@@ -2026,7 +2011,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 135
+      "rank": 134
     },
     {
       "name": "Angry Birds Friends",
@@ -2041,7 +2026,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 136
+      "rank": 135
     },
     {
       "name": "Doodle Jump - Insanely Good!",
@@ -2056,7 +2041,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 137
+      "rank": 136
     },
     {
       "name": "Cut the Rope: Physics Puzzle",
@@ -2071,7 +2056,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 138
+      "rank": 137
     },
     {
       "name": "Kingdom Rush Tower Defense TD",
@@ -2086,7 +2071,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 139
+      "rank": 138
     },
     {
       "name": "Fruit Ninja®",
@@ -2101,7 +2086,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 140
+      "rank": 139
     },
     {
       "name": "Dumb Ways to Die",
@@ -2116,7 +2101,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 141
+      "rank": 140
     },
     {
       "name": "Solitaire",
@@ -2131,7 +2116,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 142
+      "rank": 141
     },
     {
       "name": "Age of Zombies®",
@@ -2146,7 +2131,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 143
+      "rank": 142
     },
     {
       "name": "Bejeweled Blitz",
@@ -2161,7 +2146,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 144
+      "rank": 143
     },
     {
       "name": "Burrito Bison: Launcha Libre",
@@ -2176,7 +2161,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 145
+      "rank": 144
     },
     {
       "name": "MARVEL SNAP - Hero Card Game",
@@ -2191,7 +2176,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 146
+      "rank": 145
     },
     {
       "name": "Bullet Echo: PVP Shooter",
@@ -2206,7 +2191,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 147
+      "rank": 146
     },
     {
       "name": "Golf Blitz",
@@ -2221,7 +2206,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 148
+      "rank": 147
     },
     {
       "name": "Among Us!",
@@ -2236,7 +2221,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 149
+      "rank": 148
     },
     {
       "name": "GamePigeon",
@@ -2251,7 +2236,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 150
+      "rank": 149
     },
     {
       "name": "Rumble Club",
@@ -2266,7 +2251,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 151
+      "rank": 150
     },
     {
       "name": "Eggy Party",
@@ -2281,7 +2266,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 152
+      "rank": 151
     },
     {
       "name": "Good Pizza, Great Pizza",
@@ -2296,7 +2281,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 153
+      "rank": 152
     },
     {
       "name": "Blackbox",
@@ -2311,7 +2296,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 154
+      "rank": 153
     },
     {
       "name": "Automatoys",
@@ -2326,7 +2311,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 155
+      "rank": 154
     },
     {
       "name": "Retro Bowl",
@@ -2341,7 +2326,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 156
+      "rank": 155
     },
     {
       "name": "Vampire Survivors",
@@ -2356,7 +2341,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 157
+      "rank": 156
     },
     {
       "name": "Bacon – The Game",
@@ -2371,7 +2356,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 158
+      "rank": 157
     },
     {
       "name": "Crossy Road",
@@ -2386,7 +2371,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 159
+      "rank": 158
     },
     {
       "name": "Solitaire Grand Harvest",
@@ -2401,7 +2386,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 160
+      "rank": 159
     },
     {
       "name": "Merge Dragons!",
@@ -2416,7 +2401,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 161
+      "rank": 160
     },
     {
       "name": "Clusterduck",
@@ -2431,7 +2416,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 162
+      "rank": 161
     },
     {
       "name": "Candy Crush Saga",
@@ -2446,7 +2431,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 163
+      "rank": 162
     },
     {
       "name": "Archero",
@@ -2461,7 +2446,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 164
+      "rank": 163
     },
     {
       "name": "Level Devil - NOT A Troll Game",
@@ -2476,7 +2461,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 165
+      "rank": 164
     },
     {
       "name": "Egg Goes Right",
@@ -2491,7 +2476,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 166
+      "rank": 165
     },
     {
       "name": "A Slight Chance of Sawblades",
@@ -2506,7 +2491,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 167
+      "rank": 166
     },
     {
       "name": "CloverPit",
@@ -2521,7 +2506,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 168
+      "rank": 167
     },
     {
       "name": "Assassin's Creed Mirage",
@@ -2536,7 +2521,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 169
+      "rank": 168
     },
     {
       "name": "Warframe",
@@ -2551,7 +2536,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 170
+      "rank": 169
     },
     {
       "name": "Totally Reliable Delivery",
@@ -2566,7 +2551,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 171
+      "rank": 170
     },
     {
       "name": "Resident Evil 4",
@@ -2581,7 +2566,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 172
+      "rank": 171
     },
     {
       "name": "Bugsnax",
@@ -2596,7 +2581,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 173
+      "rank": 172
     },
     {
       "name": "RESIDENT EVIL 7 biohazard",
@@ -2611,7 +2596,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 174
+      "rank": 173
     },
     {
       "name": "Resident Evil Village",
@@ -2626,7 +2611,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 175
+      "rank": 174
     },
     {
       "name": "Diablo Immortal",
@@ -2641,7 +2626,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 176
+      "rank": 175
     },
     {
       "name": "DEATH STRANDING DIRECTOR'S CUT",
@@ -2656,7 +2641,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 177
+      "rank": 176
     },
     {
       "name": "Brotato",
@@ -2671,7 +2656,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 178
+      "rank": 177
     },
     {
       "name": "Daily Dadish",
@@ -2686,7 +2671,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 179
+      "rank": 178
     },
     {
       "name": "Drive, Not Dive",
@@ -2701,7 +2686,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 180
+      "rank": 179
     },
     {
       "name": "Hungry Shark World",
@@ -2716,7 +2701,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 181
+      "rank": 180
     },
     {
       "name": "PAC-MAN 256 - Arcade Run",
@@ -2731,7 +2716,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 182
+      "rank": 181
     },
     {
       "name": "Plants vs. Zombies™ 2",
@@ -2746,7 +2731,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 183
+      "rank": 182
     },
     {
       "name": "Steppy Pants",
@@ -2761,7 +2746,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 184
+      "rank": 183
     },
     {
       "name": "Daddy Long Legs",
@@ -2776,7 +2761,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 185
+      "rank": 184
     },
     {
       "name": "Zombie Highway 2",
@@ -2791,7 +2776,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 186
+      "rank": 185
     },
     {
       "name": "Doofus Drop",
@@ -2806,7 +2791,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 187
+      "rank": 186
     },
     {
       "name": "Scrap Divers",
@@ -2821,7 +2806,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 188
+      "rank": 187
     },
     {
       "name": "Unicycle Hero",
@@ -2836,7 +2821,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 189
+      "rank": 188
     },
     {
       "name": "Wavelength",
@@ -2851,7 +2836,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 190
+      "rank": 189
     },
     {
       "name": "Family Style: Co-op Kitchen",
@@ -2866,7 +2851,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 191
+      "rank": 190
     },
     {
       "name": "2 Player Games : Offline Games",
@@ -2881,7 +2866,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 192
+      "rank": 191
     },
     {
       "name": "Bloons TD Battles 2",
@@ -2896,7 +2881,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 193
+      "rank": 192
     },
     {
       "name": "UNO!™",
@@ -2911,7 +2896,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 194
+      "rank": 193
     },
     {
       "name": "Ultimate Chicken Horse",
@@ -2926,7 +2911,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 195
+      "rank": 194
     },
     {
       "name": "Fire Emblem Shadows",
@@ -2941,7 +2926,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 196
+      "rank": 195
     },
     {
       "name": "Exploding Kittens® 2",
@@ -2956,7 +2941,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 197
+      "rank": 196
     },
     {
       "name": "Guncho",
@@ -2971,7 +2956,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 198
+      "rank": 197
     },
     {
       "name": "Rogue Words",
@@ -2986,7 +2971,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 199
+      "rank": 198
     },
     {
       "name": "DREDGE",
@@ -3001,7 +2986,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 200
+      "rank": 199
     },
     {
       "name": "Expelled!",
@@ -3016,7 +3001,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 201
+      "rank": 200
     },
     {
       "name": "Carrion",
@@ -3031,7 +3016,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 202
+      "rank": 201
     },
     {
       "name": "Infinity Nikki",
@@ -3046,7 +3031,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 203
+      "rank": 202
     },
     {
       "name": "Stardew Valley",
@@ -3061,7 +3046,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 204
+      "rank": 203
     },
     {
       "name": "A Little to the Left",
@@ -3076,7 +3061,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 205
+      "rank": 204
     },
     {
       "name": "The Stanley Parable: UD",
@@ -3091,7 +3076,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 206
+      "rank": 205
     },
     {
       "name": "32 Secs: Traffic Rider",
@@ -3106,7 +3091,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 207
+      "rank": 206
     },
     {
       "name": "Mini Mini Farm",
@@ -3121,7 +3106,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 208
+      "rank": 207
     },
     {
       "name": "Pluck It: hairs and emotions",
@@ -3136,7 +3121,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 209
+      "rank": 208
     },
     {
       "name": "Sundae Picnic",
@@ -3151,7 +3136,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 210
+      "rank": 209
     },
     {
       "name": "here - a puzzle game",
@@ -3166,7 +3151,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 211
+      "rank": 210
     },
     {
       "name": "Ducklings!",
@@ -3181,7 +3166,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 212
+      "rank": 211
     },
     {
       "name": "That Level Again",
@@ -3196,7 +3181,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 213
+      "rank": 212
     },
     {
       "name": "Balance Stuff",
@@ -3211,7 +3196,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 214
+      "rank": 213
     },
     {
       "name": "Fury Roads Survivor",
@@ -3226,7 +3211,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 215
+      "rank": 214
     },
     {
       "name": "Aliens Drive Me Crazy",
@@ -3241,7 +3226,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 216
+      "rank": 215
     },
     {
       "name": "Particle Escape",
@@ -3256,7 +3241,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 217
+      "rank": 216
     },
     {
       "name": "Star Jolt: Retro Space Arcade",
@@ -3271,7 +3256,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 218
+      "rank": 217
     },
     {
       "name": "Epic Orchestra",
@@ -3286,7 +3271,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 219
+      "rank": 218
     }
   ]
 }

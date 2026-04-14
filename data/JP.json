@@ -1,7 +1,7 @@
 {
   "country": "JP",
   "date": "2026-04-14",
-  "updated": "2026-04-14T01:24:54.084Z",
+  "updated": "2026-04-14T01:39:05.669Z",
   "apple": [
     {
       "name": "怪獣８号 THE GAME",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Card Crawl 2",
-      "dev": "",
+      "dev": "デベロッパ  Arnold Rauers",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/card-crawl-2/id6744351421",
       "tab": "Games",
@@ -35,7 +35,7 @@
     },
     {
       "name": "Easy Delivery Co.",
-      "dev": "",
+      "dev": "デベロッパ  Doghowl Games Ltd.",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/easy-delivery-co/id6753945058",
       "tab": "Games",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Jurassic World アライブ!",
-      "dev": "",
+      "dev": "デベロッパ  Ludia Games inc.",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/jurassic-world-%E3%82%A2%E3%83%A9%E3%82%A4%E3%83%96/id1231085864",
       "tab": "Games",
@@ -65,7 +65,7 @@
     },
     {
       "name": "The Division Resurgence",
-      "dev": "",
+      "dev": "デベロッパ     Ubisoft",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/the-division-resurgence/id1606349410",
       "tab": "Games",
@@ -80,7 +80,7 @@
     },
     {
       "name": "シーファンタジー / Sea Fantasy",
-      "dev": "",
+      "dev": "デベロッパ  YOSHIYUKI NAKASHIMA",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%BC%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%83%BC-sea-fantasy/id6753211881",
       "tab": "Games",
@@ -95,7 +95,7 @@
     },
     {
       "name": "Humbug 2",
-      "dev": "",
+      "dev": "デベロッパ  Dunderbit",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/humbug-2/id6753792967",
       "tab": "Games",
@@ -110,7 +110,7 @@
     },
     {
       "name": "SMiniz: K-POP Puzzle Game",
-      "dev": "",
+      "dev": "デベロッパ  Kakao Games Corp.",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/sminiz-k-pop-puzzle-game/id6499568662",
       "tab": "Games",
@@ -125,7 +125,7 @@
     },
     {
       "name": "ドラゴンボール レジェンズ",
-      "dev": "",
+      "dev": "デベロッパ     Bandai Namco Entertainment Inc.",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB-%E3%83%AC%E3%82%B8%E3%82%A7%E3%83%B3%E3%82%BA/id1358232022",
       "tab": "Games",
@@ -140,7 +140,7 @@
     },
     {
       "name": "ドラゴンクエストウォーク 歩く楽しみが増える位置情報ゲーム",
-      "dev": "",
+      "dev": "デベロッパ     SQUARE ENIX",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E3%81%8F%E6%A5%BD%E3%81%97%E3%81%BF%E3%81%8C%E5%A2%97%E3%81%88%E3%82%8B%E4%BD%8D%E7%BD%AE%E6%83%85%E5%A0%B1%E3%82%B2%E3%83%BC%E3%83%A0/id1439417234",
       "tab": "Games",
@@ -155,7 +155,7 @@
     },
     {
       "name": "eFootball™",
-      "dev": "",
+      "dev": "デベロッパ     KONAMI",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/efootball/id1117270703",
       "tab": "Games",
@@ -170,7 +170,7 @@
     },
     {
       "name": "遊戯王 マスターデュエル",
-      "dev": "",
+      "dev": "デベロッパ     KONAMI",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E9%81%8A%E6%88%AF%E7%8E%8B-%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB/id1554247785",
       "tab": "Games",
@@ -185,7 +185,7 @@
     },
     {
       "name": "プロ野球スピリッツＡ",
-      "dev": "",
+      "dev": "デベロッパ     KONAMI",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83%E3%82%B9%E3%83%94%E3%83%AA%E3%83%83%E3%83%84%EF%BD%81/id940320341",
       "tab": "Games",
@@ -200,7 +200,7 @@
     },
     {
       "name": "モンスターストライク",
-      "dev": "",
+      "dev": "デベロッパ  XFLAG, Inc.",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id658511662",
       "tab": "Games",
@@ -215,7 +215,7 @@
     },
     {
       "name": "パズル＆ドラゴンズ",
-      "dev": "",
+      "dev": "デベロッパ  GungHo Online Entertainment, Inc.",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%BA/id493470467",
       "tab": "Games",
@@ -230,7 +230,7 @@
     },
     {
       "name": "LINE：ディズニー ツムツム",
-      "dev": "",
+      "dev": "デベロッパ  LINE Corporation",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/line-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%83%84%E3%83%A0%E3%83%84%E3%83%A0/id724594093",
       "tab": "Games",
@@ -245,7 +245,7 @@
     },
     {
       "name": "Pixel Flow!",
-      "dev": "",
+      "dev": "デベロッパ  Loom Games Oyun Yazilim ve Pazarlama Anonim Sirketi",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/pixel-flow/id6751056652",
       "tab": "Games",
@@ -260,7 +260,7 @@
     },
     {
       "name": "鳴潮",
-      "dev": "",
+      "dev": "デベロッパ  KURO GAMES",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E9%B3%B4%E6%BD%AE/id6475033368",
       "tab": "Games",
@@ -275,7 +275,7 @@
     },
     {
       "name": "Roblox (ロブロックス)",
-      "dev": "",
+      "dev": "デベロッパ  Roblox Corporation",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/roblox-%E3%83%AD%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%B9/id431946152",
       "tab": "Games",
@@ -290,7 +290,7 @@
     },
     {
       "name": "トゥーンブラスト",
-      "dev": "",
+      "dev": "デベロッパ  Peak Games",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88/id1176027022",
       "tab": "Games",
@@ -305,7 +305,7 @@
     },
     {
       "name": "Disney Solitaire ディズニー ソリティア",
-      "dev": "",
+      "dev": "デベロッパ  SuperPlay",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/disney-solitaire-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2/id6475757306",
       "tab": "Games",
@@ -320,7 +320,7 @@
     },
     {
       "name": "Call of Duty®: Mobile",
-      "dev": "",
+      "dev": "デベロッパ  Activision Publishing, Inc.",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/call-of-duty-mobile/id1287282214",
       "tab": "Games",
@@ -335,7 +335,7 @@
     },
     {
       "name": "原神～空月の歌～",
-      "dev": "",
+      "dev": "デベロッパ  COGNOSPHERE PTE. LTD.",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E5%8E%9F%E7%A5%9E-%E7%A9%BA%E6%9C%88%E3%81%AE%E6%AD%8C/id1517783697",
       "tab": "Games",
@@ -350,7 +350,7 @@
     },
     {
       "name": "ゴシップハーバー：マージ & ストーリー",
-      "dev": "",
+      "dev": "デベロッパ  Microfun Limited",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E3%82%B4%E3%82%B7%E3%83%83%E3%83%97%E3%83%8F%E3%83%BC%E3%83%90%E3%83%BC-%E3%83%9E%E3%83%BC%E3%82%B8-%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC/id1623318294",
       "tab": "Games",
@@ -365,7 +365,7 @@
     },
     {
       "name": "ホワイトアウト・サバイバル",
-      "dev": "",
+      "dev": "デベロッパ  Century Games Pte. Ltd.",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%82%A2%E3%82%A6%E3%83%88-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id6443575749",
       "tab": "Games",
@@ -380,7 +380,7 @@
     },
     {
       "name": "PUBG MOBILE - 世界一のバトルロイヤル！",
-      "dev": "",
+      "dev": "デベロッパ  KRAFTON Inc",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/pubg-mobile-%E4%B8%96%E7%95%8C%E4%B8%80%E3%81%AE%E3%83%90%E3%83%88%E3%83%AB%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB/id1366526331",
       "tab": "Games",
@@ -395,7 +395,7 @@
     },
     {
       "name": "アーチャー伝説2",
-      "dev": "",
+      "dev": "デベロッパ  HABBY",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E4%BC%9D%E8%AA%AC2/id6502820653",
       "tab": "Games",
@@ -410,7 +410,7 @@
     },
     {
       "name": "ガーデンスケイプ (Gardenscapes)",
-      "dev": "",
+      "dev": "デベロッパ  Playrix",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%82%B9%E3%82%B1%E3%82%A4%E3%83%97-gardenscapes/id1105855019",
       "tab": "Games",
@@ -425,7 +425,7 @@
     },
     {
       "name": "タウンシップ (Township)",
-      "dev": "",
+      "dev": "デベロッパ  Playrix",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/%E3%82%BF%E3%82%A6%E3%83%B3%E3%82%B7%E3%83%83%E3%83%97-township/id638689075",
       "tab": "Games",
@@ -440,7 +440,7 @@
     },
     {
       "name": "DISSIDIA DUELLUM FINAL FANTASY",
-      "dev": "",
+      "dev": "デベロッパ     SQUARE ENIX",
       "icon": "",
       "url": "https://apps.apple.com/jp/app/dissidia-duellum-final-fantasy/id6480398822",
       "tab": "Games",
@@ -514,21 +514,6 @@
       "rank": 34
     },
     {
-      "name": "アークナイツ：エンドフィールド",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%BC%E3%82%AF%E3%83%8A%E3%82%A4%E3%83%84-%E3%82%A8%E3%83%B3%E3%83%89%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89/id6752642477",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 50,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 35
-    },
-    {
       "name": "CookieRun: OvenSmash",
       "dev": "",
       "icon": "",
@@ -541,13 +526,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 36
+      "rank": 35
     },
     {
-      "name": "東京リベンジャーズ UNLIMITED",
+      "name": "Fate/Grand Order",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/%E6%9D%B1%E4%BA%AC%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA-unlimited/id6698853161",
+      "url": "https://apps.apple.com/jp/app/fate-grand-order/id1015521325",
       "tab": "Today",
       "section": "배너",
       "priority": 51,
@@ -556,7 +541,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 37
+      "rank": 36
     },
     {
       "name": "クレイジャム クラシック",
@@ -571,22 +556,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 38
-    },
-    {
-      "name": "YouTube",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/jp/app/youtube/id544007664",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 52,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 39
+      "rank": 37
     },
     {
       "name": "Coffee Talk: Episode 1",
@@ -601,22 +571,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 40
-    },
-    {
-      "name": "TikTok ティックトック",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/jp/app/tiktok-%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%88%E3%83%83%E3%82%AF/id1235601864",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 53,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 41
+      "rank": 38
     },
     {
       "name": "限定 トミー×JWAコラボ",
@@ -631,22 +586,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 42
-    },
-    {
-      "name": "Amazon Prime Video",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/jp/app/amazon-prime-video/id545519333",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 54,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 43
+      "rank": 39
     },
     {
       "name": "聖斧の継承者",
@@ -661,22 +601,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 44
-    },
-    {
-      "name": "U-NEXT - 映画やドラマ、アニメなどの動画が見放題",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/jp/app/u-next-%E6%98%A0%E7%94%BB%E3%82%84%E3%83%89%E3%83%A9%E3%83%9E-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E3%81%AE%E5%8B%95%E7%94%BB%E3%81%8C%E8%A6%8B%E6%94%BE%E9%A1%8C/id882477693",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 55,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 45
+      "rank": 40
     },
     {
       "name": "ファイアーエムブレム シャドウズ",
@@ -691,13 +616,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 46
+      "rank": 41
     },
     {
-      "name": "Hulu / フールー 人気ドラマや映画、アニメなどが見放題",
+      "name": "ChatGPT",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/hulu-%E3%83%95%E3%83%BC%E3%83%AB%E3%83%BC-%E4%BA%BA%E6%B0%97%E3%83%89%E3%83%A9%E3%83%9E%E3%82%84%E6%98%A0%E7%94%BB-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E3%81%8C%E8%A6%8B%E6%94%BE%E9%A1%8C/id549416492",
+      "url": "https://apps.apple.com/jp/app/chatgpt/id6448311069",
       "tab": "Today",
       "section": "배너",
       "priority": 56,
@@ -706,7 +631,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 47
+      "rank": 42
     },
     {
       "name": "4月の新ツムが期間限定で登場！",
@@ -721,13 +646,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 48
+      "rank": 43
     },
     {
-      "name": "WOWOWオンデマンド｜スポーツ・音楽ライブ等を見放題で配信",
+      "name": "LINEマンガ",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/wowow%E3%82%AA%E3%83%B3%E3%83%87%E3%83%9E%E3%83%B3%E3%83%89-%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84-%E9%9F%B3%E6%A5%BD%E3%83%A9%E3%82%A4%E3%83%96%E7%AD%89%E3%82%92%E8%A6%8B%E6%94%BE%E9%A1%8C%E3%81%A7%E9%85%8D%E4%BF%A1/id1543679840",
+      "url": "https://apps.apple.com/jp/app/line%E3%83%9E%E3%83%B3%E3%82%AC/id597088068",
       "tab": "Today",
       "section": "배너",
       "priority": 57,
@@ -736,7 +661,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 49
+      "rank": 44
     },
     {
       "name": "星５怪ドル「橋本 麻由美」が登場！",
@@ -751,13 +676,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 50
+      "rank": 45
     },
     {
-      "name": "ChatGPT",
+      "name": "ピッコマ",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/chatgpt/id6448311069",
+      "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%83%83%E3%82%B3%E3%83%9E/id1091496983",
       "tab": "Today",
       "section": "배너",
       "priority": 58,
@@ -766,7 +691,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 51
+      "rank": 46
     },
     {
       "name": "P5X ペルソナ５: The Phantom X",
@@ -781,13 +706,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 52
+      "rank": 47
     },
     {
-      "name": "LINEマンガ",
+      "name": "YouTube",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/line%E3%83%9E%E3%83%B3%E3%82%AC/id597088068",
+      "url": "https://apps.apple.com/jp/app/youtube/id544007664",
       "tab": "Today",
       "section": "배너",
       "priority": 59,
@@ -796,7 +721,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 53
+      "rank": 48
     },
     {
       "name": "ジージェネレーション エターナル 1周年！",
@@ -811,13 +736,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 54
+      "rank": 49
     },
     {
-      "name": "ピッコマ",
+      "name": "TikTok ティックトック",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%83%83%E3%82%B3%E3%83%9E/id1091496983",
+      "url": "https://apps.apple.com/jp/app/tiktok-%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%88%E3%83%83%E3%82%AF/id1235601864",
       "tab": "Today",
       "section": "배너",
       "priority": 60,
@@ -826,7 +751,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 55
+      "rank": 50
     },
     {
       "name": "SDガンダム ジージェネレーション エターナル",
@@ -841,7 +766,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 56
+      "rank": 51
     },
     {
       "name": "LINE",
@@ -856,7 +781,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 57
+      "rank": 52
     },
     {
       "name": "コトダマン-共闘ことばRPG",
@@ -871,7 +796,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 58
+      "rank": 53
     },
     {
       "name": "Google フォト",
@@ -886,7 +811,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 59
+      "rank": 54
     },
     {
       "name": "Free Fire: Undersea Mystery",
@@ -901,13 +826,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 60
+      "rank": 55
     },
     {
-      "name": "音楽 LINE MUSIC 最新の歌や曲・ミュージック多数！",
+      "name": "U-NEXT - 映画やドラマ、アニメなどの動画が見放題",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/%E9%9F%B3%E6%A5%BD-line-music-%E6%9C%80%E6%96%B0%E3%81%AE%E6%AD%8C%E3%82%84%E6%9B%B2-%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E5%A4%9A%E6%95%B0/id966142320",
+      "url": "https://apps.apple.com/jp/app/u-next-%E6%98%A0%E7%94%BB%E3%82%84%E3%83%89%E3%83%A9%E3%83%9E-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E3%81%AE%E5%8B%95%E7%94%BB%E3%81%8C%E8%A6%8B%E6%94%BE%E9%A1%8C/id882477693",
       "tab": "Today",
       "section": "배너",
       "priority": 63,
@@ -916,7 +841,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 61
+      "rank": 56
     },
     {
       "name": "リバース：1999",
@@ -931,13 +856,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 62
+      "rank": 57
     },
     {
-      "name": "Gmail - Google のメール",
+      "name": "Amazon Prime Video",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/gmail-google-%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB/id422689480",
+      "url": "https://apps.apple.com/jp/app/amazon-prime-video/id545519333",
       "tab": "Today",
       "section": "배너",
       "priority": 64,
@@ -946,7 +871,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 63
+      "rank": 58
     },
     {
       "name": "実況パワフルプロ野球",
@@ -961,13 +886,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 64
+      "rank": 59
     },
     {
-      "name": "ABEMA(アベマ) 新しい未来のTV",
+      "name": "音楽 LINE MUSIC 最新の歌や曲・ミュージック多数！",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/abema-%E3%82%A2%E3%83%99%E3%83%9E-%E6%96%B0%E3%81%97%E3%81%84%E6%9C%AA%E6%9D%A5%E3%81%AEtv/id1074866833",
+      "url": "https://apps.apple.com/jp/app/%E9%9F%B3%E6%A5%BD-line-music-%E6%9C%80%E6%96%B0%E3%81%AE%E6%AD%8C%E3%82%84%E6%9B%B2-%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E5%A4%9A%E6%95%B0/id966142320",
       "tab": "Today",
       "section": "배너",
       "priority": 65,
@@ -976,7 +901,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 65
+      "rank": 60
     },
     {
       "name": "ヘキサアウェイ(Hexa Away)",
@@ -991,13 +916,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 66
+      "rank": 61
     },
     {
-      "name": "Google Gemini",
+      "name": "Gmail - Google のメール",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/google-gemini/id6477489729",
+      "url": "https://apps.apple.com/jp/app/gmail-google-%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB/id422689480",
       "tab": "Today",
       "section": "배너",
       "priority": 66,
@@ -1006,7 +931,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 67
+      "rank": 62
     },
     {
       "name": "ネコぱら セカイコネクト",
@@ -1021,13 +946,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 68
+      "rank": 63
     },
     {
-      "name": "Duolingo-英語/韓国語などのリスニングや英単語の練習",
+      "name": "ABEMA(アベマ) 新しい未来のTV",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/duolingo-%E8%8B%B1%E8%AA%9E-%E9%9F%93%E5%9B%BD%E8%AA%9E%E3%81%AA%E3%81%A9%E3%81%AE%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%84%E8%8B%B1%E5%8D%98%E8%AA%9E%E3%81%AE%E7%B7%B4%E7%BF%92/id570060128",
+      "url": "https://apps.apple.com/jp/app/abema-%E3%82%A2%E3%83%99%E3%83%9E-%E6%96%B0%E3%81%97%E3%81%84%E6%9C%AA%E6%9D%A5%E3%81%AEtv/id1074866833",
       "tab": "Today",
       "section": "배너",
       "priority": 67,
@@ -1036,7 +961,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 69
+      "rank": 64
     },
     {
       "name": "オハヨーカイ！ヒーロー",
@@ -1051,13 +976,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 70
+      "rank": 65
     },
     {
-      "name": "おいしい健康 管理栄養士監修のレシピ・献立アプリ",
+      "name": "Google Gemini",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E5%81%A5%E5%BA%B7-%E7%AE%A1%E7%90%86%E6%A0%84%E9%A4%8A%E5%A3%AB%E7%9B%A3%E4%BF%AE%E3%81%AE%E3%83%AC%E3%82%B7%E3%83%94-%E7%8C%AE%E7%AB%8B%E3%82%A2%E3%83%97%E3%83%AA/id1266243390",
+      "url": "https://apps.apple.com/jp/app/google-gemini/id6477489729",
       "tab": "Today",
       "section": "배너",
       "priority": 68,
@@ -1066,7 +991,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 71
+      "rank": 66
     },
     {
       "name": "Jewel Coloring",
@@ -1081,13 +1006,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 72
+      "rank": 67
     },
     {
-      "name": "Passage: Mapping Your Moments",
+      "name": "Hulu / フールー 人気ドラマや映画、アニメなどが見放題",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/passage-mapping-your-moments/id6761323054",
+      "url": "https://apps.apple.com/jp/app/hulu-%E3%83%95%E3%83%BC%E3%83%AB%E3%83%BC-%E4%BA%BA%E6%B0%97%E3%83%89%E3%83%A9%E3%83%9E%E3%82%84%E6%98%A0%E7%94%BB-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E3%81%8C%E8%A6%8B%E6%94%BE%E9%A1%8C/id549416492",
       "tab": "Today",
       "section": "배너",
       "priority": 69,
@@ -1096,7 +1021,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 73
+      "rank": 68
     },
     {
       "name": "ラストクラウディア (ドットRPG)",
@@ -1111,13 +1036,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 74
+      "rank": 69
     },
     {
-      "name": "ADAY - シンプルな共有カレンダー・スケジュール手帳",
+      "name": "Duolingo-英語/韓国語などのリスニングや英単語の練習",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/aday-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E5%85%B1%E6%9C%89%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E6%89%8B%E5%B8%B3/id6479296075",
+      "url": "https://apps.apple.com/jp/app/duolingo-%E8%8B%B1%E8%AA%9E-%E9%9F%93%E5%9B%BD%E8%AA%9E%E3%81%AA%E3%81%A9%E3%81%AE%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%84%E8%8B%B1%E5%8D%98%E8%AA%9E%E3%81%AE%E7%B7%B4%E7%BF%92/id570060128",
       "tab": "Today",
       "section": "배너",
       "priority": 70,
@@ -1126,22 +1051,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 75
-    },
-    {
-      "name": "Weverse - アーティストとつながろう！",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/jp/app/weverse-%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E3%81%A8%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8D%E3%81%86/id1456559188",
-      "tab": "Today",
-      "section": "Featured",
-      "priority": 70,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 76
+      "rank": 70
     },
     {
       "name": "ブロックブラスト (Block Blast)",
@@ -1156,13 +1066,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 77
+      "rank": 71
     },
     {
-      "name": "NAVITIME（地図と乗換の総合ナビ）",
+      "name": "おいしい健康 管理栄養士監修のレシピ・献立アプリ",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/navitime-%E5%9C%B0%E5%9B%B3%E3%81%A8%E4%B9%97%E6%8F%9B%E3%81%AE%E7%B7%8F%E5%90%88%E3%83%8A%E3%83%93/id365876050",
+      "url": "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E5%81%A5%E5%BA%B7-%E7%AE%A1%E7%90%86%E6%A0%84%E9%A4%8A%E5%A3%AB%E7%9B%A3%E4%BF%AE%E3%81%AE%E3%83%AC%E3%82%B7%E3%83%94-%E7%8C%AE%E7%AB%8B%E3%82%A2%E3%83%97%E3%83%AA/id1266243390",
       "tab": "Today",
       "section": "배너",
       "priority": 71,
@@ -1171,7 +1081,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 78
+      "rank": 72
     },
     {
       "name": "闇カワ！もふもふハムスター団",
@@ -1186,13 +1096,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 79
+      "rank": 73
     },
     {
-      "name": "家族アルバム みてね",
+      "name": "Passage: Mapping Your Moments",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/%E5%AE%B6%E6%97%8F%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0-%E3%81%BF%E3%81%A6%E3%81%AD/id935672069",
+      "url": "https://apps.apple.com/jp/app/passage-mapping-your-moments/id6761323054",
       "tab": "Today",
       "section": "배너",
       "priority": 72,
@@ -1201,13 +1111,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 80
+      "rank": 74
     },
     {
-      "name": "太鼓の達人 Pop Tap Beat",
+      "name": "NPB+",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/%E5%A4%AA%E9%BC%93%E3%81%AE%E9%81%94%E4%BA%BA-pop-tap-beat/id1463360242",
+      "url": "https://apps.apple.com/jp/app/npb/id6746151454",
       "tab": "Today",
       "section": "Featured",
       "priority": 72,
@@ -1216,7 +1126,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 81
+      "rank": 75
     },
     {
       "name": "Order Crazy: 飲み物ソート ソーダ色合わせゲーム",
@@ -1231,13 +1141,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 82
+      "rank": 76
     },
     {
-      "name": "Apple TV",
+      "name": "ADAY - シンプルな共有カレンダー・スケジュール手帳",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/apple-tv/id1174078549",
+      "url": "https://apps.apple.com/jp/app/aday-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E5%85%B1%E6%9C%89%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E6%89%8B%E5%B8%B3/id6479296075",
       "tab": "Today",
       "section": "배너",
       "priority": 73,
@@ -1246,13 +1156,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 83
+      "rank": 77
     },
     {
-      "name": "Hello Kitty Island Adventure",
+      "name": "eBaseball™: MLB PRO SPIRIT",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/hello-kitty-island-adventure/id1553505132",
+      "url": "https://apps.apple.com/jp/app/ebaseball-mlb-pro-spirit/id6590616375",
       "tab": "Today",
       "section": "Featured",
       "priority": 73,
@@ -1261,7 +1171,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 84
+      "rank": 78
     },
     {
       "name": "Minecraft: クラフト、建築、サバイバル",
@@ -1276,7 +1186,37 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 85
+      "rank": 79
+    },
+    {
+      "name": "NAVITIME（地図と乗換の総合ナビ）",
+      "dev": "",
+      "icon": "",
+      "url": "https://apps.apple.com/jp/app/navitime-%E5%9C%B0%E5%9B%B3%E3%81%A8%E4%B9%97%E6%8F%9B%E3%81%AE%E7%B7%8F%E5%90%88%E3%83%8A%E3%83%93/id365876050",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 74,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 80
+    },
+    {
+      "name": "プロ野球RISING",
+      "dev": "",
+      "icon": "",
+      "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83rising/id1641203655",
+      "tab": "Today",
+      "section": "Featured",
+      "priority": 74,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 81
     },
     {
       "name": "スイカゲーム-Aladdin X",
@@ -1291,22 +1231,22 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 86
+      "rank": 82
     },
     {
-      "name": "FANTASIAN",
+      "name": "家族アルバム みてね",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/fantasian/id1517339045",
+      "url": "https://apps.apple.com/jp/app/%E5%AE%B6%E6%97%8F%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0-%E3%81%BF%E3%81%A6%E3%81%AD/id935672069",
       "tab": "Today",
-      "section": "Featured",
+      "section": "배너",
       "priority": 75,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
-      "banner": false,
-      "rank": 87
+      "banner": true,
+      "rank": 83
     },
     {
       "name": "妖怪ウォッチ1 スマホ",
@@ -1321,22 +1261,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 88
-    },
-    {
-      "name": "tenki.jp 天気予報・雨雲レーダー/地震速報",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/jp/app/tenki-jp-%E5%A4%A9%E6%B0%97%E4%BA%88%E5%A0%B1-%E9%9B%A8%E9%9B%B2%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC-%E5%9C%B0%E9%9C%87%E9%80%9F%E5%A0%B1/id433865746",
-      "tab": "Today",
-      "section": "배너",
-      "priority": 76,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "rank": 89
+      "rank": 84
     },
     {
       "name": "Slay the Spire",
@@ -1351,7 +1276,37 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 90
+      "rank": 85
+    },
+    {
+      "name": "グルメ・ジャーニー",
+      "dev": "",
+      "icon": "",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%AB%E3%83%A1-%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%8B%E3%83%BC/id6471045672",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 77,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 86
+    },
+    {
+      "name": "太鼓の達人 Pop Tap Beat",
+      "dev": "",
+      "icon": "",
+      "url": "https://apps.apple.com/jp/app/%E5%A4%AA%E9%BC%93%E3%81%AE%E9%81%94%E4%BA%BA-pop-tap-beat/id1463360242",
+      "tab": "Today",
+      "section": "Featured",
+      "priority": 77,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 87
     },
     {
       "name": "Scritchy Scratchy",
@@ -1366,13 +1321,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 91
+      "rank": 88
     },
     {
-      "name": "ドラえもんのどら焼き屋さん物語+",
+      "name": "tenki.jp 天気予報・雨雲レーダー/地震速報",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E3%81%AE%E3%81%A9%E3%82%89%E7%84%BC%E3%81%8D%E5%B1%8B%E3%81%95%E3%82%93%E7%89%A9%E8%AA%9E/id6751190902",
+      "url": "https://apps.apple.com/jp/app/tenki-jp-%E5%A4%A9%E6%B0%97%E4%BA%88%E5%A0%B1-%E9%9B%A8%E9%9B%B2%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC-%E5%9C%B0%E9%9C%87%E9%80%9F%E5%A0%B1/id433865746",
       "tab": "Today",
       "section": "배너",
       "priority": 78,
@@ -1381,13 +1336,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 92
+      "rank": 89
     },
     {
-      "name": "GO タクシーが呼べるアプリ - AI予約・配車・迎車・決済",
+      "name": "Hello Kitty Island Adventure",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/go-%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E3%81%8C%E5%91%BC%E3%81%B9%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA-ai%E4%BA%88%E7%B4%84-%E9%85%8D%E8%BB%8A-%E8%BF%8E%E8%BB%8A-%E6%B1%BA%E6%B8%88/id1254341709",
+      "url": "https://apps.apple.com/jp/app/hello-kitty-island-adventure/id1553505132",
       "tab": "Today",
       "section": "Featured",
       "priority": 78,
@@ -1396,7 +1351,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 93
+      "rank": 90
     },
     {
       "name": "CloverPit",
@@ -1411,22 +1366,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 94
-    },
-    {
-      "name": "ちいかわぽけっと",
-      "dev": "",
-      "icon": "",
-      "url": "https://apps.apple.com/jp/app/%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F%E3%81%BD%E3%81%91%E3%81%A3%E3%81%A8/id6596745408",
-      "tab": "Today",
-      "section": "Featured",
-      "priority": 79,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 95
+      "rank": 91
     },
     {
       "name": "魔王城ものがたり",
@@ -1441,13 +1381,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 96
+      "rank": 92
     },
     {
-      "name": "あんさんぶるスターズ！！Music",
+      "name": "NARUTO－ナルト－ ナルティメットストーム+",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/%E3%81%82%E3%82%93%E3%81%95%E3%82%93%E3%81%B6%E3%82%8B%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA-music/id1494428618",
+      "url": "https://apps.apple.com/jp/app/naruto-%E3%83%8A%E3%83%AB%E3%83%88-%E3%83%8A%E3%83%AB%E3%83%86%E3%82%A3%E3%83%A1%E3%83%83%E3%83%88%E3%82%B9%E3%83%88%E3%83%BC%E3%83%A0/id6745006459",
       "tab": "Today",
       "section": "배너",
       "priority": 80,
@@ -1456,13 +1396,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 97
+      "rank": 93
     },
     {
-      "name": "Goodnotes: AI ノート、ドキュメント、PDF",
+      "name": "FANTASIAN",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/goodnotes-ai-%E3%83%8E%E3%83%BC%E3%83%88-%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88-pdf/id1444383602",
+      "url": "https://apps.apple.com/jp/app/fantasian/id1517339045",
       "tab": "Today",
       "section": "Featured",
       "priority": 80,
@@ -1471,7 +1411,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 98
+      "rank": 94
     },
     {
       "name": "Bloons TD 6",
@@ -1486,13 +1426,28 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 99
+      "rank": 95
     },
     {
-      "name": "ロイヤルキングダム (Royal Kingdom)",
+      "name": "ドラえもんのどら焼き屋さん物語+",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0-royal-kingdom/id1606549505",
+      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E3%81%AE%E3%81%A9%E3%82%89%E7%84%BC%E3%81%8D%E5%B1%8B%E3%81%95%E3%82%93%E7%89%A9%E8%AA%9E/id6751190902",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 81,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
+      "rank": 96
+    },
+    {
+      "name": "Weverse - アーティストとつながろう！",
+      "dev": "",
+      "icon": "",
+      "url": "https://apps.apple.com/jp/app/weverse-%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E3%81%A8%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8D%E3%81%86/id1456559188",
       "tab": "Today",
       "section": "Featured",
       "priority": 81,
@@ -1501,7 +1456,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 100
+      "rank": 97
     },
     {
       "name": "Don't Bug Me!",
@@ -1516,13 +1471,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 101
+      "rank": 98
     },
     {
-      "name": "思い出レストラン",
+      "name": "塊魂 Rolling LIVE",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/%E6%80%9D%E3%81%84%E5%87%BA%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/id6504782640",
+      "url": "https://apps.apple.com/jp/app/%E5%A1%8A%E9%AD%82-rolling-live/id6449352814",
       "tab": "Today",
       "section": "배너",
       "priority": 82,
@@ -1531,7 +1486,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 102
+      "rank": 99
     },
     {
       "name": "Rift Riff",
@@ -1546,7 +1501,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 103
+      "rank": 100
     },
     {
       "name": "Outhold",
@@ -1561,13 +1516,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 104
+      "rank": 101
     },
     {
-      "name": "Wargroove 2: Pocket Edition",
+      "name": "レッツプレイ！オインクゲームズ",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/wargroove-2-pocket-edition/id6479699074",
+      "url": "https://apps.apple.com/jp/app/%E3%83%AC%E3%83%83%E3%83%84%E3%83%97%E3%83%AC%E3%82%A4-%E3%82%AA%E3%82%A4%E3%83%B3%E3%82%AF%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA/id1564193305",
       "tab": "Today",
       "section": "배너",
       "priority": 84,
@@ -1576,7 +1531,22 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 105
+      "rank": 102
+    },
+    {
+      "name": "GO タクシーが呼べるアプリ - AI予約・配車・迎車・決済",
+      "dev": "",
+      "icon": "",
+      "url": "https://apps.apple.com/jp/app/go-%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E3%81%8C%E5%91%BC%E3%81%B9%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA-ai%E4%BA%88%E7%B4%84-%E9%85%8D%E8%BB%8A-%E8%BF%8E%E8%BB%8A-%E6%B1%BA%E6%B8%88/id1254341709",
+      "tab": "Today",
+      "section": "Featured",
+      "priority": 84,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 103
     },
     {
       "name": "Kingdom Rush 5: Alliance TD",
@@ -1591,13 +1561,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 106
+      "rank": 104
     },
     {
-      "name": "ナディア-プロの料理家のレシピで毎日の献立がすぐ決まる",
+      "name": "Miniature LAND -Four Seasons-",
       "dev": "",
       "icon": "",
-      "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%87%E3%82%A3%E3%82%A2-%E3%83%97%E3%83%AD%E3%81%AE%E6%96%99%E7%90%86%E5%AE%B6%E3%81%AE%E3%83%AC%E3%82%B7%E3%83%94%E3%81%A7%E6%AF%8E%E6%97%A5%E3%81%AE%E7%8C%AE%E7%AB%8B%E3%81%8C%E3%81%99%E3%81%90%E6%B1%BA%E3%81%BE%E3%82%8B/id973084539",
+      "url": "https://apps.apple.com/jp/app/miniature-land-four-seasons/id1667329678",
       "tab": "Today",
       "section": "배너",
       "priority": 85,
@@ -1606,7 +1576,22 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "rank": 107
+      "rank": 105
+    },
+    {
+      "name": "ちいかわぽけっと",
+      "dev": "",
+      "icon": "",
+      "url": "https://apps.apple.com/jp/app/%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F%E3%81%BD%E3%81%91%E3%81%A3%E3%81%A8/id6596745408",
+      "tab": "Today",
+      "section": "Featured",
+      "priority": 85,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 106
     },
     {
       "name": "にゃんこ大戦争",
@@ -1621,7 +1606,37 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
+      "rank": 107
+    },
+    {
+      "name": "ナディア-プロの料理家のレシピで毎日の献立がすぐ決まる",
+      "dev": "",
+      "icon": "",
+      "url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%87%E3%82%A3%E3%82%A2-%E3%83%97%E3%83%AD%E3%81%AE%E6%96%99%E7%90%86%E5%AE%B6%E3%81%AE%E3%83%AC%E3%82%B7%E3%83%94%E3%81%A7%E6%AF%8E%E6%97%A5%E3%81%AE%E7%8C%AE%E7%AB%8B%E3%81%8C%E3%81%99%E3%81%90%E6%B1%BA%E3%81%BE%E3%82%8B/id973084539",
+      "tab": "Today",
+      "section": "배너",
+      "priority": 86,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": true,
       "rank": 108
+    },
+    {
+      "name": "Goodnotes: AI ノート、ドキュメント、PDF",
+      "dev": "",
+      "icon": "",
+      "url": "https://apps.apple.com/jp/app/goodnotes-ai-%E3%83%8E%E3%83%BC%E3%83%88-%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88-pdf/id1444383602",
+      "tab": "Today",
+      "section": "Featured",
+      "priority": 86,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 109
     },
     {
       "name": "Illuminaria（イルミナリア）",
@@ -1636,7 +1651,22 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 109
+      "rank": 110
+    },
+    {
+      "name": "ロイヤルキングダム (Royal Kingdom)",
+      "dev": "",
+      "icon": "",
+      "url": "https://apps.apple.com/jp/app/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0-royal-kingdom/id1606549505",
+      "tab": "Today",
+      "section": "Featured",
+      "priority": 87,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 111
     },
     {
       "name": "アークナイツ",
@@ -1651,7 +1681,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 110
+      "rank": 112
     },
     {
       "name": "クラッシュ・ロワイヤル (Clash Royale)",
@@ -1666,7 +1696,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 111
+      "rank": 113
     },
     {
       "name": "ラッシュ・ロワイヤル - タワーディフェンス",
@@ -1681,7 +1711,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 112
+      "rank": 114
     },
     {
       "name": "MOCHI-O",
@@ -1696,7 +1726,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 113
+      "rank": 115
     },
     {
       "name": "スターディフェンス：ガチャ TD",
@@ -1711,7 +1741,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 114
+      "rank": 116
     },
     {
       "name": "都市伝説解体センター",
@@ -1726,7 +1756,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 115
+      "rank": 117
     },
     {
       "name": "BALL x PIT",
@@ -1741,7 +1771,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 116
+      "rank": 118
     },
     {
       "name": "もぐライフ",
@@ -1756,7 +1786,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 117
+      "rank": 119
     },
     {
       "name": "ザ・リワインダー~黄泉からの旅人~",
@@ -1771,7 +1801,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 118
+      "rank": 120
     },
     {
       "name": "バックパック・バトル",
@@ -1786,7 +1816,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 119
+      "rank": 121
     },
     {
       "name": "Planet of Lana",
@@ -1801,7 +1831,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 120
+      "rank": 122
     },
     {
       "name": "Birth!",
@@ -1816,7 +1846,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 121
+      "rank": 123
     },
     {
       "name": "Arranger",
@@ -1831,7 +1861,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 122
+      "rank": 124
     },
     {
       "name": "INMOST",
@@ -1846,7 +1876,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 123
+      "rank": 125
     },
     {
       "name": "TOEM（トーエム）",
@@ -1861,7 +1891,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 124
+      "rank": 126
     },
     {
       "name": "Pokémon TCG Pocket",
@@ -1876,7 +1906,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 125
+      "rank": 127
     },
     {
       "name": "Pokémon GO",
@@ -1891,7 +1921,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 126
+      "rank": 128
     },
     {
       "name": "Pokémon Sleep",
@@ -1906,7 +1936,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 127
+      "rank": 129
     },
     {
       "name": "ポケモンスマイル",
@@ -1921,7 +1951,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 128
+      "rank": 130
     },
     {
       "name": "はねろ！コイキング",
@@ -1936,7 +1966,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 129
+      "rank": 131
     },
     {
       "name": "Pokémon UNITE",
@@ -1951,7 +1981,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 130
+      "rank": 132
     },
     {
       "name": "Pokémon Masters EX",
@@ -1966,7 +1996,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 131
+      "rank": 133
     },
     {
       "name": "ようこそ！ポケモンカフェ ～まぜまぜパズル～",
@@ -1981,7 +2011,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 132
+      "rank": 134
     },
     {
       "name": "ポケモンクエスト",
@@ -1996,7 +2026,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 133
+      "rank": 135
     },
     {
       "name": "ポケとる スマホ版",
@@ -2011,7 +2041,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 134
+      "rank": 136
     },
     {
       "name": "BIOHAZARD 7 resident evil",
@@ -2026,7 +2056,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 135
+      "rank": 137
     },
     {
       "name": "アサシン クリード ミラージュ",
@@ -2041,7 +2071,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 136
+      "rank": 138
     },
     {
       "name": "BIOHAZARD RE:4",
@@ -2056,7 +2086,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 137
+      "rank": 139
     },
     {
       "name": "Super Mario Run",
@@ -2071,7 +2101,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 138
+      "rank": 140
     },
     {
       "name": "ライフ イズ ストレンジ",
@@ -2086,7 +2116,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 139
+      "rank": 141
     },
     {
       "name": "Assemble with Care",
@@ -2101,7 +2131,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 140
+      "rank": 142
     },
     {
       "name": "Playdead's INSIDE",
@@ -2116,7 +2146,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 141
+      "rank": 143
     },
     {
       "name": "Populus Run",
@@ -2131,7 +2161,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 142
+      "rank": 144
     },
     {
       "name": "Turnip Boy Commits Tax Evasion",
@@ -2146,7 +2176,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 143
+      "rank": 145
     },
     {
       "name": "Bugsnax",
@@ -2161,7 +2191,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 144
+      "rank": 146
     },
     {
       "name": "BIOHAZARD VILLAGE",
@@ -2176,7 +2206,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 145
+      "rank": 147
     },
     {
       "name": "Lost in Play",
@@ -2191,7 +2221,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 146
+      "rank": 148
     },
     {
       "name": "Agent A - 偽装のパズル",
@@ -2206,7 +2236,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 147
+      "rank": 149
     },
     {
       "name": "MONOPOLY GO! (モノポリー GO!)",
@@ -2221,7 +2251,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 148
+      "rank": 150
     },
     {
       "name": "ロイヤルマッチ（Royal Match)",
@@ -2236,7 +2266,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 149
+      "rank": 151
     },
     {
       "name": "ブロスタ",
@@ -2251,7 +2281,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 150
+      "rank": 152
     },
     {
       "name": "LINE ポコポコ：3マッチパズルゲーム",
@@ -2266,7 +2296,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 151
+      "rank": 153
     },
     {
       "name": "フィッシュダム(Fishdom)",
@@ -2281,7 +2311,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 152
+      "rank": 154
     },
     {
       "name": "スヌーピー ドロップス -パズル：スヌーピー パズル",
@@ -2296,7 +2326,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 153
+      "rank": 155
     },
     {
       "name": "キャンディークラッシュソーダ",
@@ -2311,7 +2341,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 154
+      "rank": 156
     },
     {
       "name": "LINE バブル2",
@@ -2326,7 +2356,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 155
+      "rank": 157
     },
     {
       "name": "プロジェクトメイクオーバー Project Makeover",
@@ -2341,7 +2371,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 156
+      "rank": 158
     },
     {
       "name": "悪魔城ドラキュラX 月下の夜想曲",
@@ -2356,7 +2386,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 157
+      "rank": 159
     },
     {
       "name": "Hyper Light Drifter",
@@ -2371,7 +2401,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 158
+      "rank": 160
     },
     {
       "name": "幸運の大家様",
@@ -2386,7 +2416,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 159
+      "rank": 161
     },
     {
       "name": "Kingdom Two Crowns",
@@ -2401,7 +2431,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 160
+      "rank": 162
     },
     {
       "name": "ScourgeBringer",
@@ -2416,7 +2446,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 161
+      "rank": 163
     },
     {
       "name": "A Tiny Sticker Tale",
@@ -2431,7 +2461,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 162
+      "rank": 164
     },
     {
       "name": "スクワッド・バスターズ",
@@ -2446,7 +2476,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 163
+      "rank": 165
     },
     {
       "name": "Thronefall - A Little Kingdom",
@@ -2461,7 +2491,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 164
+      "rank": 166
     },
     {
       "name": "The Pathless",
@@ -2476,7 +2506,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 165
+      "rank": 167
     },
     {
       "name": "GUBBINS — It's a word game",
@@ -2491,7 +2521,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 166
+      "rank": 168
     },
     {
       "name": "はい、陛下",
@@ -2506,7 +2536,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 167
+      "rank": 169
     },
     {
       "name": "Unpacking",
@@ -2521,7 +2551,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 168
+      "rank": 170
     },
     {
       "name": "メグとばけもの",
@@ -2536,7 +2566,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 169
+      "rank": 171
     },
     {
       "name": "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG",
@@ -2551,7 +2581,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 170
+      "rank": 172
     },
     {
       "name": "無職転生 〜異世界行ったら本気だす〜",
@@ -2566,7 +2596,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 171
+      "rank": 173
     },
     {
       "name": "ホロライブドリームス",
@@ -2581,7 +2611,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 172
+      "rank": 174
     },
     {
       "name": "Pond Pals",
@@ -2596,7 +2626,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 173
+      "rank": 175
     },
     {
       "name": "DEATH STRANDING DIRECTOR'S CUT",
@@ -2611,7 +2641,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 174
+      "rank": 176
     },
     {
       "name": "Superliminal",
@@ -2626,7 +2656,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 175
+      "rank": 177
     },
     {
       "name": "Skyfishの伝説2",
@@ -2641,7 +2671,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 176
+      "rank": 178
     },
     {
       "name": "Baba Is You",
@@ -2656,7 +2686,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 177
+      "rank": 179
     },
     {
       "name": "OPUS 星歌の響き",
@@ -2671,7 +2701,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 178
+      "rank": 180
     },
     {
       "name": "Kingdom Eighties",
@@ -2686,7 +2716,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 179
+      "rank": 181
     },
     {
       "name": "俺だけレベルアップな件：Arise（俺アラ）",
@@ -2701,7 +2731,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 180
+      "rank": 182
     },
     {
       "name": "荒野のハーク",
@@ -2716,7 +2746,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 181
+      "rank": 183
     },
     {
       "name": "ディズニー スピードストーム",
@@ -2731,7 +2761,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 182
+      "rank": 184
     },
     {
       "name": "マリオカート ツアー",
@@ -2746,7 +2776,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 183
+      "rank": 185
     },
     {
       "name": "Pikmin Bloom",
@@ -2761,7 +2791,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 184
+      "rank": 186
     },
     {
       "name": "Threes!",
@@ -2776,7 +2806,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 185
+      "rank": 187
     },
     {
       "name": "アスファルト:Legends",
@@ -2791,7 +2821,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 186
+      "rank": 188
     },
     {
       "name": "Bacon – The Game",
@@ -2806,7 +2836,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 187
+      "rank": 189
     },
     {
       "name": "Golf Blitz",
@@ -2821,7 +2851,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 188
+      "rank": 190
     },
     {
       "name": "Two Dots",
@@ -2836,7 +2866,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 189
+      "rank": 191
     },
     {
       "name": "キャンディークラッシュ",
@@ -2851,7 +2881,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 190
+      "rank": 192
     },
     {
       "name": "ロデオ・スタンピード:どうぶつフライングズーアクションゲーム",
@@ -2866,7 +2896,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 191
+      "rank": 193
     },
     {
       "name": "KAMI 2",
@@ -2881,7 +2911,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 192
+      "rank": 194
     },
     {
       "name": "MoriArashi",
@@ -2896,7 +2926,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 193
+      "rank": 195
     },
     {
       "name": "Dandara Trials of Fear Edition",
@@ -2911,7 +2941,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 194
+      "rank": 196
     },
     {
       "name": "アーチャー伝説",
@@ -2926,7 +2956,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 195
+      "rank": 197
     },
     {
       "name": "Ｄ×２ 真･女神転生 リベレーション",
@@ -2941,7 +2971,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 196
+      "rank": 198
     },
     {
       "name": "ポコロンダンジョンズ",
@@ -2956,7 +2986,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 197
+      "rank": 199
     },
     {
       "name": "アナザーエデン 時空を超える猫",
@@ -2971,7 +3001,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 198
+      "rank": 200
     },
     {
       "name": "ヘブンバーンズレッド",
@@ -2986,7 +3016,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 199
+      "rank": 201
     },
     {
       "name": "逆転オセロニア",
@@ -3001,7 +3031,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 200
+      "rank": 202
     },
     {
       "name": "ドラゴンクエストタクト ドラクエのタクティクスRPG",
@@ -3016,7 +3046,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 201
+      "rank": 203
     },
     {
       "name": "オクトパストラベラー 大陸の覇者",
@@ -3031,7 +3061,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 202
+      "rank": 204
     },
     {
       "name": "ONE PIECE トレジャークルーズ",
@@ -3046,7 +3076,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 203
+      "rank": 205
     },
     {
       "name": "白猫プロジェクト",
@@ -3061,7 +3091,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 204
+      "rank": 206
     },
     {
       "name": "れじぇくろ！ ～レジェンド・クローバー～",
@@ -3076,7 +3106,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 205
+      "rank": 207
     },
     {
       "name": "Among Us!",
@@ -3091,7 +3121,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 206
+      "rank": 208
     },
     {
       "name": "ONE PIECE バウンティラッシュ - アクションゲーム",
@@ -3106,7 +3136,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 207
+      "rank": 209
     },
     {
       "name": "Identity V",
@@ -3121,7 +3151,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 208
+      "rank": 210
     },
     {
       "name": "パニシング：グレイレイヴン",
@@ -3136,7 +3166,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 209
+      "rank": 211
     },
     {
       "name": "#コンパス【戦闘摂理解析システム】",
@@ -3151,7 +3181,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 210
+      "rank": 212
     },
     {
       "name": "ぷよぷよパズルポップ",
@@ -3166,7 +3196,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 211
+      "rank": 213
     },
     {
       "name": "Downwell+",
@@ -3181,7 +3211,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 212
+      "rank": 214
     },
     {
       "name": "パズル＆ドラゴンズ ストーリー",
@@ -3196,7 +3226,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 213
+      "rank": 215
     },
     {
       "name": "たまごっちアドベンチャーキングダム",
@@ -3211,7 +3241,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 214
+      "rank": 216
     },
     {
       "name": "サンバ DE アミーゴ：パーティー・トゥー・ゴー",
@@ -3226,7 +3256,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 215
+      "rank": 217
     },
     {
       "name": "にほんの田舎ぐらし",
@@ -3241,7 +3271,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 216
+      "rank": 218
     },
     {
       "name": "ソリティ馬 Ride On!",
@@ -3256,7 +3286,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 217
+      "rank": 219
     },
     {
       "name": "TIME LOCKER+",
@@ -3271,7 +3301,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 218
+      "rank": 220
     },
     {
       "name": "PPKP+",
@@ -3286,7 +3316,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 219
+      "rank": 221
     },
     {
       "name": "JET DRAGON",
@@ -3301,7 +3331,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 220
+      "rank": 222
     },
     {
       "name": "クッキングママ：ヌーベルキュイジーヌ",
@@ -3316,7 +3346,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 221
+      "rank": 223
     },
     {
       "name": "パックマンパーティロワイヤル",
@@ -3331,7 +3361,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 222
+      "rank": 224
     },
     {
       "name": "悪魔城ドラキュラ - Grimoire of Souls",
@@ -3346,7 +3376,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 223
+      "rank": 225
     },
     {
       "name": "白猫テニス",
@@ -3361,7 +3391,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 224
+      "rank": 226
     },
     {
       "name": "Ping Pong Fury: Table Tennis",
@@ -3376,7 +3406,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 225
+      "rank": 227
     },
     {
       "name": "NBA 2K Mobile - 携帯バスケゲーム",
@@ -3391,7 +3421,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 226
+      "rank": 228
     },
     {
       "name": "EA SPORTS FC™ Mobile サッカー 2026",
@@ -3406,7 +3436,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 227
+      "rank": 229
     },
     {
       "name": "True Skate",
@@ -3421,7 +3451,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 228
+      "rank": 230
     },
     {
       "name": "Touchgrind BMX 2",
@@ -3436,7 +3466,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 229
+      "rank": 231
     },
     {
       "name": "Golf Rival",
@@ -3451,7 +3481,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 230
+      "rank": 232
     },
     {
       "name": "プロテニス対戦：二人で遊べる人気ライブスポーツゲーム",
@@ -3466,7 +3496,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 231
+      "rank": 233
     },
     {
       "name": "Real Boxing 2",
@@ -3481,7 +3511,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 232
+      "rank": 234
     },
     {
       "name": "Badminton Clash 3D",
@@ -3496,7 +3526,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 233
+      "rank": 235
     },
     {
       "name": "Archery Club",
@@ -3511,7 +3541,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 234
+      "rank": 236
     },
     {
       "name": "MARVEL SNAP (マーベル・スナップ)",
@@ -3526,7 +3556,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 235
+      "rank": 237
     },
     {
       "name": "GRIS",
@@ -3541,7 +3571,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 236
+      "rank": 238
     },
     {
       "name": "Moncage -箱庭ノ夢-",
@@ -3556,7 +3586,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 237
+      "rank": 239
     },
     {
       "name": "リーグ・オブ・レジェンド：ワイルドリフト",
@@ -3571,7 +3601,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 238
+      "rank": 240
     },
     {
       "name": "『風ノ旅ビト』Journey",
@@ -3586,7 +3616,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 239
+      "rank": 241
     },
     {
       "name": "Townscaper",
@@ -3601,7 +3631,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 240
+      "rank": 242
     },
     {
       "name": "レジェンド・オブ・ルーンテラ",
@@ -3616,7 +3646,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 241
+      "rank": 243
     },
     {
       "name": "Bad North",
@@ -3631,7 +3661,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 242
+      "rank": 244
     },
     {
       "name": "What Remains of Edith Finch",
@@ -3646,7 +3676,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 243
+      "rank": 245
     }
   ]
 }

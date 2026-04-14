@@ -47,87 +47,165 @@ const isNexon = (dev) => {
 async function crawlAppleStore(page, cc) {
   const apps = [];
 
-  // 1) Today 탭
+  // ─── 1) Today 탭 ───
   try {
     console.log(`  [Apple Today] ${cc}`);
     await page.goto(`https://apps.apple.com/${cc}/iphone/today`, { waitUntil: "networkidle2", timeout: 30000 });
     await page.waitForSelector('a[href*="/app/"], a[href*="/game/"]', { timeout: 10000 }).catch(() => {});
     await autoScroll(page);
 
-    const todayApps = await page.evaluate(() => {
-      const results = [];
-      // 카드 안의 앱 lockup 추출
+    const todayData = await page.evaluate(() => {
+      const results = { banners: [], cards: [] };
+
+      // 배너: 페이지 최상단 대형 히어로 카드 (첫 번째 큰 카드)
+      const heroCards = document.querySelectorAll('section:first-of-type a[href*="/app/"], section:first-of-type a[href*="/game/"], .l-row:first-child a[href*="/app/"], .l-row:first-child a[href*="/game/"]');
+      const bannerSet = new Set();
+      heroCards.forEach((el, idx) => {
+        if (idx >= 3) return; // 배너는 최대 3개
+        const href = el.getAttribute("href") || "";
+        if (!href.includes("/app/") && !href.includes("/game/")) return;
+        const nameEl = el.querySelector(".we-lockup__title, [class*=title], p, h3");
+        const name = nameEl ? nameEl.textContent.trim() : "";
+        const devEl = el.querySelector(".we-lockup__subtitle, [class*=subtitle]");
+        const dev = devEl ? devEl.textContent.trim() : "";
+        const imgEl = el.querySelector("img");
+        let icon = imgEl ? (imgEl.getAttribute("src") || "") : "";
+        if (name && name.length >= 2 && name.length <= 40) {
+          bannerSet.add(name.toLowerCase());
+          results.banners.push({
+            name, dev, icon,
+            url: href.startsWith("http") ? href : "https://apps.apple.com" + href,
+            isGame: href.includes("/game/")
+          });
+        }
+      });
+
+      // 일반 카드: 나머지 lockup 앱들
       const lockups = document.querySelectorAll('a.we-lockup, a[href*="/app/"], a[href*="/game/"]');
       lockups.forEach(el => {
         const href = el.getAttribute("href") || "";
         if (!href.includes("/app/") && !href.includes("/game/")) return;
-        // 게임 카테고리 확인 (URL에 /game/ 포함되면 확실한 게임)
         const isGame = href.includes("/game/");
         const nameEl = el.querySelector(".we-lockup__title, .we-lockup__text .we-truncate, [class*=title], p, h3");
         const name = nameEl ? nameEl.textContent.trim() : "";
+        if (bannerSet.has(name.toLowerCase())) return; // 배너와 중복 제거
         const devEl = el.querySelector(".we-lockup__subtitle, [class*=subtitle]");
         const dev = devEl ? devEl.textContent.trim() : "";
         const imgEl = el.querySelector("img, picture source, [srcset]");
         let icon = "";
         if (imgEl) icon = imgEl.getAttribute("src") || imgEl.getAttribute("srcset")?.split(" ")[0] || "";
         if (name && name.length >= 2 && name.length <= 40) {
-          results.push({ name, dev, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isGame });
+          results.cards.push({ name, dev, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isGame });
         }
       });
       return results;
     });
 
-    todayApps.forEach((app, i) => {
+    // 배너 앱 (최고 우선순위)
+    todayData.banners.forEach((app, i) => {
       if (!app.isGame && !app.url.includes("/game/")) return;
       apps.push({
         name: app.name, dev: app.dev, icon: app.icon, url: app.url,
-        tab: "Today", section: "Featured", priority: i + 1,
+        tab: "Today", section: "배너", priority: i + 1,
         genre: "", rating: 0, category: "Games",
-        nexon: isNexon(app.dev)
+        nexon: isNexon(app.dev), banner: true
       });
     });
+
+    // 일반 카드 앱
+    todayData.cards.forEach((app, i) => {
+      if (!app.isGame && !app.url.includes("/game/")) return;
+      apps.push({
+        name: app.name, dev: app.dev, icon: app.icon, url: app.url,
+        tab: "Today", section: "Featured", priority: 10 + i,
+        genre: "", rating: 0, category: "Games",
+        nexon: isNexon(app.dev), banner: false
+      });
+    });
+    console.log(`    Today: ${todayData.banners.length} banners, ${todayData.cards.filter(c=>c.isGame||c.url.includes("/game/")).length} cards`);
   } catch (e) { console.warn(`  [Apple Today Error] ${cc}:`, e.message); }
 
-  // 2) Games 탭
+  // ─── 2) Games 탭 ───
   try {
     console.log(`  [Apple Games] ${cc}`);
     await page.goto(`https://apps.apple.com/${cc}/iphone/games`, { waitUntil: "networkidle2", timeout: 30000 });
     await page.waitForSelector('a[href*="/app/"], a[href*="/game/"]', { timeout: 10000 }).catch(() => {});
     await autoScroll(page);
 
-    const gamesApps = await page.evaluate(() => {
-      const results = [];
-      const lockups = document.querySelectorAll('a.we-lockup, a[href*="/game/"], a[href*="/app/"]');
-      lockups.forEach(el => {
+    const gamesData = await page.evaluate(() => {
+      const results = { banners: [], cards: [] };
+      const allLinks = document.querySelectorAll('a[href*="/game/"], a[href*="/app/"]');
+      const bannerSet = new Set();
+
+      // 배너: 페이지 최상단 히어로 영역
+      allLinks.forEach((el, idx) => {
+        if (idx >= 3) return;
         const href = el.getAttribute("href") || "";
         if (!href.includes("/app/") && !href.includes("/game/")) return;
-        const nameEl = el.querySelector(".we-lockup__title, .we-lockup__text .we-truncate, [class*=title], p, h3");
+        const nameEl = el.querySelector(".we-lockup__title, [class*=title], p, h3");
         const name = nameEl ? nameEl.textContent.trim() : "";
         const devEl = el.querySelector(".we-lockup__subtitle, [class*=subtitle]");
         const dev = devEl ? devEl.textContent.trim() : "";
         const imgEl = el.querySelector("img");
         const icon = imgEl ? (imgEl.getAttribute("src") || "") : "";
         if (name && name.length >= 2 && name.length <= 40) {
-          results.push({ name, dev, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href });
+          bannerSet.add(name.toLowerCase());
+          results.banners.push({
+            name, dev, icon,
+            url: href.startsWith("http") ? href : "https://apps.apple.com" + href
+          });
+        }
+      });
+
+      // 나머지 카드
+      const lockups = document.querySelectorAll('a.we-lockup, a[href*="/game/"], a[href*="/app/"]');
+      lockups.forEach(el => {
+        const href = el.getAttribute("href") || "";
+        if (!href.includes("/app/") && !href.includes("/game/")) return;
+        const nameEl = el.querySelector(".we-lockup__title, .we-lockup__text .we-truncate, [class*=title], p, h3");
+        const name = nameEl ? nameEl.textContent.trim() : "";
+        if (bannerSet.has(name.toLowerCase())) return;
+        const devEl = el.querySelector(".we-lockup__subtitle, [class*=subtitle]");
+        const dev = devEl ? devEl.textContent.trim() : "";
+        const imgEl = el.querySelector("img");
+        const icon = imgEl ? (imgEl.getAttribute("src") || "") : "";
+        if (name && name.length >= 2 && name.length <= 40) {
+          results.cards.push({ name, dev, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href });
         }
       });
       return results;
     });
 
     const existing = new Set(apps.map(a => a.name.toLowerCase()));
-    gamesApps.forEach((app, i) => {
+
+    // Games 배너 (높은 우선순위)
+    gamesData.banners.forEach((app, i) => {
+      if (existing.has(app.name.toLowerCase())) return;
+      existing.add(app.name.toLowerCase());
+      apps.push({
+        name: app.name, dev: app.dev, icon: app.icon, url: app.url,
+        tab: "Games", section: "배너", priority: 5 + i,
+        genre: "", rating: 0, category: "Games",
+        nexon: isNexon(app.dev), banner: true
+      });
+    });
+
+    // Games 일반 카드
+    gamesData.cards.forEach((app, i) => {
       if (existing.has(app.name.toLowerCase())) return;
       existing.add(app.name.toLowerCase());
       apps.push({
         name: app.name, dev: app.dev, icon: app.icon, url: app.url,
         tab: "Games", section: "Featured", priority: 50 + i,
         genre: "", rating: 0, category: "Games",
-        nexon: isNexon(app.dev)
+        nexon: isNexon(app.dev), banner: false
       });
     });
+    console.log(`    Games: ${gamesData.banners.length} banners, ${gamesData.cards.length} cards`);
   } catch (e) { console.warn(`  [Apple Games Error] ${cc}:`, e.message); }
 
-  // 순위 매기기
+  // 우선순위 정렬 후 순위 매기기
+  apps.sort((a, b) => a.priority - b.priority);
   apps.forEach((a, i) => a.rank = i + 1);
   return apps;
 }
@@ -145,7 +223,6 @@ async function autoScroll(page) {
       }, 200);
     });
   });
-  // 스크롤 후 콘텐츠 로딩 대기
   await new Promise(r => setTimeout(r, 2000));
 }
 
@@ -156,7 +233,6 @@ async function enrichGenre(page, apps) {
     try {
       await page.goto(app.url, { waitUntil: "domcontentloaded", timeout: 15000 });
       const genre = await page.evaluate(() => {
-        // 장르 정보 찾기
         const genreEl = document.querySelector('a.inline-list__item[href*="/genre/"], .information-list__item__definition a, dd.information-list__item__definition a');
         if (genreEl) return genreEl.textContent.trim();
         const allLinks = [...document.querySelectorAll('a')];
@@ -184,9 +260,8 @@ async function main() {
 
     try {
       const appleApps = await crawlAppleStore(page, cfg.cc);
-      console.log(`  → Apple: ${appleApps.length} games found`);
+      console.log(`  → Apple total: ${appleApps.length} games (${appleApps.filter(a=>a.banner).length} banners)`);
 
-      // 상세 페이지에서 장르 보강
       if (appleApps.length > 0) {
         console.log("  → Enriching genres...");
         await enrichGenre(page, appleApps);
@@ -204,7 +279,6 @@ async function main() {
       console.log(`  ✅ Saved ${filePath}`);
     } catch (e) {
       console.error(`  ❌ ${code} failed:`, e.message);
-      // 빈 데이터라도 저장
       const filePath = join(DATA_DIR, `${code}.json`);
       writeFileSync(filePath, JSON.stringify({ country: code, date: new Date().toISOString().slice(0, 10), apple: [], error: e.message }, null, 2));
     }
@@ -217,4 +291,3 @@ async function main() {
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
-

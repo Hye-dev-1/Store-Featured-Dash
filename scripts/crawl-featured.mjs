@@ -15,7 +15,6 @@ const COUNTRIES = {
   TH: { cc: "th", name: "태국" }
 };
 
-/* ═══ 장르 매핑 ═══ */
 const GM = {
   "action":"액션","role playing":"RPG","role-playing":"RPG","rpg":"RPG","strategy":"전략",
   "puzzle":"퍼즐","casual":"캐주얼","simulation":"시뮬레이션","adventure":"어드벤처",
@@ -31,7 +30,6 @@ const toG = (r) => {
   return GM[l] || GM[l.split(/[\/,&·\-]/)[0].trim()] || r;
 };
 
-/* ═══ NEXON 감지 ═══ */
 const NX_DEVS = [
   "nexon","nexon company","nexon corporation","nexon korea","nexon korea corporation",
   "nexon games","neople","neople inc","toben studio","toben studio inc",
@@ -43,251 +41,265 @@ const isNexon = (dev) => {
   return NX_DEVS.some(nx => dl.includes(nx));
 };
 
-/* ═══ App Store 피쳐드 크롤링 ═══ */
-async function crawlAppleStore(page, cc) {
-  const apps = [];
-
-  // ─── 1) Today 탭 ───
+/* ═══ 앱 상세 페이지 → 개발사 + 장르 ═══ */
+async function getAppDetail(page, url) {
   try {
-    console.log(`  [Apple Today] ${cc}`);
-    await page.goto(`https://apps.apple.com/${cc}/iphone/today`, { waitUntil: "networkidle2", timeout: 30000 });
-    await page.waitForSelector('a[href*="/app/"], a[href*="/game/"]', { timeout: 10000 }).catch(() => {});
-    await autoScroll(page);
-
-    const todayData = await page.evaluate(() => {
-      const results = { banners: [], cards: [] };
-
-      // 배너: 페이지 최상단 대형 히어로 카드 (첫 번째 큰 카드)
-      const heroCards = document.querySelectorAll('section:first-of-type a[href*="/app/"], section:first-of-type a[href*="/game/"], .l-row:first-child a[href*="/app/"], .l-row:first-child a[href*="/game/"]');
-      const bannerSet = new Set();
-      heroCards.forEach((el, idx) => {
-        if (idx >= 3) return; // 배너는 최대 3개
-        const href = el.getAttribute("href") || "";
-        if (!href.includes("/app/") && !href.includes("/game/")) return;
-        const nameEl = el.querySelector(".we-lockup__title, [class*=title], p, h3");
-        const name = nameEl ? nameEl.textContent.trim() : "";
-        const devEl = el.querySelector(".we-lockup__subtitle, [class*=subtitle]");
-        const dev = devEl ? devEl.textContent.trim() : "";
-        const imgEl = el.querySelector("img");
-        let icon = imgEl ? (imgEl.getAttribute("src") || "") : "";
-        if (name && name.length >= 2 && name.length <= 40) {
-          bannerSet.add(name.toLowerCase());
-          results.banners.push({
-            name, dev, icon,
-            url: href.startsWith("http") ? href : "https://apps.apple.com" + href,
-            isGame: href.includes("/game/")
-          });
-        }
-      });
-
-      // 일반 카드: 나머지 lockup 앱들
-      const lockups = document.querySelectorAll('a.we-lockup, a[href*="/app/"], a[href*="/game/"]');
-      lockups.forEach(el => {
-        const href = el.getAttribute("href") || "";
-        if (!href.includes("/app/") && !href.includes("/game/")) return;
-        const isGame = href.includes("/game/");
-        const nameEl = el.querySelector(".we-lockup__title, .we-lockup__text .we-truncate, [class*=title], p, h3");
-        const name = nameEl ? nameEl.textContent.trim() : "";
-        if (bannerSet.has(name.toLowerCase())) return; // 배너와 중복 제거
-        const devEl = el.querySelector(".we-lockup__subtitle, [class*=subtitle]");
-        const dev = devEl ? devEl.textContent.trim() : "";
-        const imgEl = el.querySelector("img, picture source, [srcset]");
-        let icon = "";
-        if (imgEl) icon = imgEl.getAttribute("src") || imgEl.getAttribute("srcset")?.split(" ")[0] || "";
-        if (name && name.length >= 2 && name.length <= 40) {
-          results.cards.push({ name, dev, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isGame });
-        }
-      });
-      return results;
+    await page.goto(url, { waitUntil: "domcontentloaded", timeout: 15000 });
+    return await page.evaluate(() => {
+      let dev = "", genre = "";
+      const devEl = document.querySelector("h2.product-header__identity a, .product-header__identity a");
+      if (devEl) dev = devEl.textContent.trim();
+      if (!dev) { const s = document.querySelector(".product-header__subtitle"); if (s) dev = s.textContent.trim(); }
+      const genreEl = document.querySelector('dd.information-list__item__definition a[href*="/genre/"]');
+      if (genreEl) genre = genreEl.textContent.trim();
+      if (!genre) { const g = [...document.querySelectorAll("a")].find(a => (a.href||"").includes("/genre/") && a.textContent.trim().length > 1); if (g) genre = g.textContent.trim(); }
+      return { dev, genre };
     });
-
-    // 배너 앱 (최고 우선순위)
-    todayData.banners.forEach((app, i) => {
-      if (!app.isGame && !app.url.includes("/game/")) return;
-      apps.push({
-        name: app.name, dev: app.dev, icon: app.icon, url: app.url,
-        tab: "Today", section: "배너", priority: i + 1,
-        genre: "", rating: 0, category: "Games",
-        nexon: isNexon(app.dev), banner: true
-      });
-    });
-
-    // 일반 카드 앱
-    todayData.cards.forEach((app, i) => {
-      if (!app.isGame && !app.url.includes("/game/")) return;
-      apps.push({
-        name: app.name, dev: app.dev, icon: app.icon, url: app.url,
-        tab: "Today", section: "Featured", priority: 10 + i,
-        genre: "", rating: 0, category: "Games",
-        nexon: isNexon(app.dev), banner: false
-      });
-    });
-    console.log(`    Today: ${todayData.banners.length} banners, ${todayData.cards.filter(c=>c.isGame||c.url.includes("/game/")).length} cards`);
-  } catch (e) { console.warn(`  [Apple Today Error] ${cc}:`, e.message); }
-
-  // ─── 2) Games 탭 ───
-  try {
-    console.log(`  [Apple Games] ${cc}`);
-    await page.goto(`https://apps.apple.com/${cc}/iphone/games`, { waitUntil: "networkidle2", timeout: 30000 });
-    await page.waitForSelector('a[href*="/app/"], a[href*="/game/"]', { timeout: 10000 }).catch(() => {});
-    await autoScroll(page);
-
-    const gamesData = await page.evaluate(() => {
-      const results = { banners: [], cards: [] };
-      const allLinks = document.querySelectorAll('a[href*="/game/"], a[href*="/app/"]');
-      const bannerSet = new Set();
-
-      // 배너: 페이지 최상단 히어로 영역
-      allLinks.forEach((el, idx) => {
-        if (idx >= 3) return;
-        const href = el.getAttribute("href") || "";
-        if (!href.includes("/app/") && !href.includes("/game/")) return;
-        const nameEl = el.querySelector(".we-lockup__title, [class*=title], p, h3");
-        const name = nameEl ? nameEl.textContent.trim() : "";
-        const devEl = el.querySelector(".we-lockup__subtitle, [class*=subtitle]");
-        const dev = devEl ? devEl.textContent.trim() : "";
-        const imgEl = el.querySelector("img");
-        const icon = imgEl ? (imgEl.getAttribute("src") || "") : "";
-        if (name && name.length >= 2 && name.length <= 40) {
-          bannerSet.add(name.toLowerCase());
-          results.banners.push({
-            name, dev, icon,
-            url: href.startsWith("http") ? href : "https://apps.apple.com" + href
-          });
-        }
-      });
-
-      // 나머지 카드
-      const lockups = document.querySelectorAll('a.we-lockup, a[href*="/game/"], a[href*="/app/"]');
-      lockups.forEach(el => {
-        const href = el.getAttribute("href") || "";
-        if (!href.includes("/app/") && !href.includes("/game/")) return;
-        const nameEl = el.querySelector(".we-lockup__title, .we-lockup__text .we-truncate, [class*=title], p, h3");
-        const name = nameEl ? nameEl.textContent.trim() : "";
-        if (bannerSet.has(name.toLowerCase())) return;
-        const devEl = el.querySelector(".we-lockup__subtitle, [class*=subtitle]");
-        const dev = devEl ? devEl.textContent.trim() : "";
-        const imgEl = el.querySelector("img");
-        const icon = imgEl ? (imgEl.getAttribute("src") || "") : "";
-        if (name && name.length >= 2 && name.length <= 40) {
-          results.cards.push({ name, dev, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href });
-        }
-      });
-      return results;
-    });
-
-    const existing = new Set(apps.map(a => a.name.toLowerCase()));
-
-    // Games 배너 (높은 우선순위)
-    gamesData.banners.forEach((app, i) => {
-      if (existing.has(app.name.toLowerCase())) return;
-      existing.add(app.name.toLowerCase());
-      apps.push({
-        name: app.name, dev: app.dev, icon: app.icon, url: app.url,
-        tab: "Games", section: "배너", priority: 5 + i,
-        genre: "", rating: 0, category: "Games",
-        nexon: isNexon(app.dev), banner: true
-      });
-    });
-
-    // Games 일반 카드
-    gamesData.cards.forEach((app, i) => {
-      if (existing.has(app.name.toLowerCase())) return;
-      existing.add(app.name.toLowerCase());
-      apps.push({
-        name: app.name, dev: app.dev, icon: app.icon, url: app.url,
-        tab: "Games", section: "Featured", priority: 50 + i,
-        genre: "", rating: 0, category: "Games",
-        nexon: isNexon(app.dev), banner: false
-      });
-    });
-    console.log(`    Games: ${gamesData.banners.length} banners, ${gamesData.cards.length} cards`);
-  } catch (e) { console.warn(`  [Apple Games Error] ${cc}:`, e.message); }
-
-  // 우선순위 정렬 후 순위 매기기
-  apps.sort((a, b) => a.priority - b.priority);
-  apps.forEach((a, i) => a.rank = i + 1);
-  return apps;
+  } catch (e) { return { dev: "", genre: "" }; }
 }
 
-/* ═══ 자동 스크롤 ═══ */
-async function autoScroll(page) {
-  await page.evaluate(async () => {
-    await new Promise(resolve => {
-      let totalHeight = 0;
-      const distance = 400;
-      const timer = setInterval(() => {
-        window.scrollBy(0, distance);
-        totalHeight += distance;
-        if (totalHeight >= 3000) { clearInterval(timer); resolve(); }
-      }, 200);
+/* ═══════════════════════════════════════
+   Games 탭 추출
+   배너: shelf-grid Spotlight 안의 hero 카드
+     → a[data-test-id="internal-link"][href*="/app/"]
+     → 안에 [data-test-id="hero"] 있으면 배너
+     → h2 = 앱 이름
+   일반: a[href*="/app/"] with h3
+   ═══════════════════════════════════════ */
+async function extractGamesTab(page) {
+  return await page.evaluate(() => {
+    const apps = [];
+    const seen = new Set();
+
+    // 1) 배너: hero 카드 (Spotlight shelf)
+    const heroLinks = document.querySelectorAll('a[href*="/app/"]');
+    heroLinks.forEach(el => {
+      const href = el.getAttribute("href") || "";
+      if (!href.includes("/app/")) return;
+      const hero = el.querySelector('[data-test-id="hero"]');
+      if (!hero) return; // hero가 없으면 배너 아님
+
+      // 앱 이름: h2 또는 aria-label
+      let name = "";
+      const h2 = el.querySelector("h2");
+      if (h2) name = h2.textContent.trim();
+      if (!name) name = el.getAttribute("aria-label")?.split(",")[0]?.trim() || "";
+      if (!name || name.length < 2 || name.length > 40 || seen.has(name.toLowerCase())) return;
+
+      // 아이콘: lockup-container 안의 앱 아이콘
+      const iconEl = el.querySelector('.lockup-container img[src*="mzstatic"], .app-icon img[src*="mzstatic"]');
+      const icon = iconEl ? iconEl.getAttribute("src") || "" : "";
+
+      // eyebrow 배지 (예: "새로운 게임")
+      const eyebrowEl = el.querySelector(".eyebrow");
+      const eyebrow = eyebrowEl ? eyebrowEl.textContent.trim() : "";
+
+      seen.add(name.toLowerCase());
+      apps.push({ name, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isBanner: true, eyebrow });
     });
+
+    // 2) 일반 앱: h3를 가진 링크
+    const allLinks = document.querySelectorAll('a[href*="/app/"]');
+    allLinks.forEach(el => {
+      const href = el.getAttribute("href") || "";
+      if (!href.includes("/app/") || href.includes("/story/")) return;
+      let name = "";
+      const h3 = el.querySelector("h3");
+      if (h3) name = h3.textContent.trim();
+      if (!name) name = el.getAttribute("aria-label") || "";
+      if (!name || name.length < 2 || name.length > 40 || seen.has(name.toLowerCase())) return;
+
+      const iconEl = el.querySelector('img[src*="mzstatic"]');
+      const icon = iconEl ? iconEl.getAttribute("src") || "" : "";
+
+      seen.add(name.toLowerCase());
+      apps.push({ name, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isBanner: false, eyebrow: "" });
+    });
+
+    return apps;
   });
+}
+
+/* ═══════════════════════════════════════
+   Today 탭 추출
+   배너: .wrapper > .overlay > .small-lockup-item > a[href*="/app/"]
+     → aria-label = 앱 이름
+     → 부모에 picture source 있으면 배너 카드
+   일반: a[href*="/app/"] (게임만 = /game/ URL)
+   ═══════════════════════════════════════ */
+async function extractTodayTab(page) {
+  return await page.evaluate(() => {
+    const apps = [];
+    const seen = new Set();
+
+    // 1) 배너: small-lockup-item 안의 앱 링크
+    const lockupLinks = document.querySelectorAll('.small-lockup-item a[href*="/app/"]');
+    lockupLinks.forEach(el => {
+      const href = el.getAttribute("href") || "";
+      if (!href.includes("/app/")) return;
+      const name = el.getAttribute("aria-label") || "";
+      if (!name || name.length < 2 || name.length > 40 || seen.has(name.toLowerCase())) return;
+
+      const iconEl = el.closest(".small-lockup-item")?.querySelector('img[src*="mzstatic"]');
+      const icon = iconEl ? iconEl.getAttribute("src") || "" : "";
+
+      seen.add(name.toLowerCase());
+      apps.push({ name, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isBanner: true });
+    });
+
+    // 2) 일반: h3를 가진 앱 링크 (게임 카테고리)
+    const allLinks = document.querySelectorAll('a[href*="/app/"]');
+    allLinks.forEach(el => {
+      const href = el.getAttribute("href") || "";
+      if (!href.includes("/app/") || href.includes("/story/")) return;
+      let name = "";
+      const h3 = el.querySelector("h3");
+      if (h3) name = h3.textContent.trim();
+      if (!name) name = el.getAttribute("aria-label") || "";
+      if (!name || name.length < 2 || name.length > 40 || seen.has(name.toLowerCase())) return;
+
+      const iconEl = el.querySelector('img[src*="mzstatic"]');
+      const icon = iconEl ? iconEl.getAttribute("src") || "" : "";
+
+      seen.add(name.toLowerCase());
+      apps.push({ name, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isBanner: false });
+    });
+
+    return apps;
+  });
+}
+
+/* ═══ 메인 크롤링 ═══ */
+async function crawlAppleStore(page, cc) {
+  const allApps = [];
+  const seen = new Set();
+
+  // ─── Games 탭 ───
+  try {
+    console.log(`  [Games Tab]`);
+    await page.goto(`https://apps.apple.com/${cc}/iphone/games`, { waitUntil: "networkidle2", timeout: 30000 });
+    await autoScroll(page, 5000);
+    const gamesApps = await extractGamesTab(page);
+    const banners = gamesApps.filter(a => a.isBanner);
+    const cards = gamesApps.filter(a => !a.isBanner);
+    console.log(`    ${banners.length} banners, ${cards.length} cards`);
+
+    banners.forEach((app, i) => {
+      if (seen.has(app.name.toLowerCase())) return;
+      seen.add(app.name.toLowerCase());
+      allApps.push({
+        name: app.name, dev: "", icon: app.icon, url: app.url,
+        tab: "Games", section: "배너", priority: i + 1,
+        genre: "", rating: 0, category: "Games",
+        nexon: false, banner: true
+      });
+    });
+    cards.forEach((app, i) => {
+      if (seen.has(app.name.toLowerCase())) return;
+      seen.add(app.name.toLowerCase());
+      allApps.push({
+        name: app.name, dev: "", icon: app.icon, url: app.url,
+        tab: "Games", section: "Featured", priority: 20 + i,
+        genre: "", rating: 0, category: "Games",
+        nexon: false, banner: false
+      });
+    });
+  } catch (e) { console.warn(`  [Games Error]`, e.message); }
+
+  // ─── Today 탭 (게임만) ───
+  try {
+    console.log(`  [Today Tab]`);
+    await page.goto(`https://apps.apple.com/${cc}/iphone/today`, { waitUntil: "networkidle2", timeout: 30000 });
+    await autoScroll(page, 5000);
+    const todayApps = await extractTodayTab(page);
+    const banners = todayApps.filter(a => a.isBanner);
+    const cards = todayApps.filter(a => !a.isBanner);
+    console.log(`    ${banners.length} banners, ${cards.length} cards`);
+
+    // Today에서는 Games 탭과 중복되지 않는 것만 추가
+    banners.forEach((app, i) => {
+      if (seen.has(app.name.toLowerCase())) return;
+      seen.add(app.name.toLowerCase());
+      allApps.push({
+        name: app.name, dev: "", icon: app.icon, url: app.url,
+        tab: "Today", section: "배너", priority: 50 + i,
+        genre: "", rating: 0, category: "Games",
+        nexon: false, banner: true
+      });
+    });
+    cards.forEach((app, i) => {
+      if (seen.has(app.name.toLowerCase())) return;
+      seen.add(app.name.toLowerCase());
+      allApps.push({
+        name: app.name, dev: "", icon: app.icon, url: app.url,
+        tab: "Today", section: "Featured", priority: 70 + i,
+        genre: "", rating: 0, category: "Games",
+        nexon: false, banner: false
+      });
+    });
+  } catch (e) { console.warn(`  [Today Error]`, e.message); }
+
+  // ─── 상세 페이지: 개발사 + 장르 ───
+  const n = Math.min(allApps.length, 30);
+  console.log(`  [Detail] ${n} apps...`);
+  for (let i = 0; i < n; i++) {
+    const app = allApps[i];
+    if (!app.url) continue;
+    const d = await getAppDetail(page, app.url);
+    if (d.dev) { app.dev = d.dev; app.nexon = isNexon(d.dev); }
+    if (d.genre) app.genre = toG(d.genre);
+    if (i % 5 === 0 && i > 0) console.log(`    ${i}/${n}`);
+    await new Promise(r => setTimeout(r, 300));
+  }
+
+  allApps.sort((a, b) => a.priority - b.priority);
+  allApps.forEach((a, i) => a.rank = i + 1);
+
+  console.log(`  → ${allApps.length} total, ${allApps.filter(a=>a.banner).length} banners, ${allApps.filter(a=>a.nexon).length} NEXON`);
+  return allApps;
+}
+
+async function autoScroll(page, maxHeight = 3000) {
+  await page.evaluate(async (mh) => {
+    await new Promise(r => {
+      let h = 0;
+      const t = setInterval(() => { window.scrollBy(0, 400); h += 400; if (h >= mh) { clearInterval(t); r(); } }, 200);
+    });
+  }, maxHeight);
   await new Promise(r => setTimeout(r, 2000));
 }
 
-/* ═══ 개별 앱 상세 페이지에서 장르 가져오기 ═══ */
-async function enrichGenre(page, apps) {
-  for (const app of apps.slice(0, 20)) {
-    if (app.genre || !app.url) continue;
-    try {
-      await page.goto(app.url, { waitUntil: "domcontentloaded", timeout: 15000 });
-      const genre = await page.evaluate(() => {
-        const genreEl = document.querySelector('a.inline-list__item[href*="/genre/"], .information-list__item__definition a, dd.information-list__item__definition a');
-        if (genreEl) return genreEl.textContent.trim();
-        const allLinks = [...document.querySelectorAll('a')];
-        const genreLink = allLinks.find(a => (a.href || "").includes("/genre/") && a.textContent.trim().length > 1);
-        return genreLink ? genreLink.textContent.trim() : "";
-      });
-      if (genre) app.genre = toG(genre);
-    } catch (e) { /* skip */ }
-  }
-}
-
-/* ═══ 메인 실행 ═══ */
 async function main() {
-  console.log("🚀 Starting App Store Featured Crawler...");
+  console.log("🚀 App Store Featured Crawler\n");
   const browser = await puppeteer.launch({
     headless: "new",
-    args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"]
+    args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage", "--disable-gpu"]
   });
 
   for (const [code, cfg] of Object.entries(COUNTRIES)) {
-    console.log(`\n📱 Crawling ${code} (${cfg.name})...`);
+    console.log(`📱 ${code} (${cfg.name})`);
     const page = await browser.newPage();
     await page.setViewport({ width: 1280, height: 900 });
-    await page.setUserAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36");
+    await page.setUserAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36");
 
     try {
-      const appleApps = await crawlAppleStore(page, cfg.cc);
-      console.log(`  → Apple total: ${appleApps.length} games (${appleApps.filter(a=>a.banner).length} banners)`);
-
-      if (appleApps.length > 0) {
-        console.log("  → Enriching genres...");
-        await enrichGenre(page, appleApps);
-      }
-
-      const data = {
-        country: code,
-        date: new Date().toISOString().slice(0, 10),
-        updated: new Date().toISOString(),
-        apple: appleApps
-      };
-
-      const filePath = join(DATA_DIR, `${code}.json`);
-      writeFileSync(filePath, JSON.stringify(data, null, 2));
-      console.log(`  ✅ Saved ${filePath}`);
+      const apps = await crawlAppleStore(page, cfg.cc);
+      writeFileSync(join(DATA_DIR, `${code}.json`), JSON.stringify({
+        country: code, date: new Date().toISOString().slice(0, 10),
+        updated: new Date().toISOString(), apple: apps
+      }, null, 2));
+      console.log(`  ✅ Saved\n`);
     } catch (e) {
-      console.error(`  ❌ ${code} failed:`, e.message);
-      const filePath = join(DATA_DIR, `${code}.json`);
-      writeFileSync(filePath, JSON.stringify({ country: code, date: new Date().toISOString().slice(0, 10), apple: [], error: e.message }, null, 2));
+      console.error(`  ❌ ${code}:`, e.message);
+      writeFileSync(join(DATA_DIR, `${code}.json`), JSON.stringify({
+        country: code, date: new Date().toISOString().slice(0, 10), apple: [], error: e.message
+      }, null, 2));
     }
-
     await page.close();
   }
 
   await browser.close();
-  console.log("\n🏁 Crawl complete!");
+  console.log("🏁 Done!");
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

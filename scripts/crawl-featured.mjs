@@ -87,6 +87,8 @@ async function getAppIcon(page) {
     return "";
   });
 }
+
+/* ═══════════════════════════════════════
    Games 탭 추출
    배너: shelf-grid Spotlight 안의 hero 카드
      → a[data-test-id="internal-link"][href*="/app/"]

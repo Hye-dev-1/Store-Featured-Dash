@@ -48,10 +48,10 @@ export const handler = async (event) => {
   const NX_DEVS = ["nexon","nexon company","nexon corporation","nexon korea","nexon korea corporation","nexon games","neople","neople inc","toben studio","toben studio inc","nexon gt","embark studios","nat games","mintrocket"];
   const isNexon = (dev) => { if(!dev) return false; const dl=dev.toLowerCase().trim(); return NX_DEVS.some(nx=>dl.includes(nx)); };
 
-  const gpConvert = (app, i, section, priorityBase) => {
+  const gpConvert = (app, i, section, priorityBase, isBanner) => {
     const name = app.title||"";
     if (bad(name)) return null;
-    return { rank:0, name, icon:app.icon||"", genre:toG(app.genre||""), rating:app.score?parseFloat(app.score.toFixed(1)):0, section, dev:app.developer||"", tab:"Featured", url:app.url||`https://play.google.com/store/apps/details?id=${app.appId}&hl=${c.hl}&gl=${c.gl}`, category:"Games", priority:priorityBase+i, nexon:isNexon(app.developer) };
+    return { rank:0, name, icon:app.icon||"", genre:toG(app.genre||""), rating:app.score?parseFloat(app.score.toFixed(1)):0, section: isBanner ? "배너" : section, dev:app.developer||"", tab:"Featured", url:app.url||`https://play.google.com/store/apps/details?id=${app.appId}&hl=${c.hl}&gl=${c.gl}`, category:"Games", priority:priorityBase+i, nexon:isNexon(app.developer), banner: !!isBanner };
   };
 
   try {
@@ -101,11 +101,11 @@ export const handler = async (event) => {
     ]);
 
     if (gpRes.status==="fulfilled"&&gpRes.value.length>0) {
-      gpRes.value.forEach((app,i)=>{ const item=gpConvert(app,i,"Top Free Games",1); if(item) gpApps.push(item); });
+      gpRes.value.forEach((app,i)=>{ const item=gpConvert(app,i,"Top Free Games",1,i<3); if(item) gpApps.push(item); });
     }
     if (gpGrossRes.status==="fulfilled"&&gpGrossRes.value.length>0) {
       const ex=new Set(gpApps.map(a=>a.name.toLowerCase()));
-      gpGrossRes.value.forEach((app,i)=>{ const n=(app.title||"").toLowerCase(); if(ex.has(n))return; ex.add(n); const item=gpConvert(app,i,"Top Grossing",100); if(item) gpApps.push(item); });
+      gpGrossRes.value.forEach((app,i)=>{ const n=(app.title||"").toLowerCase(); if(ex.has(n))return; ex.add(n); const item=gpConvert(app,i,"Top Grossing",100,false); if(item) gpApps.push(item); });
     }
 
     /* GP 폴백: search */
@@ -118,7 +118,7 @@ export const handler = async (event) => {
           results.forEach(app=>{
             if(!app.genre||!app.genre.toLowerCase().includes("game"))return;
             const n=(app.title||"").toLowerCase(); if(seen.has(n))return; seen.add(n);
-            const item=gpConvert(app,gpApps.length,"Search",200); if(item) gpApps.push(item);
+            const item=gpConvert(app,gpApps.length,"Search",200,false); if(item) gpApps.push(item);
           });
         }catch(e){console.warn("[GP Search]",q,e.message);}
       }

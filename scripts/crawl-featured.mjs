@@ -44,15 +44,31 @@ const isNexon = (dev) => {
 /* ═══ 앱 상세 페이지 → 개발사 + 장르 ═══ */
 async function getAppDetail(page, url) {
   try {
-    await page.goto(url, { waitUntil: "domcontentloaded", timeout: 15000 });
+    await page.goto(url, { waitUntil: "networkidle2", timeout: 20000 });
+    // Svelte 렌더링 대기
+    await page.waitForSelector('a[href*="/developer/"]', { timeout: 8000 }).catch(() => {});
     return await page.evaluate(() => {
       let dev = "", genre = "";
-      const devEl = document.querySelector("h2.product-header__identity a, .product-header__identity a");
-      if (devEl) dev = devEl.textContent.trim();
-      if (!dev) { const s = document.querySelector(".product-header__subtitle"); if (s) dev = s.textContent.trim(); }
-      const genreEl = document.querySelector('dd.information-list__item__definition a[href*="/genre/"]');
-      if (genreEl) genre = genreEl.textContent.trim();
-      if (!genre) { const g = [...document.querySelectorAll("a")].find(a => (a.href||"").includes("/genre/") && a.textContent.trim().length > 1); if (g) genre = g.textContent.trim(); }
+
+      // 개발사: a[href*="/developer/"] 링크 텍스트
+      const devLink = document.querySelector('a[href*="/developer/"]');
+      if (devLink) dev = devLink.textContent.trim();
+
+      // 폴백: "개발자" 라벨 옆의 텍스트
+      if (!dev) {
+        const allLinks = [...document.querySelectorAll("a")];
+        const dl = allLinks.find(a => (a.href || "").includes("/developer/") && a.textContent.trim().length > 1);
+        if (dl) dev = dl.textContent.trim();
+      }
+
+      // 장르: a[href*="/genre/"] 또는 카테고리 섹션
+      const genreLink = document.querySelector('a[href*="/genre/"]');
+      if (genreLink) genre = genreLink.textContent.trim();
+      if (!genre) {
+        const gl = [...document.querySelectorAll("a")].find(a => (a.href || "").includes("/genre/") && a.textContent.trim().length > 1);
+        if (gl) genre = gl.textContent.trim();
+      }
+
       return { dev, genre };
     });
   } catch (e) { return { dev: "", genre: "" }; }

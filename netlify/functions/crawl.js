@@ -65,9 +65,9 @@ export const handler = async (event) => {
           ...a,
           rank: i + 1,
           genre: a.genre ? toG(a.genre) : "",
-          nexon: a.nexon || isNexon(a.dev)
+          nexon: a.nexon === true || isNexon(a.dev)
         }));
-        console.log(`[Apple] Loaded ${appleApps.length} from GitHub (${cached.date})`);
+        console.log(`[Apple] Loaded ${appleApps.length} from GitHub (${cached.date}), NEXON: ${appleApps.filter(a=>a.nexon).length}`);
       }
     } catch (e) {
       console.warn("[Apple GitHub]", e.message);

@@ -1,13 +1,13 @@
 {
   "country": "US",
-  "date": "2026-04-28",
-  "updated": "2026-04-28T08:08:01.874Z",
+  "date": "2026-04-29",
+  "updated": "2026-04-29T08:01:31.971Z",
   "apple": [
     {
-      "name": "Control",
-      "dev": "Developer  Remedy Entertainment PLC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/61/48/42614867-7ce1-c36b-f157-ed0930241484/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/control-ultimate-edition/id6502953520",
+      "name": "Neverness to Everness",
+      "dev": "Developer  N2E ENTERTAINMENT PTE. LTD.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/d1/38/bdd13872-9694-80d3-08a1-23612872bb59/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/nte-neverness-to-everness/id6754593077",
       "tab": "Games",
       "section": "배너",
       "priority": 1,
@@ -19,10 +19,10 @@
       "rank": 1
     },
     {
-      "name": "Call of Duty: Mobile",
-      "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/92/1d/d0921d2f-2d54-a3a5-3092-6edfad380663/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/call-of-duty-mobile/id1287282214?eventid=6762288330",
+      "name": "Control",
+      "dev": "Developer  Remedy Entertainment PLC",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/4b/fa/774bfa96-b970-b09c-4b47-853f88a7e876/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/control-ultimate-edition/id6502953520",
       "tab": "Games",
       "section": "배너",
       "priority": 2,
@@ -34,10 +34,10 @@
       "rank": 2
     },
     {
-      "name": "F1 Clash",
+      "name": "Call of Duty: Mobile",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4f/1f/29/4f1f2930-c4d7-36e5-5397-3ba820f7896b/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/f1-clash-official-2026-game/id1434561536?eventid=6760708297",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/92/1d/d0921d2f-2d54-a3a5-3092-6edfad380663/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/call-of-duty-mobile/id1287282214?eventid=6762288330",
       "tab": "Games",
       "section": "배너",
       "priority": 3,
@@ -49,10 +49,10 @@
       "rank": 3
     },
     {
-      "name": "Control Ultimate Edition",
-      "dev": "Developer  Remedy Entertainment PLC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/59/32/f7/5932f7a5-6da7-2ce5-2d71-d4367275687e/6e65ee0b-5966-4bc2-9e6c-0f750e10ce36.png/490x176grav.west.webp",
-      "url": "https://apps.apple.com/us/app/control-ultimate-edition/id6502953520",
+      "name": "NTE: Neverness to Everness",
+      "dev": "Developer  N2E ENTERTAINMENT PTE. LTD.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/91/d9/2f/91d92fee-cae9-180c-1ef0-61ac7502231e/8c117452-b96e-4d00-8a6c-4baadba72e77.png/490x176grav.west.webp",
+      "url": "https://apps.apple.com/us/app/nte-neverness-to-everness/id6754593077",
       "tab": "Games",
       "section": "Featured",
       "priority": 20,
@@ -64,10 +64,10 @@
       "rank": 4
     },
     {
-      "name": "Call of Duty®: Mobile",
-      "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/fd/24/6c/fd246ccd-0373-c01d-b686-94c560c527d7/059f2f21-3906-4d38-aae3-725f45288668.png/490x176grav.west.webp",
-      "url": "https://apps.apple.com/us/app/call-of-duty-mobile/id1287282214?eventid=6762288330",
+      "name": "Control Ultimate Edition",
+      "dev": "Developer  Remedy Entertainment PLC",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/59/32/f7/5932f7a5-6da7-2ce5-2d71-d4367275687e/6e65ee0b-5966-4bc2-9e6c-0f750e10ce36.png/490x176grav.west.webp",
+      "url": "https://apps.apple.com/us/app/control-ultimate-edition/id6502953520",
       "tab": "Games",
       "section": "Featured",
       "priority": 21,
@@ -79,10 +79,10 @@
       "rank": 5
     },
     {
-      "name": "F1 Clash - Official 2026 Game",
+      "name": "Call of Duty®: Mobile",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/8f/a0/a8/8fa0a8ad-1b21-5616-2dde-703969e8a9e4/2c4f89ba-6add-4386-99ea-e390f32def03.png/490x176grav.west.webp",
-      "url": "https://apps.apple.com/us/app/f1-clash-official-2026-game/id1434561536?eventid=6760708297",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/fd/24/6c/fd246ccd-0373-c01d-b686-94c560c527d7/059f2f21-3906-4d38-aae3-725f45288668.png/490x176grav.west.webp",
+      "url": "https://apps.apple.com/us/app/call-of-duty-mobile/id1287282214?eventid=6762288330",
       "tab": "Games",
       "section": "Featured",
       "priority": 22,
@@ -141,7 +141,7 @@
     {
       "name": "Rainbow Six Mobile",
       "dev": "Developer  Ubisoft Nova",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/8e/a1/ad8ea1d0-5c7a-6ae9-3682-26bfaf552cb3/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/41/d4/9c41d4a4-eb03-3483-0d24-1130e8c9f061/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/rainbow-six-mobile/id1608916511",
       "tab": "Games",
       "section": "Featured",
@@ -156,7 +156,7 @@
     {
       "name": "Block Blast！",
       "dev": "Developer  Hungry Studio",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/0e/3f/ad0e3f5f-94ac-dffe-82e2-057fe1bc55cd/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/e3/8b/f6e38b80-c3a3-9e82-eba4-8c3f9ec71e27/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/block-blast/id1617391485",
       "tab": "Games",
       "section": "Featured",
@@ -171,7 +171,7 @@
     {
       "name": "Pixel Flow!",
       "dev": "Developer  Loom Games Oyun Yazilim ve Pazarlama Anonim Sirketi",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/a9/d3/81a9d39b-e4c3-7dd9-324e-abbef71545cc/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/a8/46/e3a84631-f083-6708-6ebd-4103ab7c7404/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/pixel-flow/id6751056652",
       "tab": "Games",
       "section": "Featured",
@@ -231,7 +231,7 @@
     {
       "name": "The Division Resurgence",
       "dev": "Developer     Ubisoft",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/e2/dd/7be2dd85-3c4f-6ae9-cab6-3315bf7909ff/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/06/f2/af06f241-31ca-829f-a5d3-8375f81df544/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/the-division-resurgence/id1606349410",
       "tab": "Games",
       "section": "Featured",
@@ -276,7 +276,7 @@
     {
       "name": "Magic: The Gathering Arena",
       "dev": "Developer  Wizards of the Coast",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/6b/74/526b7413-b90a-7ba3-8146-b2573efcde50/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/60/50/c3/6050c33e-c836-c63e-9843-d4b76889898d/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/magic-the-gathering-arena/id1496227521",
       "tab": "Games",
       "section": "Featured",
@@ -381,7 +381,7 @@
     {
       "name": "Seaside Escape®: Merge & Story",
       "dev": "Developer  Microfun Limited",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/0f/83/740f8328-ae39-0524-68e9-a3299f217f04/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/b4/38/d8b43881-628c-2f5f-8050-d028a4b1ce42/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/seaside-escape-merge-story/id6443755785",
       "tab": "Games",
       "section": "Featured",
@@ -411,7 +411,7 @@
     {
       "name": "The Sims™ FreePlay",
       "dev": "Developer     Electronic Arts",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/19/6f/75196f7e-43ef-c35f-8472-d4348f42a8dd/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/01/82/4601827f-3eac-4dbe-bbd2-ac850a8ab255/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/the-sims-freeplay/id466965151",
       "tab": "Games",
       "section": "Featured",
@@ -486,7 +486,7 @@
     {
       "name": "Mind The Door",
       "dev": "Developer  Mind Wasted",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/5c/19/6e5c1937-b525-8821-d454-c6ab4db7cc2f/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/b1/d8/7bb1d87a-b9ac-fc0c-4fce-7291ba7390ea/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/mind-the-door/id6758810058",
       "tab": "Games",
       "section": "Featured",
@@ -516,7 +516,7 @@
     {
       "name": "Sea of Stars",
       "dev": "Developer     Playdigious",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/05/e9/7205e91b-1ad2-7c8d-e20f-722819aa10ab/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/54/9f/c5549fa5-c23b-52dd-b892-16e1f38aa2b9/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/sea-of-stars/id6673906410",
       "tab": "Games",
       "section": "Featured",
@@ -591,7 +591,7 @@
     {
       "name": "Dice of Kalma: Dice Roguelike",
       "dev": "Developer  Pepperbox Studios",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/b5/03/1fb503f2-c01f-0fee-d616-551642b6db75/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/24/2a/a3242a27-b257-024e-4447-0225df2e1f86/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/dice-of-kalma-dice-roguelike/id6752259371",
       "tab": "Games",
       "section": "Featured",
@@ -606,7 +606,7 @@
     {
       "name": "MOCHI-O",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b6/22/d7/b622d79f-88e8-def9-7b7e-90e429821523/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/75/46/f2754681-efc2-00ff-f2ad-8c85d765f0f4/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/mochi-o/id6670490274",
       "tab": "Games",
       "section": "Featured",
@@ -1086,7 +1086,7 @@
     {
       "name": "Florisium",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/2d/d7/c12dd76d-0762-de7a-b821-367ff34c7e8c/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/d7/48/2bd748f9-64c2-3f4e-600a-0c52ec268fd1/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/florisium/id6742157438",
       "tab": "Games",
       "section": "Featured",
@@ -1219,10 +1219,10 @@
       "rank": 81
     },
     {
-      "name": "Among Us!",
+      "name": "Woodoku - Wood Block Puzzles",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/a0/14/b9a014bd-a5ad-b29e-fd87-c07d1da0e384/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
-      "url": "https://apps.apple.com/us/app/among-us/id1351168404",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1a/2a/49/1a2a4901-13f0-032a-22a4-512f78030020/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/us/app/woodoku-wood-block-puzzles/id1496354836",
       "tab": "Games",
       "section": "Featured",
       "priority": 98,
@@ -1234,10 +1234,10 @@
       "rank": 82
     },
     {
-      "name": "Math Puzzle Games - Crossmath®",
+      "name": "Among Us!",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/f9/fa/22f9faca-0665-bc3f-a497-9ce462c0b417/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/us/app/math-puzzle-games-crossmath/id1671991909",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/a0/14/b9a014bd-a5ad-b29e-fd87-c07d1da0e384/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/us/app/among-us/id1351168404",
       "tab": "Games",
       "section": "Featured",
       "priority": 99,
@@ -1249,10 +1249,10 @@
       "rank": 83
     },
     {
-      "name": "EA SPORTS FC™ Mobile Soccer 26",
+      "name": "Words With Friends Word Game",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/f6/c1/1ef6c173-2e6f-a89a-f17f-79c750497fcf/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100ia-75.webp",
-      "url": "https://apps.apple.com/us/app/ea-sports-fc-mobile-soccer-26/id1094930513",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/e6/74/d8e674c2-96ae-8eb0-e6a5-9997318a4b95/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/us/app/words-with-friends-word-game/id1196764367",
       "tab": "Games",
       "section": "Featured",
       "priority": 100,
@@ -1281,7 +1281,7 @@
     {
       "name": "Magic Sort!",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/17/d1/9217d181-3439-600a-ad90-75506775a8dc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/c5/38/87c538ac-208a-65e1-bd67-be2d6c4b3556/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/us/app/magic-sort/id6499209744",
       "tab": "Games",
       "section": "Featured",
@@ -1294,10 +1294,10 @@
       "rank": 86
     },
     {
-      "name": "Block Out! - Color Sort Puzzle",
+      "name": "Arrows – Puzzle Escape",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/bc/8b/dabc8b6f-67f5-1fd3-a58b-9514d1a66801/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/us/app/block-out-color-sort-puzzle/id6752672568",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/60/7e/d9607e32-1e56-2bd0-7e1a-d64341e60614/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/us/app/arrows-puzzle-escape/id6748397500",
       "tab": "Games",
       "section": "Featured",
       "priority": 103,
@@ -1309,10 +1309,10 @@
       "rank": 87
     },
     {
-      "name": "Arrows – Puzzle Escape",
+      "name": "Block Out! - Color Sort Puzzle",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/60/7e/d9607e32-1e56-2bd0-7e1a-d64341e60614/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/us/app/arrows-puzzle-escape/id6748397500",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/bc/8b/dabc8b6f-67f5-1fd3-a58b-9514d1a66801/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/us/app/block-out-color-sort-puzzle/id6752672568",
       "tab": "Games",
       "section": "Featured",
       "priority": 104,
@@ -1324,10 +1324,10 @@
       "rank": 88
     },
     {
-      "name": "NTE: Neverness to Everness",
+      "name": "Rips by Triumph",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/d1/38/bdd13872-9694-80d3-08a1-23612872bb59/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/us/app/nte-neverness-to-everness/id6754593077",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/5d/c7/405dc77d-8227-7200-6552-cea6a04ac3da/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/us/app/rips-by-triumph/id6751921248",
       "tab": "Games",
       "section": "Featured",
       "priority": 105,
@@ -1339,10 +1339,10 @@
       "rank": 89
     },
     {
-      "name": "Rips by Triumph",
+      "name": "Vita Mahjong",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/5d/c7/405dc77d-8227-7200-6552-cea6a04ac3da/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/us/app/rips-by-triumph/id6751921248",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/bf/64/48bf641c-2862-c2bb-1970-ef26549d9b47/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/us/app/vita-mahjong/id6468921495",
       "tab": "Games",
       "section": "Featured",
       "priority": 106,
@@ -1354,10 +1354,10 @@
       "rank": 90
     },
     {
-      "name": "Vita Mahjong",
+      "name": "Minecraft: Dream it, Build it!",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/bf/64/48bf641c-2862-c2bb-1970-ef26549d9b47/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/us/app/vita-mahjong/id6468921495",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/0d/13/2a0d13e4-291d-7727-1830-c7fa5133b843/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/us/app/minecraft-dream-it-build-it/id479516143",
       "tab": "Games",
       "section": "Featured",
       "priority": 107,
@@ -1369,10 +1369,10 @@
       "rank": 91
     },
     {
-      "name": "Minecraft: Dream it, Build it!",
+      "name": "Geometry Dash",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/0d/13/2a0d13e4-291d-7727-1830-c7fa5133b843/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/us/app/minecraft-dream-it-build-it/id479516143",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/ad/d0/91add07c-3452-116e-2ca9-e36e92868cd1/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/us/app/geometry-dash/id625334537",
       "tab": "Games",
       "section": "Featured",
       "priority": 108,
@@ -1384,10 +1384,10 @@
       "rank": 92
     },
     {
-      "name": "Geometry Dash",
+      "name": "Plague Inc.",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/ad/d0/91add07c-3452-116e-2ca9-e36e92868cd1/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/us/app/geometry-dash/id625334537",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/7f/eb/7f7feb9c-7efd-9135-50b8-121be7c4a33b/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/us/app/plague-inc/id525818839",
       "tab": "Games",
       "section": "Featured",
       "priority": 109,
@@ -1399,10 +1399,10 @@
       "rank": 93
     },
     {
-      "name": "Heads Up!",
+      "name": "Bloons TD 6",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/b9/49/9db9493f-a9f6-2528-e2cf-618d2af8773b/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/us/app/heads-up/id623592465",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/05/09/8d0509eb-48fa-35fe-c785-7bbbdb1fe2d3/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/us/app/bloons-td-6/id1118115766",
       "tab": "Games",
       "section": "Featured",
       "priority": 110,
@@ -1414,10 +1414,10 @@
       "rank": 94
     },
     {
-      "name": "Bloons TD 6",
+      "name": "Heads Up!",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/05/09/8d0509eb-48fa-35fe-c785-7bbbdb1fe2d3/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/us/app/bloons-td-6/id1118115766",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/b9/49/9db9493f-a9f6-2528-e2cf-618d2af8773b/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/us/app/heads-up/id623592465",
       "tab": "Games",
       "section": "Featured",
       "priority": 111,
@@ -1429,10 +1429,10 @@
       "rank": 95
     },
     {
-      "name": "Plague Inc.",
+      "name": "Red's First Flight",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/7f/eb/7f7feb9c-7efd-9135-50b8-121be7c4a33b/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/us/app/plague-inc/id525818839",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/16/b2/ca/16b2ca07-9218-4469-5e09-29addd3eff9e/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/us/app/reds-first-flight/id1596736236",
       "tab": "Games",
       "section": "Featured",
       "priority": 112,
@@ -1444,10 +1444,10 @@
       "rank": 96
     },
     {
-      "name": "Red's First Flight",
+      "name": "Beholder: Conductor",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/16/b2/ca/16b2ca07-9218-4469-5e09-29addd3eff9e/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100ia-75.webp",
-      "url": "https://apps.apple.com/us/app/reds-first-flight/id1596736236",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/1c/44/171c4444-ea33-4ea9-ae1e-2c8c0267796f/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/beholder-conductor/id6748957041",
       "tab": "Games",
       "section": "Featured",
       "priority": 113,
@@ -1459,10 +1459,10 @@
       "rank": 97
     },
     {
-      "name": "Drova: Forsaken Kin",
+      "name": "Pepp Heroes: Relic Quest",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/0e/47/570e47de-c260-7f86-01a8-88c5016a22d3/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/drova-forsaken-kin/id6754686697",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/65/10/9665104b-5f57-a724-1397-178a170d6341/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/pepp-heroes-relic-quest/id6740507490",
       "tab": "Games",
       "section": "Featured",
       "priority": 114,
@@ -1474,10 +1474,10 @@
       "rank": 98
     },
     {
-      "name": "Bacon in Zane",
+      "name": "Drova: Forsaken Kin",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/af/b9/3cafb94d-6bae-95ec-20c6-151270bb94c7/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/bacon-in-zane/id6751200829",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/0e/47/570e47de-c260-7f86-01a8-88c5016a22d3/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/drova-forsaken-kin/id6754686697",
       "tab": "Games",
       "section": "Featured",
       "priority": 115,
@@ -1489,10 +1489,10 @@
       "rank": 99
     },
     {
-      "name": "Nubby's Number Factory",
+      "name": "Bacon in Zane",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/cd/42/d6cd422f-1bd0-8bc3-dbda-9e0afe3ff952/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/nubbys-number-factory/id6746919411",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/af/b9/3cafb94d-6bae-95ec-20c6-151270bb94c7/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/bacon-in-zane/id6751200829",
       "tab": "Games",
       "section": "Featured",
       "priority": 116,
@@ -1504,10 +1504,10 @@
       "rank": 100
     },
     {
-      "name": "Hamster Chef : Idle Restaurant",
+      "name": "Nubby's Number Factory",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f0/ca/a3/f0caa35a-b86e-4a7b-e422-ad27907c96ff/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/hamster-chef-idle-restaurant/id6756696067",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/cd/42/d6cd422f-1bd0-8bc3-dbda-9e0afe3ff952/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/nubbys-number-factory/id6746919411",
       "tab": "Games",
       "section": "Featured",
       "priority": 117,
@@ -1519,10 +1519,10 @@
       "rank": 101
     },
     {
-      "name": "AERTHLINGS: RPG Adventure",
+      "name": "Hamster Chef : Idle Restaurant",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/93/57/a1935746-9ad2-7d7b-2199-1382126e9f86/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/us/app/aerthlings-rpg-adventure/id6449201808",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f0/ca/a3/f0caa35a-b86e-4a7b-e422-ad27907c96ff/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/hamster-chef-idle-restaurant/id6756696067",
       "tab": "Games",
       "section": "Featured",
       "priority": 118,
@@ -1534,10 +1534,10 @@
       "rank": 102
     },
     {
-      "name": "Factory Balls Go!",
+      "name": "AERTHLINGS: RPG Adventure",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/1b/cf/ed1bcff2-58fd-7f72-54db-014ec5b01475/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/us/app/factory-balls-go/id6759607863",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/93/57/a1935746-9ad2-7d7b-2199-1382126e9f86/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/us/app/aerthlings-rpg-adventure/id6449201808",
       "tab": "Games",
       "section": "Featured",
       "priority": 119,
@@ -1549,10 +1549,10 @@
       "rank": 103
     },
     {
-      "name": "Merchant of the Skies",
+      "name": "Factory Balls Go!",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/a2/d7/07a2d7ec-7e16-9c08-385e-68a68c73833f/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/merchant-of-the-skies/id6754459969",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/1b/cf/ed1bcff2-58fd-7f72-54db-014ec5b01475/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/us/app/factory-balls-go/id6759607863",
       "tab": "Games",
       "section": "Featured",
       "priority": 120,
@@ -1564,10 +1564,10 @@
       "rank": 104
     },
     {
-      "name": "Aurora Hills: Chapter 2",
+      "name": "Merchant of the Skies",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/d0/9e/54d09e6a-b9cd-9079-b4b9-77c6d97633d8/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/aurora-hills-chapter-2/id6756991668",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/a2/d7/07a2d7ec-7e16-9c08-385e-68a68c73833f/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/merchant-of-the-skies/id6754459969",
       "tab": "Games",
       "section": "Featured",
       "priority": 121,
@@ -1579,10 +1579,10 @@
       "rank": 105
     },
     {
-      "name": "My Mole",
+      "name": "Aurora Hills: Chapter 2",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/6f/33/ec6f3361-a579-0c73-b100-d10c1ebe3b1a/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/my-mole/id6757511306",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/d0/9e/54d09e6a-b9cd-9079-b4b9-77c6d97633d8/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/aurora-hills-chapter-2/id6756991668",
       "tab": "Games",
       "section": "Featured",
       "priority": 122,
@@ -1594,10 +1594,10 @@
       "rank": 106
     },
     {
-      "name": "Oh Jellies!",
+      "name": "Dunk City Dynasty",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/59/26/9059267c-2900-e89d-c1b1-2514196b5bcb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/us/app/oh-jellies/id6759596236",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/35/0a/0a350a8d-a1be-d38a-e0c3-6dd40b41b7e6/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/dunk-city-dynasty/id1555216030",
       "tab": "Games",
       "section": "Featured",
       "priority": 123,
@@ -1609,10 +1609,10 @@
       "rank": 107
     },
     {
-      "name": "Dunk City Dynasty",
+      "name": "June's Journey: Hidden Objects",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/35/0a/0a350a8d-a1be-d38a-e0c3-6dd40b41b7e6/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/dunk-city-dynasty/id1555216030",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/16/92/a4169201-d43e-a47a-2cfc-9477211201e9/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/junes-journey-hidden-objects/id1200391796",
       "tab": "Games",
       "section": "Featured",
       "priority": 124,
@@ -1624,10 +1624,10 @@
       "rank": 108
     },
     {
-      "name": "June's Journey: Hidden Objects",
+      "name": "Chess - Play & Learn Online",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/16/92/a4169201-d43e-a47a-2cfc-9477211201e9/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/junes-journey-hidden-objects/id1200391796",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/34/a9/5434a98f-46ef-3e86-f0f9-f7f0185851ee/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/chess-play-learn-online/id329218549",
       "tab": "Games",
       "section": "Featured",
       "priority": 125,
@@ -1639,10 +1639,10 @@
       "rank": 109
     },
     {
-      "name": "Chess - Play & Learn Online",
+      "name": "Heroll : Dice Roguelike",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/34/a9/5434a98f-46ef-3e86-f0f9-f7f0185851ee/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/chess-play-learn-online/id329218549",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/90/01/3f900160-7922-455e-5a86-30680f2f7078/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/heroll-dice-roguelike/id6737821799",
       "tab": "Games",
       "section": "Featured",
       "priority": 126,
@@ -1654,10 +1654,10 @@
       "rank": 110
     },
     {
-      "name": "Heroll : Dice Roguelike",
+      "name": "F1 Clash - Official 2026 Game",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/90/01/3f900160-7922-455e-5a86-30680f2f7078/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/heroll-dice-roguelike/id6737821799",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4f/1f/29/4f1f2930-c4d7-36e5-5397-3ba820f7896b/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/f1-clash-official-2026-game/id1434561536",
       "tab": "Games",
       "section": "Featured",
       "priority": 127,
@@ -1716,7 +1716,7 @@
     {
       "name": "Merge Dragons!",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/20/98/762098c1-bdff-ca29-2c2c-9ea50dc31665/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/fb/1a/c2fb1aae-1387-934f-cf53-f101e4a28dea/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/merge-dragons/id1208952944",
       "tab": "Games",
       "section": "Featured",
@@ -1759,10 +1759,10 @@
       "rank": 117
     },
     {
-      "name": "Beholder: Conductor",
+      "name": "Gambonanza",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/1c/44/171c4444-ea33-4ea9-ae1e-2c8c0267796f/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/beholder-conductor/id6748957041",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/32/65/2232658a-2d19-dc74-45ad-fad89eda64a0/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/gambonanza/id6747752407",
       "tab": "Games",
       "section": "Featured",
       "priority": 134,
@@ -1774,10 +1774,10 @@
       "rank": 118
     },
     {
-      "name": "Pepp Heroes: Relic Quest",
+      "name": "Racing Master",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/65/10/9665104b-5f57-a724-1397-178a170d6341/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/pepp-heroes-relic-quest/id6740507490",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/98/ec/8898ec13-90ae-5d0f-3b1e-6dd46a95aeea/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/racing-master/id6461415696",
       "tab": "Games",
       "section": "Featured",
       "priority": 135,
@@ -1789,10 +1789,10 @@
       "rank": 119
     },
     {
-      "name": "Gambonanza",
+      "name": "Farming Simulator 26 Mobile",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/32/65/2232658a-2d19-dc74-45ad-fad89eda64a0/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/gambonanza/id6747752407",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/71/38/4b/71384b4c-33ae-66bf-f809-a3991edd85fc/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/farming-simulator-26-mobile/id6748056918",
       "tab": "Games",
       "section": "Featured",
       "priority": 136,
@@ -1804,10 +1804,10 @@
       "rank": 120
     },
     {
-      "name": "Racing Master",
+      "name": "Pond Pals",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/98/ec/8898ec13-90ae-5d0f-3b1e-6dd46a95aeea/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/racing-master/id6461415696",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/d3/77/48d377cd-14af-bd22-47cb-4e1fb0c1feb7/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/pond-pals/id6755534047",
       "tab": "Games",
       "section": "Featured",
       "priority": 137,
@@ -1819,10 +1819,10 @@
       "rank": 121
     },
     {
-      "name": "Farming Simulator 26 Mobile",
+      "name": "Minishoot' Adventures",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/71/38/4b/71384b4c-33ae-66bf-f809-a3991edd85fc/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/farming-simulator-26-mobile/id6748056918",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/07/ec/6c07ec31-c835-6daa-42e9-de456c774c13/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/minishoot-adventures/id6742404565",
       "tab": "Games",
       "section": "Featured",
       "priority": 138,
@@ -1834,10 +1834,10 @@
       "rank": 122
     },
     {
-      "name": "Pond Pals",
+      "name": "Bufo Jump",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/d3/77/48d377cd-14af-bd22-47cb-4e1fb0c1feb7/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/pond-pals/id6755534047",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3d/58/11/3d581171-ab92-3b65-26ee-9407ac136474/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/bufo-jump/id6762348613",
       "tab": "Games",
       "section": "Featured",
       "priority": 139,
@@ -1849,10 +1849,10 @@
       "rank": 123
     },
     {
-      "name": "Minishoot' Adventures",
+      "name": "Slime Rancher",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/07/ec/6c07ec31-c835-6daa-42e9-de456c774c13/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/minishoot-adventures/id6742404565",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/4e/d3/974ed30a-e2d3-fc81-217b-f2f29394a070/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/slime-rancher/id6758201392",
       "tab": "Games",
       "section": "Featured",
       "priority": 140,
@@ -1864,10 +1864,10 @@
       "rank": 124
     },
     {
-      "name": "Slime Rancher",
+      "name": "Game of Thrones: Dragonfire",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/4e/d3/974ed30a-e2d3-fc81-217b-f2f29394a070/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/slime-rancher/id6758201392",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/28/9a/f3289a90-a938-36da-f763-b57acb5a07e0/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/game-of-thrones-dragonfire/id1642607669",
       "tab": "Games",
       "section": "Featured",
       "priority": 141,
@@ -1879,10 +1879,10 @@
       "rank": 125
     },
     {
-      "name": "Game of Thrones: Dragonfire",
+      "name": "Barbie™ Horse Ride & Rescue",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/28/9a/f3289a90-a938-36da-f763-b57acb5a07e0/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/game-of-thrones-dragonfire/id1642607669",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/34/86/133486d6-d772-81ac-dc71-5e31da7be635/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/barbie-horse-ride-rescue/id6736413272",
       "tab": "Games",
       "section": "Featured",
       "priority": 142,
@@ -1894,10 +1894,10 @@
       "rank": 126
     },
     {
-      "name": "Barbie™ Horse Ride & Rescue",
+      "name": "Fruit Ninja Adventures",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/34/86/133486d6-d772-81ac-dc71-5e31da7be635/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/barbie-horse-ride-rescue/id6736413272",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/75/54/ca755421-d91f-7c3d-0a07-d3b464d85937/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/fruit-ninja-adventures/id6758101432",
       "tab": "Games",
       "section": "Featured",
       "priority": 143,
@@ -1909,10 +1909,10 @@
       "rank": 127
     },
     {
-      "name": "Fruit Ninja Adventures",
+      "name": "Servant of the Lake",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/75/54/ca755421-d91f-7c3d-0a07-d3b464d85937/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/us/app/fruit-ninja-adventures/id6758101432",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/b0/23/45b02370-81d3-dcea-e797-ed63c392171c/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/us/app/servant-of-the-lake/id6748751735",
       "tab": "Games",
       "section": "Featured",
       "priority": 144,
@@ -2346,7 +2346,7 @@
     {
       "name": "Candy Crush Saga",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/07/29/d9/0729d985-b17c-c216-d92c-59f34c9201c7/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4f/d3/6a/4fd36a34-6d27-ae7b-84c3-a840693c582f/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/us/app/candy-crush-saga/id553834731",
       "tab": "Games",
       "section": "Featured",
@@ -2946,9 +2946,9 @@
   ],
   "google": [
     {
-      "name": "Subway Surfers",
-      "dev": "SYBO Games",
-      "icon": "https://play-lh.googleusercontent.com/rIMQN2JTiHSCj7IezGHkhE39-F66y3Epqlt-iyvveGzT5n0CPOrYDpSePQ7rZBvMJRY=s64-rw",
+      "name": "Honkai: Star Rail",
+      "dev": "COGNOSPHERE PTE. LTD.",
+      "icon": "https://play-lh.googleusercontent.com/_dFcpIqTMtD0b87HDt_GgCWrHzRWEkPRfGNrVP6fymrkV8tHtb8ub5ZPigilApFCTAgeGQK3W9T5Jp4QgK6ilUA=s64-rw",
       "url": "",
       "tab": "Featured",
       "section": "배너",
@@ -2958,13 +2958,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "badge": "Expires on 05/10",
+      "badge": "Update available",
       "rank": 1
     },
     {
-      "name": "Solar Smash",
-      "dev": "Paradyme Games",
-      "icon": "https://play-lh.googleusercontent.com/9oKsgghjeohO1ztpmG6SrIMAVLn8sAhwsRGKHuOaqfMghYWiFHJ1osjwf_fAaMQZA5Y=s64-rw",
+      "name": "Kick the Buddy－Fun Action Game",
+      "dev": "Playgendary Limited",
+      "icon": "https://play-lh.googleusercontent.com/4zT9waZhwrqSCMVFBXCi7jSzjMRP9LMdR4ZylVTd4KRRBy0aK79-IZvQWawRTSb-CLE=s64-rw",
       "url": "",
       "tab": "Featured",
       "section": "배너",
@@ -2978,9 +2978,9 @@
       "rank": 2
     },
     {
-      "name": "Brawl Stars",
-      "dev": "Supercell",
-      "icon": "https://play-lh.googleusercontent.com/IFACylsXgbKgfNXcLbFrzlNhkB6_5LH3IGNA-frTpTPNolzQxL8mI2B_4jnXe5lTCnQYZYIv9zNTQGWn_8QwLA=s64-rw",
+      "name": "OneState RP - Role Play Life",
+      "dev": "ChillBase",
+      "icon": "https://play-lh.googleusercontent.com/Za0HGzAmGNnsCVdWqOCYB3aOlxZEKJZ7_cKDWrVDrhY_6iEf_XKaDywfnbEoYXOj_pk=s64-rw",
       "url": "",
       "tab": "Featured",
       "section": "배너",
@@ -2990,13 +2990,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "badge": "Ends in 5 days",
+      "badge": "Update available",
       "rank": 3
     },
     {
-      "name": "NBA 2K Mobile Basketball Game",
-      "dev": "2K, Inc. - a Take-Two Interactive affiliate",
-      "icon": "https://play-lh.googleusercontent.com/DmWCL3-f67oYUzsZgWQEBD3Nlz3nF5M88MJA1kIBud7mgN1VXcoGzxjORxIR_n9FO6WNV7JTXiank0P1ngachco=s64-rw",
+      "name": "Tile Club - Match Puzzle Games",
+      "dev": "GamoVation",
+      "icon": "https://play-lh.googleusercontent.com/IN1pi8lXoNFv2ioamP9jM_pvBzt4eNwWpZ_C6LHVgoq31fkkNVCiuEU-YROQEJjTug=s64-rw",
       "url": "",
       "tab": "Featured",
       "section": "배너",
@@ -3006,13 +3006,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "badge": "Ends on 05/11",
+      "badge": "Ends in 8h",
       "rank": 4
     },
     {
-      "name": "Kick the Buddy－Fun Action Game",
-      "dev": "Playgendary Limited",
-      "icon": "https://play-lh.googleusercontent.com/4zT9waZhwrqSCMVFBXCi7jSzjMRP9LMdR4ZylVTd4KRRBy0aK79-IZvQWawRTSb-CLE=s64-rw",
+      "name": "GIRLS' FRONTLINE 2: EXILIUM",
+      "dev": "Darkwinter Software Co., Ltd.",
+      "icon": "https://play-lh.googleusercontent.com/C8S1zS4NG50kdMeDEPVHjLqPK07dlfVE9Fpfsp3jILjQ5PD7qRDJLkoi5pC9hItU17I=s64-rw",
       "url": "",
       "tab": "Featured",
       "section": "배너",
@@ -3026,9 +3026,9 @@
       "rank": 5
     },
     {
-      "name": "Supreme Duelist",
-      "dev": "Neron's Brother",
-      "icon": "https://play-lh.googleusercontent.com/iRq0R9mN7eGyVENIPDk5muu76VxawBAIkFAYFqauJTFNIvUxzD1_M33HNX4GE8Qk0WqY=s64-rw",
+      "name": "EA SPORTS FC™ Mobile Soccer 26",
+      "dev": "ELECTRONIC ARTS",
+      "icon": "https://play-lh.googleusercontent.com/yQHb1bk88ENXLZ2_ZO-st7cuG78pva5yRAge2CjhBPoBoEng1ouxyx30vK4s4Z7553Kohd9pPVm1GC2Phs8slA=s64-rw",
       "url": "",
       "tab": "Featured",
       "section": "배너",
@@ -3038,13 +3038,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "badge": "Update available",
+      "badge": "Ends on 05/06",
       "rank": 6
     },
     {
-      "name": "Honkai: Star Rail",
-      "dev": "COGNOSPHERE PTE. LTD.",
-      "icon": "https://play-lh.googleusercontent.com/_dFcpIqTMtD0b87HDt_GgCWrHzRWEkPRfGNrVP6fymrkV8tHtb8ub5ZPigilApFCTAgeGQK3W9T5Jp4QgK6ilUA=s64-rw",
+      "name": "GODDESS OF VICTORY: NIKKE",
+      "dev": "Level Infinite",
+      "icon": "https://play-lh.googleusercontent.com/jqIVF0BEHH14IdR3xMFAzD9EjAp4OWiR0G4XD7-DvI3qC47uz80ud-LK04cPJ_97JA4Uep2RLuoU4Zlm1sUhGg=s64-rw",
       "url": "",
       "tab": "Featured",
       "section": "배너",
@@ -3054,13 +3054,13 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "badge": "Update available",
+      "badge": "Ends on 05/13",
       "rank": 7
     },
     {
-      "name": "Grand Hustle RP: Online Game",
-      "dev": "LEVEL 26 GAMES - FZCO",
-      "icon": "https://play-lh.googleusercontent.com/JdK_yVt5NwjXEQhX0-4r193EzGjR4OPF0732vsINZ5yQ0cqY8swtEfZ4e4I5o5Pk9dnI=s64-rw",
+      "name": "Delta Force",
+      "dev": "Level Infinite",
+      "icon": "https://play-lh.googleusercontent.com/oLgL7u-F5_q_gdqiPgtQbEZZk-0Mmn6fGP15VbwHiNO3lIcpsc_RzDYhUG8XynBxltU=s64-rw",
       "url": "",
       "tab": "Featured",
       "section": "배너",
@@ -3074,9 +3074,9 @@
       "rank": 8
     },
     {
-      "name": "GIRLS' FRONTLINE 2: EXILIUM",
-      "dev": "Darkwinter Software Co., Ltd.",
-      "icon": "https://play-lh.googleusercontent.com/C8S1zS4NG50kdMeDEPVHjLqPK07dlfVE9Fpfsp3jILjQ5PD7qRDJLkoi5pC9hItU17I=s64-rw",
+      "name": "Supreme Duelist",
+      "dev": "Neron's Brother",
+      "icon": "https://play-lh.googleusercontent.com/iRq0R9mN7eGyVENIPDk5muu76VxawBAIkFAYFqauJTFNIvUxzD1_M33HNX4GE8Qk0WqY=s64-rw",
       "url": "",
       "tab": "Featured",
       "section": "배너",
@@ -3088,22 +3088,6 @@
       "banner": true,
       "badge": "Update available",
       "rank": 9
-    },
-    {
-      "name": "Hello Kitty Nail Salon",
-      "dev": "Budge Studios",
-      "icon": "https://play-lh.googleusercontent.com/h6Fer19ruK7pQFwnwkjvRfzrNGWwLwLQZbyuv8kyNrJUkRUgjW6r6GyEQ2tiNzyp-TiTiWDh1PRItP3H3pmjq20=s64-rw",
-      "url": "",
-      "tab": "Featured",
-      "section": "배너",
-      "priority": 10,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": true,
-      "badge": "Ends on 05/19",
-      "rank": 10
     },
     {
       "name": "Clash of Clans",
@@ -3118,7 +3102,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 11
+      "rank": 10
     },
     {
       "name": "Township",
@@ -3133,7 +3117,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 12
+      "rank": 11
     },
     {
       "name": "Free Fire MAX",
@@ -3148,7 +3132,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 13
+      "rank": 12
     },
     {
       "name": "Clash Royale",
@@ -3163,7 +3147,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 14
+      "rank": 13
     },
     {
       "name": "Klondike Adventures: Farm Game",
@@ -3178,7 +3162,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 15
+      "rank": 14
     },
     {
       "name": "Angry Birds 2",
@@ -3193,7 +3177,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 16
+      "rank": 15
     },
     {
       "name": "DRAGON BALL LEGENDS",
@@ -3208,7 +3192,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 17
+      "rank": 16
     },
     {
       "name": "Homescapes",
@@ -3223,7 +3207,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 18
+      "rank": 17
     },
     {
       "name": "CookieRun: Kingdom",
@@ -3238,7 +3222,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 19
+      "rank": 18
     },
     {
       "name": "Gardenscapes",
@@ -3253,7 +3237,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 20
+      "rank": 19
     },
     {
       "name": "Lords Mobile: Kingdom Wars",
@@ -3268,7 +3252,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 21
+      "rank": 20
     },
     {
       "name": "1945 Air Force: Plane Shooter",
@@ -3283,7 +3267,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 22
+      "rank": 21
     },
     {
       "name": "Evony: The King's Return",
@@ -3298,7 +3282,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 23
+      "rank": 22
     },
     {
       "name": "Hungry Shark Evolution",
@@ -3313,7 +3297,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 24
+      "rank": 23
     },
     {
       "name": "Top War: Battle Game",
@@ -3328,7 +3312,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 25
+      "rank": 24
     },
     {
       "name": "Rise of Kingdoms: Lost Crusade",
@@ -3343,7 +3327,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 26
+      "rank": 25
     },
     {
       "name": "Asphalt Legends - Racing Game",
@@ -3358,7 +3342,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 27
+      "rank": 26
     },
     {
       "name": "Bricks Breaker Quest",
@@ -3373,7 +3357,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 28
+      "rank": 27
     },
     {
       "name": "Left to Survive: Zombie Games",
@@ -3388,7 +3372,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 29
+      "rank": 28
     },
     {
       "name": "Avakin Life - 3D Virtual World",
@@ -3403,7 +3387,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 30
+      "rank": 29
     },
     {
       "name": "Arrows – Puzzle Escape",
@@ -3418,7 +3402,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 31
+      "rank": 30
     },
     {
       "name": "Block Blast!",
@@ -3433,7 +3417,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 32
+      "rank": 31
     },
     {
       "name": "Royal Kingdom",
@@ -3448,7 +3432,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 33
+      "rank": 32
     },
     {
       "name": "Arrows GO!",
@@ -3463,7 +3447,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 34
+      "rank": 33
     },
     {
       "name": "Roblox",
@@ -3478,7 +3462,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 35
+      "rank": 34
     },
     {
       "name": "Vita Mahjong",
@@ -3493,13 +3477,28 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 36
+      "rank": 35
     },
     {
       "name": "Arrow Out",
       "dev": "",
       "icon": "https://play-lh.googleusercontent.com/i4S66jnxU0h4mBg7aURDxn2gUkQmkq2U09Z-QpwxGnoEl_zjS2Fmo49_Nh3eTlYGB6hg=s64-rw",
       "url": "https://play.google.com/store/apps/details?id=com.arrow.out",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 46,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 36
+    },
+    {
+      "name": "Mahjong Blast",
+      "dev": "",
+      "icon": "https://play-lh.googleusercontent.com/2oyx82631YlAGY6QPOoGXMJUhnXpCIJflKgx438f1eDwmqM1kbScltnPU0R-mgykkvM4H2COx6sQk3S9cnOblwg=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile",
       "tab": "Featured",
       "section": "Featured",
       "priority": 47,
@@ -3511,10 +3510,10 @@
       "rank": 37
     },
     {
-      "name": "Coin Master - Board Adventure",
+      "name": "Subway Surfers",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/pFMYxxHpIsLKeaxO9wjVRpAsgMaLKbT1kPwofNQtGi69-6fF_eUyIViAMY66auDrvsJnw2h6S5rpF8XaZcrm=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.moonactive.cmboard",
+      "icon": "https://play-lh.googleusercontent.com/rIMQN2JTiHSCj7IezGHkhE39-F66y3Epqlt-iyvveGzT5n0CPOrYDpSePQ7rZBvMJRY=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf",
       "tab": "Featured",
       "section": "Featured",
       "priority": 48,
@@ -3526,10 +3525,10 @@
       "rank": 38
     },
     {
-      "name": "Mahjong Blast",
+      "name": "Coin Master - Board Adventure",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/2oyx82631YlAGY6QPOoGXMJUhnXpCIJflKgx438f1eDwmqM1kbScltnPU0R-mgykkvM4H2COx6sQk3S9cnOblwg=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile",
+      "icon": "https://play-lh.googleusercontent.com/pFMYxxHpIsLKeaxO9wjVRpAsgMaLKbT1kPwofNQtGi69-6fF_eUyIViAMY66auDrvsJnw2h6S5rpF8XaZcrm=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.moonactive.cmboard",
       "tab": "Featured",
       "section": "Featured",
       "priority": 49,
@@ -3541,10 +3540,10 @@
       "rank": 39
     },
     {
-      "name": "Jewel Coloring",
+      "name": "NTE: Neverness to Everness",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/4O3eRZ4cOMPSFiasjvlJuodijaKtNiv7HZ9Hm5r4CT78imAL32QbbWoJkiOJ3erjS4Yi652WTBrwcQrbbsuW=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=color.number.paint.pixle.art.sort.jigsaw",
+      "icon": "https://play-lh.googleusercontent.com/TGl3DdDbi4hty6ooOhEvv_2s5tkpGLbL6derP8y5hK-_Bw--Ve375b08ba9HHQ9ueRpoQ9oye1T_T24BJriLUmw=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.hottagames.nte",
       "tab": "Featured",
       "section": "Featured",
       "priority": 50,
@@ -3556,10 +3555,10 @@
       "rank": 40
     },
     {
-      "name": "Last Asylum: Plague",
+      "name": "Disney Solitaire",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/HOFXbIOJIZGru5_UM5hdGDmP7HIgxGJEx4dQAbPClmAtrNw3tVL9fY5NNHfa7VgIMFU-Sr3-s5FQGfaYJYhP=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.phs.global",
+      "icon": "https://play-lh.googleusercontent.com/BpyKPyeCiAoCtYP23WtOoHW1G_4IAGUyk4G6V_5YNmXomuBwNC5ZnSq5OfxejW-Ufuukma8-UYZirB2wz3m8UnM=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams",
       "tab": "Featured",
       "section": "Featured",
       "priority": 51,
@@ -3571,10 +3570,10 @@
       "rank": 41
     },
     {
-      "name": "Disney Solitaire",
+      "name": "Last Asylum: Plague",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/BpyKPyeCiAoCtYP23WtOoHW1G_4IAGUyk4G6V_5YNmXomuBwNC5ZnSq5OfxejW-Ufuukma8-UYZirB2wz3m8UnM=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams",
+      "icon": "https://play-lh.googleusercontent.com/HOFXbIOJIZGru5_UM5hdGDmP7HIgxGJEx4dQAbPClmAtrNw3tVL9fY5NNHfa7VgIMFU-Sr3-s5FQGfaYJYhP=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.phs.global",
       "tab": "Featured",
       "section": "Featured",
       "priority": 52,
@@ -3586,10 +3585,10 @@
       "rank": 42
     },
     {
-      "name": "Magic Tiles 3™ - Piano Game",
+      "name": "Jewel Coloring",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/u94NKpNjH1sBOiKHevX3_ATM-ozNHg6b186oU9GfnPnHwbdJ7RaeipkCRcVPdf1KRA=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles",
+      "icon": "https://play-lh.googleusercontent.com/4O3eRZ4cOMPSFiasjvlJuodijaKtNiv7HZ9Hm5r4CT78imAL32QbbWoJkiOJ3erjS4Yi652WTBrwcQrbbsuW=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=color.number.paint.pixle.art.sort.jigsaw",
       "tab": "Featured",
       "section": "Featured",
       "priority": 53,
@@ -3601,10 +3600,10 @@
       "rank": 43
     },
     {
-      "name": "Marble Sort! - Color Puzzle",
+      "name": "Pocket Sort: Coin Merge Puzzle",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/QvaEFQhS4SCDQmI941wYCTg83AoQkZt4WN-fZRyhh2XW2tcxjT0pQKXLm1Be7K0XdC4=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.microdose.balljam",
+      "icon": "https://play-lh.googleusercontent.com/Bo1AzzdXdwig0sc0hx0b0MtL2GymhF3beO3cxiW-W3PGuONQ-33gKKAT9FgUCRh8AQ=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.pocket.sort.coin.puzzle.game",
       "tab": "Featured",
       "section": "Featured",
       "priority": 54,
@@ -3616,10 +3615,10 @@
       "rank": 44
     },
     {
-      "name": "Pocket Sort: Coin Merge Puzzle",
+      "name": "Arrow Cube Escape",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/Bo1AzzdXdwig0sc0hx0b0MtL2GymhF3beO3cxiW-W3PGuONQ-33gKKAT9FgUCRh8AQ=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.pocket.sort.coin.puzzle.game",
+      "icon": "https://play-lh.googleusercontent.com/k_9MZtpdy3gYNVgynIWwv-1omuSkl4WGr5bOKYT-PJDC5PsEdFQMXWEBU7Jr3TfyjeBviAD3DN3_2KpDhGfa=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.puzzle.arrows3dcubepuzzle",
       "tab": "Featured",
       "section": "Featured",
       "priority": 55,
@@ -3631,10 +3630,10 @@
       "rank": 45
     },
     {
-      "name": "Pistol Duel",
+      "name": "Marble Sort! - Color Puzzle",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/VG0V4FXApzNnC5kvj4eLHTLK6FEtuHzOyt4ZNqpT3w3vv_xFRQBoUYe9oIJpWmf0GAzQtB-4D1PiHdwAsaOqcg=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.kayac.PistolDuel",
+      "icon": "https://play-lh.googleusercontent.com/QvaEFQhS4SCDQmI941wYCTg83AoQkZt4WN-fZRyhh2XW2tcxjT0pQKXLm1Be7K0XdC4=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.microdose.balljam",
       "tab": "Featured",
       "section": "Featured",
       "priority": 56,
@@ -3667,7 +3666,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.oakever.tiletrip",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 59,
+      "priority": 58,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -3676,13 +3675,13 @@
       "rank": 48
     },
     {
-      "name": "Arrow Cube Escape",
+      "name": "Pistol Duel",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/k_9MZtpdy3gYNVgynIWwv-1omuSkl4WGr5bOKYT-PJDC5PsEdFQMXWEBU7Jr3TfyjeBviAD3DN3_2KpDhGfa=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.puzzle.arrows3dcubepuzzle",
+      "icon": "https://play-lh.googleusercontent.com/VG0V4FXApzNnC5kvj4eLHTLK6FEtuHzOyt4ZNqpT3w3vv_xFRQBoUYe9oIJpWmf0GAzQtB-4D1PiHdwAsaOqcg=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.kayac.PistolDuel",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 60,
+      "priority": 59,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -3691,10 +3690,10 @@
       "rank": 49
     },
     {
-      "name": "Mob Control",
+      "name": "Magic Tiles 3™ - Piano Game",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/l3GNfuT07YBLtvYZ-Fqsm2sfhAyoT0qmJFnhYJqLtdoey05QcPGrMSkLUH80njCW1Q=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.vincentb.MobControl",
+      "icon": "https://play-lh.googleusercontent.com/u94NKpNjH1sBOiKHevX3_ATM-ozNHg6b186oU9GfnPnHwbdJ7RaeipkCRcVPdf1KRA=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles",
       "tab": "Featured",
       "section": "Featured",
       "priority": 61,
@@ -3706,25 +3705,10 @@
       "rank": 50
     },
     {
-      "name": "OneState RP - Role Play Life",
+      "name": "Castle Busters",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/Za0HGzAmGNnsCVdWqOCYB3aOlxZEKJZ7_cKDWrVDrhY_6iEf_XKaDywfnbEoYXOj_pk=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.Chillgaming.oneState",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 62,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 51
-    },
-    {
-      "name": "Tetris® Block Party",
-      "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/E36OaZoeHSjfAmB7osJSw9CNsOAxLXQYzTA7UfcX6kJxe19tKwW1LMOI3ummgxQcPR2Y=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.playstudios.tetrisblockparty",
+      "icon": "https://play-lh.googleusercontent.com/VW7o5ybPRq9TbTQs9_pzrJkYoFk4QVxUkV96bVfauDmGBZ8O6KNHIRH4oIRlkQAgogw=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.epicoro.castleclashers",
       "tab": "Featured",
       "section": "Featured",
       "priority": 63,
@@ -3733,13 +3717,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 52
+      "rank": 51
     },
     {
-      "name": "Color by Number：Coloring Games",
+      "name": "Mob Control",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/7BIu-nLPuxUMTDATJ_mZu1wVMZAaxMGjJuQFrGxUS7-pb4IXZqGRq8LKJEXzJrejB3Tf=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.tfgco.apps.coloring.free.color.by.number",
+      "icon": "https://play-lh.googleusercontent.com/l3GNfuT07YBLtvYZ-Fqsm2sfhAyoT0qmJFnhYJqLtdoey05QcPGrMSkLUH80njCW1Q=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.vincentb.MobControl",
       "tab": "Featured",
       "section": "Featured",
       "priority": 64,
@@ -3748,13 +3732,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 53
+      "rank": 52
     },
     {
-      "name": "Geometry Dash Lite",
+      "name": "Pixel Flow!",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/p7kWbWBFxQIrzolEqiV5uSvctLeyssZvBV7UBOX29wzZI52IdcSs4qCB_zsQJL1mt9A=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.robtopx.geometryjumplite",
+      "icon": "https://play-lh.googleusercontent.com/FvAiHRhj8Wo1vO_4ez1V8ChSJKAw46dos-FEIkbmNs_wtbDKg0Y9eyVJe1hJn2R-mwyr4_LmWkIGJCHHY74K=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.loomgames.pixelflow",
       "tab": "Featured",
       "section": "Featured",
       "priority": 65,
@@ -3763,7 +3747,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 54
+      "rank": 53
     },
     {
       "name": "Fortnite",
@@ -3778,16 +3762,31 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 55
+      "rank": 54
     },
     {
-      "name": "NTE: Neverness to Everness",
+      "name": "Geometry Dash Lite",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/TGl3DdDbi4hty6ooOhEvv_2s5tkpGLbL6derP8y5hK-_Bw--Ve375b08ba9HHQ9ueRpoQ9oye1T_T24BJriLUmw=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.hottagames.nte",
+      "icon": "https://play-lh.googleusercontent.com/p7kWbWBFxQIrzolEqiV5uSvctLeyssZvBV7UBOX29wzZI52IdcSs4qCB_zsQJL1mt9A=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.robtopx.geometryjumplite",
       "tab": "Featured",
       "section": "Featured",
       "priority": 67,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 55
+    },
+    {
+      "name": "Color by Number：Coloring Games",
+      "dev": "",
+      "icon": "https://play-lh.googleusercontent.com/7BIu-nLPuxUMTDATJ_mZu1wVMZAaxMGjJuQFrGxUS7-pb4IXZqGRq8LKJEXzJrejB3Tf=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.tfgco.apps.coloring.free.color.by.number",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 68,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -3802,7 +3801,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.easybrain.arrow.puzzle.game",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 68,
+      "priority": 69,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -3811,25 +3810,10 @@
       "rank": 57
     },
     {
-      "name": "Castle Busters",
+      "name": "Tetris® Block Party",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/VW7o5ybPRq9TbTQs9_pzrJkYoFk4QVxUkV96bVfauDmGBZ8O6KNHIRH4oIRlkQAgogw=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.epicoro.castleclashers",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 69,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 58
-    },
-    {
-      "name": "Snake Clash!",
-      "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/xNSxw5A59GfuHoNm_ezurQdUjGIo6U3XILbvfwAfSz3VnV_FkUZz5B6TFBPyyHUknVA=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=io.supercent.linkedcubic",
+      "icon": "https://play-lh.googleusercontent.com/E36OaZoeHSjfAmB7osJSw9CNsOAxLXQYzTA7UfcX6kJxe19tKwW1LMOI3ummgxQcPR2Y=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.playstudios.tetrisblockparty",
       "tab": "Featured",
       "section": "Featured",
       "priority": 70,
@@ -3838,13 +3822,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 59
+      "rank": 58
     },
     {
-      "name": "Pixel Flow!",
+      "name": "Yarn Loop",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/FvAiHRhj8Wo1vO_4ez1V8ChSJKAw46dos-FEIkbmNs_wtbDKg0Y9eyVJe1hJn2R-mwyr4_LmWkIGJCHHY74K=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.loomgames.pixelflow",
+      "icon": "https://play-lh.googleusercontent.com/qdzBn_CRP9I7sSqjh7hwbQBZUvwc6LLkImlutV3UTq6zN_-sZRt2awRZUmSKsdOaAIjQO5GJQBQ8L-WB3Ertng=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.combo.yarnflow",
       "tab": "Featured",
       "section": "Featured",
       "priority": 71,
@@ -3853,52 +3837,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 60
-    },
-    {
-      "name": "Pizza Ready!",
-      "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/3pb1PebAegbhexBA0vX7cQhDaijGlEory53AouhnP3U62CKQO58FGF_MrDSLzXZd_o5C=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=io.supercent.pizzaidle",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 72,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 61
-    },
-    {
-      "name": "Dicero",
-      "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/v3pbvtq0opWpTG4tMimTP5ydpn42Bi-eN_8pFvNGkD-npdPj5u7kzctiuqR9AZohYIo=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.bailing.lark.roll.dev",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 73,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 62
-    },
-    {
-      "name": "Melon Sandbox",
-      "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/9KgS1cF6vWMF9Fl25S36bKr8zDh0ddkTOeN7WpBcQAE-pKfahG2DjUxbQ8sespNoe3KW3qbcaVD8H6DfNys6=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 74,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 63
+      "rank": 59
     },
     {
       "name": "Gossip Harbor: Merge & Story",
@@ -3907,7 +3846,67 @@
       "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor",
       "tab": "Featured",
       "section": "Featured",
+      "priority": 72,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 60
+    },
+    {
+      "name": "Zen Word® - Relax Puzzle Game",
+      "dev": "",
+      "icon": "https://play-lh.googleusercontent.com/B1vB5FicSMSGxmWvb92jDVIh_5VGq0mFSKQ4TBc0Nl1X5XtoANsuarU8hNilV8z4pxA68UpcJkwlLupENp3A=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=kidultlovin.word.zen",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 73,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 61
+    },
+    {
+      "name": "Pizza Ready!",
+      "dev": "",
+      "icon": "https://play-lh.googleusercontent.com/3pb1PebAegbhexBA0vX7cQhDaijGlEory53AouhnP3U62CKQO58FGF_MrDSLzXZd_o5C=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=io.supercent.pizzaidle",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 74,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 62
+    },
+    {
+      "name": "Snake Clash!",
+      "dev": "",
+      "icon": "https://play-lh.googleusercontent.com/xNSxw5A59GfuHoNm_ezurQdUjGIo6U3XILbvfwAfSz3VnV_FkUZz5B6TFBPyyHUknVA=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=io.supercent.linkedcubic",
+      "tab": "Featured",
+      "section": "Featured",
       "priority": 75,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 63
+    },
+    {
+      "name": "Melon Sandbox",
+      "dev": "",
+      "icon": "https://play-lh.googleusercontent.com/9KgS1cF6vWMF9Fl25S36bKr8zDh0ddkTOeN7WpBcQAE-pKfahG2DjUxbQ8sespNoe3KW3qbcaVD8H6DfNys6=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 76,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -3922,7 +3921,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.scopely.monopolygo",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 76,
+      "priority": 77,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -3931,25 +3930,10 @@
       "rank": 65
     },
     {
-      "name": "Among Us",
+      "name": "Sled Surfers",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.innersloth.spacemafia",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 77,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 66
-    },
-    {
-      "name": "Zen Word® - Relax Puzzle Game",
-      "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/B1vB5FicSMSGxmWvb92jDVIh_5VGq0mFSKQ4TBc0Nl1X5XtoANsuarU8hNilV8z4pxA68UpcJkwlLupENp3A=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=kidultlovin.word.zen",
+      "icon": "https://play-lh.googleusercontent.com/BD0EgIdirJxKXwwBzHiOVj3GSMU5K6MyJCql3T0takNvuHQ-jOiJPXL-r7YWuNTbfQCi=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.sled.surfers.game",
       "tab": "Featured",
       "section": "Featured",
       "priority": 78,
@@ -3958,13 +3942,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 67
+      "rank": 66
     },
     {
-      "name": "Sled Surfers",
+      "name": "Dicero",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/BD0EgIdirJxKXwwBzHiOVj3GSMU5K6MyJCql3T0takNvuHQ-jOiJPXL-r7YWuNTbfQCi=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.sled.surfers.game",
+      "icon": "https://play-lh.googleusercontent.com/v3pbvtq0opWpTG4tMimTP5ydpn42Bi-eN_8pFvNGkD-npdPj5u7kzctiuqR9AZohYIo=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.bailing.lark.roll.dev",
       "tab": "Featured",
       "section": "Featured",
       "priority": 79,
@@ -3973,13 +3957,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 68
+      "rank": 67
     },
     {
-      "name": "Yarn Loop",
+      "name": "Bus Rush Fever!",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/qdzBn_CRP9I7sSqjh7hwbQBZUvwc6LLkImlutV3UTq6zN_-sZRt2awRZUmSKsdOaAIjQO5GJQBQ8L-WB3Ertng=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.combo.yarnflow",
+      "icon": "https://play-lh.googleusercontent.com/caBiKRTVr57KEWAwIEH8mIXsjwrC19mfST9tLXizP1nPI3WdT5bJwXVSSQDb6HWLMKPkhVwLKHmA9PGAcrTZ=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.busflow",
       "tab": "Featured",
       "section": "Featured",
       "priority": 80,
@@ -3988,7 +3972,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 69
+      "rank": 68
     },
     {
       "name": "Kingshot",
@@ -4003,16 +3987,31 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 70
+      "rank": 69
     },
     {
-      "name": "Paper.io 2",
+      "name": "Arrow Maze-Tap Away",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/OCG-i8XGGn9QoWLdeqUBK48m9DyxZMc-LyT8CZrrjVrKR7bl4D6ygYFQheXFX_LOFuhj-HtP5ZZGOt-le3aoWQ=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=io.voodoo.paper2",
+      "icon": "https://play-lh.googleusercontent.com/7VifP7qDTGo5gxb-8f8CYtkMWVwwxyKsykLCS32j9u-7rRjYG36o-T9Azotonx7p0-bIthDCF0SH60C59K-IoQ=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.arrowmaze.tapaway.puzzle",
       "tab": "Featured",
       "section": "Featured",
       "priority": 82,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 70
+    },
+    {
+      "name": "Among Us",
+      "dev": "",
+      "icon": "https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.innersloth.spacemafia",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 83,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4027,28 +4026,13 @@
       "url": "https://play.google.com/store/apps/details?id=com.hitappsgames.wordsolitaire",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 83,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 72
-    },
-    {
-      "name": "Candy Crush Saga",
-      "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/JvMhIxuwArVmcMReJQB8PIEB1MIQNMGf9j5i914JtkBrHrA55K-nMUIVlYCa7SXAdHtzLtsycEo6NpXeHFxLwvI=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga",
-      "tab": "Featured",
-      "section": "Featured",
       "priority": 84,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 73
+      "rank": 72
     },
     {
       "name": "Royal Match",
@@ -4063,7 +4047,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 74
+      "rank": 73
     },
     {
       "name": "Crashlands 2",
@@ -4078,7 +4062,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 75
+      "rank": 74
     },
     {
       "name": "Brotato",
@@ -4093,7 +4077,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 76
+      "rank": 75
     },
     {
       "name": "Don't Starve: Pocket Edition",
@@ -4108,7 +4092,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 77
+      "rank": 76
     },
     {
       "name": "Terraria",
@@ -4123,7 +4107,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 78
+      "rank": 77
     },
     {
       "name": "Pokémon GO",
@@ -4138,7 +4122,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 79
+      "rank": 78
     },
     {
       "name": "Streets of Rage 4",
@@ -4153,7 +4137,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 80
+      "rank": 79
     },
     {
       "name": "DREDGE",
@@ -4168,6 +4152,21 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
+      "rank": 80
+    },
+    {
+      "name": "Candy Crush Saga",
+      "dev": "",
+      "icon": "https://play-lh.googleusercontent.com/JvMhIxuwArVmcMReJQB8PIEB1MIQNMGf9j5i914JtkBrHrA55K-nMUIVlYCa7SXAdHtzLtsycEo6NpXeHFxLwvI=s256-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 93,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
       "rank": 81
     },
     {
@@ -4177,7 +4176,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 93,
+      "priority": 94,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4192,7 +4191,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.tencent.ig",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 94,
+      "priority": 95,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4207,7 +4206,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsodasaga",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 95,
+      "priority": 96,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4222,7 +4221,7 @@
       "url": "https://play.google.com/store/apps/details?id=net.peakgames.toonblast",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 96,
+      "priority": 97,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4237,7 +4236,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.plarium.raidlegends",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 97,
+      "priority": 98,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4248,11 +4247,11 @@
     {
       "name": "Tile Land: Triple Match",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/pwdE6lZZhuc/hqdefault.jpg",
+      "icon": "https://play-lh.googleusercontent.com/5VsoP2qxRns-yCq_efAD69ovtWgSmesp0CUKCdgWFl_TYYyvQcGGxefaxBsd8hecC1c=w416-h235-rw",
       "url": "https://play.google.com/store/apps/details?id=com.sohi.tileland.gp",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 98,
+      "priority": 99,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4267,7 +4266,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.arrow.madness.games.arrows.escape.puzzle.game",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 99,
+      "priority": 100,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4278,11 +4277,11 @@
     {
       "name": "Unscrew Family:Bolt Puzzle",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/hoMiJF4n180/hqdefault.jpg",
+      "icon": "https://play-lh.googleusercontent.com/ASwrleW2aitTiFn_WHKEm62z-e1_noOa8xJT3-axZHMNAjPOdKH0QTN6HaDW6nvViUNr02e1D4iJFHqAuwwU1Q=w416-h235-rw",
       "url": "https://play.google.com/store/apps/details?id=com.sofish.screwhome.gp",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 100,
+      "priority": 101,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4293,11 +4292,11 @@
     {
       "name": "Tile Mahjong Classic",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/tZ-j9elmVrk/hqdefault.jpg",
+      "icon": "https://play-lh.googleusercontent.com/viutdWtm2SyITEQ4iQ9ec4vnBk-YkKPy1I2CMb2invrcpLoRUd_NfYdGmCUW3S6fIp8=w416-h235-rw",
       "url": "https://play.google.com/store/apps/details?id=com.sofish.tilemahjong.gp",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 101,
+      "priority": 102,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4312,7 +4311,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.number.merge.puzzle.game",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 102,
+      "priority": 103,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4327,7 +4326,7 @@
       "url": "https://play.google.com/store/apps/details?id=mahjong.game.match.spirit.casual",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 103,
+      "priority": 104,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4342,7 +4341,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.hexa.smash.sort.puzzle.game.HexaSmash",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 104,
+      "priority": 105,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4357,7 +4356,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.sofish.soeasymahjong.gp",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 105,
+      "priority": 106,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4372,7 +4371,7 @@
       "url": "https://play.google.com/store/apps/details?id=games.find.hidden.objects.puzzle",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 106,
+      "priority": 107,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4387,7 +4386,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.jc.mahjongtile",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 107,
+      "priority": 108,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4402,7 +4401,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.block.puzzle.quest.relax",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 108,
+      "priority": 109,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4417,7 +4416,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.magic.relaxing.water.sort.colorgame.puzzle",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 109,
+      "priority": 110,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4432,7 +4431,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.sohi.mahjongtile.gp",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 110,
+      "priority": 111,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4447,7 +4446,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.color.blockpuzzle.journey",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 111,
+      "priority": 112,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4462,7 +4461,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.sofish.soeasytile.gp",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 112,
+      "priority": 113,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4477,7 +4476,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.spider.solitaire.classic.card.game",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 113,
+      "priority": 114,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4492,7 +4491,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.chillyroom.monstergirls.gp",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 114,
+      "priority": 115,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4507,7 +4506,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.snapbreak.chillquarium",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 115,
+      "priority": 116,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4522,7 +4521,7 @@
       "url": "https://play.google.com/store/apps/details?id=nuts.factory.sort.puzzle",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 116,
+      "priority": 117,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4531,25 +4530,10 @@
       "rank": 105
     },
     {
-      "name": "8 Ball Pool",
+      "name": "Animals & Coins Adventure Game",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/MkKWx0uVyRw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.miniclip.eightballpool",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 117,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 106
-    },
-    {
-      "name": "Coin Master",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/STPiRTKOlyA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.moonactive.coinmaster",
+      "icon": "https://play-lh.googleusercontent.com/JS9tl5t_p6fayvbL3n8zO_1IjNovq8reYaUTdMQMkcym_MvpDWBLUf0juRoqc3OQaUC8qxi-gsnrdxctrujCtw=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.innplaylabs.animalkingdomraid",
       "tab": "Featured",
       "section": "Featured",
       "priority": 118,
@@ -4558,7 +4542,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 107
+      "rank": 106
     },
     {
       "name": "Call of Duty®: Mobile",
@@ -4573,247 +4557,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 108
-    },
-    {
-      "name": "Hole.io",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/pNDzEXMQjOc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=io.voodoo.holeio",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 120,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 109
-    },
-    {
-      "name": "2 Player games : the Challenge",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/1J5rQZ5QFTc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.JindoBlu.TwoPlayerGamesChallenge",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 121,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 110
-    },
-    {
-      "name": "Words With Friends Word Game",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/sV_htRDbGPU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.zynga.words3",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 122,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 111
-    },
-    {
-      "name": "PK XD: Fun, friends & games",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/57TJgXX6_uI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.movile.playkids.pkxd",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 123,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 112
-    },
-    {
-      "name": "Idle Miner Tycoon: Gold Games",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/o6K4moph5Mk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.fluffyfairygames.idleminertycoon",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 124,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 113
-    },
-    {
-      "name": "Hay Day",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/ieGBgaDAbYM/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.supercell.hayday",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 125,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 114
-    },
-    {
-      "name": "Merge Cooking®",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/2LLpyH4s0OE/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.merge.cooking.theme.restaurant.food",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 126,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 115
-    },
-    {
-      "name": "Toca Boca World",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/zjdUU4c5Fzs/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 127,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 116
-    },
-    {
-      "name": "War Drone: 3D Shooting Games",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/K2jRx60tGXg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.miniclip.drone1",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 128,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 117
-    },
-    {
-      "name": "Spider Fighter 3: Action Game",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/oAABmhJweKs/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.starplay.spider.fighter.openworld",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 129,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 118
-    },
-    {
-      "name": "Epic Plane Evolution",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/E5E9LoNRWDk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.WalkTalk.FlightMaster",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 130,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 119
-    },
-    {
-      "name": "Traffix: Traffic Simulator",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/eWfe39pK-tY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.infinity.traffix",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 132,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 120
-    },
-    {
-      "name": "Geometry Dash SubZero",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/RpqNpRe9MZQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.robtopx.geometrydashsubzero",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 133,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 121
-    },
-    {
-      "name": "Bowmasters: Archery Shooting",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/r93gpU_YlZk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.playgendary.bowmasters",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 134,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 122
-    },
-    {
-      "name": "Pocket Champs: 3D Racing Games",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/eeHfqVh77IE/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.pocketchamps.game",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 135,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 123
-    },
-    {
-      "name": "Solitaire",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/Ro0vwbKzbzI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.smilerlee.klondike",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 136,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 124
+      "rank": 107
     },
     {
       "name": "Avatar World ®",
@@ -4822,19 +4566,259 @@
       "url": "https://play.google.com/store/apps/details?id=com.pazugames.avatarworld",
       "tab": "Featured",
       "section": "Featured",
+      "priority": 120,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 108
+    },
+    {
+      "name": "Total Battle: War Strategy",
+      "dev": "",
+      "icon": "https://play-lh.googleusercontent.com/jP7APiuTIkZt2-UfZtcUc0lbn1Wh7mShvzBOxiie2WBNzOCMMRnwvzWpfdvniA0390w=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.totalbattle",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 121,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 109
+    },
+    {
+      "name": "Solar Smash",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/NfQ7ScMkFyo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.paradyme.solarsmash",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 122,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 110
+    },
+    {
+      "name": "Merge Cooking®",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/2LLpyH4s0OE/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.merge.cooking.theme.restaurant.food",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 123,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 111
+    },
+    {
+      "name": "Bowmasters: Archery Shooting",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/r93gpU_YlZk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.playgendary.bowmasters",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 124,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 112
+    },
+    {
+      "name": "Toca Boca World",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/zjdUU4c5Fzs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 125,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 113
+    },
+    {
+      "name": "8 Ball Pool",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/MkKWx0uVyRw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.miniclip.eightballpool",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 126,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 114
+    },
+    {
+      "name": "2 Player games : the Challenge",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/1J5rQZ5QFTc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.JindoBlu.TwoPlayerGamesChallenge",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 127,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 115
+    },
+    {
+      "name": "Words With Friends Word Game",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/sV_htRDbGPU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.zynga.words3",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 128,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 116
+    },
+    {
+      "name": "Primitive Brothers : Idle Game",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/L1WgdSe0ckM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.primitivebrother.thunder.google",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 129,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 117
+    },
+    {
+      "name": "PK XD: Fun, friends & games",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/57TJgXX6_uI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.movile.playkids.pkxd",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 130,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 118
+    },
+    {
+      "name": "Coin Master",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/STPiRTKOlyA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.moonactive.coinmaster",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 132,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 119
+    },
+    {
+      "name": "Hole.io",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/pNDzEXMQjOc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=io.voodoo.holeio",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 133,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 120
+    },
+    {
+      "name": "Doomsday × Ghost in the Shell",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/oVLEgB7eptU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.igg.android.doomsdaylastsurvivors",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 134,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 121
+    },
+    {
+      "name": "Spider Fighter 3: Action Game",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/oAABmhJweKs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.starplay.spider.fighter.openworld",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 135,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 122
+    },
+    {
+      "name": "Epic Plane Evolution",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/E5E9LoNRWDk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.WalkTalk.FlightMaster",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 136,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 123
+    },
+    {
+      "name": "Geometry Dash SubZero",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/RpqNpRe9MZQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.robtopx.geometrydashsubzero",
+      "tab": "Featured",
+      "section": "Featured",
       "priority": 137,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 125
+      "rank": 124
     },
     {
-      "name": "Find Hidden Objects - Spot It!",
+      "name": "Pocket Champs: 3D Racing Games",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Z7Xu9znlnPw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.yolo.hiddenobjects",
+      "icon": "https://i.ytimg.com/vi/eeHfqVh77IE/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.pocketchamps.game",
       "tab": "Featured",
       "section": "Featured",
       "priority": 138,
@@ -4843,13 +4827,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 126
+      "rank": 125
     },
     {
-      "name": "Wordscapes: Word puzzle game",
+      "name": "Shoot Out: Gun Shooting Games",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/P276wOyK8es/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordcross",
+      "icon": "https://i.ytimg.com/vi/5RuFr76F6C8/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.freeplaysultanov.shootit",
       "tab": "Featured",
       "section": "Featured",
       "priority": 139,
@@ -4858,13 +4842,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 127
+      "rank": 126
     },
     {
-      "name": "No Limit Drag Racing 2",
+      "name": "MONGIL: STAR DIVE",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/9flBe5W646I/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.battlecreek.nolimit2",
+      "icon": "https://i.ytimg.com/vi/naA4lhkYuVw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.netmarble.monster2",
       "tab": "Featured",
       "section": "Featured",
       "priority": 140,
@@ -4873,13 +4857,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 128
+      "rank": 127
     },
     {
-      "name": "Blackjack",
+      "name": "Warspear Online (MMORPG, RPG)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/9853u_oSB1g/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.tripledot.blackjack",
+      "icon": "https://i.ytimg.com/vi/F79jHQxQyIs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.aigrind.warspear",
       "tab": "Featured",
       "section": "Featured",
       "priority": 141,
@@ -4888,13 +4872,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 129
+      "rank": 128
     },
     {
-      "name": "Wordscapes Solitaire",
+      "name": "Rainbow Six Mobile",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/70oPg3aBTDU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordsolitaire",
+      "icon": "https://i.ytimg.com/vi/ykulwW7Etiw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter",
       "tab": "Featured",
       "section": "Featured",
       "priority": 142,
@@ -4903,13 +4887,28 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
+      "rank": 129
+    },
+    {
+      "name": "Frontline Heroes: WW2 Warfare",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/2ussG1nYQyo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.GnarlyGameStudio.FrontlineHeroes",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 143,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
       "rank": 130
     },
     {
-      "name": "War Machines：Tanks Battle Game",
+      "name": "Solitaire",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/5m4kY6dg_AU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.fungames.battletanksbeta",
+      "icon": "https://i.ytimg.com/vi/Ro0vwbKzbzI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.smilerlee.klondike",
       "tab": "Featured",
       "section": "Featured",
       "priority": 144,
@@ -4921,10 +4920,10 @@
       "rank": 131
     },
     {
-      "name": "Yahtzee® With Buddies Dice Fun",
+      "name": "Blackjack",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/8lQtOUcVyjY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.scopely.yux",
+      "icon": "https://i.ytimg.com/vi/9853u_oSB1g/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.tripledot.blackjack",
       "tab": "Featured",
       "section": "Featured",
       "priority": 145,
@@ -4936,10 +4935,10 @@
       "rank": 132
     },
     {
-      "name": "MONGIL: STAR DIVE",
+      "name": "Wordscapes: Word puzzle game",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/naA4lhkYuVw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.netmarble.monster2",
+      "icon": "https://i.ytimg.com/vi/P276wOyK8es/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordcross",
       "tab": "Featured",
       "section": "Featured",
       "priority": 146,
@@ -4951,10 +4950,10 @@
       "rank": 133
     },
     {
-      "name": "Zombie Apocalypse: Doomsday-Z",
+      "name": "Wordscapes Solitaire",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/DDQirtQ2jow/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.RastleksGames.TheShootout",
+      "icon": "https://i.ytimg.com/vi/70oPg3aBTDU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordsolitaire",
       "tab": "Featured",
       "section": "Featured",
       "priority": 147,
@@ -4966,10 +4965,10 @@
       "rank": 134
     },
     {
-      "name": "Hustle Castle: Medieval games",
+      "name": "No Limit Drag Racing 2",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/tsv9Y18-LIw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.my.hc.rpg.kingdom.simulator",
+      "icon": "https://i.ytimg.com/vi/9flBe5W646I/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.battlecreek.nolimit2",
       "tab": "Featured",
       "section": "Featured",
       "priority": 148,
@@ -4981,10 +4980,10 @@
       "rank": 135
     },
     {
-      "name": "Shadow Knight: Ninja Game RPG",
+      "name": "Yahtzee® With Buddies Dice Fun",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/OpeOTCyvaGs/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.fansipan.stickman.fight.shadow.knights",
+      "icon": "https://i.ytimg.com/vi/8lQtOUcVyjY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.scopely.yux",
       "tab": "Featured",
       "section": "Featured",
       "priority": 149,
@@ -4996,10 +4995,10 @@
       "rank": 136
     },
     {
-      "name": "MONOPOLY",
+      "name": "Hidden Journey: Objects Puzzle",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/oqOrojiKN7k/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.marmalade.monopoly",
+      "icon": "https://i.ytimg.com/vi/JHnI9rZkBUM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.dieselpuppet.hidden",
       "tab": "Featured",
       "section": "Featured",
       "priority": 150,
@@ -5011,10 +5010,10 @@
       "rank": 137
     },
     {
-      "name": "Immortals Revenge",
+      "name": "War Drone: 3D Shooting Games",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/iXiUzbLuD2k/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.gamehollywood.ir",
+      "icon": "https://i.ytimg.com/vi/K2jRx60tGXg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.miniclip.drone1",
       "tab": "Featured",
       "section": "Featured",
       "priority": 151,
@@ -5026,10 +5025,10 @@
       "rank": 138
     },
     {
-      "name": "Three Kingdoms: Overlord",
+      "name": "Zombie Apocalypse: Doomsday-Z",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/-yPDUtSi5bg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.jedigames.p20.googleplay",
+      "icon": "https://i.ytimg.com/vi/DDQirtQ2jow/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.RastleksGames.TheShootout",
       "tab": "Featured",
       "section": "Featured",
       "priority": 152,
@@ -5041,10 +5040,10 @@
       "rank": 139
     },
     {
-      "name": "ASTROKINGS x Captain Harlock",
+      "name": "Tank Firing",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/b6-v9waCs8U/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=kr.co.angames.astrokings.google.android",
+      "icon": "https://i.ytimg.com/vi/5VOyAUqjxXs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.raven.tank.google",
       "tab": "Featured",
       "section": "Featured",
       "priority": 153,
@@ -5056,10 +5055,10 @@
       "rank": 140
     },
     {
-      "name": "BitLife - Life Simulator",
+      "name": "Zooba: Fun Battle Royale Games",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/GOLOLP8wRG0/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.candywriter.bitlife",
+      "icon": "https://i.ytimg.com/vi/JnUb2qyG_GQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.wildlife.games.battle.royale.free.zooba",
       "tab": "Featured",
       "section": "Featured",
       "priority": 154,
@@ -5071,10 +5070,10 @@
       "rank": 141
     },
     {
-      "name": "Bluey: Let's Play!",
+      "name": "Zombie Sniper War 3 - Fire FPS",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Uc8LuvyBykc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.budgestudios.googleplay.BlueyBLU",
+      "icon": "https://i.ytimg.com/vi/WUoovHCqXaM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.JESoftware.LastHopeSniper3",
       "tab": "Featured",
       "section": "Featured",
       "priority": 155,
@@ -5086,10 +5085,10 @@
       "rank": 142
     },
     {
-      "name": "My Perfect Hotel",
+      "name": "Bluey: Let's Play!",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/6rcVjMYFwg8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.master.hotelmaster",
+      "icon": "https://i.ytimg.com/vi/Uc8LuvyBykc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.budgestudios.googleplay.BlueyBLU",
       "tab": "Featured",
       "section": "Featured",
       "priority": 156,
@@ -5101,10 +5100,10 @@
       "rank": 143
     },
     {
-      "name": "My Talking Tom Friends 2",
+      "name": "Super Mario Run",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/JfwyDh3PBd0/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.outfit7.mytalkingtomfriends2",
+      "icon": "https://i.ytimg.com/vi/qjHSn4GwQWY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.nintendo.zara",
       "tab": "Featured",
       "section": "Featured",
       "priority": 157,
@@ -5116,10 +5115,10 @@
       "rank": 144
     },
     {
-      "name": "Royal Cooking - Cooking Game",
+      "name": "My Talking Tom Friends 2",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/zgO9omgdqQ4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.matryoshka.royal.cooking.kitchen.madness",
+      "icon": "https://i.ytimg.com/vi/JfwyDh3PBd0/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.outfit7.mytalkingtomfriends2",
       "tab": "Featured",
       "section": "Featured",
       "priority": 158,
@@ -5131,10 +5130,10 @@
       "rank": 145
     },
     {
-      "name": "Eatventure",
+      "name": "Kalliu Game World: Life Story",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/8RelnksYx5U/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.hwqgrhhjfd.idlefastfood",
+      "icon": "https://i.ytimg.com/vi/owNqclwtAuk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.gameworld.design.home.friends.fun.life.story",
       "tab": "Featured",
       "section": "Featured",
       "priority": 159,
@@ -5146,10 +5145,10 @@
       "rank": 146
     },
     {
-      "name": "Magicabin: Witch's Adventure",
+      "name": "Bubbu School - My Virtual Pets",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/HPYFRvqoSYw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.photonfox.g001",
+      "icon": "https://i.ytimg.com/vi/SCwhVSOX9iI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.bubadu.bubbuschool",
       "tab": "Featured",
       "section": "Featured",
       "priority": 160,
@@ -5161,10 +5160,10 @@
       "rank": 147
     },
     {
-      "name": "Geometry Dash",
+      "name": "Baby Panda Care",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/k90y6PIzIaE/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.robtopx.geometryjump",
+      "icon": "https://i.ytimg.com/vi/zPHL8tu_Kxo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.care",
       "tab": "Featured",
       "section": "Featured",
       "priority": 161,
@@ -5176,10 +5175,10 @@
       "rank": 148
     },
     {
-      "name": "Subway Surfers City",
+      "name": "Baby Panda: Cooking Party",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/gZEZplTeE3IEkyLez9O_cZdwfVVp7I07J9CxEZyTHex8tTVcJNCHrP7HTlp6McU107a8=w416-h235-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.sybogames.subway.surfers.game",
+      "icon": "https://i.ytimg.com/vi/2FvnM536sGg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.diet",
       "tab": "Featured",
       "section": "Featured",
       "priority": 162,
@@ -5191,10 +5190,10 @@
       "rank": 149
     },
     {
-      "name": "Sonic Dash: Endless Run",
+      "name": "Baby Panda's Sweet Shop",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Nndnn_RRwjY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.sega.sonicdash",
+      "icon": "https://i.ytimg.com/vi/mGKgznxtdDs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.factory",
       "tab": "Featured",
       "section": "Featured",
       "priority": 163,
@@ -5206,10 +5205,10 @@
       "rank": 150
     },
     {
-      "name": "Super Mario Run",
+      "name": "CookieRun: OvenSmash",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/qjHSn4GwQWY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.nintendo.zara",
+      "icon": "https://play-lh.googleusercontent.com/HiStA7QobJTnoGZfzjuE8CB8tm69gk8C5wRi8A6lBiO0FCJYra6FMsytk3wkZh6beqrY1ZrIjJZMbwmUEYlc=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.devsisters.cos",
       "tab": "Featured",
       "section": "Featured",
       "priority": 164,
@@ -5221,10 +5220,10 @@
       "rank": 151
     },
     {
-      "name": "Kalliu Game World: Life Story",
+      "name": "Whiteout Survival",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/owNqclwtAuk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.gameworld.design.home.friends.fun.life.story",
+      "icon": "https://play-lh.googleusercontent.com/CSgBqBcrbEcpwDVSLX14Xd7I89s62QgbikW4b8tc1BmFr3QO5tCe_7nE8OAVW8f5iQ=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.gof.global",
       "tab": "Featured",
       "section": "Featured",
       "priority": 165,
@@ -5236,10 +5235,10 @@
       "rank": 152
     },
     {
-      "name": "Zooba: Fun Battle Royale Games",
+      "name": "Last War:Survival Game",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/JnUb2qyG_GQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.wildlife.games.battle.royale.free.zooba",
+      "icon": "https://play-lh.googleusercontent.com/5e8pLCwC4PS7keajaP9FalqdgG7gs4VVciW-8jLRGFEXPpi6PH13-G8Y4ww_MKXESQgO=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.fun.lastwar.gp",
       "tab": "Featured",
       "section": "Featured",
       "priority": 166,
@@ -5251,10 +5250,10 @@
       "rank": 153
     },
     {
-      "name": "Cats & Soup : Magic Recipe",
+      "name": "Mobile Royale - War & Strategy",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/rZUYUveSUZ0/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.hidea.cat.magicrecipe",
+      "icon": "https://i.ytimg.com/vi/l8n1W289S04/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.igg.android.mobileroyale",
       "tab": "Featured",
       "section": "Featured",
       "priority": 167,
@@ -5266,10 +5265,10 @@
       "rank": 154
     },
     {
-      "name": "Cats Mansion: Cat Games",
+      "name": "Stormshot: Isle of Adventure",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/xy8Sw1huRAU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=cat.mansion.merge.games",
+      "icon": "https://play-lh.googleusercontent.com/8l-6qChMqpQq6g9gb57GuHvFUsyITfz0-YSSTH4HOWSlCsExTx2FcNUzhK6HVoPL4A=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.sivona.stormshot.e",
       "tab": "Featured",
       "section": "Featured",
       "priority": 168,
@@ -5281,10 +5280,10 @@
       "rank": 155
     },
     {
-      "name": "Doomsday × Ghost in the Shell",
+      "name": "Plants vs. Zombies™",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/oVLEgB7eptU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.igg.android.doomsdaylastsurvivors",
+      "icon": "https://i.ytimg.com/vi/ZTU3oDHveM8/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ea.game.pvzfree_row",
       "tab": "Featured",
       "section": "Featured",
       "priority": 169,
@@ -5296,10 +5295,10 @@
       "rank": 156
     },
     {
-      "name": "Last Bunker: 1945",
+      "name": "Last Furry: Survival",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/qOSys9bdqHI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.gamesntpte.xp0",
+      "icon": "https://play-lh.googleusercontent.com/e6lfARTy8h1wohbmIoaRxCl3rk7RzJDKF33z0xwjZeMqvDGOzjmDH2kk7lp8oxwFr2szLgKZmhprJ_k5y6KDUg=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.allstarunion.lastfurry",
       "tab": "Featured",
       "section": "Featured",
       "priority": 170,
@@ -5326,10 +5325,10 @@
       "rank": 158
     },
     {
-      "name": "TDS - Tower Destiny Survive",
+      "name": "Tiles Survive!",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/lfC4EfEF-5A/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.playstrom.hero.tower",
+      "icon": "https://play-lh.googleusercontent.com/xkcSf8tBV1Brlws1z1PJB6JhhsWSjShzk-jaTUF3EGfkVn1SulgX3BW7GloBQYO54A=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.funplus.ts.global",
       "tab": "Featured",
       "section": "Featured",
       "priority": 172,
@@ -5341,10 +5340,10 @@
       "rank": 159
     },
     {
-      "name": "Block Blitz: Puzzle Adventure",
+      "name": "Z Route: Redemption",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/0g6T0tXnhbQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.playgames.block",
+      "icon": "https://play-lh.googleusercontent.com/HR6I2II9Rwkf8cQ79xJ-KFU9Gty-_mb7sd-feZKtwJpym7S_GIMpKzvOJ1mcTsjPgrHSYImbSEK4SvB-3HUBZmk=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.zroute.global",
       "tab": "Featured",
       "section": "Featured",
       "priority": 173,
@@ -5356,10 +5355,10 @@
       "rank": 160
     },
     {
-      "name": "Find The Cat - Spot It!",
+      "name": "Plants vs. Zombies™ 2",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/cUxlfAsAznk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.ventogames.findthecat",
+      "icon": "https://i.ytimg.com/vi/0c_iMGs3ehY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ea.game.pvz2_na",
       "tab": "Featured",
       "section": "Featured",
       "priority": 174,
@@ -5371,10 +5370,10 @@
       "rank": 161
     },
     {
-      "name": "Goods Puzzle: Sort Challenge™",
+      "name": "TDS - Tower Destiny Survive",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/D-POnK6SBp4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.fc.goods.sort.matching.puzzle.triplemaster",
+      "icon": "https://i.ytimg.com/vi/lfC4EfEF-5A/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.playstrom.hero.tower",
       "tab": "Featured",
       "section": "Featured",
       "priority": 175,
@@ -5386,10 +5385,10 @@
       "rank": 162
     },
     {
-      "name": "3D Bolt Master®: Screw Master®",
+      "name": "The Battle Cats",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/jp6soL3YXco/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.screw3d.match.nuts.bolts.pin.jam.away.puzzle",
+      "icon": "https://play-lh.googleusercontent.com/K3NHocpdePX8aGFZrvTqoiT15jqyHnQw0DPIHt5NlRz2JhVLw18H-g3glrqusGws_oo=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.ponos.battlecatsen",
       "tab": "Featured",
       "section": "Featured",
       "priority": 176,
@@ -5401,10 +5400,10 @@
       "rank": 163
     },
     {
-      "name": "Pixel Art - Color by Number",
+      "name": "Tower Battle: Connect Towers",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/HAaY6Pj8LLc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.europosit.pixelcoloring",
+      "icon": "https://i.ytimg.com/vi/RrXz3UjReZI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.vivastudios.tower.battle",
       "tab": "Featured",
       "section": "Featured",
       "priority": 177,
@@ -5416,13 +5415,13 @@
       "rank": 164
     },
     {
-      "name": "Merge Dragons!",
+      "name": "Monster Hunter Now",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/0yP0yMKutIs/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.gramgames.mergedragons",
+      "icon": "https://i.ytimg.com/vi/XWTfmiuZWkQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.monsterhunter",
       "tab": "Featured",
-      "section": "Top Charts",
-      "priority": 202,
+      "section": "Featured",
+      "priority": 178,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5431,13 +5430,13 @@
       "rank": 165
     },
     {
-      "name": "Cell to Singularity: Evolution",
+      "name": "Block Crush!",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/cZzPx7j3X4E/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.computerlunch.evolution",
+      "icon": "https://play-lh.googleusercontent.com/nizPgJ8jNcJ69hb18kNB6Xf3wTLiDukFcQFhDK721x1oats59e49R0818NjMQxzVxRJnKvoPjiNMs6vOPvFk=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.wood.block.sudoku.puzzle.bm",
       "tab": "Featured",
-      "section": "Top Charts",
-      "priority": 203,
+      "section": "Featured",
+      "priority": 179,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5446,13 +5445,13 @@
       "rank": 166
     },
     {
-      "name": "Hungry Shark World",
+      "name": "Find Hidden Objects - Spot It!",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/XXdR31ZFgS4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.ubisoft.hungrysharkworld",
+      "icon": "https://i.ytimg.com/vi/Z7Xu9znlnPw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.yolo.hiddenobjects",
       "tab": "Featured",
-      "section": "Top Charts",
-      "priority": 204,
+      "section": "Featured",
+      "priority": 180,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5461,13 +5460,13 @@
       "rank": 167
     },
     {
-      "name": "UNO!™",
+      "name": "Arrow Maze - Escape Puzzle",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/vFN5MYneqakEk4IW8eor0aTT8eyUQ9A2K0tEgJCw1am8OZpGS6OuKcw7QubScD1pT6_LIa4aMlYdKGnkrBCJ-A=w416-h235-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.matteljv.uno",
+      "icon": "https://i.ytimg.com/vi/iK7b3ehpfKI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.arrows.escape",
       "tab": "Featured",
-      "section": "Top Charts",
-      "priority": 206,
+      "section": "Featured",
+      "priority": 181,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5476,10 +5475,160 @@
       "rank": 168
     },
     {
-      "name": "Shoot Out: Gun Shooting Games",
+      "name": "Car Out! Traffic Parking Games",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/5RuFr76F6C8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.freeplaysultanov.shootit",
+      "icon": "https://play-lh.googleusercontent.com/IY0lXXiQ-PnOmY9fXgy6AOy4TWoXR1x9vS8_Z4xz7gdAJPr5-wjG9q1CUKfB1g_b3GAQaDuoHQP62d5juP3v=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.flyingwhalegames.carout",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 182,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 169
+    },
+    {
+      "name": "Block Loop Shooter",
+      "dev": "",
+      "icon": "https://play-lh.googleusercontent.com/Mi1OOIIkH-yB9oooSXPJy25tROR54YVYIlGJyzY65o3NTAhNl-OkIqnTc1sXb3a0Yj9HVvhimYZ0fgjN0AKKXw=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=puzzle.flow.blast",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 183,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 170
+    },
+    {
+      "name": "Brain Test: Tricky Puzzles",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/IZt3il-ynCk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.unicostudio.braintest",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 184,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 171
+    },
+    {
+      "name": "Block Blitz: Puzzle Adventure",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/0g6T0tXnhbQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.playgames.block",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 185,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 172
+    },
+    {
+      "name": "Eatventure",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/8RelnksYx5U/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.hwqgrhhjfd.idlefastfood",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 186,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 173
+    },
+    {
+      "name": "BitLife - Life Simulator",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/GOLOLP8wRG0/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.candywriter.bitlife",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 187,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 174
+    },
+    {
+      "name": "My Perfect Hotel",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/6rcVjMYFwg8/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.master.hotelmaster",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 188,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 175
+    },
+    {
+      "name": "Double Tile!",
+      "dev": "",
+      "icon": "https://play-lh.googleusercontent.com/3GuwUf2mlVGW9DJtkTyT2glZ5jbmcPf0GxpsJ360iM0Q8h4Dd5re6itABovspI9c5zpPyWwkIzo0ff0ik57JAFE=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.hungrystudio.mahjong",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 189,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 176
+    },
+    {
+      "name": "Sola Mahjong",
+      "dev": "",
+      "icon": "https://play-lh.googleusercontent.com/Y4GZASxMy4czvwS12jvbmGNAS5mQ4apZnPAILbsKupn41Ee6y6O9h2wB8mJBK4MM0PPhvGn9qy5hV1SYXhvTxQ=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.nextinitiatives.minigames.mpp",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 190,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 177
+    },
+    {
+      "name": "Mahjong Voyage: Tile Matching",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/o5sqRGo0U4E/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.playvalve.mahjong",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 191,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 178
+    },
+    {
+      "name": "Art Puzzle - Jigsaw Art Games",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/Rz2ZlCjmgXA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.easybrain.art.puzzle",
       "tab": "Featured",
       "section": "Top Charts",
       "priority": 210,
@@ -5488,7 +5637,37 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 169
+      "rank": 179
+    },
+    {
+      "name": "Design Home™: House Makeover",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/gTS_PROadag/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.crowdstar.covetHome",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 211,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 180
+    },
+    {
+      "name": "War Alliance - PvP Royale",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/zqGwzUzWolQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.magnificgames.waralliance",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 216,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 181
     }
   ]
 }

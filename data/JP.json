@@ -1,7 +1,7 @@
 {
   "country": "JP",
-  "date": "2026-05-05",
-  "updated": "2026-05-05T03:34:15.130Z",
+  "date": "2026-05-06",
+  "updated": "2026-05-06T03:44:02.984Z",
   "apple": [
     {
       "name": "プロ野球スピリッツＡ",
@@ -216,7 +216,7 @@
     {
       "name": "あんさんぶるスターズ！！Music",
       "dev": "デベロッパ  Happy Elements K.K",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/21/4b/bb214be9-79af-b635-1d52-e217360a503b/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/df/cf/40dfcf6b-c434-c5e9-6d68-71bb9380c92a/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/jp/app/%E3%81%82%E3%82%93%E3%81%95%E3%82%93%E3%81%B6%E3%82%8B%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA-music/id1494428618",
       "tab": "Games",
       "section": "Featured",
@@ -305,7 +305,7 @@
     },
     {
       "name": "ラストZ：サバイバルシューティング",
-      "dev": "",
+      "dev": "デベロッパ  Omnilojo Pte Ltd",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/7c/9a/d87c9a30-9d70-a246-cd04-5e25096094b9/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%B9%E3%83%88z-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/id6503272652",
       "tab": "Games",
@@ -320,7 +320,7 @@
     },
     {
       "name": "Identity V",
-      "dev": "",
+      "dev": "デベロッパ  NetEase Games",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/22/be/7b22be55-8655-97de-5f9c-518dff0668b7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
       "url": "https://apps.apple.com/jp/app/identity-v/id1347780764",
       "tab": "Games",
@@ -634,10 +634,10 @@
       "rank": 42
     },
     {
-      "name": "モンスターストライク",
+      "name": "eFootball™",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/82/d1/2f/82d12fb9-bdbb-2a5d-1504-08aaef47a11c/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id658511662",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/5b/eb/c35beb1c-dc61-2db4-6d97-ed323f84f072/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/efootball/id1117270703",
       "tab": "Games",
       "section": "Featured",
       "priority": 59,
@@ -649,10 +649,10 @@
       "rank": 43
     },
     {
-      "name": "eFootball™",
+      "name": "モンスターストライク",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/5b/eb/c35beb1c-dc61-2db4-6d97-ed323f84f072/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/efootball/id1117270703",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/82/d1/2f/82d12fb9-bdbb-2a5d-1504-08aaef47a11c/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id658511662",
       "tab": "Games",
       "section": "Featured",
       "priority": 60,
@@ -679,10 +679,10 @@
       "rank": 45
     },
     {
-      "name": "ブロックブラスト (Block Blast)",
+      "name": "ブロスタ",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/e3/8b/f6e38b80-c3a3-9e82-eba4-8c3f9ec71e27/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88-block-blast/id1617391485",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3d/28/00/3d280053-e22f-57e8-f2d0-0b3795c4a44f/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AD%E3%82%B9%E3%82%BF/id1229016807",
       "tab": "Games",
       "section": "Featured",
       "priority": 62,
@@ -694,10 +694,10 @@
       "rank": 46
     },
     {
-      "name": "夢織りの花園",
+      "name": "[7R]スマスロ 甲鉄城のカバネリ 海門（うなと）決戦",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/6c/82/666c8220-0583-6f63-6848-20a2292a52f5/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E5%A4%A2%E7%B9%94%E3%82%8A%E3%81%AE%E8%8A%B1%E5%9C%92/id6759995063",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/14/51/b4/1451b4be-f408-2f36-66bf-5edf87e105bf/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/7r-%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E7%94%B2%E9%89%84%E5%9F%8E%E3%81%AE%E3%82%AB%E3%83%90%E3%83%8D%E3%83%AA-%E6%B5%B7%E9%96%80-%E3%81%86%E3%81%AA%E3%81%A8-%E6%B1%BA%E6%88%A6/id6761885987",
       "tab": "Games",
       "section": "Featured",
       "priority": 63,
@@ -709,10 +709,10 @@
       "rank": 47
     },
     {
-      "name": "キングダム 頂天",
+      "name": "ブロックブラスト (Block Blast)",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/24/8d/91248d8a-afe0-2c41-7e9d-8517f0b84aea/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0-%E9%A0%82%E5%A4%A9/id6475892450",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/e3/8b/f6e38b80-c3a3-9e82-eba4-8c3f9ec71e27/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88-block-blast/id1617391485",
       "tab": "Games",
       "section": "Featured",
       "priority": 64,
@@ -739,10 +739,10 @@
       "rank": 49
     },
     {
-      "name": "Jewel Coloring",
+      "name": "キングダム 頂天",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/f3/cc/9ef3cc6c-35ee-1095-32c3-7c7c605a3cd9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/jewel-coloring/id6759081967",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/24/8d/91248d8a-afe0-2c41-7e9d-8517f0b84aea/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0-%E9%A0%82%E5%A4%A9/id6475892450",
       "tab": "Games",
       "section": "Featured",
       "priority": 66,
@@ -754,10 +754,10 @@
       "rank": 50
     },
     {
-      "name": "ダンジョンウィズイン",
+      "name": "Jewel Coloring",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/0b/4f/660b4f6e-4ec8-fe28-d00a-02ba1b0a1cc0/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%A6%E3%82%A3%E3%82%BA%E3%82%A4%E3%83%B3/id6761328517",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/f3/cc/9ef3cc6c-35ee-1095-32c3-7c7c605a3cd9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/jewel-coloring/id6759081967",
       "tab": "Games",
       "section": "Featured",
       "priority": 67,
@@ -769,10 +769,10 @@
       "rank": 51
     },
     {
-      "name": "Minecraft: クラフト、建築、サバイバル",
+      "name": "ダンジョンウィズイン",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/0d/13/2a0d13e4-291d-7727-1830-c7fa5133b843/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/minecraft-%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-%E5%BB%BA%E7%AF%89-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id479516143",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/78/49/2d/78492d15-1a9d-40ae-74d2-657967ca2581/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%A6%E3%82%A3%E3%82%BA%E3%82%A4%E3%83%B3/id6761328517",
       "tab": "Games",
       "section": "Featured",
       "priority": 68,
@@ -784,10 +784,10 @@
       "rank": 52
     },
     {
-      "name": "スイカゲーム-Aladdin X",
+      "name": "Minecraft: クラフト、建築、サバイバル",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/01/f5/c101f59b-0a2a-b8ab-98f2-ab63a0614d15/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%A4%E3%82%AB%E3%82%B2%E3%83%BC%E3%83%A0-aladdin-x/id6469114836",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/e6/9d/70e69dba-dc84-67f4-0da9-9491ca29a591/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/minecraft-%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-%E5%BB%BA%E7%AF%89-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id479516143",
       "tab": "Games",
       "section": "Featured",
       "priority": 69,
@@ -799,10 +799,10 @@
       "rank": 53
     },
     {
-      "name": "スマスロ マギアレコード 魔法少女まどかマギカ外伝",
+      "name": "スイカゲーム-Aladdin X",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8f/37/d3/8f37d3e2-61f7-89d4-23c0-aab4cd220e74/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E3%83%9E%E3%82%AE%E3%82%A2%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89-%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB%E5%A4%96%E4%BC%9D/id6752765295",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/01/f5/c101f59b-0a2a-b8ab-98f2-ab63a0614d15/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%A4%E3%82%AB%E3%82%B2%E3%83%BC%E3%83%A0-aladdin-x/id6469114836",
       "tab": "Games",
       "section": "Featured",
       "priority": 70,
@@ -814,10 +814,10 @@
       "rank": 54
     },
     {
-      "name": "クロノ・トリガー （アップグレード版）",
+      "name": "スマスロ マギアレコード 魔法少女まどかマギカ外伝",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e5/53/15/e5531522-461a-724a-3411-2d6922fc4caa/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%82%AF%E3%83%AD%E3%83%8E-%E3%83%88%E3%83%AA%E3%82%AC%E3%83%BC-%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89%E7%89%88/id479428095",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8f/37/d3/8f37d3e2-61f7-89d4-23c0-aab4cd220e74/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E3%83%9E%E3%82%AE%E3%82%A2%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89-%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB%E5%A4%96%E4%BC%9D/id6752765295",
       "tab": "Games",
       "section": "Featured",
       "priority": 71,
@@ -829,10 +829,10 @@
       "rank": 55
     },
     {
-      "name": "Slay the Spire",
+      "name": "クロノ・トリガー （アップグレード版）",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/0c/92/910c920a-0ab6-1939-e297-083995b640c7/AppIcon-1x_U007emarketing-0-11-0-0-85-220-0.png/100x100ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/slay-the-spire/id1491530147",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e5/53/15/e5531522-461a-724a-3411-2d6922fc4caa/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%82%AF%E3%83%AD%E3%83%8E-%E3%83%88%E3%83%AA%E3%82%AC%E3%83%BC-%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89%E7%89%88/id479428095",
       "tab": "Games",
       "section": "Featured",
       "priority": 72,
@@ -859,10 +859,10 @@
       "rank": 57
     },
     {
-      "name": "Art of Flora: まったりパズル",
+      "name": "Slay the Spire",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/66/1c/fb661ca8-a9d6-65a2-29d8-5eca756768cf/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/art-of-flora-%E3%81%BE%E3%81%A3%E3%81%9F%E3%82%8A%E3%83%91%E3%82%BA%E3%83%AB/id6743834964",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/0c/92/910c920a-0ab6-1939-e297-083995b640c7/AppIcon-1x_U007emarketing-0-11-0-0-85-220-0.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/slay-the-spire/id1491530147",
       "tab": "Games",
       "section": "Featured",
       "priority": 74,
@@ -874,10 +874,10 @@
       "rank": 58
     },
     {
-      "name": "みどりのほしぼし",
+      "name": "Art of Flora: まったりパズル",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/e6/b2/e7e6b211-f417-2254-9787-20fc0c4aa23a/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%81%BF%E3%81%A9%E3%82%8A%E3%81%AE%E3%81%BB%E3%81%97%E3%81%BC%E3%81%97/id1069236120",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/66/1c/fb661ca8-a9d6-65a2-29d8-5eca756768cf/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/art-of-flora-%E3%81%BE%E3%81%A3%E3%81%9F%E3%82%8A%E3%83%91%E3%82%BA%E3%83%AB/id6743834964",
       "tab": "Games",
       "section": "Featured",
       "priority": 75,
@@ -889,10 +889,10 @@
       "rank": 59
     },
     {
-      "name": "Window Garden〜Lo-fiガーデニングシミュ",
+      "name": "みどりのほしぼし",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/b2/5f/0ab25f12-5336-5187-f252-b3cafea1db77/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/window-garden-lo-fi%E3%82%AC%E3%83%BC%E3%83%87%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%9F%E3%83%A5/id6473402739",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/e6/b2/e7e6b211-f417-2254-9787-20fc0c4aa23a/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%81%BF%E3%81%A9%E3%82%8A%E3%81%AE%E3%81%BB%E3%81%97%E3%81%BC%E3%81%97/id1069236120",
       "tab": "Games",
       "section": "Featured",
       "priority": 76,
@@ -904,10 +904,10 @@
       "rank": 60
     },
     {
-      "name": "Preserve™",
+      "name": "Window Garden〜Lo-fiガーデニングシミュ",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/c8/c1/c8c8c16f-095a-04bd-5215-ae355270890b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/preserve/id6739257316",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/b2/5f/0ab25f12-5336-5187-f252-b3cafea1db77/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/window-garden-lo-fi%E3%82%AC%E3%83%BC%E3%83%87%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%9F%E3%83%A5/id6473402739",
       "tab": "Games",
       "section": "Featured",
       "priority": 77,
@@ -919,10 +919,10 @@
       "rank": 61
     },
     {
-      "name": "Sky 星を紡ぐ子どもたち",
+      "name": "Preserve™",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/ec/c8/eaecc8aa-4979-98b7-a262-4c15cca7742b/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/100x100ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/sky-%E6%98%9F%E3%82%92%E7%B4%A1%E3%81%90%E5%AD%90%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1/id1462117269",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/c8/c1/c8c8c16f-095a-04bd-5215-ae355270890b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/preserve/id6739257316",
       "tab": "Games",
       "section": "Featured",
       "priority": 78,
@@ -934,10 +934,10 @@
       "rank": 62
     },
     {
-      "name": "Art of Fauna: まったりパズル",
+      "name": "Sky 星を紡ぐ子どもたち",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/4a/aa/094aaaf5-ac74-0404-b3b8-c7f5a2ba2894/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/art-of-fauna-%E3%81%BE%E3%81%A3%E3%81%9F%E3%82%8A%E3%83%91%E3%82%BA%E3%83%AB/id1630468596",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/ec/c8/eaecc8aa-4979-98b7-a262-4c15cca7742b/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/sky-%E6%98%9F%E3%82%92%E7%B4%A1%E3%81%90%E5%AD%90%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1/id1462117269",
       "tab": "Games",
       "section": "Featured",
       "priority": 79,
@@ -949,10 +949,10 @@
       "rank": 63
     },
     {
-      "name": "禅の鯉 2 - Zen Koi 2",
+      "name": "Art of Fauna: まったりパズル",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/3a/f8/ac3af82a-8484-aa65-67ce-b06b58b255c5/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E7%A6%85%E3%81%AE%E9%AF%89-2-zen-koi-2/id1280254438",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/4a/aa/094aaaf5-ac74-0404-b3b8-c7f5a2ba2894/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/art-of-fauna-%E3%81%BE%E3%81%A3%E3%81%9F%E3%82%8A%E3%83%91%E3%82%BA%E3%83%AB/id1630468596",
       "tab": "Games",
       "section": "Featured",
       "priority": 80,
@@ -964,10 +964,10 @@
       "rank": 64
     },
     {
-      "name": "Splash — Fish Aquarium",
+      "name": "禅の鯉 2 - Zen Koi 2",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/a7/40/9ea7403b-4ee9-2ab6-cb4e-fbeb354a0525/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/splash-fish-aquarium/id960080321",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/3a/f8/ac3af82a-8484-aa65-67ce-b06b58b255c5/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E7%A6%85%E3%81%AE%E9%AF%89-2-zen-koi-2/id1280254438",
       "tab": "Games",
       "section": "Featured",
       "priority": 81,
@@ -979,10 +979,10 @@
       "rank": 65
     },
     {
-      "name": "Prune",
+      "name": "Splash — Fish Aquarium",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1e/21/35/1e213529-c131-8727-668e-e4cba79b635e/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/prune/id972319818",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/a7/40/9ea7403b-4ee9-2ab6-cb4e-fbeb354a0525/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/splash-fish-aquarium/id960080321",
       "tab": "Games",
       "section": "Featured",
       "priority": 82,
@@ -994,10 +994,10 @@
       "rank": 66
     },
     {
-      "name": "デザートピア",
+      "name": "Prune",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/39/3c/3e393c84-0169-f624-3a84-598b8bcf2938/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%B6%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2/id1265572046",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1e/21/35/1e213529-c131-8727-668e-e4cba79b635e/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/prune/id972319818",
       "tab": "Games",
       "section": "Featured",
       "priority": 83,
@@ -1009,10 +1009,10 @@
       "rank": 67
     },
     {
-      "name": "Pikmin Bloom",
+      "name": "デザートピア",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/f6/fc/84f6fcc2-a25a-e020-e8e5-3142e7cb63c5/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/pikmin-bloom/id1556357398",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/39/3c/3e393c84-0169-f624-3a84-598b8bcf2938/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%B6%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2/id1265572046",
       "tab": "Games",
       "section": "Featured",
       "priority": 84,
@@ -1024,10 +1024,10 @@
       "rank": 68
     },
     {
-      "name": "Slender Threads",
+      "name": "Pikmin Bloom",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/8a/9b/c68a9b41-cee4-f49c-1179-b3c252509be4/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/slender-threads/id1495344386",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/f6/fc/84f6fcc2-a25a-e020-e8e5-3142e7cb63c5/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/pikmin-bloom/id1556357398",
       "tab": "Games",
       "section": "Featured",
       "priority": 85,
@@ -1039,10 +1039,10 @@
       "rank": 69
     },
     {
-      "name": "ザ・ケース・オブ ザ・ゴールデン・アイドル",
+      "name": "Slender Threads",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/ff/6e/6bff6ece-7ef4-c903-ce3b-1c72c3aa60f3/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%82%B6-%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%AA%E3%83%96-%E3%82%B6-%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3-%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB/id6443831605",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/8a/9b/c68a9b41-cee4-f49c-1179-b3c252509be4/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/slender-threads/id1495344386",
       "tab": "Games",
       "section": "Featured",
       "priority": 86,
@@ -1054,10 +1054,10 @@
       "rank": 70
     },
     {
-      "name": "Papers, Please",
+      "name": "ザ・ケース・オブ ザ・ゴールデン・アイドル",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/97/3f/c1/973fc1ac-d8d0-028d-055d-db313fe3bd86/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/papers-please/id935216956",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/ff/6e/6bff6ece-7ef4-c903-ce3b-1c72c3aa60f3/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B6-%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%AA%E3%83%96-%E3%82%B6-%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3-%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB/id6443831605",
       "tab": "Games",
       "section": "Featured",
       "priority": 87,
@@ -1069,10 +1069,10 @@
       "rank": 71
     },
     {
-      "name": "都市伝説解体センター",
+      "name": "Papers, Please",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/96/46/779646d0-0514-a687-34c7-05c237be0a34/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E9%83%BD%E5%B8%82%E4%BC%9D%E8%AA%AC%E8%A7%A3%E4%BD%93%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/id6756707224",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/97/3f/c1/973fc1ac-d8d0-028d-055d-db313fe3bd86/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/papers-please/id935216956",
       "tab": "Games",
       "section": "Featured",
       "priority": 88,
@@ -1084,10 +1084,10 @@
       "rank": 72
     },
     {
-      "name": "Beholder",
+      "name": "都市伝説解体センター",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/81/a7/1081a780-8248-d616-d33c-f1506a57b047/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/beholder/id1205486761",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/96/46/779646d0-0514-a687-34c7-05c237be0a34/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E9%83%BD%E5%B8%82%E4%BC%9D%E8%AA%AC%E8%A7%A3%E4%BD%93%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/id6756707224",
       "tab": "Games",
       "section": "Featured",
       "priority": 89,
@@ -1099,10 +1099,10 @@
       "rank": 73
     },
     {
-      "name": "パラノマサイト FILE38 伊勢人魚物語",
+      "name": "Beholder",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/c3/bb/f3c3bb5b-590b-a763-cdfe-4c65b2f6429b/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%A9%E3%83%8E%E3%83%9E%E3%82%B5%E3%82%A4%E3%83%88-file38-%E4%BC%8A%E5%8B%A2%E4%BA%BA%E9%AD%9A%E7%89%A9%E8%AA%9E/id6474289326",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/81/a7/1081a780-8248-d616-d33c-f1506a57b047/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/beholder/id1205486761",
       "tab": "Games",
       "section": "Featured",
       "priority": 90,
@@ -1114,10 +1114,10 @@
       "rank": 74
     },
     {
-      "name": "グノーシア",
+      "name": "パラノマサイト FILE38 伊勢人魚物語",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/cc/9b/15cc9b6a-5154-6eea-9b55-e0fd6466c0e6/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%8E%E3%83%BC%E3%82%B7%E3%82%A2/id6742085982",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/c3/bb/f3c3bb5b-590b-a763-cdfe-4c65b2f6429b/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%A9%E3%83%8E%E3%83%9E%E3%82%B5%E3%82%A4%E3%83%88-file38-%E4%BC%8A%E5%8B%A2%E4%BA%BA%E9%AD%9A%E7%89%A9%E8%AA%9E/id6474289326",
       "tab": "Games",
       "section": "Featured",
       "priority": 91,
@@ -1129,10 +1129,10 @@
       "rank": 75
     },
     {
-      "name": "Chants of Sennaar",
+      "name": "グノーシア",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/43/52/304352e7-731e-dee0-d910-7983fe65029c/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/chants-of-sennaar/id6566195667",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/cc/9b/15cc9b6a-5154-6eea-9b55-e0fd6466c0e6/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%8E%E3%83%BC%E3%82%B7%E3%82%A2/id6742085982",
       "tab": "Games",
       "section": "Featured",
       "priority": 92,
@@ -1144,10 +1144,10 @@
       "rank": 76
     },
     {
-      "name": "Tomb Raider™",
+      "name": "Chants of Sennaar",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1a/bd/19/1abd198e-a6ac-a682-17db-b607b51f683c/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/tomb-raider/id6742988247",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/43/52/304352e7-731e-dee0-d910-7983fe65029c/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/chants-of-sennaar/id6566195667",
       "tab": "Games",
       "section": "Featured",
       "priority": 93,
@@ -1159,10 +1159,10 @@
       "rank": 77
     },
     {
-      "name": "Lara Croft GO",
+      "name": "Tomb Raider™",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/22/68/3122689d-78e7-4aa7-eeb9-521d116c26ef/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/lara-croft-go/id971304016",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1a/bd/19/1abd198e-a6ac-a682-17db-b607b51f683c/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/tomb-raider/id6742988247",
       "tab": "Games",
       "section": "Featured",
       "priority": 94,
@@ -1174,10 +1174,10 @@
       "rank": 78
     },
     {
-      "name": "『風ノ旅ビト』Journey",
+      "name": "Lara Croft GO",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/36/de/66/36de66fc-249e-a61a-f091-6552dad1f711/AppIcon-1x_U007emarketing-0-4-85-220.jpeg/100x100ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E9%A2%A8%E3%83%8E%E6%97%85%E3%83%93%E3%83%88-journey/id1445593893",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/22/68/3122689d-78e7-4aa7-eeb9-521d116c26ef/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/lara-croft-go/id971304016",
       "tab": "Games",
       "section": "Featured",
       "priority": 95,
@@ -1189,10 +1189,10 @@
       "rank": 79
     },
     {
-      "name": "Dragon Ruins -ダンジョンクローラーRPG",
+      "name": "『風ノ旅ビト』Journey",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/4e/a3/464ea3d2-5394-0fea-910d-dfa0cc9b5659/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/dragon-ruins-%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BCrpg/id6759590978",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/36/de/66/36de66fc-249e-a61a-f091-6552dad1f711/AppIcon-1x_U007emarketing-0-4-85-220.jpeg/100x100ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E9%A2%A8%E3%83%8E%E6%97%85%E3%83%93%E3%83%88-journey/id1445593893",
       "tab": "Games",
       "section": "Featured",
       "priority": 96,
@@ -1204,10 +1204,10 @@
       "rank": 80
     },
     {
-      "name": "Temple Run: Classic",
+      "name": "Dragon Ruins -ダンジョンクローラーRPG",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/c6/32/bec6327a-e5ec-383b-8760-03da89fb152b/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/temple-run-classic/id420009108",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/4e/a3/464ea3d2-5394-0fea-910d-dfa0cc9b5659/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/dragon-ruins-%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BCrpg/id6759590978",
       "tab": "Games",
       "section": "Featured",
       "priority": 97,
@@ -1219,10 +1219,10 @@
       "rank": 81
     },
     {
-      "name": "求む！洞窟探検家",
+      "name": "Temple Run: Classic",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/60/48/d56048fa-9f5b-6b4e-3fc1-cb4a7254a8ca/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E6%B1%82%E3%82%80-%E6%B4%9E%E7%AA%9F%E6%8E%A2%E6%A4%9C%E5%AE%B6/id6473955035",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/c6/32/bec6327a-e5ec-383b-8760-03da89fb152b/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/temple-run-classic/id420009108",
       "tab": "Games",
       "section": "Featured",
       "priority": 98,
@@ -1234,10 +1234,10 @@
       "rank": 82
     },
     {
-      "name": "Bloons TD 6",
+      "name": "求む！洞窟探検家",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/dd/ba/49ddba92-4f94-2ece-8eb2-39556d6d61ca/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/bloons-td-6/id1118115766",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/60/48/d56048fa-9f5b-6b4e-3fc1-cb4a7254a8ca/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E6%B1%82%E3%82%80-%E6%B4%9E%E7%AA%9F%E6%8E%A2%E6%A4%9C%E5%AE%B6/id6473955035",
       "tab": "Games",
       "section": "Featured",
       "priority": 99,
@@ -1249,10 +1249,10 @@
       "rank": 83
     },
     {
-      "name": "Don't Bug Me!",
+      "name": "Bloons TD 6",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/c5/3b/97c53bde-45c5-e342-3a58-4e2fe684ffbd/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/dont-bug-me/id6739683137",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/dd/ba/49ddba92-4f94-2ece-8eb2-39556d6d61ca/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/bloons-td-6/id1118115766",
       "tab": "Games",
       "section": "Featured",
       "priority": 100,
@@ -1264,10 +1264,10 @@
       "rank": 84
     },
     {
-      "name": "Rift Riff",
+      "name": "Don't Bug Me!",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dd/20/7b/dd207bde-f59b-5efa-6ca7-bf3783d9a839/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/rift-riff/id6746967900",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/c5/3b/97c53bde-45c5-e342-3a58-4e2fe684ffbd/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/dont-bug-me/id6739683137",
       "tab": "Games",
       "section": "Featured",
       "priority": 101,
@@ -1279,10 +1279,10 @@
       "rank": 85
     },
     {
-      "name": "Outhold",
+      "name": "Rift Riff",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/8a/6e/a48a6e37-98a1-a41c-1530-e4dfdf74461f/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/outhold/id6758839020",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dd/20/7b/dd207bde-f59b-5efa-6ca7-bf3783d9a839/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/rift-riff/id6746967900",
       "tab": "Games",
       "section": "Featured",
       "priority": 102,
@@ -1294,10 +1294,10 @@
       "rank": 86
     },
     {
-      "name": "Kingdom Rush 5: Alliance TD",
+      "name": "Outhold",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3d/81/39/3d813934-e213-b107-0b6a-e55a61df08bd/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/kingdom-rush-5-alliance-td/id1622869542",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/8a/6e/a48a6e37-98a1-a41c-1530-e4dfdf74461f/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/outhold/id6758839020",
       "tab": "Games",
       "section": "Featured",
       "priority": 103,
@@ -1309,10 +1309,10 @@
       "rank": 87
     },
     {
-      "name": "Illuminaria（イルミナリア）",
+      "name": "Kingdom Rush 5: Alliance TD",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/ce/31/edce31a8-9172-1814-fc72-b4fbe2b30a4a/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/illuminaria-%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8A%E3%83%AA%E3%82%A2/id6469359168",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3d/81/39/3d813934-e213-b107-0b6a-e55a61df08bd/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/kingdom-rush-5-alliance-td/id1622869542",
       "tab": "Games",
       "section": "Featured",
       "priority": 104,
@@ -1324,10 +1324,10 @@
       "rank": 88
     },
     {
-      "name": "クラッシュ・ロワイヤル (Clash Royale)",
+      "name": "Illuminaria（イルミナリア）",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/56/30/5a563000-dcdf-44b1-4ecb-50147a21b0f3/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%83%AD%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AB-clash-royale/id1053012308",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/ce/31/edce31a8-9172-1814-fc72-b4fbe2b30a4a/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/illuminaria-%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8A%E3%83%AA%E3%82%A2/id6469359168",
       "tab": "Games",
       "section": "Featured",
       "priority": 105,
@@ -1339,10 +1339,10 @@
       "rank": 89
     },
     {
-      "name": "ラッシュ・ロワイヤル - タワーディフェンス",
+      "name": "クラッシュ・ロワイヤル (Clash Royale)",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/40/95/a6409590-3dfc-f51b-98ed-dc2e1cfaf5ba/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%83%AD%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AB-%E3%82%BF%E3%83%AF%E3%83%BC%E3%83%87%E3%82%A3%E3%83%95%E3%82%A7%E3%83%B3%E3%82%B9/id1526121033",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/56/30/5a563000-dcdf-44b1-4ecb-50147a21b0f3/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%83%AD%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AB-clash-royale/id1053012308",
       "tab": "Games",
       "section": "Featured",
       "priority": 106,
@@ -1354,10 +1354,10 @@
       "rank": 90
     },
     {
-      "name": "MOCHI-O",
+      "name": "ラッシュ・ロワイヤル - タワーディフェンス",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/75/46/f2754681-efc2-00ff-f2ad-8c85d765f0f4/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/mochi-o/id6670490274",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/40/95/a6409590-3dfc-f51b-98ed-dc2e1cfaf5ba/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%83%AD%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AB-%E3%82%BF%E3%83%AF%E3%83%BC%E3%83%87%E3%82%A3%E3%83%95%E3%82%A7%E3%83%B3%E3%82%B9/id1526121033",
       "tab": "Games",
       "section": "Featured",
       "priority": 107,
@@ -1369,10 +1369,10 @@
       "rank": 91
     },
     {
-      "name": "スターディフェンス：ガチャ TD",
+      "name": "MOCHI-O",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/7f/7d/437f7da2-1d01-1116-00c5-404e401e669d/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%82%A3%E3%83%95%E3%82%A7%E3%83%B3%E3%82%B9-%E3%82%AC%E3%83%81%E3%83%A3-td/id6742435255",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/75/46/f2754681-efc2-00ff-f2ad-8c85d765f0f4/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/mochi-o/id6670490274",
       "tab": "Games",
       "section": "Featured",
       "priority": 108,
@@ -1384,10 +1384,10 @@
       "rank": 92
     },
     {
-      "name": "BALL x PIT",
+      "name": "スターディフェンス：ガチャ TD",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9f/23/13/9f231352-a803-062f-86ed-09a84021428c/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/ball-x-pit/id6738703497",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/7f/7d/437f7da2-1d01-1116-00c5-404e401e669d/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%82%A3%E3%83%95%E3%82%A7%E3%83%B3%E3%82%B9-%E3%82%AC%E3%83%81%E3%83%A3-td/id6742435255",
       "tab": "Games",
       "section": "Featured",
       "priority": 109,
@@ -1399,10 +1399,10 @@
       "rank": 93
     },
     {
-      "name": "ザ・リワインダー~黄泉からの旅人~",
+      "name": "BALL x PIT",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/ab/8c/f3ab8cbe-949f-a35d-2001-198fcae5924e/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%82%B6-%E3%83%AA%E3%83%AF%E3%82%A4%E3%83%B3%E3%83%80%E3%83%BC-%E9%BB%84%E6%B3%89%E3%81%8B%E3%82%89%E3%81%AE%E6%97%85%E4%BA%BA/id1517953628",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9f/23/13/9f231352-a803-062f-86ed-09a84021428c/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/ball-x-pit/id6738703497",
       "tab": "Games",
       "section": "Featured",
       "priority": 110,
@@ -1414,10 +1414,10 @@
       "rank": 94
     },
     {
-      "name": "バックパック・バトル",
+      "name": "ザ・リワインダー~黄泉からの旅人~",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/cd/5c/63cd5c74-059b-b6f7-ac82-97d7900a69a0/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%83%E3%82%AF%E3%83%91%E3%83%83%E3%82%AF-%E3%83%90%E3%83%88%E3%83%AB/id6572290447",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/ab/8c/f3ab8cbe-949f-a35d-2001-198fcae5924e/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B6-%E3%83%AA%E3%83%AF%E3%82%A4%E3%83%B3%E3%83%80%E3%83%BC-%E9%BB%84%E6%B3%89%E3%81%8B%E3%82%89%E3%81%AE%E6%97%85%E4%BA%BA/id1517953628",
       "tab": "Games",
       "section": "Featured",
       "priority": 111,
@@ -1429,10 +1429,10 @@
       "rank": 95
     },
     {
-      "name": "Planet of Lana",
+      "name": "バックパック・バトル",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1d/1f/d0/1d1fd0f5-b17d-a2e5-722e-26659dba7a40/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/planet-of-lana/id6739130049",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/cd/5c/63cd5c74-059b-b6f7-ac82-97d7900a69a0/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%83%E3%82%AF%E3%83%91%E3%83%83%E3%82%AF-%E3%83%90%E3%83%88%E3%83%AB/id6572290447",
       "tab": "Games",
       "section": "Featured",
       "priority": 112,
@@ -1444,10 +1444,10 @@
       "rank": 96
     },
     {
-      "name": "Birth!",
+      "name": "Planet of Lana",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/31/d0/5b31d05b-092e-1a2e-3f93-5bbc5f26a0e9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/birth/id6748316143",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1d/1f/d0/1d1fd0f5-b17d-a2e5-722e-26659dba7a40/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/planet-of-lana/id6739130049",
       "tab": "Games",
       "section": "Featured",
       "priority": 113,
@@ -1459,10 +1459,10 @@
       "rank": 97
     },
     {
-      "name": "Arranger",
+      "name": "Birth!",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/eb/ea/69/ebea6946-edbd-f52c-b523-70e63ad02aad/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/arranger/id6759252046",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/31/d0/5b31d05b-092e-1a2e-3f93-5bbc5f26a0e9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/birth/id6748316143",
       "tab": "Games",
       "section": "Featured",
       "priority": 114,
@@ -1474,10 +1474,10 @@
       "rank": 98
     },
     {
-      "name": "Coffee Talk: Episode 1",
+      "name": "Arranger",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/69/0e/85690e6a-012f-9c60-0c61-121fc76700f9/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/coffee-talk-episode-1/id6738106578",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/eb/ea/69/ebea6946-edbd-f52c-b523-70e63ad02aad/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/arranger/id6759252046",
       "tab": "Games",
       "section": "Featured",
       "priority": 115,
@@ -1489,10 +1489,10 @@
       "rank": 99
     },
     {
-      "name": "INMOST",
+      "name": "Coffee Talk: Episode 1",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/e0/2e/d8e02e04-42c0-7f3f-1cc0-a730885de934/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/inmost/id6478596530",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/69/0e/85690e6a-012f-9c60-0c61-121fc76700f9/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/coffee-talk-episode-1/id6738106578",
       "tab": "Games",
       "section": "Featured",
       "priority": 116,
@@ -1504,10 +1504,10 @@
       "rank": 100
     },
     {
-      "name": "TOEM（トーエム）",
+      "name": "INMOST",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/14/bf/dc/14bfdcde-c15c-c46d-e1a6-681414ee6dc1/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/toem-%E3%83%88%E3%83%BC%E3%82%A8%E3%83%A0/id6743934969",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/e0/2e/d8e02e04-42c0-7f3f-1cc0-a730885de934/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/inmost/id6478596530",
       "tab": "Games",
       "section": "Featured",
       "priority": 117,
@@ -1519,10 +1519,10 @@
       "rank": 101
     },
     {
-      "name": "Pokémon GO",
+      "name": "TOEM（トーエム）",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/8e/93/6e8e93ab-2789-6c24-fe4b-da0039a0105e/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-go/id1094591345",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/14/bf/dc/14bfdcde-c15c-c46d-e1a6-681414ee6dc1/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/toem-%E3%83%88%E3%83%BC%E3%82%A8%E3%83%A0/id6743934969",
       "tab": "Games",
       "section": "Featured",
       "priority": 118,
@@ -1534,10 +1534,10 @@
       "rank": 102
     },
     {
-      "name": "Pokémon Sleep",
+      "name": "Pokémon GO",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/6f/e8/646fe8e4-256f-7130-83f9-a7aaf3c08dfb/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-sleep/id1579464667",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/8e/93/6e8e93ab-2789-6c24-fe4b-da0039a0105e/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-go/id1094591345",
       "tab": "Games",
       "section": "Featured",
       "priority": 119,
@@ -1549,10 +1549,10 @@
       "rank": 103
     },
     {
-      "name": "ポケモンスマイル",
+      "name": "Pokémon Sleep",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/28/35/4028351f-7b62-4611-9fdf-28419da1256c/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB/id1512331079",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/6f/e8/646fe8e4-256f-7130-83f9-a7aaf3c08dfb/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-sleep/id1579464667",
       "tab": "Games",
       "section": "Featured",
       "priority": 120,
@@ -1564,10 +1564,10 @@
       "rank": 104
     },
     {
-      "name": "はねろ！コイキング",
+      "name": "ポケモンスマイル",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/d2/c0/30/d2c0306c-5b54-217d-c63d-b488aeaf8e94/AppIcon-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%81%AF%E3%81%AD%E3%82%8D-%E3%82%B3%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0/id1162679453",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/28/35/4028351f-7b62-4611-9fdf-28419da1256c/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB/id1512331079",
       "tab": "Games",
       "section": "Featured",
       "priority": 121,
@@ -1579,10 +1579,10 @@
       "rank": 105
     },
     {
-      "name": "Pokémon UNITE",
+      "name": "はねろ！コイキング",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/9c/40/599c40cd-076b-c923-96ff-7ddabc1daef2/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-unite/id1512321575",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/d2/c0/30/d2c0306c-5b54-217d-c63d-b488aeaf8e94/AppIcon-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%81%AF%E3%81%AD%E3%82%8D-%E3%82%B3%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0/id1162679453",
       "tab": "Games",
       "section": "Featured",
       "priority": 122,
@@ -1594,10 +1594,10 @@
       "rank": 106
     },
     {
-      "name": "Pokémon Masters EX",
+      "name": "Pokémon UNITE",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/17/d2/ff17d2b6-1742-b605-35c4-d8bd085d8883/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-masters-ex/id1442061397",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/9c/40/599c40cd-076b-c923-96ff-7ddabc1daef2/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-unite/id1512321575",
       "tab": "Games",
       "section": "Featured",
       "priority": 123,
@@ -1609,10 +1609,10 @@
       "rank": 107
     },
     {
-      "name": "ようこそ！ポケモンカフェ ～まぜまぜパズル～",
+      "name": "Pokémon Masters EX",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/cf/38/7dcf38bd-86ca-e0cf-1904-9a45290d7b21/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%82%88%E3%81%86%E3%81%93%E3%81%9D-%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%95%E3%82%A7-%E3%81%BE%E3%81%9C%E3%81%BE%E3%81%9C%E3%83%91%E3%82%BA%E3%83%AB/id1496738228",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/17/d2/ff17d2b6-1742-b605-35c4-d8bd085d8883/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-masters-ex/id1442061397",
       "tab": "Games",
       "section": "Featured",
       "priority": 124,
@@ -1624,10 +1624,10 @@
       "rank": 108
     },
     {
-      "name": "ポケモンクエスト",
+      "name": "ようこそ！ポケモンカフェ ～まぜまぜパズル～",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/17/f5/71/17f57127-219c-2201-5b78-4a044783b2d4/AppIcon-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88/id1345187641",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/cf/38/7dcf38bd-86ca-e0cf-1904-9a45290d7b21/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%82%88%E3%81%86%E3%81%93%E3%81%9D-%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%95%E3%82%A7-%E3%81%BE%E3%81%9C%E3%81%BE%E3%81%9C%E3%83%91%E3%82%BA%E3%83%AB/id1496738228",
       "tab": "Games",
       "section": "Featured",
       "priority": 125,
@@ -1639,10 +1639,10 @@
       "rank": 109
     },
     {
-      "name": "ポケとる スマホ版",
+      "name": "ポケモンクエスト",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/73/87/8e/73878eb1-44cf-9f81-91f7-1d38edeedc00/AppIcon-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B1%E3%81%A8%E3%82%8B-%E3%82%B9%E3%83%9E%E3%83%9B%E7%89%88/id1014919815",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/17/f5/71/17f57127-219c-2201-5b78-4a044783b2d4/AppIcon-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88/id1345187641",
       "tab": "Games",
       "section": "Featured",
       "priority": 126,
@@ -1654,10 +1654,10 @@
       "rank": 110
     },
     {
-      "name": "BIOHAZARD 7 resident evil",
+      "name": "ポケとる スマホ版",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/ad/00/dbad008c-ef10-23cb-d230-2cb9aa215547/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/biohazard-7-resident-evil/id1640628954",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/73/87/8e/73878eb1-44cf-9f81-91f7-1d38edeedc00/AppIcon-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B1%E3%81%A8%E3%82%8B-%E3%82%B9%E3%83%9E%E3%83%9B%E7%89%88/id1014919815",
       "tab": "Games",
       "section": "Featured",
       "priority": 127,
@@ -1669,10 +1669,10 @@
       "rank": 111
     },
     {
-      "name": "アサシン クリード ミラージュ",
+      "name": "BIOHAZARD 7 resident evil",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/13/79/b11379da-eca6-f40c-9bac-1f11099b8f41/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%82%B5%E3%82%B7%E3%83%B3-%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%89-%E3%83%9F%E3%83%A9%E3%83%BC%E3%82%B8%E3%83%A5/id6472704261",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/ad/00/dbad008c-ef10-23cb-d230-2cb9aa215547/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/biohazard-7-resident-evil/id1640628954",
       "tab": "Games",
       "section": "Featured",
       "priority": 128,
@@ -1684,10 +1684,10 @@
       "rank": 112
     },
     {
-      "name": "BIOHAZARD RE:4",
+      "name": "アサシン クリード ミラージュ",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/62/cb/fd62cb8f-1fd1-2f2e-c0db-1b50ccaae925/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/biohazard-re-4/id6459829184",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/13/79/b11379da-eca6-f40c-9bac-1f11099b8f41/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%82%B5%E3%82%B7%E3%83%B3-%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%89-%E3%83%9F%E3%83%A9%E3%83%BC%E3%82%B8%E3%83%A5/id6472704261",
       "tab": "Games",
       "section": "Featured",
       "priority": 129,
@@ -1699,10 +1699,10 @@
       "rank": 113
     },
     {
-      "name": "Super Mario Run",
+      "name": "BIOHAZARD RE:4",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/ee/c1/2eeec17d-a9bf-b5aa-18cb-cc2b0636565d/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/super-mario-run/id1145275343",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/62/cb/fd62cb8f-1fd1-2f2e-c0db-1b50ccaae925/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/biohazard-re-4/id6459829184",
       "tab": "Games",
       "section": "Featured",
       "priority": 130,
@@ -1714,10 +1714,10 @@
       "rank": 114
     },
     {
-      "name": "ライフ イズ ストレンジ",
+      "name": "Super Mario Run",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/33/08/8d/33088df2-9e40-f200-0a97-7d711c8c1f19/AppIcon-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%A4%E3%83%95-%E3%82%A4%E3%82%BA-%E3%82%B9%E3%83%88%E3%83%AC%E3%83%B3%E3%82%B8/id1180101534",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/ee/c1/2eeec17d-a9bf-b5aa-18cb-cc2b0636565d/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/super-mario-run/id1145275343",
       "tab": "Games",
       "section": "Featured",
       "priority": 131,
@@ -1729,10 +1729,10 @@
       "rank": 115
     },
     {
-      "name": "Assemble with Care",
+      "name": "ライフ イズ ストレンジ",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/16/b2/28/16b2286a-6b2c-c8fd-0459-d2e3e94d1657/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/assemble-with-care/id6459060454",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/33/08/8d/33088df2-9e40-f200-0a97-7d711c8c1f19/AppIcon-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%A4%E3%83%95-%E3%82%A4%E3%82%BA-%E3%82%B9%E3%83%88%E3%83%AC%E3%83%B3%E3%82%B8/id1180101534",
       "tab": "Games",
       "section": "Featured",
       "priority": 132,
@@ -1744,10 +1744,10 @@
       "rank": 116
     },
     {
-      "name": "Playdead's INSIDE",
+      "name": "Assemble with Care",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/eb/5f/d8eb5f59-8423-6d17-e9cb-d119b8f83c69/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/playdeads-inside/id1201642309",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/16/b2/28/16b2286a-6b2c-c8fd-0459-d2e3e94d1657/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/assemble-with-care/id6459060454",
       "tab": "Games",
       "section": "Featured",
       "priority": 133,
@@ -1759,10 +1759,10 @@
       "rank": 117
     },
     {
-      "name": "Populus Run",
+      "name": "Playdead's INSIDE",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/63/fb/1963fbba-dfec-3bf2-ded9-21e5908925ba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/populus-run/id6470197867",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/eb/5f/d8eb5f59-8423-6d17-e9cb-d119b8f83c69/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/playdeads-inside/id1201642309",
       "tab": "Games",
       "section": "Featured",
       "priority": 134,
@@ -1774,10 +1774,10 @@
       "rank": 118
     },
     {
-      "name": "Turnip Boy Commits Tax Evasion",
+      "name": "Populus Run",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ca/b3/b8/cab3b80f-182b-c23b-7e1e-42ad110bab03/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/turnip-boy-commits-tax-evasion/id1609390613",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/63/fb/1963fbba-dfec-3bf2-ded9-21e5908925ba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/populus-run/id6470197867",
       "tab": "Games",
       "section": "Featured",
       "priority": 135,
@@ -1789,10 +1789,10 @@
       "rank": 119
     },
     {
-      "name": "Bugsnax",
+      "name": "Turnip Boy Commits Tax Evasion",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ca/9b/5d/ca9b5d13-694c-c525-8f09-88c486455960/AppIcon-1x_U007emarketing-0-4-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/bugsnax/id1449161497",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ca/b3/b8/cab3b80f-182b-c23b-7e1e-42ad110bab03/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/turnip-boy-commits-tax-evasion/id1609390613",
       "tab": "Games",
       "section": "Featured",
       "priority": 136,
@@ -1804,10 +1804,10 @@
       "rank": 120
     },
     {
-      "name": "BIOHAZARD VILLAGE",
+      "name": "Bugsnax",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/d9/41/22d941fe-27b2-70eb-bbd6-0f8c0f766027/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/biohazard-village/id6450981229",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ca/9b/5d/ca9b5d13-694c-c525-8f09-88c486455960/AppIcon-1x_U007emarketing-0-4-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/bugsnax/id1449161497",
       "tab": "Games",
       "section": "Featured",
       "priority": 137,
@@ -1819,10 +1819,10 @@
       "rank": 121
     },
     {
-      "name": "Lost in Play",
+      "name": "BIOHAZARD VILLAGE",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/19/42/d3194276-4b5b-72d4-63b0-0b4ce77ea668/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/lost-in-play/id6449434958",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/d9/41/22d941fe-27b2-70eb-bbd6-0f8c0f766027/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/biohazard-village/id6450981229",
       "tab": "Games",
       "section": "Featured",
       "priority": 138,
@@ -1834,10 +1834,10 @@
       "rank": 122
     },
     {
-      "name": "Agent A - 偽装のパズル",
+      "name": "Lost in Play",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/08/1c/1b/081c1bf0-f1cf-8174-a308-58b0aa404476/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/64x64ia-75.webp",
-      "url": "https://apps.apple.com/jp/app/agent-a-%E5%81%BD%E8%A3%85%E3%81%AE%E3%83%91%E3%82%BA%E3%83%AB/id940006911",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/19/42/d3194276-4b5b-72d4-63b0-0b4ce77ea668/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/lost-in-play/id6449434958",
       "tab": "Games",
       "section": "Featured",
       "priority": 139,
@@ -1849,10 +1849,10 @@
       "rank": 123
     },
     {
-      "name": "MONOPOLY GO! (モノポリー GO!)",
+      "name": "Agent A - 偽装のパズル",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/7b/1f/2b7b1f3d-bc2b-8fb4-d0b2-b177d8a959b6/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/monopoly-go-%E3%83%A2%E3%83%8E%E3%83%9D%E3%83%AA%E3%83%BC-go/id1621328561",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/08/1c/1b/081c1bf0-f1cf-8174-a308-58b0aa404476/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/64x64ia-75.webp",
+      "url": "https://apps.apple.com/jp/app/agent-a-%E5%81%BD%E8%A3%85%E3%81%AE%E3%83%91%E3%82%BA%E3%83%AB/id940006911",
       "tab": "Games",
       "section": "Featured",
       "priority": 140,
@@ -1864,10 +1864,10 @@
       "rank": 124
     },
     {
-      "name": "ロイヤルマッチ（Royal Match)",
+      "name": "MONOPOLY GO! (モノポリー GO!)",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/43/be/0943be64-8843-ff52-7688-371b34efc008/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%83%9E%E3%83%83%E3%83%81-royal-match/id1482155847",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/7b/1f/2b7b1f3d-bc2b-8fb4-d0b2-b177d8a959b6/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/monopoly-go-%E3%83%A2%E3%83%8E%E3%83%9D%E3%83%AA%E3%83%BC-go/id1621328561",
       "tab": "Games",
       "section": "Featured",
       "priority": 141,
@@ -1879,10 +1879,10 @@
       "rank": 125
     },
     {
-      "name": "ブロスタ",
+      "name": "ロイヤルマッチ（Royal Match)",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3d/28/00/3d280053-e22f-57e8-f2d0-0b3795c4a44f/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AD%E3%82%B9%E3%82%BF/id1229016807",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/43/be/0943be64-8843-ff52-7688-371b34efc008/Placeholder.mill/64x64bb-75.webp",
+      "url": "https://apps.apple.com/jp/app/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%83%9E%E3%83%83%E3%83%81-royal-match/id1482155847",
       "tab": "Games",
       "section": "Featured",
       "priority": 142,
@@ -1926,7 +1926,7 @@
     {
       "name": "フィッシュダム(Fishdom)",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/41/2d/a8/412da89a-5280-ad78-e083-5bbf97677265/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2f/7d/7c/2f7d7ce9-ff5c-d1a7-3f78-c62a75663228/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%83%80%E3%83%A0-fishdom/id664575829",
       "tab": "Games",
       "section": "Featured",
@@ -2196,7 +2196,7 @@
     {
       "name": "ホロライブドリームス",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/f9/be/11f9beb9-1fd5-80b5-0286-4ee233001d57/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100ia-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/e8/e2/bbe8e248-41a2-8e91-b5d6-52881d3bc618/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%B9/id6756641135",
       "tab": "Games",
       "section": "Featured",
@@ -2421,7 +2421,7 @@
     {
       "name": "Two Dots",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/5f/43/ba5f4396-aef6-3558-4ff5-e69ebc2daa8d/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/4a/ec/6f4aecb9-b7e4-4147-3c54-8c51177e962a/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/jp/app/two-dots/id880178264",
       "tab": "Games",
       "section": "Featured",
@@ -3204,7 +3204,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "badge": "あと 6 日で期限切れ",
+      "badge": "あと 5 日で期限切れ",
       "rank": 7
     },
     {
@@ -3691,10 +3691,10 @@
       "rank": 39
     },
     {
-      "name": "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG",
+      "name": "Roblox (ロブロックス)",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/1sdqXY812mSKhGAdlb__4rqDj3PnFxhBgLuqWzPzu83sN0ap6wniQMlk0bVj-Nmjo1LDh_6rsfSCTHt1VlSyGg=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.square_enix.android_googleplay.dqsgj",
+      "icon": "https://play-lh.googleusercontent.com/7cIIPlWm4m7AGqVpEsIfyL-HW4cQla4ucXnfalMft1TMIYQIlf2vqgmthlZgbNAQoaQ=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.roblox.client",
       "tab": "Featured",
       "section": "Featured",
       "priority": 49,
@@ -3736,10 +3736,10 @@
       "rank": 42
     },
     {
-      "name": "Roblox (ロブロックス)",
+      "name": "グルメ・ジャーニー",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/7cIIPlWm4m7AGqVpEsIfyL-HW4cQla4ucXnfalMft1TMIYQIlf2vqgmthlZgbNAQoaQ=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.roblox.client",
+      "icon": "https://play-lh.googleusercontent.com/zGhriW_zOEdt1u68eybR53bC9kgIHNnsCPSrcf1e8eASpSLPXB9XrRqU25851GV6KmbwOHvVdMMJTE1h5EjD=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.fatmerge.global",
       "tab": "Featured",
       "section": "Featured",
       "priority": 52,
@@ -3751,10 +3751,10 @@
       "rank": 43
     },
     {
-      "name": "グルメ・ジャーニー",
+      "name": "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/zGhriW_zOEdt1u68eybR53bC9kgIHNnsCPSrcf1e8eASpSLPXB9XrRqU25851GV6KmbwOHvVdMMJTE1h5EjD=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.fatmerge.global",
+      "icon": "https://play-lh.googleusercontent.com/1sdqXY812mSKhGAdlb__4rqDj3PnFxhBgLuqWzPzu83sN0ap6wniQMlk0bVj-Nmjo1LDh_6rsfSCTHt1VlSyGg=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.square_enix.android_googleplay.dqsgj",
       "tab": "Featured",
       "section": "Featured",
       "priority": 53,
@@ -3766,10 +3766,10 @@
       "rank": 44
     },
     {
-      "name": "トリミン2！-トリッキーミーン2 いじわる脳トレパズルゲーム",
+      "name": "にゃんこ大戦争",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/ofitvgYavwaxtrs-asKr2nnYXnMyBC3-at-mx5gVWFetqTuBtazizDxHwodfvsdvmUh0-dMRhZEHz_7i7gng=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.fty.trickmean2game",
+      "icon": "https://play-lh.googleusercontent.com/y31FzvoMBP8oXitVTQzDKFOvYPeGfrj24RDNZPsoMT40GWeJeLVNHJP-zvGNm7M3BRpmNvqCTesj42I2bHU1Uw=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.ponos.battlecats",
       "tab": "Featured",
       "section": "Featured",
       "priority": 54,
@@ -3781,10 +3781,10 @@
       "rank": 45
     },
     {
-      "name": "にゃんこ大戦争",
+      "name": "トリミン2！-トリッキーミーン2 いじわる脳トレパズルゲーム",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/y31FzvoMBP8oXitVTQzDKFOvYPeGfrj24RDNZPsoMT40GWeJeLVNHJP-zvGNm7M3BRpmNvqCTesj42I2bHU1Uw=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.ponos.battlecats",
+      "icon": "https://play-lh.googleusercontent.com/ofitvgYavwaxtrs-asKr2nnYXnMyBC3-at-mx5gVWFetqTuBtazizDxHwodfvsdvmUh0-dMRhZEHz_7i7gng=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.fty.trickmean2game",
       "tab": "Featured",
       "section": "Featured",
       "priority": 55,
@@ -3871,10 +3871,10 @@
       "rank": 51
     },
     {
-      "name": "魔法ピアノタイル9 : ピアノゲーム、おんがくげーむ、音ゲー",
+      "name": "Ragdoll Blade",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/05e7jOcVlbmLbQgz9YSEwcARwRp4cpBFENkwP_PeesKDY_evSTA22wGdg5jCku11NzJA=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=beats.color.sing.star.rush",
+      "icon": "https://play-lh.googleusercontent.com/ULCwTpPEaYWxsY6MBKC9GjigZryy5C3dY0IXVbbR5rXQH2jcnFLCGV-Nk9CsuFlaWXIG=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=games.tatsumaki.ragdollblade",
       "tab": "Featured",
       "section": "Featured",
       "priority": 61,
@@ -3901,10 +3901,10 @@
       "rank": 53
     },
     {
-      "name": "Marble Sort!",
+      "name": "魔法ピアノタイル9 : ピアノゲーム、おんがくげーむ、音ゲー",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/QvaEFQhS4SCDQmI941wYCTg83AoQkZt4WN-fZRyhh2XW2tcxjT0pQKXLm1Be7K0XdC4=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.microdose.balljam",
+      "icon": "https://play-lh.googleusercontent.com/05e7jOcVlbmLbQgz9YSEwcARwRp4cpBFENkwP_PeesKDY_evSTA22wGdg5jCku11NzJA=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=beats.color.sing.star.rush",
       "tab": "Featured",
       "section": "Featured",
       "priority": 63,
@@ -3946,10 +3946,10 @@
       "rank": 56
     },
     {
-      "name": "ポケットソート (Pocket Sort)：コインパズル",
+      "name": "X-Clash",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/Bo1AzzdXdwig0sc0hx0b0MtL2GymhF3beO3cxiW-W3PGuONQ-33gKKAT9FgUCRh8AQ=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.pocket.sort.coin.puzzle.game",
+      "icon": "https://play-lh.googleusercontent.com/TKjstBH6ncn752ECDKr2VyZt1vX719KAEqYIA7yZuRNHAUMZ80TxhRNNINgksxKcz6Moou_RgFbVI4zydRdE=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.xman.jp.gp",
       "tab": "Featured",
       "section": "Featured",
       "priority": 66,
@@ -3961,10 +3961,10 @@
       "rank": 57
     },
     {
-      "name": "Ragdoll Blade",
+      "name": "Marble Sort!",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/ULCwTpPEaYWxsY6MBKC9GjigZryy5C3dY0IXVbbR5rXQH2jcnFLCGV-Nk9CsuFlaWXIG=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=games.tatsumaki.ragdollblade",
+      "icon": "https://play-lh.googleusercontent.com/QvaEFQhS4SCDQmI941wYCTg83AoQkZt4WN-fZRyhh2XW2tcxjT0pQKXLm1Be7K0XdC4=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.microdose.balljam",
       "tab": "Featured",
       "section": "Featured",
       "priority": 67,
@@ -3976,10 +3976,10 @@
       "rank": 58
     },
     {
-      "name": "魔法のタイルズ3 - ピアノ曲 & ゲーム",
+      "name": "確認させてください",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/u94NKpNjH1sBOiKHevX3_ATM-ozNHg6b186oU9GfnPnHwbdJ7RaeipkCRcVPdf1KRA=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles",
+      "icon": "https://play-lh.googleusercontent.com/VzWmb4dyJ7OwKtCyEkxdGHORAPmHWbQBP9YS4USdzhqJvi86ldlaLYlxD9a5nIVbk2Rpj2z4QkL7qsAYmF3d=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.fty.thejudge",
       "tab": "Featured",
       "section": "Featured",
       "priority": 68,
@@ -3991,10 +3991,10 @@
       "rank": 59
     },
     {
-      "name": "TopTop(トップトップ) - 友達と一緒に遊ぼう",
+      "name": "Flower Forest - ワードパズル",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/YPhR4AvyyzWWsxMwyon7cmUZudOp7ym4M1xWsSHF0CJnO1TBl9kjXZrbF5ulI_a8sqc=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.game.friends.jp",
+      "icon": "https://play-lh.googleusercontent.com/85UQPJ5ABPQ5zUEWlEU3Xv1dfqmVX5tqsD7YPKmOJWsXonblfTSM7rqtoWxns-VCQ-jhUDQfb8geUFOrZJDc=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.flower.forest.word.puzzle",
       "tab": "Featured",
       "section": "Featured",
       "priority": 69,
@@ -4006,10 +4006,10 @@
       "rank": 60
     },
     {
-      "name": "巡回中！即タイホ！",
+      "name": "出荷ぶた-養豚場育成ゲーム！ポイ活可能の放置で癒しの牧場経営",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/MnwELZ8AtpyDK7U70RlDA3kcijbYmrhrNHIfcCcTklqjkOUDP6KWr5_KsMGnyehtBX9__QK3B9vsLVLCCxwf7A=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=pics.karaage.sokutaiho",
+      "icon": "https://play-lh.googleusercontent.com/iWun9_WDxsStff3-xIEku1Wxi_T6neEDTw748lbICI2kH-HCwwjVCWGlpJa4xPJCwTE=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.eagle_developers.shukapig",
       "tab": "Featured",
       "section": "Featured",
       "priority": 70,
@@ -4021,10 +4021,10 @@
       "rank": 61
     },
     {
-      "name": "出荷ぶた-養豚場育成ゲーム！ポイ活可能の放置で癒しの牧場経営",
+      "name": "ポケットソート (Pocket Sort)：コインパズル",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/iWun9_WDxsStff3-xIEku1Wxi_T6neEDTw748lbICI2kH-HCwwjVCWGlpJa4xPJCwTE=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.eagle_developers.shukapig",
+      "icon": "https://play-lh.googleusercontent.com/Bo1AzzdXdwig0sc0hx0b0MtL2GymhF3beO3cxiW-W3PGuONQ-33gKKAT9FgUCRh8AQ=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.pocket.sort.coin.puzzle.game",
       "tab": "Featured",
       "section": "Featured",
       "priority": 71,
@@ -4036,10 +4036,10 @@
       "rank": 62
     },
     {
-      "name": "ピクセルブレイブ：伝説の勇者たち",
+      "name": "巡回中！即タイホ！",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/0xSBwSvBzIQ_hvdi4tKCL5a2Qrbja49uu1536RaRX8F-vv2RL-ZrvyeWnFrurvkAMAu_cmDGLrL4CxF0FHff=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=xyz.lightgame.tuantuan",
+      "icon": "https://play-lh.googleusercontent.com/MnwELZ8AtpyDK7U70RlDA3kcijbYmrhrNHIfcCcTklqjkOUDP6KWr5_KsMGnyehtBX9__QK3B9vsLVLCCxwf7A=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=pics.karaage.sokutaiho",
       "tab": "Featured",
       "section": "Featured",
       "priority": 72,
@@ -4051,10 +4051,10 @@
       "rank": 63
     },
     {
-      "name": "Brain Puzzle 2: Logic Twist",
+      "name": "Block Crush: ブロックブラストパズル",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/q19v_2ZYEOdWOt6ABAVCl10zHrft5qkChjAwxtByGKxJxE3gNULQGf3BwsCYVJk4Jbhf=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.brain.logic.joygame",
+      "icon": "https://play-lh.googleusercontent.com/f_ImrzQpXw781wa_yNSxhfJz4b_t-MSQ6A1PXPoFBX3b0BkKRwVc7ik4eVbwA-x5S0jRxpZ0KvD__ULeEFwFAw=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.wood.block.sudoku.puzzle.bm",
       "tab": "Featured",
       "section": "Featured",
       "priority": 73,
@@ -4066,10 +4066,10 @@
       "rank": 64
     },
     {
-      "name": "Block Crush: ブロックブラストパズル",
+      "name": "魔法のタイルズ3 - ピアノ曲 & ゲーム",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/f_ImrzQpXw781wa_yNSxhfJz4b_t-MSQ6A1PXPoFBX3b0BkKRwVc7ik4eVbwA-x5S0jRxpZ0KvD__ULeEFwFAw=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.wood.block.sudoku.puzzle.bm",
+      "icon": "https://play-lh.googleusercontent.com/u94NKpNjH1sBOiKHevX3_ATM-ozNHg6b186oU9GfnPnHwbdJ7RaeipkCRcVPdf1KRA=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles",
       "tab": "Featured",
       "section": "Featured",
       "priority": 74,
@@ -4081,10 +4081,10 @@
       "rank": 65
     },
     {
-      "name": "Pokémon GO",
+      "name": "TopTop(トップトップ) - 友達と一緒に遊ぼう",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/Qf2SJGpLxd9eu4CLWRrh2tfmmkncg7TQ2RNr44tWO07EBfhfMs4CHlizioym11Vb6RmfIWCNz6FNsOgHj_5dMA=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo",
+      "icon": "https://play-lh.googleusercontent.com/YPhR4AvyyzWWsxMwyon7cmUZudOp7ym4M1xWsSHF0CJnO1TBl9kjXZrbF5ulI_a8sqc=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.game.friends.jp",
       "tab": "Featured",
       "section": "Featured",
       "priority": 75,
@@ -4096,10 +4096,10 @@
       "rank": 66
     },
     {
-      "name": "Tile Explorer - トリプルマッチ",
+      "name": "Pokémon GO",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/kwa0XzNS0QNIWthk_gQ5Jrzc0myF56RNXuehCN5YSMKjNeFesOnvkvXEBYi5zIAtC6aM=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.oakever.tiletrip",
+      "icon": "https://play-lh.googleusercontent.com/Qf2SJGpLxd9eu4CLWRrh2tfmmkncg7TQ2RNr44tWO07EBfhfMs4CHlizioym11Vb6RmfIWCNz6FNsOgHj_5dMA=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo",
       "tab": "Featured",
       "section": "Featured",
       "priority": 76,
@@ -4111,10 +4111,10 @@
       "rank": 67
     },
     {
-      "name": "LINE：ディズニー ツムツム",
+      "name": "Brain Puzzle 2: Logic Twist",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/NV4et8M5erNpQbz5mGFAbvYyw5z4JyIguX4DnhSNRQpXRabFx5B3lC3MsIPlPY3pU7GLclqvzUTu-IUZWytBT8A=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.linecorp.LGTMTM",
+      "icon": "https://play-lh.googleusercontent.com/q19v_2ZYEOdWOt6ABAVCl10zHrft5qkChjAwxtByGKxJxE3gNULQGf3BwsCYVJk4Jbhf=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.brain.logic.joygame",
       "tab": "Featured",
       "section": "Featured",
       "priority": 77,
@@ -4126,10 +4126,10 @@
       "rank": 68
     },
     {
-      "name": "Flower Forest - ワードパズル",
+      "name": "妖怪カノジョ：妖怪はキミに恋をする",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/85UQPJ5ABPQ5zUEWlEU3Xv1dfqmVX5tqsD7YPKmOJWsXonblfTSM7rqtoWxns-VCQ-jhUDQfb8geUFOrZJDc=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.flower.forest.word.puzzle",
+      "icon": "https://play-lh.googleusercontent.com/zpJ18cv92reANnc7bLoxadXEbJOMcMXewK4msPAgiWIQrEEJgQsylZ-idoNt3gkJAfKgUNr8WVUvsgOWbwXcuLg=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=tokyo.chickenskin.yokai",
       "tab": "Featured",
       "section": "Featured",
       "priority": 78,
@@ -4141,10 +4141,10 @@
       "rank": 69
     },
     {
-      "name": "Wizardry Variants Daphne",
+      "name": "ねじねじパズル",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/PQnAqYDPuV9yAMssbBkA5WPt68jaPyA_T4cbEDRjwMidLfxP0sEoH16bSV_5hSOm0ds=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.drecom.wizardry.daphne",
+      "icon": "https://play-lh.googleusercontent.com/52uYqOg0j8lAEQwJO-wXURkMZ_p2-Khwy_JSsN33Wl8Qfl2YMzRisJanosE8p6WVVCE=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.warrior.screw.gp",
       "tab": "Featured",
       "section": "Featured",
       "priority": 79,
@@ -4156,10 +4156,10 @@
       "rank": 70
     },
     {
-      "name": "X-Clash",
+      "name": "ピクセルブレイブ：伝説の勇者たち",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/TKjstBH6ncn752ECDKr2VyZt1vX719KAEqYIA7yZuRNHAUMZ80TxhRNNINgksxKcz6Moou_RgFbVI4zydRdE=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.xman.jp.gp",
+      "icon": "https://play-lh.googleusercontent.com/0xSBwSvBzIQ_hvdi4tKCL5a2Qrbja49uu1536RaRX8F-vv2RL-ZrvyeWnFrurvkAMAu_cmDGLrL4CxF0FHff=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=xyz.lightgame.tuantuan",
       "tab": "Featured",
       "section": "Featured",
       "priority": 80,
@@ -4171,10 +4171,10 @@
       "rank": 71
     },
     {
-      "name": "ロイヤルマッチ Royal Match",
+      "name": "Tile Explorer - トリプルマッチ",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/qBdVfwRCsI4KM7qewhJ0AKZKQjyD-DdxPDcdDbsRMhNO9zrwbefggn1vGqRIDZA3fg=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalmatch",
+      "icon": "https://play-lh.googleusercontent.com/kwa0XzNS0QNIWthk_gQ5Jrzc0myF56RNXuehCN5YSMKjNeFesOnvkvXEBYi5zIAtC6aM=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.oakever.tiletrip",
       "tab": "Featured",
       "section": "Featured",
       "priority": 81,
@@ -4186,10 +4186,10 @@
       "rank": 72
     },
     {
-      "name": "妖怪カノジョ：妖怪はキミに恋をする",
+      "name": "クリック Wood (Click Wood)",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/zpJ18cv92reANnc7bLoxadXEbJOMcMXewK4msPAgiWIQrEEJgQsylZ-idoNt3gkJAfKgUNr8WVUvsgOWbwXcuLg=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=tokyo.chickenskin.yokai",
+      "icon": "https://play-lh.googleusercontent.com/E9W-APtwIYfSjzZAKaXEvL1iJaJ5SzcDXhaLgGoUhCisAggu6CjDeDluaCZpEGe0SlCgfBhttyM2WXNaGarx=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.heartsnet.clickwood.gp",
       "tab": "Featured",
       "section": "Featured",
       "priority": 82,
@@ -4201,10 +4201,10 @@
       "rank": 73
     },
     {
-      "name": "フルーツ飴の達人 - ドバイもち、パフェ、ASMR、モッパン",
+      "name": "Smash Hit",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/s23NVBj74F5ui9URciCnyhfhwxGAVRnsQBjvOGyd_nlPUt0x3iqtVpxRDt7IQaWuQHU=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.whoyaho.tanghulu",
+      "icon": "https://i.ytimg.com/vi/MA9rigt5MiI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.mediocre.smashhit",
       "tab": "Featured",
       "section": "Featured",
       "priority": 83,
@@ -4216,10 +4216,10 @@
       "rank": 74
     },
     {
-      "name": "Smash Hit",
+      "name": "思い出レストラン　〜心にしみる昭和シリーズ〜",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/MA9rigt5MiI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.mediocre.smashhit",
+      "icon": "https://i.ytimg.com/vi/j2fW7jPnr3U/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.gagex.rigel",
       "tab": "Featured",
       "section": "Featured",
       "priority": 84,
@@ -4231,10 +4231,10 @@
       "rank": 75
     },
     {
-      "name": "思い出レストラン　〜心にしみる昭和シリーズ〜",
+      "name": "アルトのオデッセイ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/j2fW7jPnr3U/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.gagex.rigel",
+      "icon": "https://i.ytimg.com/vi/WWFergoiwas/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.noodlecake.altosodyssey",
       "tab": "Featured",
       "section": "Featured",
       "priority": 85,
@@ -4246,10 +4246,10 @@
       "rank": 76
     },
     {
-      "name": "アルトのオデッセイ",
+      "name": "The White Door / ホワイトドア",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/WWFergoiwas/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.noodlecake.altosodyssey",
+      "icon": "https://i.ytimg.com/vi/PurqBN9yqRs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=air.com.RustyLake.WhiteDoor",
       "tab": "Featured",
       "section": "Featured",
       "priority": 86,
@@ -4261,10 +4261,10 @@
       "rank": 77
     },
     {
-      "name": "The White Door / ホワイトドア",
+      "name": "orange",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/PurqBN9yqRs/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=air.com.RustyLake.WhiteDoor",
+      "icon": "https://i.ytimg.com/vi/b9X7QftjC_g/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=air.com.bartbonte.orange",
       "tab": "Featured",
       "section": "Featured",
       "priority": 87,
@@ -4276,10 +4276,10 @@
       "rank": 78
     },
     {
-      "name": "orange",
+      "name": "Machinarium （マシナリウム）",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/b9X7QftjC_g/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=air.com.bartbonte.orange",
+      "icon": "https://i.ytimg.com/vi/mS_catiixCc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=air.net.machinarium.Machinarium.GP",
       "tab": "Featured",
       "section": "Featured",
       "priority": 88,
@@ -4291,10 +4291,10 @@
       "rank": 79
     },
     {
-      "name": "Machinarium （マシナリウム）",
+      "name": "Samorost 3 (サモロスト3)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/mS_catiixCc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=air.net.machinarium.Machinarium.GP",
+      "icon": "https://i.ytimg.com/vi/xU2HGH1DYYk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=amanita_design.samorost3.GP",
       "tab": "Featured",
       "section": "Featured",
       "priority": 89,
@@ -4306,10 +4306,10 @@
       "rank": 80
     },
     {
-      "name": "Samorost 3 (サモロスト3)",
+      "name": "島の民：モバイル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/xU2HGH1DYYk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=amanita_design.samorost3.GP",
+      "icon": "https://i.ytimg.com/vi/VeTa4uAhysU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.Coatsink.IslandersCozyCityBuilder",
       "tab": "Featured",
       "section": "Featured",
       "priority": 90,
@@ -4321,10 +4321,10 @@
       "rank": 81
     },
     {
-      "name": "島の民：モバイル",
+      "name": "Bird Alone",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/VeTa4uAhysU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.Coatsink.IslandersCozyCityBuilder",
+      "icon": "https://i.ytimg.com/vi/xKSXWKU1COc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.GeorgeBatchelor.BirdAlone",
       "tab": "Featured",
       "section": "Featured",
       "priority": 91,
@@ -4336,10 +4336,10 @@
       "rank": 82
     },
     {
-      "name": "Bird Alone",
+      "name": "G30 - 記憶の迷路",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/xKSXWKU1COc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.GeorgeBatchelor.BirdAlone",
+      "icon": "https://i.ytimg.com/vi/3ruTGDP1iNE/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.IvanKovalov.G30Android",
       "tab": "Featured",
       "section": "Featured",
       "priority": 92,
@@ -4351,10 +4351,10 @@
       "rank": 83
     },
     {
-      "name": "G30 - 記憶の迷路",
+      "name": "レベンチャー",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/3ruTGDP1iNE/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.IvanKovalov.G30Android",
+      "icon": "https://i.ytimg.com/vi/aY7EVPVZk2g/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.Pixelatto.Reventure",
       "tab": "Featured",
       "section": "Featured",
       "priority": 93,
@@ -4366,10 +4366,10 @@
       "rank": 84
     },
     {
-      "name": "レベンチャー",
+      "name": "Prune",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/aY7EVPVZk2g/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.Pixelatto.Reventure",
+      "icon": "https://i.ytimg.com/vi/sfq7xXQlNOI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.Polyculture.Prune",
       "tab": "Featured",
       "section": "Featured",
       "priority": 94,
@@ -4381,10 +4381,10 @@
       "rank": 85
     },
     {
-      "name": "Prune",
+      "name": "The Past Within",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/sfq7xXQlNOI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.Polyculture.Prune",
+      "icon": "https://i.ytimg.com/vi/vddlEmrbNRw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.RustyLake.ThePastWithin",
       "tab": "Featured",
       "section": "Featured",
       "priority": 95,
@@ -4396,10 +4396,10 @@
       "rank": 86
     },
     {
-      "name": "The Past Within",
+      "name": "Please, Touch The Artwork",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/vddlEmrbNRw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.RustyLake.ThePastWithin",
+      "icon": "https://i.ytimg.com/vi/j8ziTu7_hg4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.StudioWaterzooi.PleaseTouchTheArtwork",
       "tab": "Featured",
       "section": "Featured",
       "priority": 96,
@@ -4411,10 +4411,10 @@
       "rank": 87
     },
     {
-      "name": "Please, Touch The Artwork",
+      "name": "シーファンタジー / Sea Fantasy",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/j8ziTu7_hg4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.StudioWaterzooi.PleaseTouchTheArtwork",
+      "icon": "https://i.ytimg.com/vi/F0rMXeqCDYw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.YSK.SF",
       "tab": "Featured",
       "section": "Featured",
       "priority": 97,
@@ -4426,10 +4426,10 @@
       "rank": 88
     },
     {
-      "name": "シーファンタジー / Sea Fantasy",
+      "name": "Hidden Folks",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/F0rMXeqCDYw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.YSK.SF",
+      "icon": "https://i.ytimg.com/vi/kYw_tw__7ow/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.adriaandejongh.hiddenfolks",
       "tab": "Featured",
       "section": "Featured",
       "priority": 98,
@@ -4441,10 +4441,10 @@
       "rank": 89
     },
     {
-      "name": "Hidden Folks",
+      "name": "République",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/kYw_tw__7ow/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.adriaandejongh.hiddenfolks",
+      "icon": "https://i.ytimg.com/vi/LFOkOMByM14/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.camouflaj.republique",
       "tab": "Featured",
       "section": "Featured",
       "priority": 99,
@@ -4456,10 +4456,10 @@
       "rank": 90
     },
     {
-      "name": "République",
+      "name": "AZNANA",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/LFOkOMByM14/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.camouflaj.republique",
+      "icon": "https://i.ytimg.com/vi/a0l2uAkCkcY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.caracolu.aznana",
       "tab": "Featured",
       "section": "Featured",
       "priority": 100,
@@ -4471,10 +4471,10 @@
       "rank": 91
     },
     {
-      "name": "AZNANA",
+      "name": "プロ野球スピリッツA",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/a0l2uAkCkcY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.caracolu.aznana",
+      "icon": "https://i.ytimg.com/vi/iScF2x1eWE8/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.konami.prospia",
       "tab": "Featured",
       "section": "Featured",
       "priority": 101,
@@ -4486,10 +4486,10 @@
       "rank": 92
     },
     {
-      "name": "勝利の女神：NIKKE",
+      "name": "SDガンダム ジージェネレーション エターナル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/YxECEHaw1hU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.proximabeta.nikke",
+      "icon": "https://i.ytimg.com/vi/u4BPkZQTsa8/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.gget_JP",
       "tab": "Featured",
       "section": "Featured",
       "priority": 102,
@@ -4501,10 +4501,10 @@
       "rank": 93
     },
     {
-      "name": "コトダマン ‐ 共闘ことばRPG",
+      "name": "崩壊：スターレイル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/x4ar4JT1VBM/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.sega.Kotodaman",
+      "icon": "https://i.ytimg.com/vi/ATGeTRgM2m4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.HoYoverse.hkrpgoversea",
       "tab": "Featured",
       "section": "Featured",
       "priority": 103,
@@ -4516,10 +4516,10 @@
       "rank": 94
     },
     {
-      "name": "学園アイドルマスター",
+      "name": "原神～空月の歌～",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/lHR2v6clDK4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.idolmaster_gakuen",
+      "icon": "https://i.ytimg.com/vi/xH12L39y8dc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact",
       "tab": "Featured",
       "section": "Featured",
       "priority": 104,
@@ -4531,10 +4531,10 @@
       "rank": 95
     },
     {
-      "name": "ネジマッチ: Screw Sort 3D ネジパズル ボルト",
+      "name": "ドラゴンクエストウォーク",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/3IBbt66iAkU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=screw.puzzle.match3.brain.puzz",
+      "icon": "https://play-lh.googleusercontent.com/QsKB7e6bmgReaSHAkmbZmVMt2Sdx4utkcZOjb_rvn0yM02ED6MMjOdUeKydybczq9ew=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.square_enix.android_googleplay.dqwalkj",
       "tab": "Featured",
       "section": "Featured",
       "priority": 105,
@@ -4546,10 +4546,10 @@
       "rank": 96
     },
     {
-      "name": "オフラインゲーム - 暇つぶし ゲーム - パズルゲーム",
+      "name": "ウマ娘 プリティーダービー",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/EhGvXNV5rZ4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.JindoBlu.OfflineGames",
+      "icon": "https://i.ytimg.com/vi/zBxldR4VVg4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.cygames.umamusume",
       "tab": "Featured",
       "section": "Featured",
       "priority": 106,
@@ -4561,10 +4561,10 @@
       "rank": 97
     },
     {
-      "name": "Call of Duty®: Mobile",
+      "name": "LINE ポコポコ：3マッチパズルゲーム",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Qo27ERJurQA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter",
+      "icon": "https://i.ytimg.com/vi/oLd3kqxkGew/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.linecorp.LGPKPK",
       "tab": "Featured",
       "section": "Featured",
       "priority": 107,
@@ -4576,10 +4576,10 @@
       "rank": 98
     },
     {
-      "name": "商品ソーティング：マッチ3パズル",
+      "name": "学園アイドルマスター",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/8tIGQo1XJ1vZnPMd2ToAQ96I3NDqsfAR3Nkth6cTyVw7GyVgUnUpps9EE9fmR5-LpZY=w416-h235-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.fc.goods.sort.matching.puzzle.triplemaster",
+      "icon": "https://i.ytimg.com/vi/lHR2v6clDK4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.idolmaster_gakuen",
       "tab": "Featured",
       "section": "Featured",
       "priority": 108,
@@ -4591,10 +4591,10 @@
       "rank": 99
     },
     {
-      "name": "モンスターストライク",
+      "name": "商品ソーティング：マッチ3パズル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/c5p2pDnpZB0/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.mixi.monsterstrike",
+      "icon": "https://play-lh.googleusercontent.com/8tIGQo1XJ1vZnPMd2ToAQ96I3NDqsfAR3Nkth6cTyVw7GyVgUnUpps9EE9fmR5-LpZY=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.fc.goods.sort.matching.puzzle.triplemaster",
       "tab": "Featured",
       "section": "Featured",
       "priority": 109,
@@ -4606,10 +4606,10 @@
       "rank": 100
     },
     {
-      "name": "モンギル：STAR DIVE",
+      "name": "モンスターストライク",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/_MLnVADPpaw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.netmarble.monster2",
+      "icon": "https://i.ytimg.com/vi/c5p2pDnpZB0/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.mixi.monsterstrike",
       "tab": "Featured",
       "section": "Featured",
       "priority": 110,
@@ -4621,10 +4621,10 @@
       "rank": 101
     },
     {
-      "name": "荒野行動-スマホ版バトロワ",
+      "name": "LINE：ディズニー ツムツム",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/jhELU05uAxY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.netease.ko",
+      "icon": "https://i.ytimg.com/vi/hRShM3BjpIA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.linecorp.LGTMTM",
       "tab": "Featured",
       "section": "Featured",
       "priority": 111,
@@ -4636,10 +4636,10 @@
       "rank": 102
     },
     {
-      "name": "ディビジョン リサージェンス",
+      "name": "ONE PIECE バウンティラッシュ - アクションゲーム",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Yyd_3dOA_Os/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.ubisoft.the.division.mobile.combat.shooting.open.world.rpg",
+      "icon": "https://i.ytimg.com/vi/LNoXstpxZuc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.opbrjp",
       "tab": "Featured",
       "section": "Featured",
       "priority": 112,
@@ -4651,10 +4651,10 @@
       "rank": 103
     },
     {
-      "name": "Delta Force",
+      "name": "ロイヤルマッチ Royal Match",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Ogz3gAxpMsg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.proxima.dfm",
+      "icon": "https://i.ytimg.com/vi/guUmnyzSudU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalmatch",
       "tab": "Featured",
       "section": "Featured",
       "priority": 113,
@@ -4666,10 +4666,10 @@
       "rank": 104
     },
     {
-      "name": "PUBG MOBILE - 世界一のバトルロイヤル！",
+      "name": "妖怪ウォッチ ぷにぷに",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/7AhvtjALDcU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.pubg.krmobile",
+      "icon": "https://i.ytimg.com/vi/YkRieVUqO-Y/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.Level5.YWP",
       "tab": "Featured",
       "section": "Featured",
       "priority": 114,
@@ -4681,10 +4681,10 @@
       "rank": 105
     },
     {
-      "name": "Shoot Out: シューティングゲーム",
+      "name": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/5RuFr76F6C8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.freeplaysultanov.shootit",
+      "icon": "https://i.ytimg.com/vi/U-Fj5xMgut0/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sega.pjsekai",
       "tab": "Featured",
       "section": "Featured",
       "priority": 115,
@@ -4696,10 +4696,10 @@
       "rank": 106
     },
     {
-      "name": "ONE PIECE バウンティラッシュ - アクションゲーム",
+      "name": "Pokémon Masters EX",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/LNoXstpxZuc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.opbrjp",
+      "icon": "https://i.ytimg.com/vi/2cLPg15te0g/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.dena.a12026418",
       "tab": "Featured",
       "section": "Featured",
       "priority": 116,
@@ -4711,10 +4711,10 @@
       "rank": 107
     },
     {
-      "name": "eFootball™",
+      "name": "キャンディークラッシュ (Candy Crush Saga)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Cs3oD2OLYZg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.konami.pesam",
+      "icon": "https://i.ytimg.com/vi/_SWdAXtr4SQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga",
       "tab": "Featured",
       "section": "Featured",
       "priority": 117,
@@ -4726,10 +4726,10 @@
       "rank": 108
     },
     {
-      "name": "DISSIDIA DUELLUM FINAL FANTASY",
+      "name": "Among Us",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/FTEFPiX-unw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.square_enix.android_googleplay.DD",
+      "icon": "https://i.ytimg.com/vi/8QSyEOICYSo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.innersloth.spacemafia",
       "tab": "Featured",
       "section": "Featured",
       "priority": 118,
@@ -4741,10 +4741,10 @@
       "rank": 109
     },
     {
-      "name": "スネーククラッシュ (Snake Calsh)",
+      "name": "荒野行動-スマホ版バトロワ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/GOoEI7ZS2D0/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=io.supercent.linkedcubic",
+      "icon": "https://i.ytimg.com/vi/jhELU05uAxY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.netease.ko",
       "tab": "Featured",
       "section": "Featured",
       "priority": 119,
@@ -4756,10 +4756,10 @@
       "rank": 110
     },
     {
-      "name": "雀魂‐じゃんたま‐",
+      "name": "城とドラゴン - 『ブルーロック』 コラボ開催中",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/MSr83bhzNoQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.YoStarJP.MajSoul",
+      "icon": "https://i.ytimg.com/vi/tCVnDP8ZUDI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.asobism_castleanddragon",
       "tab": "Featured",
       "section": "Featured",
       "priority": 120,
@@ -4771,10 +4771,10 @@
       "rank": 111
     },
     {
-      "name": "Among Us",
+      "name": "ブルーアーカイブ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/8QSyEOICYSo/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.innersloth.spacemafia",
+      "icon": "https://play-lh.googleusercontent.com/amaaP4VpJyXLz7NUohG5zXxPCP5CPMVLIReM6DDF1io2NFKNZsTnmQapIXQRS59VFoYl=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.YostarJP.BlueArchive",
       "tab": "Featured",
       "section": "Featured",
       "priority": 121,
@@ -4786,10 +4786,10 @@
       "rank": 112
     },
     {
-      "name": "ナンプレ - 大人気アプリ",
+      "name": "Pokémon UNITE",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/GKtDFbfkENA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=easy.sudoku.puzzle.solver.free",
+      "icon": "https://i.ytimg.com/vi/EUbBD3w9rSc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.pokemon.pokemonunite",
       "tab": "Featured",
       "section": "Featured",
       "priority": 122,
@@ -4801,10 +4801,10 @@
       "rank": 113
     },
     {
-      "name": "パズル＆ドラゴンズ",
+      "name": "ファイアーエムブレム  ヒーローズ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/qfFLN_vXWeU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.gungho.pad",
+      "icon": "https://i.ytimg.com/vi/c5JsP8P8eOQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.nintendo.zaba",
       "tab": "Featured",
       "section": "Featured",
       "priority": 123,
@@ -4816,10 +4816,10 @@
       "rank": 114
     },
     {
-      "name": "パズル&サバイバル",
+      "name": "パワプロアドベンチャーズ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/nT1-HkjW8cU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.global.ztmslg",
+      "icon": "https://i.ytimg.com/vi/DbpHvMAyhro/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.konami.pawaadv",
       "tab": "Featured",
       "section": "Featured",
       "priority": 124,
@@ -4831,10 +4831,10 @@
       "rank": 115
     },
     {
-      "name": "ホール.io",
+      "name": "フルーツ飴の達人 - ドバイもち、パフェ、ASMR、モッパン",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/pNDzEXMQjOc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=io.voodoo.holeio",
+      "icon": "https://i.ytimg.com/vi/lfc8tmW62Ro/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.whoyaho.tanghulu",
       "tab": "Featured",
       "section": "Featured",
       "priority": 125,
@@ -4846,10 +4846,10 @@
       "rank": 116
     },
     {
-      "name": "BINGO BLITZ™️ - ビンゴゲーム",
+      "name": "ハローキティ：マイドリームストア",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/hd0pznag9Q4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=air.com.buffalo_studios.newflashbingo",
+      "icon": "https://i.ytimg.com/vi/MZOku-WyjBI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.actgames.HelloKittyMDS",
       "tab": "Featured",
       "section": "Featured",
       "priority": 126,
@@ -4861,10 +4861,10 @@
       "rank": 117
     },
     {
-      "name": "城とドラゴン - 『ブルーロック』 コラボ開催中",
+      "name": "Disney Solitaire ディズニー ソリティア",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/tCVnDP8ZUDI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.asobism_castleanddragon",
+      "icon": "https://i.ytimg.com/vi/PsY_M2bZZOU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams",
       "tab": "Featured",
       "section": "Featured",
       "priority": 127,
@@ -4876,10 +4876,10 @@
       "rank": 118
     },
     {
-      "name": "妖怪ウォッチ ぷにぷに",
+      "name": "ジョジョの奇妙な冒険 オラオラオーバードライブ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/YkRieVUqO-Y/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.Level5.YWP",
+      "icon": "https://i.ytimg.com/vi/BdhAdTYgvxc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.gu3.oradora",
       "tab": "Featured",
       "section": "Featured",
       "priority": 128,
@@ -4891,10 +4891,10 @@
       "rank": 119
     },
     {
-      "name": "プロ野球スピリッツA",
+      "name": "Baby Panda's Town: おうち",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/iScF2x1eWE8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.konami.prospia",
+      "icon": "https://i.ytimg.com/vi/3cwiYN2a3B8/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.marketIII",
       "tab": "Featured",
       "section": "Featured",
       "priority": 129,
@@ -4906,10 +4906,10 @@
       "rank": 120
     },
     {
-      "name": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+      "name": "ハリウッドストーリー®：ファッションスター",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/U-Fj5xMgut0/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.sega.pjsekai",
+      "icon": "https://i.ytimg.com/vi/UrNKlzybqKs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=org.nanobit.hollywood",
       "tab": "Featured",
       "section": "Featured",
       "priority": 130,
@@ -4921,10 +4921,10 @@
       "rank": 121
     },
     {
-      "name": "キャンディークラッシュ (Candy Crush Saga)",
+      "name": "Minecraft: クラフト、創造、サバイバル​",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/_SWdAXtr4SQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga",
+      "icon": "https://i.ytimg.com/vi/U-a8lKkiLzE/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe",
       "tab": "Featured",
       "section": "Featured",
       "priority": 131,
@@ -4936,10 +4936,10 @@
       "rank": 122
     },
     {
-      "name": "崩壊：スターレイル",
+      "name": "マージクッキング テーマレストラン",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/ATGeTRgM2m4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.HoYoverse.hkrpgoversea",
+      "icon": "https://i.ytimg.com/vi/6H7E9tqCQc0/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.merge.cooking.theme.restaurant.food",
       "tab": "Featured",
       "section": "Featured",
       "priority": 132,
@@ -4951,10 +4951,10 @@
       "rank": 123
     },
     {
-      "name": "原神～空月の歌～",
+      "name": "ハートピアスローライフ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/xH12L39y8dc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact",
+      "icon": "https://i.ytimg.com/vi/C7sQz9fO4TI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.xd.xdtglobal.gp",
       "tab": "Featured",
       "section": "Featured",
       "priority": 133,
@@ -4966,10 +4966,10 @@
       "rank": 124
     },
     {
-      "name": "ウマ娘 プリティーダービー",
+      "name": "Melon Sandbox",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/zBxldR4VVg4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.cygames.umamusume",
+      "icon": "https://i.ytimg.com/vi/J_b2SqNGk-w/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground",
       "tab": "Featured",
       "section": "Featured",
       "priority": 134,
@@ -4981,10 +4981,10 @@
       "rank": 125
     },
     {
-      "name": "Pokémon UNITE",
+      "name": "Toca Boca World",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/EUbBD3w9rSc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.pokemon.pokemonunite",
+      "icon": "https://i.ytimg.com/vi/o3-ySvmKbCg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld",
       "tab": "Featured",
       "section": "Featured",
       "priority": 135,
@@ -4996,10 +4996,10 @@
       "rank": 126
     },
     {
-      "name": "ファイアーエムブレム  ヒーローズ",
+      "name": "Solar Smash",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/c5JsP8P8eOQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.nintendo.zaba",
+      "icon": "https://i.ytimg.com/vi/NfQ7ScMkFyo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.paradyme.solarsmash",
       "tab": "Featured",
       "section": "Featured",
       "priority": 136,
@@ -5011,10 +5011,10 @@
       "rank": 127
     },
     {
-      "name": "Minecraft: クラフト、創造、サバイバル​",
+      "name": "シムシティ　ビルドイット (SIMCITY BUILDIT)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/U-a8lKkiLzE/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe",
+      "icon": "https://i.ytimg.com/vi/olcSEpRDYSA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ea.game.simcitymobile_row",
       "tab": "Featured",
       "section": "Featured",
       "priority": 137,
@@ -5026,10 +5026,10 @@
       "rank": 128
     },
     {
-      "name": "ドラゴンボールZ ドッカンバトル",
+      "name": "ホテル帝国を築こう (My Perfect Hotel)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/38x6G2AE7bM/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.bandainamcogames.dbzdokkan",
+      "icon": "https://i.ytimg.com/vi/6rcVjMYFwg8/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.master.hotelmaster",
       "tab": "Featured",
       "section": "Featured",
       "priority": 138,
@@ -5041,10 +5041,10 @@
       "rank": 129
     },
     {
-      "name": "モンスターハンターNow",
+      "name": "Merge Fashion(マージファッション):マージ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/1V8l7EvJkP4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.monsterhunter",
+      "icon": "https://i.ytimg.com/vi/AQpvodGXcSg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.infiniplay.merge.fashion.romance.story",
       "tab": "Featured",
       "section": "Featured",
       "priority": 139,
@@ -5056,10 +5056,10 @@
       "rank": 130
     },
     {
-      "name": "実況パワフルプロ野球",
+      "name": "ロイヤルクッキング：料理ゲーム",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/MhnpZOwMlrI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.konami.pawapuroapp",
+      "icon": "https://i.ytimg.com/vi/zgO9omgdqQ4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.matryoshka.royal.cooking.kitchen.madness",
       "tab": "Featured",
       "section": "Featured",
       "priority": 140,
@@ -5071,10 +5071,10 @@
       "rank": 131
     },
     {
-      "name": "呪術廻戦 ファントムパレード（ファンパレ）",
+      "name": "ソリティアストーリー - Ava's Manor",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/UmJDNcq3HgQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.sumzap.pj0014",
+      "icon": "https://i.ytimg.com/vi/bjymBGA43wA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.uken.solitaire.story",
       "tab": "Featured",
       "section": "Featured",
       "priority": 141,
@@ -5086,10 +5086,10 @@
       "rank": 132
     },
     {
-      "name": "ドタバタ王子くん",
+      "name": "マージペコ：ペコちゃん、ガチかわ〜！",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/edZfCCfqP24/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.arkgamelimited.idle.JP.Android",
+      "icon": "https://i.ytimg.com/vi/GS1Ih5E540Y/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.spcomes.mergepeko",
       "tab": "Featured",
       "section": "Featured",
       "priority": 142,
@@ -5101,10 +5101,10 @@
       "rank": 133
     },
     {
-      "name": "P5X ペルソナ５: The Phantom X",
+      "name": "3D Bolt Master: ネジパズルゲーム",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/sJQ5zyjyRUM/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.sega.persona5.the.phantomx.jp",
+      "icon": "https://i.ytimg.com/vi/jp6soL3YXco/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.screw3d.match.nuts.bolts.pin.jam.away.puzzle",
       "tab": "Featured",
       "section": "Featured",
       "priority": 143,
@@ -5116,10 +5116,10 @@
       "rank": 134
     },
     {
-      "name": "トリッカル・もちもちほっペ大作戦",
+      "name": "ねこ探し(Find The Cat)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/HaQruDCjh58/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.bilibili.trickcal",
+      "icon": "https://i.ytimg.com/vi/yxXiKQBIfAU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ventogames.findthecat",
       "tab": "Featured",
       "section": "Featured",
       "priority": 144,
@@ -5131,10 +5131,10 @@
       "rank": 135
     },
     {
-      "name": "ダダサバイバー",
+      "name": "ナンプレ - 古典的ロジックパズル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/t41HR_pmbG4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.dxx.firenow",
+      "icon": "https://i.ytimg.com/vi/GVoYzI2HDFg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.easybrain.sudoku.android",
       "tab": "Featured",
       "section": "Featured",
       "priority": 145,
@@ -5146,10 +5146,10 @@
       "rank": 136
     },
     {
-      "name": "七つの大罪：Origin",
+      "name": "Happy Color® – 数字で塗り絵と色ぬりえ",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/bXl3Rlc0ld9AKtfWw6BWsd6QJaKMEDGCTCBcO__gpcsJ3mmhGYpssAE4Q2N_ELqUQ6HqzwrSusDowG1dLc9C=w416-h235-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.netmarble.nanaori",
+      "icon": "https://i.ytimg.com/vi/jfFU26SPSbw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.pixel.art.coloring.color.number",
       "tab": "Featured",
       "section": "Featured",
       "priority": 146,
@@ -5161,10 +5161,10 @@
       "rank": 137
     },
     {
-      "name": "Fate/Grand Order",
+      "name": "ナンプレ - 大人気アプリ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/bLHDD-bDfqo/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.aniplex.fategrandorder",
+      "icon": "https://i.ytimg.com/vi/GKtDFbfkENA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=easy.sudoku.puzzle.solver.free",
       "tab": "Featured",
       "section": "Featured",
       "priority": 147,
@@ -5176,10 +5176,10 @@
       "rank": 138
     },
     {
-      "name": "アークナイツ：エンドフィールド",
+      "name": "タイルマッチ - トリプルチャレンジ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/1B5jT6BbEJQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.gryphline.endfield.gp",
+      "icon": "https://i.ytimg.com/vi/gLIoMvTKV04/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=in.playsimple.triple.tile.matchgame.pair.three.puzzle.object.royale",
       "tab": "Featured",
       "section": "Featured",
       "priority": 148,
@@ -5191,10 +5191,10 @@
       "rank": 139
     },
     {
-      "name": "The King of Fighters ドットバトル",
+      "name": "トゥーンブラスト (Toon Blast)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/wujBCMtnuxQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.netmarble.kofafk",
+      "icon": "https://i.ytimg.com/vi/ujYrgyGsaoE/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=net.peakgames.toonblast",
       "tab": "Featured",
       "section": "Featured",
       "priority": 149,
@@ -5206,10 +5206,10 @@
       "rank": 140
     },
     {
-      "name": "セブンナイツ ポケット- 放置系RPG(セナポケ)",
+      "name": "数独 - 毎日ナンプレを解いて気軽に頭の体操",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/gMKrJx3NlZE/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.netmarble.skiagb",
+      "icon": "https://i.ytimg.com/vi/7DSu09d5KwM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.gamovation.sudoku",
       "tab": "Featured",
       "section": "Featured",
       "priority": 150,
@@ -5221,10 +5221,10 @@
       "rank": 141
     },
     {
-      "name": "イザリア",
+      "name": "ブレインテスト(Brain Test)：ひっかけパズル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/XBJlGM6LOdU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.xd.etheria.gp.asia",
+      "icon": "https://i.ytimg.com/vi/JaoMJbT3d9w/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.unicostudio.braintest",
       "tab": "Featured",
       "section": "Featured",
       "priority": 151,
@@ -5236,10 +5236,10 @@
       "rank": 142
     },
     {
-      "name": "転生したらスライムだった件 魔王と竜の建国譚 まおりゅう",
+      "name": "ネジ3Dパズル：ピンを外すゲーム",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/sQ9ZmQGl1ak/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.tensuramrkrelease",
+      "icon": "https://i.ytimg.com/vi/Xj1wFz16SQw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.kiwifun.game.android.screw.master",
       "tab": "Featured",
       "section": "Featured",
       "priority": 152,
@@ -5251,10 +5251,10 @@
       "rank": 143
     },
     {
-      "name": "パワプロアドベンチャーズ",
+      "name": "モンギル：STAR DIVE",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/DbpHvMAyhro/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.konami.pawaadv",
+      "icon": "https://i.ytimg.com/vi/qWvoe7E2wfM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.netmarble.monster2",
       "tab": "Featured",
       "section": "Featured",
       "priority": 153,
@@ -5266,10 +5266,10 @@
       "rank": 144
     },
     {
-      "name": "ハローキティ：マイドリームストア",
+      "name": "Wizardry Variants Daphne",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/MZOku-WyjBI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.actgames.HelloKittyMDS",
+      "icon": "https://i.ytimg.com/vi/Ei3UbLZdCBY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.drecom.wizardry.daphne",
       "tab": "Featured",
       "section": "Featured",
       "priority": 154,
@@ -5281,10 +5281,10 @@
       "rank": 145
     },
     {
-      "name": "SDガンダム ジージェネレーション エターナル",
+      "name": "呪術廻戦 ファントムパレード（ファンパレ）",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/u4BPkZQTsa8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.gget_JP",
+      "icon": "https://i.ytimg.com/vi/UmJDNcq3HgQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.sumzap.pj0014",
       "tab": "Featured",
       "section": "Featured",
       "priority": 155,
@@ -5296,10 +5296,10 @@
       "rank": 146
     },
     {
-      "name": "Disney Solitaire ディズニー ソリティア",
+      "name": "DISSIDIA DUELLUM FINAL FANTASY",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/PsY_M2bZZOU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams",
+      "icon": "https://i.ytimg.com/vi/FTEFPiX-unw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.square_enix.android_googleplay.DD",
       "tab": "Featured",
       "section": "Featured",
       "priority": 156,
@@ -5311,10 +5311,10 @@
       "rank": 147
     },
     {
-      "name": "ジョジョの奇妙な冒険 オラオラオーバードライブ",
+      "name": "ドタバタ王子くん",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/BdhAdTYgvxc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.gu3.oradora",
+      "icon": "https://i.ytimg.com/vi/edZfCCfqP24/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.arkgamelimited.idle.JP.Android",
       "tab": "Featured",
       "section": "Featured",
       "priority": 157,
@@ -5326,10 +5326,10 @@
       "rank": 148
     },
     {
-      "name": "放置型ナイトクラブ帝国: Nightclub Tycoon",
+      "name": "コトダマン ‐ 共闘ことばRPG",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/iAv3k1_5kGU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.iterationone.nightclubtycoon",
+      "icon": "https://i.ytimg.com/vi/x4ar4JT1VBM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sega.Kotodaman",
       "tab": "Featured",
       "section": "Featured",
       "priority": 158,
@@ -5341,10 +5341,10 @@
       "rank": 149
     },
     {
-      "name": "ティジ空港:キッズの私の飛行機ゲーム",
+      "name": "パズル＆ドラゴンズ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/oIb6b3wkusQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.iz.pretend.play.my.monster.town.airport.games.kids",
+      "icon": "https://i.ytimg.com/vi/qfFLN_vXWeU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.gungho.pad",
       "tab": "Featured",
       "section": "Featured",
       "priority": 159,
@@ -5356,10 +5356,10 @@
       "rank": 150
     },
     {
-      "name": "Tizi Town プリンセス・ホームデザインメイクオーバー",
+      "name": "トリッカル・もちもちほっペ大作戦",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/OjWUW9KyxzE/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.iz.tizi.royal.princess.dollhouse.life.games.home.design.world.my.wonder.town",
+      "icon": "https://i.ytimg.com/vi/HaQruDCjh58/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.bilibili.trickcal",
       "tab": "Featured",
       "section": "Featured",
       "priority": 160,
@@ -5371,10 +5371,10 @@
       "rank": 151
     },
     {
-      "name": "Global City: グランド・メトロポリス",
+      "name": "ダダサバイバー",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Rkey4GAiwgY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.rbx.city.android",
+      "icon": "https://i.ytimg.com/vi/t41HR_pmbG4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.dxx.firenow",
       "tab": "Featured",
       "section": "Featured",
       "priority": 161,
@@ -5386,10 +5386,10 @@
       "rank": 152
     },
     {
-      "name": "Baby Panda's Town: マイワールド",
+      "name": "七つの大罪：Origin",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/h4p1Fs5ML00/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.market",
+      "icon": "https://play-lh.googleusercontent.com/bXl3Rlc0ld9AKtfWw6BWsd6QJaKMEDGCTCBcO__gpcsJ3mmhGYpssAE4Q2N_ELqUQ6HqzwrSusDowG1dLc9C=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.netmarble.nanaori",
       "tab": "Featured",
       "section": "Featured",
       "priority": 162,
@@ -5401,10 +5401,10 @@
       "rank": 153
     },
     {
-      "name": "シップシミュレータ: ボートゲーム",
+      "name": "勝利の女神：NIKKE",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/2Dqbx57rf8w/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=ship.simulator.river.climb",
+      "icon": "https://i.ytimg.com/vi/YxECEHaw1hU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.proximabeta.nikke",
       "tab": "Featured",
       "section": "Featured",
       "priority": 163,
@@ -5416,10 +5416,10 @@
       "rank": 154
     },
     {
-      "name": "Farmington – ファームゲーム",
+      "name": "Fate/Grand Order",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/BwS9NAuyEgk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=ugo.com.play.free.farmington",
+      "icon": "https://i.ytimg.com/vi/bLHDD-bDfqo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.aniplex.fategrandorder",
       "tab": "Featured",
       "section": "Featured",
       "priority": 164,
@@ -5431,10 +5431,10 @@
       "rank": 155
     },
     {
-      "name": "マージクッキング テーマレストラン",
+      "name": "アークナイツ：エンドフィールド",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/6H7E9tqCQc0/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.merge.cooking.theme.restaurant.food",
+      "icon": "https://i.ytimg.com/vi/1B5jT6BbEJQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.gryphline.endfield.gp",
       "tab": "Featured",
       "section": "Featured",
       "priority": 165,
@@ -5446,10 +5446,10 @@
       "rank": 156
     },
     {
-      "name": "ハートピアスローライフ",
+      "name": "Hero Hero Clicker - Idle RPG",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/C7sQz9fO4TI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.xd.xdtglobal.gp",
+      "icon": "https://i.ytimg.com/vi/X2U3_rIpxlk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.babystone.heroheroclicker",
       "tab": "Featured",
       "section": "Featured",
       "priority": 166,
@@ -5461,10 +5461,10 @@
       "rank": 157
     },
     {
-      "name": "Melon Sandbox",
+      "name": "Girls Evo: Idle RPG",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/J_b2SqNGk-w/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground",
+      "icon": "https://i.ytimg.com/vi/ykMIIqH5iaU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.girls.evo.idle.rpg.legend.en",
       "tab": "Featured",
       "section": "Featured",
       "priority": 167,
@@ -5476,10 +5476,10 @@
       "rank": 158
     },
     {
-      "name": "Toca Boca World",
+      "name": "The King of Fighters ドットバトル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/o3-ySvmKbCg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld",
+      "icon": "https://i.ytimg.com/vi/wujBCMtnuxQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.netmarble.kofafk",
       "tab": "Featured",
       "section": "Featured",
       "priority": 168,
@@ -5491,10 +5491,10 @@
       "rank": 159
     },
     {
-      "name": "3D Bolt Master: ネジパズルゲーム",
+      "name": "原人兄弟：無限進化",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/jp6soL3YXco/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.screw3d.match.nuts.bolts.pin.jam.away.puzzle",
+      "icon": "https://i.ytimg.com/vi/L1WgdSe0ckM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.primitivebrother.thunder.google",
       "tab": "Featured",
       "section": "Featured",
       "priority": 169,
@@ -5506,10 +5506,10 @@
       "rank": 160
     },
     {
-      "name": "ねこ探し(Find The Cat)",
+      "name": "エリオスライジングヒーローズ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/yxXiKQBIfAU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.ventogames.findthecat",
+      "icon": "https://i.ytimg.com/vi/nVqihYP3diY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.happyelements.helios",
       "tab": "Featured",
       "section": "Featured",
       "priority": 170,
@@ -5521,10 +5521,10 @@
       "rank": 161
     },
     {
-      "name": "ナンプレ - 古典的ロジックパズル",
+      "name": "雀魂‐じゃんたま‐",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/GVoYzI2HDFg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.easybrain.sudoku.android",
+      "icon": "https://i.ytimg.com/vi/MSr83bhzNoQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.YoStarJP.MajSoul",
       "tab": "Featured",
       "section": "Featured",
       "priority": 171,
@@ -5536,10 +5536,10 @@
       "rank": 162
     },
     {
-      "name": "Happy Color® – 数字で塗り絵と色ぬりえ",
+      "name": "転生したらスライムだった件 魔王と竜の建国譚 まおりゅう",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/jfFU26SPSbw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.pixel.art.coloring.color.number",
+      "icon": "https://i.ytimg.com/vi/sQ9ZmQGl1ak/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.tensuramrkrelease",
       "tab": "Featured",
       "section": "Featured",
       "priority": 172,
@@ -5551,10 +5551,10 @@
       "rank": 163
     },
     {
-      "name": "タイルマッチ - トリプルチャレンジ",
+      "name": "ドラゴンボールZ ドッカンバトル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/gLIoMvTKV04/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=in.playsimple.triple.tile.matchgame.pair.three.puzzle.object.royale",
+      "icon": "https://i.ytimg.com/vi/38x6G2AE7bM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.bandainamcogames.dbzdokkan",
       "tab": "Featured",
       "section": "Featured",
       "priority": 173,
@@ -5566,10 +5566,10 @@
       "rank": 164
     },
     {
-      "name": "シーサイド　エスケープ：マージ & ストーリー",
+      "name": "ラストアサイラム：プレイグ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/s8cqEmRob0A/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.gamedots.seasideescape",
+      "icon": "https://i.ytimg.com/vi/M9BVonbfSCk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.phs.global",
       "tab": "Featured",
       "section": "Featured",
       "priority": 174,
@@ -5581,10 +5581,10 @@
       "rank": 165
     },
     {
-      "name": "トゥーンブラスト (Toon Blast)",
+      "name": "ラストウォー：サバイバル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/ujYrgyGsaoE/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=net.peakgames.toonblast",
+      "icon": "https://play-lh.googleusercontent.com/G_nXSmI4K9IaLWpMkvsoBW3NboILcfg903z6qejxzvdcsn3NQQt3qwiBkcCxJqAqX8g=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.fun.lastwar.gp",
       "tab": "Featured",
       "section": "Featured",
       "priority": 175,
@@ -5596,10 +5596,10 @@
       "rank": 166
     },
     {
-      "name": "数独 - 毎日ナンプレを解いて気軽に頭の体操",
+      "name": "パズル&サバイバル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/7DSu09d5KwM/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.gamovation.sudoku",
+      "icon": "https://i.ytimg.com/vi/nT1-HkjW8cU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.global.ztmslg",
       "tab": "Featured",
       "section": "Featured",
       "priority": 176,
@@ -5611,10 +5611,10 @@
       "rank": 167
     },
     {
-      "name": "LINE ポコポコ：3マッチパズルゲーム",
+      "name": "三国志王戦 - 渡邉義浩教授、絶賛の話題作",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/oLd3kqxkGew/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.linecorp.LGPKPK",
+      "icon": "https://i.ytimg.com/vi/WpCUlW1GZIs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.bbgame.sanguo.gp.tw",
       "tab": "Featured",
       "section": "Featured",
       "priority": 177,
@@ -5626,10 +5626,10 @@
       "rank": 168
     },
     {
-      "name": "Jewel Craze: Match 3 Puzzle",
+      "name": "ファウンデーション：銀河フロンティア",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/-I8DY_c24YjO7epMD6r-t4jkesuCTPCLEOBiqHbfFCJAYG2Lj5JgwV5vVtTnvqRqcpQ=w416-h235-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.puzzlegame.match3.jewelcraze",
+      "icon": "https://play-lh.googleusercontent.com/HcDbpAq7AYzrqvsnuzNCZXZOjr05uupIMp929QWuSwh9UV09gCWg1-c20g1Dxde1wZolWQu7ipn7bvzQlzT6sQ=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.games.foundation",
       "tab": "Featured",
       "section": "Featured",
       "priority": 178,
@@ -5641,10 +5641,10 @@
       "rank": 169
     },
     {
-      "name": "メグとばけもの",
+      "name": "信長の野望 真戦",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/v-Svlgj1pvI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.rpgsnack.bakemono",
+      "icon": "https://i.ytimg.com/vi/ihSCadXmHXo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.qookkagames.xczyw.gp.jp",
       "tab": "Featured",
       "section": "Featured",
       "priority": 179,
@@ -5656,10 +5656,10 @@
       "rank": 170
     },
     {
-      "name": "漂流少女：再会の世界",
+      "name": "タワーウォー (Tower War)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/CPv4bgmtKao/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.daerigame.girladriftrm",
+      "icon": "https://i.ytimg.com/vi/tQYsItaPDsg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=games.vaveda.militaryoverturn",
       "tab": "Featured",
       "section": "Featured",
       "priority": 180,
@@ -5671,10 +5671,10 @@
       "rank": 171
     },
     {
-      "name": "猫とスープ～魔法のレシピ～",
+      "name": "Witch Arcana - Magic School",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/rHkVAo9xFyM/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.hidea.cat.magicrecipe",
+      "icon": "https://play-lh.googleusercontent.com/RhXZtkCxU-o_MNmQW308U3ZFZ_ISQnUEsSsmK3SW3aLRFNiMTRmq_y_EY7f2q0CW0Q=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=ata.urchin.witcharcana",
       "tab": "Featured",
       "section": "Featured",
       "priority": 181,
@@ -5686,10 +5686,10 @@
       "rank": 172
     },
     {
-      "name": "猫の学校：かわいい放置系タイクーンゲーム",
+      "name": "Vikingard",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/-zmClfMdXZrH5qsh2WM9HM7S8OwnhWq2S0PG99fW6IbmGv7RiOpv62yYLnXP3gPHfjx1rcAFcLaTZcHR3Zi4BA=w416-h235-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.tree.idle.cat.school",
+      "icon": "https://i.ytimg.com/vi/znUaST8h22Y/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.netease.vikingard",
       "tab": "Featured",
       "section": "Featured",
       "priority": 182,
@@ -5701,10 +5701,10 @@
       "rank": 173
     },
     {
-      "name": "Geometry Dash Lite",
+      "name": "三国覇王戦記～乱世の系譜～",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/k90y6PIzIaE/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.robtopx.geometryjumplite",
+      "icon": "https://i.ytimg.com/vi/6IlbEekOeMw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sixwaves.sangokuhaouden",
       "tab": "Featured",
       "section": "Featured",
       "priority": 183,
@@ -5716,10 +5716,10 @@
       "rank": 174
     },
     {
-      "name": "戦車発射",
+      "name": "獅子の如く～戦国覇王戦記～",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/7G0fOsqWliQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.raven.tank.google",
+      "icon": "https://i.ytimg.com/vi/oMYmQmSwZbs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sixwaves.shinsengoku",
       "tab": "Featured",
       "section": "Featured",
       "priority": 184,
@@ -5731,10 +5731,10 @@
       "rank": 175
     },
     {
-      "name": "Subway Surfers",
+      "name": "タイルズ・サバイバル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/ZOw5FRa-aJs/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf",
+      "icon": "https://play-lh.googleusercontent.com/XgdWYrR3g_n4sg_Pya38fzIvO3ZMwq_UWx922fMPMUnQY0CxwiggJTswxayspHIbyAN80N4tDaTEjLgiFqKA=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.funplus.ts.global",
       "tab": "Featured",
       "section": "Featured",
       "priority": 185,
@@ -5746,10 +5746,10 @@
       "rank": 176
     },
     {
-      "name": "タイルインホール: ブラックホール Tile in Hole",
+      "name": "スネーククラッシュ (Snake Calsh)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/BwKJnKzwkuM/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=and.lihuhu.tilesinhole",
+      "icon": "https://i.ytimg.com/vi/GOoEI7ZS2D0/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=io.supercent.linkedcubic",
       "tab": "Featured",
       "section": "Featured",
       "priority": 186,
@@ -5761,13 +5761,13 @@
       "rank": 177
     },
     {
-      "name": "Level Devil - NOT A Troll Game",
+      "name": "MONOPOLY GO! (モノポリー GO!)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/pv1OtS5TZRs/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.unept.leveldevil",
+      "icon": "https://play-lh.googleusercontent.com/GoMgqxehn9nWe4zexp6vDkVvcHCDwavAdNe25zcliNGSqDjwAZ8jaQGWzwcjWXHqwLo1UQB5XGCuQ1-xIMbGKA=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.scopely.monopolygo",
       "tab": "Featured",
-      "section": "Featured",
-      "priority": 187,
+      "section": "Top Charts",
+      "priority": 186,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5776,13 +5776,13 @@
       "rank": 178
     },
     {
-      "name": "Super Mario Run",
+      "name": "BINGO BLITZ™️ - ビンゴゲーム",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/YR8J7taisW0/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.nintendo.zara",
+      "icon": "https://i.ytimg.com/vi/hd0pznag9Q4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=air.com.buffalo_studios.newflashbingo",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 188,
+      "priority": 187,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5791,13 +5791,13 @@
       "rank": 179
     },
     {
-      "name": "Castle Busters",
+      "name": "マリオカート ツアー",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/_iM8W_lByaA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.epicoro.castleclashers",
+      "icon": "https://i.ytimg.com/vi/ZwEalAfEbYw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.nintendo.zaka",
       "tab": "Featured",
-      "section": "Featured",
-      "priority": 189,
+      "section": "Top Charts",
+      "priority": 187,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5806,13 +5806,13 @@
       "rank": 180
     },
     {
-      "name": "1945 Air Force: 飛行機シューティングゲーム",
+      "name": "Running Pet: Dec Rooms",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/k9PN3ogvyiE/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.os.airforce",
+      "icon": "https://i.ytimg.com/vi/Can27DY5zic/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.runninggames.catrunners.runningpet",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 190,
+      "priority": 188,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5821,13 +5821,13 @@
       "rank": 181
     },
     {
-      "name": "Sniper 3D：銃を撃つゲーム",
+      "name": "P5X ペルソナ５: The Phantom X",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/cwuinkJSdE8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.fungames.sniper3d",
+      "icon": "https://i.ytimg.com/vi/sJQ5zyjyRUM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sega.persona5.the.phantomx.jp",
       "tab": "Featured",
-      "section": "Featured",
-      "priority": 191,
+      "section": "Top Charts",
+      "priority": 188,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5836,13 +5836,13 @@
       "rank": 182
     },
     {
-      "name": "Hole Stars: パズルゲーム",
+      "name": "実況パワフルプロ野球",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/BCRWy-DhmeU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.moonactive.holestars",
+      "icon": "https://i.ytimg.com/vi/MhnpZOwMlrI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.konami.pawapuroapp",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 192,
+      "priority": 189,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5851,13 +5851,13 @@
       "rank": 183
     },
     {
-      "name": "ホール・エム・オール (Hole Em All)",
+      "name": "アングリーバード 2 (Angry Birds 2)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/_wCUyK-Bdho/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=and.brainworks.holeemall",
+      "icon": "https://i.ytimg.com/vi/bB75XM8YsVA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.rovio.baba",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 193,
+      "priority": 190,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5866,13 +5866,13 @@
       "rank": 184
     },
     {
-      "name": "Epic Plane Evolution",
+      "name": "ディズニー ツイステッドワンダーランド",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/E5E9LoNRWDk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.WalkTalk.FlightMaster",
+      "icon": "https://i.ytimg.com/vi/6dcsCKPUIPI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.aniplex.twst.jp",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 194,
+      "priority": 191,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5881,13 +5881,13 @@
       "rank": 185
     },
     {
-      "name": "ラストアサイラム：プレイグ",
+      "name": "猫とスープ～魔法のレシピ～",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/M9BVonbfSCk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.phs.global",
+      "icon": "https://i.ytimg.com/vi/rHkVAo9xFyM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.hidea.cat.magicrecipe",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 195,
+      "priority": 192,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5896,13 +5896,13 @@
       "rank": 186
     },
     {
-      "name": "三国志王戦 - 渡邉義浩教授、絶賛の話題作",
+      "name": "LINE POP2 - 簡単マッチ3パズルゲーム",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/WpCUlW1GZIs/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.bbgame.sanguo.gp.tw",
+      "icon": "https://i.ytimg.com/vi/3UUPzH-c2tM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.linecorp.LGLP2",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 196,
+      "priority": 193,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5911,13 +5911,13 @@
       "rank": 187
     },
     {
-      "name": "信長の野望 真戦",
+      "name": "Fluvsies - もふもふ、ふわふわ、かわいい",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/ihSCadXmHXo/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.qookkagames.xczyw.gp.jp",
+      "icon": "https://i.ytimg.com/vi/dI6L-RF2f_A/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.tutotoons.app.fluvsies.free",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 197,
+      "priority": 194,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5926,13 +5926,13 @@
       "rank": 188
     },
     {
-      "name": "アート・オブ・ウォー 3: クト - リアルタイムの軍事戦略",
+      "name": "War and Order「ウォー・アンド・ オーダー」",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/7sT_FicMmsY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.geargames.aow",
+      "icon": "https://i.ytimg.com/vi/bdqh8NB6L90/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.camelgames.superking",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 198,
+      "priority": 195,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5941,13 +5941,13 @@
       "rank": 189
     },
     {
-      "name": "我が天下-指一本で遊べる三国志SLG",
+      "name": "ロードモバイル:戦略戦争バトルゲーム – ストラテジーRPG",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/AD30aGQNszo/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.jedigames.p20.googleplay",
+      "icon": "https://i.ytimg.com/vi/rRptqD2wKjw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.igg.android.lordsmobile",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 199,
+      "priority": 196,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5956,13 +5956,13 @@
       "rank": 190
     },
     {
-      "name": "ピクセル宇宙戦艦 - Pixel Starships",
+      "name": "トップウォー",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/ZotT5yvEsVk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.savysoda.pixelstarships",
+      "icon": "https://play-lh.googleusercontent.com/TgMeURilTCdzQqgD75e6MtPl23Cp2w4q3xo3OsjBYBtzETyKfYIdL8CaBktarX172g=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.topwar.gp",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 200,
+      "priority": 197,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5971,13 +5971,13 @@
       "rank": 191
     },
     {
-      "name": "獅子の如く～戦国覇王戦記～",
+      "name": "サベージ・サバイバル：恐竜の咆哮",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/oMYmQmSwZbs/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.sixwaves.shinsengoku",
+      "icon": "https://i.ytimg.com/vi/sEPUkfgWje4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.slg.savagesurvival",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 201,
+      "priority": 198,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -5986,13 +5986,13 @@
       "rank": 192
     },
     {
-      "name": "Operation: New Earth",
+      "name": "eFootball™",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/vAZk36wMsD8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.wgcells.darkzone",
+      "icon": "https://i.ytimg.com/vi/Cs3oD2OLYZg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.konami.pesam",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 202,
+      "priority": 199,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6001,13 +6001,13 @@
       "rank": 193
     },
     {
-      "name": "タワーウォー (Tower War)",
+      "name": "Real Boxing 2",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/tQYsItaPDsg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=games.vaveda.militaryoverturn",
+      "icon": "https://i.ytimg.com/vi/w--nTp9t948/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.vividgames.realboxing2",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 203,
+      "priority": 200,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6016,13 +6016,13 @@
       "rank": 194
     },
     {
-      "name": "Identity V",
+      "name": "EA SPORTS FC™ Mobile サッカー 2026",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/5crzo917oqE/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.netease.idv.googleplay",
+      "icon": "https://i.ytimg.com/vi/pXqqWM1gWsU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 204,
+      "priority": 201,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6031,13 +6031,13 @@
       "rank": 195
     },
     {
-      "name": "ロードモバイル:戦略戦争バトルゲーム – ストラテジーRPG",
+      "name": "eBaseball™: MLB PRO SPIRIT",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/rRptqD2wKjw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.igg.android.lordsmobile",
+      "icon": "https://i.ytimg.com/vi/Egh22ShsM8Y/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.konami.mps",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 205,
+      "priority": 202,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6046,13 +6046,13 @@
       "rank": 196
     },
     {
-      "name": "アークナイツ",
+      "name": "Baseball Clash: リアルタイム野球ゲーム",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/bEdQV_iYqc8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.YoStarJP.Arknights",
+      "icon": "https://play-lh.googleusercontent.com/aYZXvJuWntVv15OG48q0lZkcr0kxZGf7Zx7R3aQNvbu5M1LkfC9iZYr-ikBIfHc02g=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.neowiz.game.baseball.clash",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 206,
+      "priority": 203,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6061,13 +6061,13 @@
       "rank": 197
     },
     {
-      "name": "#コンパス【戦闘摂理解析システム】",
+      "name": "みんゴル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/FbL5Obnnr7o/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.nhnpa.cps",
+      "icon": "https://i.ytimg.com/vi/dDoUNa7tLcU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.forwardworks.mingol",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 207,
+      "priority": 204,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6076,13 +6076,13 @@
       "rank": 198
     },
     {
-      "name": "ダイハード - 色塗り戦争",
+      "name": "EA SPORTS™ NBA LIVE Mobile",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/yaY9opBGuyo/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=flexus.dye.hard",
+      "icon": "https://i.ytimg.com/vi/2EoFXY03jaQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ea.gp.nbamobile",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 208,
+      "priority": 205,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6091,13 +6091,13 @@
       "rank": 199
     },
     {
-      "name": "ブレインテスト(Brain Test)：ひっかけパズル",
+      "name": "Golf Clash - ゴルフゲーム",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/JaoMJbT3d9w/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.unicostudio.braintest",
+      "icon": "https://i.ytimg.com/vi/L8D8iCkVOL4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.playdemic.golf.android",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 209,
+      "priority": 206,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6106,13 +6106,13 @@
       "rank": 200
     },
     {
-      "name": "Pikmin Bloom",
+      "name": "ソリティアコレクション",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/9EVPAaozBsI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pikmin",
+      "icon": "https://i.ytimg.com/vi/3wO3ZaOeTKg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.mongoosenet.bliss",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 210,
+      "priority": 207,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6121,13 +6121,13 @@
       "rank": 201
     },
     {
-      "name": "Downtown Mafia: Gang Wars Game",
+      "name": "Delta Force",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/aMS6GStv2uM/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.dn.games.dtmafia",
+      "icon": "https://i.ytimg.com/vi/Ogz3gAxpMsg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.proxima.dfm",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 211,
+      "priority": 208,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6136,13 +6136,13 @@
       "rank": 202
     },
     {
-      "name": "Merge War:パズルアリーナ",
+      "name": "セガNET麻雀 MJ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/gNpSdKcSyBg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.wildsky.wildarmydraft",
+      "icon": "https://i.ytimg.com/vi/lR4ecdAnreo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.sega.am2.MJMobile",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 212,
+      "priority": 209,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6151,13 +6151,13 @@
       "rank": 203
     },
     {
-      "name": "七つの大罪 光と闇の交戦 : グラクロ",
+      "name": "Chess Universe: プレイ＆学ぶ",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/sKkXM08T5R0/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.netmarble.nanatsunotaizai",
+      "icon": "https://i.ytimg.com/vi/h9PVVFRBbPU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.kingsofgames.chessuniverse",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 213,
+      "priority": 210,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6166,13 +6166,13 @@
       "rank": 204
     },
     {
-      "name": "Shadowverse: Worlds Beyond",
+      "name": "Call of Duty®: Mobile",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/JGJtAIijrQw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.cygames.ShadowverseWorldsBeyond",
+      "icon": "https://i.ytimg.com/vi/Qo27ERJurQA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 214,
+      "priority": 211,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6181,13 +6181,13 @@
       "rank": 205
     },
     {
-      "name": "東方LostWord",
+      "name": "花マッチ - Blossom Sort · 3 マッチパズル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/1dBa-uF1huA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.goodsmile.touhoulostword_android",
+      "icon": "https://i.ytimg.com/vi/cj2-vIqHuIQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=color.match.line.connect.brain.puzzle",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 215,
+      "priority": 212,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6196,13 +6196,13 @@
       "rank": 206
     },
     {
-      "name": "ディズニー ツイステッドワンダーランド",
+      "name": "PUBG MOBILE - 世界一のバトルロイヤル！",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/6dcsCKPUIPI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.aniplex.twst.jp",
+      "icon": "https://i.ytimg.com/vi/7AhvtjALDcU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.pubg.krmobile",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 217,
+      "priority": 213,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6211,13 +6211,13 @@
       "rank": 207
     },
     {
-      "name": "ゼンレスゾーンゼロ",
+      "name": "ソリティア：クラシックカード",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/mXFK3bNC3OA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.HoYoverse.Nap",
+      "icon": "https://i.ytimg.com/vi/KT5cnPVVy7s/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.tripledot.solitaire",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 218,
+      "priority": 214,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6226,13 +6226,13 @@
       "rank": 208
     },
     {
-      "name": "ソリティアストーリー - Ava's Manor",
+      "name": "ソリティア - 超定番カードパズル",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/bjymBGA43wA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.uken.solitaire.story",
+      "icon": "https://i.ytimg.com/vi/4YZK3RG70N8/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=linkdesks.classic.solitaire.klondike",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 219,
+      "priority": 215,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -6241,10 +6241,55 @@
       "rank": 209
     },
     {
-      "name": "マージペコ：ペコちゃん、ガチかわ〜！",
+      "name": "QuizzLand：雑学クイズでトリビアに挑戦しよう",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/GS1Ih5E540Y/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.spcomes.mergepeko",
+      "icon": "https://i.ytimg.com/vi/bgG_q2eZErI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.xmonetize.quizzland",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 216,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 210
+    },
+    {
+      "name": "Geometry Dash Lite",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/k90y6PIzIaE/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.robtopx.geometryjumplite",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 217,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 211
+    },
+    {
+      "name": "Numpuz – 面白い脳トレ&数字パズルゲーム",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/_sUZLCipdKY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.dopuz.klotski.riddle",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 219,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 212
+    },
+    {
+      "name": "シーサイド　エスケープ：マージ & ストーリー",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/s8cqEmRob0A/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.gamedots.seasideescape",
       "tab": "Featured",
       "section": "Featured",
       "priority": 220,
@@ -6253,7 +6298,412 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 210
+      "rank": 213
+    },
+    {
+      "name": "Travel Town - マージアドベンチャー",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/hJhhdGbRtIg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=io.randomco.travel",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 221,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 214
+    },
+    {
+      "name": "なんで？ どうして？Babybus子ども･幼児向け知育アプリ",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/MCDGGjOdI00/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ailiyong.world.course",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 221,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 215
+    },
+    {
+      "name": "ホール.io",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/pNDzEXMQjOc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=io.voodoo.holeio",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 222,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 216
+    },
+    {
+      "name": "Pikmin Bloom",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/9EVPAaozBsI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pikmin",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 223,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 217
+    },
+    {
+      "name": "ベイビーパンダのゲームハウス",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/PTHR9dP3jIs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.talk2kiki.global",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 223,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 218
+    },
+    {
+      "name": "アミキンの村：魔法シムRPG",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/7Xe-SXpsTNM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.heliogames.amikin.survival",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 224,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 219
+    },
+    {
+      "name": "Domino Dreams™",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/amApyozqRGQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.screenshake.dominodreams",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 224,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 220
+    },
+    {
+      "name": "Dawncaster: Deckbuilding RPG",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/Fmd-eTXTEXY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=games.WanderlostInteractive.Dawncaster",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 225,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 221
+    },
+    {
+      "name": "Super Mario Run",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/YR8J7taisW0/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.nintendo.zara",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 225,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 222
+    },
+    {
+      "name": "ハンター襲撃：放置系RPGゲーム",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/UOJICfoJ9_s/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=studio.gameberry.idlehunter",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 226,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 223
+    },
+    {
+      "name": "モンスターハンターNow",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/1V8l7EvJkP4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.monsterhunter",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 227,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 224
+    },
+    {
+      "name": "Kick the Buddy: ストレス発散ゲーム",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/cLqIm1na13c/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.playgendary.kickthebuddy",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 227,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 225
+    },
+    {
+      "name": "ゼンレスゾーンゼロ",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/JnBwN2-X6CM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.HoYoverse.Nap",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 229,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 226
+    },
+    {
+      "name": "ファームヒーロー",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/BPlTNNi5IGk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.king.farmheroessaga",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 229,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 227
+    },
+    {
+      "name": "ネジマッチ: Screw Sort 3D ネジパズル ボルト",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/3IBbt66iAkU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=screw.puzzle.match3.brain.puzz",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 239,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 228
+    },
+    {
+      "name": "Screwdom 3D",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/utjc7gLnzZk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ig.screwdom",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 240,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 229
+    },
+    {
+      "name": "ディビジョン リサージェンス",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/Yyd_3dOA_Os/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ubisoft.the.division.mobile.combat.shooting.open.world.rpg",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 247,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 230
+    },
+    {
+      "name": "今三国志－5周年",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/HQ40OL0bQrw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.archosaur.jp.sgzgc.gp",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 251,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 231
+    },
+    {
+      "name": "ツリーオブセイヴァーＭ",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/e1yteMM4mBA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.imc.mtos.jp",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 255,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 232
+    },
+    {
+      "name": "ダンジョンクロウラー幸運ウサギと魔法の爪",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/3UDTxqZf0qw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.strayfawnstudio.dungeonclawlermobile",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 256,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 233
+    },
+    {
+      "name": "Dead Impact: オンライン協力サバイバルRPG",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/CYgWA4Y-Zg4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=games.synthez.zombie.survival.multiplayer",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 257,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 234
+    },
+    {
+      "name": "Tomorrow",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/zvAbhs1bU8E/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ragequitgames.tomorrow",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 258,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 235
+    },
+    {
+      "name": "ワイルドスカイタワーディフェンス: 紡がれる伝説",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/O65q-lDlc8c/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.wildsky.td",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 259,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 236
+    },
+    {
+      "name": "七つの大罪 光と闇の交戦 : グラクロ",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/sKkXM08T5R0/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.netmarble.nanatsunotaizai",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 261,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 237
+    },
+    {
+      "name": "XP Hero (XP ヒーロー)",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/tc2FXCbMlj4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=io.supercent.weaponrpg",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 262,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 238
+    },
+    {
+      "name": "東方LostWord",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/1dBa-uF1huA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.goodsmile.touhoulostword_android",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 263,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 239
+    },
+    {
+      "name": "遊戯王 マスターデュエル",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/LpW_xn6m9Dk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.konami.masterduel",
+      "tab": "Featured",
+      "section": "Top Charts",
+      "priority": 267,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 240
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "country": "KR",
-  "date": "2026-05-09",
-  "updated": "2026-05-09T03:33:07.821Z",
+  "date": "2026-05-10",
+  "updated": "2026-05-10T03:45:32.403Z",
   "apple": [
     {
       "name": "FC 모바일",
@@ -426,7 +426,7 @@
     {
       "name": "블록 블라스트 (Block Blast)",
       "dev": "개발자  Hungry Studio",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/ec/3f/4bec3f29-d033-2930-aa45-f2403aa871bc/Placeholder.mill/100x100bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a0/f6/d1/a0f6d159-08a5-6a79-d313-e6bee63bb107/Placeholder.mill/100x100bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EB%B8%94%EB%A1%9D-%EB%B8%94%EB%9D%BC%EC%8A%A4%ED%8A%B8-block-blast/id1617391485",
       "tab": "Games",
       "section": "Featured",
@@ -469,10 +469,10 @@
       "rank": 31
     },
     {
-      "name": "머지 크라임: 추리&로맨스 서스펜스",
-      "dev": "개발자  Standegg",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/9d/36/439d36a4-efda-91c0-847f-cbadf48a9c59/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/kr/app/%EB%A8%B8%EC%A7%80-%ED%81%AC%EB%9D%BC%EC%9E%84-%EC%B6%94%EB%A6%AC-%EB%A1%9C%EB%A7%A8%EC%8A%A4-%EC%84%9C%EC%8A%A4%ED%8E%9C%EC%8A%A4/id6746175307",
+      "name": "Tricky Mean2",
+      "dev": "개발자  FTY LLC.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/fb/f8/28fbf835-dce9-f63a-9aee-aadb91a6bcc1/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/tricky-mean2/id6758080238",
       "tab": "Games",
       "section": "Featured",
       "priority": 48,
@@ -514,10 +514,10 @@
       "rank": 34
     },
     {
-      "name": "무한의 계단",
-      "dev": "개발자  Neptune Company",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fe/ab/65/feab65e9-5fd7-3e92-eda9-85b31138139e/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/kr/app/%EB%AC%B4%ED%95%9C%EC%9D%98-%EA%B3%84%EB%8B%A8/id947742764",
+      "name": "Paper.io 2",
+      "dev": "개발자  Voodoo",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/43/62/034362a3-b75f-b590-e9a8-83e7af880430/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/paper-io-2/id1423046460",
       "tab": "Games",
       "section": "Featured",
       "priority": 51,
@@ -529,10 +529,10 @@
       "rank": 35
     },
     {
-      "name": "Paper.io 2",
-      "dev": "개발자  Voodoo",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/43/62/034362a3-b75f-b590-e9a8-83e7af880430/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/kr/app/paper-io-2/id1423046460",
+      "name": "Goose Goose Duck",
+      "dev": "개발자  Gaggle Studios, Inc.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/45/4f/ae454f03-66ac-87d4-55c2-4b85c3401964/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/goose-goose-duck/id1558248707",
       "tab": "Games",
       "section": "Featured",
       "priority": 52,
@@ -544,10 +544,10 @@
       "rank": 36
     },
     {
-      "name": "Goose Goose Duck",
-      "dev": "개발자  Gaggle Studios, Inc.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/45/4f/ae454f03-66ac-87d4-55c2-4b85c3401964/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/kr/app/goose-goose-duck/id1558248707",
+      "name": "쿠키런: 오븐브레이크",
+      "dev": "개발자  Devsisters",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/22/aa/f722aaa7-2cb4-b67f-d9ce-43efbf2de505/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EC%BF%A0%ED%82%A4%EB%9F%B0-%EC%98%A4%EB%B8%90%EB%B8%8C%EB%A0%88%EC%9D%B4%ED%81%AC/id963067330",
       "tab": "Games",
       "section": "Featured",
       "priority": 53,
@@ -559,10 +559,10 @@
       "rank": 37
     },
     {
-      "name": "쿠키런: 오븐브레이크",
-      "dev": "개발자  Devsisters",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/22/aa/f722aaa7-2cb4-b67f-d9ce-43efbf2de505/Placeholder.mill/100x100bb-75.webp",
-      "url": "https://apps.apple.com/kr/app/%EC%BF%A0%ED%82%A4%EB%9F%B0-%EC%98%A4%EB%B8%90%EB%B8%8C%EB%A0%88%EC%9D%B4%ED%81%AC/id963067330",
+      "name": "무한의 계단",
+      "dev": "개발자  Neptune Company",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fe/ab/65/feab65e9-5fd7-3e92-eda9-85b31138139e/Placeholder.mill/100x100bb-75.webp",
+      "url": "https://apps.apple.com/kr/app/%EB%AC%B4%ED%95%9C%EC%9D%98-%EA%B3%84%EB%8B%A8/id947742764",
       "tab": "Games",
       "section": "Featured",
       "priority": 54,
@@ -876,7 +876,7 @@
     {
       "name": "좋은 피자, 위대한 피자",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/fb/9f/91fb9fa2-72e5-4306-c194-ba0afb9ceb78/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/b3/bf/51b3bfbd-3a5e-1c20-afc5-62e294f54d85/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%A2%8B%EC%9D%80-%ED%94%BC%EC%9E%90-%EC%9C%84%EB%8C%80%ED%95%9C-%ED%94%BC%EC%9E%90/id911121200",
       "tab": "Games",
       "section": "Featured",
@@ -981,7 +981,7 @@
     {
       "name": "체스 · 플레이 및 배우기 온라인",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/2d/6a/912d6ab3-6100-dfcc-d1c3-0e5b12562f96/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/2d/fd/0b2dfd35-4dad-2c01-5d9a-570d3520ce58/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EC%B2%B4%EC%8A%A4-%ED%94%8C%EB%A0%88%EC%9D%B4-%EB%B0%8F-%EB%B0%B0%EC%9A%B0%EA%B8%B0-%EC%98%A8%EB%9D%BC%EC%9D%B8/id329218549",
       "tab": "Games",
       "section": "Featured",
@@ -1266,7 +1266,7 @@
     {
       "name": "꽥꽥 구조대 - 알 폭격 디펜스",
       "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/69/a6/8b69a646-24e4-95ae-6534-99f2dc84081b/Placeholder.mill/64x64bb-75.webp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/c5/71/e0c57105-a655-8a46-2221-eb180f5c6aea/Placeholder.mill/64x64bb-75.webp",
       "url": "https://apps.apple.com/kr/app/%EA%BD%A5%EA%BD%A5-%EA%B5%AC%EC%A1%B0%EB%8C%80-%EC%95%8C-%ED%8F%AD%EA%B2%A9-%EB%94%94%ED%8E%9C%EC%8A%A4/id6758334085",
       "tab": "Games",
       "section": "Featured",
@@ -1354,21 +1354,6 @@
       "rank": 90
     },
     {
-      "name": "메이플스토리 월드",
-      "dev": "",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/df/f6/96dff658-40bf-881a-b620-fec140e99071/Placeholder.mill/64x64bb-75.webp",
-      "url": "https://apps.apple.com/kr/app/%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC-%EC%9B%94%EB%93%9C/id1553717881",
-      "tab": "Today",
-      "section": "Featured",
-      "priority": 106,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 91
-    },
-    {
       "name": "플라잉 캣 : 스페이스 대시",
       "dev": "",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/c1/94/69c19477-41df-294f-9b18-147a4736a73e/AppIcon-1x_U007emarketing-85-220-3.png/64x64ia-75.webp",
@@ -1381,7 +1366,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 92
+      "rank": 91
     },
     {
       "name": "CoreSurvival",
@@ -1396,7 +1381,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 93
+      "rank": 92
     },
     {
       "name": "Monument Valley 3",
@@ -1411,7 +1396,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 94
+      "rank": 93
     },
     {
       "name": "Enter The Gungeon",
@@ -1426,7 +1411,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 95
+      "rank": 94
     },
     {
       "name": "Deep Rock Galactic: Survivor",
@@ -1441,7 +1426,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 96
+      "rank": 95
     },
     {
       "name": "Timelie",
@@ -1456,7 +1441,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 97
+      "rank": 96
     },
     {
       "name": "Rift Riff",
@@ -1471,7 +1456,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 98
+      "rank": 97
     },
     {
       "name": "좋은 커피, 위대한 커피",
@@ -1486,7 +1471,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 99
+      "rank": 98
     },
     {
       "name": "TownsFolk",
@@ -1501,7 +1486,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 100
+      "rank": 99
     },
     {
       "name": "DREDGE",
@@ -1516,7 +1501,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 101
+      "rank": 100
     },
     {
       "name": "INMOST",
@@ -1531,7 +1516,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 102
+      "rank": 101
     },
     {
       "name": "팬텀 로즈 2 사파이어",
@@ -1546,7 +1531,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 103
+      "rank": 102
     },
     {
       "name": "빠지냥",
@@ -1561,7 +1546,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 104
+      "rank": 103
     },
     {
       "name": "Minecraft 온라인으로 친구들과 함께 플레이하세요",
@@ -1576,7 +1561,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 105
+      "rank": 104
     },
     {
       "name": "Stardew Valley",
@@ -1591,7 +1576,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 106
+      "rank": 105
     },
     {
       "name": "Plague Inc. (전염병 주식회사)",
@@ -1606,7 +1591,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 107
+      "rank": 106
     },
     {
       "name": "Geometry Dash",
@@ -1621,7 +1606,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 108
+      "rank": 107
     },
     {
       "name": "The Company: 로그라이크 회사 경영",
@@ -1636,7 +1621,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 109
+      "rank": 108
     },
     {
       "name": "A Dance of Fire and Ice",
@@ -1651,7 +1636,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 110
+      "rank": 109
     },
     {
       "name": "귀판오분전",
@@ -1666,7 +1651,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 111
+      "rank": 110
     },
     {
       "name": "라스트 워: 서바이벌",
@@ -1681,7 +1666,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 112
+      "rank": 111
     },
     {
       "name": "마왕성 스토리",
@@ -1696,7 +1681,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 113
+      "rank": 112
     },
     {
       "name": "세포 특공대 - 전략형 타워 디펜스",
@@ -1711,7 +1696,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 114
+      "rank": 113
     },
     {
       "name": "잠룡 : 무협 도트 RPG",
@@ -1726,7 +1711,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 115
+      "rank": 114
     },
     {
       "name": "로블록스(Roblox)",
@@ -1741,7 +1726,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 116
+      "rank": 115
     },
     {
       "name": "캣 히어로 : 방치형 RPG",
@@ -1756,7 +1741,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 117
+      "rank": 116
     },
     {
       "name": "킹샷:Kingshot",
@@ -1771,7 +1756,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 118
+      "rank": 117
     },
     {
       "name": "AFK: 새로운 여정",
@@ -1786,7 +1771,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 119
+      "rank": 118
     },
     {
       "name": "쿠키런: 모험의 탑",
@@ -1801,7 +1786,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 120
+      "rank": 119
     },
     {
       "name": "별이되어라2: 베다의 기사들",
@@ -1816,7 +1801,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 121
+      "rank": 120
     },
     {
       "name": "워크래프트 럼블",
@@ -1831,7 +1816,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 122
+      "rank": 121
     },
     {
       "name": "BIOHAZARD RE:4",
@@ -1846,7 +1831,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 123
+      "rank": 122
     },
     {
       "name": "클래시 로얄 (Clash Royale)",
@@ -1861,7 +1846,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 124
+      "rank": 123
     },
     {
       "name": "Monster Hunter Now",
@@ -1876,7 +1861,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 125
+      "rank": 124
     },
     {
       "name": "Dragonheir: Silent Gods",
@@ -1891,7 +1876,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 126
+      "rank": 125
     },
     {
       "name": "Pikmin Bloom",
@@ -1906,7 +1891,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 127
+      "rank": 126
     },
     {
       "name": "로얄 매치 (Royal Match)",
@@ -1921,7 +1906,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 128
+      "rank": 127
     },
     {
       "name": "Dead Cells",
@@ -1936,7 +1921,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 129
+      "rank": 128
     },
     {
       "name": "커피 골프",
@@ -1951,7 +1936,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 130
+      "rank": 129
     },
     {
       "name": "Assemble with Care",
@@ -1966,7 +1951,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 131
+      "rank": 130
     },
     {
       "name": "BIOHAZARD RE:2",
@@ -1981,7 +1966,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 132
+      "rank": 131
     },
     {
       "name": "Sid Meier’s Railroads!",
@@ -1996,7 +1981,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 133
+      "rank": 132
     },
     {
       "name": "Carrion",
@@ -2011,7 +1996,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 134
+      "rank": 133
     },
     {
       "name": "The Stanley Parable: UD",
@@ -2026,7 +2011,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 135
+      "rank": 134
     },
     {
       "name": "Hello Kitty Island Intro",
@@ -2041,7 +2026,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 136
+      "rank": 135
     },
     {
       "name": "BIOHAZARD 7 resident evil",
@@ -2056,7 +2041,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 137
+      "rank": 136
     },
     {
       "name": "Rocco's Island: Pocket Edition",
@@ -2071,7 +2056,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 138
+      "rank": 137
     },
     {
       "name": "어쌔신 크리드 미라지",
@@ -2086,7 +2071,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 139
+      "rank": 138
     },
     {
       "name": "Alien: Isolation",
@@ -2101,7 +2086,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 140
+      "rank": 139
     },
     {
       "name": "Loop Hero - retro roguelike",
@@ -2116,7 +2101,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 141
+      "rank": 140
     },
     {
       "name": "Subway Surfers",
@@ -2131,7 +2116,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 142
+      "rank": 141
     },
     {
       "name": "미니언 러쉬: 런닝 게임",
@@ -2146,7 +2131,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 143
+      "rank": 142
     },
     {
       "name": "Cat Quest III",
@@ -2161,7 +2146,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 144
+      "rank": 143
     },
     {
       "name": "헝그리 샤크 월드 (Hungry Shark World)",
@@ -2176,7 +2161,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 145
+      "rank": 144
     },
     {
       "name": "Steppy Pants",
@@ -2191,7 +2176,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 146
+      "rank": 145
     },
     {
       "name": "츠키 오디세이",
@@ -2206,7 +2191,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 147
+      "rank": 146
     },
     {
       "name": "MONOPOLY GO! (모노폴리 GO!)",
@@ -2221,7 +2206,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 148
+      "rank": 147
     },
     {
       "name": "Tiny Wings",
@@ -2236,7 +2221,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 149
+      "rank": 148
     },
     {
       "name": "우주물고기",
@@ -2251,7 +2236,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 150
+      "rank": 149
     },
     {
       "name": "SKY - 빛의 아이들",
@@ -2266,7 +2251,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 151
+      "rank": 150
     },
     {
       "name": "Populus Run",
@@ -2281,7 +2266,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 152
+      "rank": 151
     },
     {
       "name": "Warframe",
@@ -2296,7 +2281,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 153
+      "rank": 152
     },
     {
       "name": "Bugsnax",
@@ -2311,7 +2296,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 154
+      "rank": 153
     },
     {
       "name": "데스 스트랜딩 디렉터스 컷",
@@ -2326,7 +2311,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 155
+      "rank": 154
     },
     {
       "name": "Brotato",
@@ -2341,7 +2326,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 156
+      "rank": 155
     },
     {
       "name": "Return to Monkey Island",
@@ -2356,7 +2341,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 157
+      "rank": 156
     },
     {
       "name": "Daily Dadish",
@@ -2371,7 +2356,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 158
+      "rank": 157
     },
     {
       "name": "Myst Mobile",
@@ -2386,7 +2371,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 159
+      "rank": 158
     },
     {
       "name": "Endling",
@@ -2401,7 +2386,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 160
+      "rank": 159
     },
     {
       "name": "Unruly Heroes",
@@ -2416,7 +2401,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 161
+      "rank": 160
     },
     {
       "name": "T3 아레나",
@@ -2431,7 +2416,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 162
+      "rank": 161
     }
   ],
   "google": [
@@ -2464,7 +2449,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "badge": "4일 후 종료",
+      "badge": "3일 후 종료",
       "rank": 2
     },
     {
@@ -2480,7 +2465,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "badge": "5일 후 종료",
+      "badge": "4일 후 종료",
       "rank": 3
     },
     {
@@ -2496,7 +2481,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "badge": "4시간 후 만료",
+      "badge": "업데이트 있음",
       "rank": 4
     },
     {
@@ -2576,7 +2561,7 @@
       "category": "Games",
       "nexon": false,
       "banner": true,
-      "badge": "4일 후 종료",
+      "badge": "3일 후 종료",
       "rank": 9
     },
     {
@@ -2716,10 +2701,10 @@
       "rank": 18
     },
     {
-      "name": "딸깍 다이스",
+      "name": "애니멀 가든 - 진짜 꽃다발을 배달돼요!",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/v3pbvtq0opWpTG4tMimTP5ydpn42Bi-eN_8pFvNGkD-npdPj5u7kzctiuqR9AZohYIo=s256-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.bailing.lark.roll.dev",
+      "icon": "https://play-lh.googleusercontent.com/9tisP7I7eqm1r486gEOpk3Zy4KGuSqS5I2z9V__eEtdAZwSRv68DyXHrmGIt5EtRcvkIjcKVmqpfnGbk8g6Lqg=s256-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.dwjp.gp",
       "tab": "Featured",
       "section": "Featured",
       "priority": 28,
@@ -2731,10 +2716,10 @@
       "rank": 19
     },
     {
-      "name": "우와 모험단",
+      "name": "딸깍 다이스",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/86T3IiRri57Gj33F-ZGl5W3tH41sm1OYihpUEz_7nIGxAct07ZTpYDejcXHsqqQ6yw=s256-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.yzlmkr.google",
+      "icon": "https://play-lh.googleusercontent.com/v3pbvtq0opWpTG4tMimTP5ydpn42Bi-eN_8pFvNGkD-npdPj5u7kzctiuqR9AZohYIo=s256-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.bailing.lark.roll.dev",
       "tab": "Featured",
       "section": "Featured",
       "priority": 29,
@@ -2746,10 +2731,10 @@
       "rank": 20
     },
     {
-      "name": "애니멀 가든 - 진짜 꽃다발을 배달돼요!",
+      "name": "우와 모험단",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/9tisP7I7eqm1r486gEOpk3Zy4KGuSqS5I2z9V__eEtdAZwSRv68DyXHrmGIt5EtRcvkIjcKVmqpfnGbk8g6Lqg=s256-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.dwjp.gp",
+      "icon": "https://play-lh.googleusercontent.com/86T3IiRri57Gj33F-ZGl5W3tH41sm1OYihpUEz_7nIGxAct07ZTpYDejcXHsqqQ6yw=s256-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.yzlmkr.google",
       "tab": "Featured",
       "section": "Featured",
       "priority": 30,
@@ -2761,10 +2746,10 @@
       "rank": 21
     },
     {
-      "name": "드래곤 퀘스트 스매시 그로우 드퀘 로그라이트 RPG",
+      "name": "고양이와 스프 : 마법의 레시피",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/6bzUcvt69zrgmreeiQcXikKrKhQIIvXhumgdjauiryHkr47MzqIuZ2csYXZbXULsaZSHjX3Nf8g_ZED_1YX_Tw=s256-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.square_enix.android_googleplay.dqsgw",
+      "icon": "https://play-lh.googleusercontent.com/qHWByE9RBxH48KpV_vxjjKvMqoA6qcT5MtztOoGv1hkIJoa0GA9Y8a1Od2ZuSaoN_2kK_nU48wH-2l7mUqGcgtM=s256-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.hidea.cat.magicrecipe",
       "tab": "Featured",
       "section": "Featured",
       "priority": 31,
@@ -2776,10 +2761,10 @@
       "rank": 22
     },
     {
-      "name": "고양이와 스프 : 마법의 레시피",
+      "name": "드래곤 퀘스트 스매시 그로우 드퀘 로그라이트 RPG",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/qHWByE9RBxH48KpV_vxjjKvMqoA6qcT5MtztOoGv1hkIJoa0GA9Y8a1Od2ZuSaoN_2kK_nU48wH-2l7mUqGcgtM=s256-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.hidea.cat.magicrecipe",
+      "icon": "https://play-lh.googleusercontent.com/6bzUcvt69zrgmreeiQcXikKrKhQIIvXhumgdjauiryHkr47MzqIuZ2csYXZbXULsaZSHjX3Nf8g_ZED_1YX_Tw=s256-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.square_enix.android_googleplay.dqsgw",
       "tab": "Featured",
       "section": "Featured",
       "priority": 32,
@@ -2791,10 +2776,10 @@
       "rank": 23
     },
     {
-      "name": "영혼 인도자：신의 이름으로",
+      "name": "창세기전 키우기",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/bqkLzXeH27p4NRhCedB1qaNbHPB4CrLcn-T3MHeB2xDSN-gG5LNT_oWIvqO3HgDJhyiKGQItus-8jV6NM_vciw=s256-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.game.btjkr.and",
+      "icon": "https://play-lh.googleusercontent.com/4piT6-Ynexl-A6zBFNhaggAtgaXySGDy6s4267zDVqxklJcZtv-WIJ112PuVD85CPQVcg1MSBdZtRZKSZVcdlg=s256-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.nns.genesis",
       "tab": "Featured",
       "section": "Featured",
       "priority": 33,
@@ -2806,10 +2791,10 @@
       "rank": 24
     },
     {
-      "name": "창세기전 키우기",
+      "name": "영혼 인도자：신의 이름으로",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/4piT6-Ynexl-A6zBFNhaggAtgaXySGDy6s4267zDVqxklJcZtv-WIJ112PuVD85CPQVcg1MSBdZtRZKSZVcdlg=s256-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.nns.genesis",
+      "icon": "https://play-lh.googleusercontent.com/bqkLzXeH27p4NRhCedB1qaNbHPB4CrLcn-T3MHeB2xDSN-gG5LNT_oWIvqO3HgDJhyiKGQItus-8jV6NM_vciw=s256-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.game.btjkr.and",
       "tab": "Featured",
       "section": "Featured",
       "priority": 34,
@@ -2836,10 +2821,10 @@
       "rank": 26
     },
     {
-      "name": "두근두근타운",
+      "name": "삼국지: 패업",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/FtZNAkKn4faEpRU4UjtRRUk-aQP5zwiN1Kg4FzAcQBN7S8-PfDo7ODxmjaPlMu3HOFJ6-1WhzXxwKA6q1bOw=s256-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.xd.xdtglobal.gp",
+      "icon": "https://play-lh.googleusercontent.com/kqp5dDMjrz7u5TU1jmR2Idgl2TiGhvFRxReGUYdiqCyfIMtpsLEoz0QVFoMdFRGeZuuMqH08FHDl_hjAF0HXLQ=s256-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.kingshipfight.sgzk",
       "tab": "Featured",
       "section": "Featured",
       "priority": 36,
@@ -2851,10 +2836,10 @@
       "rank": 27
     },
     {
-      "name": "삼국지: 패업",
+      "name": "두근두근타운",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/kqp5dDMjrz7u5TU1jmR2Idgl2TiGhvFRxReGUYdiqCyfIMtpsLEoz0QVFoMdFRGeZuuMqH08FHDl_hjAF0HXLQ=s256-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.kingshipfight.sgzk",
+      "icon": "https://play-lh.googleusercontent.com/FtZNAkKn4faEpRU4UjtRRUk-aQP5zwiN1Kg4FzAcQBN7S8-PfDo7ODxmjaPlMu3HOFJ6-1WhzXxwKA6q1bOw=s256-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.xd.xdtglobal.gp",
       "tab": "Featured",
       "section": "Featured",
       "priority": 37,
@@ -2866,10 +2851,10 @@
       "rank": 28
     },
     {
-      "name": "파운데이션: 우주 전선",
+      "name": "Coin Master: 보드 어드벤처",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/dmBqQ2vxCp2soM-8ez4DNs1JFKIcYvlkCLOdRPu4k8clLdJNcsUaVHnmsmDFMl5WMNsSiupUfb55oqo6YJzTnA=s256-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.games.foundation",
+      "icon": "https://play-lh.googleusercontent.com/pFMYxxHpIsLKeaxO9wjVRpAsgMaLKbT1kPwofNQtGi69-6fF_eUyIViAMY66auDrvsJnw2h6S5rpF8XaZcrm=s256-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.moonactive.cmboard",
       "tab": "Featured",
       "section": "Featured",
       "priority": 38,
@@ -2881,10 +2866,10 @@
       "rank": 29
     },
     {
-      "name": "Coin Master: 보드 어드벤처",
+      "name": "타일 서바이벌",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/pFMYxxHpIsLKeaxO9wjVRpAsgMaLKbT1kPwofNQtGi69-6fF_eUyIViAMY66auDrvsJnw2h6S5rpF8XaZcrm=s256-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.moonactive.cmboard",
+      "icon": "https://play-lh.googleusercontent.com/zckZa4Pytdr9QxK-Xv6XlbJo62tZV4pk3VPLBnuUXzR-pmM5nWWHUbo3MT1Lu9xxIRye=s256-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.funplus.ts.global",
       "tab": "Featured",
       "section": "Featured",
       "priority": 39,
@@ -2911,10 +2896,10 @@
       "rank": 31
     },
     {
-      "name": "앵커패닉 : 1주년 600뽑 대축제",
+      "name": "타일 킹 - 트리플 매치",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/R4QmhBqfPmhnNASMg2F93UDjKyibPoGQol4y9K3afzZbc_gYextTP3mPEaxYzAW0Hy6ZarcJiJCIs7wsCyP7=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.neptune.anchorpanic",
+      "icon": "https://play-lh.googleusercontent.com/sE6RA2tIJbdvwFLjCbDbEM0jqoFp4k40RfHl-2Cd6sOKgmL3KWp-6k2B0AJ67cfICUoqXGJrX0AhzLTVb3fJuKA=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.mocacorp.tile",
       "tab": "Featured",
       "section": "Featured",
       "priority": 41,
@@ -2926,10 +2911,10 @@
       "rank": 32
     },
     {
-      "name": "타일 킹 - 트리플 매치",
+      "name": "앵커패닉 : 1주년 600뽑 대축제",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/sE6RA2tIJbdvwFLjCbDbEM0jqoFp4k40RfHl-2Cd6sOKgmL3KWp-6k2B0AJ67cfICUoqXGJrX0AhzLTVb3fJuKA=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.mocacorp.tile",
+      "icon": "https://play-lh.googleusercontent.com/R4QmhBqfPmhnNASMg2F93UDjKyibPoGQol4y9K3afzZbc_gYextTP3mPEaxYzAW0Hy6ZarcJiJCIs7wsCyP7=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.neptune.anchorpanic",
       "tab": "Featured",
       "section": "Featured",
       "priority": 42,
@@ -2941,10 +2926,10 @@
       "rank": 33
     },
     {
-      "name": "애로우즈 – 퍼즐 이스케이프 (Arrows)",
+      "name": "미친 타워가 되었다: 반주년 미친쿠폰 이벤트",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/f3szQ-tBQ5FVtiO2hwnJ6Gg4LbckQ9qKD099oiFqlvDo78uaD85Zn9G4o-W9390XnQ=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.ecffri.arrows",
+      "icon": "https://play-lh.googleusercontent.com/IbSCM7XuoCbuz3eMzln_zwqTnkscYsd2xvOb4o5alzMxkdwCrjrr_oymWRgNaCyntnjGIaVZ7pan4UcZTVFN=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.v2r.tower.google",
       "tab": "Featured",
       "section": "Featured",
       "priority": 43,
@@ -2956,10 +2941,10 @@
       "rank": 34
     },
     {
-      "name": "미친 타워가 되었다: 반주년 미친쿠폰 이벤트",
+      "name": "애로우즈 – 퍼즐 이스케이프 (Arrows)",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/IbSCM7XuoCbuz3eMzln_zwqTnkscYsd2xvOb4o5alzMxkdwCrjrr_oymWRgNaCyntnjGIaVZ7pan4UcZTVFN=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.v2r.tower.google",
+      "icon": "https://play-lh.googleusercontent.com/f3szQ-tBQ5FVtiO2hwnJ6Gg4LbckQ9qKD099oiFqlvDo78uaD85Zn9G4o-W9390XnQ=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.ecffri.arrows",
       "tab": "Featured",
       "section": "Featured",
       "priority": 44,
@@ -3031,10 +3016,10 @@
       "rank": 39
     },
     {
-      "name": "매직 정렬!  (Magic Sort !)",
+      "name": "볼꾸의 달인 - 볼펜 꾸미기 ASMR 비즈 만들기",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/WpTMBQdhAVa2y3tzsw5T4h9aT5C9Ng1fo3m5JGp0fi4bCD3Gcw8hOPodjjbs2moXX71FH21eSfPMVpR3OL6B=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort",
+      "icon": "https://play-lh.googleusercontent.com/4VG72Y8jbmaylwbF95A2dgaCU7Pl2wIL8TNq5tiUcoF1prMlzazw7bcZPDG8hjMpohmmYljYcup6SjIQ4urZag=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.whoyaho.pendeco",
       "tab": "Featured",
       "section": "Featured",
       "priority": 49,
@@ -3046,10 +3031,10 @@
       "rank": 40
     },
     {
-      "name": "볼꾸의 달인 - 볼펜 꾸미기 ASMR 비즈 만들기",
+      "name": "매직 정렬!  (Magic Sort !)",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/4VG72Y8jbmaylwbF95A2dgaCU7Pl2wIL8TNq5tiUcoF1prMlzazw7bcZPDG8hjMpohmmYljYcup6SjIQ4urZag=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.whoyaho.pendeco",
+      "icon": "https://play-lh.googleusercontent.com/WpTMBQdhAVa2y3tzsw5T4h9aT5C9Ng1fo3m5JGp0fi4bCD3Gcw8hOPodjjbs2moXX71FH21eSfPMVpR3OL6B=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort",
       "tab": "Featured",
       "section": "Featured",
       "priority": 50,
@@ -3061,10 +3046,10 @@
       "rank": 41
     },
     {
-      "name": "로얄 킹덤 (Royal Kingdom)",
+      "name": "Flower Forest - 워드 퍼즐",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/nAAF2bxrD2BeoM1IkUZ6qeRG_QGG_Rekrrh4VYQSMDeRa7FR8sWMWaHClID547XJ3D4=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalkingdom",
+      "icon": "https://play-lh.googleusercontent.com/85UQPJ5ABPQ5zUEWlEU3Xv1dfqmVX5tqsD7YPKmOJWsXonblfTSM7rqtoWxns-VCQ-jhUDQfb8geUFOrZJDc=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.flower.forest.word.puzzle",
       "tab": "Featured",
       "section": "Featured",
       "priority": 51,
@@ -3091,10 +3076,10 @@
       "rank": 43
     },
     {
-      "name": "순찰중! 바로 체포!",
+      "name": "로얄 킹덤 (Royal Kingdom)",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/MnwELZ8AtpyDK7U70RlDA3kcijbYmrhrNHIfcCcTklqjkOUDP6KWr5_KsMGnyehtBX9__QK3B9vsLVLCCxwf7A=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=pics.karaage.sokutaiho",
+      "icon": "https://play-lh.googleusercontent.com/nAAF2bxrD2BeoM1IkUZ6qeRG_QGG_Rekrrh4VYQSMDeRa7FR8sWMWaHClID547XJ3D4=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalkingdom",
       "tab": "Featured",
       "section": "Featured",
       "priority": 53,
@@ -3106,10 +3091,10 @@
       "rank": 44
     },
     {
-      "name": "TopTop: 게임, 채팅 & 친구들",
+      "name": "순찰중! 바로 체포!",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/ojVkSv9i4FJDHci1gKOut8z7r8L5RoV3m9-gI9dbNl7erIXxODSd1cqyZCguPCChqpK5YFLDiCQEb3OvCToCGQ=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.game.friends.kr",
+      "icon": "https://play-lh.googleusercontent.com/MnwELZ8AtpyDK7U70RlDA3kcijbYmrhrNHIfcCcTklqjkOUDP6KWr5_KsMGnyehtBX9__QK3B9vsLVLCCxwf7A=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=pics.karaage.sokutaiho",
       "tab": "Featured",
       "section": "Featured",
       "priority": 54,
@@ -3121,10 +3106,10 @@
       "rank": 45
     },
     {
-      "name": "Jewel Coloring",
+      "name": "TopTop: 게임, 채팅 & 친구들",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/4O3eRZ4cOMPSFiasjvlJuodijaKtNiv7HZ9Hm5r4CT78imAL32QbbWoJkiOJ3erjS4Yi652WTBrwcQrbbsuW=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=color.number.paint.pixle.art.sort.jigsaw",
+      "icon": "https://play-lh.googleusercontent.com/ojVkSv9i4FJDHci1gKOut8z7r8L5RoV3m9-gI9dbNl7erIXxODSd1cqyZCguPCChqpK5YFLDiCQEb3OvCToCGQ=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.game.friends.kr",
       "tab": "Featured",
       "section": "Featured",
       "priority": 55,
@@ -3136,10 +3121,10 @@
       "rank": 46
     },
     {
-      "name": "Castle Busters",
+      "name": "Jewel Coloring",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/VW7o5ybPRq9TbTQs9_pzrJkYoFk4QVxUkV96bVfauDmGBZ8O6KNHIRH4oIRlkQAgogw=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.epicoro.castleclashers",
+      "icon": "https://play-lh.googleusercontent.com/4O3eRZ4cOMPSFiasjvlJuodijaKtNiv7HZ9Hm5r4CT78imAL32QbbWoJkiOJ3erjS4Yi652WTBrwcQrbbsuW=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=color.number.paint.pixle.art.sort.jigsaw",
       "tab": "Featured",
       "section": "Featured",
       "priority": 56,
@@ -3151,10 +3136,10 @@
       "rank": 47
     },
     {
-      "name": "킹샷:Kingshot",
+      "name": "가십하버: 합성 & 스토리 게임",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/DLovyLDLznCbkDw39T-d9BUXkDbUjO9ne3_eJyA27IcfgIXR2Hmu3HqEDlYxGXnwrp0=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.run.tower.defense",
+      "icon": "https://play-lh.googleusercontent.com/PmMSCDLMab3nn0wj14BFZNqPncr1C14M5VmUrM3aXNmeRa1zEhNI4N3L1F1oO3qDYRPOQigQOyXxwDuQZZvTwA=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor",
       "tab": "Featured",
       "section": "Featured",
       "priority": 57,
@@ -3166,10 +3151,10 @@
       "rank": 48
     },
     {
-      "name": "블록 크러시: 블록 블라스트 퍼즐",
+      "name": "Castle Busters",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/f_ImrzQpXw781wa_yNSxhfJz4b_t-MSQ6A1PXPoFBX3b0BkKRwVc7ik4eVbwA-x5S0jRxpZ0KvD__ULeEFwFAw=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.wood.block.sudoku.puzzle.bm",
+      "icon": "https://play-lh.googleusercontent.com/VW7o5ybPRq9TbTQs9_pzrJkYoFk4QVxUkV96bVfauDmGBZ8O6KNHIRH4oIRlkQAgogw=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.epicoro.castleclashers",
       "tab": "Featured",
       "section": "Featured",
       "priority": 58,
@@ -3181,10 +3166,10 @@
       "rank": 49
     },
     {
-      "name": "가십하버: 합성 & 스토리 게임",
+      "name": "킹샷:Kingshot",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/PmMSCDLMab3nn0wj14BFZNqPncr1C14M5VmUrM3aXNmeRa1zEhNI4N3L1F1oO3qDYRPOQigQOyXxwDuQZZvTwA=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor",
+      "icon": "https://play-lh.googleusercontent.com/DLovyLDLznCbkDw39T-d9BUXkDbUjO9ne3_eJyA27IcfgIXR2Hmu3HqEDlYxGXnwrp0=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.run.tower.defense",
       "tab": "Featured",
       "section": "Featured",
       "priority": 59,
@@ -3196,10 +3181,10 @@
       "rank": 50
     },
     {
-      "name": "마작 블래스트 (Mahjong Blast)",
+      "name": "로블록스 (Roblox)",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/2oyx82631YlAGY6QPOoGXMJUhnXpCIJflKgx438f1eDwmqM1kbScltnPU0R-mgykkvM4H2COx6sQk3S9cnOblwg=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile",
+      "icon": "https://play-lh.googleusercontent.com/7cIIPlWm4m7AGqVpEsIfyL-HW4cQla4ucXnfalMft1TMIYQIlf2vqgmthlZgbNAQoaQ=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.roblox.client",
       "tab": "Featured",
       "section": "Featured",
       "priority": 60,
@@ -3211,10 +3196,10 @@
       "rank": 51
     },
     {
-      "name": "Flower Forest - 워드 퍼즐",
+      "name": "블록 크러시: 블록 블라스트 퍼즐",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/85UQPJ5ABPQ5zUEWlEU3Xv1dfqmVX5tqsD7YPKmOJWsXonblfTSM7rqtoWxns-VCQ-jhUDQfb8geUFOrZJDc=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.flower.forest.word.puzzle",
+      "icon": "https://play-lh.googleusercontent.com/f_ImrzQpXw781wa_yNSxhfJz4b_t-MSQ6A1PXPoFBX3b0BkKRwVc7ik4eVbwA-x5S0jRxpZ0KvD__ULeEFwFAw=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.wood.block.sudoku.puzzle.bm",
       "tab": "Featured",
       "section": "Featured",
       "priority": 61,
@@ -3226,10 +3211,10 @@
       "rank": 52
     },
     {
-      "name": "로블록스 (Roblox)",
+      "name": "미스터 에그 대탐험",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/7cIIPlWm4m7AGqVpEsIfyL-HW4cQla4ucXnfalMft1TMIYQIlf2vqgmthlZgbNAQoaQ=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.roblox.client",
+      "icon": "https://play-lh.googleusercontent.com/bVaZaqEjzxoDPI2txJ0VBQ8lIBB4oVw3_FiimXxbAlcjJ9aeeFH5tQz_dx7En-a0up9KpEhB5zCn6yln1SakHA=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.teaegg.puzzle.master",
       "tab": "Featured",
       "section": "Featured",
       "priority": 62,
@@ -3241,10 +3226,10 @@
       "rank": 53
     },
     {
-      "name": "미스터 에그 대탐험",
+      "name": "마작 블래스트 (Mahjong Blast)",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/bVaZaqEjzxoDPI2txJ0VBQ8lIBB4oVw3_FiimXxbAlcjJ9aeeFH5tQz_dx7En-a0up9KpEhB5zCn6yln1SakHA=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.teaegg.puzzle.master",
+      "icon": "https://play-lh.googleusercontent.com/2oyx82631YlAGY6QPOoGXMJUhnXpCIJflKgx438f1eDwmqM1kbScltnPU0R-mgykkvM4H2COx6sQk3S9cnOblwg=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile",
       "tab": "Featured",
       "section": "Featured",
       "priority": 63,
@@ -3256,10 +3241,10 @@
       "rank": 54
     },
     {
-      "name": "피아노타일9: 리듬게임 음악·노래·음악·케이팝",
+      "name": "더 코지 플로리스트",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/uIih37VSDcSfq-Fp2ve2BGmBSLGEVD_AZj1_dI7_GeJLUuHxh-sgNBCIPEt5Axt98T-x=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=beats.color.sing.star.rush",
+      "icon": "https://play-lh.googleusercontent.com/2w-_mDOdOXeohTF2upTwGmliD0hnzFTM9RmHOyyFNZaLD96zU8-9fFvoWH_tiSsGWMcwt14xcjOFNpk1rUp_=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.riftsky.mhg.kr.gp",
       "tab": "Featured",
       "section": "Featured",
       "priority": 64,
@@ -3271,10 +3256,10 @@
       "rank": 55
     },
     {
-      "name": "러시: 익스트림 (RUSH: Xtreme)",
+      "name": "매직 타일 3: 피아노 게임 케이팝 노래",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/bBFvBjosQOZF9vM2l5LPyDyoIbTUta1ZdqeCzq0jxyLWbFWoEYKy-WUjuG6mrZbZMw=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.rush.xtreme.sports",
+      "icon": "https://play-lh.googleusercontent.com/u94NKpNjH1sBOiKHevX3_ATM-ozNHg6b186oU9GfnPnHwbdJ7RaeipkCRcVPdf1KRA=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles",
       "tab": "Featured",
       "section": "Featured",
       "priority": 65,
@@ -3286,10 +3271,10 @@
       "rank": 56
     },
     {
-      "name": "매직 타일 3: 피아노 게임 케이팝 노래",
+      "name": "피아노타일9: 리듬게임 음악·노래·음악·케이팝",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/u94NKpNjH1sBOiKHevX3_ATM-ozNHg6b186oU9GfnPnHwbdJ7RaeipkCRcVPdf1KRA=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles",
+      "icon": "https://play-lh.googleusercontent.com/uIih37VSDcSfq-Fp2ve2BGmBSLGEVD_AZj1_dI7_GeJLUuHxh-sgNBCIPEt5Axt98T-x=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=beats.color.sing.star.rush",
       "tab": "Featured",
       "section": "Featured",
       "priority": 66,
@@ -3301,10 +3286,10 @@
       "rank": 57
     },
     {
-      "name": "Arrow Out",
+      "name": "레츠고 레전드!",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/i4S66jnxU0h4mBg7aURDxn2gUkQmkq2U09Z-QpwxGnoEl_zjS2Fmo49_Nh3eTlYGB6hg=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.arrow.out",
+      "icon": "https://play-lh.googleusercontent.com/X1vx6vKvVj-KxOodTx-gCS5SSpUdekh2BcGhUajo0B7z7ly0VAgcOoAEbqzEs3HhlgijmMChM7pUkKZOvLHWYA=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.gear2.letsgolegends",
       "tab": "Featured",
       "section": "Featured",
       "priority": 67,
@@ -3331,10 +3316,10 @@
       "rank": 59
     },
     {
-      "name": "레츠고 레전드!",
+      "name": "러시: 익스트림 (RUSH: Xtreme)",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/X1vx6vKvVj-KxOodTx-gCS5SSpUdekh2BcGhUajo0B7z7ly0VAgcOoAEbqzEs3HhlgijmMChM7pUkKZOvLHWYA=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.gear2.letsgolegends",
+      "icon": "https://play-lh.googleusercontent.com/bBFvBjosQOZF9vM2l5LPyDyoIbTUta1ZdqeCzq0jxyLWbFWoEYKy-WUjuG6mrZbZMw=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.rush.xtreme.sports",
       "tab": "Featured",
       "section": "Featured",
       "priority": 69,
@@ -3361,10 +3346,10 @@
       "rank": 61
     },
     {
-      "name": "낱말퀴즈-단어&단어게임&두뇌 훈련&현실적인 게임",
+      "name": "브롤스타즈",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/fYeACZGDVaUFn4Zlga6ZR3VpdPaRDUjFCt_9oJGhy37S_9ZqnB2b1KtyVLwN3vZ-UGE=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=word.games.puzzle.offline.games",
+      "icon": "https://play-lh.googleusercontent.com/IFACylsXgbKgfNXcLbFrzlNhkB6_5LH3IGNA-frTpTPNolzQxL8mI2B_4jnXe5lTCnQYZYIv9zNTQGWn_8QwLA=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars",
       "tab": "Featured",
       "section": "Featured",
       "priority": 71,
@@ -3376,10 +3361,10 @@
       "rank": 62
     },
     {
-      "name": "들여보낼까 말까? - Let Them In?",
+      "name": "낱말퀴즈-단어&단어게임&두뇌 훈련&현실적인 게임",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/VzWmb4dyJ7OwKtCyEkxdGHORAPmHWbQBP9YS4USdzhqJvi86ldlaLYlxD9a5nIVbk2Rpj2z4QkL7qsAYmF3d=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.fty.thejudge",
+      "icon": "https://play-lh.googleusercontent.com/fYeACZGDVaUFn4Zlga6ZR3VpdPaRDUjFCt_9oJGhy37S_9ZqnB2b1KtyVLwN3vZ-UGE=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=word.games.puzzle.offline.games",
       "tab": "Featured",
       "section": "Featured",
       "priority": 72,
@@ -3391,10 +3376,10 @@
       "rank": 63
     },
     {
-      "name": "남 탓 디펜스",
+      "name": "들여보낼까 말까? - Let Them In?",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/YLIkKMp9KMuCZy7zATH7QXYCLlOrJN-o7kTr5liZ2RlNncYsPkJSBQmYSDUnP0Ph8ameVgDqsvuL3o7BaPRYAw=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.k8games.namtatggl",
+      "icon": "https://play-lh.googleusercontent.com/VzWmb4dyJ7OwKtCyEkxdGHORAPmHWbQBP9YS4USdzhqJvi86ldlaLYlxD9a5nIVbk2Rpj2z4QkL7qsAYmF3d=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.fty.thejudge",
       "tab": "Featured",
       "section": "Featured",
       "priority": 73,
@@ -3406,10 +3391,10 @@
       "rank": 64
     },
     {
-      "name": "브롤스타즈",
+      "name": "Arrow Out",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/IFACylsXgbKgfNXcLbFrzlNhkB6_5LH3IGNA-frTpTPNolzQxL8mI2B_4jnXe5lTCnQYZYIv9zNTQGWn_8QwLA=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars",
+      "icon": "https://play-lh.googleusercontent.com/i4S66jnxU0h4mBg7aURDxn2gUkQmkq2U09Z-QpwxGnoEl_zjS2Fmo49_Nh3eTlYGB6hg=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.arrow.out",
       "tab": "Featured",
       "section": "Featured",
       "priority": 74,
@@ -3421,10 +3406,10 @@
       "rank": 65
     },
     {
-      "name": "WOS: 화이트아웃 서바이벌",
+      "name": "Sheep Dash: Sheep Away",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/q7KzFHxwj8SWdIeEgjw1o5FBj3lNRBtJswrtQ7EWLlSoVulSRfFqcXZrqlqCgc4H0g=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.gof.global",
+      "icon": "https://play-lh.googleusercontent.com/R7OGNFc5OP4pUgS7uUvJVVboQhggKklrZ-x4_3cm8sRqNPDfhMAwvLTLKYfwnc3PvXqv=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=sheep.animal.parking.puzzle.game.jam",
       "tab": "Featured",
       "section": "Featured",
       "priority": 75,
@@ -3436,10 +3421,10 @@
       "rank": 66
     },
     {
-      "name": "Sheep Dash: Sheep Away",
+      "name": "Tricky Mean2",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/R7OGNFc5OP4pUgS7uUvJVVboQhggKklrZ-x4_3cm8sRqNPDfhMAwvLTLKYfwnc3PvXqv=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=sheep.animal.parking.puzzle.game.jam",
+      "icon": "https://play-lh.googleusercontent.com/ofitvgYavwaxtrs-asKr2nnYXnMyBC3-at-mx5gVWFetqTuBtazizDxHwodfvsdvmUh0-dMRhZEHz_7i7gng=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.fty.trickmean2game",
       "tab": "Featured",
       "section": "Featured",
       "priority": 76,
@@ -3466,10 +3451,10 @@
       "rank": 68
     },
     {
-      "name": "멜론 메이커 : 과일 파티",
+      "name": "The Almanac",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/0OAB2pGgiIMcAMAuq-hBVL1d1UWobkFYR7tZ8z5HCLNcHtykdrCw4ZHuyp5jbdRc2X0=s64-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.superbox.aos.suikagame",
+      "icon": "https://play-lh.googleusercontent.com/BqRixa3rlgWcQhxggNg2eoNUFej5boqphhgMLscLoOfLxT_E3cV-hcZ32DGHGTfTux2UHrpof3SwcB1goJYlUBs=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.voodoo.almanac",
       "tab": "Featured",
       "section": "Featured",
       "priority": 78,
@@ -3481,10 +3466,10 @@
       "rank": 69
     },
     {
-      "name": "캔디크러쉬사가 (Candy Crush Saga)",
+      "name": "Brain Puzzle 3: Crazy Mind",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/OEXoSqMq3vE/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga",
+      "icon": "https://play-lh.googleusercontent.com/YoP4Pd_zbzGWIAAU9WwRsndXXDKbeXH5vUAVRKAwHh9WwgUEx1F1u3O38F9kjXQEISgT5lpor3ZEJQ1dXM2q798=s64-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.brain.crazy.joygame",
       "tab": "Featured",
       "section": "Featured",
       "priority": 79,
@@ -3496,10 +3481,10 @@
       "rank": 70
     },
     {
-      "name": "트릭컬 리바이브",
+      "name": "꿈의 마을 (Township)",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/RwkKvO-guGehSwsn2_idyYwReVOmbBPi734nAY67wfQnHjilBRYrVRGkcQSl_iHJgyE=w416-h235-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.epidgames.trickcalrevive",
+      "icon": "https://i.ytimg.com/vi/YDl1rDgFhP8/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.playrix.township",
       "tab": "Featured",
       "section": "Featured",
       "priority": 80,
@@ -3511,10 +3496,10 @@
       "rank": 71
     },
     {
-      "name": "카트라이더 러쉬플러스",
+      "name": "협동 타워 디펜스 : 친구와 함께",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/VNJRnVkLA8c/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.nexon.kart",
+      "icon": "https://i.ytimg.com/vi/4ueLURPE224/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.percent.aos.cooptd",
       "tab": "Featured",
       "section": "Featured",
       "priority": 81,
@@ -3526,10 +3511,10 @@
       "rank": 72
     },
     {
-      "name": "체스 · 플레이 및 배우기 온라인",
+      "name": "머지 쿠킹 테마 레스토랑",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/r1Y5MnQg24M87pcRiXLVuYGAboOu50b1zi5DgGPAjCmt5zpUrfw--GpGnWBF_zcARQ=w416-h235-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.chess",
+      "icon": "https://i.ytimg.com/vi/6H7E9tqCQc0/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.merge.cooking.theme.restaurant.food",
       "tab": "Featured",
       "section": "Featured",
       "priority": 82,
@@ -3541,10 +3526,10 @@
       "rank": 73
     },
     {
-      "name": "상품 정렬: 매치 3 퍼즐 - Goods Sorting",
+      "name": "트릭컬 리바이브",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/D-POnK6SBp4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.fc.goods.sort.matching.puzzle.triplemaster",
+      "icon": "https://play-lh.googleusercontent.com/RwkKvO-guGehSwsn2_idyYwReVOmbBPi734nAY67wfQnHjilBRYrVRGkcQSl_iHJgyE=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=com.epidgames.trickcalrevive",
       "tab": "Featured",
       "section": "Featured",
       "priority": 83,
@@ -3556,10 +3541,10 @@
       "rank": 74
     },
     {
-      "name": "데이터 필요없는 게임 - 와이파이 필요없는 게임",
+      "name": "포트나이트",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/EhGvXNV5rZ4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.JindoBlu.OfflineGames",
+      "icon": "https://i.ytimg.com/vi/rVLZBWUboAs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.epicgames.fortnite",
       "tab": "Featured",
       "section": "Featured",
       "priority": 84,
@@ -3571,10 +3556,10 @@
       "rank": 75
     },
     {
-      "name": "둠스데이 × 공각기동대",
+      "name": "앵그리버드2",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/kX7XqjPPTrY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.igg.android.doomsdaylastsurvivors",
+      "icon": "https://i.ytimg.com/vi/Xd7muKqzXgs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.rovio.baba",
       "tab": "Featured",
       "section": "Featured",
       "priority": 85,
@@ -3586,10 +3571,10 @@
       "rank": 76
     },
     {
-      "name": "Pokémon GO",
+      "name": "둠스데이 × 공각기동대",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/g4YaYdQNf1w/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo",
+      "icon": "https://i.ytimg.com/vi/kX7XqjPPTrY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.igg.android.doomsdaylastsurvivors",
       "tab": "Featured",
       "section": "Featured",
       "priority": 86,
@@ -3601,10 +3586,10 @@
       "rank": 77
     },
     {
-      "name": "무한의 계단 : k리그 콜라보",
+      "name": "Pokémon GO",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/qb2TS18V8j4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.nflystudio.InfiniteStaircase",
+      "icon": "https://i.ytimg.com/vi/g4YaYdQNf1w/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo",
       "tab": "Featured",
       "section": "Featured",
       "priority": 87,
@@ -3616,10 +3601,10 @@
       "rank": 78
     },
     {
-      "name": "FC 모바일",
+      "name": "무한의 계단 : k리그 콜라보",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/-athhiunjMU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.nexon.fmk",
+      "icon": "https://i.ytimg.com/vi/qb2TS18V8j4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.nflystudio.InfiniteStaircase",
       "tab": "Featured",
       "section": "Featured",
       "priority": 88,
@@ -3631,10 +3616,10 @@
       "rank": 79
     },
     {
-      "name": "로얄 매치 Royal Match",
+      "name": "탕후루의 달인 - 두쫀쿠, 급식, 배달 먹방 ASMR",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/-ArmPbfQV6g/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalmatch",
+      "icon": "https://i.ytimg.com/vi/WvX5VRmpoZk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.whoyaho.tanghulu",
       "tab": "Featured",
       "section": "Featured",
       "priority": 89,
@@ -3646,10 +3631,10 @@
       "rank": 80
     },
     {
-      "name": "스도쿠 - 클래식 스도쿠 퍼즐",
+      "name": "Minecraft: 나만의 세계를 꿈꾸고 만들어보세요",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/GKtDFbfkENA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=easy.sudoku.puzzle.solver.free",
+      "icon": "https://i.ytimg.com/vi/wCgvDel7y2U/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe",
       "tab": "Featured",
       "section": "Featured",
       "priority": 90,
@@ -3661,10 +3646,10 @@
       "rank": 81
     },
     {
-      "name": "타일 클럽 - 매칭 게임",
+      "name": "Melon Sandbox",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/e9row3CAEGk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.gamovation.tileclub",
+      "icon": "https://i.ytimg.com/vi/J_b2SqNGk-w/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground",
       "tab": "Featured",
       "section": "Featured",
       "priority": 91,
@@ -3676,10 +3661,10 @@
       "rank": 82
     },
     {
-      "name": "Pixel Flow!",
+      "name": "Toca Boca World",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Rn4prn1-fXw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.loomgames.pixelflow",
+      "icon": "https://i.ytimg.com/vi/o3-ySvmKbCg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld",
       "tab": "Featured",
       "section": "Featured",
       "priority": 92,
@@ -3691,10 +3676,10 @@
       "rank": 83
     },
     {
-      "name": "Block Puzzle - 블럭 퍼즐",
+      "name": "Disney Solitaire",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/1aDx_APqqwk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=blockpuzzle.new1010.jewelgames.puzzlegames",
+      "icon": "https://i.ytimg.com/vi/PsY_M2bZZOU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams",
       "tab": "Featured",
       "section": "Featured",
       "priority": 93,
@@ -3706,10 +3691,10 @@
       "rank": 84
     },
     {
-      "name": "씨사이드 익스케이프: 합성 & 스토리 게임",
+      "name": "마라마스터 : 인형계, 포토카드 포장, 마라탕 먹방",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/aZLG-0mpT9c/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.gamedots.seasideescape",
+      "icon": "https://i.ytimg.com/vi/wnXrgBVwrvA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=supa.game.mala",
       "tab": "Featured",
       "section": "Featured",
       "priority": 94,
@@ -3721,10 +3706,10 @@
       "rank": 85
     },
     {
-      "name": "꿈의 집 (Homescapes)",
+      "name": "헬로키티 마이 드림 스토어",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/R_Frh_KE_V0/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.playrix.homescapes",
+      "icon": "https://i.ytimg.com/vi/MZOku-WyjBI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.actgames.HelloKittyMDS",
       "tab": "Featured",
       "section": "Featured",
       "priority": 95,
@@ -3736,10 +3721,10 @@
       "rank": 86
     },
     {
-      "name": "헬로키티 마이 드림 스토어",
+      "name": "My Grumpy: Funny Virtual Pet",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/MZOku-WyjBI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.actgames.HelloKittyMDS",
+      "icon": "https://i.ytimg.com/vi/ulgRsaTclOo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=br.com.tapps.mygrumpy",
       "tab": "Featured",
       "section": "Featured",
       "priority": 96,
@@ -3751,10 +3736,10 @@
       "rank": 87
     },
     {
-      "name": "꿈의 정원 (Gardenscapes)",
+      "name": "낚시여행",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/c6xp-IgWq6A/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.playrix.gardenscapes",
+      "icon": "https://i.ytimg.com/vi/Q2tI-wc_BbU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.arkgame.ft",
       "tab": "Featured",
       "section": "Featured",
       "priority": 97,
@@ -3766,10 +3751,10 @@
       "rank": 88
     },
     {
-      "name": "화살표 미로 - 퍼즐 탈출",
+      "name": "그랜드 호텔 마니아: 호텔 게임",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/iK7b3ehpfKI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.arrows.escape",
+      "icon": "https://i.ytimg.com/vi/FHaulrhJ1s8/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.deuscraft.TurboTeam",
       "tab": "Featured",
       "section": "Featured",
       "priority": 98,
@@ -3781,10 +3766,10 @@
       "rank": 89
     },
     {
-      "name": "머지 쿠킹 테마 레스토랑",
+      "name": "My Little Pony: 매직 프린세스",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/6H7E9tqCQc0/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.merge.cooking.theme.restaurant.food",
+      "icon": "https://i.ytimg.com/vi/FfRDYK2TAVE/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftPOHM",
       "tab": "Featured",
       "section": "Featured",
       "priority": 99,
@@ -3796,10 +3781,10 @@
       "rank": 90
     },
     {
-      "name": "브레인 테스트 (Brain Test): 까다로운 퍼즐",
+      "name": "Planet Miner: Idle Action Game",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/hsVO72YVByc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.unicostudio.braintest",
+      "icon": "https://i.ytimg.com/vi/zY5FH7Aqndk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.gryphongames.planetminer",
       "tab": "Featured",
       "section": "Featured",
       "priority": 100,
@@ -3811,10 +3796,10 @@
       "rank": 91
     },
     {
-      "name": "Marble Sort!",
+      "name": "어린이를 위한 아이스크림 가게 게임",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/A89uBHcYbeM/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.microdose.balljam",
+      "icon": "https://i.ytimg.com/vi/td0W6pKdGyo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.iz.ice.cream.shop.strawberry.popsicle.maker.truck.games",
       "tab": "Featured",
       "section": "Featured",
       "priority": 101,
@@ -3826,10 +3811,10 @@
       "rank": 92
     },
     {
-      "name": "Best Fiends - Match 3 Puzzles",
+      "name": "솔리테르 트라이픽스 팜 어드벤처",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/8QB0mJqyEgM/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.Seriously.BestFiends",
+      "icon": "https://i.ytimg.com/vi/kLTk6POISDA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.me2zen.tripeaks.v4.and",
       "tab": "Featured",
       "section": "Featured",
       "priority": 102,
@@ -3841,10 +3826,10 @@
       "rank": 93
     },
     {
-      "name": "100 개의 문 감옥에서 탈출해보세요— 감옥 탈출 게임",
+      "name": "Coco Valley: Farm Adventure",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/IsfH0H0SbNo/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.hundred_doors_game.escape_from_prison",
+      "icon": "https://i.ytimg.com/vi/DEQtU_vGdkc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.onicore.torch",
       "tab": "Featured",
       "section": "Featured",
       "priority": 103,
@@ -3856,10 +3841,10 @@
       "rank": 94
     },
     {
-      "name": "버블 슈터 프로 2026",
+      "name": "아기 판다의 공항",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/fjfOBGtKVl8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.madovergames.BubbleShooterPro",
+      "icon": "https://i.ytimg.com/vi/fxOednbWTeY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.airport",
       "tab": "Featured",
       "section": "Featured",
       "priority": 104,
@@ -3871,10 +3856,10 @@
       "rank": 95
     },
     {
-      "name": "Crafty Candy - Match 3 Game",
+      "name": "아기팬더의 케이크 샵",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Upqqiqfh40Q/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.outplayentertainment.candywitch",
+      "icon": "https://i.ytimg.com/vi/wOzYdPaKaYE/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.bakery",
       "tab": "Featured",
       "section": "Featured",
       "priority": 105,
@@ -3886,10 +3871,10 @@
       "rank": 96
     },
     {
-      "name": "운빨존많겜",
+      "name": "아기 팬더: 공주 파티",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/HwgaDIsxnm8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.percent.aos.luckydefense",
+      "icon": "https://i.ytimg.com/vi/zg1KNhukSDo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.dance",
       "tab": "Featured",
       "section": "Featured",
       "priority": 106,
@@ -3901,10 +3886,10 @@
       "rank": 97
     },
     {
-      "name": "모바일 레전드: Bang Bang",
+      "name": "헬로 타운 : 신입사원 머지 성공 스토리",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/OdzgtHe-LQI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.mobile.legends",
+      "icon": "https://i.ytimg.com/vi/1Ebprsyydkk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.spcomes.hellotown",
       "tab": "Featured",
       "section": "Featured",
       "priority": 107,
@@ -3916,10 +3901,10 @@
       "rank": 98
     },
     {
-      "name": "전략적 팀 전투: 리그 오브 레전드 전략 게임",
+      "name": "동방 찻집",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/dFg_oiTOSzE/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.riotgames.league.teamfighttactics",
+      "icon": "https://i.ytimg.com/vi/WMOula7GHpg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.mhclyxpb.gatja",
       "tab": "Featured",
       "section": "Featured",
       "priority": 108,
@@ -3931,10 +3916,10 @@
       "rank": 99
     },
     {
-      "name": "클래시 로얄 (Clash Royale)",
+      "name": "머지 페코 : 페코짱 카와이~!",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/DRL7PLN5RdA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.supercell.clashroyale",
+      "icon": "https://i.ytimg.com/vi/dd5Ix-VjMw4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.spcomes.mergepeko",
       "tab": "Featured",
       "section": "Featured",
       "priority": 109,
@@ -3946,10 +3931,10 @@
       "rank": 100
     },
     {
-      "name": "쿠키런: 킹덤",
+      "name": "Sorry! World - Board game",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/OwbEBrA63JM/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.devsisters.ck",
+      "icon": "https://i.ytimg.com/vi/mgx4a-oreXM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.gameberry.sorry.card.board.game",
       "tab": "Featured",
       "section": "Featured",
       "priority": 110,
@@ -3961,10 +3946,10 @@
       "rank": 101
     },
     {
-      "name": "변신 키우기",
+      "name": "Fable Town: 귀여운 머지게임",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/ruupaIFxlzc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.billionairegames.serares",
+      "icon": "https://i.ytimg.com/vi/9OXA2i0B15Q/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.reefgames.fabletown",
       "tab": "Featured",
       "section": "Featured",
       "priority": 111,
@@ -3976,10 +3961,10 @@
       "rank": 102
     },
     {
-      "name": "리그 오브 레전드: 와일드 리프트",
+      "name": "로얄 매치 Royal Match",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/NgvTD6Rbt-k/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.riotgames.league.wildrift",
+      "icon": "https://i.ytimg.com/vi/-ArmPbfQV6g/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalmatch",
       "tab": "Featured",
       "section": "Featured",
       "priority": 112,
@@ -3991,10 +3976,10 @@
       "rank": 103
     },
     {
-      "name": "Hole.io",
+      "name": "스도쿠 - 클래식 스도쿠 퍼즐",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/pNDzEXMQjOc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=io.voodoo.holeio",
+      "icon": "https://i.ytimg.com/vi/GKtDFbfkENA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=easy.sudoku.puzzle.solver.free",
       "tab": "Featured",
       "section": "Featured",
       "priority": 113,
@@ -4006,13 +3991,13 @@
       "rank": 104
     },
     {
-      "name": "포켓 챔프: 3D 레이싱 게임",
+      "name": "타일 클럽 - 매칭 게임",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/YHMNdYXnjNQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.pocketchamps.game",
+      "icon": "https://i.ytimg.com/vi/e9row3CAEGk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.gamovation.tileclub",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 115,
+      "priority": 114,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4021,13 +4006,13 @@
       "rank": 105
     },
     {
-      "name": "로드모바일: 킹덤 워즈",
+      "name": "Pixel Flow!",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/rRptqD2wKjw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.igg.android.lordsmobile",
+      "icon": "https://i.ytimg.com/vi/Rn4prn1-fXw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.loomgames.pixelflow",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 116,
+      "priority": 115,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4036,13 +4021,13 @@
       "rank": 106
     },
     {
-      "name": "헌터 키우기 : 방치형 RPG",
+      "name": "캔디크러쉬사가 (Candy Crush Saga)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/bjNXE7jPTVg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=studio.gameberry.idlehunter",
+      "icon": "https://i.ytimg.com/vi/OEXoSqMq3vE/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 117,
+      "priority": 116,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4051,13 +4036,13 @@
       "rank": 107
     },
     {
-      "name": "원신·공월의 노래",
+      "name": "Block Puzzle - 블럭 퍼즐",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/FI2pTY_c65Y/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact",
+      "icon": "https://i.ytimg.com/vi/1aDx_APqqwk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=blockpuzzle.new1010.jewelgames.puzzlegames",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 118,
+      "priority": 117,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4066,13 +4051,13 @@
       "rank": 108
     },
     {
-      "name": "XP Hero (XP 히어로)",
+      "name": "Alice's Dream: 합병 익지 게임",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/tc2FXCbMlj4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=io.supercent.weaponrpg",
+      "icon": "https://i.ytimg.com/vi/jzczfCYghd0/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.mergeland.alices.wonder.adventure",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 119,
+      "priority": 118,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4081,13 +4066,13 @@
       "rank": 109
     },
     {
-      "name": "컴투스프로야구2026",
+      "name": "씨사이드 익스케이프: 합성 & 스토리 게임",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/YEClN8TxEMA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.com2us.probaseball3d.normal.freefull.google.global.android.common",
+      "icon": "https://i.ytimg.com/vi/aZLG-0mpT9c/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.gamedots.seasideescape",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 120,
+      "priority": 119,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4096,13 +4081,13 @@
       "rank": 110
     },
     {
-      "name": "컴투스프로야구V26",
+      "name": "꿈의 집 (Homescapes)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/v1yGjWEkbtw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.com2us.futurecpb.android.google.global.normal",
+      "icon": "https://i.ytimg.com/vi/R_Frh_KE_V0/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.playrix.homescapes",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 121,
+      "priority": 120,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4111,13 +4096,13 @@
       "rank": 111
     },
     {
-      "name": "젠레스 존 제로",
+      "name": "화살표 미로 - 퍼즐 탈출",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/CRz610RFE7o/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.HoYoverse.Nap",
+      "icon": "https://i.ytimg.com/vi/iK7b3ehpfKI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.arrows.escape",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 122,
+      "priority": 121,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4126,13 +4111,13 @@
       "rank": 112
     },
     {
-      "name": "승리의 여신: 니케",
+      "name": "꿈의 정원 (Gardenscapes)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/meZtEmbxc9I/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.proximabeta.nikke",
+      "icon": "https://i.ytimg.com/vi/c6xp-IgWq6A/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.playrix.gardenscapes",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 123,
+      "priority": 122,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4141,13 +4126,13 @@
       "rank": 113
     },
     {
-      "name": "꿈의 마을 (Township)",
+      "name": "브레인 테스트 (Brain Test): 까다로운 퍼즐",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/YDl1rDgFhP8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.playrix.township",
+      "icon": "https://i.ytimg.com/vi/hsVO72YVByc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.unicostudio.braintest",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 124,
+      "priority": 123,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4156,13 +4141,13 @@
       "rank": 114
     },
     {
-      "name": "붕괴: 스타레일",
+      "name": "상품 정렬: 매치 3 퍼즐 - Goods Sorting",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/roAEItmDmvQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.HoYoverse.hkrpgoversea",
+      "icon": "https://i.ytimg.com/vi/D-POnK6SBp4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.fc.goods.sort.matching.puzzle.triplemaster",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 125,
+      "priority": 124,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4171,13 +4156,13 @@
       "rank": 115
     },
     {
-      "name": "1945 공군: 레트로 오락실 슈팅 게임",
+      "name": "Marble Sort!",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/cMrCTOgzWeA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.os.airforce",
+      "icon": "https://i.ytimg.com/vi/A89uBHcYbeM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.microdose.balljam",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 126,
+      "priority": 125,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4186,13 +4171,13 @@
       "rank": 116
     },
     {
-      "name": "Subway Surfers",
+      "name": "Squishmallows Match",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/ZOw5FRa-aJs/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf",
+      "icon": "https://i.ytimg.com/vi/mj95IuYZtgY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.eastsidegames.squishmallows",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 127,
+      "priority": 126,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4201,13 +4186,13 @@
       "rank": 117
     },
     {
-      "name": "마구마구 2026: 풀체인지",
+      "name": "버블 게임",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/pC0sYOhURNY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.netmarble.ma9bkr",
+      "icon": "https://i.ytimg.com/vi/C096cEqjFDk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.madovergames.PrincessPop",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 128,
+      "priority": 127,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4216,10 +4201,25 @@
       "rank": 118
     },
     {
-      "name": "탕탕특공대",
+      "name": "패션 병합（Merge Fashion）: 로맨스 스토리",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/VG9Mc4NT5wk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.dxx.firenow",
+      "icon": "https://i.ytimg.com/vi/AQpvodGXcSg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.infiniplay.merge.fashion.romance.story",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 128,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 119
+    },
+    {
+      "name": "HomeTown: 병합 퍼즐 게임",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/sY6TYnXL5Wc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.merge.hometown",
       "tab": "Featured",
       "section": "Featured",
       "priority": 129,
@@ -4228,7 +4228,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 119
+      "rank": 120
     },
     {
       "name": "Travel Town - 결합 어드벤처",
@@ -4243,13 +4243,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 120
+      "rank": 121
     },
     {
-      "name": "좀비고등학교",
+      "name": "머지 스위츠 : 고양이 카페 스토리",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/UuJoHFlFUNY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=net.kernys.aooni",
+      "icon": "https://i.ytimg.com/vi/vfvyHosMJqY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.spcomes.emerge",
       "tab": "Featured",
       "section": "Featured",
       "priority": 131,
@@ -4258,7 +4258,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 121
+      "rank": 122
     },
     {
       "name": "Geometry Dash Lite",
@@ -4273,7 +4273,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 122
+      "rank": 123
     },
     {
       "name": "스네이크 클래시 (Snake Clash)",
@@ -4288,13 +4288,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 123
+      "rank": 124
     },
     {
-      "name": "Minecraft: 나만의 세계를 꿈꾸고 만들어보세요",
+      "name": "1945 공군: 레트로 오락실 슈팅 게임",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/wCgvDel7y2U/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe",
+      "icon": "https://i.ytimg.com/vi/cMrCTOgzWeA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.os.airforce",
       "tab": "Featured",
       "section": "Featured",
       "priority": 134,
@@ -4303,37 +4303,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 124
-    },
-    {
-      "name": "Toca Boca World",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/o3-ySvmKbCg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 135,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
       "rank": 125
-    },
-    {
-      "name": "Melon Sandbox",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/J_b2SqNGk-w/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 136,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 126
     },
     {
       "name": "토킹톰 골드런",
@@ -4342,28 +4312,13 @@
       "url": "https://play.google.com/store/apps/details?id=com.outfit7.talkingtomgoldrun",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 137,
+      "priority": 135,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 127
-    },
-    {
-      "name": "Disney Solitaire",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/PsY_M2bZZOU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 138,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 128
+      "rank": 126
     },
     {
       "name": "Supreme Duelist Stickman",
@@ -4372,7 +4327,37 @@
       "url": "https://play.google.com/store/apps/details?id=com.Neurononfire.SupremeDuelist",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 139,
+      "priority": 136,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 127
+    },
+    {
+      "name": "쿠키런: 킹덤",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/OwbEBrA63JM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.devsisters.ck",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 137,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 128
+    },
+    {
+      "name": "승리의 여신: 니케",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/meZtEmbxc9I/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.proximabeta.nikke",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 138,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4381,13 +4366,13 @@
       "rank": 129
     },
     {
-      "name": "마라마스터 : 인형계, 포토카드 포장, 마라탕 먹방",
+      "name": "붕괴: 스타레일",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/wnXrgBVwrvA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=supa.game.mala",
+      "icon": "https://i.ytimg.com/vi/roAEItmDmvQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.HoYoverse.hkrpgoversea",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 140,
+      "priority": 139,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4396,13 +4381,13 @@
       "rank": 130
     },
     {
-      "name": "매칭 고 (Matching Go!) - 퍼즐 게임",
+      "name": "마비노기 모바일",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Wmba3ZkJydM/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.matchinggo.puzzlegames",
+      "icon": "https://i.ytimg.com/vi/3XbfWEWFE3o/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.nexon.devcat.mm",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 141,
+      "priority": 140,
       "genre": "",
       "rating": 0,
       "category": "Games",
@@ -4411,10 +4396,10 @@
       "rank": 131
     },
     {
-      "name": "Grill Sort - 고기구이, 바비큐 맞추기",
+      "name": "변신 키우기",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Y9Lrc5VA0rM/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=grill.sort.food.games.match.puzzle",
+      "icon": "https://i.ytimg.com/vi/ruupaIFxlzc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.billionairegames.serares",
       "tab": "Featured",
       "section": "Featured",
       "priority": 142,
@@ -4426,10 +4411,10 @@
       "rank": 132
     },
     {
-      "name": "애니팡4: 매치3 퍼즐 게임",
+      "name": "헌터 키우기 : 방치형 RPG",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/KaPZddLQdG4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.sundaytoz.kakao.anipang4",
+      "icon": "https://i.ytimg.com/vi/bjNXE7jPTVg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=studio.gameberry.idlehunter",
       "tab": "Featured",
       "section": "Featured",
       "priority": 143,
@@ -4441,10 +4426,10 @@
       "rank": 133
     },
     {
-      "name": "캔디크러쉬소다",
+      "name": "원신·공월의 노래",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/fkMfCnCERI4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsodasaga",
+      "icon": "https://i.ytimg.com/vi/FI2pTY_c65Y/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact",
       "tab": "Featured",
       "section": "Featured",
       "priority": 144,
@@ -4456,10 +4441,10 @@
       "rank": 134
     },
     {
-      "name": "피쉬돔 (Fishdom)",
+      "name": "XP Hero (XP 히어로)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/eFdOMClsKGI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.playrix.fishdomdd.gplay",
+      "icon": "https://i.ytimg.com/vi/tc2FXCbMlj4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=io.supercent.weaponrpg",
       "tab": "Featured",
       "section": "Featured",
       "priority": 145,
@@ -4471,10 +4456,10 @@
       "rank": 135
     },
     {
-      "name": "Matching Story - Puzzle Games",
+      "name": "크리티카: 천상의 기사단 - 액션 RPG",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/IZf9w5koHBU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.joycastle.mergematch",
+      "icon": "https://i.ytimg.com/vi/WowhHuU0aoc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.gamevil.kritikamobile.android.google.global.normal",
       "tab": "Featured",
       "section": "Featured",
       "priority": 146,
@@ -4486,10 +4471,10 @@
       "rank": 136
     },
     {
-      "name": "쿠키런: 오븐스매시",
+      "name": "탕탕특공대",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/zcwLnb1Cp3U/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.devsisters.cos",
+      "icon": "https://i.ytimg.com/vi/VG9Mc4NT5wk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.dxx.firenow",
       "tab": "Featured",
       "section": "Featured",
       "priority": 147,
@@ -4501,10 +4486,10 @@
       "rank": 137
     },
     {
-      "name": "피망 뉴맞고: 고스톱 대표 맞고 게임",
+      "name": "좀비 웨이브스",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/IlYOqQeeNfs/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo",
+      "icon": "https://i.ytimg.com/vi/GsqcIeT7ojw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ddup.zombiewaves.zw",
       "tab": "Featured",
       "section": "Featured",
       "priority": 148,
@@ -4516,10 +4501,10 @@
       "rank": 138
     },
     {
-      "name": "한게임 신맞고 : 대한민국 원조 고스톱",
+      "name": "픽셀 히어로즈: 방치형 RPG",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/FUhq03dJKUc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.NHNEnt.NDuelgo",
+      "icon": "https://play-lh.googleusercontent.com/FwjuWveP0tH4q5bt8_4ChNn7THsECU6hk-1u25sPoARLP4sqh_8Z6Zlr9EGPMpTMUA=w416-h235-rw",
+      "url": "https://play.google.com/store/apps/details?id=xyz.lightgame.tuantuan",
       "tab": "Featured",
       "section": "Featured",
       "priority": 149,
@@ -4531,10 +4516,10 @@
       "rank": 139
     },
     {
-      "name": "마비노기 모바일",
+      "name": "QWER의 지구정복 : 외계인은 배고파",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/3XbfWEWFE3o/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.nexon.devcat.mm",
+      "icon": "https://i.ytimg.com/vi/bI-S0KMUufI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.DetailGames.HungryAliens",
       "tab": "Featured",
       "section": "Featured",
       "priority": 150,
@@ -4546,10 +4531,10 @@
       "rank": 140
     },
     {
-      "name": "Among Us",
+      "name": "FC 모바일",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/8QSyEOICYSo/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.innersloth.spacemafia",
+      "icon": "https://i.ytimg.com/vi/-athhiunjMU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.nexon.fmk",
       "tab": "Featured",
       "section": "Featured",
       "priority": 151,
@@ -4561,10 +4546,10 @@
       "rank": 141
     },
     {
-      "name": "협동 타워 디펜스 : 친구와 함께",
+      "name": "전략적 팀 전투: 리그 오브 레전드 전략 게임",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/4ueLURPE224/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.percent.aos.cooptd",
+      "icon": "https://i.ytimg.com/vi/dFg_oiTOSzE/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.riotgames.league.teamfighttactics",
       "tab": "Featured",
       "section": "Featured",
       "priority": 152,
@@ -4576,10 +4561,10 @@
       "rank": 142
     },
     {
-      "name": "한게임 섯다&맞고",
+      "name": "베이스볼 PvP: 실시간 게임",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/jvCh1Wh8jpk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.NHNEnt.MSudda",
+      "icon": "https://i.ytimg.com/vi/uiss6B380pY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.neowiz.game.baseball.clash",
       "tab": "Featured",
       "section": "Featured",
       "priority": 153,
@@ -4591,10 +4576,10 @@
       "rank": 143
     },
     {
-      "name": "탕후루의 달인 - 두쫀쿠, 급식, 배달 먹방 ASMR",
+      "name": "클래시 로얄 (Clash Royale)",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/WvX5VRmpoZk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.whoyaho.tanghulu",
+      "icon": "https://i.ytimg.com/vi/DRL7PLN5RdA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.supercell.clashroyale",
       "tab": "Featured",
       "section": "Featured",
       "priority": 154,
@@ -4606,10 +4591,10 @@
       "rank": 144
     },
     {
-      "name": "Diner DASH Adventures",
+      "name": "컴투스프로야구2026",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/BBmPQFN_zlI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.glu.dashtown",
+      "icon": "https://i.ytimg.com/vi/YEClN8TxEMA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.com2us.probaseball3d.normal.freefull.google.global.android.common",
       "tab": "Featured",
       "section": "Featured",
       "priority": 155,
@@ -4621,10 +4606,10 @@
       "rank": 145
     },
     {
-      "name": "Dino Quest 2: Dinosaur Fossil",
+      "name": "쿠키런: 오븐스매시",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/lCWTf2dfWPs/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.tapps.games.dig.dinoquest2",
+      "icon": "https://i.ytimg.com/vi/zcwLnb1Cp3U/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.devsisters.cos",
       "tab": "Featured",
       "section": "Featured",
       "priority": 156,
@@ -4636,10 +4621,10 @@
       "rank": 146
     },
     {
-      "name": "Kpopsies - 팝스타 유니콘 밴드를 부화시키세요",
+      "name": "리그 오브 레전드: 와일드 리프트",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/lbpxetI1WeU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.tutotoons.app.kpopsiescuteunicornpets",
+      "icon": "https://i.ytimg.com/vi/NgvTD6Rbt-k/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.riotgames.league.wildrift",
       "tab": "Featured",
       "section": "Featured",
       "priority": 157,
@@ -4651,10 +4636,10 @@
       "rank": 147
     },
     {
-      "name": "Rilakkuma Farm",
+      "name": "피망 뉴맞고: 고스톱 대표 맞고 게임",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/e6ewXC1DPSw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.imagineer.rilakkuma.farm",
+      "icon": "https://i.ytimg.com/vi/IlYOqQeeNfs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo",
       "tab": "Featured",
       "section": "Featured",
       "priority": 158,
@@ -4666,10 +4651,10 @@
       "rank": 148
     },
     {
-      "name": "Avatar World ®",
+      "name": "한게임 신맞고 : 대한민국 원조 고스톱",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/n7-L9NGlQfk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.pazugames.avatarworld",
+      "icon": "https://i.ytimg.com/vi/FUhq03dJKUc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.NHNEnt.NDuelgo",
       "tab": "Featured",
       "section": "Featured",
       "priority": 159,
@@ -4681,10 +4666,10 @@
       "rank": 149
     },
     {
-      "name": "헬로 타운 : 신입사원 머지 성공 스토리",
+      "name": "운빨존많겜",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/1Ebprsyydkk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.spcomes.hellotown",
+      "icon": "https://i.ytimg.com/vi/HwgaDIsxnm8/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.percent.aos.luckydefense",
       "tab": "Featured",
       "section": "Featured",
       "priority": 160,
@@ -4696,10 +4681,10 @@
       "rank": 150
     },
     {
-      "name": "패션 병합（Merge Fashion）: 로맨스 스토리",
+      "name": "컴투스프로야구V26",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/AQpvodGXcSg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.infiniplay.merge.fashion.romance.story",
+      "icon": "https://i.ytimg.com/vi/v1yGjWEkbtw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.com2us.futurecpb.android.google.global.normal",
       "tab": "Featured",
       "section": "Featured",
       "priority": 161,
@@ -4711,10 +4696,10 @@
       "rank": 151
     },
     {
-      "name": "Solar Smash",
+      "name": "로드모바일: 킹덤 워즈",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/NfQ7ScMkFyo/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.paradyme.solarsmash",
+      "icon": "https://i.ytimg.com/vi/rRptqD2wKjw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.igg.android.lordsmobile",
       "tab": "Featured",
       "section": "Featured",
       "priority": 162,
@@ -4726,10 +4711,10 @@
       "rank": 152
     },
     {
-      "name": "고양이와 스프: 귀여운 힐링 방치형 키우기 게임",
+      "name": "Subway Surfers",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/xkTSDD_ic78/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.hidea.cat",
+      "icon": "https://i.ytimg.com/vi/ZOw5FRa-aJs/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf",
       "tab": "Featured",
       "section": "Featured",
       "priority": 163,
@@ -4741,10 +4726,10 @@
       "rank": 153
     },
     {
-      "name": "Domino Dreams™",
+      "name": "좀비고등학교",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/amApyozqRGQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.screenshake.dominodreams",
+      "icon": "https://i.ytimg.com/vi/UuJoHFlFUNY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=net.kernys.aooni",
       "tab": "Featured",
       "section": "Featured",
       "priority": 164,
@@ -4756,10 +4741,10 @@
       "rank": 154
     },
     {
-      "name": "Masha and the Bear Educational",
+      "name": "마구마구 2026: 풀체인지",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/jJD2SeeMZyQ/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.edujoy.masha.games",
+      "icon": "https://i.ytimg.com/vi/pC0sYOhURNY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.netmarble.ma9bkr",
       "tab": "Featured",
       "section": "Featured",
       "priority": 165,
@@ -4771,10 +4756,10 @@
       "rank": 155
     },
     {
-      "name": "Banana Kong",
+      "name": "2인용 게임: 도전",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Fk8h6dF_O4Q/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.fdgentertainment.bananakong",
+      "icon": "https://i.ytimg.com/vi/1J5rQZ5QFTc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.JindoBlu.TwoPlayerGamesChallenge",
       "tab": "Featured",
       "section": "Featured",
       "priority": 166,
@@ -4786,25 +4771,10 @@
       "rank": 156
     },
     {
-      "name": "아이들을 위한 퍼즐 게임: 직소 퍼즐",
+      "name": "안티스트레스 - 릴렉스 토이",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/Jgt3Jok-EsI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.rvappstudios.jigsaw.puzzles.kids",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 167,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 157
-    },
-    {
-      "name": "Kick the Buddy: 스트레스 해소 미니게임",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/cLqIm1na13c/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.playgendary.kickthebuddy",
+      "icon": "https://i.ytimg.com/vi/I-dXmTvwzFU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.JindoBlu.Antistress",
       "tab": "Featured",
       "section": "Featured",
       "priority": 168,
@@ -4813,13 +4783,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 158
+      "rank": 157
     },
     {
-      "name": "쿠키런: 오븐브레이크",
+      "name": "한게임 섯다&맞고",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/b69f2eFqmdU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.devsisters.gb",
+      "icon": "https://i.ytimg.com/vi/jvCh1Wh8jpk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.NHNEnt.MSudda",
       "tab": "Featured",
       "section": "Featured",
       "priority": 169,
@@ -4828,13 +4798,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 159
+      "rank": 158
     },
     {
-      "name": "머지 스위츠 : 고양이 카페 스토리",
+      "name": "Smolsies - 내 귀여운 펫 하우스",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/vfvyHosMJqY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.spcomes.emerge",
+      "icon": "https://i.ytimg.com/vi/TX6HECnZo5Q/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.tutotoons.app.smolsiesmycutepethouse.free",
       "tab": "Featured",
       "section": "Featured",
       "priority": 170,
@@ -4843,13 +4813,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 160
+      "rank": 159
     },
     {
-      "name": "데몬 헌터: 섀도우 월드",
+      "name": "픽셀 아트 - 숫자 색칠게임 책",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/dv_SdRHaPRc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.eapublishing.dhsw.free",
+      "icon": "https://i.ytimg.com/vi/HAaY6Pj8LLc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.europosit.pixelcoloring",
       "tab": "Featured",
       "section": "Featured",
       "priority": 171,
@@ -4858,13 +4828,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 161
+      "rank": 160
     },
     {
-      "name": "헌트 로얄: 배틀 아레나",
+      "name": "캣 히어로 : 방치형 RPG",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/dUzUKRQgVY8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.hunt.royale",
+      "icon": "https://i.ytimg.com/vi/K6Qz7v6XGzg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=net.gameduo.gv",
       "tab": "Featured",
       "section": "Featured",
       "priority": 172,
@@ -4873,13 +4843,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 162
+      "rank": 161
     },
     {
-      "name": "WWE Champions",
+      "name": "길건너 친구들",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/8KFyXAUzvt8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.scopely.whiplash",
+      "icon": "https://i.ytimg.com/vi/AeMksgzpkWQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.yodo1.crossyroad",
       "tab": "Featured",
       "section": "Featured",
       "priority": 173,
@@ -4888,13 +4858,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 163
+      "rank": 162
     },
     {
-      "name": "Dungeon Clawler",
+      "name": "고양이와 스프: 귀여운 힐링 방치형 키우기 게임",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/3UDTxqZf0qw/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.strayfawnstudio.dungeonclawlermobile",
+      "icon": "https://i.ytimg.com/vi/xkTSDD_ic78/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.hidea.cat",
       "tab": "Featured",
       "section": "Featured",
       "priority": 174,
@@ -4903,157 +4873,7 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 164
-    },
-    {
-      "name": "인빈시블: 가딩 더 글로브",
-      "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/3vkF5RTOrR-1vHTCeCTzyWbKcVyfFS_lV6EokCQHJZFD-l-4ki7w7h8ERL5Fpnt0upJvak446TyTpqkpHf5PRU8=w416-h235-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.ubisoft.invincible.guardians.globe.idle.superhero.rpg.battle.afk",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 175,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 165
-    },
-    {
-      "name": "동방 찻집",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/WMOula7GHpg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.mhclyxpb.gatja",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 176,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 166
-    },
-    {
-      "name": "머지 페코 : 페코짱 카와이~!",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/dd5Ix-VjMw4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.spcomes.mergepeko",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 177,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 167
-    },
-    {
-      "name": "Goose Goose Duck",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/XRlC0iXozBY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.Gaggle.fun.GooseGooseDuck",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 178,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 168
-    },
-    {
-      "name": "다이 하드 - 컬러 전쟁",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/yaY9opBGuyo/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=flexus.dye.hard",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 179,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 169
-    },
-    {
-      "name": "Pokémon UNITE",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/EUbBD3w9rSc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.pokemon.pokemonunite",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 180,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 170
-    },
-    {
-      "name": "랜덤 다이스 디펜스 : PVP 타워 디펜스",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/kUQUmHXuxfA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.percent.royaldice",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 181,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 171
-    },
-    {
-      "name": "레이드 러시: 타워 디펜스",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/vRMnHVysdsA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.wireless.defenseland",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 182,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 172
-    },
-    {
-      "name": "타워 워 (Tower War)",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/tQYsItaPDsg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=games.vaveda.militaryoverturn",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 183,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 173
-    },
-    {
-      "name": "갤럭시 디펜스 (Galaxy Defense)",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/K-TYgbhC_yc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.cyberjoy.galaxydefense",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 184,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 174
+      "rank": 163
     },
     {
       "name": "마피아42",
@@ -5062,268 +4882,28 @@
       "url": "https://play.google.com/store/apps/details?id=com.sopt.mafia42.client",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 185,
+      "priority": 175,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 175
+      "rank": 164
     },
     {
-      "name": "새비지 서바이벌: 쥬라기 아일",
+      "name": "서머너즈 워: 천공의 아레나",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/94qTdX3_ZO8/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.slg.savagesurvival",
+      "icon": "https://i.ytimg.com/vi/KWiVOfEgAjI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.com2us.smon.normal.freefull.google.kr.android.common",
       "tab": "Featured",
       "section": "Featured",
-      "priority": 186,
+      "priority": 176,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 176
-    },
-    {
-      "name": "Draft Showdown",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/0foK-sucZkc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.QuestLab.DraftWar",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 187,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 177
-    },
-    {
-      "name": "페이트 워",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/hZEibmHvh8U/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.igg.android.fatewar",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 188,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 178
-    },
-    {
-      "name": "뉴포리아: 서바이벌",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/WhwxUR2iUck/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.Eclipse.Neuphoria",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 189,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 179
-    },
-    {
-      "name": "안티스트레스 - 릴렉스 토이",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/I-dXmTvwzFU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.JindoBlu.Antistress",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 190,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 180
-    },
-    {
-      "name": "eFootball™",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/oXEdzuF-oHs/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jp.konami.pesam",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 191,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 181
-    },
-    {
-      "name": "Delta Force",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/wudKp9SHylo/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.proxima.dfm",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 192,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 182
-    },
-    {
-      "name": "검은사막 모바일",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/uJxDrKIOq8w/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.pearlabyss.blackdesertm",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 193,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 183
-    },
-    {
-      "name": "애니팡 맞고:카카오 고스톱 맞고 게임",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/zFZ-6Lhh0sI/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.sundaytoz.kakao.matgo.service",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 194,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 184
-    },
-    {
-      "name": "MLB 9이닝스 26",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/ZkPWXLoXEv4/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.com2us.ninepb3d.normal.freefull.google.global.android.common",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 195,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 185
-    },
-    {
-      "name": "나이트 크로우",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/73cRdT3Rb1A/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.wemade.nightcrows",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 196,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 186
-    },
-    {
-      "name": "직소 퍼즐 - HD 퍼즐 게임",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/xR9aodAdjjU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=jigsaw.puzzle.free.games",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 197,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 187
-    },
-    {
-      "name": "히든 오브젝트 - 포토 퍼즐 게임",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/Pl_aMegzq24/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.dp.hidden.objects",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 198,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 188
-    },
-    {
-      "name": "Race Max Pro: 자동차 레이싱 게임",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/e7TyYncjFVU/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=game.revani.racemaxpro",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 199,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 189
-    },
-    {
-      "name": "레이싱 마스터(Racing Master)",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/72lyDZKu9JY/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.netease.dfjskr",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 200,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 190
-    },
-    {
-      "name": "2인용 게임: 도전",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/1J5rQZ5QFTc/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.JindoBlu.TwoPlayerGamesChallenge",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 201,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 191
-    },
-    {
-      "name": "Dice Dreams™️",
-      "dev": "",
-      "icon": "https://i.ytimg.com/vi/uY7-91aJdjk/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.dicedreams",
-      "tab": "Featured",
-      "section": "Featured",
-      "priority": 202,
-      "genre": "",
-      "rating": 0,
-      "category": "Games",
-      "nexon": false,
-      "banner": false,
-      "rank": 192
+      "rank": 165
     },
     {
       "name": "모두의마블",
@@ -5332,19 +4912,409 @@
       "url": "https://play.google.com/store/apps/details?id=com.cjenm.ModooMarbleKakao",
       "tab": "Featured",
       "section": "Featured",
+      "priority": 177,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 166
+    },
+    {
+      "name": "Find The Cat - Spot It!",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/cUxlfAsAznk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ventogames.findthecat",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 178,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 167
+    },
+    {
+      "name": "뻐끔뻐끔 배틀-Fish Eat Fish.io",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/g-v8-Klp7_4/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.FishEatFish.FeedGrow",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 179,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 168
+    },
+    {
+      "name": "애니팡 맞고:카카오 고스톱 맞고 게임",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/zFZ-6Lhh0sI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.sundaytoz.kakao.matgo.service",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 180,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 169
+    },
+    {
+      "name": "일곱 개의 대죄: GRAND CROSS",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/Rp08EDaEOwY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.netmarble.nanakr",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 181,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 170
+    },
+    {
+      "name": "Among Us",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/8QSyEOICYSo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.innersloth.spacemafia",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 182,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 171
+    },
+    {
+      "name": "Goose Goose Duck",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/XRlC0iXozBY/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.Gaggle.fun.GooseGooseDuck",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 183,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 172
+    },
+    {
+      "name": "Bunker Wars: 1차 세계대전 RTS 게임",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/sMT9IAZ4Sr0/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=rts.bunker.wars",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 184,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 173
+    },
+    {
+      "name": "다이 하드 - 컬러 전쟁",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/yaY9opBGuyo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=flexus.dye.hard",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 185,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 174
+    },
+    {
+      "name": "Pokémon UNITE",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/EUbBD3w9rSc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.pokemon.pokemonunite",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 186,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 175
+    },
+    {
+      "name": "랜덤 다이스 디펜스 : PVP 타워 디펜스",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/kUQUmHXuxfA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.percent.royaldice",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 187,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 176
+    },
+    {
+      "name": "모바일 레전드: Bang Bang",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/OdzgtHe-LQI/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.mobile.legends",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 188,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 177
+    },
+    {
+      "name": "레이드 러시: 타워 디펜스",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/vRMnHVysdsA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.wireless.defenseland",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 189,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 178
+    },
+    {
+      "name": "타워 워 (Tower War)",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/tQYsItaPDsg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=games.vaveda.militaryoverturn",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 190,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 179
+    },
+    {
+      "name": "갤럭시 디펜스 (Galaxy Defense)",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/K-TYgbhC_yc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.cyberjoy.galaxydefense",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 191,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 180
+    },
+    {
+      "name": "Draft Showdown",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/0foK-sucZkc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.QuestLab.DraftWar",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 192,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 181
+    },
+    {
+      "name": "새비지 서바이벌: 쥬라기 아일",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/94qTdX3_ZO8/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.slg.savagesurvival",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 193,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 182
+    },
+    {
+      "name": "Kingdom Rush 킹덤 러쉬 전략형 타워 디펜스",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/olHyQclaSlA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ironhidegames.android.kingdomrush",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 194,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 183
+    },
+    {
+      "name": "매직 케빈: 나의 마법 장원",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/HPYFRvqoSYw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.photonfox.g001",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 195,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 184
+    },
+    {
+      "name": "갓물주 키우기",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/AqYEEg9m0ME/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.shimmergames.tenants.gp",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 196,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 185
+    },
+    {
+      "name": "Eatventure",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/8RelnksYx5U/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.hwqgrhhjfd.idlefastfood",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 197,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 186
+    },
+    {
+      "name": "캣스토랑 : 고양이 셰프",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/6wsuMND9SyU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.superbox.aos.catkitchen",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 198,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 187
+    },
+    {
+      "name": "Hole.io",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/pNDzEXMQjOc/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=io.voodoo.holeio",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 199,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 188
+    },
+    {
+      "name": "포켓 챔프: 3D 레이싱 게임",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/YHMNdYXnjNQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.pocketchamps.game",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 200,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 189
+    },
+    {
+      "name": "Mini Militia - War.io",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/Xtrqu1HK4Ww/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.appsomniacs.da2",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 201,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 190
+    },
+    {
+      "name": "더 디비전 리서전스",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/DHobcMcvmqA/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.ubisoft.the.division.mobile.combat.shooting.open.world.rpg",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 202,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 191
+    },
+    {
+      "name": "Hole Stars: 퍼즐 게임",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/dy1GWvJ1DWo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.moonactive.holestars",
+      "tab": "Featured",
+      "section": "Featured",
       "priority": 203,
       "genre": "",
       "rating": 0,
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 193
+      "rank": 192
     },
     {
-      "name": "명일방주: 엔드필드",
+      "name": "쿠키런: 오븐브레이크",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/6UWYY3CzTkA/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.gryphline.endfield.gp",
+      "icon": "https://i.ytimg.com/vi/b69f2eFqmdU/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.devsisters.gb",
       "tab": "Featured",
       "section": "Featured",
       "priority": 204,
@@ -5353,13 +5323,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 194
+      "rank": 193
     },
     {
-      "name": "일곱 개의 대죄: Origin",
+      "name": "Epic Plane Evolution",
       "dev": "",
-      "icon": "https://play-lh.googleusercontent.com/egj9ZPtvzPG_94HtirVTBzNJU_HP5AB8FMOiIlthx-ITZbfvYaHzJ6o4LjpiVGNBkRef7sz7CswfD9A8mawhzQ=w416-h235-rw",
-      "url": "https://play.google.com/store/apps/details?id=com.netmarble.nanaori",
+      "icon": "https://i.ytimg.com/vi/E5E9LoNRWDk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.WalkTalk.FlightMaster",
       "tab": "Featured",
       "section": "Featured",
       "priority": 205,
@@ -5368,13 +5338,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 195
+      "rank": 194
     },
     {
-      "name": "디아블로 이모탈",
+      "name": "Delta Force",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/or42Byxzu1o/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.blizzard.diablo.immortal",
+      "icon": "https://i.ytimg.com/vi/wudKp9SHylo/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.proxima.dfm",
       "tab": "Featured",
       "section": "Featured",
       "priority": 206,
@@ -5383,13 +5353,13 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
-      "rank": 196
+      "rank": 195
     },
     {
-      "name": "붕괴3rd",
+      "name": "Tomb of the Mask: 픽셀 미로",
       "dev": "",
-      "icon": "https://i.ytimg.com/vi/RwhSuCIUQeg/hqdefault.jpg",
-      "url": "https://play.google.com/store/apps/details?id=com.miHoYo.bh3korea",
+      "icon": "https://i.ytimg.com/vi/yROmgQoH-Gw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.playgendary.tom",
       "tab": "Featured",
       "section": "Featured",
       "priority": 207,
@@ -5398,7 +5368,97 @@
       "category": "Games",
       "nexon": false,
       "banner": false,
+      "rank": 196
+    },
+    {
+      "name": "Geometry Dash SubZero",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/RpqNpRe9MZQ/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.robtopx.geometrydashsubzero",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 208,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
       "rank": 197
+    },
+    {
+      "name": "Tiles in Hole 타일 인 홀: 먹는 게임",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/BwKJnKzwkuM/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=and.lihuhu.tilesinhole",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 209,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 198
+    },
+    {
+      "name": "스나이퍼 3D：건슈팅 게임",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/HdAMfl_D4Tw/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.fungames.sniper3d",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 210,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 199
+    },
+    {
+      "name": "Galaxiga: Galaxy Arcade Game",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/Od3UTClSsfk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.os.space.force.galaxy.alien",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 211,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 200
+    },
+    {
+      "name": "War Drone: 3D Shooting Games",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/K2jRx60tGXg/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=com.miniclip.drone1",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 212,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 201
+    },
+    {
+      "name": "Falcon Squad: Classic Arcade",
+      "dev": "",
+      "icon": "https://i.ytimg.com/vi/P1JCDBsqEMk/hqdefault.jpg",
+      "url": "https://play.google.com/store/apps/details?id=invaders.os.galaxy.space.shooter.attack.classic",
+      "tab": "Featured",
+      "section": "Featured",
+      "priority": 213,
+      "genre": "",
+      "rating": 0,
+      "category": "Games",
+      "nexon": false,
+      "banner": false,
+      "rank": 202
     }
   ]
 }

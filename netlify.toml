@@ -5,7 +5,7 @@
 [functions]
   external_node_modules = ["google-play-scraper"]
   node_bundler = "esbuild"
-  
+
 [functions.crawl]
   timeout = 60
 
@@ -13,3 +13,21 @@
   from = "/api/*"
   to = "/.netlify/functions/:splat"
   status = 200
+
+# ───── 캐시 정책 ─────
+# HTML: 짧게 (배포마다 즉시 반영)
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=60, must-revalidate"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "public, max-age=60, must-revalidate"
+
+# JS/CSS: 짧은 캐시 + stale-while-revalidate
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300, stale-while-revalidate=600"

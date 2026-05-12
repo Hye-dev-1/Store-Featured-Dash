@@ -1,9 +1,8 @@
 const GITHUB_RAW = "https://raw.githubusercontent.com/Hye-dev-1/Store-Featured-Dash/main/data";
 
 export const handler = async (event) => {
-  const gplayPkg = await import("google-play-scraper");
-  const gplay = gplayPkg.default || gplayPkg;
   const country = (event.queryStringParameters?.country || "KR").toUpperCase();
+  const dateParam = (event.queryStringParameters?.date || "").trim();
   const H = { "Access-Control-Allow-Origin": "*", "Content-Type": "application/json" };
 
   const CFG = {
@@ -15,6 +14,42 @@ export const handler = async (event) => {
   };
 
   if (!CFG[country]) return { statusCode: 400, headers: H, body: JSON.stringify({ error: "Unknown country" }) };
+
+  /* ═══ 인덱스 모드: ?index=1 ═══ */
+  /* data/index.json 프록시. 클라이언트가 사용 가능 날짜 리스트를 얻는다. */
+  if (event.queryStringParameters?.index) {
+    try {
+      const r = await fetch(`${GITHUB_RAW}/index.json`);
+      if (!r.ok) return { statusCode: 404, headers: H, body: JSON.stringify({ error: "index not built yet" }) };
+      const body = await r.text();
+      return { statusCode: 200, headers: H, body };
+    } catch (e) {
+      return { statusCode: 502, headers: H, body: JSON.stringify({ error: "index fetch failed", message: e.message }) };
+    }
+  }
+
+  /* ═══ 아카이브 모드: ?date=YYYY-MM-DD ═══ */
+  /* 크롤링 안 함. GitHub raw의 archive/{date}/{country}.json 직접 반환 */
+  if (dateParam) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(dateParam)) {
+      return { statusCode: 400, headers: H, body: JSON.stringify({ error: "date must be YYYY-MM-DD" }) };
+    }
+    const url = `${GITHUB_RAW}/archive/${dateParam}/${country}.json`;
+    try {
+      const r = await fetch(url);
+      if (!r.ok) {
+        return { statusCode: 404, headers: H, body: JSON.stringify({ error: "snapshot not found", date: dateParam, country, url }) };
+      }
+      const body = await r.text();
+      return { statusCode: 200, headers: H, body };
+    } catch (e) {
+      return { statusCode: 502, headers: H, body: JSON.stringify({ error: "archive fetch failed", message: e.message }) };
+    }
+  }
+
+  /* ═══ 라이브 모드 (기존 동작) ═══ */
+  const gplayPkg = await import("google-play-scraper");
+  const gplay = gplayPkg.default || gplayPkg;
   const c = CFG[country];
 
   /* ═══ 장르 매핑 ═══ */

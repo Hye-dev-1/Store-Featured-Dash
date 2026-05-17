@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T03:46:38.411Z",
+  "generated": "2026-05-17T04:05:00.960Z",
   "retention_days": 90,
   "countries": [
     "KR",
@@ -8,8 +8,38 @@
     "US",
     "TH"
   ],
-  "latest": "2026-05-16",
+  "latest": "2026-05-17",
   "dates": [
+    {
+      "date": "2026-05-17",
+      "countries": {
+        "KR": {
+          "apple": 165,
+          "google": 229,
+          "updated": "2026-05-17T03:55:37.613Z"
+        },
+        "TW": {
+          "apple": 107,
+          "google": 229,
+          "updated": "2026-05-17T03:58:05.034Z"
+        },
+        "JP": {
+          "apple": 212,
+          "google": 236,
+          "updated": "2026-05-17T04:00:33.272Z"
+        },
+        "US": {
+          "apple": 195,
+          "google": 176,
+          "updated": "2026-05-17T04:02:19.119Z"
+        },
+        "TH": {
+          "apple": 201,
+          "google": 202,
+          "updated": "2026-05-17T04:05:00.607Z"
+        }
+      }
+    },
     {
       "date": "2026-05-16",
       "countries": {

@@ -1,7 +1,10 @@
 import puppeteer from "puppeteer";
+import gplayPkg from "google-play-scraper";
 import { writeFileSync, mkdirSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+
+const gplay = gplayPkg.default || gplayPkg;
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, "..", "data");
@@ -47,7 +50,6 @@ const isNexon = (dev) => {
   return NX_DEVS.some(nx => dl.includes(nx));
 };
 
-/* ═══ 게임 카테고리 판별 키워드 ═══ */
 const GAME_GENRE_KW = [
   "games","game","action","adventure","arcade","board","card","casual","puzzle",
   "racing","role playing","simulation","sports","strategy","trivia","word",
@@ -56,7 +58,6 @@ const GAME_GENRE_KW = [
   "เกม","กลยุทธ์","ผจญภัย","ปริศนา","จำลอง","กีฬา"
 ];
 
-/* Today 탭 예외 앱 (게임이 아니어도 포함) */
 const TODAY_GAME_EXCEPTIONS = [
   "maplestory worlds","메이플스토리 월드","메이플스토리월드",
   "メイプルストーリーワールド","楓之谷世界"
@@ -67,7 +68,31 @@ function isTodayException(name) {
   return TODAY_GAME_EXCEPTIONS.some(ex => nl.includes(ex));
 }
 
-/* ═══ App Store 상세 페이지 → 개발사 + 장르 ═══ */
+const KNOWN_NEXON_TITLES = [
+  { match: ["메이플 키우기", "메이플키우기", "MapleStory: Idle RPG"], name: "메이플 키우기" },
+  { match: ["메이플스토리 월드", "메이플스토리월드"], name: "MapleStory Worlds" },
+  { match: ["메이플스토리 m", "메이플스토리m"], name: "MapleStory M" },
+  { match: ["메이플스토리"], name: "MapleStory" },
+  { match: ["마비노기 모바일", "마비노기모바일"], name: "마비노기 모바일" },
+  { match: ["마비노기"], name: "마비노기" },
+  { match: ["fc 모바일", "fc모바일", "fc mobile"], name: "FC 모바일" },
+  { match: ["FC ONLINE M"
+  { match: ["던전앤파이터 모바일", "던파 모바일", "던파모바일"], name: "던전앤파이터 모바일" },
+  { match: ["블루 아카이브", "블루아카이브", "blue archive"], name: "Blue Archive" },
+  { match: ["퍼스트 디센던트", "퍼스트디센던트", "first descendant"], name: "The First Descendant" },
+  { match: ["서든어택"], name: "Sudden Attack" },
+  { match: ["카트라이더 러쉬플러스", "카러플", "kartrider rush"], name: "KartRider Rush+" },
+  { match: ["maplestory n"], name: "MapleStory N" },
+  { match: ["maplestory"], name: "MapleStory" },
+  { match: ["the finals"], name: "THE FINALS" },
+  { match: ["arc raiders"], name: "ARC Raiders" },
+  { match: ["dungeon fighter"], name: "던전앤파이터" },
+  { match: ["아주르 프로밀리아"], name: "아주르 프로밀리아" },
+  { match: ["히간 이루실"], name: "히간 이루실" },
+  { match: ["メイプルストーリー"], name: "MapleStory M" },
+  { match: ["楓之谷"], name: "MapleStory M" }
+];
+
 async function getAppDetail(page, url) {
   try {
     await page.goto(url, { waitUntil: "networkidle2", timeout: 20000 });
@@ -91,7 +116,6 @@ async function getAppDetail(page, url) {
   } catch (e) { return { dev: "", genre: "" }; }
 }
 
-/* ═══ 상세 페이지에서 아이콘 보강 ═══ */
 async function getAppIcon(page) {
   return await page.evaluate(() => {
     const imgs = document.querySelectorAll('.app-icon img, picture source[srcset*="mzstatic"]');
@@ -105,10 +129,62 @@ async function getAppIcon(page) {
 }
 
 /* ═══════════════════════════════════════
-   App Store Games 탭 추출
+   ⭐ Hero 추출 로직 (Games + Today 공통)
+   - 핵심 수정: lockup-container의 h3 = 앱 이름 (우선)
+                 h2 = 이벤트 제목 (appEvent hero의 경우)
+   - URL eventid 파라미터 보존 (이벤트 hero 식별 가능)
    ═══════════════════════════════════════ */
+const HERO_EXTRACTION_FUNCTION = `
+  function extractHeroName(linkEl) {
+    // 1순위: .lockup-container .text-container h3 (앱 이름 확정 위치)
+    //        - appEvent hero에서도 여기에 정확한 앱 이름이 들어감
+    //        - 예: "카트라이더 러쉬플러스"
+    const lockupH3 = linkEl.querySelector('.lockup-container .text-container h3, .lockup-container h3');
+    if (lockupH3) {
+      const t = lockupH3.textContent.trim();
+      if (t.length >= 2 && t.length <= 80) return { name: t, source: 'lockup-h3' };
+    }
+    // 2순위: h2 (출시 hero의 앱 이름, 또는 이벤트 hero의 이벤트 제목)
+    const h2 = linkEl.querySelector('h2');
+    if (h2) {
+      const t = h2.textContent.trim();
+      if (t.length >= 2 && t.length <= 80) {
+        // h2가 이벤트성 문구인지 휴리스틱 체크
+        const isEventy = /업데이트$|이벤트$|^신규|시즌|콜라보|오픈|출시|^새|now|update|event/i.test(t);
+        if (!isEventy) return { name: t, source: 'h2' };
+        // 이벤트성이면 추가 fallback 시도
+      }
+    }
+    // 3순위: 다른 h3 (lockup 밖)
+    const anyH3 = linkEl.querySelector('h3');
+    if (anyH3) {
+      const t = anyH3.textContent.trim();
+      if (t.length >= 2 && t.length <= 80) return { name: t, source: 'any-h3' };
+    }
+    // 4순위: aria-label에서 가장 그럴듯한 부분
+    //        예: "내일 AM 8:00, Royal Kingdom, 왕국에 새 퀘스트가 열립니다, ..."
+    //        예: "게임 내 이벤트, 카트라이더 러쉬플러스, S39 비치 업데이트, ..."
+    const aria = linkEl.getAttribute('aria-label') || '';
+    if (aria) {
+      const parts = aria.split(',').map(p => p.trim()).filter(p => p.length >= 2 && p.length <= 60);
+      // 시간/이벤트 키워드 제외하고 가장 짧고 명사스러운 것 선택
+      const candidates = parts.filter(p =>
+        !/^\\d|am$|pm$|시$|분$|초$|시간|초전|^내일|^오늘|^어제|업데이트|이벤트|시즌/i.test(p)
+      );
+      if (candidates.length > 0) {
+        // 가장 짧은 (보통 앱 이름이 가장 짧음)
+        candidates.sort((a, b) => a.length - b.length);
+        return { name: candidates[0], source: 'aria-label' };
+      }
+      if (parts.length > 0) return { name: parts[0], source: 'aria-fallback' };
+    }
+    return null;
+  }
+`;
+
 async function extractGamesTab(page) {
-  return await page.evaluate(() => {
+  return await page.evaluate(new Function(`
+    ${HERO_EXTRACTION_FUNCTION}
     const apps = [];
     const seen = new Set();
     function getIcon(container) {
@@ -116,50 +192,93 @@ async function extractGamesTab(page) {
       const img1 = container.querySelector('img[src*="mzstatic"]');
       if (img1) return img1.getAttribute("src");
       const img2 = container.querySelector("img[srcset]");
-      if (img2) { const m = (img2.getAttribute("srcset")||"").match(/https:\/\/[^\s]*mzstatic[^\s]*/); if (m) return m[0]; }
+      if (img2) { const m = (img2.getAttribute("srcset")||"").match(/https:\\/\\/[^\\s]*mzstatic[^\\s]*/); if (m) return m[0]; }
       const src = container.querySelector("source[srcset*='mzstatic']");
-      if (src) { const m = (src.getAttribute("srcset")||"").match(/https:\/\/[^\s]*mzstatic[^\s]*/); if (m) return m[0]; }
+      if (src) {
+        const all = (src.getAttribute("srcset")||"").match(/https:\\/\\/[^\\s,]*mzstatic[^\\s,]*/g) || [];
+        const icon = all.find(u => u.includes("Placeholder.mill") || u.includes("/64x") || u.includes("/128x"));
+        if (icon) return icon;
+        if (all[0]) return all[0];
+      }
       return "";
     }
-    const heroLinks = document.querySelectorAll('a[href*="/app/"]');
-    heroLinks.forEach(el => {
-      const href = el.getAttribute("href") || "";
+
+    // ─── 1. Hero 배너 ───
+    document.querySelectorAll('a[href*="/app/"][data-test-id="internal-link"]').forEach(linkEl => {
+      const heroEl = linkEl.querySelector('[data-test-id="hero"]');
+      if (!heroEl) return;
+      const href = linkEl.getAttribute("href") || "";
       if (!href.includes("/app/")) return;
-      const hero = el.querySelector('[data-test-id="hero"]');
-      if (!hero) return;
-      let name = "";
-      const h2 = el.querySelector("h2");
-      if (h2) name = h2.textContent.trim();
-      if (!name) name = el.getAttribute("aria-label")?.split(",")[0]?.trim() || "";
-      if (!name || name.length < 2 || name.length > 40 || seen.has(name.toLowerCase())) return;
-      const icon = getIcon(el.querySelector(".lockup-container, .app-icon"));
-      const eyebrowEl = el.querySelector(".eyebrow");
-      const eyebrow = eyebrowEl ? eyebrowEl.textContent.trim() : "";
+
+      const nameInfo = extractHeroName(linkEl);
+      if (!nameInfo) return;
+      const name = nameInfo.name;
+      if (seen.has(name.toLowerCase())) return;
       seen.add(name.toLowerCase());
-      apps.push({ name, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isBanner: true, eyebrow });
+
+      const subtitle = linkEl.querySelector(".subtitle")?.textContent?.trim() || "";
+      const eyebrow = linkEl.querySelector(".eyebrow")?.textContent?.trim() || "";
+      const lockupIcon = linkEl.querySelector(".lockup-container") || linkEl.querySelector(".app-icon");
+      const icon = getIcon(lockupIcon) || getIcon(linkEl);
+
+      // 이벤트 hero 식별
+      const isAppEvent = href.includes("eventid=") || /업데이트$|이벤트$|시즌/.test(linkEl.querySelector("h2")?.textContent?.trim() || "");
+
+      apps.push({
+        name, icon, subtitle, eyebrow,
+        url: href.startsWith("http") ? href : "https://apps.apple.com" + href,
+        isBanner: true,
+        _appEvent: isAppEvent,
+        _heroSource: nameInfo.source
+      });
     });
-    const allLinks = document.querySelectorAll('a[href*="/app/"]');
-    allLinks.forEach(el => {
-      const href = el.getAttribute("href") || "";
-      if (!href.includes("/app/") || href.includes("/story/")) return;
-      let name = "";
-      const h3 = el.querySelector("h3");
-      if (h3) name = h3.textContent.trim();
-      if (!name) name = el.getAttribute("aria-label") || "";
-      if (!name || name.length < 2 || name.length > 40 || seen.has(name.toLowerCase())) return;
-      const icon = getIcon(el);
+
+    // ─── 2. Small Lockup 카드 ───
+    document.querySelectorAll('.small-lockup-item').forEach(item => {
+      const linkEl = item.querySelector('a[href*="/app/"]');
+      if (!linkEl) return;
+      const href = linkEl.getAttribute("href") || "";
+      if (!href.includes("/app/")) return;
+
+      const h3 = linkEl.querySelector("h3") || item.querySelector("h3");
+      let name = h3 ? h3.textContent.trim() : "";
+      if (!name) name = (linkEl.getAttribute("aria-label") || "").split(",")[0].trim();
+      if (!name || name.length < 2 || name.length > 80) return;
+      if (seen.has(name.toLowerCase())) return;
       seen.add(name.toLowerCase());
-      apps.push({ name, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isBanner: false, eyebrow: "" });
+
+      const pEl = linkEl.querySelector(".metadata-container p, p");
+      const subtitle = pEl ? pEl.textContent.trim() : "";
+      const shelfEl = item.closest(".shelf, [data-test-id='shelf-wrapper']");
+      const shelfTitleEl = shelfEl?.querySelector(".shelf-title, h2.shelf-title, [data-test-id='shelf-title']");
+      const shelfTitle = shelfTitleEl ? shelfTitleEl.textContent.trim() : "";
+
+      const icon = getIcon(item);
+
+      apps.push({
+        name, icon, subtitle, eyebrow: "",
+        url: href.startsWith("http") ? href : "https://apps.apple.com" + href,
+        isBanner: false,
+        shelfTitle
+      });
     });
+
     return apps;
-  });
+  `));
 }
 
-/* ═══════════════════════════════════════
-   App Store Today 탭 추출
-   ═══════════════════════════════════════ */
 async function extractTodayTab(page) {
-  return await page.evaluate(() => {
+  await page.evaluate(async () => {
+    for (let y = 0; y < document.body.scrollHeight + 2000; y += 600) {
+      window.scrollTo(0, y);
+      await new Promise(r => setTimeout(r, 200));
+    }
+    window.scrollTo(0, 0);
+    await new Promise(r => setTimeout(r, 1000));
+  }).catch(() => {});
+
+  return await page.evaluate(new Function(`
+    ${HERO_EXTRACTION_FUNCTION}
     const apps = [];
     const seen = new Set();
     function getIcon(container) {
@@ -167,46 +286,116 @@ async function extractTodayTab(page) {
       const img1 = container.querySelector('img[src*="mzstatic"]');
       if (img1) return img1.getAttribute("src");
       const img2 = container.querySelector("img[srcset]");
-      if (img2) { const m = (img2.getAttribute("srcset")||"").match(/https:\/\/[^\s]*mzstatic[^\s]*/); if (m) return m[0]; }
+      if (img2) { const m = (img2.getAttribute("srcset")||"").match(/https:\\/\\/[^\\s]*mzstatic[^\\s]*/); if (m) return m[0]; }
       const src = container.querySelector("source[srcset*='mzstatic']");
-      if (src) { const m = (src.getAttribute("srcset")||"").match(/https:\/\/[^\s]*mzstatic[^\s]*/); if (m) return m[0]; }
+      if (src) {
+        const all = (src.getAttribute("srcset")||"").match(/https:\\/\\/[^\\s,]*mzstatic[^\\s,]*/g) || [];
+        const icon = all.find(u => u.includes("Placeholder.mill") || u.includes("/64x") || u.includes("/128x"));
+        if (icon) return icon;
+        if (all[0]) return all[0];
+      }
       return "";
     }
-    const lockupLinks = document.querySelectorAll('.small-lockup-item a[href*="/app/"]');
-    lockupLinks.forEach(el => {
-      const href = el.getAttribute("href") || "";
+
+    // ─── 1. Hero ───
+    document.querySelectorAll('a[href*="/app/"][data-test-id="internal-link"]').forEach(linkEl => {
+      const heroEl = linkEl.querySelector('[data-test-id="hero"]');
+      if (!heroEl) return;
+      const href = linkEl.getAttribute("href") || "";
       if (!href.includes("/app/")) return;
-      const name = el.getAttribute("aria-label") || "";
-      if (!name || name.length < 2 || name.length > 40 || seen.has(name.toLowerCase())) return;
-      const icon = getIcon(el.closest(".small-lockup-item"));
+
+      const nameInfo = extractHeroName(linkEl);
+      if (!nameInfo) return;
+      const name = nameInfo.name;
+      if (seen.has(name.toLowerCase())) return;
       seen.add(name.toLowerCase());
-      apps.push({ name, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isBanner: true });
+
+      const subtitle = linkEl.querySelector(".subtitle")?.textContent?.trim() || "";
+      const eyebrow = linkEl.querySelector(".eyebrow")?.textContent?.trim() || "";
+      const lockupIcon = linkEl.querySelector(".lockup-container") || linkEl.querySelector(".app-icon");
+      const icon = getIcon(lockupIcon) || getIcon(linkEl);
+      const isAppEvent = href.includes("eventid=") || /업데이트$|이벤트$|시즌/.test(linkEl.querySelector("h2")?.textContent?.trim() || "");
+
+      apps.push({
+        name, icon, subtitle, eyebrow,
+        url: href.startsWith("http") ? href : "https://apps.apple.com" + href,
+        isBanner: true,
+        _appEvent: isAppEvent,
+        _heroSource: nameInfo.source
+      });
     });
-    const allLinks = document.querySelectorAll('a[href*="/app/"]');
-    allLinks.forEach(el => {
-      const href = el.getAttribute("href") || "";
-      if (!href.includes("/app/") || href.includes("/story/")) return;
+
+    // ─── 2. Today Card ───
+    document.querySelectorAll('.today-card-wrapper, .today-card').forEach(card => {
+      const ariaText = card.getAttribute("aria-label") || "";
+      const innerLink = card.querySelector('a[href*="/app/"]');
+      const href = innerLink?.getAttribute("href") || "";
+
       let name = "";
-      const h3 = el.querySelector("h3");
-      if (h3) name = h3.textContent.trim();
-      if (!name) name = el.getAttribute("aria-label") || "";
-      if (!name || name.length < 2 || name.length > 40 || seen.has(name.toLowerCase())) return;
-      const icon = getIcon(el);
+      if (innerLink) {
+        const h3 = innerLink.querySelector("h3") || card.querySelector("h3");
+        if (h3) name = h3.textContent.trim();
+        if (!name) name = (innerLink.getAttribute("aria-label") || "").split(",")[0].trim();
+      } else {
+        const h3 = card.querySelector("h3");
+        if (h3) {
+          const t = h3.textContent.trim();
+          if (t.length >= 2 && t.length <= 60 &&
+              !/이벤트$|업데이트$|^신규|^오늘은/.test(t)) {
+            name = t;
+          }
+        }
+      }
+
+      if (!name || name.length < 2 || name.length > 80) return;
+      if (seen.has(name.toLowerCase())) return;
       seen.add(name.toLowerCase());
-      apps.push({ name, icon, url: href.startsWith("http") ? href : "https://apps.apple.com" + href, isBanner: false });
+
+      const icon = getIcon(card);
+      apps.push({
+        name, icon,
+        subtitle: card.querySelector("p")?.textContent?.trim() || "",
+        eyebrow: ariaText.slice(0, 200),
+        url: href ? (href.startsWith("http") ? href : "https://apps.apple.com" + href) : "",
+        isBanner: card.classList.contains("today-card") || card.classList.contains("today-card-wrapper"),
+        _todayCard: true
+      });
     });
+
+    // ─── 3. Small Lockup 카드 ───
+    document.querySelectorAll('.small-lockup-item').forEach(item => {
+      const linkEl = item.querySelector('a[href*="/app/"]');
+      if (!linkEl) return;
+      const href = linkEl.getAttribute("href") || "";
+      if (!href.includes("/app/")) return;
+
+      const h3 = linkEl.querySelector("h3") || item.querySelector("h3");
+      let name = h3 ? h3.textContent.trim() : "";
+      if (!name) name = (linkEl.getAttribute("aria-label") || "").split(",")[0].trim();
+      if (!name || name.length < 2 || name.length > 80) return;
+      if (seen.has(name.toLowerCase())) return;
+      seen.add(name.toLowerCase());
+
+      const pEl = linkEl.querySelector(".metadata-container p, p");
+      const subtitle = pEl ? pEl.textContent.trim() : "";
+      const shelfEl = item.closest(".shelf, [data-test-id='shelf-wrapper']");
+      const shelfTitleEl = shelfEl?.querySelector(".shelf-title, h2.shelf-title, [data-test-id='shelf-title']");
+      const shelfTitle = shelfTitleEl ? shelfTitleEl.textContent.trim() : "";
+
+      const icon = getIcon(item);
+      apps.push({
+        name, icon, subtitle, eyebrow: "",
+        url: href.startsWith("http") ? href : "https://apps.apple.com" + href,
+        isBanner: false,
+        shelfTitle
+      });
+    });
+
     return apps;
-  });
+  `));
 }
 
-/* ═══════════════════════════════════════
-   Google Play 배너 크롤링 (Puppeteer)
-   셀렉터: .ULeU3b 컨테이너
-     .fkdIre → 앱 이름
-     .bcLwIe → 개발사
-     .nnW2Md → 아이콘 (img)
-     .GnAUad → 배지
-   ═══════════════════════════════════════ */
+/* Google Play 추출 (변경 없음) */
 async function extractGPBanner(page) {
   return await page.evaluate(() => {
     const apps = [];
@@ -240,7 +429,6 @@ async function extractGPBanner(page) {
           url = href.startsWith("http") ? href : "https://play.google.com" + href;
         }
       }
-      // 링크가 없으면 부모 탐색
       if (!url) {
         let parent = card.parentElement;
         for (let depth = 0; depth < 5 && parent; depth++) {
@@ -262,7 +450,6 @@ async function extractGPBanner(page) {
   });
 }
 
-/* Google Play 일반 피쳐드 앱 추출 */
 async function extractGPFeatured(page) {
   return await page.evaluate(() => {
     const apps = [];
@@ -297,9 +484,6 @@ async function extractGPFeatured(page) {
   });
 }
 
-/* ═══════════════════════════════════════
-   Google Play 크롤링 메인
-   ═══════════════════════════════════════ */
 async function crawlGooglePlay(page, cc, hl) {
   const allApps = [];
   const seen = new Set();
@@ -357,18 +541,75 @@ async function crawlGooglePlay(page, cc, hl) {
     });
   } catch (e) { console.warn(`  [GP Top Error]`, e.message); }
 
+  if (allApps.length === 0) {
+    console.log(`  [GP Scraper Fallback]`);
+    try {
+      const [topFree, grossing] = await Promise.allSettled([
+        gplay.list({ collection: gplay.collection.TOP_FREE, category: gplay.category.GAME, num: 30, country: cc.toUpperCase(), lang: hl, fullDetail: false }),
+        gplay.list({ collection: gplay.collection.GROSSING, category: gplay.category.GAME, num: 20, country: cc.toUpperCase(), lang: hl, fullDetail: false })
+      ]);
+      if (topFree.status === "fulfilled") {
+        topFree.value.forEach((app, i) => {
+          const name = app.title || "";
+          if (!name || name.length < 2 || seen.has(name.toLowerCase())) return;
+          seen.add(name.toLowerCase());
+          allApps.push({
+            name, dev: app.developer || "", icon: app.icon || "",
+            url: app.url || `https://play.google.com/store/apps/details?id=${app.appId}&hl=${hl}`,
+            tab: "Featured", section: i < 3 ? "배너" : "Top Free Games", priority: i + 1,
+            genre: toG(app.genre || ""), rating: app.score ? parseFloat(app.score.toFixed(1)) : 0,
+            category: "Games", nexon: isNexon(app.developer), banner: i < 3
+          });
+        });
+      }
+      if (grossing.status === "fulfilled") {
+        grossing.value.forEach((app, i) => {
+          const name = app.title || "";
+          if (!name || name.length < 2 || seen.has(name.toLowerCase())) return;
+          seen.add(name.toLowerCase());
+          allApps.push({
+            name, dev: app.developer || "", icon: app.icon || "",
+            url: app.url || `https://play.google.com/store/apps/details?id=${app.appId}&hl=${hl}`,
+            tab: "Featured", section: "Top Grossing", priority: 100 + i,
+            genre: toG(app.genre || ""), rating: app.score ? parseFloat(app.score.toFixed(1)) : 0,
+            category: "Games", nexon: isNexon(app.developer), banner: false
+          });
+        });
+      }
+      console.log(`    Scraper fallback: ${allApps.length} apps`);
+    } catch (e) { console.warn(`  [GP Scraper Fallback Error]`, e.message); }
+  }
+
+  const needEnrich = allApps.filter(a => !a.genre || !a.rating);
+  if (needEnrich.length > 0) {
+    console.log(`  [GP Enrich] ${needEnrich.length} apps need genre/rating...`);
+    for (const app of needEnrich.slice(0, 15)) {
+      try {
+        const idMatch = (app.url || "").match(/id=([^&]+)/);
+        if (!idMatch) continue;
+        const detail = await gplay.app({ appId: idMatch[1], lang: hl, country: cc.toUpperCase() });
+        if (detail) {
+          if (!app.genre && detail.genre) app.genre = toG(detail.genre);
+          if (!app.rating && detail.score) app.rating = parseFloat(detail.score.toFixed(1));
+          if (!app.dev && detail.developer) { app.dev = detail.developer; app.nexon = isNexon(detail.developer); }
+          if (!app.icon && detail.icon) app.icon = detail.icon;
+        }
+      } catch (e) { /* skip */ }
+      await new Promise(r => setTimeout(r, 200));
+    }
+    console.log(`    Enriched ${needEnrich.slice(0, 15).filter(a => a.genre).length} apps`);
+  }
+
   allApps.sort((a, b) => a.priority - b.priority);
   allApps.forEach((a, i) => a.rank = i + 1);
   console.log(`  → GP: ${allApps.length} total, ${allApps.filter(a=>a.banner).length} banners, ${allApps.filter(a=>a.nexon).length} NEXON`);
   return allApps;
 }
 
-/* ═══ Apple Store 크롤링 메인 ═══ */
 async function crawlAppleStore(page, cc) {
   const allApps = [];
   const seen = new Set();
 
-  // ─── Games 탭 ───
   try {
     console.log(`  [Games Tab]`);
     await page.goto(`https://apps.apple.com/${cc}/iphone/games`, { waitUntil: "networkidle2", timeout: 30000 });
@@ -377,6 +618,9 @@ async function crawlAppleStore(page, cc) {
     const banners = gamesApps.filter(a => a.isBanner);
     const cards = gamesApps.filter(a => !a.isBanner);
     console.log(`    ${banners.length} banners, ${cards.length} cards`);
+    if (banners.length > 0) {
+      console.log(`    Hero sample: ${banners.slice(0,5).map(b => `"${b.name}"${b._appEvent?'(evt)':''}[${b._heroSource}]`).join(', ')}`);
+    }
 
     banners.forEach((app, i) => {
       if (seen.has(app.name.toLowerCase())) return;
@@ -385,22 +629,29 @@ async function crawlAppleStore(page, cc) {
         name: app.name, dev: "", icon: app.icon, url: app.url,
         tab: "Games", section: "배너", priority: i + 1,
         genre: "", rating: 0, category: "Games",
-        nexon: false, banner: true
+        nexon: false, banner: true,
+        _appEvent: !!app._appEvent
       });
     });
     cards.forEach((app, i) => {
       if (seen.has(app.name.toLowerCase())) return;
       seen.add(app.name.toLowerCase());
+      const shelf = (app.shelfTitle || "").toLowerCase();
+      const isCuratedBanner = shelf.includes("오늘") || shelf.includes("이 게임") ||
+                              shelf.includes("추천") || shelf.includes("에디터") ||
+                              shelf.includes("editor") || shelf.includes("today") ||
+                              shelf.includes("featured") || shelf.includes("must play");
       allApps.push({
         name: app.name, dev: "", icon: app.icon, url: app.url,
-        tab: "Games", section: "Featured", priority: 20 + i,
+        tab: "Games",
+        section: isCuratedBanner ? "배너" : "Featured",
+        priority: isCuratedBanner ? (10 + i) : (20 + i),
         genre: "", rating: 0, category: "Games",
-        nexon: false, banner: false
+        nexon: false, banner: isCuratedBanner
       });
     });
   } catch (e) { console.warn(`  [Games Error]`, e.message); }
 
-  // ─── Today 탭 (게임만, MapleStory Worlds 예외) ───
   try {
     console.log(`  [Today Tab]`);
     await page.goto(`https://apps.apple.com/${cc}/iphone/today`, { waitUntil: "networkidle2", timeout: 30000 });
@@ -409,60 +660,110 @@ async function crawlAppleStore(page, cc) {
     const banners = todayApps.filter(a => a.isBanner);
     const cards = todayApps.filter(a => !a.isBanner);
     console.log(`    ${banners.length} banners, ${cards.length} cards (pre-filter)`);
+    if (banners.length > 0) {
+      console.log(`    Hero sample: ${banners.slice(0,5).map(b => `"${b.name}"${b._appEvent?'(evt)':''}[${b._heroSource||'-'}]`).join(', ')}`);
+    }
 
     banners.forEach((app, i) => {
       if (seen.has(app.name.toLowerCase())) return;
       seen.add(app.name.toLowerCase());
+      const ln = app.name.toLowerCase();
+      const isKnownNx = KNOWN_NEXON_TITLES.some(t =>
+        t.name.toLowerCase() === ln ||
+        t.match.some(m => ln.includes(m.toLowerCase()))
+      );
       allApps.push({
-        name: app.name, dev: "", icon: app.icon, url: app.url,
+        name: app.name, dev: isKnownNx ? "NEXON" : "", icon: app.icon, url: app.url,
         tab: "Today", section: "배너", priority: 50 + i,
-        genre: "", rating: 0, category: "Games",
-        nexon: false, banner: true,
-        _todayPending: true
+        genre: isKnownNx ? "RPG" : "", rating: 0, category: "Games",
+        nexon: isKnownNx, banner: true,
+        _todayPending: !isKnownNx,
+        _todayCard: !!app._todayCard,
+        _shelfTitle: app.shelfTitle || "",
+        _appEvent: !!app._appEvent
       });
     });
     cards.forEach((app, i) => {
       if (seen.has(app.name.toLowerCase())) return;
       seen.add(app.name.toLowerCase());
+      const ln = app.name.toLowerCase();
+      const isKnownNx = KNOWN_NEXON_TITLES.some(t =>
+        t.name.toLowerCase() === ln ||
+        t.match.some(m => ln.includes(m.toLowerCase()))
+      );
+      const shelf = (app.shelfTitle || "").toLowerCase();
+      const isCuratedBanner = shelf.includes("오늘") || shelf.includes("이 게임") ||
+                              shelf.includes("추천") || shelf.includes("에디터") ||
+                              shelf.includes("editor") || shelf.includes("today") ||
+                              shelf.includes("featured") || shelf.includes("must play");
       allApps.push({
-        name: app.name, dev: "", icon: app.icon, url: app.url,
-        tab: "Today", section: "Featured", priority: 70 + i,
-        genre: "", rating: 0, category: "Games",
-        nexon: false, banner: false,
-        _todayPending: true
+        name: app.name, dev: isKnownNx ? "NEXON" : "", icon: app.icon, url: app.url,
+        tab: "Today", section: isCuratedBanner ? "배너" : "Featured",
+        priority: isCuratedBanner ? (60 + i) : (70 + i),
+        genre: isKnownNx ? "RPG" : "", rating: 0, category: "Games",
+        nexon: isKnownNx, banner: isCuratedBanner,
+        _todayPending: !isKnownNx,
+        _todayCard: !!app._todayCard,
+        _shelfTitle: app.shelfTitle || ""
       });
     });
   } catch (e) { console.warn(`  [Today Error]`, e.message); }
 
-  // ─── 상세 페이지: 개발사 + 장르 + 아이콘 보강 ───
-  const n = Math.min(allApps.length, 40);
-  console.log(`  [Detail] ${n} apps...`);
-  for (let i = 0; i < n; i++) {
-    const app = allApps[i];
-    if (!app.url) continue;
+  // ─── 상세 페이지 보강 ───
+  // 80개로 확대, eventid URL은 보강에서 제외 (이벤트 페이지로 가버리면 dev/genre 안 잡힘)
+  const enrichTargets = allApps.filter(a => a.url && !a.url.includes('eventid=')).slice(0, 80);
+  console.log(`  [Detail] ${enrichTargets.length} apps (eventid URL 제외)`);
+  for (let i = 0; i < enrichTargets.length; i++) {
+    const app = enrichTargets[i];
     const d = await getAppDetail(page, app.url);
-    if (d.dev) { app.dev = d.dev; app.nexon = isNexon(d.dev); }
+    if (d.dev) { app.dev = d.dev; app.nexon = isNexon(d.dev) || app.nexon; }
     if (d.genre) app.genre = toG(d.genre);
     if (!app.icon || app.icon.includes("1x1.gif") || !app.icon.includes("mzstatic")) {
       const fallbackIcon = await getAppIcon(page);
       if (fallbackIcon) app.icon = fallbackIcon;
     }
-    if (i % 5 === 0 && i > 0) console.log(`    ${i}/${n}`);
+    if (i % 5 === 0 && i > 0) console.log(`    ${i}/${enrichTargets.length}`);
     await new Promise(r => setTimeout(r, 300));
   }
 
-  // ─── Today 탭 게임 필터링 ───
+  // ─── eventid URL을 가진 hero는 별도 처리 ───
+  // 이벤트 hero는 NEXON으로 식별되면 dev를 "NEXON"으로 표시
+  // (상세 페이지 조회 불가하므로 KNOWN_NEXON_TITLES 매칭으로만 판별)
+  for (const app of allApps) {
+    if (app.url && app.url.includes('eventid=') && !app.dev) {
+      const ln = app.name.toLowerCase();
+      const isKnownNx = KNOWN_NEXON_TITLES.some(t =>
+        t.name.toLowerCase() === ln ||
+        t.match.some(m => ln.includes(m.toLowerCase()))
+      );
+      if (isKnownNx) {
+        app.dev = "NEXON";
+        app.nexon = true;
+        app.genre = app.genre || "RPG";
+      }
+    }
+  }
+
+  // ─── Today 필터링 ───
   const beforeFilter = allApps.length;
   const filtered = allApps.filter(app => {
     if (!app._todayPending) return true;
 
-    // MapleStory Worlds 예외 허용
     if (isTodayException(app.name)) {
       delete app._todayPending;
       return true;
     }
-    // 넥슨 타이틀이면 무조건 포함
     if (app.nexon) {
+      delete app._todayPending;
+      return true;
+    }
+    const shelf = (app._shelfTitle || "").toLowerCase();
+    if (shelf.includes("게임") || shelf.includes("game") || shelf.includes("play") ||
+        shelf.includes("rpg") || shelf.includes("plays")) {
+      delete app._todayPending;
+      return true;
+    }
+    if (app._todayCard) {
       delete app._todayPending;
       return true;
     }
@@ -476,16 +777,24 @@ async function crawlAppleStore(page, cc) {
       return true;
     }
 
-    console.log(`    [Today Filter] Removed: "${app.name}" (genre: "${app.genre}")`);
+    console.log(`    [Today Filter] Removed: "${app.name}" (genre: "${app.genre}", shelf: "${app._shelfTitle || ''}")`);
     return false;
   });
 
-  filtered.forEach(app => delete app._todayPending);
-  console.log(`  [Today Filter] ${beforeFilter} → ${filtered.length} (removed ${beforeFilter - filtered.length} non-game apps)`);
+  filtered.forEach(app => {
+    delete app._todayPending;
+    delete app._todayCard;
+    delete app._shelfTitle;
+  });
+  console.log(`  [Today Filter] ${beforeFilter} → ${filtered.length} (removed ${beforeFilter - filtered.length})`);
 
   filtered.sort((a, b) => a.priority - b.priority);
   filtered.forEach((a, i) => a.rank = i + 1);
-  console.log(`  → Apple: ${filtered.length} total, ${filtered.filter(a=>a.banner).length} banners, ${filtered.filter(a=>a.nexon).length} NEXON`);
+  const nxCount = filtered.filter(a=>a.nexon).length;
+  console.log(`  → Apple: ${filtered.length} total, ${filtered.filter(a=>a.banner).length} banners, ${nxCount} NEXON`);
+  if (nxCount > 0) {
+    console.log(`    NEXON: ${filtered.filter(a=>a.nexon).map(a => `${a.name}${a._appEvent?'(evt)':''}`).join(', ')}`);
+  }
   return filtered;
 }
 
@@ -509,7 +818,6 @@ async function main() {
   for (const [code, cfg] of Object.entries(COUNTRIES)) {
     console.log(`📱 ${code} (${cfg.name})`);
 
-    // ─── Apple Store ───
     let appleApps = [];
     const applePage = await browser.newPage();
     await applePage.setViewport({ width: 1280, height: 900 });
@@ -519,7 +827,6 @@ async function main() {
     } catch (e) { console.error(`  ❌ Apple ${code}:`, e.message); }
     await applePage.close();
 
-    // ─── Google Play ───
     let googleApps = [];
     const gpPage = await browser.newPage();
     await gpPage.setViewport({ width: 1280, height: 900 });
@@ -529,7 +836,6 @@ async function main() {
     } catch (e) { console.error(`  ❌ GP ${code}:`, e.message); }
     await gpPage.close();
 
-    // ─── 저장: apple + google 필드 ───
     writeFileSync(join(DATA_DIR, `${code}.json`), JSON.stringify({
       country: code,
       date: new Date().toISOString().slice(0, 10),

@@ -39,16 +39,79 @@ const toG = (r) => {
   return GM[l] || GM[l.split(/[\/,&·\-]/)[0].trim()] || r;
 };
 
+/* ═══════════════════════════════════════
+   NEXON 개발사 식별 validator
+   - 정규화: 소문자, 공백 정리, 특수문자 제거, NBSP/탭/제로폭 처리
+   - 우선순위 매칭: 더 구체적인 키워드 먼저 검사
+   - 결과 캐싱 + 디버그 정보 (어떤 키워드로 매칭됐는지)
+   ═══════════════════════════════════════ */
+
+// 더 구체적인 키워드를 먼저 (긴 것 우선) 검사하면 매칭 정보가 더 정확
 const NX_DEVS = [
-  "nexon","nexon company","nexon corporation","nexon korea","nexon korea corporation",
-  "nexon games","neople","neople inc","toben studio","toben studio inc",
-  "nexon gt","embark studios","nat games","mintrocket"
+  // ─── NEXON 본사 + 자회사 (Korean) ───
+  "nexon korea corporation",
+  "nexon korea corp",
+  "nexon korea",
+  "nexon company",
+  "nexon corporation",
+  "nexon games",
+  "nexon gt",
+  "nexon",
+  // ─── 자회사 / 스튜디오 ───
+  "neople incorporation",
+  "neople inc",
+  "neople",
+  "toben studio inc",
+  "toben studio incorporation",
+  "toben studio",
+  "embark studios ab",
+  "embark studios",
+  "nat games",
+  "mintrocket",
+  // ─── 한글 표기 ───
+  "넥슨코리아",
+  "넥슨 코리아",
+  "넥슨게임즈",
+  "넥슨 게임즈",
+  "넥슨지티",
+  "넥슨 지티",
+  "넥슨",
+  "네오플",
+  "민트로켓"
 ];
-const isNexon = (dev) => {
-  if (!dev) return false;
-  const dl = dev.toLowerCase().trim();
-  return NX_DEVS.some(nx => dl.includes(nx));
-};
+
+// 개발사 문자열 정규화 함수
+function normalizeDevString(dev) {
+  if (!dev) return "";
+  return String(dev)
+    .toLowerCase()
+    // 제로폭 문자, NBSP 등 제거/공백화
+    .replace(/[\u200b\u200c\u200d\ufeff]/g, "")
+    .replace(/\u00a0/g, " ")
+    // 다양한 공백류를 일반 공백으로
+    .replace(/[\t\n\r]+/g, " ")
+    // 회사 형식 접미사 제거 (Co., Ltd. 등)
+    .replace(/[,\.]?\s*(co\.?,?\s*ltd\.?|ltd\.?|inc\.?|corp\.?|corporation\.?|limited)$/i, "")
+    // 연속 공백 정리
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// NEXON 판별 + 매칭된 키워드 반환 (디버깅용)
+function detectNexon(dev) {
+  if (!dev) return { isNexon: false, matched: null, normalized: "" };
+  const normalized = normalizeDevString(dev);
+  if (!normalized) return { isNexon: false, matched: null, normalized: "" };
+  for (const nx of NX_DEVS) {
+    if (normalized.includes(nx)) {
+      return { isNexon: true, matched: nx, normalized };
+    }
+  }
+  return { isNexon: false, matched: null, normalized };
+}
+
+// 기존 isNexon API는 유지 (Backward compat)
+const isNexon = (dev) => detectNexon(dev).isNexon;
 
 const GAME_GENRE_KW = [
   "games","game","action","adventure","arcade","board","card","casual","puzzle",
@@ -68,15 +131,23 @@ function isTodayException(name) {
   return TODAY_GAME_EXCEPTIONS.some(ex => nl.includes(ex));
 }
 
-const KNOWN_NEXON_TITLES = [
-  { match: ["메이플 키우기", "메이플키우기", "MapleStory: Idle RPG"], name: "메이플 키우기" },
+/* ═══════════════════════════════════════
+   NEXON 타이틀 사전
+   - 부팅 시 NEXON 개발자 페이지에서 자동 동기화 (syncNexonTitlesFromDevPages)
+   - 동기화 실패 시 STATIC_NEXON_TITLES_FALLBACK으로 fallback
+   - URL/packageId 기반 매칭이 가장 정확 (이름 부분 매칭은 보조)
+   ═══════════════════════════════════════ */
+
+// 정적 fallback (네트워크 실패 시 사용)
+const STATIC_NEXON_TITLES_FALLBACK = [
+  { match: ["메이플 키우기", "메이플키우기", "maplestory: idle rpg"], name: "메이플 키우기" },
   { match: ["메이플스토리 월드", "메이플스토리월드"], name: "MapleStory Worlds" },
-  { match: ["메이플스토리 m", "메이플스토리m"], name: "MapleStory M" },
+  { match: ["메이플스토리 m", "메이플스토리m", "maplestory m"], name: "MapleStory M" },
   { match: ["메이플스토리"], name: "MapleStory" },
   { match: ["마비노기 모바일", "마비노기모바일"], name: "마비노기 모바일" },
   { match: ["마비노기"], name: "마비노기" },
   { match: ["fc 모바일", "fc모바일", "fc mobile"], name: "FC 모바일" },
-  { match: ["FC ONLINE M"
+  { match: ["fc online m"], name: "FC ONLINE M" },
   { match: ["던전앤파이터 모바일", "던파 모바일", "던파모바일"], name: "던전앤파이터 모바일" },
   { match: ["블루 아카이브", "블루아카이브", "blue archive"], name: "Blue Archive" },
   { match: ["퍼스트 디센던트", "퍼스트디센던트", "first descendant"], name: "The First Descendant" },
@@ -89,9 +160,191 @@ const KNOWN_NEXON_TITLES = [
   { match: ["dungeon fighter"], name: "던전앤파이터" },
   { match: ["아주르 프로밀리아"], name: "아주르 프로밀리아" },
   { match: ["히간 이루실"], name: "히간 이루실" },
-  { match: ["メイプルストーリー"], name: "MapleStory M" },
-  { match: ["楓之谷"], name: "MapleStory M" }
+  { match: ["メイプルストーリー"], name: "MapleStory" },
+  { match: ["楓之谷"], name: "MapleStory" }
 ];
+
+// 런타임에 동기화되는 사전 (부팅 후 채워짐)
+let KNOWN_NEXON_TITLES = [...STATIC_NEXON_TITLES_FALLBACK];
+
+// 런타임에 동기화되는 NEXON 앱 ID/패키지 매핑 (가장 정확)
+const NEXON_APP_IDS = {
+  apple: new Set(),    // Apple appId (예: "1466736988")
+  google: new Set()    // Google packageId (예: "com.nexon.kart")
+};
+
+/* ═══ Apple NEXON 개발자 페이지에서 라인업 추출 ═══ */
+async function fetchAppleNexonLineup(page) {
+  const lineup = [];
+  try {
+    await page.goto(
+      "https://apps.apple.com/kr/developer/nexon-company/id523546006",
+      { waitUntil: "networkidle2", timeout: 20000 }
+    );
+    const apps = await page.evaluate(() => {
+      const result = [];
+      const seen = new Set();
+      document.querySelectorAll('a[href*="/app/"]').forEach(a => {
+        const href = a.getAttribute("href") || "";
+        const m = href.match(/\/id(\d+)/);
+        if (!m) return;
+        const appId = m[1];
+        if (seen.has(appId)) return;
+        // 이름 추출
+        let name = "";
+        const h3 = a.querySelector("h3");
+        if (h3) name = h3.textContent.trim();
+        if (!name) {
+          // aria-label에서 추출 (보통 "앱이름 부제목 보기" 형태)
+          const al = a.getAttribute("aria-label") || "";
+          if (al) name = al.replace(/\s*보기\s*$/, "").split(/\s+/).slice(0, 4).join(" ").trim();
+        }
+        if (!name) name = (a.textContent || "").trim().split("\n")[0].trim();
+        if (!name || name.length < 2 || name.length > 80) return;
+        seen.add(appId);
+        result.push({ name, appId, url: href.startsWith("http") ? href : "https://apps.apple.com" + href });
+      });
+      return result;
+    });
+    apps.forEach(a => lineup.push(a));
+  } catch (e) {
+    console.warn(`  [NEXON Apple lineup error]`, e.message);
+  }
+  return lineup;
+}
+
+/* ═══ Google Play NEXON 개발자 페이지에서 라인업 추출 ═══ */
+async function fetchGoogleNexonLineup(page) {
+  const lineup = [];
+  try {
+    await page.goto(
+      "https://play.google.com/store/apps/dev?id=7175795338936881781&hl=ko",
+      { waitUntil: "networkidle2", timeout: 20000 }
+    );
+    const apps = await page.evaluate(() => {
+      const result = [];
+      const seen = new Set();
+      document.querySelectorAll('a[href*="/store/apps/details"]').forEach(a => {
+        const href = a.getAttribute("href") || "";
+        const m = href.match(/[?&]id=([^&]+)/);
+        if (!m) return;
+        const pkg = m[1];
+        if (seen.has(pkg)) return;
+        // 이름 추출
+        let name = a.querySelector('img')?.getAttribute('alt') || "";
+        if (!name || name === "아이콘 이미지") {
+          name = (a.textContent || "").trim().split("\n")[0].trim();
+        }
+        // 별점 등 잡음 제거
+        name = name.replace(/[\d.]+\s*star.*/i, "").trim();
+        name = name.replace(/아이콘 이미지/, "").trim();
+        if (!name || name.length < 2 || name.length > 80) return;
+        seen.add(pkg);
+        result.push({ name, packageId: pkg });
+      });
+      return result;
+    });
+    apps.forEach(a => lineup.push(a));
+  } catch (e) {
+    console.warn(`  [NEXON Google lineup error]`, e.message);
+  }
+  return lineup;
+}
+
+/* ═══ NEXON 라인업을 KNOWN_NEXON_TITLES 사전 형태로 동기화 ═══ */
+async function syncNexonTitlesFromDevPages(browser) {
+  console.log("🔄 NEXON 개발자 페이지 동기화...");
+  const page = await browser.newPage();
+  await page.setViewport({ width: 1280, height: 900 });
+  await page.setUserAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36");
+
+  const appleLineup = await fetchAppleNexonLineup(page);
+  console.log(`  Apple NEXON Company: ${appleLineup.length}개`);
+  appleLineup.forEach(a => {
+    NEXON_APP_IDS.apple.add(a.appId);
+    console.log(`    - ${a.name} (id=${a.appId})`);
+  });
+
+  const googleLineup = await fetchGoogleNexonLineup(page);
+  console.log(`  Google Play NEXON Company: ${googleLineup.length}개`);
+  googleLineup.forEach(a => {
+    NEXON_APP_IDS.google.add(a.packageId);
+    console.log(`    - ${a.name} (${a.packageId})`);
+  });
+
+  await page.close();
+
+  // 정적 fallback + 두 페이지의 이름을 모두 합쳐 사전 재구축
+  const allNames = new Map(); // 정규화 이름 → 사전 항목
+  // 1) 정적 사전 먼저 등록
+  for (const t of STATIC_NEXON_TITLES_FALLBACK) {
+    const key = t.name.toLowerCase().trim();
+    allNames.set(key, { ...t });
+  }
+  // 2) Apple 라인업 등록
+  for (const a of appleLineup) {
+    const key = a.name.toLowerCase().trim();
+    if (allNames.has(key)) {
+      // 기존 사전에 match 추가
+      const existing = allNames.get(key);
+      if (!existing.match.includes(a.name.toLowerCase())) {
+        existing.match.push(a.name.toLowerCase());
+      }
+    } else {
+      allNames.set(key, { match: [a.name.toLowerCase()], name: a.name });
+    }
+  }
+  // 3) Google 라인업 등록
+  for (const g of googleLineup) {
+    const key = g.name.toLowerCase().trim();
+    if (allNames.has(key)) {
+      const existing = allNames.get(key);
+      if (!existing.match.includes(g.name.toLowerCase())) {
+        existing.match.push(g.name.toLowerCase());
+      }
+    } else {
+      allNames.set(key, { match: [g.name.toLowerCase()], name: g.name });
+    }
+  }
+
+  KNOWN_NEXON_TITLES = [...allNames.values()];
+  console.log(`  ✅ 사전 구축 완료: ${KNOWN_NEXON_TITLES.length}개 타이틀 (정적 ${STATIC_NEXON_TITLES_FALLBACK.length} + 자동 ${KNOWN_NEXON_TITLES.length - STATIC_NEXON_TITLES_FALLBACK.length})`);
+  console.log(`  ✅ 정확 매칭 ID: Apple ${NEXON_APP_IDS.apple.size}개, Google ${NEXON_APP_IDS.google.size}개\n`);
+}
+
+/* ═══ URL 또는 ID 기반 NEXON 매칭 (가장 정확) ═══ */
+function matchNexonByUrl(url) {
+  if (!url) return false;
+  // Apple: /id1466736988 형태
+  const appleMatch = url.match(/\/id(\d+)/);
+  if (appleMatch && NEXON_APP_IDS.apple.has(appleMatch[1])) return true;
+  // Google: ?id=com.nexon.kart 형태
+  const googleMatch = url.match(/[?&]id=([^&]+)/);
+  if (googleMatch && NEXON_APP_IDS.google.has(googleMatch[1])) return true;
+  return false;
+}
+
+/* ═══ 통합 NEXON 검출기 (URL + dev + name 3중 체크) ═══ */
+function detectNexonAll({ url, dev, name }) {
+  // 1순위: URL/ID 매칭 (가장 정확, NEXON 공식 라인업)
+  if (matchNexonByUrl(url)) return { isNexon: true, source: "url-id" };
+  // 2순위: dev 회사명 정규화 매칭
+  if (dev) {
+    const r = detectNexon(dev);
+    if (r.isNexon) return { isNexon: true, source: "dev", matched: r.matched };
+  }
+  // 3순위: 이름 부분 매칭 (KNOWN_NEXON_TITLES 사전)
+  if (name) {
+    const ln = name.toLowerCase();
+    for (const t of KNOWN_NEXON_TITLES) {
+      if (t.name.toLowerCase() === ln) return { isNexon: true, source: "title-exact", matched: t.name };
+      for (const m of t.match) {
+        if (ln.includes(m.toLowerCase())) return { isNexon: true, source: "title-partial", matched: m };
+      }
+    }
+  }
+  return { isNexon: false, source: null };
+}
 
 async function getAppDetail(page, url) {
   try {
@@ -501,22 +754,26 @@ async function crawlGooglePlay(page, cc, hl) {
     bannerApps.forEach((app, i) => {
       if (seen.has(app.name.toLowerCase())) return;
       seen.add(app.name.toLowerCase());
+      const nx = detectNexonAll({ url: app.url, dev: app.dev, name: app.name });
       allApps.push({
         name: app.name, dev: app.dev, icon: app.icon, url: app.url,
         tab: "Featured", section: "배너", priority: i + 1,
         genre: "", rating: 0, category: "Games",
-        nexon: isNexon(app.dev), banner: true, badge: app.badge || ""
+        nexon: nx.isNexon, banner: true, badge: app.badge || "",
+        _nxSource: nx.source
       });
     });
 
     featuredApps.forEach((app, i) => {
       if (seen.has(app.name.toLowerCase())) return;
       seen.add(app.name.toLowerCase());
+      const nx = detectNexonAll({ url: app.url, dev: app.dev, name: app.name });
       allApps.push({
         name: app.name, dev: app.dev, icon: app.icon, url: app.url,
         tab: "Featured", section: "Featured", priority: 20 + i,
         genre: "", rating: 0, category: "Games",
-        nexon: isNexon(app.dev), banner: false
+        nexon: nx.isNexon, banner: false,
+        _nxSource: nx.source
       });
     });
   } catch (e) { console.warn(`  [GP Games Error]`, e.message); }
@@ -532,11 +789,13 @@ async function crawlGooglePlay(page, cc, hl) {
     topApps.forEach((app, i) => {
       if (seen.has(app.name.toLowerCase())) return;
       seen.add(app.name.toLowerCase());
+      const nx = detectNexonAll({ url: app.url, dev: app.dev, name: app.name });
       allApps.push({
         name: app.name, dev: app.dev, icon: app.icon, url: app.url,
         tab: "Featured", section: "Top Charts", priority: 100 + i,
         genre: "", rating: 0, category: "Games",
-        nexon: isNexon(app.dev), banner: false
+        nexon: nx.isNexon, banner: false,
+        _nxSource: nx.source
       });
     });
   } catch (e) { console.warn(`  [GP Top Error]`, e.message); }
@@ -603,6 +862,10 @@ async function crawlGooglePlay(page, cc, hl) {
   allApps.sort((a, b) => a.priority - b.priority);
   allApps.forEach((a, i) => a.rank = i + 1);
   console.log(`  → GP: ${allApps.length} total, ${allApps.filter(a=>a.banner).length} banners, ${allApps.filter(a=>a.nexon).length} NEXON`);
+  const gpNxList = allApps.filter(a => a.nexon);
+  if (gpNxList.length > 0) {
+    console.log(`    GP NEXON: ${gpNxList.map(a => `${a.name}[${a._nxSource||'?'}]`).join(', ')}`);
+  }
   return allApps;
 }
 
@@ -625,12 +888,21 @@ async function crawlAppleStore(page, cc) {
     banners.forEach((app, i) => {
       if (seen.has(app.name.toLowerCase())) return;
       seen.add(app.name.toLowerCase());
+      // NEXON 매칭: URL/ID 우선 → 이름 매칭 fallback
+      const ln = app.name.toLowerCase();
+      const isUrlNx = matchNexonByUrl(app.url);
+      const isNameNx = !isUrlNx && KNOWN_NEXON_TITLES.some(t =>
+        t.name.toLowerCase() === ln ||
+        t.match.some(m => ln.includes(m.toLowerCase()))
+      );
+      const isNx = isUrlNx || isNameNx;
       allApps.push({
-        name: app.name, dev: "", icon: app.icon, url: app.url,
+        name: app.name, dev: isNx ? "NEXON" : "", icon: app.icon, url: app.url,
         tab: "Games", section: "배너", priority: i + 1,
-        genre: "", rating: 0, category: "Games",
-        nexon: false, banner: true,
-        _appEvent: !!app._appEvent
+        genre: isNx ? "RPG" : "", rating: 0, category: "Games",
+        nexon: isNx, banner: true,
+        _appEvent: !!app._appEvent,
+        _nxSource: isUrlNx ? "url-id" : (isNameNx ? "title-name" : null)
       });
     });
     cards.forEach((app, i) => {
@@ -641,13 +913,21 @@ async function crawlAppleStore(page, cc) {
                               shelf.includes("추천") || shelf.includes("에디터") ||
                               shelf.includes("editor") || shelf.includes("today") ||
                               shelf.includes("featured") || shelf.includes("must play");
+      const ln = app.name.toLowerCase();
+      const isUrlNx = matchNexonByUrl(app.url);
+      const isNameNx = !isUrlNx && KNOWN_NEXON_TITLES.some(t =>
+        t.name.toLowerCase() === ln ||
+        t.match.some(m => ln.includes(m.toLowerCase()))
+      );
+      const isNx = isUrlNx || isNameNx;
       allApps.push({
-        name: app.name, dev: "", icon: app.icon, url: app.url,
+        name: app.name, dev: isNx ? "NEXON" : "", icon: app.icon, url: app.url,
         tab: "Games",
         section: isCuratedBanner ? "배너" : "Featured",
         priority: isCuratedBanner ? (10 + i) : (20 + i),
-        genre: "", rating: 0, category: "Games",
-        nexon: false, banner: isCuratedBanner
+        genre: isNx ? "RPG" : "", rating: 0, category: "Games",
+        nexon: isNx, banner: isCuratedBanner,
+        _nxSource: isUrlNx ? "url-id" : (isNameNx ? "title-name" : null)
       });
     });
   } catch (e) { console.warn(`  [Games Error]`, e.message); }
@@ -668,10 +948,12 @@ async function crawlAppleStore(page, cc) {
       if (seen.has(app.name.toLowerCase())) return;
       seen.add(app.name.toLowerCase());
       const ln = app.name.toLowerCase();
-      const isKnownNx = KNOWN_NEXON_TITLES.some(t =>
+      const isUrlNx = matchNexonByUrl(app.url);
+      const isNameNx = !isUrlNx && KNOWN_NEXON_TITLES.some(t =>
         t.name.toLowerCase() === ln ||
         t.match.some(m => ln.includes(m.toLowerCase()))
       );
+      const isKnownNx = isUrlNx || isNameNx;
       allApps.push({
         name: app.name, dev: isKnownNx ? "NEXON" : "", icon: app.icon, url: app.url,
         tab: "Today", section: "배너", priority: 50 + i,
@@ -680,17 +962,20 @@ async function crawlAppleStore(page, cc) {
         _todayPending: !isKnownNx,
         _todayCard: !!app._todayCard,
         _shelfTitle: app.shelfTitle || "",
-        _appEvent: !!app._appEvent
+        _appEvent: !!app._appEvent,
+        _nxSource: isUrlNx ? "url-id" : (isNameNx ? "title-name" : null)
       });
     });
     cards.forEach((app, i) => {
       if (seen.has(app.name.toLowerCase())) return;
       seen.add(app.name.toLowerCase());
       const ln = app.name.toLowerCase();
-      const isKnownNx = KNOWN_NEXON_TITLES.some(t =>
+      const isUrlNx = matchNexonByUrl(app.url);
+      const isNameNx = !isUrlNx && KNOWN_NEXON_TITLES.some(t =>
         t.name.toLowerCase() === ln ||
         t.match.some(m => ln.includes(m.toLowerCase()))
       );
+      const isKnownNx = isUrlNx || isNameNx;
       const shelf = (app.shelfTitle || "").toLowerCase();
       const isCuratedBanner = shelf.includes("오늘") || shelf.includes("이 게임") ||
                               shelf.includes("추천") || shelf.includes("에디터") ||
@@ -704,7 +989,8 @@ async function crawlAppleStore(page, cc) {
         nexon: isKnownNx, banner: isCuratedBanner,
         _todayPending: !isKnownNx,
         _todayCard: !!app._todayCard,
-        _shelfTitle: app.shelfTitle || ""
+        _shelfTitle: app.shelfTitle || "",
+        _nxSource: isUrlNx ? "url-id" : (isNameNx ? "title-name" : null)
       });
     });
   } catch (e) { console.warn(`  [Today Error]`, e.message); }
@@ -713,10 +999,18 @@ async function crawlAppleStore(page, cc) {
   // 80개로 확대, eventid URL은 보강에서 제외 (이벤트 페이지로 가버리면 dev/genre 안 잡힘)
   const enrichTargets = allApps.filter(a => a.url && !a.url.includes('eventid=')).slice(0, 80);
   console.log(`  [Detail] ${enrichTargets.length} apps (eventid URL 제외)`);
+  const devMatches = []; // 디버그용
   for (let i = 0; i < enrichTargets.length; i++) {
     const app = enrichTargets[i];
     const d = await getAppDetail(page, app.url);
-    if (d.dev) { app.dev = d.dev; app.nexon = isNexon(d.dev) || app.nexon; }
+    if (d.dev) {
+      app.dev = d.dev;
+      const nx = detectNexon(d.dev);
+      if (nx.isNexon) {
+        app.nexon = true;
+        devMatches.push(`"${app.name}" ← dev="${d.dev}" (matched: "${nx.matched}")`);
+      }
+    }
     if (d.genre) app.genre = toG(d.genre);
     if (!app.icon || app.icon.includes("1x1.gif") || !app.icon.includes("mzstatic")) {
       const fallbackIcon = await getAppIcon(page);
@@ -724,6 +1018,10 @@ async function crawlAppleStore(page, cc) {
     }
     if (i % 5 === 0 && i > 0) console.log(`    ${i}/${enrichTargets.length}`);
     await new Promise(r => setTimeout(r, 300));
+  }
+  if (devMatches.length > 0) {
+    console.log(`  [NEXON dev matches] ${devMatches.length}개:`);
+    devMatches.forEach(m => console.log(`    ${m}`));
   }
 
   // ─── eventid URL을 가진 hero는 별도 처리 ───
@@ -793,7 +1091,7 @@ async function crawlAppleStore(page, cc) {
   const nxCount = filtered.filter(a=>a.nexon).length;
   console.log(`  → Apple: ${filtered.length} total, ${filtered.filter(a=>a.banner).length} banners, ${nxCount} NEXON`);
   if (nxCount > 0) {
-    console.log(`    NEXON: ${filtered.filter(a=>a.nexon).map(a => `${a.name}${a._appEvent?'(evt)':''}`).join(', ')}`);
+    console.log(`    Apple NEXON: ${filtered.filter(a=>a.nexon).map(a => `${a.name}${a._appEvent?'(evt)':''}[${a._nxSource||'?'}]`).join(', ')}`);
   }
   return filtered;
 }
@@ -814,6 +1112,13 @@ async function main() {
     headless: "new",
     args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage", "--disable-gpu"]
   });
+
+  // ─── 부팅: NEXON 개발자 페이지에서 라인업 동기화 ───
+  try {
+    await syncNexonTitlesFromDevPages(browser);
+  } catch (e) {
+    console.warn(`⚠️ NEXON 사전 동기화 실패, 정적 fallback 사용:`, e.message);
+  }
 
   for (const [code, cfg] of Object.entries(COUNTRIES)) {
     console.log(`📱 ${code} (${cfg.name})`);
